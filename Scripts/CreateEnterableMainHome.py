@@ -14,6 +14,7 @@ STATIC_MESH_ASSET_PATH = "/Game/MainHome/SM_MainHome_Enterable"
 MATERIAL_FOLDER = "/Game/MainHome/Materials"
 GENERATOR_TAG = "MainHome_Enterable"
 FOLDER_NAME = "MainHome_Enterable"
+INSTANCE_LABEL = "SM_MainHome_Enterable_Instance"
 
 MATERIAL_ORDER = [
     "M_MainHome_Wall",
@@ -718,3 +719,136 @@ def apply_structural_collision(collision_mesh, static_mesh):
             "Unable to save static mesh {}".format(STATIC_MESH_ASSET_PATH)
         )
     return static_mesh
+
+
+def _has_exact_generator_tag(actor):
+    tags = actor.get_editor_property("tags") or []
+    return any(str(tag) == GENERATOR_TAG for tag in tags)
+
+
+def place_single_instance(static_mesh):
+    _require_unreal()
+    if static_mesh is None:
+        raise ValueError("A valid Static Mesh is required for level placement")
+
+    actor_subsystem = unreal.get_editor_subsystem(
+        unreal.EditorActorSubsystem
+    )
+    if actor_subsystem is None:
+        raise RuntimeError("EditorActorSubsystem is unavailable")
+
+    tagged_actors = [
+        actor
+        for actor in actor_subsystem.get_all_level_actors()
+        if _has_exact_generator_tag(actor)
+    ]
+    first_actor = tagged_actors[0] if tagged_actors else None
+
+    for extra_actor in tagged_actors[1:]:
+        if not actor_subsystem.destroy_actor(extra_actor):
+            raise RuntimeError(
+                "Unable to remove an extra {} actor".format(GENERATOR_TAG)
+            )
+
+    actor = None
+    component = None
+    if first_actor is not None and isinstance(
+        first_actor, unreal.StaticMeshActor
+    ):
+        component = first_actor.get_component_by_class(
+            unreal.StaticMeshComponent
+        )
+        if component is not None:
+            actor = first_actor
+
+    if first_actor is not None and actor is None:
+        if not actor_subsystem.destroy_actor(first_actor):
+            raise RuntimeError(
+                "Unable to replace an invalid {} actor".format(GENERATOR_TAG)
+            )
+
+    if actor is None:
+        actor = actor_subsystem.spawn_actor_from_class(
+            unreal.StaticMeshActor,
+            unreal.Vector(0.0, 0.0, 0.0),
+            unreal.Rotator(0.0, 0.0, 0.0),
+        )
+        if actor is None:
+            raise RuntimeError("Unable to spawn the Main Home StaticMeshActor")
+        component = actor.get_component_by_class(unreal.StaticMeshComponent)
+        if component is None:
+            actor_subsystem.destroy_actor(actor)
+            raise RuntimeError(
+                "Spawned Main Home actor has no StaticMeshComponent"
+            )
+
+    actor.set_actor_transform(
+        make_transform((0.0, 0.0, 0.0)),
+        False,
+        False,
+    )
+    actor.set_actor_label(INSTANCE_LABEL)
+    actor.set_folder_path(unreal.Name(FOLDER_NAME))
+    actor.set_editor_property("tags", [unreal.Name(GENERATOR_TAG)])
+    component.set_static_mesh(static_mesh)
+    component.set_editor_property("mobility", unreal.ComponentMobility.STATIC)
+    component.set_collision_enabled(
+        unreal.CollisionEnabled.QUERY_AND_PHYSICS
+    )
+    actor_subsystem.set_selected_level_actors([actor])
+    return actor
+
+
+def generate_enterable_main_home():
+    boxes = build_box_specs()
+    validate_design(boxes)
+    _require_unreal()
+
+    materials = [ensure_material(name) for name in MATERIAL_ORDER]
+    visual_mesh = create_visual_dynamic_mesh(boxes)
+    collision_mesh = create_collision_dynamic_mesh(boxes)
+    static_mesh = create_or_update_static_mesh(visual_mesh, materials)
+    static_mesh = apply_structural_collision(collision_mesh, static_mesh)
+    actor = place_single_instance(static_mesh)
+
+    bounds = overall_bounds(boxes)
+    collision_box_count = sum(1 for box in boxes if box.collision)
+    unreal.log("Main Home asset: {}".format(STATIC_MESH_ASSET_PATH))
+    unreal.log("Main Home visual box count: {}".format(len(boxes)))
+    unreal.log(
+        "Main Home collision box count: {}".format(collision_box_count)
+    )
+    unreal.log("Main Home exact bounds: {}".format(bounds))
+    for doorway in build_doorway_specs():
+        unreal.log(
+            "Main Home {} clearance: min={}, max={}, width={} cm, "
+            "height={} cm".format(
+                doorway.label,
+                doorway.minimum_cm,
+                doorway.maximum_cm,
+                doorway.width_cm,
+                doorway.height_cm,
+            )
+        )
+
+    return static_mesh, actor
+
+
+def main():
+    try:
+        return generate_enterable_main_home()
+    except Exception as error:
+        message = (
+            "生成可进入式主屋失败：缺少所需的 Unreal 编辑器插件或 Python API。"
+            "请启用 Python Editor Script Plugin、Editor Scripting Utilities 和 "
+            "Geometry Script 后重试。错误：{}".format(error)
+        )
+        if unreal is None:
+            print(message)
+        else:
+            unreal.log_error(message)
+        raise
+
+
+if __name__ == "__main__":
+    main()
