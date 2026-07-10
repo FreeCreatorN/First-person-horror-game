@@ -30,3 +30,6 @@ Thumbs.db
 *.tmp
 *.temp
 *.log
+
+# Local git worktrees used for isolated Codex feature work
+.worktrees/
