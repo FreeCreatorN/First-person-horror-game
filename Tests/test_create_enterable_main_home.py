@@ -313,6 +313,19 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertIs(static_mesh, result.component.static_mesh)
         self.assertEqual([result], subsystem.selected)
 
+    def test_single_instance_reuses_valid_actor_after_wrong_type_actor(self):
+        wrong_type = _FakeActor(["MainHome_Enterable"])
+        valid_actor = _FakeStaticMeshActor(["MainHome_Enterable"])
+        subsystem = _FakeEditorActorSubsystem([wrong_type, valid_actor])
+        self._patch_generator("unreal", _fake_unreal(subsystem))
+
+        result = self.generator.place_single_instance(object())
+
+        self.assertIs(valid_actor, result)
+        self.assertEqual([wrong_type], subsystem.destroyed)
+        self.assertEqual([], subsystem.spawned)
+        self.assertEqual([valid_actor], subsystem.selected)
+
     def test_single_instance_ignores_similar_but_not_exact_tag(self):
         similar = _FakeStaticMeshActor(["MainHome_Enterable_Copy"])
         subsystem = _FakeEditorActorSubsystem([similar])

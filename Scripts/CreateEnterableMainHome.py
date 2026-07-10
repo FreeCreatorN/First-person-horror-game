@@ -742,29 +742,27 @@ def place_single_instance(static_mesh):
         for actor in actor_subsystem.get_all_level_actors()
         if _has_exact_generator_tag(actor)
     ]
-    first_actor = tagged_actors[0] if tagged_actors else None
-
-    for extra_actor in tagged_actors[1:]:
-        if not actor_subsystem.destroy_actor(extra_actor):
-            raise RuntimeError(
-                "Unable to remove an extra {} actor".format(GENERATOR_TAG)
-            )
-
     actor = None
     component = None
-    if first_actor is not None and isinstance(
-        first_actor, unreal.StaticMeshActor
-    ):
-        component = first_actor.get_component_by_class(
+    for candidate_actor in tagged_actors:
+        if not isinstance(candidate_actor, unreal.StaticMeshActor):
+            continue
+        candidate_component = candidate_actor.get_component_by_class(
             unreal.StaticMeshComponent
         )
-        if component is not None:
-            actor = first_actor
+        if candidate_component is not None:
+            actor = candidate_actor
+            component = candidate_component
+            break
 
-    if first_actor is not None and actor is None:
-        if not actor_subsystem.destroy_actor(first_actor):
+    for tagged_actor in tagged_actors:
+        if tagged_actor is actor:
+            continue
+        if not actor_subsystem.destroy_actor(tagged_actor):
             raise RuntimeError(
-                "Unable to replace an invalid {} actor".format(GENERATOR_TAG)
+                "Unable to remove a duplicate or invalid {} actor".format(
+                    GENERATOR_TAG
+                )
             )
 
     if actor is None:
