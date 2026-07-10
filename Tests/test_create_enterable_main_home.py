@@ -238,6 +238,46 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             settings["M_MainHome_Stain"][0],
         )
 
+    def test_ue57_material_ids_are_enabled_before_first_box_append(self):
+        events = []
+
+        class FakeDynamicMesh:
+            material_ids_enabled = False
+
+        class FakePrimitiveOptions:
+            def set_editor_property(self, _name, _value):
+                pass
+
+        def enable_material_i_ds(dynamic_mesh):
+            dynamic_mesh.material_ids_enabled = True
+            events.append("enable_material_i_ds")
+
+        def append_box(dynamic_mesh, *_args):
+            self.assertTrue(dynamic_mesh.material_ids_enabled)
+            events.append("append_box")
+            return dynamic_mesh
+
+        fake_unreal = SimpleNamespace(
+            DynamicMesh=FakeDynamicMesh,
+            GeometryScript_Materials=SimpleNamespace(
+                enable_material_i_ds=enable_material_i_ds
+            ),
+            GeometryScript_Primitives=SimpleNamespace(append_box=append_box),
+            GeometryScriptPrimitiveOptions=FakePrimitiveOptions,
+            GeometryScriptPrimitiveOriginMode=SimpleNamespace(CENTER="Center"),
+            Rotator=lambda *values: values,
+            Transform=lambda **values: values,
+            Vector=lambda *values: values,
+        )
+        self._patch_generator("unreal", fake_unreal)
+
+        result = self.generator._create_dynamic_mesh(
+            [self.generator.build_box_specs()[0]]
+        )
+
+        self.assertIsInstance(result, FakeDynamicMesh)
+        self.assertEqual(["enable_material_i_ds", "append_box"], events)
+
     def test_geometry_script_enables_material_ids_before_append(self):
         source = SCRIPT_PATH.read_text(encoding="utf-8")
         self.assertLess(source.index("enable_material_ids"), source.index("append_box("))

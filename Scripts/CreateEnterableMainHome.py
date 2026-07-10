@@ -516,10 +516,30 @@ def primitive_options_for(material_id):
     return options
 
 
+def _enable_material_ids(dynamic_mesh):
+    material_library = getattr(unreal, "GeometryScript_Materials", None)
+    for method_name in ("enable_material_i_ds", "enable_material_ids"):
+        enable = getattr(material_library, method_name, None)
+        if callable(enable):
+            enable(dynamic_mesh)
+            return
+
+    for method_name in ("enable_material_i_ds", "enable_material_ids"):
+        enable = getattr(dynamic_mesh, method_name, None)
+        if callable(enable):
+            enable()
+            return
+
+    raise RuntimeError(
+        "Unreal Geometry Script does not expose a material ID enable API "
+        "(expected enable_material_i_ds or enable_material_ids)"
+    )
+
+
 def _create_dynamic_mesh(boxes):
     _require_unreal()
     dynamic_mesh = unreal.DynamicMesh()
-    unreal.GeometryScript_Materials.enable_material_ids(dynamic_mesh)
+    _enable_material_ids(dynamic_mesh)
 
     for box in boxes:
         result = unreal.GeometryScript_Primitives.append_box(
