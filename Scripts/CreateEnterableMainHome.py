@@ -500,6 +500,13 @@ def _require_unreal():
         raise RuntimeError("This generator must run inside Unreal Editor")
 
 
+def _load_asset_if_exists(asset_path):
+    _require_unreal()
+    if not unreal.EditorAssetLibrary.does_asset_exist(asset_path):
+        return None
+    return unreal.EditorAssetLibrary.load_asset(asset_path)
+
+
 def make_transform(location_cm):
     _require_unreal()
     return unreal.Transform(
@@ -583,7 +590,7 @@ def ensure_material(material_name, color=None, roughness=None):
     color = default_color if color is None else tuple(color)
     roughness = default_roughness if roughness is None else float(roughness)
     asset_path = "{}/{}".format(MATERIAL_FOLDER, material_name)
-    material = unreal.EditorAssetLibrary.load_asset(asset_path)
+    material = _load_asset_if_exists(asset_path)
 
     if material is None:
         material = unreal.AssetToolsHelpers.get_asset_tools().create_asset(
@@ -689,7 +696,7 @@ def _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials):
 def create_or_update_static_mesh(visual_mesh, materials=None):
     _require_unreal()
     materials = _ordered_materials(materials)
-    static_mesh = unreal.EditorAssetLibrary.load_asset(STATIC_MESH_ASSET_PATH)
+    static_mesh = _load_asset_if_exists(STATIC_MESH_ASSET_PATH)
 
     if static_mesh is None:
         create_options = unreal.GeometryScriptCreateNewStaticMeshAssetOptions()

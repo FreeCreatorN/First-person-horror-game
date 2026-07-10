@@ -136,6 +136,42 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             self.generator.STATIC_MESH_ASSET_PATH,
         )
 
+    def test_load_asset_if_exists_skips_missing_and_loads_existing_asset(self):
+        missing_path = "/Game/MainHome/Missing"
+        existing_path = "/Game/MainHome/Existing"
+        existing_asset = object()
+        checked_paths = []
+        loaded_paths = []
+
+        def does_asset_exist(asset_path):
+            checked_paths.append(asset_path)
+            return asset_path == existing_path
+
+        def load_asset(asset_path):
+            loaded_paths.append(asset_path)
+            return existing_asset
+
+        fake_unreal = SimpleNamespace(
+            EditorAssetLibrary=SimpleNamespace(
+                does_asset_exist=does_asset_exist,
+                load_asset=load_asset,
+            )
+        )
+        self._patch_generator("unreal", fake_unreal)
+
+        load_asset_if_exists = getattr(
+            self.generator, "_load_asset_if_exists", None
+        )
+        self.assertIsNotNone(load_asset_if_exists)
+        self.assertIsNone(load_asset_if_exists(missing_path))
+        self.assertEqual([], loaded_paths)
+        self.assertIs(
+            existing_asset,
+            load_asset_if_exists(existing_path),
+        )
+        self.assertEqual([missing_path, existing_path], checked_paths)
+        self.assertEqual([existing_path], loaded_paths)
+
     def test_exact_envelope(self):
         boxes = self.generator.build_box_specs()
         self.generator.validate_design(boxes)
