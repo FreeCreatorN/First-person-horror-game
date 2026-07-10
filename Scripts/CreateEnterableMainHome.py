@@ -27,6 +27,15 @@ MATERIAL_ORDER = [
 MATERIAL_ID_BY_NAME = {
     name: index for index, name in enumerate(MATERIAL_ORDER)
 }
+MATERIAL_SETTINGS = {
+    "M_MainHome_Wall": ((0.36, 0.31, 0.23, 1.0), 0.94),
+    "M_MainHome_Interior": ((0.16, 0.145, 0.12, 1.0), 0.92),
+    "M_MainHome_Floor": ((0.20, 0.18, 0.15, 1.0), 0.96),
+    "M_MainHome_Sign": ((0.38, 0.29, 0.20, 1.0), 0.90),
+    "M_MainHome_Trim": ((0.10, 0.085, 0.07, 1.0), 0.91),
+    "M_MainHome_Letters": ((0.30, 0.07, 0.045, 1.0), 0.88),
+    "M_MainHome_Stain": ((0.22, 0.18, 0.14, 1.0), 0.96),
+}
 
 DESIGN_BOUNDS = (
     (-SHOP_WIDTH_CM / 2.0, SHOP_WIDTH_CM / 2.0),
@@ -483,3 +492,229 @@ def validate_design(boxes):
                         box.label, doorway.label
                     )
                 )
+
+
+def _require_unreal():
+    if unreal is None:
+        raise RuntimeError("This generator must run inside Unreal Editor")
+
+
+def make_transform(location_cm):
+    _require_unreal()
+    return unreal.Transform(
+        location=unreal.Vector(*location_cm),
+        rotation=unreal.Rotator(0.0, 0.0, 0.0),
+        scale=unreal.Vector(1.0, 1.0, 1.0),
+    )
+
+
+def primitive_options_for(material_id):
+    _require_unreal()
+    options = unreal.GeometryScriptPrimitiveOptions()
+    options.set_editor_property("material_id", int(material_id))
+    return options
+
+
+def _create_dynamic_mesh(boxes):
+    _require_unreal()
+    dynamic_mesh = unreal.DynamicMesh()
+    unreal.GeometryScript_Materials.enable_material_ids(dynamic_mesh)
+
+    for box in boxes:
+        result = unreal.GeometryScript_Primitives.append_box(
+            dynamic_mesh,
+            primitive_options_for(MATERIAL_ID_BY_NAME[box.material_name]),
+            make_transform(box.location_cm),
+            box.size_cm[0],
+            box.size_cm[1],
+            box.size_cm[2],
+            0,
+            0,
+            0,
+            unreal.GeometryScriptPrimitiveOriginMode.CENTER,
+        )
+        if isinstance(result, tuple):
+            result = result[0]
+        if result is not None:
+            dynamic_mesh = result
+
+    return dynamic_mesh
+
+
+def create_visual_dynamic_mesh(boxes=None):
+    boxes = build_box_specs() if boxes is None else list(boxes)
+    validate_design(boxes)
+    return _create_dynamic_mesh(boxes)
+
+
+def create_collision_dynamic_mesh(boxes=None):
+    boxes = build_box_specs() if boxes is None else list(boxes)
+    validate_design(boxes)
+    return _create_dynamic_mesh(box for box in boxes if box.collision)
+
+
+def ensure_material(material_name, color=None, roughness=None):
+    _require_unreal()
+    if material_name not in MATERIAL_SETTINGS:
+        raise ValueError("Unknown material {!r}".format(material_name))
+
+    default_color, default_roughness = MATERIAL_SETTINGS[material_name]
+    color = default_color if color is None else tuple(color)
+    roughness = default_roughness if roughness is None else float(roughness)
+    asset_path = "{}/{}".format(MATERIAL_FOLDER, material_name)
+    material = unreal.EditorAssetLibrary.load_asset(asset_path)
+
+    if material is None:
+        material = unreal.AssetToolsHelpers.get_asset_tools().create_asset(
+            material_name,
+            MATERIAL_FOLDER,
+            unreal.Material,
+            unreal.MaterialFactoryNew(),
+        )
+    if material is None:
+        raise RuntimeError("Unable to create material {}".format(asset_path))
+
+    editing = unreal.MaterialEditingLibrary
+    editing.delete_all_material_expressions(material)
+
+    color_node = editing.create_material_expression(
+        material,
+        unreal.MaterialExpressionConstant3Vector,
+        -300,
+        -50,
+    )
+    roughness_node = editing.create_material_expression(
+        material,
+        unreal.MaterialExpressionConstant,
+        -300,
+        100,
+    )
+    if color_node is None or roughness_node is None:
+        raise RuntimeError(
+            "Unable to create material expressions for {}".format(asset_path)
+        )
+
+    color_node.set_editor_property("constant", unreal.LinearColor(*color))
+    roughness_node.set_editor_property("r", roughness)
+    if not editing.connect_material_property(
+        color_node,
+        "",
+        unreal.MaterialProperty.MP_BASE_COLOR,
+    ):
+        raise RuntimeError("Unable to connect Base Color for {}".format(asset_path))
+    if not editing.connect_material_property(
+        roughness_node,
+        "",
+        unreal.MaterialProperty.MP_ROUGHNESS,
+    ):
+        raise RuntimeError("Unable to connect Roughness for {}".format(asset_path))
+
+    editing.recompile_material(material)
+    if not unreal.EditorAssetLibrary.save_loaded_asset(material, False):
+        raise RuntimeError("Unable to save material {}".format(asset_path))
+    return material
+
+
+def _ordered_materials(materials):
+    if materials is None:
+        return [ensure_material(name) for name in MATERIAL_ORDER]
+    if isinstance(materials, dict):
+        ordered = [materials[name] for name in MATERIAL_ORDER]
+    else:
+        ordered = list(materials)
+    if len(ordered) != len(MATERIAL_ORDER):
+        raise ValueError("Exactly seven ordered materials are required")
+    return ordered
+
+
+def _normalize_geometry_script_result(result, operation_name):
+    if isinstance(result, tuple):
+        value = result[0] if result else None
+        if len(result) > 1:
+            outcome = result[1]
+            if outcome != unreal.GeometryScriptOutcomePins.SUCCESS:
+                raise RuntimeError("{} failed: {}".format(operation_name, outcome))
+    else:
+        value = result
+
+    if value is None:
+        raise RuntimeError("{} did not return an asset".format(operation_name))
+    return value
+
+
+def _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials):
+    copy_options = unreal.GeometryScriptCopyMeshToAssetOptions()
+    copy_options.set_editor_property("enable_recompute_normals", True)
+    copy_options.set_editor_property("enable_recompute_tangents", True)
+    copy_options.set_editor_property("replace_materials", True)
+    copy_options.set_editor_property("new_materials", materials)
+    copy_options.set_editor_property(
+        "new_material_slot_names",
+        [unreal.Name(name) for name in MATERIAL_ORDER],
+    )
+
+    target_lod = unreal.GeometryScriptMeshWriteLOD()
+    target_lod.set_editor_property("lod_index", 0)
+    target_lod.set_editor_property("write_hi_res_source", False)
+    result = unreal.GeometryScript_AssetUtils.copy_mesh_to_static_mesh(
+        visual_mesh,
+        static_mesh,
+        copy_options,
+        target_lod,
+    )
+    _normalize_geometry_script_result(result, "copy_mesh_to_static_mesh")
+
+
+def create_or_update_static_mesh(visual_mesh, materials=None):
+    _require_unreal()
+    materials = _ordered_materials(materials)
+    static_mesh = unreal.EditorAssetLibrary.load_asset(STATIC_MESH_ASSET_PATH)
+
+    if static_mesh is None:
+        create_options = unreal.GeometryScriptCreateNewStaticMeshAssetOptions()
+        create_options.set_editor_property("enable_recompute_normals", True)
+        create_options.set_editor_property("enable_recompute_tangents", True)
+        create_options.set_editor_property("enable_nanite", False)
+        create_options.set_editor_property("enable_collision", False)
+        result = (
+            unreal.GeometryScript_NewAssetUtils
+            .create_new_static_mesh_asset_from_mesh(
+                visual_mesh,
+                STATIC_MESH_ASSET_PATH,
+                create_options,
+            )
+        )
+        static_mesh = _normalize_geometry_script_result(
+            result,
+            "create_new_static_mesh_asset_from_mesh",
+        )
+
+    _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials)
+    return static_mesh
+
+
+def apply_structural_collision(collision_mesh, static_mesh):
+    _require_unreal()
+    collision_options = unreal.GeometryScriptCollisionFromMeshOptions()
+    collision_options.set_editor_property(
+        "method",
+        unreal.GeometryScriptCollisionGenerationMethod.ALIGNED_BOXES,
+    )
+    collision_options.set_editor_property("auto_detect_spheres", False)
+    collision_options.set_editor_property("auto_detect_capsules", False)
+    collision_options.set_editor_property("auto_detect_boxes", True)
+
+    set_options = unreal.GeometryScriptSetStaticMeshCollisionOptions()
+    set_options.set_editor_property("mark_as_customized", True)
+    unreal.GeometryScript_Collision.set_static_mesh_collision_from_mesh(
+        collision_mesh,
+        static_mesh,
+        collision_options,
+        set_options,
+    )
+
+    if not unreal.EditorAssetLibrary.save_loaded_asset(static_mesh, False):
+        raise RuntimeError(
+            "Unable to save static mesh {}".format(STATIC_MESH_ASSET_PATH)
+        )
+    return static_mesh

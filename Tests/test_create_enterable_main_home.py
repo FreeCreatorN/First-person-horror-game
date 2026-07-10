@@ -125,6 +125,32 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             list(self.generator.MATERIAL_ID_BY_NAME.values()),
         )
 
+    def test_letters_are_dark_red_and_stains_remain_visible(self):
+        settings = self.generator.MATERIAL_SETTINGS
+        self.assertEqual(
+            (0.30, 0.07, 0.045, 1.0),
+            settings["M_MainHome_Letters"][0],
+        )
+        self.assertEqual(
+            (0.22, 0.18, 0.14, 1.0),
+            settings["M_MainHome_Stain"][0],
+        )
+
+    def test_geometry_script_enables_material_ids_before_append(self):
+        source = SCRIPT_PATH.read_text(encoding="utf-8")
+        self.assertLess(source.index("enable_material_ids"), source.index("append_box("))
+
+    def test_collision_uses_separate_aligned_box_mesh(self):
+        source = SCRIPT_PATH.read_text(encoding="utf-8")
+        self.assertIn("set_static_mesh_collision_from_mesh", source)
+        self.assertIn("ALIGNED_BOXES", source)
+        self.assertNotIn("append_box_with_collision", source)
+
+    def test_existing_asset_is_updated_without_force_delete(self):
+        source = SCRIPT_PATH.read_text(encoding="utf-8")
+        self.assertIn("copy_mesh_to_static_mesh", source)
+        self.assertNotIn("delete_asset(STATIC_MESH_ASSET_PATH", source)
+
     def test_validation_rejects_duplicate_labels(self):
         boxes = self.generator.build_box_specs()
         with self.assertRaises(ValueError):
