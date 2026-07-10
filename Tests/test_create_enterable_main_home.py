@@ -257,6 +257,56 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             all(box.material_name == "M_MainHome_Letters" for box in letters)
         )
 
+    def test_sign_and_trim_have_no_positive_volume_overlap_with_roof(self):
+        boxes_by_label = {
+            box.label: box for box in self.generator.build_box_specs()
+        }
+        roof = boxes_by_label["RoofSlab"]
+        roof_bounds = self.generator.box_bounds(roof)
+        sign_labels = [
+            label
+            for label in boxes_by_label
+            if label == "Sign_Panel" or label.startswith("SignTrim_")
+        ]
+
+        def overlaps_positive_volume(first, second):
+            return all(
+                max(first_axis[0], second_axis[0])
+                < min(first_axis[1], second_axis[1])
+                for first_axis, second_axis in zip(first, second)
+            )
+
+        for label in sign_labels:
+            with self.subTest(label=label):
+                self.assertFalse(
+                    overlaps_positive_volume(
+                        self.generator.box_bounds(boxes_by_label[label]),
+                        roof_bounds,
+                    ),
+                    "{} overlaps RoofSlab".format(label),
+                )
+
+        trim_labels = [
+            label for label in sign_labels if label.startswith("SignTrim_")
+        ]
+        for index, first_label in enumerate(trim_labels):
+            for second_label in trim_labels[index + 1 :]:
+                with self.subTest(
+                    first_label=first_label,
+                    second_label=second_label,
+                ):
+                    self.assertFalse(
+                        overlaps_positive_volume(
+                            self.generator.box_bounds(
+                                boxes_by_label[first_label]
+                            ),
+                            self.generator.box_bounds(
+                                boxes_by_label[second_label]
+                            ),
+                        ),
+                        "{} overlaps {}".format(first_label, second_label),
+                    )
+
     def test_material_ids_are_contiguous(self):
         self.assertEqual(
             list(range(7)),
