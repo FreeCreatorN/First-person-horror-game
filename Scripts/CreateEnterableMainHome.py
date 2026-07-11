@@ -789,39 +789,61 @@ def ensure_material(material_name, color=None, roughness=None):
         raise RuntimeError("Unable to create material {}".format(asset_path))
 
     editing = unreal.MaterialEditingLibrary
-    editing.delete_all_material_expressions(material)
 
-    color_node = editing.create_material_expression(
+    color_node = editing.get_material_property_input_node(
         material,
-        unreal.MaterialExpressionConstant3Vector,
-        -300,
-        -50,
+        unreal.MaterialProperty.MP_BASE_COLOR,
     )
-    roughness_node = editing.create_material_expression(
-        material,
-        unreal.MaterialExpressionConstant,
-        -300,
-        100,
-    )
-    if color_node is None or roughness_node is None:
-        raise RuntimeError(
-            "Unable to create material expressions for {}".format(asset_path)
+    if not isinstance(color_node, unreal.MaterialExpressionConstant3Vector):
+        color_node = editing.create_material_expression(
+            material,
+            unreal.MaterialExpressionConstant3Vector,
+            -300,
+            -50,
         )
+        if color_node is None:
+            raise RuntimeError(
+                "Unable to create Base Color expression for {}".format(
+                    asset_path
+                )
+            )
+        if not editing.connect_material_property(
+            color_node,
+            "",
+            unreal.MaterialProperty.MP_BASE_COLOR,
+        ):
+            raise RuntimeError(
+                "Unable to connect Base Color for {}".format(asset_path)
+            )
+
+    roughness_node = editing.get_material_property_input_node(
+        material,
+        unreal.MaterialProperty.MP_ROUGHNESS,
+    )
+    if not isinstance(roughness_node, unreal.MaterialExpressionConstant):
+        roughness_node = editing.create_material_expression(
+            material,
+            unreal.MaterialExpressionConstant,
+            -300,
+            100,
+        )
+        if roughness_node is None:
+            raise RuntimeError(
+                "Unable to create Roughness expression for {}".format(
+                    asset_path
+                )
+            )
+        if not editing.connect_material_property(
+            roughness_node,
+            "",
+            unreal.MaterialProperty.MP_ROUGHNESS,
+        ):
+            raise RuntimeError(
+                "Unable to connect Roughness for {}".format(asset_path)
+            )
 
     color_node.set_editor_property("constant", unreal.LinearColor(*color))
     roughness_node.set_editor_property("r", roughness)
-    if not editing.connect_material_property(
-        color_node,
-        "",
-        unreal.MaterialProperty.MP_BASE_COLOR,
-    ):
-        raise RuntimeError("Unable to connect Base Color for {}".format(asset_path))
-    if not editing.connect_material_property(
-        roughness_node,
-        "",
-        unreal.MaterialProperty.MP_ROUGHNESS,
-    ):
-        raise RuntimeError("Unable to connect Roughness for {}".format(asset_path))
 
     editing.recompile_material(material)
     if not unreal.EditorAssetLibrary.save_loaded_asset(material, False):

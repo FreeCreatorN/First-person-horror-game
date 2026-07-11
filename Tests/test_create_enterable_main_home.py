@@ -232,6 +232,114 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertEqual([missing_path, existing_path], checked_paths)
         self.assertEqual([existing_path], loaded_paths)
 
+    def test_ensure_material_reuses_existing_input_nodes_without_deleting_expressions(
+        self,
+    ):
+        class FakeMaterialExpressionConstant3Vector:
+            def __init__(self):
+                self.properties = {}
+
+            def set_editor_property(self, name, value):
+                self.properties[name] = value
+
+        class FakeMaterialExpressionConstant:
+            def __init__(self):
+                self.properties = {}
+
+            def set_editor_property(self, name, value):
+                self.properties[name] = value
+
+        material = object()
+        color_node = FakeMaterialExpressionConstant3Vector()
+        roughness_node = FakeMaterialExpressionConstant()
+        base_color_property = object()
+        roughness_property = object()
+        queried_properties = []
+        deleted_materials = []
+        created_expression_types = []
+        connections = []
+        recompiled_materials = []
+        saved_assets = []
+
+        def get_material_property_input_node(received_material, material_property):
+            self.assertIs(material, received_material)
+            queried_properties.append(material_property)
+            if material_property is base_color_property:
+                return color_node
+            if material_property is roughness_property:
+                return roughness_node
+            self.fail("Unexpected material property lookup")
+
+        def create_material_expression(
+            received_material,
+            expression_type,
+            _node_x,
+            _node_y,
+        ):
+            self.assertIs(material, received_material)
+            created_expression_types.append(expression_type)
+            return expression_type()
+
+        def connect_material_property(node, output_name, material_property):
+            connections.append((node, output_name, material_property))
+            return True
+
+        fake_unreal = SimpleNamespace(
+            EditorAssetLibrary=SimpleNamespace(
+                save_loaded_asset=lambda asset, _only_if_dirty: (
+                    saved_assets.append(asset) or True
+                )
+            ),
+            LinearColor=lambda *values: tuple(values),
+            MaterialExpressionConstant=FakeMaterialExpressionConstant,
+            MaterialExpressionConstant3Vector=(
+                FakeMaterialExpressionConstant3Vector
+            ),
+            MaterialProperty=SimpleNamespace(
+                MP_BASE_COLOR=base_color_property,
+                MP_ROUGHNESS=roughness_property,
+            ),
+            MaterialEditingLibrary=SimpleNamespace(
+                get_material_property_input_node=(
+                    get_material_property_input_node
+                ),
+                delete_all_material_expressions=lambda received_material: (
+                    deleted_materials.append(received_material)
+                ),
+                create_material_expression=create_material_expression,
+                connect_material_property=connect_material_property,
+                recompile_material=lambda received_material: (
+                    recompiled_materials.append(received_material)
+                ),
+            ),
+        )
+        self._patch_generator("unreal", fake_unreal)
+        self._patch_generator(
+            "_load_asset_if_exists",
+            lambda _asset_path: material,
+        )
+
+        result = self.generator.ensure_material(
+            "M_MainHome_Wall",
+            color=(0.11, 0.22, 0.33, 1.0),
+            roughness=0.73,
+        )
+
+        self.assertIs(material, result)
+        self.assertEqual(
+            [base_color_property, roughness_property], queried_properties
+        )
+        self.assertEqual([], deleted_materials)
+        self.assertEqual([], created_expression_types)
+        self.assertEqual(
+            (0.11, 0.22, 0.33, 1.0),
+            color_node.properties["constant"],
+        )
+        self.assertEqual(0.73, roughness_node.properties["r"])
+        self.assertEqual([], connections)
+        self.assertEqual([material], recompiled_materials)
+        self.assertEqual([material], saved_assets)
+
     def test_exact_envelope(self):
         boxes = self.generator.build_box_specs()
         self.generator.validate_design(boxes)

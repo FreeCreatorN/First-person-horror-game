@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Main Home Interactive",
+	"Description": "Self-contained runtime interaction for the Main Home storefront.",
+	"Category": "Gameplay",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "MainHomeInteractive",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
