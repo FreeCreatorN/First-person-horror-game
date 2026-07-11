@@ -99,6 +99,30 @@ bool FMainHomeHitClassificationTest::RunTest(const FString& Parameters)
 }
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(
+    FMainHomeShutterTraceTargetBoundsTest,
+    "MainHomeInteractive.Input.ShutterTraceTargetBounds",
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter
+)
+
+bool FMainHomeShutterTraceTargetBoundsTest::RunTest(const FString& Parameters)
+{
+    const FVector Location = GetShutterTraceTargetLocation();
+    const FVector Extent = GetShutterTraceTargetExtent();
+
+    TestEqual(TEXT("Trace strip center X"), Location.X, -96.0);
+    TestEqual(TEXT("Trace strip center Y"), Location.Y, -394.0);
+    TestEqual(TEXT("Trace strip center Z"), Location.Z, 263.0);
+    TestEqual(TEXT("Trace strip half-width"), Extent.X, 114.5);
+    TestEqual(TEXT("Trace strip half-depth"), Extent.Y, 0.25);
+    TestTrue(TEXT("Trace strip half-height stays at or below 3 cm"), Extent.Z <= 3.0f);
+    TestTrue(TEXT("Trace strip bottom leaves the low sight channel open"), Location.Z - Extent.Z >= 260.0f);
+    TestTrue(TEXT("Trace strip top remains below the fixed hood"), Location.Z + Extent.Z <= 266.0f);
+    TestTrue(TEXT("Trace strip is inset from the shutter left edge"), Location.X - Extent.X > -211.0f);
+    TestTrue(TEXT("Trace strip is inset from the shutter right edge"), Location.X + Extent.X < 19.0f);
+    return true;
+}
+
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(
     FMainHomeInteractionBindingTest,
     "MainHomeInteractive.Input.NonConsumingBinding",
     EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter

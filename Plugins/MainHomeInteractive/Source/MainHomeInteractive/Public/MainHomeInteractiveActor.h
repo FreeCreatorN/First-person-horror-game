@@ -62,6 +62,8 @@ namespace MainHomeInteractive
     MAINHOMEINTERACTIVE_API void ConfigureInteractionBinding(
         FInputKeyBinding& Binding
     );
+    MAINHOMEINTERACTIVE_API FVector GetShutterTraceTargetLocation();
+    MAINHOMEINTERACTIVE_API FVector GetShutterTraceTargetExtent();
     MAINHOMEINTERACTIVE_API bool ShouldEnableShutterCollision(
         float Alpha,
         float Target

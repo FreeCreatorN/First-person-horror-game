@@ -430,8 +430,64 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             if box.label == "ShutterFrame_TopBox"
         )
         self.assertEqual(
-            0.5,
+            1.5,
             closed_bounds[1][0] - self.generator.box_bounds(top_box)[1][1],
+        )
+
+    def test_shutter_mesh_adds_offset_slats_and_bottom_rail_without_extra_collision(
+        self,
+    ):
+        shutter = self._asset_definition(
+            "/Game/MainHome/SM_MainHome_Shutter"
+        )
+        boxes = {box.label: box for box in shutter.visual_boxes}
+        panel = boxes["Shutter_Panel"]
+        slats = [
+            box
+            for box in shutter.visual_boxes
+            if box.label.startswith("Shutter_Slat_")
+        ]
+        self.assertGreaterEqual(len(slats), 16)
+        self.assertIn("Shutter_BottomRail", boxes)
+
+        panel_bounds = self.generator.box_bounds(panel)
+        for detail in slats + [boxes["Shutter_BottomRail"]]:
+            with self.subTest(detail=detail.label):
+                detail_bounds = self.generator.box_bounds(detail)
+                self.assertFalse(detail.collision)
+                self.assertEqual("M_MainHome_Trim", detail.material_name)
+                self.assertLessEqual(
+                    detail_bounds[1][1], panel_bounds[1][0] - 0.5
+                )
+                self.assertGreaterEqual(
+                    detail_bounds[0][0], panel_bounds[0][0]
+                )
+                self.assertLessEqual(
+                    detail_bounds[0][1], panel_bounds[0][1]
+                )
+                self.assertGreaterEqual(
+                    detail_bounds[2][0], panel_bounds[2][0]
+                )
+                self.assertLessEqual(
+                    detail_bounds[2][1], panel_bounds[2][1]
+                )
+
+        self.assertEqual(
+            {"Shutter_Panel"},
+            {box.label for box in shutter.collision_boxes},
+        )
+        shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
+        frame_top = next(
+            box
+            for box in shell.visual_boxes
+            if box.label == "ShutterFrame_TopBox"
+        )
+        first_slat_world_bounds = self._translated_bounds(
+            slats[0], shutter.actor_relative_transform.location_cm
+        )
+        self.assertEqual(
+            self.generator.box_bounds(frame_top)[1][1],
+            first_slat_world_bounds[1][0],
         )
 
     def test_door_leaves_have_required_local_and_closed_bounds(self):
@@ -463,6 +519,76 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                     ),
                 )
 
+    def test_each_door_uses_green_panel_with_offset_glass_and_lower_insets(self):
+        expected = (
+            (
+                "/Game/MainHome/SM_MainHome_Door_Left",
+                "Door_Left",
+                32.5,
+            ),
+            (
+                "/Game/MainHome/SM_MainHome_Door_Right",
+                "Door_Right",
+                -32.5,
+            ),
+        )
+        for asset_path, prefix, inset_x in expected:
+            with self.subTest(asset_path=asset_path):
+                definition = self._asset_definition(asset_path)
+                boxes = {box.label: box for box in definition.visual_boxes}
+                required_labels = {
+                    prefix + "_Panel",
+                    prefix + "_GlassInset",
+                    prefix + "_LowerInset",
+                    prefix + "_Handle",
+                }
+                self.assertTrue(required_labels.issubset(boxes))
+                panel = boxes[prefix + "_Panel"]
+                glass = boxes[prefix + "_GlassInset"]
+                lower = boxes[prefix + "_LowerInset"]
+                handle = boxes[prefix + "_Handle"]
+
+                self.assertEqual(
+                    "M_MainHome_FadedGreenMetal", panel.material_name
+                )
+                self.assertEqual("M_MainHome_DarkGlass", glass.material_name)
+                self.assertEqual(
+                    "M_MainHome_FadedGreenMetal", lower.material_name
+                )
+                self.assertEqual("M_MainHome_Trim", handle.material_name)
+                self.assertEqual(inset_x, glass.location_cm[0])
+                self.assertEqual(inset_x, lower.location_cm[0])
+
+                panel_bounds = self.generator.box_bounds(panel)
+                for detail in (glass, lower, handle):
+                    detail_bounds = self.generator.box_bounds(detail)
+                    self.assertFalse(detail.collision)
+                    self.assertLessEqual(
+                        detail_bounds[1][1], panel_bounds[1][0] - 0.5
+                    )
+                    self.assertFalse(
+                        self._overlaps_positive_volume(
+                            detail_bounds, panel_bounds
+                        )
+                    )
+
+                self.assertFalse(
+                    self._overlaps_positive_volume(
+                        self.generator.box_bounds(handle),
+                        self.generator.box_bounds(glass),
+                    )
+                )
+                self.assertFalse(
+                    self._overlaps_positive_volume(
+                        self.generator.box_bounds(handle),
+                        self.generator.box_bounds(lower),
+                    )
+                )
+                self.assertEqual(
+                    {prefix + "_Panel"},
+                    {box.label for box in definition.collision_boxes},
+                )
+
     def test_fixed_transom_and_storefront_frame_own_shell_collision(self):
         shell = self._asset_definition(
             self.generator.STATIC_MESH_ASSET_PATH
@@ -470,31 +596,31 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         shell_boxes = {box.label: box for box in shell.visual_boxes}
         expected_frame_bounds = {
             "ShutterFrame_Threshold": (
-                (-220.0, 28.0), (-400.0, -395.0), (11.0, 15.0)
+                (-220.0, 28.0), (-400.0, -396.0), (11.0, 15.0)
             ),
             "ShutterFrame_LeftGuide": (
-                (-220.0, -212.0), (-400.0, -395.0), (15.0, 267.0)
+                (-220.0, -212.0), (-400.0, -396.0), (15.0, 267.0)
             ),
             "ShutterFrame_RightGuide": (
-                (20.0, 28.0), (-400.0, -395.0), (15.0, 267.0)
+                (20.0, 28.0), (-400.0, -396.0), (15.0, 267.0)
             ),
             "ShutterFrame_TopBox": (
-                (-220.0, 28.0), (-400.0, -395.0), (267.0, 291.0)
+                (-220.0, 28.0), (-400.0, -396.0), (267.0, 291.0)
             ),
             "DoorFrame_Threshold": (
-                (68.0, 220.0), (-400.0, -395.0), (11.0, 15.0)
+                (68.0, 220.0), (-400.0, -396.0), (11.0, 15.0)
             ),
             "DoorFrame_Left": (
-                (68.0, 76.0), (-400.0, -395.0), (15.0, 281.0)
+                (68.0, 76.0), (-400.0, -396.0), (15.0, 281.0)
             ),
             "DoorFrame_Right": (
-                (212.0, 220.0), (-400.0, -395.0), (15.0, 281.0)
+                (212.0, 220.0), (-400.0, -396.0), (15.0, 281.0)
             ),
             "DoorFrame_Top": (
-                (68.0, 220.0), (-400.0, -395.0), (281.0, 291.0)
+                (68.0, 220.0), (-400.0, -396.0), (281.0, 291.0)
             ),
             "DoorTransom_Bar": (
-                (76.0, 212.0), (-400.0, -395.0), (227.0, 237.0)
+                (76.0, 212.0), (-400.0, -396.0), (227.0, 237.0)
             ),
             "DoorTransom_Glass": (
                 (80.0, 208.0), (-393.5, -392.5), (239.0, 279.0)
@@ -670,6 +796,53 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             )
         )
 
+    def test_right_side_old_city_details_are_offset_noncollision_cubes(self):
+        boxes = {
+            box.label: box for box in self.generator.build_shell_box_specs()
+        }
+        required = {
+            "Side_Stain_Lower",
+            "Side_Drainpipe",
+            "Side_ElectricBox",
+        }
+        self.assertTrue(required.issubset(boxes))
+        self.assertEqual(
+            (230.0, 248.5),
+            self.generator.box_bounds(boxes["Wall_Right"])[0],
+        )
+        self.assertEqual(
+            (-248.5, -230.0),
+            self.generator.box_bounds(boxes["Wall_Left"])[0],
+        )
+
+        wall_outer_x = self.generator.box_bounds(boxes["Wall_Right"])[0][1]
+        details = [boxes[label] for label in sorted(required)]
+        for detail in details:
+            with self.subTest(detail=detail.label):
+                bounds = self.generator.box_bounds(detail)
+                self.assertEqual("side_detail", detail.category)
+                self.assertFalse(detail.collision)
+                self.assertGreaterEqual(detail.size_cm[0], 1.0)
+                self.assertEqual((249.0, 250.0), bounds[0])
+                self.assertEqual(0.5, bounds[0][0] - wall_outer_x)
+                for axis_bounds, design_bounds in zip(
+                    bounds, self.generator.DESIGN_BOUNDS
+                ):
+                    self.assertGreaterEqual(axis_bounds[0], design_bounds[0])
+                    self.assertLessEqual(axis_bounds[1], design_bounds[1])
+
+        self.assertEqual(
+            "M_MainHome_Stain", boxes["Side_Stain_Lower"].material_name
+        )
+        for index, first in enumerate(details):
+            for second in details[index + 1 :]:
+                self.assertFalse(
+                    self._overlaps_positive_volume(
+                        self.generator.box_bounds(first),
+                        self.generator.box_bounds(second),
+                    )
+                )
+
     def test_inner_lining_uses_interior_material_on_four_surfaces(self):
         boxes_by_label = {
             box.label: box for box in self.generator.build_box_specs()
@@ -749,6 +922,56 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                         ),
                         "{} overlaps {}".format(first_label, second_label),
                     )
+
+    def test_fixed_shell_visible_layers_touch_without_positive_volume_overlap(
+        self,
+    ):
+        shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
+        boxes = {box.label: box for box in shell.visual_boxes}
+        lintel_bounds = self.generator.box_bounds(boxes["FrontLintel"])
+
+        for label in (
+            "FrontPillar_Left",
+            "FrontPillar_Between",
+            "FrontPillar_Right",
+        ):
+            with self.subTest(label=label):
+                pillar_bounds = self.generator.box_bounds(boxes[label])
+                self.assertEqual((11.0, 291.0), pillar_bounds[2])
+                self.assertFalse(
+                    self._overlaps_positive_volume(
+                        pillar_bounds, lintel_bounds
+                    )
+                )
+
+        bottom_trim_bounds = self.generator.box_bounds(
+            boxes["SignTrim_Bottom"]
+        )
+        self.assertEqual(291.0, bottom_trim_bounds[2][0])
+        for label in ("ShutterFrame_TopBox", "DoorFrame_Top"):
+            with self.subTest(label=label):
+                self.assertFalse(
+                    self._overlaps_positive_volume(
+                        self.generator.box_bounds(boxes[label]),
+                        bottom_trim_bounds,
+                    )
+                )
+
+        layered_boxes = [
+            box
+            for box in shell.visual_boxes
+            if box.category not in {"structure", "lining"}
+        ]
+        overlaps = [
+            (first.label, second.label)
+            for index, first in enumerate(layered_boxes)
+            for second in layered_boxes[index + 1 :]
+            if self._overlaps_positive_volume(
+                self.generator.box_bounds(first),
+                self.generator.box_bounds(second),
+            )
+        ]
+        self.assertEqual([], overlaps)
 
     def test_material_ids_are_contiguous(self):
         self.assertEqual(

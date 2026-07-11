@@ -73,6 +73,16 @@ namespace MainHomeInteractive
         Binding.bConsumeInput = false;
     }
 
+    FVector GetShutterTraceTargetLocation()
+    {
+        return FVector(-96.0f, -394.0f, 263.0f);
+    }
+
+    FVector GetShutterTraceTargetExtent()
+    {
+        return FVector(114.5f, 0.25f, 3.0f);
+    }
+
     bool ShouldEnableShutterCollision(const float Alpha, const float Target)
     {
         return !(
@@ -148,9 +158,9 @@ AMainHomeInteractiveActor::AMainHomeInteractiveActor()
     ShutterTraceTarget->SetupAttachment(SceneRoot);
     ShutterTraceTarget->SetMobility(EComponentMobility::Static);
     // Closed shutter bounds are X [-211, 19], Y [-394.5, -391.5], Z [15, 277].
-    // Keep this fixed trace surface slightly inset on every edge and behind its front face.
-    ShutterTraceTarget->SetRelativeLocation(FVector(-96.0f, -394.0f, 146.0f));
-    ShutterTraceTarget->SetBoxExtent(FVector(114.5f, 0.25f, 130.5f));
+    // Keep a fixed, inset aiming strip just below the hood while leaving the opening clear.
+    ShutterTraceTarget->SetRelativeLocation(MainHomeInteractive::GetShutterTraceTargetLocation());
+    ShutterTraceTarget->SetBoxExtent(MainHomeInteractive::GetShutterTraceTargetExtent());
     ShutterTraceTarget->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
     ShutterTraceTarget->SetCollisionObjectType(ECC_WorldDynamic);
     ShutterTraceTarget->SetCollisionResponseToAllChannels(ECR_Ignore);

@@ -279,13 +279,13 @@ def _build_letter_boxes():
 def build_shell_box_specs():
     structure = [
         ("Floor", (0, 0, 5), (500, 800, 10)),
-        ("Wall_Left", (-240, 10, 180), (20, 780, 340)),
-        ("Wall_Right", (240, 10, 180), (20, 780, 340)),
+        ("Wall_Left", (-239.25, 10, 180), (18.5, 780, 340)),
+        ("Wall_Right", (239.25, 10, 180), (18.5, 780, 340)),
         ("Wall_Back", (0, 390, 180), (460, 20, 340)),
         ("RoofSlab", (0, 0, 358), (500, 800, 16)),
-        ("FrontPillar_Left", (-235, -388, 180), (30, 16, 340)),
-        ("FrontPillar_Between", (48, -388, 180), (40, 16, 340)),
-        ("FrontPillar_Right", (235, -388, 180), (30, 16, 340)),
+        ("FrontPillar_Left", (-235, -388, 150), (30, 16, 280)),
+        ("FrontPillar_Between", (48, -388, 150), (40, 16, 280)),
+        ("FrontPillar_Right", (235, -388, 150), (30, 16, 280)),
         ("FrontLintel", (0, -388, 320), (500, 16, 60)),
         ("Parapet_Front", (0, -391, 383), (500, 18, 34)),
         ("Parapet_Back", (0, 391, 383), (500, 18, 34)),
@@ -309,15 +309,15 @@ def build_shell_box_specs():
         )
 
     fixed_frame = [
-        ("ShutterFrame_Threshold", (-96, -397.5, 12), (248, 5, 4), "M_MainHome_FadedGreenMetal"),
-        ("ShutterFrame_LeftGuide", (-216, -397.5, 140), (8, 5, 252), "M_MainHome_FadedGreenMetal"),
-        ("ShutterFrame_RightGuide", (24, -397.5, 140), (8, 5, 252), "M_MainHome_FadedGreenMetal"),
-        ("ShutterFrame_TopBox", (-96, -397.5, 278), (248, 5, 24), "M_MainHome_FadedGreenMetal"),
-        ("DoorFrame_Threshold", (144, -397.5, 12), (152, 5, 4), "M_MainHome_FadedGreenMetal"),
-        ("DoorFrame_Left", (72, -397.5, 147), (8, 5, 266), "M_MainHome_FadedGreenMetal"),
-        ("DoorFrame_Right", (216, -397.5, 147), (8, 5, 266), "M_MainHome_FadedGreenMetal"),
-        ("DoorFrame_Top", (144, -397.5, 285), (152, 5, 10), "M_MainHome_FadedGreenMetal"),
-        ("DoorTransom_Bar", (144, -397.5, 231), (136, 5, 10), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_Threshold", (-96, -398, 12), (248, 4, 4), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_LeftGuide", (-216, -398, 140), (8, 4, 252), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_RightGuide", (24, -398, 140), (8, 4, 252), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_TopBox", (-96, -398, 278), (248, 4, 24), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Threshold", (144, -398, 12), (152, 4, 4), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Left", (72, -398, 147), (8, 4, 266), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Right", (216, -398, 147), (8, 4, 266), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Top", (144, -398, 285), (152, 4, 10), "M_MainHome_FadedGreenMetal"),
+        ("DoorTransom_Bar", (144, -398, 231), (136, 4, 10), "M_MainHome_FadedGreenMetal"),
         ("DoorTransom_Glass", (144, -393, 258), (128, 1, 40), "M_MainHome_DarkGlass"),
     ]
     boxes.extend(
@@ -366,49 +366,49 @@ def build_shell_box_specs():
         ),
         (
             "SignTrim_Bottom",
-            (0, -399, 288),
+            (0, -399, 292),
             (468, 2, 4),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "SignTrim_Left",
-            (-232, -399, 318),
-            (4, 2, 56),
+            (-232, -399, 320),
+            (4, 2, 52),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "SignTrim_Right",
-            (232, -399, 318),
-            (4, 2, 56),
+            (232, -399, 320),
+            (4, 2, 52),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_LeftOuter",
-            (-220, -397, 150),
+            (-223, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_CenterLeft",
-            (28, -397, 150),
+            (31, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_CenterRight",
-            (68, -397, 150),
+            (65, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_RightOuter",
-            (220, -397, 150),
+            (223, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
@@ -448,6 +448,27 @@ def build_shell_box_specs():
             "M_MainHome_Stain",
             "stain",
         ),
+        (
+            "Side_Stain_Lower",
+            (249.5, 180, 55),
+            (1, 110, 55),
+            "M_MainHome_Stain",
+            "side_detail",
+        ),
+        (
+            "Side_Drainpipe",
+            (249.5, 330, 170),
+            (1, 8, 300),
+            "M_MainHome_Trim",
+            "side_detail",
+        ),
+        (
+            "Side_ElectricBox",
+            (249.5, 270, 175),
+            (1, 36, 44),
+            "M_MainHome_FadedGreenMetal",
+            "side_detail",
+        ),
     ]
     boxes.extend(
         _local_box(
@@ -464,7 +485,7 @@ def build_shell_box_specs():
 
 
 def build_shutter_box_specs():
-    return [
+    boxes = [
         _pivot_box(
             "Shutter_Panel",
             (0.0, 1.5, -131.0),
@@ -474,6 +495,26 @@ def build_shutter_box_specs():
             collision=True,
         )
     ]
+    boxes.extend(
+        _pivot_box(
+            "Shutter_Slat_{:02d}".format(index),
+            (0.0, -1.0, float(z_cm)),
+            (226.0, 1.0, 1.0),
+            "M_MainHome_Trim",
+            "shutter_detail",
+        )
+        for index, z_cm in enumerate(range(-245, -6, 14))
+    )
+    boxes.append(
+        _pivot_box(
+            "Shutter_BottomRail",
+            (0.0, -1.0, -257.0),
+            (230.0, 1.0, 8.0),
+            "M_MainHome_Trim",
+            "shutter_detail",
+        )
+    )
+    return boxes
 
 
 def build_left_door_box_specs():
@@ -482,15 +523,29 @@ def build_left_door_box_specs():
             "Door_Left_Panel",
             (32.5, 0.0, 0.0),
             (65.0, 3.0, 210.0),
-            "M_MainHome_DarkGlass",
+            "M_MainHome_FadedGreenMetal",
             "door_leaf",
             collision=True,
+        ),
+        _pivot_box(
+            "Door_Left_GlassInset",
+            (32.5, -2.5, 30.0),
+            (51.0, 1.0, 90.0),
+            "M_MainHome_DarkGlass",
+            "door_detail",
+        ),
+        _pivot_box(
+            "Door_Left_LowerInset",
+            (32.5, -2.5, -62.5),
+            (51.0, 1.0, 65.0),
+            "M_MainHome_FadedGreenMetal",
+            "door_detail",
         ),
         _pivot_box(
             "Door_Left_Handle",
             (60.0, -3.5, 5.0),
             (2.0, 3.0, 24.0),
-            "M_MainHome_FadedGreenMetal",
+            "M_MainHome_Trim",
             "door_handle",
         ),
     ]
@@ -502,15 +557,29 @@ def build_right_door_box_specs():
             "Door_Right_Panel",
             (-32.5, 0.0, 0.0),
             (65.0, 3.0, 210.0),
-            "M_MainHome_DarkGlass",
+            "M_MainHome_FadedGreenMetal",
             "door_leaf",
             collision=True,
+        ),
+        _pivot_box(
+            "Door_Right_GlassInset",
+            (-32.5, -2.5, 30.0),
+            (51.0, 1.0, 90.0),
+            "M_MainHome_DarkGlass",
+            "door_detail",
+        ),
+        _pivot_box(
+            "Door_Right_LowerInset",
+            (-32.5, -2.5, -62.5),
+            (51.0, 1.0, 65.0),
+            "M_MainHome_FadedGreenMetal",
+            "door_detail",
         ),
         _pivot_box(
             "Door_Right_Handle",
             (-60.0, -3.5, 5.0),
             (2.0, 3.0, 24.0),
-            "M_MainHome_FadedGreenMetal",
+            "M_MainHome_Trim",
             "door_handle",
         ),
     ]
