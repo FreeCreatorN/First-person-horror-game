@@ -11,10 +11,17 @@ SHOP_DEPTH_CM = 800.0
 SHOP_HEIGHT_CM = 400.0
 BASE_Z_CM = 1.0
 STATIC_MESH_ASSET_PATH = "/Game/MainHome/SM_MainHome_Enterable"
+SHUTTER_STATIC_MESH_ASSET_PATH = "/Game/MainHome/SM_MainHome_Shutter"
+LEFT_DOOR_STATIC_MESH_ASSET_PATH = "/Game/MainHome/SM_MainHome_Door_Left"
+RIGHT_DOOR_STATIC_MESH_ASSET_PATH = "/Game/MainHome/SM_MainHome_Door_Right"
 MATERIAL_FOLDER = "/Game/MainHome/Materials"
-GENERATOR_TAG = "MainHome_Enterable"
+GENERATOR_TAG = "MainHome_Interactive"
 FOLDER_NAME = "MainHome_Enterable"
 INSTANCE_LABEL = "SM_MainHome_Enterable_Instance"
+
+SHUTTER_PIVOT_CM = (-96.0, -394.5, 277.0)
+LEFT_HINGE_CM = (78.0, -394.0, 120.0)
+RIGHT_HINGE_CM = (210.0, -394.0, 120.0)
 
 MATERIAL_ORDER = [
     "M_MainHome_Wall",
@@ -24,6 +31,8 @@ MATERIAL_ORDER = [
     "M_MainHome_Trim",
     "M_MainHome_Letters",
     "M_MainHome_Stain",
+    "M_MainHome_FadedGreenMetal",
+    "M_MainHome_DarkGlass",
 ]
 MATERIAL_ID_BY_NAME = {
     name: index for index, name in enumerate(MATERIAL_ORDER)
@@ -36,6 +45,8 @@ MATERIAL_SETTINGS = {
     "M_MainHome_Trim": ((0.10, 0.085, 0.07, 1.0), 0.91),
     "M_MainHome_Letters": ((0.30, 0.07, 0.045, 1.0), 0.88),
     "M_MainHome_Stain": ((0.22, 0.18, 0.14, 1.0), 0.96),
+    "M_MainHome_FadedGreenMetal": ((0.18, 0.28, 0.20, 1.0), 0.82),
+    "M_MainHome_DarkGlass": ((0.025, 0.04, 0.035, 1.0), 0.18),
 }
 
 DESIGN_BOUNDS = (
@@ -68,6 +79,36 @@ class DoorwaySpec:
     @property
     def height_cm(self):
         return self.maximum_cm[2] - self.minimum_cm[2]
+
+
+@dataclass(frozen=True)
+class ActorRelativeTransform:
+    location_cm: tuple
+    rotation_degrees: tuple = (0.0, 0.0, 0.0)
+    scale: tuple = (1.0, 1.0, 1.0)
+
+
+@dataclass(frozen=True)
+class MeshAssetDefinition:
+    asset_path: str
+    visual_boxes: tuple
+    collision_boxes: tuple
+    actor_relative_transform: ActorRelativeTransform
+    fixed: bool
+
+
+OPENING_BOUNDS = (
+    DoorwaySpec(
+        "ShutterOpening",
+        (-220.0, -400.0, 11.0),
+        (28.0, -350.0, 291.0),
+    ),
+    DoorwaySpec(
+        "DoubleDoorOpening",
+        (68.0, -400.0, 11.0),
+        (220.0, -350.0, 291.0),
+    ),
+)
 
 
 _LETTER_BITMAPS = (
@@ -163,6 +204,24 @@ def _local_box(
     )
 
 
+def _pivot_box(
+    label,
+    location_cm,
+    size_cm,
+    material_name,
+    category,
+    collision=False,
+):
+    return BoxSpec(
+        label=label,
+        location_cm=tuple(float(value) for value in location_cm),
+        size_cm=tuple(float(value) for value in size_cm),
+        material_name=material_name,
+        category=category,
+        collision=collision,
+    )
+
+
 def _horizontal_runs(row_bits):
     run_start = None
     for index, bit in enumerate(row_bits + "0"):
@@ -217,16 +276,16 @@ def _build_letter_boxes():
     return boxes
 
 
-def build_box_specs():
+def build_shell_box_specs():
     structure = [
         ("Floor", (0, 0, 5), (500, 800, 10)),
         ("Wall_Left", (-240, 10, 180), (20, 780, 340)),
         ("Wall_Right", (240, 10, 180), (20, 780, 340)),
         ("Wall_Back", (0, 390, 180), (460, 20, 340)),
         ("RoofSlab", (0, 0, 358), (500, 800, 16)),
-        ("FrontPillar_Left", (-234, -388, 180), (32, 16, 340)),
-        ("FrontPillar_Center", (0, -388, 180), (44, 16, 340)),
-        ("FrontPillar_Right", (234, -388, 180), (32, 16, 340)),
+        ("FrontPillar_Left", (-235, -388, 180), (30, 16, 340)),
+        ("FrontPillar_Between", (48, -388, 180), (40, 16, 340)),
+        ("FrontPillar_Right", (235, -388, 180), (30, 16, 340)),
         ("FrontLintel", (0, -388, 320), (500, 16, 60)),
         ("Parapet_Front", (0, -391, 383), (500, 18, 34)),
         ("Parapet_Back", (0, 391, 383), (500, 18, 34)),
@@ -248,6 +307,30 @@ def build_box_specs():
                 collision=True,
             )
         )
+
+    fixed_frame = [
+        ("ShutterFrame_Threshold", (-96, -397.5, 12), (248, 5, 4), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_LeftGuide", (-216, -397.5, 140), (8, 5, 252), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_RightGuide", (24, -397.5, 140), (8, 5, 252), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_TopBox", (-96, -397.5, 278), (248, 5, 24), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Threshold", (144, -397.5, 12), (152, 5, 4), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Left", (72, -397.5, 147), (8, 5, 266), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Right", (216, -397.5, 147), (8, 5, 266), "M_MainHome_FadedGreenMetal"),
+        ("DoorFrame_Top", (144, -397.5, 285), (152, 5, 10), "M_MainHome_FadedGreenMetal"),
+        ("DoorTransom_Bar", (144, -397.5, 231), (136, 5, 10), "M_MainHome_FadedGreenMetal"),
+        ("DoorTransom_Glass", (144, -393, 258), (128, 1, 40), "M_MainHome_DarkGlass"),
+    ]
+    boxes.extend(
+        _local_box(
+            label,
+            location_cm,
+            size_cm,
+            material_name,
+            "frame",
+            collision=True,
+        )
+        for label, location_cm, size_cm, material_name in fixed_frame
+    )
 
     lining = [
         ("Interior_Left", (-229.5, 0, 180), (1, 760, 340)),
@@ -304,43 +387,29 @@ def build_box_specs():
         ),
         (
             "PillarTrim_LeftOuter",
-            (-218, -397, 150),
+            (-220, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_CenterLeft",
-            (-22, -397, 150),
+            (28, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_CenterRight",
-            (22, -397, 150),
+            (68, -397, 150),
             (4, 2, 280),
             "M_MainHome_Trim",
             "trim",
         ),
         (
             "PillarTrim_RightOuter",
-            (218, -397, 150),
+            (220, -397, 150),
             (4, 2, 280),
-            "M_MainHome_Trim",
-            "trim",
-        ),
-        (
-            "Threshold_Left",
-            (-120, -399, 11),
-            (196, 2, 2),
-            "M_MainHome_Trim",
-            "trim",
-        ),
-        (
-            "Threshold_Right",
-            (120, -399, 11),
-            (196, 2, 2),
             "M_MainHome_Trim",
             "trim",
         ),
@@ -353,7 +422,7 @@ def build_box_specs():
         ),
         (
             "Stain_Pillar_Center",
-            (0, -398.5, 29),
+            (48, -398.5, 29),
             (30, 1, 16),
             "M_MainHome_Stain",
             "stain",
@@ -394,19 +463,129 @@ def build_box_specs():
     return boxes
 
 
-def build_doorway_specs():
+def build_shutter_box_specs():
     return [
-        DoorwaySpec(
-            "Door_Left",
-            (-218.0, -400.0, 11.0),
-            (-22.0, -350.0, 291.0),
+        _pivot_box(
+            "Shutter_Panel",
+            (0.0, 0.0, -131.0),
+            (230.0, 3.0, 262.0),
+            "M_MainHome_FadedGreenMetal",
+            "shutter",
+            collision=True,
+        )
+    ]
+
+
+def build_left_door_box_specs():
+    return [
+        _pivot_box(
+            "Door_Left_Panel",
+            (32.5, 0.0, 0.0),
+            (65.0, 3.0, 210.0),
+            "M_MainHome_DarkGlass",
+            "door_leaf",
+            collision=True,
         ),
-        DoorwaySpec(
-            "Door_Right",
-            (22.0, -400.0, 11.0),
-            (218.0, -350.0, 291.0),
+        _pivot_box(
+            "Door_Left_Handle",
+            (60.0, -3.5, 5.0),
+            (2.0, 3.0, 24.0),
+            "M_MainHome_FadedGreenMetal",
+            "door_handle",
         ),
     ]
+
+
+def build_right_door_box_specs():
+    return [
+        _pivot_box(
+            "Door_Right_Panel",
+            (-32.5, 0.0, 0.0),
+            (65.0, 3.0, 210.0),
+            "M_MainHome_DarkGlass",
+            "door_leaf",
+            collision=True,
+        ),
+        _pivot_box(
+            "Door_Right_Handle",
+            (-60.0, -3.5, 5.0),
+            (2.0, 3.0, 24.0),
+            "M_MainHome_FadedGreenMetal",
+            "door_handle",
+        ),
+    ]
+
+
+def _asset_definition(asset_path, boxes, location_cm, fixed):
+    boxes = tuple(boxes)
+    return MeshAssetDefinition(
+        asset_path=asset_path,
+        visual_boxes=boxes,
+        collision_boxes=tuple(box for box in boxes if box.collision),
+        actor_relative_transform=ActorRelativeTransform(
+            location_cm=tuple(float(value) for value in location_cm)
+        ),
+        fixed=bool(fixed),
+    )
+
+
+MESH_ASSET_DEFINITIONS = (
+    _asset_definition(
+        STATIC_MESH_ASSET_PATH,
+        build_shell_box_specs(),
+        (0.0, 0.0, 0.0),
+        True,
+    ),
+    _asset_definition(
+        SHUTTER_STATIC_MESH_ASSET_PATH,
+        build_shutter_box_specs(),
+        SHUTTER_PIVOT_CM,
+        False,
+    ),
+    _asset_definition(
+        LEFT_DOOR_STATIC_MESH_ASSET_PATH,
+        build_left_door_box_specs(),
+        LEFT_HINGE_CM,
+        False,
+    ),
+    _asset_definition(
+        RIGHT_DOOR_STATIC_MESH_ASSET_PATH,
+        build_right_door_box_specs(),
+        RIGHT_HINGE_CM,
+        False,
+    ),
+)
+
+
+def _translated_box(box, translation_cm):
+    return BoxSpec(
+        label=box.label,
+        location_cm=tuple(
+            coordinate_cm + offset_cm
+            for coordinate_cm, offset_cm in zip(
+                box.location_cm, translation_cm
+            )
+        ),
+        size_cm=box.size_cm,
+        material_name=box.material_name,
+        category=box.category,
+        collision=box.collision,
+    )
+
+
+def build_box_specs():
+    return [
+        _translated_box(
+            box,
+            definition.actor_relative_transform.location_cm,
+        )
+        for definition in MESH_ASSET_DEFINITIONS
+        for box in definition.visual_boxes
+    ]
+
+
+def build_doorway_specs():
+    return list(OPENING_BOUNDS)
 
 
 def box_bounds(box):
@@ -453,7 +632,7 @@ def boxes_overlap_open_volume(box, open_volume):
     )
 
 
-def validate_design(boxes):
+def validate_boxes(boxes):
     boxes = list(boxes)
     labels = [box.label for box in boxes]
     if len(labels) != len(set(labels)):
@@ -469,6 +648,13 @@ def validate_design(boxes):
         if any(float(size_cm) <= 0.0 for size_cm in box.size_cm):
             raise ValueError("Box {!r} has a non-positive size".format(box.label))
 
+    return boxes
+
+
+def validate_design(boxes):
+    boxes = validate_boxes(boxes)
+
+    for box in boxes:
         for axis, ((minimum_cm, maximum_cm), allowed_bounds) in enumerate(
             zip(box_bounds(box), DESIGN_BOUNDS)
         ):
@@ -571,13 +757,13 @@ def _create_dynamic_mesh(boxes):
 
 def create_visual_dynamic_mesh(boxes=None):
     boxes = build_box_specs() if boxes is None else list(boxes)
-    validate_design(boxes)
+    validate_boxes(boxes)
     return _create_dynamic_mesh(boxes)
 
 
 def create_collision_dynamic_mesh(boxes=None):
     boxes = build_box_specs() if boxes is None else list(boxes)
-    validate_design(boxes)
+    validate_boxes(boxes)
     return _create_dynamic_mesh(box for box in boxes if box.collision)
 
 
@@ -651,7 +837,11 @@ def _ordered_materials(materials):
     else:
         ordered = list(materials)
     if len(ordered) != len(MATERIAL_ORDER):
-        raise ValueError("Exactly seven ordered materials are required")
+        raise ValueError(
+            "Exactly {} ordered materials are required".format(
+                len(MATERIAL_ORDER)
+            )
+        )
     return ordered
 
 
@@ -693,10 +883,19 @@ def _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials):
     _normalize_geometry_script_result(result, "copy_mesh_to_static_mesh")
 
 
-def create_or_update_static_mesh(visual_mesh, materials=None):
+def create_or_update_static_mesh(definition, materials=None):
     _require_unreal()
     materials = _ordered_materials(materials)
-    static_mesh = _load_asset_if_exists(STATIC_MESH_ASSET_PATH)
+    validate_design(
+        _translated_box(
+            box,
+            definition.actor_relative_transform.location_cm,
+        )
+        for box in definition.visual_boxes
+    )
+    visual_mesh = create_visual_dynamic_mesh(definition.visual_boxes)
+    collision_mesh = create_collision_dynamic_mesh(definition.collision_boxes)
+    static_mesh = _load_asset_if_exists(definition.asset_path)
 
     if static_mesh is None:
         create_options = unreal.GeometryScriptCreateNewStaticMeshAssetOptions()
@@ -708,7 +907,7 @@ def create_or_update_static_mesh(visual_mesh, materials=None):
             unreal.GeometryScript_NewAssetUtils
             .create_new_static_mesh_asset_from_mesh(
                 visual_mesh,
-                STATIC_MESH_ASSET_PATH,
+                definition.asset_path,
                 create_options,
             )
         )
@@ -718,10 +917,14 @@ def create_or_update_static_mesh(visual_mesh, materials=None):
         )
 
     _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials)
-    return static_mesh
+    return apply_structural_collision(
+        collision_mesh,
+        static_mesh,
+        definition.asset_path,
+    )
 
 
-def apply_structural_collision(collision_mesh, static_mesh):
+def apply_structural_collision(collision_mesh, static_mesh, asset_path):
     _require_unreal()
     collision_options = unreal.GeometryScriptCollisionFromMeshOptions()
     collision_options.set_editor_property(
@@ -743,7 +946,7 @@ def apply_structural_collision(collision_mesh, static_mesh):
 
     if not unreal.EditorAssetLibrary.save_loaded_asset(static_mesh, False):
         raise RuntimeError(
-            "Unable to save static mesh {}".format(STATIC_MESH_ASSET_PATH)
+            "Unable to save static mesh {}".format(asset_path)
         )
     return static_mesh
 
@@ -753,9 +956,26 @@ def _has_exact_generator_tag(actor):
     return any(str(tag) == GENERATOR_TAG for tag in tags)
 
 
-def place_single_instance(static_mesh):
+def _placement_meshes(mesh_assets):
+    if isinstance(mesh_assets, dict):
+        return tuple(
+            mesh_assets.get(asset_path)
+            for asset_path in (
+                STATIC_MESH_ASSET_PATH,
+                SHUTTER_STATIC_MESH_ASSET_PATH,
+                LEFT_DOOR_STATIC_MESH_ASSET_PATH,
+                RIGHT_DOOR_STATIC_MESH_ASSET_PATH,
+            )
+        )
+    return mesh_assets, None, None, None
+
+
+def place_single_instance(mesh_assets):
     _require_unreal()
-    if static_mesh is None:
+    fixed_shell, shutter, left_door, right_door = _placement_meshes(
+        mesh_assets
+    )
+    if fixed_shell is None:
         raise ValueError("A valid Static Mesh is required for level placement")
 
     actor_subsystem = unreal.get_editor_subsystem(
@@ -764,6 +984,29 @@ def place_single_instance(static_mesh):
     if actor_subsystem is None:
         raise RuntimeError("EditorActorSubsystem is unavailable")
 
+    interactive_actor_class = getattr(
+        unreal,
+        "MainHomeInteractiveActor",
+        None,
+    )
+    uses_interactive_actor = interactive_actor_class is not None
+    if uses_interactive_actor and any(
+        mesh is None for mesh in (shutter, left_door, right_door)
+    ):
+        raise ValueError(
+            "All four Main Home meshes are required for interactive placement"
+        )
+    if not uses_interactive_actor:
+        unreal.log_warning(
+            "MainHomeInteractiveActor is unavailable; placing only the fixed "
+            "Main Home shell as a StaticMeshActor"
+        )
+
+    desired_actor_class = (
+        interactive_actor_class
+        if uses_interactive_actor
+        else unreal.StaticMeshActor
+    )
     tagged_actors = [
         actor
         for actor in actor_subsystem.get_all_level_actors()
@@ -772,15 +1015,23 @@ def place_single_instance(static_mesh):
     actor = None
     component = None
     for candidate_actor in tagged_actors:
-        if not isinstance(candidate_actor, unreal.StaticMeshActor):
+        if not isinstance(candidate_actor, desired_actor_class):
             continue
+        if uses_interactive_actor:
+            if not callable(
+                getattr(candidate_actor, "set_main_home_meshes", None)
+            ):
+                continue
+            actor = candidate_actor
+            break
         candidate_component = candidate_actor.get_component_by_class(
             unreal.StaticMeshComponent
         )
-        if candidate_component is not None:
-            actor = candidate_actor
-            component = candidate_component
-            break
+        if candidate_component is None:
+            continue
+        actor = candidate_actor
+        component = candidate_component
+        break
 
     for tagged_actor in tagged_actors:
         if tagged_actor is actor:
@@ -794,18 +1045,25 @@ def place_single_instance(static_mesh):
 
     if actor is None:
         actor = actor_subsystem.spawn_actor_from_class(
-            unreal.StaticMeshActor,
+            desired_actor_class,
             unreal.Vector(0.0, 0.0, 0.0),
             unreal.Rotator(0.0, 0.0, 0.0),
         )
         if actor is None:
-            raise RuntimeError("Unable to spawn the Main Home StaticMeshActor")
-        component = actor.get_component_by_class(unreal.StaticMeshComponent)
-        if component is None:
-            actor_subsystem.destroy_actor(actor)
             raise RuntimeError(
-                "Spawned Main Home actor has no StaticMeshComponent"
+                "Unable to spawn the Main Home {}".format(
+                    desired_actor_class.__name__
+                )
             )
+        if not uses_interactive_actor:
+            component = actor.get_component_by_class(
+                unreal.StaticMeshComponent
+            )
+            if component is None:
+                actor_subsystem.destroy_actor(actor)
+                raise RuntimeError(
+                    "Spawned Main Home actor has no StaticMeshComponent"
+                )
 
     actor.set_actor_transform(
         make_transform((0.0, 0.0, 0.0)),
@@ -815,11 +1073,22 @@ def place_single_instance(static_mesh):
     actor.set_actor_label(INSTANCE_LABEL)
     actor.set_folder_path(unreal.Name(FOLDER_NAME))
     actor.set_editor_property("tags", [unreal.Name(GENERATOR_TAG)])
-    component.set_static_mesh(static_mesh)
-    component.set_editor_property("mobility", unreal.ComponentMobility.STATIC)
-    component.set_collision_enabled(
-        unreal.CollisionEnabled.QUERY_AND_PHYSICS
-    )
+    if uses_interactive_actor:
+        actor.set_main_home_meshes(
+            fixed_shell,
+            shutter,
+            left_door,
+            right_door,
+        )
+    else:
+        component.set_static_mesh(fixed_shell)
+        component.set_editor_property(
+            "mobility",
+            unreal.ComponentMobility.STATIC,
+        )
+        component.set_collision_enabled(
+            unreal.CollisionEnabled.QUERY_AND_PHYSICS
+        )
     actor_subsystem.set_selected_level_actors([actor])
     return actor
 
@@ -830,15 +1099,20 @@ def generate_enterable_main_home():
     _require_unreal()
 
     materials = [ensure_material(name) for name in MATERIAL_ORDER]
-    visual_mesh = create_visual_dynamic_mesh(boxes)
-    collision_mesh = create_collision_dynamic_mesh(boxes)
-    static_mesh = create_or_update_static_mesh(visual_mesh, materials)
-    static_mesh = apply_structural_collision(collision_mesh, static_mesh)
-    actor = place_single_instance(static_mesh)
+    static_meshes = {
+        definition.asset_path: create_or_update_static_mesh(
+            definition,
+            materials,
+        )
+        for definition in MESH_ASSET_DEFINITIONS
+    }
+    static_mesh = static_meshes[STATIC_MESH_ASSET_PATH]
+    actor = place_single_instance(static_meshes)
 
     bounds = overall_bounds(boxes)
     collision_box_count = sum(1 for box in boxes if box.collision)
-    unreal.log("Main Home asset: {}".format(STATIC_MESH_ASSET_PATH))
+    for definition in MESH_ASSET_DEFINITIONS:
+        unreal.log("Main Home asset: {}".format(definition.asset_path))
     unreal.log("Main Home visual box count: {}".format(len(boxes)))
     unreal.log(
         "Main Home collision box count: {}".format(collision_box_count)
