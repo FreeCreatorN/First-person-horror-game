@@ -176,11 +176,25 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             for first_axis, second_axis in zip(first, second)
         )
 
-    def test_asset_path_is_isolated_from_old_shop(self):
+    def test_all_generated_asset_paths_are_isolated_from_old_shop(self):
+        asset_paths = [
+            definition.asset_path
+            for definition in self.generator.MESH_ASSET_DEFINITIONS
+        ]
+        asset_paths.extend(
+            "{}/{}".format(self.generator.MATERIAL_FOLDER, material_name)
+            for material_name in self.generator.MATERIAL_ORDER
+        )
+
         self.assertEqual(
             "/Game/MainHome/SM_MainHome_Enterable",
             self.generator.STATIC_MESH_ASSET_PATH,
         )
+        for asset_path in asset_paths:
+            with self.subTest(asset_path=asset_path):
+                self.assertNotIn(
+                    "/Game/OldShop_500x800x400", asset_path
+                )
 
     def test_load_asset_if_exists_skips_missing_and_loads_existing_asset(self):
         missing_path = "/Game/MainHome/Missing"
@@ -289,16 +303,27 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             box for box in shutter.visual_boxes if box.label == "Shutter_Panel"
         )
         self.assertEqual(
-            ((-115.0, 115.0), (-1.5, 1.5), (-262.0, 0.0)),
+            ((-115.0, 115.0), (0.0, 3.0), (-262.0, 0.0)),
             self.generator.box_bounds(panel),
         )
-        self.assertEqual(230.0, panel.size_cm[0])
+        self.assertEqual((230.0, 3.0, 262.0), panel.size_cm)
+        closed_bounds = self._translated_bounds(
+            panel,
+            shutter.actor_relative_transform.location_cm,
+        )
         self.assertEqual(
-            ((-211.0, 19.0), (-396.0, -393.0), (15.0, 277.0)),
-            self._translated_bounds(
-                panel,
-                shutter.actor_relative_transform.location_cm,
-            ),
+            ((-211.0, 19.0), (-394.5, -391.5), (15.0, 277.0)),
+            closed_bounds,
+        )
+        shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
+        top_box = next(
+            box
+            for box in shell.visual_boxes
+            if box.label == "ShutterFrame_TopBox"
+        )
+        self.assertEqual(
+            0.5,
+            closed_bounds[1][0] - self.generator.box_bounds(top_box)[1][1],
         )
 
     def test_door_leaves_have_required_local_and_closed_bounds(self):
@@ -408,6 +433,52 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertIn("Door_Right_Handle", {box.label for box in right.visual_boxes})
 
     def test_partition_visuals_do_not_overlap_and_handles_are_depth_offset(self):
+        world_partitions = []
+        for definition in self.generator.MESH_ASSET_DEFINITIONS:
+            world_partitions.append(
+                (
+                    definition.asset_path,
+                    [
+                        (
+                            box,
+                            self._translated_bounds(
+                                box,
+                                definition.actor_relative_transform.location_cm,
+                            ),
+                        )
+                        for box in definition.visual_boxes
+                    ],
+                )
+            )
+
+        cross_asset_overlaps = []
+        for index, (first_path, first_boxes) in enumerate(world_partitions):
+            for second_path, second_boxes in world_partitions[index + 1 :]:
+                for first, first_bounds in first_boxes:
+                    for second, second_bounds in second_boxes:
+                        if not self._overlaps_positive_volume(
+                            first_bounds, second_bounds
+                        ):
+                            continue
+                        overlap_size = tuple(
+                            min(first_axis[1], second_axis[1])
+                            - max(first_axis[0], second_axis[0])
+                            for first_axis, second_axis in zip(
+                                first_bounds, second_bounds
+                            )
+                        )
+                        cross_asset_overlaps.append(
+                            (
+                                first_path,
+                                first.label,
+                                second_path,
+                                second.label,
+                                overlap_size,
+                            )
+                        )
+
+        self.assertEqual([], cross_asset_overlaps)
+
         shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
         frame_boxes = [
             box for box in shell.visual_boxes if box.category == "frame"
@@ -575,6 +646,24 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertEqual(
             list(range(len(self.generator.MATERIAL_ORDER))),
             list(self.generator.MATERIAL_ID_BY_NAME.values()),
+        )
+
+    def test_legacy_material_ids_zero_through_six_are_stable(self):
+        expected_legacy_ids = {
+            "M_MainHome_Wall": 0,
+            "M_MainHome_Interior": 1,
+            "M_MainHome_Floor": 2,
+            "M_MainHome_Sign": 3,
+            "M_MainHome_Trim": 4,
+            "M_MainHome_Letters": 5,
+            "M_MainHome_Stain": 6,
+        }
+        self.assertEqual(
+            expected_legacy_ids,
+            {
+                material_name: self.generator.MATERIAL_ID_BY_NAME[material_name]
+                for material_name in expected_legacy_ids
+            },
         )
 
     def test_letters_are_dark_red_and_stains_remain_visible(self):

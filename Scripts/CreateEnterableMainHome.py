@@ -467,7 +467,7 @@ def build_shutter_box_specs():
     return [
         _pivot_box(
             "Shutter_Panel",
-            (0.0, 0.0, -131.0),
+            (0.0, 1.5, -131.0),
             (230.0, 3.0, 262.0),
             "M_MainHome_FadedGreenMetal",
             "shutter",
