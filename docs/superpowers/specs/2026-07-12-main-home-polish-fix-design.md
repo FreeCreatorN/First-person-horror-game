@@ -48,9 +48,13 @@ The door interaction path remains camera-targeted and independent.
 
 ## Aged external materials
 
-Use lightweight external texture resources with redistribution-compatible
-licenses, preferring CC0 assets. Store the imported source files under
-`/Game/MainHome/Textures` and record source URLs and licenses beside them.
+Use Fab resources first. The preferred free assets are Quixel Megascans
+`Construction Plaster` (listing `c61bd44e-ce01-47ae-b0b8-eb0f4ff3cc60`) and
+`Rusty Metal Sheet` (listing `54c7decd-5aac-491c-ad3f-cdfde8d4b1c8`). Import
+them through the UE Fab integration, keep the selected texture maps under
+`/Game/MainHome/Textures`, and record the Fab URLs and applicable license
+beside them. Acquiring or adding a Fab asset to an account remains an explicit
+user action; the generator never purchases or downloads marketplace content.
 
 Use approximately 1K texture sets to keep this low-poly building inexpensive:
 
@@ -72,7 +76,9 @@ runtime actor keep stable assignments:
 Use mesh UVs on movable parts so textures do not swim while the doors rotate or
 the shutter retracts. Material setup must update in place without destructively
 deleting expressions referenced by loaded assets. If a texture is missing, the
-existing constant-color fallback remains usable and emits a clear warning.
+generator uses an improved aged procedural/constant-color fallback and emits a
+clear warning. A non-Fab external download is not used unless the user later
+approves it explicitly.
 
 ## Verification
 
