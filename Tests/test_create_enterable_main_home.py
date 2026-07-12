@@ -494,13 +494,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         expected = {
             "/Game/MainHome/SM_MainHome_Door_Left": (
                 "Door_Left_Panel",
-                ((0.0, 65.0), (-1.5, 1.5), (-105.0, 105.0)),
-                ((78.0, 143.0), (-395.5, -392.5), (15.0, 225.0)),
+                ((0.0, 65.75), (-1.5, 1.5), (-105.0, 105.0)),
+                ((78.0, 143.75), (-395.5, -392.5), (15.0, 225.0)),
             ),
             "/Game/MainHome/SM_MainHome_Door_Right": (
                 "Door_Right_Panel",
-                ((-65.0, 0.0), (-1.5, 1.5), (-105.0, 105.0)),
-                ((145.0, 210.0), (-395.5, -392.5), (15.0, 225.0)),
+                ((-65.75, 0.0), (-1.5, 1.5), (-105.0, 105.0)),
+                ((144.25, 210.0), (-395.5, -392.5), (15.0, 225.0)),
             ),
         }
         for asset_path, (label, local_bounds, closed_bounds) in expected.items():
@@ -510,7 +510,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                     box for box in definition.visual_boxes if box.label == label
                 )
                 self.assertEqual(local_bounds, self.generator.box_bounds(panel))
-                self.assertEqual(65.0, panel.size_cm[0])
+                self.assertEqual(65.75, panel.size_cm[0])
                 self.assertEqual(
                     closed_bounds,
                     self._translated_bounds(
@@ -519,17 +519,51 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                     ),
                 )
 
+    def test_closed_double_door_center_gap_is_half_centimeter(self):
+        left = self._asset_definition(
+            self.generator.LEFT_DOOR_STATIC_MESH_ASSET_PATH
+        )
+        right = self._asset_definition(
+            self.generator.RIGHT_DOOR_STATIC_MESH_ASSET_PATH
+        )
+        left_panel = next(
+            box for box in left.visual_boxes if box.label == "Door_Left_Panel"
+        )
+        right_panel = next(
+            box for box in right.visual_boxes if box.label == "Door_Right_Panel"
+        )
+        left_bounds = self._translated_bounds(
+            left_panel, left.actor_relative_transform.location_cm
+        )
+        right_bounds = self._translated_bounds(
+            right_panel, right.actor_relative_transform.location_cm
+        )
+
+        self.assertEqual(65.75, left_panel.size_cm[0])
+        self.assertEqual(65.75, right_panel.size_cm[0])
+        self.assertAlmostEqual(0.5, right_bounds[0][0] - left_bounds[0][1])
+        self.assertEqual((78.0, 143.75), left_bounds[0])
+        self.assertEqual((144.25, 210.0), right_bounds[0])
+        self.assertIn(
+            "Door_Left_CenterStile",
+            {box.label for box in left.visual_boxes},
+        )
+        self.assertIn(
+            "Door_Right_CenterStile",
+            {box.label for box in right.visual_boxes},
+        )
+
     def test_each_door_uses_green_panel_with_offset_glass_and_lower_insets(self):
         expected = (
             (
                 "/Game/MainHome/SM_MainHome_Door_Left",
                 "Door_Left",
-                32.5,
+                32.875,
             ),
             (
                 "/Game/MainHome/SM_MainHome_Door_Right",
                 "Door_Right",
-                -32.5,
+                -32.875,
             ),
         )
         for asset_path, prefix, inset_x in expected:
