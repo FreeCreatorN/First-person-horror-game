@@ -19,6 +19,53 @@ GENERATOR_TAG = "MainHome_Interactive"
 FOLDER_NAME = "MainHome_Enterable"
 INSTANCE_LABEL = "SM_MainHome_Enterable_Instance"
 
+FAB_TEXTURE_ASSET_PATHS = {
+    "plaster": {
+        "base_color": (
+            "/Game/MainHome/Textures/"
+            "T_Fab_ConstructionPlaster_BaseColor"
+        ),
+        "normal": (
+            "/Game/MainHome/Textures/"
+            "T_Fab_ConstructionPlaster_Normal"
+        ),
+        "roughness": (
+            "/Game/MainHome/Textures/"
+            "T_Fab_ConstructionPlaster_Roughness"
+        ),
+    },
+    "metal": {
+        "base_color": (
+            "/Game/MainHome/Textures/"
+            "T_Fab_RustyMetalSheet_BaseColor"
+        ),
+        "normal": (
+            "/Game/MainHome/Textures/"
+            "T_Fab_RustyMetalSheet_Normal"
+        ),
+        "roughness": (
+            "/Game/MainHome/Textures/"
+            "T_Fab_RustyMetalSheet_Roughness"
+        ),
+    },
+}
+FAB_NODE_DESCRIPTIONS = {
+    "base_color": "MainHome_Fab_BaseColor",
+    "normal": "MainHome_Fab_Normal",
+    "roughness": "MainHome_Fab_Roughness",
+    "tint": "MainHome_Fab_Tint",
+    "multiply": "MainHome_Fab_TintMultiply",
+}
+FAB_FALLBACK_NODE_DESCRIPTIONS = {
+    "normal": "MainHome_Fab_FallbackNormal",
+    "roughness": "MainHome_Fab_FallbackRoughness",
+}
+FAB_TEXTURE_SET_BY_MATERIAL = {
+    "M_MainHome_Wall": "plaster",
+    "M_MainHome_Sign": "plaster",
+    "M_MainHome_FadedGreenMetal": "metal",
+}
+
 SHUTTER_PIVOT_CM = (-96.0, -394.5, 277.0)
 LEFT_HINGE_CM = (78.0, -394.0, 120.0)
 RIGHT_HINGE_CM = (210.0, -394.0, 120.0)
@@ -44,14 +91,14 @@ MATERIAL_ID_BY_NAME = {
     name: index for index, name in enumerate(MATERIAL_ORDER)
 }
 MATERIAL_SETTINGS = {
-    "M_MainHome_Wall": ((0.36, 0.31, 0.23, 1.0), 0.94),
+    "M_MainHome_Wall": ((0.46, 0.39, 0.29, 1.0), 0.94),
     "M_MainHome_Interior": ((0.16, 0.145, 0.12, 1.0), 0.92),
     "M_MainHome_Floor": ((0.20, 0.18, 0.15, 1.0), 0.96),
-    "M_MainHome_Sign": ((0.38, 0.29, 0.20, 1.0), 0.90),
+    "M_MainHome_Sign": ((0.40, 0.32, 0.23, 1.0), 0.92),
     "M_MainHome_Trim": ((0.10, 0.085, 0.07, 1.0), 0.91),
     "M_MainHome_Letters": ((0.30, 0.07, 0.045, 1.0), 0.88),
-    "M_MainHome_Stain": ((0.22, 0.18, 0.14, 1.0), 0.96),
-    "M_MainHome_FadedGreenMetal": ((0.18, 0.28, 0.20, 1.0), 0.82),
+    "M_MainHome_Stain": ((0.24, 0.19, 0.145, 1.0), 0.97),
+    "M_MainHome_FadedGreenMetal": ((0.20, 0.30, 0.21, 1.0), 0.88),
     "M_MainHome_DarkGlass": ((0.025, 0.04, 0.035, 1.0), 0.18),
 }
 
@@ -784,6 +831,54 @@ def _load_asset_if_exists(asset_path):
     return unreal.EditorAssetLibrary.load_asset(asset_path)
 
 
+def load_fab_texture_sets(asset_exists=None, load_asset=None) -> dict:
+    if asset_exists is None or load_asset is None:
+        _require_unreal()
+    if asset_exists is None:
+        asset_exists = unreal.EditorAssetLibrary.does_asset_exist
+    if load_asset is None:
+        load_asset = unreal.EditorAssetLibrary.load_asset
+
+    texture_sets = {}
+    missing_paths = []
+    for set_name, asset_paths in FAB_TEXTURE_ASSET_PATHS.items():
+        availability = {
+            map_name: bool(asset_exists(asset_path))
+            for map_name, asset_path in asset_paths.items()
+        }
+        missing_paths.extend(
+            asset_paths[map_name]
+            for map_name, exists in availability.items()
+            if not exists
+        )
+        if not all(availability.values()):
+            continue
+
+        loaded_set = {
+            map_name: load_asset(asset_path)
+            for map_name, asset_path in asset_paths.items()
+        }
+        unloaded_paths = [
+            asset_paths[map_name]
+            for map_name, asset in loaded_set.items()
+            if asset is None
+        ]
+        if unloaded_paths:
+            missing_paths.extend(unloaded_paths)
+            continue
+        texture_sets[set_name] = loaded_set
+
+    if missing_paths:
+        log_warning = getattr(unreal, "log_warning", None)
+        if callable(log_warning):
+            log_warning(
+                "Main Home Fab textures missing; using aged fallback: {}".format(
+                    ", ".join(dict.fromkeys(missing_paths))
+                )
+            )
+    return texture_sets
+
+
 def make_transform(location_cm):
     _require_unreal()
     return unreal.Transform(
@@ -858,7 +953,173 @@ def create_collision_dynamic_mesh(boxes=None):
     return _create_dynamic_mesh(box for box in boxes if box.collision)
 
 
-def ensure_material(material_name, color=None, roughness=None):
+def _expression_description(expression):
+    get_editor_property = getattr(expression, "get_editor_property", None)
+    if callable(get_editor_property):
+        try:
+            return get_editor_property("desc") or ""
+        except Exception:
+            pass
+    return getattr(expression, "desc", "") or ""
+
+
+def _set_expression_description(expression, description):
+    expression.set_editor_property("desc", description)
+
+
+def _material_expressions(material):
+    editing = unreal.MaterialEditingLibrary
+    get_all_expressions = getattr(
+        editing,
+        "get_all_expressions_in_material",
+        None,
+    )
+    if callable(get_all_expressions):
+        return list(get_all_expressions(material))
+
+    get_editor_property = getattr(material, "get_editor_property", None)
+    if not callable(get_editor_property):
+        return []
+    try:
+        editor_only_data = get_editor_property("editor_only_data")
+        collection = editor_only_data.get_editor_property(
+            "expression_collection"
+        )
+        return list(collection.get_editor_property("expressions"))
+    except Exception:
+        pass
+    try:
+        collection = get_editor_property("expression_collection")
+    except Exception:
+        try:
+            return list(get_editor_property("expressions"))
+        except Exception:
+            return []
+
+    collection_get_editor_property = getattr(
+        collection,
+        "get_editor_property",
+        None,
+    )
+    if callable(collection_get_editor_property):
+        try:
+            return list(collection_get_editor_property("expressions"))
+        except Exception:
+            pass
+    return list(getattr(collection, "expressions", ()))
+
+
+def _find_tagged_expression(expressions, expression_type, description):
+    return next(
+        (
+            expression
+            for expression in expressions
+            if isinstance(expression, expression_type)
+            and _expression_description(expression) == description
+        ),
+        None,
+    )
+
+
+def _find_or_create_tagged_expression(
+    material,
+    expressions,
+    expression_type,
+    description,
+    node_position,
+    preferred=None,
+):
+    matching = [
+        expression
+        for expression in expressions
+        if _expression_description(expression) == description
+    ]
+    if isinstance(preferred, expression_type):
+        expression = preferred
+    else:
+        expression = next(
+            (
+                candidate
+                for candidate in matching
+                if isinstance(candidate, expression_type)
+            ),
+            None,
+        )
+    if expression is None:
+        expression = unreal.MaterialEditingLibrary.create_material_expression(
+            material,
+            expression_type,
+            node_position[0],
+            node_position[1],
+        )
+        if expression is None:
+            raise RuntimeError(
+                "Unable to create tagged material expression {}".format(
+                    description
+                )
+            )
+        expressions.append(expression)
+
+    for duplicate in matching:
+        if duplicate is not expression:
+            _set_expression_description(
+                duplicate,
+                "{}_Duplicate".format(description),
+            )
+    _set_expression_description(expression, description)
+    if expression not in expressions:
+        expressions.append(expression)
+    return expression
+
+
+def _complete_texture_set_for_material(material_name, texture_sets):
+    set_name = FAB_TEXTURE_SET_BY_MATERIAL.get(material_name)
+    if set_name is None or texture_sets is None:
+        return None
+    texture_set = texture_sets.get(set_name)
+    required_maps = FAB_TEXTURE_ASSET_PATHS[set_name]
+    if not isinstance(texture_set, dict) or any(
+        texture_set.get(map_name) is None for map_name in required_maps
+    ):
+        return None
+    return texture_set
+
+
+def _connect_expression(
+    source,
+    output_name,
+    target,
+    input_name,
+    connection_name,
+):
+    if not unreal.MaterialEditingLibrary.connect_material_expressions(
+        source,
+        output_name,
+        target,
+        input_name,
+    ):
+        raise RuntimeError(
+            "Unable to connect material expressions for {}".format(
+                connection_name
+            )
+        )
+
+
+def _connect_material_property(node, output_name, material_property, name):
+    if not unreal.MaterialEditingLibrary.connect_material_property(
+        node,
+        output_name,
+        material_property,
+    ):
+        raise RuntimeError("Unable to connect material property {}".format(name))
+
+
+def ensure_material(
+    material_name,
+    color=None,
+    roughness=None,
+    texture_sets=None,
+):
     _require_unreal()
     if material_name not in MATERIAL_SETTINGS:
         raise ValueError("Unknown material {!r}".format(material_name))
@@ -881,60 +1142,161 @@ def ensure_material(material_name, color=None, roughness=None):
 
     editing = unreal.MaterialEditingLibrary
 
-    color_node = editing.get_material_property_input_node(
+    current_color_node = editing.get_material_property_input_node(
         material,
         unreal.MaterialProperty.MP_BASE_COLOR,
     )
-    if not isinstance(color_node, unreal.MaterialExpressionConstant3Vector):
-        color_node = editing.create_material_expression(
-            material,
-            unreal.MaterialExpressionConstant3Vector,
-            -300,
-            -50,
-        )
-        if color_node is None:
-            raise RuntimeError(
-                "Unable to create Base Color expression for {}".format(
-                    asset_path
-                )
-            )
-        if not editing.connect_material_property(
-            color_node,
-            "",
-            unreal.MaterialProperty.MP_BASE_COLOR,
-        ):
-            raise RuntimeError(
-                "Unable to connect Base Color for {}".format(asset_path)
-            )
-
-    roughness_node = editing.get_material_property_input_node(
+    current_roughness_node = editing.get_material_property_input_node(
         material,
         unreal.MaterialProperty.MP_ROUGHNESS,
     )
-    if not isinstance(roughness_node, unreal.MaterialExpressionConstant):
-        roughness_node = editing.create_material_expression(
-            material,
-            unreal.MaterialExpressionConstant,
-            -300,
-            100,
-        )
-        if roughness_node is None:
-            raise RuntimeError(
-                "Unable to create Roughness expression for {}".format(
-                    asset_path
-                )
-            )
-        if not editing.connect_material_property(
-            roughness_node,
-            "",
-            unreal.MaterialProperty.MP_ROUGHNESS,
-        ):
-            raise RuntimeError(
-                "Unable to connect Roughness for {}".format(asset_path)
-            )
 
-    color_node.set_editor_property("constant", unreal.LinearColor(*color))
-    roughness_node.set_editor_property("r", roughness)
+    expressions = _material_expressions(material)
+    tint_node = _find_or_create_tagged_expression(
+        material,
+        expressions,
+        unreal.MaterialExpressionConstant3Vector,
+        FAB_NODE_DESCRIPTIONS["tint"],
+        (-600, -250),
+        preferred=current_color_node,
+    )
+    fallback_roughness_node = _find_or_create_tagged_expression(
+        material,
+        expressions,
+        unreal.MaterialExpressionConstant,
+        FAB_FALLBACK_NODE_DESCRIPTIONS["roughness"],
+        (-600, 250),
+        preferred=current_roughness_node,
+    )
+    tint_node.set_editor_property("constant", unreal.LinearColor(*color))
+    fallback_roughness_node.set_editor_property("r", roughness)
+
+    texture_set = _complete_texture_set_for_material(
+        material_name,
+        texture_sets,
+    )
+    texture_sample_type = getattr(
+        unreal,
+        "MaterialExpressionTextureSample",
+        (),
+    )
+    existing_fab_normal_node = _find_tagged_expression(
+        expressions,
+        texture_sample_type,
+        FAB_NODE_DESCRIPTIONS["normal"],
+    )
+    fallback_normal_node = None
+    if texture_set is not None or existing_fab_normal_node is not None:
+        fallback_normal_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionConstant3Vector,
+            FAB_FALLBACK_NODE_DESCRIPTIONS["normal"],
+            (-600, 100),
+        )
+        fallback_normal_node.set_editor_property(
+            "constant",
+            unreal.LinearColor(0.0, 0.0, 1.0, 1.0),
+        )
+
+    if texture_set is None:
+        if current_color_node is not tint_node:
+            _connect_material_property(
+                tint_node,
+                "",
+                unreal.MaterialProperty.MP_BASE_COLOR,
+                "Base Color fallback for {}".format(asset_path),
+            )
+        if current_roughness_node is not fallback_roughness_node:
+            _connect_material_property(
+                fallback_roughness_node,
+                "",
+                unreal.MaterialProperty.MP_ROUGHNESS,
+                "Roughness fallback for {}".format(asset_path),
+            )
+        if existing_fab_normal_node is not None:
+            _connect_material_property(
+                fallback_normal_node,
+                "",
+                unreal.MaterialProperty.MP_NORMAL,
+                "Normal fallback for {}".format(asset_path),
+            )
+    else:
+        base_color_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionTextureSample,
+            FAB_NODE_DESCRIPTIONS["base_color"],
+            (-900, -150),
+        )
+        normal_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionTextureSample,
+            FAB_NODE_DESCRIPTIONS["normal"],
+            (-900, 50),
+        )
+        roughness_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionTextureSample,
+            FAB_NODE_DESCRIPTIONS["roughness"],
+            (-900, 250),
+        )
+        multiply_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionMultiply,
+            FAB_NODE_DESCRIPTIONS["multiply"],
+            (-350, -150),
+        )
+
+        base_color_node.set_editor_property(
+            "texture",
+            texture_set["base_color"],
+        )
+        normal_node.set_editor_property("texture", texture_set["normal"])
+        normal_node.set_editor_property(
+            "sampler_type",
+            unreal.MaterialSamplerType.SAMPLERTYPE_NORMAL,
+        )
+        roughness_node.set_editor_property(
+            "texture",
+            texture_set["roughness"],
+        )
+
+        _connect_expression(
+            base_color_node,
+            "RGB",
+            multiply_node,
+            "A",
+            "Fab Base Color",
+        )
+        _connect_expression(
+            tint_node,
+            "",
+            multiply_node,
+            "B",
+            "Fab Tint",
+        )
+        _connect_material_property(
+            multiply_node,
+            "",
+            unreal.MaterialProperty.MP_BASE_COLOR,
+            "Fab Base Color for {}".format(asset_path),
+        )
+        _connect_material_property(
+            normal_node,
+            "RGB",
+            unreal.MaterialProperty.MP_NORMAL,
+            "Fab Normal for {}".format(asset_path),
+        )
+        _connect_material_property(
+            roughness_node,
+            "R",
+            unreal.MaterialProperty.MP_ROUGHNESS,
+            "Fab Roughness for {}".format(asset_path),
+        )
 
     editing.recompile_material(material)
     if not unreal.EditorAssetLibrary.save_loaded_asset(material, False):
@@ -1211,7 +1573,11 @@ def generate_enterable_main_home():
     validate_design(boxes)
     _require_unreal()
 
-    materials = [ensure_material(name) for name in MATERIAL_ORDER]
+    texture_sets = load_fab_texture_sets()
+    materials = [
+        ensure_material(name, texture_sets=texture_sets)
+        for name in MATERIAL_ORDER
+    ]
     static_meshes = {
         definition.asset_path: create_or_update_static_mesh(
             definition,

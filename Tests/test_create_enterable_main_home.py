@@ -176,6 +176,158 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             for first_axis, second_axis in zip(first, second)
         )
 
+    def _fake_material_graph(self):
+        class FakeExpression:
+            def __init__(self):
+                self.properties = {}
+
+            def get_editor_property(self, name):
+                return self.properties.get(name)
+
+            def set_editor_property(self, name, value):
+                self.properties[name] = value
+
+        class FakeMaterialExpressionConstant3Vector(FakeExpression):
+            pass
+
+        class FakeMaterialExpressionConstant(FakeExpression):
+            pass
+
+        class FakeMaterialExpressionTextureSample(FakeExpression):
+            pass
+
+        class FakeMaterialExpressionMultiply(FakeExpression):
+            pass
+
+        color_node = FakeMaterialExpressionConstant3Vector()
+        roughness_node = FakeMaterialExpressionConstant()
+        expressions = [color_node, roughness_node]
+
+        class FakeExpressionCollection:
+            def get_editor_property(self, name):
+                if name != "expressions":
+                    raise AttributeError(name)
+                return list(expressions)
+
+        class FakeEditorOnlyData:
+            def get_editor_property(self, name):
+                if name != "expression_collection":
+                    raise AttributeError(name)
+                return FakeExpressionCollection()
+
+        class FakeMaterial:
+            def get_editor_property(self, name):
+                if name != "editor_only_data":
+                    raise AttributeError(name)
+                return FakeEditorOnlyData()
+
+        material = FakeMaterial()
+        base_color_property = object()
+        normal_property = object()
+        roughness_property = object()
+        property_inputs = {
+            base_color_property: color_node,
+            normal_property: None,
+            roughness_property: roughness_node,
+        }
+        created_expression_types = []
+        expression_connections = []
+        property_connections = []
+        deleted_materials = []
+        recompiled_materials = []
+        saved_assets = []
+
+        def create_material_expression(
+            received_material,
+            expression_type,
+            _node_x,
+            _node_y,
+        ):
+            self.assertIs(material, received_material)
+            created_expression_types.append(expression_type)
+            expression = expression_type()
+            expressions.append(expression)
+            return expression
+
+        def connect_material_expressions(
+            source,
+            output_name,
+            target,
+            input_name,
+        ):
+            expression_connections.append(
+                (source, output_name, target, input_name)
+            )
+            return True
+
+        def connect_material_property(node, output_name, material_property):
+            property_connections.append(
+                (node, output_name, material_property)
+            )
+            property_inputs[material_property] = node
+            return True
+
+        normal_sampler_type = object()
+        fake_unreal = SimpleNamespace(
+            EditorAssetLibrary=SimpleNamespace(
+                save_loaded_asset=lambda asset, _only_if_dirty: (
+                    saved_assets.append(asset) or True
+                )
+            ),
+            LinearColor=lambda *values: tuple(values),
+            MaterialExpressionConstant=FakeMaterialExpressionConstant,
+            MaterialExpressionConstant3Vector=(
+                FakeMaterialExpressionConstant3Vector
+            ),
+            MaterialExpressionMultiply=FakeMaterialExpressionMultiply,
+            MaterialExpressionTextureSample=(
+                FakeMaterialExpressionTextureSample
+            ),
+            MaterialProperty=SimpleNamespace(
+                MP_BASE_COLOR=base_color_property,
+                MP_NORMAL=normal_property,
+                MP_ROUGHNESS=roughness_property,
+            ),
+            MaterialSamplerType=SimpleNamespace(
+                SAMPLERTYPE_NORMAL=normal_sampler_type,
+            ),
+            MaterialEditingLibrary=SimpleNamespace(
+                get_material_property_input_node=(
+                    lambda received_material, material_property: (
+                        self.assertIs(material, received_material)
+                        or property_inputs[material_property]
+                    )
+                ),
+                delete_all_material_expressions=lambda received_material: (
+                    deleted_materials.append(received_material)
+                ),
+                create_material_expression=create_material_expression,
+                connect_material_expressions=connect_material_expressions,
+                connect_material_property=connect_material_property,
+                recompile_material=lambda received_material: (
+                    recompiled_materials.append(received_material)
+                ),
+            ),
+        )
+        state = SimpleNamespace(
+            material=material,
+            color_node=color_node,
+            roughness_node=roughness_node,
+            expressions=expressions,
+            property_inputs=property_inputs,
+            base_color_property=base_color_property,
+            normal_property=normal_property,
+            roughness_property=roughness_property,
+            normal_sampler_type=normal_sampler_type,
+            created_expression_types=created_expression_types,
+            expression_connections=expression_connections,
+            property_connections=property_connections,
+            deleted_materials=deleted_materials,
+            recompiled_materials=recompiled_materials,
+            saved_assets=saved_assets,
+        )
+        return fake_unreal, state
+
     def test_all_generated_asset_paths_are_isolated_from_old_shop(self):
         asset_paths = [
             definition.asset_path
@@ -231,6 +383,276 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         )
         self.assertEqual([missing_path, existing_path], checked_paths)
         self.assertEqual([existing_path], loaded_paths)
+
+    def test_fab_texture_paths_node_tags_and_material_mapping_are_stable(self):
+        self.assertEqual(
+            {
+                "plaster": {
+                    "base_color": (
+                        "/Game/MainHome/Textures/"
+                        "T_Fab_ConstructionPlaster_BaseColor"
+                    ),
+                    "normal": (
+                        "/Game/MainHome/Textures/"
+                        "T_Fab_ConstructionPlaster_Normal"
+                    ),
+                    "roughness": (
+                        "/Game/MainHome/Textures/"
+                        "T_Fab_ConstructionPlaster_Roughness"
+                    ),
+                },
+                "metal": {
+                    "base_color": (
+                        "/Game/MainHome/Textures/"
+                        "T_Fab_RustyMetalSheet_BaseColor"
+                    ),
+                    "normal": (
+                        "/Game/MainHome/Textures/"
+                        "T_Fab_RustyMetalSheet_Normal"
+                    ),
+                    "roughness": (
+                        "/Game/MainHome/Textures/"
+                        "T_Fab_RustyMetalSheet_Roughness"
+                    ),
+                },
+            },
+            self.generator.FAB_TEXTURE_ASSET_PATHS,
+        )
+        self.assertEqual(
+            {
+                "base_color": "MainHome_Fab_BaseColor",
+                "normal": "MainHome_Fab_Normal",
+                "roughness": "MainHome_Fab_Roughness",
+                "tint": "MainHome_Fab_Tint",
+                "multiply": "MainHome_Fab_TintMultiply",
+            },
+            self.generator.FAB_NODE_DESCRIPTIONS,
+        )
+        self.assertEqual(
+            {
+                "M_MainHome_Wall": "plaster",
+                "M_MainHome_Sign": "plaster",
+                "M_MainHome_FadedGreenMetal": "metal",
+            },
+            self.generator.FAB_TEXTURE_SET_BY_MATERIAL,
+        )
+        self.assertIs(
+            dict,
+            self.generator.load_fab_texture_sets.__annotations__.get(
+                "return"
+            ),
+        )
+
+    def test_load_fab_texture_sets_returns_only_complete_sets_and_warns_once(self):
+        paths = {
+            set_name: dict(texture_paths)
+            for set_name, texture_paths in (
+                self.generator.FAB_TEXTURE_ASSET_PATHS.items()
+            )
+        }
+        available_paths = set(paths["plaster"].values()) | {
+            paths["metal"]["base_color"],
+            paths["metal"]["normal"],
+        }
+        loaded_assets = {
+            path: object()
+            for path in available_paths
+        }
+        checked_paths = []
+        loaded_paths = []
+        warnings = []
+
+        def asset_exists(path):
+            checked_paths.append(path)
+            return path in available_paths
+
+        def load_asset(path):
+            loaded_paths.append(path)
+            return loaded_assets[path]
+
+        self._patch_generator(
+            "unreal",
+            SimpleNamespace(log_warning=warnings.append),
+        )
+
+        result = self.generator.load_fab_texture_sets(
+            asset_exists=asset_exists,
+            load_asset=load_asset,
+        )
+
+        self.assertEqual(
+            {
+                "plaster": {
+                    map_name: loaded_assets[path]
+                    for map_name, path in paths["plaster"].items()
+                }
+            },
+            result,
+        )
+        self.assertEqual(
+            set(
+                path
+                for texture_paths in paths.values()
+                for path in texture_paths.values()
+            ),
+            set(checked_paths),
+        )
+        self.assertEqual(set(paths["plaster"].values()), set(loaded_paths))
+        self.assertEqual(1, len(warnings))
+        self.assertIn(paths["metal"]["roughness"], warnings[0])
+        self.assertNotIn(paths["metal"]["base_color"], warnings[0])
+
+    def test_complete_fab_set_binds_tagged_nodes_and_reuses_them(self):
+        fake_unreal, state = self._fake_material_graph()
+        self._patch_generator("unreal", fake_unreal)
+        self._patch_generator(
+            "_load_asset_if_exists",
+            lambda _asset_path: state.material,
+        )
+        plaster_textures = {
+            "base_color": object(),
+            "normal": object(),
+            "roughness": object(),
+        }
+
+        first_result = self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={"plaster": plaster_textures},
+        )
+        expression_count = len(state.expressions)
+        second_result = self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={"plaster": plaster_textures},
+        )
+
+        tagged_nodes = {
+            description: [
+                expression
+                for expression in state.expressions
+                if expression.properties.get("desc") == description
+            ]
+            for description in self.generator.FAB_NODE_DESCRIPTIONS.values()
+        }
+        self.assertIs(state.material, first_result)
+        self.assertIs(state.material, second_result)
+        self.assertEqual(expression_count, len(state.expressions))
+        self.assertTrue(
+            all(len(nodes) == 1 for nodes in tagged_nodes.values())
+        )
+        base_color_node = tagged_nodes[
+            self.generator.FAB_NODE_DESCRIPTIONS["base_color"]
+        ][0]
+        normal_node = tagged_nodes[
+            self.generator.FAB_NODE_DESCRIPTIONS["normal"]
+        ][0]
+        roughness_node = tagged_nodes[
+            self.generator.FAB_NODE_DESCRIPTIONS["roughness"]
+        ][0]
+        tint_node = tagged_nodes[
+            self.generator.FAB_NODE_DESCRIPTIONS["tint"]
+        ][0]
+        multiply_node = tagged_nodes[
+            self.generator.FAB_NODE_DESCRIPTIONS["multiply"]
+        ][0]
+        self.assertIs(
+            plaster_textures["base_color"],
+            base_color_node.properties["texture"],
+        )
+        self.assertIs(
+            plaster_textures["normal"],
+            normal_node.properties["texture"],
+        )
+        self.assertIs(
+            plaster_textures["roughness"],
+            roughness_node.properties["texture"],
+        )
+        self.assertIs(
+            state.normal_sampler_type,
+            normal_node.properties["sampler_type"],
+        )
+        self.assertEqual(
+            (0.46, 0.39, 0.29, 1.0),
+            tint_node.properties["constant"],
+        )
+        self.assertIs(
+            multiply_node,
+            state.property_inputs[state.base_color_property],
+        )
+        self.assertIs(
+            normal_node,
+            state.property_inputs[state.normal_property],
+        )
+        self.assertIs(
+            roughness_node,
+            state.property_inputs[state.roughness_property],
+        )
+        self.assertIn(
+            (base_color_node, "RGB", multiply_node, "A"),
+            state.expression_connections,
+        )
+        self.assertIn(
+            (tint_node, "", multiply_node, "B"),
+            state.expression_connections,
+        )
+        self.assertEqual([], state.deleted_materials)
+
+    def test_missing_fab_set_reconnects_constants_and_keeps_fab_nodes(self):
+        fake_unreal, state = self._fake_material_graph()
+        self._patch_generator("unreal", fake_unreal)
+        self._patch_generator(
+            "_load_asset_if_exists",
+            lambda _asset_path: state.material,
+        )
+        plaster_textures = {
+            "base_color": object(),
+            "normal": object(),
+            "roughness": object(),
+        }
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={"plaster": plaster_textures},
+        )
+        tagged_fab_nodes = {
+            description: next(
+                expression
+                for expression in state.expressions
+                if expression.properties.get("desc") == description
+            )
+            for description in self.generator.FAB_NODE_DESCRIPTIONS.values()
+        }
+        expression_count = len(state.expressions)
+
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+        )
+
+        self.assertEqual(expression_count, len(state.expressions))
+        for node in tagged_fab_nodes.values():
+            self.assertIn(node, state.expressions)
+        self.assertIs(
+            tagged_fab_nodes[self.generator.FAB_NODE_DESCRIPTIONS["tint"]],
+            state.property_inputs[state.base_color_property],
+        )
+        self.assertIs(
+            state.roughness_node,
+            state.property_inputs[state.roughness_property],
+        )
+        fallback_normal_node = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.FAB_FALLBACK_NODE_DESCRIPTIONS["normal"]
+        )
+        self.assertIs(
+            fallback_normal_node,
+            state.property_inputs[state.normal_property],
+        )
+        self.assertEqual(
+            (0.0, 0.0, 1.0, 1.0),
+            fallback_normal_node.properties["constant"],
+        )
+        self.assertEqual([], state.deleted_materials)
 
     def test_ensure_material_reuses_existing_input_nodes_without_deleting_expressions(
         self,
@@ -1038,8 +1460,30 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             settings["M_MainHome_Letters"][0],
         )
         self.assertEqual(
-            (0.22, 0.18, 0.14, 1.0),
+            (0.24, 0.19, 0.145, 1.0),
             settings["M_MainHome_Stain"][0],
+        )
+
+    def test_missing_fab_textures_use_lighter_aged_fallback_palette(self):
+        self.assertEqual(
+            {
+                "M_MainHome_Wall": ((0.46, 0.39, 0.29, 1.0), 0.94),
+                "M_MainHome_Sign": ((0.40, 0.32, 0.23, 1.0), 0.92),
+                "M_MainHome_FadedGreenMetal": (
+                    (0.20, 0.30, 0.21, 1.0),
+                    0.88,
+                ),
+                "M_MainHome_Stain": ((0.24, 0.19, 0.145, 1.0), 0.97),
+            },
+            {
+                material_name: self.generator.MATERIAL_SETTINGS[material_name]
+                for material_name in (
+                    "M_MainHome_Wall",
+                    "M_MainHome_Sign",
+                    "M_MainHome_FadedGreenMetal",
+                    "M_MainHome_Stain",
+                )
+            },
         )
 
     def test_ue57_material_ids_are_enabled_before_first_box_append(self):
@@ -1452,6 +1896,14 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         placed_actor = object()
         calls = []
         logs = []
+        texture_sets = {
+            "plaster": {
+                "base_color": object(),
+                "normal": object(),
+                "roughness": object(),
+            }
+        }
+        received_texture_sets = []
 
         def build_boxes():
             calls.append("build_box_specs")
@@ -1464,7 +1916,8 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         def require_unreal():
             calls.append("_require_unreal")
 
-        def ensure_material(name):
+        def ensure_material(name, texture_sets=None):
+            received_texture_sets.append(texture_sets)
             calls.append("ensure_material:{}".format(name))
             return "material:{}".format(name)
 
@@ -1485,6 +1938,29 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self._patch_generator("validate_design", validate)
         self._patch_generator("_require_unreal", require_unreal)
         self._patch_generator("ensure_material", ensure_material)
+        original_loader = getattr(
+            self.generator,
+            "load_fab_texture_sets",
+            None,
+        )
+        setattr(
+            self.generator,
+            "load_fab_texture_sets",
+            lambda: calls.append("load_fab_texture_sets") or texture_sets,
+        )
+        if original_loader is None:
+            self.addCleanup(
+                delattr,
+                self.generator,
+                "load_fab_texture_sets",
+            )
+        else:
+            self.addCleanup(
+                setattr,
+                self.generator,
+                "load_fab_texture_sets",
+                original_loader,
+            )
         self._patch_generator("create_or_update_static_mesh", create_static)
         self._patch_generator("place_single_instance", place_instance)
         self._patch_generator("unreal", SimpleNamespace(log=logs.append))
@@ -1503,6 +1979,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 "build_box_specs",
                 "validate_design",
                 "_require_unreal",
+                "load_fab_texture_sets",
                 *[
                     "ensure_material:{}".format(name)
                     for name in self.generator.MATERIAL_ORDER
@@ -1514,6 +1991,10 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 "place_single_instance",
             ],
             calls,
+        )
+        self.assertEqual(
+            [texture_sets] * len(self.generator.MATERIAL_ORDER),
+            received_texture_sets,
         )
         joined_logs = "\n".join(logs)
         for definition in self.generator.MESH_ASSET_DEFINITIONS:
