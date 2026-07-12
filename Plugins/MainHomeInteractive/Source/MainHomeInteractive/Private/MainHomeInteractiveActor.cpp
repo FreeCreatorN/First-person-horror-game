@@ -60,6 +60,14 @@ namespace MainHomeInteractive
         State.ShutterTarget = State.ShutterTarget >= 0.5f ? 0.0f : 1.0f;
     }
 
+    bool ShouldCloseShutterWithoutAim(
+        const FAnimationState& State,
+        const bool bPawnInShutterZone
+    )
+    {
+        return bPawnInShutterZone && State.ShutterTarget >= 0.5f;
+    }
+
     void ToggleDoorTarget(FAnimationState& State, const bool bIsLeftDoor)
     {
         float& Target = bIsLeftDoor
@@ -71,16 +79,6 @@ namespace MainHomeInteractive
     void ConfigureInteractionBinding(FInputKeyBinding& Binding)
     {
         Binding.bConsumeInput = false;
-    }
-
-    FVector GetShutterTraceTargetLocation()
-    {
-        return FVector(-96.0f, -394.0f, 263.0f);
-    }
-
-    FVector GetShutterTraceTargetExtent()
-    {
-        return FVector(114.5f, 0.25f, 3.0f);
     }
 
     bool ShouldEnableShutterCollision(const float Alpha, const float Target)
@@ -101,7 +99,6 @@ namespace MainHomeInteractive
     EHitPart ClassifyHitComponent(
         const UPrimitiveComponent* HitComponent,
         const UPrimitiveComponent* ShutterComponent,
-        const UPrimitiveComponent* ShutterTraceTargetComponent,
         const UPrimitiveComponent* LeftDoorComponent,
         const UPrimitiveComponent* RightDoorComponent
     )
@@ -110,10 +107,7 @@ namespace MainHomeInteractive
         {
             return EHitPart::None;
         }
-        if (
-            HitComponent == ShutterComponent
-            || HitComponent == ShutterTraceTargetComponent
-        )
+        if (HitComponent == ShutterComponent)
         {
             return EHitPart::Shutter;
         }
@@ -153,21 +147,6 @@ AMainHomeInteractiveActor::AMainHomeInteractiveActor()
     Shutter->SetMobility(EComponentMobility::Movable);
     Shutter->SetRelativeLocation(FVector(-96.0f, -394.5f, 277.0f));
     Shutter->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-
-    ShutterTraceTarget = CreateDefaultSubobject<UBoxComponent>(TEXT("ShutterTraceTarget"));
-    ShutterTraceTarget->SetupAttachment(SceneRoot);
-    ShutterTraceTarget->SetMobility(EComponentMobility::Static);
-    // Closed shutter bounds are X [-211, 19], Y [-394.5, -391.5], Z [15, 277].
-    // Keep a fixed, inset aiming strip just below the hood while leaving the opening clear.
-    ShutterTraceTarget->SetRelativeLocation(MainHomeInteractive::GetShutterTraceTargetLocation());
-    ShutterTraceTarget->SetBoxExtent(MainHomeInteractive::GetShutterTraceTargetExtent());
-    ShutterTraceTarget->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
-    ShutterTraceTarget->SetCollisionObjectType(ECC_WorldDynamic);
-    ShutterTraceTarget->SetCollisionResponseToAllChannels(ECR_Ignore);
-    ShutterTraceTarget->SetCollisionResponseToChannel(ECC_Visibility, ECR_Block);
-    ShutterTraceTarget->SetGenerateOverlapEvents(false);
-    ShutterTraceTarget->SetVisibility(false);
-    ShutterTraceTarget->SetHiddenInGame(true);
 
     LeftHinge = CreateDefaultSubobject<USceneComponent>(TEXT("LeftHinge"));
     LeftHinge->SetupAttachment(SceneRoot);
@@ -393,6 +372,15 @@ void AMainHomeInteractiveActor::HandleInteractPressed()
         return;
     }
 
+    if (MainHomeInteractive::ShouldCloseShutterWithoutAim(
+        AnimationState,
+        ShutterInteractionZone->IsOverlappingActor(Pawn)
+    ))
+    {
+        ToggleShutter();
+        return;
+    }
+
     const FVector TraceStart = Controller->PlayerCameraManager->GetCameraLocation();
     const FVector TraceEnd = TraceStart
         + Controller->PlayerCameraManager->GetCameraRotation().Vector()
@@ -415,7 +403,6 @@ void AMainHomeInteractiveActor::HandleInteractPressed()
     switch (MainHomeInteractive::ClassifyHitComponent(
         Hit.GetComponent(),
         Shutter,
-        ShutterTraceTarget,
         LeftDoorLeaf,
         RightDoorLeaf
     ))

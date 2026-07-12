@@ -2,7 +2,6 @@
 
 #include "MainHomeInteractiveActor.h"
 
-#include "Components/BoxComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "InputCoreTypes.h"
@@ -84,41 +83,48 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(
 bool FMainHomeHitClassificationTest::RunTest(const FString& Parameters)
 {
     UStaticMeshComponent* Shutter = NewObject<UStaticMeshComponent>();
-    UBoxComponent* ShutterTraceTarget = NewObject<UBoxComponent>();
     UStaticMeshComponent* LeftDoor = NewObject<UStaticMeshComponent>();
     UStaticMeshComponent* RightDoor = NewObject<UStaticMeshComponent>();
     UStaticMeshComponent* Foreign = NewObject<UStaticMeshComponent>();
 
-    TestEqual(TEXT("Shutter hit"), ClassifyHitComponent(Shutter, Shutter, ShutterTraceTarget, LeftDoor, RightDoor), EHitPart::Shutter);
-    TestEqual(TEXT("Shutter trace target hit"), ClassifyHitComponent(ShutterTraceTarget, Shutter, ShutterTraceTarget, LeftDoor, RightDoor), EHitPart::Shutter);
-    TestEqual(TEXT("Left leaf hit"), ClassifyHitComponent(LeftDoor, Shutter, ShutterTraceTarget, LeftDoor, RightDoor), EHitPart::LeftDoor);
-    TestEqual(TEXT("Right leaf hit"), ClassifyHitComponent(RightDoor, Shutter, ShutterTraceTarget, LeftDoor, RightDoor), EHitPart::RightDoor);
-    TestEqual(TEXT("Foreign component ignored"), ClassifyHitComponent(Foreign, Shutter, ShutterTraceTarget, LeftDoor, RightDoor), EHitPart::None);
-    TestEqual(TEXT("Null component ignored"), ClassifyHitComponent(nullptr, Shutter, ShutterTraceTarget, LeftDoor, RightDoor), EHitPart::None);
+    TestEqual(TEXT("Shutter hit"), ClassifyHitComponent(Shutter, Shutter, LeftDoor, RightDoor), EHitPart::Shutter);
+    TestEqual(TEXT("Left leaf hit"), ClassifyHitComponent(LeftDoor, Shutter, LeftDoor, RightDoor), EHitPart::LeftDoor);
+    TestEqual(TEXT("Right leaf hit"), ClassifyHitComponent(RightDoor, Shutter, LeftDoor, RightDoor), EHitPart::RightDoor);
+    TestEqual(TEXT("Foreign component ignored"), ClassifyHitComponent(Foreign, Shutter, LeftDoor, RightDoor), EHitPart::None);
+    TestEqual(TEXT("Null component ignored"), ClassifyHitComponent(nullptr, Shutter, LeftDoor, RightDoor), EHitPart::None);
     return true;
 }
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(
-    FMainHomeShutterTraceTargetBoundsTest,
-    "MainHomeInteractive.Input.ShutterTraceTargetBounds",
+    FMainHomeShutterCloseWithoutAimTest,
+    "MainHomeInteractive.Input.ShutterCloseWithoutAim",
     EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter
 )
 
-bool FMainHomeShutterTraceTargetBoundsTest::RunTest(const FString& Parameters)
+bool FMainHomeShutterCloseWithoutAimTest::RunTest(const FString& Parameters)
 {
-    const FVector Location = GetShutterTraceTargetLocation();
-    const FVector Extent = GetShutterTraceTargetExtent();
+    MainHomeInteractive::FAnimationState State;
+    TestFalse(
+        TEXT("Closed shutter does not consume arbitrary E"),
+        ShouldCloseShutterWithoutAim(State, true)
+    );
 
-    TestEqual(TEXT("Trace strip center X"), Location.X, -96.0);
-    TestEqual(TEXT("Trace strip center Y"), Location.Y, -394.0);
-    TestEqual(TEXT("Trace strip center Z"), Location.Z, 263.0);
-    TestEqual(TEXT("Trace strip half-width"), Extent.X, 114.5);
-    TestEqual(TEXT("Trace strip half-depth"), Extent.Y, 0.25);
-    TestTrue(TEXT("Trace strip half-height stays at or below 3 cm"), Extent.Z <= 3.0f);
-    TestTrue(TEXT("Trace strip bottom leaves the low sight channel open"), Location.Z - Extent.Z >= 260.0f);
-    TestTrue(TEXT("Trace strip top remains below the fixed hood"), Location.Z + Extent.Z <= 266.0f);
-    TestTrue(TEXT("Trace strip is inset from the shutter left edge"), Location.X - Extent.X > -211.0f);
-    TestTrue(TEXT("Trace strip is inset from the shutter right edge"), Location.X + Extent.X < 19.0f);
+    State.ShutterTarget = 1.0f;
+    TestFalse(
+        TEXT("Open target outside shutter zone does nothing"),
+        ShouldCloseShutterWithoutAim(State, false)
+    );
+    TestTrue(
+        TEXT("Open target inside shutter zone closes without aim"),
+        ShouldCloseShutterWithoutAim(State, true)
+    );
+
+    ToggleShutterTarget(State);
+    TestEqual(TEXT("Fallback E targets closed"), State.ShutterTarget, 0.0f);
+    TestTrue(
+        TEXT("Closing restores collision immediately"),
+        ShouldEnableShutterCollision(1.0f, State.ShutterTarget)
+    );
     return true;
 }
 

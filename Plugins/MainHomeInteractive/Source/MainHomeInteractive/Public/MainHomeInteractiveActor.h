@@ -55,6 +55,10 @@ namespace MainHomeInteractive
     MAINHOMEINTERACTIVE_API void ToggleShutterTarget(
         FAnimationState& State
     );
+    MAINHOMEINTERACTIVE_API bool ShouldCloseShutterWithoutAim(
+        const FAnimationState& State,
+        bool bPawnInShutterZone
+    );
     MAINHOMEINTERACTIVE_API void ToggleDoorTarget(
         FAnimationState& State,
         bool bIsLeftDoor
@@ -62,8 +66,6 @@ namespace MainHomeInteractive
     MAINHOMEINTERACTIVE_API void ConfigureInteractionBinding(
         FInputKeyBinding& Binding
     );
-    MAINHOMEINTERACTIVE_API FVector GetShutterTraceTargetLocation();
-    MAINHOMEINTERACTIVE_API FVector GetShutterTraceTargetExtent();
     MAINHOMEINTERACTIVE_API bool ShouldEnableShutterCollision(
         float Alpha,
         float Target
@@ -74,7 +76,6 @@ namespace MainHomeInteractive
     MAINHOMEINTERACTIVE_API EHitPart ClassifyHitComponent(
         const UPrimitiveComponent* HitComponent,
         const UPrimitiveComponent* ShutterComponent,
-        const UPrimitiveComponent* ShutterTraceTargetComponent,
         const UPrimitiveComponent* LeftDoorComponent,
         const UPrimitiveComponent* RightDoorComponent
     );
@@ -120,9 +121,6 @@ private:
 
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Main Home|Components", meta = (AllowPrivateAccess = "true"))
     TObjectPtr<UStaticMeshComponent> Shutter;
-
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Main Home|Components", meta = (AllowPrivateAccess = "true"))
-    TObjectPtr<UBoxComponent> ShutterTraceTarget;
 
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Main Home|Components", meta = (AllowPrivateAccess = "true"))
     TObjectPtr<USceneComponent> LeftHinge;
