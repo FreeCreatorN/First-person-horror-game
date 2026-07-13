@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/EngineTypes.h"
 #include "GameFramework/Actor.h"
 #include "MainHomeInteractiveActor.generated.h"
 
@@ -55,10 +56,6 @@ namespace MainHomeInteractive
     MAINHOMEINTERACTIVE_API void ToggleShutterTarget(
         FAnimationState& State
     );
-    MAINHOMEINTERACTIVE_API bool ShouldCloseShutterWithoutAim(
-        const FAnimationState& State,
-        bool bPawnInShutterZone
-    );
     MAINHOMEINTERACTIVE_API void ToggleDoorTarget(
         FAnimationState& State,
         bool bIsLeftDoor
@@ -66,7 +63,7 @@ namespace MainHomeInteractive
     MAINHOMEINTERACTIVE_API void ConfigureInteractionBinding(
         FInputKeyBinding& Binding
     );
-    MAINHOMEINTERACTIVE_API bool ShouldEnableShutterCollision(
+    MAINHOMEINTERACTIVE_API ECollisionEnabled::Type GetShutterCollisionMode(
         float Alpha,
         float Target
     );
@@ -183,6 +180,7 @@ private:
     void ActivateInputForPawn(APawn* Pawn);
     void DeactivateCurrentInput();
     void RemoveInteractionBinding();
+    void ResetMainHomeComponentLayout();
     void ApplyAnimationState();
     void SetTickForAnimationState();
 };

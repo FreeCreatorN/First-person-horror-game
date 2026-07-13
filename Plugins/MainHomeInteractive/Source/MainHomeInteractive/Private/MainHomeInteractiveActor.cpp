@@ -28,7 +28,7 @@ namespace MainHomeInteractive
 
     float ComputeShutterScale(const float Alpha)
     {
-        return FMath::Lerp(1.0f, 0.03f, FMath::Clamp(Alpha, 0.0f, 1.0f));
+        return FMath::Lerp(1.0f, 0.04f, FMath::Clamp(Alpha, 0.0f, 1.0f));
     }
 
     float AdvanceAlpha(
@@ -60,14 +60,6 @@ namespace MainHomeInteractive
         State.ShutterTarget = State.ShutterTarget >= 0.5f ? 0.0f : 1.0f;
     }
 
-    bool ShouldCloseShutterWithoutAim(
-        const FAnimationState& State,
-        const bool bPawnInShutterZone
-    )
-    {
-        return bPawnInShutterZone && State.ShutterTarget >= 0.5f;
-    }
-
     void ToggleDoorTarget(FAnimationState& State, const bool bIsLeftDoor)
     {
         float& Target = bIsLeftDoor
@@ -81,12 +73,17 @@ namespace MainHomeInteractive
         Binding.bConsumeInput = false;
     }
 
-    bool ShouldEnableShutterCollision(const float Alpha, const float Target)
+    ECollisionEnabled::Type GetShutterCollisionMode(
+        const float Alpha,
+        const float Target
+    )
     {
-        return !(
+        const bool bIsSettledOpen =
             FMath::IsNearlyEqual(Alpha, 1.0f)
-            && FMath::IsNearlyEqual(Target, 1.0f)
-        );
+            && FMath::IsNearlyEqual(Target, 1.0f);
+        return bIsSettledOpen
+            ? ECollisionEnabled::QueryOnly
+            : ECollisionEnabled::QueryAndPhysics;
     }
 
     bool IsAnimationMoving(const FAnimationState& State)
@@ -145,13 +142,11 @@ AMainHomeInteractiveActor::AMainHomeInteractiveActor()
     Shutter = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shutter"));
     Shutter->SetupAttachment(SceneRoot);
     Shutter->SetMobility(EComponentMobility::Movable);
-    Shutter->SetRelativeLocation(FVector(-96.0f, -394.5f, 277.0f));
     Shutter->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
     LeftHinge = CreateDefaultSubobject<USceneComponent>(TEXT("LeftHinge"));
     LeftHinge->SetupAttachment(SceneRoot);
     LeftHinge->SetMobility(EComponentMobility::Movable);
-    LeftHinge->SetRelativeLocation(FVector(78.0f, -394.0f, 120.0f));
 
     LeftDoorLeaf = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LeftDoorLeaf"));
     LeftDoorLeaf->SetupAttachment(LeftHinge);
@@ -161,7 +156,6 @@ AMainHomeInteractiveActor::AMainHomeInteractiveActor()
     RightHinge = CreateDefaultSubobject<USceneComponent>(TEXT("RightHinge"));
     RightHinge->SetupAttachment(SceneRoot);
     RightHinge->SetMobility(EComponentMobility::Movable);
-    RightHinge->SetRelativeLocation(FVector(210.0f, -394.0f, 120.0f));
 
     RightDoorLeaf = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RightDoorLeaf"));
     RightDoorLeaf->SetupAttachment(RightHinge);
@@ -170,13 +164,11 @@ AMainHomeInteractiveActor::AMainHomeInteractiveActor()
 
     ShutterInteractionZone = CreateDefaultSubobject<UBoxComponent>(TEXT("ShutterInteractionZone"));
     ShutterInteractionZone->SetupAttachment(SceneRoot);
-    ShutterInteractionZone->SetRelativeLocation(FVector(-96.0f, -430.0f, 151.0f));
-    ShutterInteractionZone->SetBoxExtent(FVector(145.0f, 90.0f, 150.0f));
 
     DoorInteractionZone = CreateDefaultSubobject<UBoxComponent>(TEXT("DoorInteractionZone"));
     DoorInteractionZone->SetupAttachment(SceneRoot);
-    DoorInteractionZone->SetRelativeLocation(FVector(144.0f, -430.0f, 151.0f));
-    DoorInteractionZone->SetBoxExtent(FVector(95.0f, 90.0f, 150.0f));
+
+    ResetMainHomeComponentLayout();
 
     for (UBoxComponent* Zone : {ShutterInteractionZone.Get(), DoorInteractionZone.Get()})
     {
@@ -263,13 +255,10 @@ void AMainHomeInteractiveActor::Tick(const float DeltaSeconds)
 void AMainHomeInteractiveActor::ToggleShutter()
 {
     MainHomeInteractive::ToggleShutterTarget(AnimationState);
-    if (MainHomeInteractive::ShouldEnableShutterCollision(
+    Shutter->SetCollisionEnabled(MainHomeInteractive::GetShutterCollisionMode(
         AnimationState.ShutterAlpha,
         AnimationState.ShutterTarget
-    ))
-    {
-        Shutter->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-    }
+    ));
     SetTickForAnimationState();
 }
 
@@ -292,10 +281,12 @@ void AMainHomeInteractiveActor::SetMainHomeMeshes(
     UStaticMesh* InRightDoor
 )
 {
+    ResetMainHomeComponentLayout();
     FixedShell->SetStaticMesh(InFixedShell);
     Shutter->SetStaticMesh(InShutter);
     LeftDoorLeaf->SetStaticMesh(InLeftDoor);
     RightDoorLeaf->SetStaticMesh(InRightDoor);
+    ApplyAnimationState();
 }
 
 void AMainHomeInteractiveActor::HandleInteractionZoneBeginOverlap(
@@ -369,15 +360,6 @@ void AMainHomeInteractiveActor::HandleInteractPressed()
     APawn* Pawn = InputPawn.Get();
     if (Controller == nullptr || Pawn == nullptr || Controller->PlayerCameraManager == nullptr)
     {
-        return;
-    }
-
-    if (MainHomeInteractive::ShouldCloseShutterWithoutAim(
-        AnimationState,
-        ShutterInteractionZone->IsOverlappingActor(Pawn)
-    ))
-    {
-        ToggleShutter();
         return;
     }
 
@@ -507,6 +489,40 @@ void AMainHomeInteractiveActor::RemoveInteractionBinding()
     bInteractionKeyBound = false;
 }
 
+void AMainHomeInteractiveActor::ResetMainHomeComponentLayout()
+{
+    Shutter->SetRelativeTransform(FTransform(
+        FRotator::ZeroRotator,
+        FVector(-96.0f, -394.5f, 277.0f),
+        FVector::OneVector
+    ));
+    LeftHinge->SetRelativeTransform(FTransform(
+        FRotator::ZeroRotator,
+        FVector(78.0f, -394.0f, 120.0f),
+        FVector::OneVector
+    ));
+    LeftDoorLeaf->SetRelativeTransform(FTransform::Identity);
+    RightHinge->SetRelativeTransform(FTransform(
+        FRotator::ZeroRotator,
+        FVector(210.0f, -394.0f, 120.0f),
+        FVector::OneVector
+    ));
+    RightDoorLeaf->SetRelativeTransform(FTransform::Identity);
+
+    ShutterInteractionZone->SetRelativeTransform(FTransform(
+        FRotator::ZeroRotator,
+        FVector(-96.0f, -430.0f, 151.0f),
+        FVector::OneVector
+    ));
+    ShutterInteractionZone->SetBoxExtent(FVector(125.0f, 65.0f, 150.0f));
+    DoorInteractionZone->SetRelativeTransform(FTransform(
+        FRotator::ZeroRotator,
+        FVector(144.0f, -430.0f, 151.0f),
+        FVector::OneVector
+    ));
+    DoorInteractionZone->SetBoxExtent(FVector(95.0f, 90.0f, 150.0f));
+}
+
 void AMainHomeInteractiveActor::ApplyAnimationState()
 {
     Shutter->SetRelativeScale3D(FVector(
@@ -514,14 +530,10 @@ void AMainHomeInteractiveActor::ApplyAnimationState()
         1.0f,
         MainHomeInteractive::ComputeShutterScale(AnimationState.ShutterAlpha)
     ));
-    Shutter->SetCollisionEnabled(
-        MainHomeInteractive::ShouldEnableShutterCollision(
-            AnimationState.ShutterAlpha,
-            AnimationState.ShutterTarget
-        )
-            ? ECollisionEnabled::QueryAndPhysics
-            : ECollisionEnabled::NoCollision
-    );
+    Shutter->SetCollisionEnabled(MainHomeInteractive::GetShutterCollisionMode(
+        AnimationState.ShutterAlpha,
+        AnimationState.ShutterTarget
+    ));
 
     LeftHinge->SetRelativeRotation(FRotator(
         0.0f,

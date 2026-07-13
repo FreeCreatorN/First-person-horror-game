@@ -2,7 +2,9 @@
 
 #include "MainHomeInteractiveActor.h"
 
+#include "Components/BoxComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "InputCoreTypes.h"
 #include "Misc/AutomationTest.h"
@@ -49,6 +51,62 @@ bool FMainHomeIndependentDoorTargetsTest::RunTest(const FString& Parameters)
 }
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(
+    FMainHomeComponentLayoutResetTest,
+    "MainHomeInteractive.Layout.ResetAfterMeshAssignment",
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter
+)
+
+bool FMainHomeComponentLayoutResetTest::RunTest(const FString& Parameters)
+{
+    AMainHomeInteractiveActor* Actor = NewObject<AMainHomeInteractiveActor>();
+    USceneComponent* Shutter = CastChecked<USceneComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("Shutter"))
+    );
+    USceneComponent* LeftHinge = CastChecked<USceneComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("LeftHinge"))
+    );
+    USceneComponent* LeftDoorLeaf = CastChecked<USceneComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("LeftDoorLeaf"))
+    );
+    USceneComponent* RightHinge = CastChecked<USceneComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("RightHinge"))
+    );
+    USceneComponent* RightDoorLeaf = CastChecked<USceneComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("RightDoorLeaf"))
+    );
+    UBoxComponent* ShutterZone = CastChecked<UBoxComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("ShutterInteractionZone"))
+    );
+
+    const FTransform StaleOverride(
+        FRotator(7.0f, 11.0f, 13.0f),
+        FVector(17.0f, 19.0f, 23.0f),
+        FVector(2.0f, 3.0f, 4.0f)
+    );
+    Shutter->SetRelativeTransform(StaleOverride);
+    LeftHinge->SetRelativeTransform(StaleOverride);
+    LeftDoorLeaf->SetRelativeTransform(StaleOverride);
+    RightHinge->SetRelativeTransform(StaleOverride);
+    RightDoorLeaf->SetRelativeTransform(StaleOverride);
+    ShutterZone->SetRelativeTransform(StaleOverride);
+    ShutterZone->SetBoxExtent(FVector(999.0f));
+
+    Actor->SetMainHomeMeshes(nullptr, nullptr, nullptr, nullptr);
+
+    TestEqual(TEXT("Shutter pivot is restored"), Shutter->GetRelativeLocation(), FVector(-96.0f, -394.5f, 277.0f));
+    TestTrue(TEXT("Shutter has identity rotation and scale"), Shutter->GetRelativeTransform().GetRotation().IsIdentity() && Shutter->GetRelativeScale3D().Equals(FVector::OneVector));
+    TestEqual(TEXT("Left hinge pivot is restored"), LeftHinge->GetRelativeLocation(), FVector(78.0f, -394.0f, 120.0f));
+    TestTrue(TEXT("Left hinge has identity rotation and scale"), LeftHinge->GetRelativeTransform().GetRotation().IsIdentity() && LeftHinge->GetRelativeScale3D().Equals(FVector::OneVector));
+    TestTrue(TEXT("Left leaf relative transform is identity"), LeftDoorLeaf->GetRelativeTransform().Equals(FTransform::Identity));
+    TestEqual(TEXT("Right hinge pivot is restored"), RightHinge->GetRelativeLocation(), FVector(210.0f, -394.0f, 120.0f));
+    TestTrue(TEXT("Right hinge has identity rotation and scale"), RightHinge->GetRelativeTransform().GetRotation().IsIdentity() && RightHinge->GetRelativeScale3D().Equals(FVector::OneVector));
+    TestTrue(TEXT("Right leaf relative transform is identity"), RightDoorLeaf->GetRelativeTransform().Equals(FTransform::Identity));
+    TestEqual(TEXT("Compact shutter zone location is restored"), ShutterZone->GetRelativeLocation(), FVector(-96.0f, -430.0f, 151.0f));
+    TestEqual(TEXT("Compact shutter zone extent is restored"), ShutterZone->GetUnscaledBoxExtent(), FVector(125.0f, 65.0f, 150.0f));
+    return true;
+}
+
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(
     FMainHomeShutterScaleAndCollisionTest,
     "MainHomeInteractive.Shutter.ScaleAndEndpointCollision",
     EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter
@@ -57,19 +115,22 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(
 bool FMainHomeShutterScaleAndCollisionTest::RunTest(const FString& Parameters)
 {
     TestEqual(TEXT("Closed Z scale"), ComputeShutterScale(0.0f), 1.0f);
-    TestEqual(TEXT("Open Z scale"), ComputeShutterScale(1.0f), 0.03f);
-    TestTrue(TEXT("Collision stays enabled while opening"), ShouldEnableShutterCollision(0.99f, 1.0f));
-    TestFalse(TEXT("Collision disables only at fully-open endpoint"), ShouldEnableShutterCollision(1.0f, 1.0f));
-    TestTrue(TEXT("Collision re-enables before closing"), ShouldEnableShutterCollision(1.0f, 0.0f));
+    TestEqual(TEXT("Open Z scale"), ComputeShutterScale(1.0f), 0.04f);
+    TestTrue(TEXT("Open strip retains about 10 cm"), FMath::IsNearlyEqual(262.0f * ComputeShutterScale(1.0f), 10.48f, 0.01f));
+    TestTrue(TEXT("Open shutter clears at least 250 cm"), FMath::IsNearlyEqual(262.0f * (1.0f - ComputeShutterScale(1.0f)), 251.52f, 0.01f));
+    TestEqual(TEXT("Collision stays physical while opening"), GetShutterCollisionMode(0.99f, 1.0f), ECollisionEnabled::QueryAndPhysics);
+    TestEqual(TEXT("Fully-open strip remains traceable"), GetShutterCollisionMode(1.0f, 1.0f), ECollisionEnabled::QueryOnly);
+    TestEqual(TEXT("Collision becomes physical before closing"), GetShutterCollisionMode(1.0f, 0.0f), ECollisionEnabled::QueryAndPhysics);
 
     MainHomeInteractive::FAnimationState State;
     State.ShutterAlpha = 1.0f;
     State.ShutterTarget = 1.0f;
     ToggleShutterTarget(State);
     TestEqual(TEXT("Fully-open shutter targets closing after E"), State.ShutterTarget, 0.0f);
-    TestTrue(
+    TestEqual(
         TEXT("Closing target immediately restores shutter collision"),
-        ShouldEnableShutterCollision(State.ShutterAlpha, State.ShutterTarget)
+        GetShutterCollisionMode(State.ShutterAlpha, State.ShutterTarget),
+        ECollisionEnabled::QueryAndPhysics
     );
     return true;
 }
@@ -96,35 +157,42 @@ bool FMainHomeHitClassificationTest::RunTest(const FString& Parameters)
 }
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(
-    FMainHomeShutterCloseWithoutAimTest,
-    "MainHomeInteractive.Input.ShutterCloseWithoutAim",
+    FMainHomeShutterCloseRequiresAimTest,
+    "MainHomeInteractive.Input.ShutterCloseRequiresAim",
     EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter
 )
 
-bool FMainHomeShutterCloseWithoutAimTest::RunTest(const FString& Parameters)
+bool FMainHomeShutterCloseRequiresAimTest::RunTest(const FString& Parameters)
 {
     MainHomeInteractive::FAnimationState State;
-    TestFalse(
-        TEXT("Closed shutter does not consume arbitrary E"),
-        ShouldCloseShutterWithoutAim(State, true)
-    );
-
     State.ShutterTarget = 1.0f;
-    TestFalse(
-        TEXT("Open target outside shutter zone does nothing"),
-        ShouldCloseShutterWithoutAim(State, false)
-    );
-    TestTrue(
-        TEXT("Open target inside shutter zone closes without aim"),
-        ShouldCloseShutterWithoutAim(State, true)
-    );
+    UStaticMeshComponent* Shutter = NewObject<UStaticMeshComponent>();
+    UStaticMeshComponent* LeftDoor = NewObject<UStaticMeshComponent>();
+    UStaticMeshComponent* RightDoor = NewObject<UStaticMeshComponent>();
 
-    ToggleShutterTarget(State);
-    TestEqual(TEXT("Fallback E targets closed"), State.ShutterTarget, 0.0f);
-    TestTrue(
-        TEXT("Closing restores collision immediately"),
-        ShouldEnableShutterCollision(1.0f, State.ShutterTarget)
+    const EHitPart Miss = ClassifyHitComponent(
+        nullptr,
+        Shutter,
+        LeftDoor,
+        RightDoor
     );
+    if (Miss == EHitPart::Shutter)
+    {
+        ToggleShutterTarget(State);
+    }
+    TestEqual(TEXT("Missing the top strip leaves shutter open"), State.ShutterTarget, 1.0f);
+
+    const EHitPart ShutterHit = ClassifyHitComponent(
+        Shutter,
+        Shutter,
+        LeftDoor,
+        RightDoor
+    );
+    if (ShutterHit == EHitPart::Shutter)
+    {
+        ToggleShutterTarget(State);
+    }
+    TestEqual(TEXT("Aiming at the top strip targets closing"), State.ShutterTarget, 0.0f);
     return true;
 }
 
