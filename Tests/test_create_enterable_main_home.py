@@ -241,6 +241,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         }
         created_expression_types = []
         expression_connections = []
+        active_expression_inputs = {}
         property_connections = []
         deleted_materials = []
         recompiled_materials = []
@@ -266,6 +267,10 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         ):
             expression_connections.append(
                 (source, output_name, target, input_name)
+            )
+            active_expression_inputs[(target, input_name)] = (
+                source,
+                output_name,
             )
             return True
 
@@ -337,6 +342,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             normal_sampler_type=normal_sampler_type,
             created_expression_types=created_expression_types,
             expression_connections=expression_connections,
+            active_expression_inputs=active_expression_inputs,
             property_connections=property_connections,
             deleted_materials=deleted_materials,
             recompiled_materials=recompiled_materials,
@@ -548,6 +554,42 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         )
         self.assertEqual(set(expected_paths.values()), set(checked_paths))
         self.assertEqual(set(expected_paths.values()), set(loaded_paths))
+
+    def test_load_reference_fallback_textures_filters_invalid_loaded_assets(
+        self,
+    ):
+        class FakeTexture2D:
+            pass
+
+        paths = list(self.generator.REFERENCE_TEXTURE_ASSET_PATHS.values())
+        loaded_assets = {
+            paths[0]: object(),
+            paths[1]: None,
+        }
+        checked_paths = []
+        loaded_paths = []
+
+        def asset_exists(path):
+            checked_paths.append(path)
+            return True
+
+        def load_asset(path):
+            loaded_paths.append(path)
+            return loaded_assets[path]
+
+        self._patch_generator(
+            "unreal",
+            SimpleNamespace(Texture2D=FakeTexture2D),
+        )
+
+        result = self.generator.load_reference_fallback_textures(
+            asset_exists=asset_exists,
+            load_asset=load_asset,
+        )
+
+        self.assertEqual({}, result)
+        self.assertEqual(paths, checked_paths)
+        self.assertEqual(paths, loaded_paths)
 
     def test_material_expressions_fall_back_to_outer_filtered_object_iterator(
         self,
@@ -976,6 +1018,114 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 in state.property_connections
             )
         )
+        self.assertEqual([], state.deleted_materials)
+
+    def test_material_branch_switching_preserves_nodes_and_reconnects_lerp(self):
+        fake_unreal, state = self._fake_material_graph()
+        self._patch_generator("unreal", fake_unreal)
+        self._patch_generator(
+            "_load_asset_if_exists",
+            lambda _asset_path: state.material,
+        )
+        reference_texture = object()
+        plaster_textures = {
+            "base_color": object(),
+            "normal": object(),
+            "roughness": object(),
+        }
+
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+            reference_textures={"plaster": reference_texture},
+        )
+
+        reference_lerp = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS["lerp"]
+        )
+        reference_multiply = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS["multiply"]
+        )
+        tint = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.FAB_NODE_DESCRIPTIONS["tint"]
+        )
+        self.assertEqual(
+            (reference_multiply, ""),
+            state.active_expression_inputs[(reference_lerp, "A")],
+        )
+
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={"plaster": plaster_textures},
+            reference_textures={"plaster": reference_texture},
+        )
+        fab_multiply = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.FAB_NODE_DESCRIPTIONS["multiply"]
+        )
+        self.assertIs(
+            fab_multiply,
+            state.property_inputs[state.base_color_property],
+        )
+
+        expression_count = len(state.expressions)
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+            reference_textures={"plaster": reference_texture},
+        )
+
+        self.assertEqual(expression_count, len(state.expressions))
+        self.assertIs(
+            reference_lerp,
+            state.property_inputs[state.base_color_property],
+        )
+        self.assertEqual(
+            (reference_multiply, ""),
+            state.active_expression_inputs[(reference_lerp, "A")],
+        )
+
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+            reference_textures={},
+        )
+
+        self.assertEqual(expression_count, len(state.expressions))
+        self.assertIs(
+            reference_lerp,
+            state.property_inputs[state.base_color_property],
+        )
+        self.assertEqual(
+            (tint, ""),
+            state.active_expression_inputs[(reference_lerp, "A")],
+        )
+        tagged_descriptions = (
+            *self.generator.FAB_NODE_DESCRIPTIONS.values(),
+            *self.generator.FAB_FALLBACK_NODE_DESCRIPTIONS.values(),
+            *self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS.values(),
+            *self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS.values(),
+        )
+        for description in tagged_descriptions:
+            with self.subTest(description=description):
+                self.assertEqual(
+                    1,
+                    sum(
+                        expression.properties.get("desc") == description
+                        for expression in state.expressions
+                    ),
+                )
         self.assertEqual([], state.deleted_materials)
 
     def test_ensure_material_reuses_existing_input_nodes_without_deleting_expressions(

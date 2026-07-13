@@ -106,3 +106,23 @@ Final asset:
   retained.
 - Confirmed material IDs/ordering remain stable and no `Content/MainHome`
   assets are part of this task.
+
+## Independent review follow-up
+
+The independent Task 3 review identified two Important test-coverage gaps. The
+new assertions were added before considering any production change:
+
+- The reference loader now has explicit negative coverage for assets that
+  exist but load as the wrong object type or `None`. Both paths are checked and
+  loaded once, and neither invalid object is returned.
+- The fake material graph now records the current effective source for every
+  expression input. A branch-switching test covers reference -> Fab ->
+  reference and then reference -> missing. It verifies that Lerp A returns to
+  the reference multiply and finally to the tint constant, while all Fab,
+  reference, fallback, and procedural tagged nodes remain present exactly once
+  and no expression is deleted.
+
+Both focused coverage tests passed on their first run against the committed
+production implementation (2/2), so the review exposed coverage gaps rather
+than a production defect and no generator change was required. The expanded
+full suite passes 66/66 tests.
