@@ -60,13 +60,49 @@ FAB_FALLBACK_NODE_DESCRIPTIONS = {
     "normal": "MainHome_Fab_FallbackNormal",
     "roughness": "MainHome_Fab_FallbackRoughness",
 }
+PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS = {
+    "world_position": "MainHome_Aged_WorldPosition",
+    "noise": "MainHome_Aged_Noise",
+    "aged_tint": "MainHome_Aged_DarkTint",
+    "lerp": "MainHome_Aged_ColorLerp",
+}
 FAB_TEXTURE_SET_BY_MATERIAL = {
     "M_MainHome_Wall": "plaster",
     "M_MainHome_Sign": "plaster",
     "M_MainHome_FadedGreenMetal": "metal",
 }
+PROCEDURAL_FALLBACK_SETTINGS = {
+    "M_MainHome_Wall": {
+        "aged_color": (0.24, 0.20, 0.145, 1.0),
+        "noise_scale": 110.0,
+        "noise_quality": 2,
+        "noise_levels": 3,
+        "noise_min": 0.06,
+        "noise_max": 0.38,
+        "roughness": 0.96,
+    },
+    "M_MainHome_Sign": {
+        "aged_color": (0.205, 0.145, 0.085, 1.0),
+        "noise_scale": 82.0,
+        "noise_quality": 2,
+        "noise_levels": 3,
+        "noise_min": 0.08,
+        "noise_max": 0.42,
+        "roughness": 0.95,
+    },
+    "M_MainHome_FadedGreenMetal": {
+        "aged_color": (0.23, 0.105, 0.045, 1.0),
+        "noise_scale": 24.0,
+        "noise_quality": 1,
+        "noise_levels": 3,
+        "noise_min": 0.02,
+        "noise_max": 0.48,
+        "roughness": 0.91,
+    },
+}
 
 SHUTTER_PIVOT_CM = (-96.0, -394.5, 277.0)
+SHUTTER_OPEN_SCALE_Z = 0.04
 LEFT_HINGE_CM = (78.0, -394.0, 120.0)
 RIGHT_HINGE_CM = (210.0, -394.0, 120.0)
 DOOR_CENTER_GAP_CM = 0.5
@@ -975,38 +1011,61 @@ def _material_expressions(material):
         None,
     )
     if callable(get_all_expressions):
-        return list(get_all_expressions(material))
+        expressions = list(get_all_expressions(material))
+        if expressions:
+            return expressions
 
     get_editor_property = getattr(material, "get_editor_property", None)
-    if not callable(get_editor_property):
-        return []
-    try:
-        editor_only_data = get_editor_property("editor_only_data")
-        collection = editor_only_data.get_editor_property(
-            "expression_collection"
-        )
-        return list(collection.get_editor_property("expressions"))
-    except Exception:
-        pass
-    try:
-        collection = get_editor_property("expression_collection")
-    except Exception:
+    if callable(get_editor_property):
         try:
-            return list(get_editor_property("expressions"))
-        except Exception:
-            return []
-
-    collection_get_editor_property = getattr(
-        collection,
-        "get_editor_property",
-        None,
-    )
-    if callable(collection_get_editor_property):
-        try:
-            return list(collection_get_editor_property("expressions"))
+            editor_only_data = get_editor_property("editor_only_data")
+            collection = editor_only_data.get_editor_property(
+                "expression_collection"
+            )
+            expressions = list(
+                collection.get_editor_property("expressions")
+            )
+            if expressions:
+                return expressions
         except Exception:
             pass
-    return list(getattr(collection, "expressions", ()))
+        try:
+            collection = get_editor_property("expression_collection")
+            collection_get_editor_property = getattr(
+                collection,
+                "get_editor_property",
+                None,
+            )
+            if callable(collection_get_editor_property):
+                expressions = list(
+                    collection_get_editor_property("expressions")
+                )
+            else:
+                expressions = list(getattr(collection, "expressions", ()))
+            if expressions:
+                return expressions
+        except Exception:
+            pass
+        try:
+            expressions = list(get_editor_property("expressions"))
+            if expressions:
+                return expressions
+        except Exception:
+            pass
+
+    iterator_type = getattr(unreal, "ObjectIterator", None)
+    expression_type = getattr(unreal, "MaterialExpression", None)
+    if callable(iterator_type) and expression_type is not None:
+        try:
+            return [
+                expression
+                for expression in iterator_type(expression_type)
+                if callable(getattr(expression, "get_outer", None))
+                and expression.get_outer() is material
+            ]
+        except Exception:
+            pass
+    return []
 
 
 def _find_tagged_expression(expressions, expression_type, description):
@@ -1114,6 +1173,90 @@ def _connect_material_property(node, output_name, material_property, name):
         raise RuntimeError("Unable to connect material property {}".format(name))
 
 
+def _connect_procedural_fallback_color(
+    material,
+    expressions,
+    tint_node,
+    material_name,
+):
+    settings = PROCEDURAL_FALLBACK_SETTINGS.get(material_name)
+    if settings is None:
+        return tint_node
+
+    descriptions = PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS
+    world_position_node = _find_or_create_tagged_expression(
+        material,
+        expressions,
+        unreal.MaterialExpressionWorldPosition,
+        descriptions["world_position"],
+        (-1000, -450),
+    )
+    noise_node = _find_or_create_tagged_expression(
+        material,
+        expressions,
+        unreal.MaterialExpressionNoise,
+        descriptions["noise"],
+        (-750, -450),
+    )
+    aged_tint_node = _find_or_create_tagged_expression(
+        material,
+        expressions,
+        unreal.MaterialExpressionConstant3Vector,
+        descriptions["aged_tint"],
+        (-600, -50),
+    )
+    lerp_node = _find_or_create_tagged_expression(
+        material,
+        expressions,
+        unreal.MaterialExpressionLinearInterpolate,
+        descriptions["lerp"],
+        (-300, -200),
+    )
+
+    aged_tint_node.set_editor_property(
+        "constant",
+        unreal.LinearColor(*settings["aged_color"]),
+    )
+    for property_name, value in (
+        ("scale", settings["noise_scale"]),
+        ("quality", settings["noise_quality"]),
+        ("levels", settings["noise_levels"]),
+        ("output_min", settings["noise_min"]),
+        ("output_max", settings["noise_max"]),
+    ):
+        noise_node.set_editor_property(property_name, value)
+
+    _connect_expression(
+        world_position_node,
+        "",
+        noise_node,
+        "World Position",
+        "Procedural world position for {}".format(material_name),
+    )
+    _connect_expression(
+        tint_node,
+        "",
+        lerp_node,
+        "A",
+        "Procedural base tint for {}".format(material_name),
+    )
+    _connect_expression(
+        aged_tint_node,
+        "",
+        lerp_node,
+        "B",
+        "Procedural aged tint for {}".format(material_name),
+    )
+    _connect_expression(
+        noise_node,
+        "",
+        lerp_node,
+        "Alpha",
+        "Procedural age mask for {}".format(material_name),
+    )
+    return lerp_node
+
+
 def ensure_material(
     material_name,
     color=None,
@@ -1125,8 +1268,16 @@ def ensure_material(
         raise ValueError("Unknown material {!r}".format(material_name))
 
     default_color, default_roughness = MATERIAL_SETTINGS[material_name]
+    procedural_settings = PROCEDURAL_FALLBACK_SETTINGS.get(material_name)
     color = default_color if color is None else tuple(color)
-    roughness = default_roughness if roughness is None else float(roughness)
+    if roughness is None:
+        roughness = (
+            procedural_settings["roughness"]
+            if procedural_settings is not None
+            else default_roughness
+        )
+    else:
+        roughness = float(roughness)
     asset_path = "{}/{}".format(MATERIAL_FOLDER, material_name)
     material = _load_asset_if_exists(asset_path)
 
@@ -1200,9 +1351,15 @@ def ensure_material(
         )
 
     if texture_set is None:
-        if current_color_node is not tint_node:
+        fallback_color_node = _connect_procedural_fallback_color(
+            material,
+            expressions,
+            tint_node,
+            material_name,
+        )
+        if current_color_node is not fallback_color_node:
             _connect_material_property(
-                tint_node,
+                fallback_color_node,
                 "",
                 unreal.MaterialProperty.MP_BASE_COLOR,
                 "Base Color fallback for {}".format(asset_path),

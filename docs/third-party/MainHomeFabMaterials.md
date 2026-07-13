@@ -40,8 +40,14 @@ tint, the Normal texture uses the normal sampler type, and Roughness feeds the
 material roughness input.
 
 If any required asset is absent, the entire affected set is omitted. The
-generator emits one concise warning listing the missing stable paths and keeps
-the usable aged constant-color and constant-roughness fallback. Repeated runs
-reuse tagged Fab nodes without deleting expressions; if an enabled set later
-becomes unavailable, the fallback constants are reconnected and the dormant
-Fab nodes remain in the material graph.
+generator emits one concise warning listing the missing stable paths and uses
+an aged procedural fallback instead of a flat color. Wall and sign materials
+blend their base tint with broad world-space plaster grime; faded green metal
+uses smaller-scale brown rust and dirt breakup. Roughness remains high and
+matte so the storefront does not look newly painted.
+
+Repeated runs reuse tagged Fab and procedural nodes without deleting
+expressions. If an enabled Fab set later becomes unavailable, the procedural
+fallback is reconnected and the dormant Fab nodes remain in the material graph.
+When the complete Fab set returns, its Base Color, Normal, and Roughness take
+priority again.

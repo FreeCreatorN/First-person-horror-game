@@ -199,6 +199,15 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         class FakeMaterialExpressionMultiply(FakeExpression):
             pass
 
+        class FakeMaterialExpressionWorldPosition(FakeExpression):
+            pass
+
+        class FakeMaterialExpressionNoise(FakeExpression):
+            pass
+
+        class FakeMaterialExpressionLinearInterpolate(FakeExpression):
+            pass
+
         color_node = FakeMaterialExpressionConstant3Vector()
         roughness_node = FakeMaterialExpressionConstant()
         expressions = [color_node, roughness_node]
@@ -280,6 +289,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 FakeMaterialExpressionConstant3Vector
             ),
             MaterialExpressionMultiply=FakeMaterialExpressionMultiply,
+            MaterialExpressionWorldPosition=(
+                FakeMaterialExpressionWorldPosition
+            ),
+            MaterialExpressionNoise=FakeMaterialExpressionNoise,
+            MaterialExpressionLinearInterpolate=(
+                FakeMaterialExpressionLinearInterpolate
+            ),
             MaterialExpressionTextureSample=(
                 FakeMaterialExpressionTextureSample
             ),
@@ -443,6 +459,136 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             ),
         )
 
+    def test_material_expressions_fall_back_to_outer_filtered_object_iterator(
+        self,
+    ):
+        class FakeMaterialExpression:
+            def __init__(self, outer):
+                self.outer = outer
+
+            def get_outer(self):
+                return self.outer
+
+        class FakeMaterial:
+            def get_editor_property(self, _name):
+                raise AttributeError("UE5.7 hides expression collections")
+
+        material = FakeMaterial()
+        owned_expression = FakeMaterialExpression(material)
+        foreign_expression = FakeMaterialExpression(object())
+        fake_unreal = SimpleNamespace(
+            MaterialEditingLibrary=SimpleNamespace(),
+            MaterialExpression=FakeMaterialExpression,
+            ObjectIterator=lambda _expression_type: (
+                owned_expression,
+                foreign_expression,
+            ),
+        )
+        self._patch_generator("unreal", fake_unreal)
+
+        self.assertEqual(
+            [owned_expression],
+            self.generator._material_expressions(material),
+        )
+
+    def test_procedural_fallback_settings_are_limited_to_aged_surfaces(self):
+        self.assertEqual(
+            {
+                "world_position": "MainHome_Aged_WorldPosition",
+                "noise": "MainHome_Aged_Noise",
+                "aged_tint": "MainHome_Aged_DarkTint",
+                "lerp": "MainHome_Aged_ColorLerp",
+            },
+            self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS,
+        )
+        self.assertEqual(
+            {
+                "M_MainHome_Wall",
+                "M_MainHome_Sign",
+                "M_MainHome_FadedGreenMetal",
+            },
+            set(self.generator.PROCEDURAL_FALLBACK_SETTINGS),
+        )
+        wall = self.generator.PROCEDURAL_FALLBACK_SETTINGS[
+            "M_MainHome_Wall"
+        ]
+        metal = self.generator.PROCEDURAL_FALLBACK_SETTINGS[
+            "M_MainHome_FadedGreenMetal"
+        ]
+        self.assertGreater(wall["noise_scale"], metal["noise_scale"])
+        self.assertGreaterEqual(wall["roughness"], 0.9)
+        self.assertGreaterEqual(metal["roughness"], 0.85)
+
+    def test_missing_fab_builds_idempotent_procedural_aged_color_graph(self):
+        fake_unreal, state = self._fake_material_graph()
+        self._patch_generator("unreal", fake_unreal)
+        self._patch_generator(
+            "_load_asset_if_exists",
+            lambda _asset_path: state.material,
+        )
+
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+        )
+        expression_count = len(state.expressions)
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+        )
+
+        tagged = {
+            description: [
+                expression
+                for expression in state.expressions
+                if expression.properties.get("desc") == description
+            ]
+            for description in (
+                self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS.values()
+            )
+        }
+        self.assertEqual(expression_count, len(state.expressions))
+        self.assertTrue(all(len(nodes) == 1 for nodes in tagged.values()))
+        world_position = tagged[
+            self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS[
+                "world_position"
+            ]
+        ][0]
+        noise = tagged[
+            self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS["noise"]
+        ][0]
+        aged_tint = tagged[
+            self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS[
+                "aged_tint"
+            ]
+        ][0]
+        lerp = tagged[
+            self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS["lerp"]
+        ][0]
+        tint = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.FAB_NODE_DESCRIPTIONS["tint"]
+        )
+        self.assertIs(lerp, state.property_inputs[state.base_color_property])
+        self.assertIn(
+            (world_position, "", noise, "World Position"),
+            state.expression_connections,
+        )
+        self.assertIn((tint, "", lerp, "A"), state.expression_connections)
+        self.assertIn(
+            (aged_tint, "", lerp, "B"),
+            state.expression_connections,
+        )
+        self.assertIn((noise, "", lerp, "Alpha"), state.expression_connections)
+        self.assertEqual(
+            self.generator.PROCEDURAL_FALLBACK_SETTINGS["M_MainHome_Wall"][
+                "noise_scale"
+            ],
+            noise.properties["scale"],
+        )
+
     def test_load_fab_texture_sets_returns_only_complete_sets_and_warns_once(self):
         paths = {
             set_name: dict(texture_paths)
@@ -594,6 +740,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             (tint_node, "", multiply_node, "B"),
             state.expression_connections,
         )
+        self.assertFalse(
+            any(
+                expression.properties.get("desc")
+                in self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS.values()
+                for expression in state.expressions
+            )
+        )
         self.assertEqual([], state.deleted_materials)
 
     def test_missing_fab_set_reconnects_constants_and_keeps_fab_nodes(self):
@@ -620,18 +773,31 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             )
             for description in self.generator.FAB_NODE_DESCRIPTIONS.values()
         }
-        expression_count = len(state.expressions)
+        fab_expression_count = len(state.expressions)
 
         self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={},
         )
 
-        self.assertEqual(expression_count, len(state.expressions))
+        fallback_expression_count = len(state.expressions)
+        self.generator.ensure_material(
+            "M_MainHome_Wall",
+            texture_sets={},
+        )
+
+        self.assertGreater(fallback_expression_count, fab_expression_count)
+        self.assertEqual(fallback_expression_count, len(state.expressions))
         for node in tagged_fab_nodes.values():
             self.assertIn(node, state.expressions)
+        fallback_lerp_node = next(
+            expression
+            for expression in state.expressions
+            if expression.properties.get("desc")
+            == self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS["lerp"]
+        )
         self.assertIs(
-            tagged_fab_nodes[self.generator.FAB_NODE_DESCRIPTIONS["tint"]],
+            fallback_lerp_node,
             state.property_inputs[state.base_color_property],
         )
         self.assertIs(
@@ -742,7 +908,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         )
 
         result = self.generator.ensure_material(
-            "M_MainHome_Wall",
+            "M_MainHome_Trim",
             color=(0.11, 0.22, 0.33, 1.0),
             roughness=0.73,
         )
@@ -855,6 +1021,23 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             1.5,
             closed_bounds[1][0] - self.generator.box_bounds(top_box)[1][1],
         )
+
+    def test_raised_shutter_strip_keeps_player_sized_clearance(self):
+        shutter = self._asset_definition(
+            "/Game/MainHome/SM_MainHome_Shutter"
+        )
+        panel = next(
+            box for box in shutter.visual_boxes if box.label == "Shutter_Panel"
+        )
+        self.assertEqual(0.04, self.generator.SHUTTER_OPEN_SCALE_Z)
+        retained_height_cm = (
+            panel.size_cm[2] * self.generator.SHUTTER_OPEN_SCALE_Z
+        )
+        clear_height_cm = panel.size_cm[2] - retained_height_cm
+        self.assertAlmostEqual(10.48, retained_height_cm)
+        self.assertAlmostEqual(251.52, clear_height_cm)
+        self.assertGreaterEqual(panel.size_cm[0], 230.0)
+        self.assertGreaterEqual(clear_height_cm, 250.0)
 
     def test_shutter_mesh_adds_offset_slats_and_bottom_rail_without_extra_collision(
         self,
