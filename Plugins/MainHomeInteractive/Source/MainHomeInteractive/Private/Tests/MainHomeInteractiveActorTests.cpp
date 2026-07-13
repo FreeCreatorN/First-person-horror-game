@@ -6,10 +6,55 @@
 #include "Components/InputComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Engine/Engine.h"
+#include "Engine/StaticMesh.h"
+#include "Engine/World.h"
 #include "InputCoreTypes.h"
 #include "Misc/AutomationTest.h"
+#include "UObject/Package.h"
 
 using namespace MainHomeInteractive;
+
+namespace
+{
+    struct FScopedMainHomeTestWorld
+    {
+        FScopedMainHomeTestWorld()
+        {
+            const FName WorldName = MakeUniqueObjectName(
+                GetTransientPackage(),
+                UWorld::StaticClass(),
+                TEXT("MainHomeInteractionTestWorld")
+            );
+            World = NewObject<UWorld>(GetTransientPackage(), WorldName);
+            World->WorldType = EWorldType::EditorPreview;
+
+            FWorldContext& WorldContext = GEngine->CreateNewWorldContext(
+                World->WorldType
+            );
+            WorldContext.SetCurrentWorld(World);
+            World->InitializeNewWorld(UWorld::InitializationValues()
+                .RequiresHitProxies(false)
+                .ShouldSimulatePhysics(false)
+                .EnableTraceCollision(true)
+                .CreateNavigation(false)
+                .CreateAISystem(false)
+                .AllowAudioPlayback(false)
+                .SetTransactional(false)
+                .CreatePhysicsScene(true));
+            FURL URL;
+            World->InitializeActorsForPlay(URL);
+        }
+
+        ~FScopedMainHomeTestWorld()
+        {
+            GEngine->DestroyWorldContext(World);
+            World->DestroyWorld(false);
+        }
+
+        UWorld* World = nullptr;
+    };
+}
 
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(
     FMainHomeDoorYawTest,
@@ -153,6 +198,156 @@ bool FMainHomeHitClassificationTest::RunTest(const FString& Parameters)
     TestEqual(TEXT("Right leaf hit"), ClassifyHitComponent(RightDoor, Shutter, LeftDoor, RightDoor), EHitPart::RightDoor);
     TestEqual(TEXT("Foreign component ignored"), ClassifyHitComponent(Foreign, Shutter, LeftDoor, RightDoor), EHitPart::None);
     TestEqual(TEXT("Null component ignored"), ClassifyHitComponent(nullptr, Shutter, LeftDoor, RightDoor), EHitPart::None);
+    return true;
+}
+
+IMPLEMENT_SIMPLE_AUTOMATION_TEST(
+    FMainHomeProductionGeometryAndTraceTest,
+    "MainHomeInteractive.Integration.GeometryAndTrace",
+    EAutomationTestFlags::EditorContext | EAutomationTestFlags::EngineFilter
+)
+
+bool FMainHomeProductionGeometryAndTraceTest::RunTest(
+    const FString& Parameters
+)
+{
+    FScopedMainHomeTestWorld TestWorld;
+    AMainHomeInteractiveActor* Actor =
+        TestWorld.World->SpawnActor<AMainHomeInteractiveActor>();
+    if (!TestNotNull(TEXT("Interactive actor spawns"), Actor))
+    {
+        return false;
+    }
+
+    UStaticMeshComponent* Shutter = CastChecked<UStaticMeshComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("Shutter"))
+    );
+    UStaticMeshComponent* LeftDoor = CastChecked<UStaticMeshComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("LeftDoorLeaf"))
+    );
+    UStaticMeshComponent* RightDoor = CastChecked<UStaticMeshComponent>(
+        Actor->GetDefaultSubobjectByName(TEXT("RightDoorLeaf"))
+    );
+    UStaticMesh* ShutterMesh = Shutter->GetStaticMesh().Get();
+    UStaticMesh* LeftMesh = LeftDoor->GetStaticMesh().Get();
+    UStaticMesh* RightMesh = RightDoor->GetStaticMesh().Get();
+    if (!TestNotNull(TEXT("Shutter mesh is assigned"), ShutterMesh)
+        || !TestNotNull(TEXT("Left mesh is assigned"), LeftMesh)
+        || !TestNotNull(TEXT("Right mesh is assigned"), RightMesh))
+    {
+        return false;
+    }
+
+    TestEqual(
+        TEXT("Left component owns left asset"),
+        LeftMesh->GetName(),
+        FString(TEXT("SM_MainHome_Door_Left"))
+    );
+    TestEqual(
+        TEXT("Right component owns right asset"),
+        RightMesh->GetName(),
+        FString(TEXT("SM_MainHome_Door_Right"))
+    );
+
+    const FBox LeftWorldBounds = LeftMesh->GetBoundingBox().TransformBy(
+        LeftDoor->GetComponentTransform()
+    );
+    const FBox RightWorldBounds = RightMesh->GetBoundingBox().TransformBy(
+        RightDoor->GetComponentTransform()
+    );
+    TestTrue(
+        TEXT("Actual closed meshes keep a 0.5 cm seam"),
+        FMath::IsNearlyEqual(
+            RightWorldBounds.Min.X - LeftWorldBounds.Max.X,
+            0.5f,
+            0.01f
+        )
+    );
+
+    MainHomeInteractive::FAnimationState DoorState;
+    TestTrue(
+        TEXT("Actual left component dispatches"),
+        ToggleTargetForHitPart(
+            DoorState,
+            ClassifyHitComponent(
+                LeftDoor,
+                Shutter,
+                LeftDoor,
+                RightDoor
+            )
+        )
+    );
+    TestEqual(TEXT("Left target opens"), DoorState.LeftDoorTarget, 1.0f);
+    TestEqual(
+        TEXT("Right target stays closed"),
+        DoorState.RightDoorTarget,
+        0.0f
+    );
+
+    Shutter->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.04f));
+    Actor->ToggleShutter();
+    Actor->Tick(10.0f);
+    Shutter->UpdateComponentToWorld();
+    TestWorld.World->UpdateWorldComponents(true, false);
+
+    TestEqual(
+        TEXT("Raised shutter keeps query collision for aiming"),
+        Shutter->GetCollisionEnabled(),
+        ECollisionEnabled::QueryOnly
+    );
+    TestEqual(
+        TEXT("Raised shutter does not block the player capsule"),
+        Shutter->GetCollisionResponseToChannel(ECC_Pawn),
+        ECR_Ignore
+    );
+    TestEqual(
+        TEXT("Raised shutter still blocks visibility traces"),
+        Shutter->GetCollisionResponseToChannel(ECC_Visibility),
+        ECR_Block
+    );
+
+    FHitResult Hit;
+    const bool bHit = TestWorld.World->LineTraceSingleByChannel(
+        Hit,
+        FVector(-96.0f, -500.0f, 271.0f),
+        FVector(-96.0f, -350.0f, 271.0f),
+        ECC_Visibility
+    );
+    TestTrue(TEXT("Visibility trace hits raised top strip"), bHit);
+    TestEqual(
+        TEXT("Raised shutter is the first blocking component"),
+        Hit.GetComponent(),
+        static_cast<UPrimitiveComponent*>(Shutter)
+    );
+
+    MainHomeInteractive::FAnimationState ShutterState;
+    ShutterState.ShutterAlpha = 1.0f;
+    ShutterState.ShutterTarget = 1.0f;
+    TestTrue(
+        TEXT("Actual traced strip dispatches"),
+        ToggleTargetForHitPart(
+            ShutterState,
+            ClassifyHitComponent(
+                Hit.GetComponent(),
+                Shutter,
+                LeftDoor,
+                RightDoor
+            )
+        )
+    );
+    TestEqual(
+        TEXT("Aimed raised strip targets closing"),
+        ShutterState.ShutterTarget,
+        0.0f
+    );
+
+    Actor->ToggleShutter();
+    Actor->Tick(10.0f);
+    TestEqual(
+        TEXT("Closed shutter restores player blocking"),
+        Shutter->GetCollisionResponseToChannel(ECC_Pawn),
+        ECR_Block
+    );
     return true;
 }
 

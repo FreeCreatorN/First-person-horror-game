@@ -515,7 +515,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         metal = self.generator.PROCEDURAL_FALLBACK_SETTINGS[
             "M_MainHome_FadedGreenMetal"
         ]
-        self.assertGreater(wall["noise_scale"], metal["noise_scale"])
+        self.assertGreater(wall["noise_size_cm"], metal["noise_size_cm"])
         self.assertGreaterEqual(wall["roughness"], 0.9)
         self.assertGreaterEqual(metal["roughness"], 0.85)
 
@@ -583,9 +583,10 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         )
         self.assertIn((noise, "", lerp, "Alpha"), state.expression_connections)
         self.assertEqual(
-            self.generator.PROCEDURAL_FALLBACK_SETTINGS["M_MainHome_Wall"][
-                "noise_scale"
-            ],
+            1.0
+            / self.generator.PROCEDURAL_FALLBACK_SETTINGS[
+                "M_MainHome_Wall"
+            ]["noise_size_cm"],
             noise.properties["scale"],
         )
 
@@ -1039,6 +1040,35 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertGreaterEqual(panel.size_cm[0], 230.0)
         self.assertGreaterEqual(clear_height_cm, 250.0)
 
+    def test_raised_shutter_strip_is_not_occluded_by_fixed_top_box(self):
+        shutter = self._asset_definition(
+            "/Game/MainHome/SM_MainHome_Shutter"
+        )
+        panel = next(
+            box for box in shutter.visual_boxes if box.label == "Shutter_Panel"
+        )
+        shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
+        top_box = next(
+            box
+            for box in shell.visual_boxes
+            if box.label == "ShutterFrame_TopBox"
+        )
+        panel_local_bounds = self.generator.box_bounds(panel)
+        pivot_z = shutter.actor_relative_transform.location_cm[2]
+        open_strip_z = (
+            pivot_z
+            + panel_local_bounds[2][0] * self.generator.SHUTTER_OPEN_SCALE_Z,
+            pivot_z,
+        )
+        top_box_z = self.generator.box_bounds(top_box)[2]
+
+        self.assertEqual((266.52, 277.0), open_strip_z)
+        self.assertEqual((277.0, 291.0), top_box_z)
+        self.assertFalse(
+            max(open_strip_z[0], top_box_z[0])
+            < min(open_strip_z[1], top_box_z[1])
+        )
+
     def test_shutter_mesh_adds_offset_slats_and_bottom_rail_without_extra_collision(
         self,
     ):
@@ -1244,7 +1274,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 (20.0, 28.0), (-400.0, -396.0), (15.0, 267.0)
             ),
             "ShutterFrame_TopBox": (
-                (-220.0, 28.0), (-400.0, -396.0), (267.0, 291.0)
+                (-220.0, 28.0), (-400.0, -396.0), (277.0, 291.0)
             ),
             "DoorFrame_Threshold": (
                 (68.0, 220.0), (-400.0, -396.0), (11.0, 15.0)

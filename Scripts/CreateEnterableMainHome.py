@@ -74,7 +74,7 @@ FAB_TEXTURE_SET_BY_MATERIAL = {
 PROCEDURAL_FALLBACK_SETTINGS = {
     "M_MainHome_Wall": {
         "aged_color": (0.24, 0.20, 0.145, 1.0),
-        "noise_scale": 110.0,
+        "noise_size_cm": 110.0,
         "noise_quality": 2,
         "noise_levels": 3,
         "noise_min": 0.06,
@@ -83,7 +83,7 @@ PROCEDURAL_FALLBACK_SETTINGS = {
     },
     "M_MainHome_Sign": {
         "aged_color": (0.205, 0.145, 0.085, 1.0),
-        "noise_scale": 82.0,
+        "noise_size_cm": 82.0,
         "noise_quality": 2,
         "noise_levels": 3,
         "noise_min": 0.08,
@@ -92,7 +92,7 @@ PROCEDURAL_FALLBACK_SETTINGS = {
     },
     "M_MainHome_FadedGreenMetal": {
         "aged_color": (0.23, 0.105, 0.045, 1.0),
-        "noise_scale": 24.0,
+        "noise_size_cm": 24.0,
         "noise_quality": 1,
         "noise_levels": 3,
         "noise_min": 0.02,
@@ -401,7 +401,7 @@ def build_shell_box_specs():
         ("ShutterFrame_Threshold", (-96, -398, 12), (248, 4, 4), "M_MainHome_FadedGreenMetal"),
         ("ShutterFrame_LeftGuide", (-216, -398, 140), (8, 4, 252), "M_MainHome_FadedGreenMetal"),
         ("ShutterFrame_RightGuide", (24, -398, 140), (8, 4, 252), "M_MainHome_FadedGreenMetal"),
-        ("ShutterFrame_TopBox", (-96, -398, 278), (248, 4, 24), "M_MainHome_FadedGreenMetal"),
+        ("ShutterFrame_TopBox", (-96, -398, 283), (248, 4, 14), "M_MainHome_FadedGreenMetal"),
         ("DoorFrame_Threshold", (144, -398, 12), (152, 4, 4), "M_MainHome_FadedGreenMetal"),
         ("DoorFrame_Left", (72, -398, 147), (8, 4, 266), "M_MainHome_FadedGreenMetal"),
         ("DoorFrame_Right", (216, -398, 147), (8, 4, 266), "M_MainHome_FadedGreenMetal"),
@@ -1218,7 +1218,7 @@ def _connect_procedural_fallback_color(
         unreal.LinearColor(*settings["aged_color"]),
     )
     for property_name, value in (
-        ("scale", settings["noise_scale"]),
+        ("scale", 1.0 / settings["noise_size_cm"]),
         ("quality", settings["noise_quality"]),
         ("levels", settings["noise_levels"]),
         ("output_min", settings["noise_min"]),

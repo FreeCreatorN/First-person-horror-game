@@ -60,6 +60,10 @@ namespace MainHomeInteractive
         FAnimationState& State,
         bool bIsLeftDoor
     );
+    MAINHOMEINTERACTIVE_API bool ToggleTargetForHitPart(
+        FAnimationState& State,
+        EHitPart HitPart
+    );
     MAINHOMEINTERACTIVE_API void ConfigureInteractionBinding(
         FInputKeyBinding& Binding
     );
@@ -182,5 +186,6 @@ private:
     void RemoveInteractionBinding();
     void ResetMainHomeComponentLayout();
     void ApplyAnimationState();
+    void ApplyShutterCollisionState();
     void SetTickForAnimationState();
 };

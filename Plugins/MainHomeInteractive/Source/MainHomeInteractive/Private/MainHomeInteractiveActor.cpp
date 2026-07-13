@@ -68,6 +68,27 @@ namespace MainHomeInteractive
         Target = Target >= 0.5f ? 0.0f : 1.0f;
     }
 
+    bool ToggleTargetForHitPart(
+        FAnimationState& State,
+        const EHitPart HitPart
+    )
+    {
+        switch (HitPart)
+        {
+        case EHitPart::Shutter:
+            ToggleShutterTarget(State);
+            return true;
+        case EHitPart::LeftDoor:
+            ToggleDoorTarget(State, true);
+            return true;
+        case EHitPart::RightDoor:
+            ToggleDoorTarget(State, false);
+            return true;
+        default:
+            return false;
+        }
+    }
+
     void ConfigureInteractionBinding(FInputKeyBinding& Binding)
     {
         Binding.bConsumeInput = false;
@@ -254,23 +275,29 @@ void AMainHomeInteractiveActor::Tick(const float DeltaSeconds)
 
 void AMainHomeInteractiveActor::ToggleShutter()
 {
-    MainHomeInteractive::ToggleShutterTarget(AnimationState);
-    Shutter->SetCollisionEnabled(MainHomeInteractive::GetShutterCollisionMode(
-        AnimationState.ShutterAlpha,
-        AnimationState.ShutterTarget
-    ));
+    MainHomeInteractive::ToggleTargetForHitPart(
+        AnimationState,
+        MainHomeInteractive::EHitPart::Shutter
+    );
+    ApplyShutterCollisionState();
     SetTickForAnimationState();
 }
 
 void AMainHomeInteractiveActor::ToggleLeftDoor()
 {
-    MainHomeInteractive::ToggleDoorTarget(AnimationState, true);
+    MainHomeInteractive::ToggleTargetForHitPart(
+        AnimationState,
+        MainHomeInteractive::EHitPart::LeftDoor
+    );
     SetTickForAnimationState();
 }
 
 void AMainHomeInteractiveActor::ToggleRightDoor()
 {
-    MainHomeInteractive::ToggleDoorTarget(AnimationState, false);
+    MainHomeInteractive::ToggleTargetForHitPart(
+        AnimationState,
+        MainHomeInteractive::EHitPart::RightDoor
+    );
     SetTickForAnimationState();
 }
 
@@ -382,25 +409,25 @@ void AMainHomeInteractiveActor::HandleInteractPressed()
         return;
     }
 
-    switch (MainHomeInteractive::ClassifyHitComponent(
+    const MainHomeInteractive::EHitPart HitPart =
+        MainHomeInteractive::ClassifyHitComponent(
         Hit.GetComponent(),
         Shutter,
         LeftDoorLeaf,
         RightDoorLeaf
+    );
+    if (!MainHomeInteractive::ToggleTargetForHitPart(
+        AnimationState,
+        HitPart
     ))
     {
-    case MainHomeInteractive::EHitPart::Shutter:
-        ToggleShutter();
-        break;
-    case MainHomeInteractive::EHitPart::LeftDoor:
-        ToggleLeftDoor();
-        break;
-    case MainHomeInteractive::EHitPart::RightDoor:
-        ToggleRightDoor();
-        break;
-    default:
-        break;
+        return;
     }
+    if (HitPart == MainHomeInteractive::EHitPart::Shutter)
+    {
+        ApplyShutterCollisionState();
+    }
+    SetTickForAnimationState();
 }
 
 void AMainHomeInteractiveActor::ActivateInputForPawn(APawn* Pawn)
@@ -530,10 +557,7 @@ void AMainHomeInteractiveActor::ApplyAnimationState()
         1.0f,
         MainHomeInteractive::ComputeShutterScale(AnimationState.ShutterAlpha)
     ));
-    Shutter->SetCollisionEnabled(MainHomeInteractive::GetShutterCollisionMode(
-        AnimationState.ShutterAlpha,
-        AnimationState.ShutterTarget
-    ));
+    ApplyShutterCollisionState();
 
     LeftHinge->SetRelativeRotation(FRotator(
         0.0f,
@@ -553,6 +577,23 @@ void AMainHomeInteractiveActor::ApplyAnimationState()
         ) * AnimationState.RightDoorAlpha,
         0.0f
     ));
+}
+
+void AMainHomeInteractiveActor::ApplyShutterCollisionState()
+{
+    const ECollisionEnabled::Type CollisionMode =
+        MainHomeInteractive::GetShutterCollisionMode(
+            AnimationState.ShutterAlpha,
+            AnimationState.ShutterTarget
+        );
+    const bool bSettledOpen = CollisionMode == ECollisionEnabled::QueryOnly;
+
+    Shutter->SetCollisionEnabled(CollisionMode);
+    Shutter->SetCollisionResponseToChannel(
+        ECC_Pawn,
+        bSettledOpen ? ECR_Ignore : ECR_Block
+    );
+    Shutter->SetCollisionResponseToChannel(ECC_Visibility, ECR_Block);
 }
 
 void AMainHomeInteractiveActor::SetTickForAnimationState()
