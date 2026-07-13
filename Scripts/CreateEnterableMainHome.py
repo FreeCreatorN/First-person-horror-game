@@ -103,14 +103,17 @@ PROCEDURAL_FALLBACK_SETTINGS = {
 
 SHUTTER_PIVOT_CM = (-96.0, -394.5, 277.0)
 SHUTTER_OPEN_SCALE_Z = 0.04
-LEFT_HINGE_CM = (78.0, -394.0, 120.0)
-RIGHT_HINGE_CM = (210.0, -394.0, 120.0)
+FRAME_UNDERLAP_CM = 1.0
+LEFT_HINGE_CM = (76.0, -394.0, 121.0)
+RIGHT_HINGE_CM = (212.0, -394.0, 121.0)
 DOOR_CENTER_GAP_CM = 0.5
-DOOR_LEAF_WIDTH_CM = (
+DOOR_VISIBLE_SPAN_CM = (
     RIGHT_HINGE_CM[0]
     - LEFT_HINGE_CM[0]
     - DOOR_CENTER_GAP_CM
 ) / 2.0
+DOOR_PANEL_WIDTH_CM = DOOR_VISIBLE_SPAN_CM + FRAME_UNDERLAP_CM
+DOOR_PANEL_HEIGHT_CM = 214.0
 
 MATERIAL_ORDER = [
     "M_MainHome_Wall",
@@ -407,7 +410,7 @@ def build_shell_box_specs():
         ("DoorFrame_Right", (216, -398, 147), (8, 4, 266), "M_MainHome_FadedGreenMetal"),
         ("DoorFrame_Top", (144, -398, 285), (152, 4, 10), "M_MainHome_FadedGreenMetal"),
         ("DoorTransom_Bar", (144, -398, 231), (136, 4, 10), "M_MainHome_FadedGreenMetal"),
-        ("DoorTransom_Glass", (144, -393, 258), (128, 1, 40), "M_MainHome_DarkGlass"),
+        ("DoorTransom_Glass", (144, -393, 258), (138, 1, 46), "M_MainHome_DarkGlass"),
     ]
     boxes.extend(
         _local_box(
@@ -577,8 +580,8 @@ def build_shutter_box_specs():
     boxes = [
         _pivot_box(
             "Shutter_Panel",
-            (0.0, 1.5, -131.0),
-            (230.0, 3.0, 262.0),
+            (0.0, 1.5, -131.5),
+            (234.0, 3.0, 263.0),
             "M_MainHome_FadedGreenMetal",
             "shutter",
             collision=True,
@@ -607,40 +610,43 @@ def build_shutter_box_specs():
 
 
 def build_left_door_box_specs():
-    half_width = DOOR_LEAF_WIDTH_CM / 2.0
+    visible_center_x = DOOR_VISIBLE_SPAN_CM / 2.0
+    panel_center_x = (
+        DOOR_VISIBLE_SPAN_CM - FRAME_UNDERLAP_CM
+    ) / 2.0
     return [
         _pivot_box(
             "Door_Left_Panel",
-            (half_width, 0.0, 0.0),
-            (DOOR_LEAF_WIDTH_CM, 3.0, 210.0),
+            (panel_center_x, 0.0, 0.0),
+            (DOOR_PANEL_WIDTH_CM, 3.0, DOOR_PANEL_HEIGHT_CM),
             "M_MainHome_FadedGreenMetal",
             "door_leaf",
             collision=True,
         ),
         _pivot_box(
             "Door_Left_GlassInset",
-            (half_width, -2.5, 30.0),
+            (visible_center_x, -2.5, 30.0),
             (51.0, 1.0, 90.0),
             "M_MainHome_DarkGlass",
             "door_detail",
         ),
         _pivot_box(
             "Door_Left_LowerInset",
-            (half_width, -2.5, -62.5),
+            (visible_center_x, -2.5, -62.5),
             (51.0, 1.0, 65.0),
             "M_MainHome_FadedGreenMetal",
             "door_detail",
         ),
         _pivot_box(
             "Door_Left_CenterStile",
-            (DOOR_LEAF_WIDTH_CM - 2.0, -2.5, 0.0),
+            (DOOR_VISIBLE_SPAN_CM - 2.0, -2.5, 0.0),
             (4.0, 1.0, 210.0),
             "M_MainHome_FadedGreenMetal",
             "door_detail",
         ),
         _pivot_box(
             "Door_Left_Handle",
-            (60.0, -3.5, 5.0),
+            (62.0, -3.5, 4.0),
             (2.0, 3.0, 24.0),
             "M_MainHome_Trim",
             "door_handle",
@@ -649,40 +655,43 @@ def build_left_door_box_specs():
 
 
 def build_right_door_box_specs():
-    half_width = DOOR_LEAF_WIDTH_CM / 2.0
+    visible_center_x = DOOR_VISIBLE_SPAN_CM / 2.0
+    panel_center_x = (
+        DOOR_VISIBLE_SPAN_CM - FRAME_UNDERLAP_CM
+    ) / 2.0
     return [
         _pivot_box(
             "Door_Right_Panel",
-            (-half_width, 0.0, 0.0),
-            (DOOR_LEAF_WIDTH_CM, 3.0, 210.0),
+            (-panel_center_x, 0.0, 0.0),
+            (DOOR_PANEL_WIDTH_CM, 3.0, DOOR_PANEL_HEIGHT_CM),
             "M_MainHome_FadedGreenMetal",
             "door_leaf",
             collision=True,
         ),
         _pivot_box(
             "Door_Right_GlassInset",
-            (-half_width, -2.5, 30.0),
+            (-visible_center_x, -2.5, 30.0),
             (51.0, 1.0, 90.0),
             "M_MainHome_DarkGlass",
             "door_detail",
         ),
         _pivot_box(
             "Door_Right_LowerInset",
-            (-half_width, -2.5, -62.5),
+            (-visible_center_x, -2.5, -62.5),
             (51.0, 1.0, 65.0),
             "M_MainHome_FadedGreenMetal",
             "door_detail",
         ),
         _pivot_box(
             "Door_Right_CenterStile",
-            (-DOOR_LEAF_WIDTH_CM + 2.0, -2.5, 0.0),
+            (-DOOR_VISIBLE_SPAN_CM + 2.0, -2.5, 0.0),
             (4.0, 1.0, 210.0),
             "M_MainHome_FadedGreenMetal",
             "door_detail",
         ),
         _pivot_box(
             "Door_Right_Handle",
-            (-60.0, -3.5, 5.0),
+            (-62.0, -3.5, 4.0),
             (2.0, 3.0, 24.0),
             "M_MainHome_Trim",
             "door_handle",

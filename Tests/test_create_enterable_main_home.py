@@ -984,12 +984,61 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             self.generator.SHUTTER_PIVOT_CM,
         )
         self.assertEqual(
-            (78.0, -394.0, 120.0),
+            (76.0, -394.0, 121.0),
             self.generator.LEFT_HINGE_CM,
         )
         self.assertEqual(
-            (210.0, -394.0, 120.0),
+            (212.0, -394.0, 121.0),
             self.generator.RIGHT_HINGE_CM,
+        )
+
+    def test_closed_partitions_underlap_fixed_frames_without_light_leaks(self):
+        shutter_asset = self._asset_definition(
+            self.generator.SHUTTER_STATIC_MESH_ASSET_PATH
+        )
+        shutter = next(
+            box
+            for box in shutter_asset.visual_boxes
+            if box.label == "Shutter_Panel"
+        )
+        self.assertEqual(
+            ((-213.0, 21.0), (-394.5, -391.5), (14.0, 277.0)),
+            self._translated_bounds(
+                shutter, shutter_asset.actor_relative_transform.location_cm
+            ),
+        )
+
+        expected = {
+            self.generator.LEFT_DOOR_STATIC_MESH_ASSET_PATH: (
+                "Door_Left_Panel",
+                (75.0, 143.75),
+            ),
+            self.generator.RIGHT_DOOR_STATIC_MESH_ASSET_PATH: (
+                "Door_Right_Panel",
+                (144.25, 213.0),
+            ),
+        }
+        for asset_path, (label, expected_x) in expected.items():
+            asset = self._asset_definition(asset_path)
+            panel = next(
+                box for box in asset.visual_boxes if box.label == label
+            )
+            bounds = self._translated_bounds(
+                panel, asset.actor_relative_transform.location_cm
+            )
+            self.assertEqual(expected_x, bounds[0])
+            self.assertEqual((14.0, 228.0), bounds[2])
+
+    def test_transom_glass_is_concealed_behind_all_four_frame_edges(self):
+        shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
+        glass = next(
+            box
+            for box in shell.visual_boxes
+            if box.label == "DoorTransom_Glass"
+        )
+        self.assertEqual(
+            ((75.0, 213.0), (-393.5, -392.5), (236.0, 282.0)),
+            self.generator.box_bounds(glass),
         )
 
     def test_shutter_panel_has_required_local_and_closed_bounds(self):
@@ -1000,16 +1049,16 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             box for box in shutter.visual_boxes if box.label == "Shutter_Panel"
         )
         self.assertEqual(
-            ((-115.0, 115.0), (0.0, 3.0), (-262.0, 0.0)),
+            ((-117.0, 117.0), (0.0, 3.0), (-263.0, 0.0)),
             self.generator.box_bounds(panel),
         )
-        self.assertEqual((230.0, 3.0, 262.0), panel.size_cm)
+        self.assertEqual((234.0, 3.0, 263.0), panel.size_cm)
         closed_bounds = self._translated_bounds(
             panel,
             shutter.actor_relative_transform.location_cm,
         )
         self.assertEqual(
-            ((-211.0, 19.0), (-394.5, -391.5), (15.0, 277.0)),
+            ((-213.0, 21.0), (-394.5, -391.5), (14.0, 277.0)),
             closed_bounds,
         )
         shell = self._asset_definition(self.generator.STATIC_MESH_ASSET_PATH)
@@ -1035,8 +1084,8 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             panel.size_cm[2] * self.generator.SHUTTER_OPEN_SCALE_Z
         )
         clear_height_cm = panel.size_cm[2] - retained_height_cm
-        self.assertAlmostEqual(10.48, retained_height_cm)
-        self.assertAlmostEqual(251.52, clear_height_cm)
+        self.assertAlmostEqual(10.52, retained_height_cm)
+        self.assertAlmostEqual(252.48, clear_height_cm)
         self.assertGreaterEqual(panel.size_cm[0], 230.0)
         self.assertGreaterEqual(clear_height_cm, 250.0)
 
@@ -1062,7 +1111,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         )
         top_box_z = self.generator.box_bounds(top_box)[2]
 
-        self.assertEqual((266.52, 277.0), open_strip_z)
+        self.assertEqual((266.48, 277.0), open_strip_z)
         self.assertEqual((277.0, 291.0), top_box_z)
         self.assertFalse(
             max(open_strip_z[0], top_box_z[0])
@@ -1129,13 +1178,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         expected = {
             "/Game/MainHome/SM_MainHome_Door_Left": (
                 "Door_Left_Panel",
-                ((0.0, 65.75), (-1.5, 1.5), (-105.0, 105.0)),
-                ((78.0, 143.75), (-395.5, -392.5), (15.0, 225.0)),
+                ((-1.0, 67.75), (-1.5, 1.5), (-107.0, 107.0)),
+                ((75.0, 143.75), (-395.5, -392.5), (14.0, 228.0)),
             ),
             "/Game/MainHome/SM_MainHome_Door_Right": (
                 "Door_Right_Panel",
-                ((-65.75, 0.0), (-1.5, 1.5), (-105.0, 105.0)),
-                ((144.25, 210.0), (-395.5, -392.5), (15.0, 225.0)),
+                ((-67.75, 1.0), (-1.5, 1.5), (-107.0, 107.0)),
+                ((144.25, 213.0), (-395.5, -392.5), (14.0, 228.0)),
             ),
         }
         for asset_path, (label, local_bounds, closed_bounds) in expected.items():
@@ -1145,7 +1194,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                     box for box in definition.visual_boxes if box.label == label
                 )
                 self.assertEqual(local_bounds, self.generator.box_bounds(panel))
-                self.assertEqual(65.75, panel.size_cm[0])
+                self.assertEqual(68.75, panel.size_cm[0])
                 self.assertEqual(
                     closed_bounds,
                     self._translated_bounds(
@@ -1174,11 +1223,11 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             right_panel, right.actor_relative_transform.location_cm
         )
 
-        self.assertEqual(65.75, left_panel.size_cm[0])
-        self.assertEqual(65.75, right_panel.size_cm[0])
+        self.assertEqual(68.75, left_panel.size_cm[0])
+        self.assertEqual(68.75, right_panel.size_cm[0])
         self.assertAlmostEqual(0.5, right_bounds[0][0] - left_bounds[0][1])
-        self.assertEqual((78.0, 143.75), left_bounds[0])
-        self.assertEqual((144.25, 210.0), right_bounds[0])
+        self.assertEqual((75.0, 143.75), left_bounds[0])
+        self.assertEqual((144.25, 213.0), right_bounds[0])
         self.assertIn(
             "Door_Left_CenterStile",
             {box.label for box in left.visual_boxes},
@@ -1193,12 +1242,12 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             (
                 "/Game/MainHome/SM_MainHome_Door_Left",
                 "Door_Left",
-                32.875,
+                33.875,
             ),
             (
                 "/Game/MainHome/SM_MainHome_Door_Right",
                 "Door_Right",
-                -32.875,
+                -33.875,
             ),
         )
         for asset_path, prefix, inset_x in expected:
@@ -1258,6 +1307,34 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                     {box.label for box in definition.collision_boxes},
                 )
 
+    def test_door_handles_keep_existing_world_centers(self):
+        expected = {
+            self.generator.LEFT_DOOR_STATIC_MESH_ASSET_PATH: (
+                "Door_Left_Handle",
+                (138.0, -397.5, 125.0),
+            ),
+            self.generator.RIGHT_DOOR_STATIC_MESH_ASSET_PATH: (
+                "Door_Right_Handle",
+                (150.0, -397.5, 125.0),
+            ),
+        }
+        for asset_path, (label, expected_world_center) in expected.items():
+            with self.subTest(asset_path=asset_path):
+                definition = self._asset_definition(asset_path)
+                handle = next(
+                    box
+                    for box in definition.visual_boxes
+                    if box.label == label
+                )
+                world_center = tuple(
+                    coordinate_cm + offset_cm
+                    for coordinate_cm, offset_cm in zip(
+                        handle.location_cm,
+                        definition.actor_relative_transform.location_cm,
+                    )
+                )
+                self.assertEqual(expected_world_center, world_center)
+
     def test_fixed_transom_and_storefront_frame_own_shell_collision(self):
         shell = self._asset_definition(
             self.generator.STATIC_MESH_ASSET_PATH
@@ -1292,7 +1369,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 (76.0, 212.0), (-400.0, -396.0), (227.0, 237.0)
             ),
             "DoorTransom_Glass": (
-                (80.0, 208.0), (-393.5, -392.5), (239.0, 279.0)
+                (75.0, 213.0), (-393.5, -392.5), (236.0, 282.0)
             ),
         }
         frame_labels = set(expected_frame_bounds)
