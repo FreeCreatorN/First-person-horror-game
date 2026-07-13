@@ -459,6 +459,96 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             ),
         )
 
+    def test_reference_texture_paths_node_tags_and_material_mapping_are_stable(
+        self,
+    ):
+        self.assertEqual(
+            {
+                "plaster": (
+                    "/Game/MainHome/Textures/"
+                    "T_MainHome_AgedPlaster_BaseColor"
+                ),
+                "metal": (
+                    "/Game/MainHome/Textures/"
+                    "T_MainHome_OldGreenMetal_BaseColor"
+                ),
+            },
+            self.generator.REFERENCE_TEXTURE_ASSET_PATHS,
+        )
+        self.assertEqual(
+            {
+                "M_MainHome_Wall": "plaster",
+                "M_MainHome_Sign": "plaster",
+                "M_MainHome_FadedGreenMetal": "metal",
+            },
+            self.generator.REFERENCE_TEXTURE_BY_MATERIAL,
+        )
+        self.assertEqual(
+            {
+                "base_color": "MainHome_Reference_BaseColor",
+                "multiply": "MainHome_Reference_TintMultiply",
+            },
+            self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS,
+        )
+        self.assertIs(
+            dict,
+            self.generator.load_reference_fallback_textures.__annotations__.get(
+                "return"
+            ),
+        )
+
+    def test_load_reference_fallback_textures_returns_existing_texture2d_assets(
+        self,
+    ):
+        class FakeTexture2D:
+            pass
+
+        expected_paths = {
+            "plaster": (
+                "/Game/MainHome/Textures/"
+                "T_MainHome_AgedPlaster_BaseColor"
+            ),
+            "metal": (
+                "/Game/MainHome/Textures/"
+                "T_MainHome_OldGreenMetal_BaseColor"
+            ),
+        }
+        loaded_assets = {
+            path: FakeTexture2D() for path in expected_paths.values()
+        }
+        checked_paths = []
+        loaded_paths = []
+
+        def asset_exists(path):
+            checked_paths.append(path)
+            return path in loaded_assets
+
+        def load_asset(path):
+            loaded_paths.append(path)
+            return loaded_assets[path]
+
+        self._patch_generator(
+            "unreal",
+            SimpleNamespace(Texture2D=FakeTexture2D),
+        )
+
+        result = self.generator.load_reference_fallback_textures(
+            asset_exists=asset_exists,
+            load_asset=load_asset,
+        )
+
+        self.assertEqual(
+            expected_paths,
+            self.generator.REFERENCE_TEXTURE_ASSET_PATHS,
+        )
+        self.assertEqual({"plaster", "metal"}, set(result))
+        self.assertEqual(
+            {name: loaded_assets[path] for name, path in expected_paths.items()},
+            result,
+        )
+        self.assertEqual(set(expected_paths.values()), set(checked_paths))
+        self.assertEqual(set(expected_paths.values()), set(loaded_paths))
+
     def test_material_expressions_fall_back_to_outer_filtered_object_iterator(
         self,
     ):
@@ -530,11 +620,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={},
+            reference_textures={},
         )
         expression_count = len(state.expressions)
         self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={},
+            reference_textures={},
         )
 
         tagged = {
@@ -661,15 +753,18 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             "normal": object(),
             "roughness": object(),
         }
+        reference_texture = object()
 
         first_result = self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={"plaster": plaster_textures},
+            reference_textures={"plaster": reference_texture},
         )
         expression_count = len(state.expressions)
         second_result = self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={"plaster": plaster_textures},
+            reference_textures={"plaster": reference_texture},
         )
 
         tagged_nodes = {
@@ -718,7 +813,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             normal_node.properties["sampler_type"],
         )
         self.assertEqual(
-            (0.46, 0.39, 0.29, 1.0),
+            (0.62, 0.52, 0.39, 1.0),
             tint_node.properties["constant"],
         )
         self.assertIs(
@@ -744,13 +839,16 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertFalse(
             any(
                 expression.properties.get("desc")
-                in self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS.values()
+                in (
+                    *self.generator.PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS.values(),
+                    *self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS.values(),
+                )
                 for expression in state.expressions
             )
         )
         self.assertEqual([], state.deleted_materials)
 
-    def test_missing_fab_set_reconnects_constants_and_keeps_fab_nodes(self):
+    def test_reference_fallback_reuses_tagged_nodes_and_keeps_fab_nodes(self):
         fake_unreal, state = self._fake_material_graph()
         self._patch_generator("unreal", fake_unreal)
         self._patch_generator(
@@ -762,9 +860,11 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             "normal": object(),
             "roughness": object(),
         }
+        reference_texture = object()
         self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={"plaster": plaster_textures},
+            reference_textures={"plaster": reference_texture},
         )
         tagged_fab_nodes = {
             description: next(
@@ -779,18 +879,39 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={},
+            reference_textures={"plaster": reference_texture},
         )
 
         fallback_expression_count = len(state.expressions)
         self.generator.ensure_material(
             "M_MainHome_Wall",
             texture_sets={},
+            reference_textures={"plaster": reference_texture},
         )
 
         self.assertGreater(fallback_expression_count, fab_expression_count)
         self.assertEqual(fallback_expression_count, len(state.expressions))
         for node in tagged_fab_nodes.values():
             self.assertIn(node, state.expressions)
+        tagged_reference_nodes = {
+            description: [
+                expression
+                for expression in state.expressions
+                if expression.properties.get("desc") == description
+            ]
+            for description in (
+                self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS.values()
+            )
+        }
+        self.assertTrue(
+            all(len(nodes) == 1 for nodes in tagged_reference_nodes.values())
+        )
+        reference_base_color_node = tagged_reference_nodes[
+            self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS["base_color"]
+        ][0]
+        reference_multiply_node = tagged_reference_nodes[
+            self.generator.REFERENCE_FALLBACK_NODE_DESCRIPTIONS["multiply"]
+        ][0]
         fallback_lerp_node = next(
             expression
             for expression in state.expressions
@@ -800,6 +921,30 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertIs(
             fallback_lerp_node,
             state.property_inputs[state.base_color_property],
+        )
+        tint_node = tagged_fab_nodes[
+            self.generator.FAB_NODE_DESCRIPTIONS["tint"]
+        ]
+        self.assertIs(
+            reference_texture,
+            reference_base_color_node.properties["texture"],
+        )
+        self.assertIn(
+            (
+                reference_base_color_node,
+                "RGB",
+                reference_multiply_node,
+                "A",
+            ),
+            state.expression_connections,
+        )
+        self.assertIn(
+            (tint_node, "", reference_multiply_node, "B"),
+            state.expression_connections,
+        )
+        self.assertIn(
+            (reference_multiply_node, "", fallback_lerp_node, "A"),
+            state.expression_connections,
         )
         self.assertIs(
             state.roughness_node,
@@ -818,6 +963,18 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertEqual(
             (0.0, 0.0, 1.0, 1.0),
             fallback_normal_node.properties["constant"],
+        )
+        self.assertIsNot(
+            reference_base_color_node,
+            state.property_inputs[state.normal_property],
+        )
+        self.assertFalse(
+            any(
+                node is reference_base_color_node
+                and material_property is state.normal_property
+                for node, _output_name, material_property
+                in state.property_connections
+            )
         )
         self.assertEqual([], state.deleted_materials)
 
@@ -1743,37 +1900,67 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             },
         )
 
-    def test_letters_are_dark_red_and_stains_remain_visible(self):
-        settings = self.generator.MATERIAL_SETTINGS
-        self.assertEqual(
-            (0.30, 0.07, 0.045, 1.0),
-            settings["M_MainHome_Letters"][0],
-        )
-        self.assertEqual(
-            (0.24, 0.19, 0.145, 1.0),
-            settings["M_MainHome_Stain"][0],
-        )
-
-    def test_missing_fab_textures_use_lighter_aged_fallback_palette(self):
+    def test_reference_palette_matches_exact_linear_targets(self):
         self.assertEqual(
             {
-                "M_MainHome_Wall": ((0.46, 0.39, 0.29, 1.0), 0.94),
-                "M_MainHome_Sign": ((0.40, 0.32, 0.23, 1.0), 0.92),
+                "M_MainHome_Wall": ((0.62, 0.52, 0.39, 1.0), 0.90),
+                "M_MainHome_Sign": ((0.54, 0.43, 0.30, 1.0), 0.91),
+                "M_MainHome_Trim": ((0.20, 0.16, 0.12, 1.0), 0.88),
+                "M_MainHome_Letters": ((0.30, 0.09, 0.055, 1.0), 0.86),
+                "M_MainHome_Stain": ((0.34, 0.27, 0.20, 1.0), 0.95),
                 "M_MainHome_FadedGreenMetal": (
-                    (0.20, 0.30, 0.21, 1.0),
-                    0.88,
+                    (0.16, 0.25, 0.15, 1.0),
+                    0.84,
                 ),
-                "M_MainHome_Stain": ((0.24, 0.19, 0.145, 1.0), 0.97),
+                "M_MainHome_DarkGlass": (
+                    (0.045, 0.065, 0.055, 1.0),
+                    0.24,
+                ),
             },
             {
                 material_name: self.generator.MATERIAL_SETTINGS[material_name]
                 for material_name in (
                     "M_MainHome_Wall",
                     "M_MainHome_Sign",
-                    "M_MainHome_FadedGreenMetal",
+                    "M_MainHome_Trim",
+                    "M_MainHome_Letters",
                     "M_MainHome_Stain",
+                    "M_MainHome_FadedGreenMetal",
+                    "M_MainHome_DarkGlass",
                 )
             },
+        )
+
+    def test_reference_palette_is_warm_bright_and_low_contrast(self):
+        wall, _ = self.generator.MATERIAL_SETTINGS["M_MainHome_Wall"]
+        metal, _ = self.generator.MATERIAL_SETTINGS[
+            "M_MainHome_FadedGreenMetal"
+        ]
+        glass, _ = self.generator.MATERIAL_SETTINGS["M_MainHome_DarkGlass"]
+
+        self.assertGreaterEqual(wall[0], 0.58)
+        self.assertGreater(wall[0], wall[1])
+        self.assertGreater(wall[1], wall[2])
+        self.assertGreater(metal[1], metal[0])
+        self.assertGreater(metal[1], metal[2])
+        self.assertGreaterEqual(glass[0] + glass[1] + glass[2], 0.12)
+        self.assertEqual(
+            0.18,
+            self.generator.PROCEDURAL_FALLBACK_SETTINGS[
+                "M_MainHome_Wall"
+            ]["noise_max"],
+        )
+        self.assertEqual(
+            0.18,
+            self.generator.PROCEDURAL_FALLBACK_SETTINGS[
+                "M_MainHome_Sign"
+            ]["noise_max"],
+        )
+        self.assertEqual(
+            0.20,
+            self.generator.PROCEDURAL_FALLBACK_SETTINGS[
+                "M_MainHome_FadedGreenMetal"
+            ]["noise_max"],
         )
 
     def test_ue57_material_ids_are_enabled_before_first_box_append(self):
@@ -2193,7 +2380,9 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 "roughness": object(),
             }
         }
+        reference_textures = {"plaster": object(), "metal": object()}
         received_texture_sets = []
+        received_reference_textures = []
 
         def build_boxes():
             calls.append("build_box_specs")
@@ -2206,8 +2395,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         def require_unreal():
             calls.append("_require_unreal")
 
-        def ensure_material(name, texture_sets=None):
+        def ensure_material(
+            name,
+            texture_sets=None,
+            reference_textures=None,
+        ):
             received_texture_sets.append(texture_sets)
+            received_reference_textures.append(reference_textures)
             calls.append("ensure_material:{}".format(name))
             return "material:{}".format(name)
 
@@ -2251,6 +2445,32 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 "load_fab_texture_sets",
                 original_loader,
             )
+        original_reference_loader = getattr(
+            self.generator,
+            "load_reference_fallback_textures",
+            None,
+        )
+        setattr(
+            self.generator,
+            "load_reference_fallback_textures",
+            lambda: (
+                calls.append("load_reference_fallback_textures")
+                or reference_textures
+            ),
+        )
+        if original_reference_loader is None:
+            self.addCleanup(
+                delattr,
+                self.generator,
+                "load_reference_fallback_textures",
+            )
+        else:
+            self.addCleanup(
+                setattr,
+                self.generator,
+                "load_reference_fallback_textures",
+                original_reference_loader,
+            )
         self._patch_generator("create_or_update_static_mesh", create_static)
         self._patch_generator("place_single_instance", place_instance)
         self._patch_generator("unreal", SimpleNamespace(log=logs.append))
@@ -2270,6 +2490,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
                 "validate_design",
                 "_require_unreal",
                 "load_fab_texture_sets",
+                "load_reference_fallback_textures",
                 *[
                     "ensure_material:{}".format(name)
                     for name in self.generator.MATERIAL_ORDER
@@ -2285,6 +2506,10 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertEqual(
             [texture_sets] * len(self.generator.MATERIAL_ORDER),
             received_texture_sets,
+        )
+        self.assertEqual(
+            [reference_textures] * len(self.generator.MATERIAL_ORDER),
+            received_reference_textures,
         )
         joined_logs = "\n".join(logs)
         for definition in self.generator.MESH_ASSET_DEFINITIONS:

@@ -49,6 +49,16 @@ FAB_TEXTURE_ASSET_PATHS = {
         ),
     },
 }
+REFERENCE_TEXTURE_ASSET_PATHS = {
+    "plaster": (
+        "/Game/MainHome/Textures/"
+        "T_MainHome_AgedPlaster_BaseColor"
+    ),
+    "metal": (
+        "/Game/MainHome/Textures/"
+        "T_MainHome_OldGreenMetal_BaseColor"
+    ),
+}
 FAB_NODE_DESCRIPTIONS = {
     "base_color": "MainHome_Fab_BaseColor",
     "normal": "MainHome_Fab_Normal",
@@ -59,6 +69,10 @@ FAB_NODE_DESCRIPTIONS = {
 FAB_FALLBACK_NODE_DESCRIPTIONS = {
     "normal": "MainHome_Fab_FallbackNormal",
     "roughness": "MainHome_Fab_FallbackRoughness",
+}
+REFERENCE_FALLBACK_NODE_DESCRIPTIONS = {
+    "base_color": "MainHome_Reference_BaseColor",
+    "multiply": "MainHome_Reference_TintMultiply",
 }
 PROCEDURAL_FALLBACK_NODE_DESCRIPTIONS = {
     "world_position": "MainHome_Aged_WorldPosition",
@@ -71,6 +85,11 @@ FAB_TEXTURE_SET_BY_MATERIAL = {
     "M_MainHome_Sign": "plaster",
     "M_MainHome_FadedGreenMetal": "metal",
 }
+REFERENCE_TEXTURE_BY_MATERIAL = {
+    "M_MainHome_Wall": "plaster",
+    "M_MainHome_Sign": "plaster",
+    "M_MainHome_FadedGreenMetal": "metal",
+}
 PROCEDURAL_FALLBACK_SETTINGS = {
     "M_MainHome_Wall": {
         "aged_color": (0.24, 0.20, 0.145, 1.0),
@@ -78,7 +97,7 @@ PROCEDURAL_FALLBACK_SETTINGS = {
         "noise_quality": 2,
         "noise_levels": 3,
         "noise_min": 0.06,
-        "noise_max": 0.38,
+        "noise_max": 0.18,
         "roughness": 0.96,
     },
     "M_MainHome_Sign": {
@@ -87,7 +106,7 @@ PROCEDURAL_FALLBACK_SETTINGS = {
         "noise_quality": 2,
         "noise_levels": 3,
         "noise_min": 0.08,
-        "noise_max": 0.42,
+        "noise_max": 0.18,
         "roughness": 0.95,
     },
     "M_MainHome_FadedGreenMetal": {
@@ -96,7 +115,7 @@ PROCEDURAL_FALLBACK_SETTINGS = {
         "noise_quality": 1,
         "noise_levels": 3,
         "noise_min": 0.02,
-        "noise_max": 0.48,
+        "noise_max": 0.20,
         "roughness": 0.91,
     },
 }
@@ -130,15 +149,15 @@ MATERIAL_ID_BY_NAME = {
     name: index for index, name in enumerate(MATERIAL_ORDER)
 }
 MATERIAL_SETTINGS = {
-    "M_MainHome_Wall": ((0.46, 0.39, 0.29, 1.0), 0.94),
+    "M_MainHome_Wall": ((0.62, 0.52, 0.39, 1.0), 0.90),
     "M_MainHome_Interior": ((0.16, 0.145, 0.12, 1.0), 0.92),
     "M_MainHome_Floor": ((0.20, 0.18, 0.15, 1.0), 0.96),
-    "M_MainHome_Sign": ((0.40, 0.32, 0.23, 1.0), 0.92),
-    "M_MainHome_Trim": ((0.10, 0.085, 0.07, 1.0), 0.91),
-    "M_MainHome_Letters": ((0.30, 0.07, 0.045, 1.0), 0.88),
-    "M_MainHome_Stain": ((0.24, 0.19, 0.145, 1.0), 0.97),
-    "M_MainHome_FadedGreenMetal": ((0.20, 0.30, 0.21, 1.0), 0.88),
-    "M_MainHome_DarkGlass": ((0.025, 0.04, 0.035, 1.0), 0.18),
+    "M_MainHome_Sign": ((0.54, 0.43, 0.30, 1.0), 0.91),
+    "M_MainHome_Trim": ((0.20, 0.16, 0.12, 1.0), 0.88),
+    "M_MainHome_Letters": ((0.30, 0.09, 0.055, 1.0), 0.86),
+    "M_MainHome_Stain": ((0.34, 0.27, 0.20, 1.0), 0.95),
+    "M_MainHome_FadedGreenMetal": ((0.16, 0.25, 0.15, 1.0), 0.84),
+    "M_MainHome_DarkGlass": ((0.045, 0.065, 0.055, 1.0), 0.24),
 }
 
 DESIGN_BOUNDS = (
@@ -924,6 +943,28 @@ def load_fab_texture_sets(asset_exists=None, load_asset=None) -> dict:
     return texture_sets
 
 
+def load_reference_fallback_textures(
+    asset_exists=None,
+    load_asset=None,
+) -> dict:
+    if asset_exists is None or load_asset is None:
+        _require_unreal()
+    if asset_exists is None:
+        asset_exists = unreal.EditorAssetLibrary.does_asset_exist
+    if load_asset is None:
+        load_asset = unreal.EditorAssetLibrary.load_asset
+
+    texture_type = getattr(unreal, "Texture2D", ())
+    textures = {}
+    for texture_name, asset_path in REFERENCE_TEXTURE_ASSET_PATHS.items():
+        if not asset_exists(asset_path):
+            continue
+        texture = load_asset(asset_path)
+        if isinstance(texture, texture_type):
+            textures[texture_name] = texture
+    return textures
+
+
 def make_transform(location_cm):
     _require_unreal()
     return unreal.Transform(
@@ -1187,6 +1228,7 @@ def _connect_procedural_fallback_color(
     expressions,
     tint_node,
     material_name,
+    reference_texture=None,
 ):
     settings = PROCEDURAL_FALLBACK_SETTINGS.get(material_name)
     if settings is None:
@@ -1242,8 +1284,46 @@ def _connect_procedural_fallback_color(
         "World Position",
         "Procedural world position for {}".format(material_name),
     )
+
+    fallback_base_color_node = tint_node
+    if reference_texture is not None:
+        reference_descriptions = REFERENCE_FALLBACK_NODE_DESCRIPTIONS
+        reference_base_color_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionTextureSample,
+            reference_descriptions["base_color"],
+            (-1000, -150),
+        )
+        reference_multiply_node = _find_or_create_tagged_expression(
+            material,
+            expressions,
+            unreal.MaterialExpressionMultiply,
+            reference_descriptions["multiply"],
+            (-500, -300),
+        )
+        reference_base_color_node.set_editor_property(
+            "texture",
+            reference_texture,
+        )
+        _connect_expression(
+            reference_base_color_node,
+            "RGB",
+            reference_multiply_node,
+            "A",
+            "Reference Base Color for {}".format(material_name),
+        )
+        _connect_expression(
+            tint_node,
+            "",
+            reference_multiply_node,
+            "B",
+            "Reference Tint for {}".format(material_name),
+        )
+        fallback_base_color_node = reference_multiply_node
+
     _connect_expression(
-        tint_node,
+        fallback_base_color_node,
         "",
         lerp_node,
         "A",
@@ -1271,6 +1351,7 @@ def ensure_material(
     color=None,
     roughness=None,
     texture_sets=None,
+    reference_textures=None,
 ):
     _require_unreal()
     if material_name not in MATERIAL_SETTINGS:
@@ -1360,11 +1441,21 @@ def ensure_material(
         )
 
     if texture_set is None:
+        reference_texture_name = REFERENCE_TEXTURE_BY_MATERIAL.get(
+            material_name
+        )
+        reference_texture = (
+            reference_textures.get(reference_texture_name)
+            if isinstance(reference_textures, dict)
+            and reference_texture_name is not None
+            else None
+        )
         fallback_color_node = _connect_procedural_fallback_color(
             material,
             expressions,
             tint_node,
             material_name,
+            reference_texture=reference_texture,
         )
         if current_color_node is not fallback_color_node:
             _connect_material_property(
@@ -1740,8 +1831,13 @@ def generate_enterable_main_home():
     _require_unreal()
 
     texture_sets = load_fab_texture_sets()
+    reference_textures = load_reference_fallback_textures()
     materials = [
-        ensure_material(name, texture_sets=texture_sets)
+        ensure_material(
+            name,
+            texture_sets=texture_sets,
+            reference_textures=reference_textures,
+        )
         for name in MATERIAL_ORDER
     ]
     static_meshes = {
