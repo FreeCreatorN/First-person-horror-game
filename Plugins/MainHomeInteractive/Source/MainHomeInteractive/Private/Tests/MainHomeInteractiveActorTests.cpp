@@ -140,10 +140,10 @@ bool FMainHomeComponentLayoutResetTest::RunTest(const FString& Parameters)
 
     TestEqual(TEXT("Shutter pivot is restored"), Shutter->GetRelativeLocation(), FVector(-96.0f, -394.5f, 277.0f));
     TestTrue(TEXT("Shutter has identity rotation and scale"), Shutter->GetRelativeTransform().GetRotation().IsIdentity() && Shutter->GetRelativeScale3D().Equals(FVector::OneVector));
-    TestEqual(TEXT("Left hinge pivot is restored"), LeftHinge->GetRelativeLocation(), FVector(78.0f, -394.0f, 120.0f));
+    TestEqual(TEXT("Left hinge pivot is restored"), LeftHinge->GetRelativeLocation(), FVector(76.0f, -394.0f, 121.0f));
     TestTrue(TEXT("Left hinge has identity rotation and scale"), LeftHinge->GetRelativeTransform().GetRotation().IsIdentity() && LeftHinge->GetRelativeScale3D().Equals(FVector::OneVector));
     TestTrue(TEXT("Left leaf relative transform is identity"), LeftDoorLeaf->GetRelativeTransform().Equals(FTransform::Identity));
-    TestEqual(TEXT("Right hinge pivot is restored"), RightHinge->GetRelativeLocation(), FVector(210.0f, -394.0f, 120.0f));
+    TestEqual(TEXT("Right hinge pivot is restored"), RightHinge->GetRelativeLocation(), FVector(212.0f, -394.0f, 121.0f));
     TestTrue(TEXT("Right hinge has identity rotation and scale"), RightHinge->GetRelativeTransform().GetRotation().IsIdentity() && RightHinge->GetRelativeScale3D().Equals(FVector::OneVector));
     TestTrue(TEXT("Right leaf relative transform is identity"), RightDoorLeaf->GetRelativeTransform().Equals(FTransform::Identity));
     TestEqual(TEXT("Compact shutter zone location is restored"), ShutterZone->GetRelativeLocation(), FVector(-96.0f, -430.0f, 151.0f));
@@ -161,8 +161,8 @@ bool FMainHomeShutterScaleAndCollisionTest::RunTest(const FString& Parameters)
 {
     TestEqual(TEXT("Closed Z scale"), ComputeShutterScale(0.0f), 1.0f);
     TestEqual(TEXT("Open Z scale"), ComputeShutterScale(1.0f), 0.04f);
-    TestTrue(TEXT("Open strip retains about 10 cm"), FMath::IsNearlyEqual(262.0f * ComputeShutterScale(1.0f), 10.48f, 0.01f));
-    TestTrue(TEXT("Open shutter clears at least 250 cm"), FMath::IsNearlyEqual(262.0f * (1.0f - ComputeShutterScale(1.0f)), 251.52f, 0.01f));
+    TestTrue(TEXT("Open shutter retains 10.52 cm strip"), FMath::IsNearlyEqual(263.0f * ComputeShutterScale(1.0f), 10.52f, 0.01f));
+    TestTrue(TEXT("Open shutter clears 252.48 cm"), FMath::IsNearlyEqual(263.0f * (1.0f - ComputeShutterScale(1.0f)), 252.48f, 0.01f));
     TestEqual(TEXT("Collision stays physical while opening"), GetShutterCollisionMode(0.99f, 1.0f), ECollisionEnabled::QueryAndPhysics);
     TestEqual(TEXT("Fully-open strip remains traceable"), GetShutterCollisionMode(1.0f, 1.0f), ECollisionEnabled::QueryOnly);
     TestEqual(TEXT("Collision becomes physical before closing"), GetShutterCollisionMode(1.0f, 0.0f), ECollisionEnabled::QueryAndPhysics);
@@ -256,12 +256,29 @@ bool FMainHomeProductionGeometryAndTraceTest::RunTest(
         RightDoor->GetComponentTransform()
     );
     TestTrue(
-        TEXT("Actual closed meshes keep a 0.5 cm seam"),
+        TEXT("Left leaf hides under left frame"),
+        FMath::IsNearlyEqual(LeftWorldBounds.Min.X, 75.0f, 0.01f)
+    );
+    TestTrue(
+        TEXT("Right leaf hides under right frame"),
+        FMath::IsNearlyEqual(RightWorldBounds.Max.X, 213.0f, 0.01f)
+    );
+    TestTrue(
+        TEXT("Center division is unchanged"),
         FMath::IsNearlyEqual(
             RightWorldBounds.Min.X - LeftWorldBounds.Max.X,
             0.5f,
             0.01f
         )
+    );
+    TestTrue(
+        TEXT("Door vertical underlap is exact"),
+        FMath::IsNearlyEqual(LeftWorldBounds.Min.Z, 14.0f, 0.01f)
+            && FMath::IsNearlyEqual(
+                LeftWorldBounds.Max.Z,
+                228.0f,
+                0.01f
+            )
     );
 
     MainHomeInteractive::FAnimationState DoorState;

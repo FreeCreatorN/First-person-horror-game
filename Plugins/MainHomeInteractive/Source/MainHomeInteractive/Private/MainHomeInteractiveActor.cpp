@@ -525,13 +525,13 @@ void AMainHomeInteractiveActor::ResetMainHomeComponentLayout()
     ));
     LeftHinge->SetRelativeTransform(FTransform(
         FRotator::ZeroRotator,
-        FVector(78.0f, -394.0f, 120.0f),
+        FVector(76.0f, -394.0f, 121.0f),
         FVector::OneVector
     ));
     LeftDoorLeaf->SetRelativeTransform(FTransform::Identity);
     RightHinge->SetRelativeTransform(FTransform(
         FRotator::ZeroRotator,
-        FVector(210.0f, -394.0f, 120.0f),
+        FVector(212.0f, -394.0f, 121.0f),
         FVector::OneVector
     ));
     RightDoorLeaf->SetRelativeTransform(FTransform::Identity);
