@@ -1,0 +1,6 @@
+Asset: Green Metal Rust
+Source: https://polyhaven.com/a/green_metal_rust
+Author: Rob Tuytel
+License: CC0
+Resolution used: 2K JPG
+

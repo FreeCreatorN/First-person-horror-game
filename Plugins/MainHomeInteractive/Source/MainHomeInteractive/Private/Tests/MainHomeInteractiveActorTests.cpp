@@ -11,6 +11,8 @@
 #include "Engine/World.h"
 #include "InputCoreTypes.h"
 #include "Misc/AutomationTest.h"
+#include "PhysicsEngine/AggregateGeom.h"
+#include "PhysicsEngine/BodySetup.h"
 #include "UObject/Package.h"
 
 using namespace MainHomeInteractive;
@@ -146,8 +148,21 @@ bool FMainHomeComponentLayoutResetTest::RunTest(const FString& Parameters)
     TestEqual(TEXT("Right hinge pivot is restored"), RightHinge->GetRelativeLocation(), FVector(212.0f, -394.0f, 121.0f));
     TestTrue(TEXT("Right hinge has identity rotation and scale"), RightHinge->GetRelativeTransform().GetRotation().IsIdentity() && RightHinge->GetRelativeScale3D().Equals(FVector::OneVector));
     TestTrue(TEXT("Right leaf relative transform is identity"), RightDoorLeaf->GetRelativeTransform().Equals(FTransform::Identity));
-    TestEqual(TEXT("Compact shutter zone location is restored"), ShutterZone->GetRelativeLocation(), FVector(-96.0f, -430.0f, 151.0f));
-    TestEqual(TEXT("Compact shutter zone extent is restored"), ShutterZone->GetUnscaledBoxExtent(), FVector(125.0f, 65.0f, 150.0f));
+    TestEqual(TEXT("Two-sided shutter zone location is restored"), ShutterZone->GetRelativeLocation(), FVector(-96.0f, -394.5f, 151.0f));
+    TestEqual(TEXT("Two-sided shutter zone extent is restored"), ShutterZone->GetUnscaledBoxExtent(), FVector(125.0f, 350.0f, 150.0f));
+
+    const FBox ShutterZoneBounds(
+        ShutterZone->GetRelativeLocation() - ShutterZone->GetUnscaledBoxExtent(),
+        ShutterZone->GetRelativeLocation() + ShutterZone->GetUnscaledBoxExtent()
+    );
+    TestTrue(
+        TEXT("Shutter zone includes an exterior interaction point"),
+        ShutterZoneBounds.IsInsideOrOn(FVector(-96.0f, -690.0f, 151.0f))
+    );
+    TestTrue(
+        TEXT("Shutter zone includes an interior interaction point"),
+        ShutterZoneBounds.IsInsideOrOn(FVector(-96.0f, -100.0f, 151.0f))
+    );
     return true;
 }
 
@@ -160,9 +175,9 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(
 bool FMainHomeShutterScaleAndCollisionTest::RunTest(const FString& Parameters)
 {
     TestEqual(TEXT("Closed Z scale"), ComputeShutterScale(0.0f), 1.0f);
-    TestEqual(TEXT("Open Z scale"), ComputeShutterScale(1.0f), 0.04f);
-    TestTrue(TEXT("Open shutter retains 10.52 cm strip"), FMath::IsNearlyEqual(263.0f * ComputeShutterScale(1.0f), 10.52f, 0.01f));
-    TestTrue(TEXT("Open shutter clears 252.48 cm"), FMath::IsNearlyEqual(263.0f * (1.0f - ComputeShutterScale(1.0f)), 252.48f, 0.01f));
+    TestEqual(TEXT("Open Z scale"), ComputeShutterScale(1.0f), 0.12f);
+    TestTrue(TEXT("Open shutter retains 31.56 cm strip"), FMath::IsNearlyEqual(263.0f * ComputeShutterScale(1.0f), 31.56f, 0.01f));
+    TestTrue(TEXT("Open shutter clears 231.44 cm"), FMath::IsNearlyEqual(263.0f * (1.0f - ComputeShutterScale(1.0f)), 231.44f, 0.01f));
     TestEqual(TEXT("Collision stays physical while opening"), GetShutterCollisionMode(0.99f, 1.0f), ECollisionEnabled::QueryAndPhysics);
     TestEqual(TEXT("Fully-open strip remains traceable"), GetShutterCollisionMode(1.0f, 1.0f), ECollisionEnabled::QueryOnly);
     TestEqual(TEXT("Collision becomes physical before closing"), GetShutterCollisionMode(1.0f, 0.0f), ECollisionEnabled::QueryAndPhysics);
@@ -249,18 +264,69 @@ bool FMainHomeProductionGeometryAndTraceTest::RunTest(
         FString(TEXT("SM_MainHome_Door_Right"))
     );
 
-    const FBox LeftWorldBounds = LeftMesh->GetBoundingBox().TransformBy(
+    const FBox LeftVisualWorldBounds = LeftMesh->GetBoundingBox().TransformBy(
         LeftDoor->GetComponentTransform()
     );
-    const FBox RightWorldBounds = RightMesh->GetBoundingBox().TransformBy(
+    const FBox RightVisualWorldBounds = RightMesh->GetBoundingBox().TransformBy(
         RightDoor->GetComponentTransform()
     );
+
+    const UBodySetup* LeftBodySetup = LeftMesh->GetBodySetup();
+    const UBodySetup* RightBodySetup = RightMesh->GetBodySetup();
+    if (!TestNotNull(TEXT("Left collision body exists"), LeftBodySetup)
+        || !TestNotNull(TEXT("Right collision body exists"), RightBodySetup))
+    {
+        return false;
+    }
+    if (!TestEqual(
+            TEXT("Left leaf has one aligned collision box"),
+            LeftBodySetup->AggGeom.BoxElems.Num(),
+            1
+        )
+        || !TestEqual(
+            TEXT("Right leaf has one aligned collision box"),
+            RightBodySetup->AggGeom.BoxElems.Num(),
+            1
+        ))
+    {
+        return false;
+    }
+
+    const FKBoxElem& LeftCollisionBox =
+        LeftBodySetup->AggGeom.BoxElems[0];
+    const FKBoxElem& RightCollisionBox =
+        RightBodySetup->AggGeom.BoxElems[0];
+    const FVector LeftCollisionExtent(
+        LeftCollisionBox.X * 0.5f,
+        LeftCollisionBox.Y * 0.5f,
+        LeftCollisionBox.Z * 0.5f
+    );
+    const FVector RightCollisionExtent(
+        RightCollisionBox.X * 0.5f,
+        RightCollisionBox.Y * 0.5f,
+        RightCollisionBox.Z * 0.5f
+    );
+    const FBox LeftCollisionWorldBounds(
+        LeftCollisionBox.Center - LeftCollisionExtent,
+        LeftCollisionBox.Center + LeftCollisionExtent
+    );
+    const FBox RightCollisionWorldBounds(
+        RightCollisionBox.Center - RightCollisionExtent,
+        RightCollisionBox.Center + RightCollisionExtent
+    );
+    const FBox LeftWorldBounds = LeftCollisionWorldBounds.TransformBy(
+        LeftDoor->GetComponentTransform()
+    );
+    const FBox RightWorldBounds = RightCollisionWorldBounds.TransformBy(
+        RightDoor->GetComponentTransform()
+    );
+
     TestTrue(
-        TEXT("Left leaf hides under left frame"),
+        TEXT("Left collision leaf hides under left frame"),
         FMath::IsNearlyEqual(LeftWorldBounds.Min.X, 75.0f, 0.01f)
     );
     TestTrue(
-        TEXT("Right leaf hides under right frame"),
+        TEXT("Right collision leaf hides under right frame"),
         FMath::IsNearlyEqual(RightWorldBounds.Max.X, 213.0f, 0.01f)
     );
     TestTrue(
@@ -270,6 +336,15 @@ bool FMainHomeProductionGeometryAndTraceTest::RunTest(
             0.5f,
             0.01f
         )
+    );
+    TestTrue(
+        TEXT("Detailed visual leaves close the center seam"),
+        RightVisualWorldBounds.Min.X - LeftVisualWorldBounds.Max.X <= 0.0f
+    );
+    TestTrue(
+        TEXT("Detailed visual hardware remains outside collision proxies"),
+        LeftVisualWorldBounds.Min.X <= LeftWorldBounds.Min.X
+            && RightVisualWorldBounds.Max.X >= RightWorldBounds.Max.X
     );
     TestTrue(
         TEXT("Door vertical underlap is exact"),
@@ -301,7 +376,7 @@ bool FMainHomeProductionGeometryAndTraceTest::RunTest(
         0.0f
     );
 
-    Shutter->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.04f));
+    Shutter->SetRelativeScale3D(FVector(1.0f, 1.0f, 0.12f));
     Actor->ToggleShutter();
     Actor->Tick(10.0f);
     Shutter->UpdateComponentToWorld();
@@ -334,6 +409,20 @@ bool FMainHomeProductionGeometryAndTraceTest::RunTest(
     TestEqual(
         TEXT("Raised shutter is the first blocking component"),
         Hit.GetComponent(),
+        static_cast<UPrimitiveComponent*>(Shutter)
+    );
+
+    FHitResult InteriorHit;
+    const bool bInteriorHit = TestWorld.World->LineTraceSingleByChannel(
+        InteriorHit,
+        FVector(-96.0f, -100.0f, 250.0f),
+        FVector(-96.0f, -450.0f, 250.0f),
+        ECC_Visibility
+    );
+    TestTrue(TEXT("Interior trace reaches lower part of raised strip"), bInteriorHit);
+    TestEqual(
+        TEXT("Raised shutter is first blocking component from inside"),
+        InteriorHit.GetComponent(),
         static_cast<UPrimitiveComponent*>(Shutter)
     );
 

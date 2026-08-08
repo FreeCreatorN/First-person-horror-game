@@ -88,7 +88,6 @@ FAB_TEXTURE_SET_BY_MATERIAL = {
 REFERENCE_TEXTURE_BY_MATERIAL = {
     "M_MainHome_Wall": "plaster",
     "M_MainHome_Sign": "plaster",
-    "M_MainHome_FadedGreenMetal": "metal",
 }
 PROCEDURAL_FALLBACK_SETTINGS = {
     "M_MainHome_Wall": {
@@ -110,18 +109,24 @@ PROCEDURAL_FALLBACK_SETTINGS = {
         "roughness": 0.95,
     },
     "M_MainHome_FadedGreenMetal": {
-        "aged_color": (0.23, 0.105, 0.045, 1.0),
-        "noise_size_cm": 24.0,
-        "noise_quality": 1,
-        "noise_levels": 3,
-        "noise_min": 0.02,
-        "noise_max": 0.20,
-        "roughness": 0.91,
+        # Keep the painted metal predominantly old green.  The previous
+        # full-frame reference texture produced large cloud-like patches that
+        # read as marble rather than chipped paint.
+        "aged_color": (0.21, 0.075, 0.035, 1.0),
+        "noise_size_cm": 13.0,
+        "noise_quality": 2,
+        "noise_levels": 4,
+        "noise_min": 0.015,
+        "noise_max": 0.075,
+        "roughness": 0.88,
     },
 }
 
 SHUTTER_PIVOT_CM = (-96.0, -394.5, 277.0)
-SHUTTER_OPEN_SCALE_Z = 0.04
+# Keep the same reachable top strip used by the runtime actor.  At 0.12 the
+# opened shutter still intersects an eye-height trace at Z=250 cm, allowing a
+# player standing inside the shop to close it again.
+SHUTTER_OPEN_SCALE_Z = 0.12
 FRAME_UNDERLAP_CM = 1.0
 LEFT_HINGE_CM = (76.0, -394.0, 121.0)
 RIGHT_HINGE_CM = (212.0, -394.0, 121.0)
@@ -152,11 +157,11 @@ MATERIAL_SETTINGS = {
     "M_MainHome_Wall": ((0.62, 0.52, 0.39, 1.0), 0.90),
     "M_MainHome_Interior": ((0.16, 0.145, 0.12, 1.0), 0.92),
     "M_MainHome_Floor": ((0.20, 0.18, 0.15, 1.0), 0.96),
-    "M_MainHome_Sign": ((0.54, 0.43, 0.30, 1.0), 0.91),
+    "M_MainHome_Sign": ((0.47, 0.38, 0.27, 1.0), 0.93),
     "M_MainHome_Trim": ((0.20, 0.16, 0.12, 1.0), 0.88),
-    "M_MainHome_Letters": ((0.30, 0.09, 0.055, 1.0), 0.86),
+    "M_MainHome_Letters": ((0.22, 0.052, 0.030, 1.0), 0.90),
     "M_MainHome_Stain": ((0.34, 0.27, 0.20, 1.0), 0.95),
-    "M_MainHome_FadedGreenMetal": ((0.16, 0.25, 0.15, 1.0), 0.84),
+    "M_MainHome_FadedGreenMetal": ((0.085, 0.145, 0.095, 1.0), 0.88),
     "M_MainHome_DarkGlass": ((0.045, 0.065, 0.055, 1.0), 0.24),
 }
 
@@ -295,6 +300,137 @@ _LETTER_BITMAPS = (
     ),
 )
 
+# Re-author the sign from a 20 x 20 raster sampled from the open-source
+# Noto Sans SC Medium glyphs.  The first coarse 9 x 9 pass was useful during
+# blockout, but its characters read as unrelated symbols from player distance.
+_LETTER_BITMAPS = (
+    (
+        "\u5927",
+        (
+            "00000000000000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "01111111111111111111",
+            "01111111111111111111",
+            "00000000011100000000",
+            "00000000111100000000",
+            "00000000110110000000",
+            "00000001110110000000",
+            "00000001100111000000",
+            "00000011100011100000",
+            "00000111000001110000",
+            "00001111000001111000",
+            "00011110000000111100",
+            "01111100000000011110",
+            "01110000000000000111",
+        ),
+    ),
+    (
+        "\u4f17",
+        (
+            "00000000000000000000",
+            "00000000011100000000",
+            "00000000011000000000",
+            "00000000111100000000",
+            "00000001111100000000",
+            "00000011100111000000",
+            "00000111000011100000",
+            "00011110000001111000",
+            "11111000000000011111",
+            "01110110000001101110",
+            "01000110000011000000",
+            "00001100000011000000",
+            "00001100000011000000",
+            "00001111000011100000",
+            "00001111100111100000",
+            "00011001110110110000",
+            "00011000111110111000",
+            "00110000001100011100",
+            "01110000011100001111",
+            "11100000111000000110",
+        ),
+    ),
+    (
+        "\u5c0f",
+        (
+            "00000000000000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00010000011000010000",
+            "00011100011000111000",
+            "00011000011000011000",
+            "00011000011000011100",
+            "00111000011000001100",
+            "00110000011000001110",
+            "00110000011000000110",
+            "01110000011000000110",
+            "01100000011000000111",
+            "11100000011000000011",
+            "01000000011000000010",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00000111111000000000",
+        ),
+    ),
+    (
+        "\u5356",
+        (
+            "00000000000000000000",
+            "00000000011000000000",
+            "00000000011000000000",
+            "00111111111111111100",
+            "00111111111111111100",
+            "00000000011000000000",
+            "01111111111111111110",
+            "01111111111111111110",
+            "00000100000000001100",
+            "00001111001100011100",
+            "00110001101100001000",
+            "00011110001100000000",
+            "00000100011000000000",
+            "11111111111111111110",
+            "11111111111111111110",
+            "00000000110000000000",
+            "00000001110110000000",
+            "00000111100111110000",
+            "00111111000000111111",
+            "11111000000000001110",
+        ),
+    ),
+    (
+        "\u90e8",
+        (
+            "00000010000000000000",
+            "00001110000000000000",
+            "00000110000001111111",
+            "01111111111001111111",
+            "01111111111001100011",
+            "00110000110001100110",
+            "00110000110001100110",
+            "00111000110001100100",
+            "00011001100001101100",
+            "11111111111101101100",
+            "11111111111101100110",
+            "00000000000001100010",
+            "01111111111001100011",
+            "01111111111001100011",
+            "01100000011001100011",
+            "01100000011001100011",
+            "01100000011001111110",
+            "01100000011001101110",
+            "01111111111001100000",
+            "01111111111001100000",
+        ),
+    ),
+)
+
 
 def _local_box(
     label,
@@ -344,19 +480,23 @@ def _horizontal_runs(row_bits):
 
 
 def _build_letter_boxes():
-    cell_width_cm = 7.0
-    cell_height_cm = 5.0
-    glyph_width_cm = 9.0 * cell_width_cm
-    glyph_gap_cm = 12.0
+    cell_width_cm = 3.8
+    cell_height_cm = 2.4
+    glyph_width_cm = 20.0 * cell_width_cm
+    glyph_gap_cm = 7.0
     total_width_cm = (
         len(_LETTER_BITMAPS) * glyph_width_cm
         + (len(_LETTER_BITMAPS) - 1) * glyph_gap_cm
     )
     first_glyph_left_cm = -total_width_cm / 2.0
-    bottom_local_z_cm = 299.0
+    bottom_local_z_cm = 294.0
     boxes = []
 
-    for glyph_index, (_character, rows) in enumerate(_LETTER_BITMAPS):
+    # The storefront faces -Y.  From that front view, screen-left maps to
+    # positive local X, so author the logical text in reverse X order.
+    for glyph_index, (_character, rows) in enumerate(
+        reversed(_LETTER_BITMAPS)
+    ):
         glyph_left_cm = first_glyph_left_cm + glyph_index * (
             glyph_width_cm + glyph_gap_cm
         )
@@ -547,15 +687,15 @@ def build_shell_box_specs():
         ),
         (
             "Stain_Sign_Left",
-            (-210, -398.5, 302),
-            (24, 1, 12),
+            (-220, -398.5, 302),
+            (12, 1, 12),
             "M_MainHome_Stain",
             "stain",
         ),
         (
             "Stain_Sign_Right",
-            (210, -398.5, 338),
-            (18, 1, 10),
+            (220, -398.5, 338),
+            (12, 1, 10),
             "M_MainHome_Stain",
             "stain",
         ),
@@ -1615,6 +1755,64 @@ def _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials):
     _normalize_geometry_script_result(result, "copy_mesh_to_static_mesh")
 
 
+def _compact_visual_material_sections(visual_mesh, materials, boxes):
+    """Compact sparse mesh Material IDs while preserving global slot indices."""
+    used_global_slots = sorted(
+        {
+            MATERIAL_ID_BY_NAME[box.material_name]
+            for box in boxes
+        }
+    )
+    material_library = getattr(unreal, "GeometryScript_Materials", None)
+    compact = None
+    if material_library is not None:
+        for method_name in ("compact_material_i_ds", "compact_material_ids"):
+            candidate = getattr(material_library, method_name, None)
+            if callable(candidate):
+                compact = candidate
+                break
+
+    # Unit-test fakes may intentionally omit Geometry Script material helpers.
+    if compact is None:
+        return visual_mesh, used_global_slots, False
+
+    result = compact(visual_mesh, list(materials), False)
+    compacted_materials = None
+    if isinstance(result, tuple):
+        if result and result[0] is not None:
+            visual_mesh = result[0]
+        if len(result) > 1:
+            compacted_materials = list(result[1])
+    elif result is not None:
+        visual_mesh = result
+
+    if (
+        compacted_materials is not None
+        and len(compacted_materials) != len(used_global_slots)
+    ):
+        raise RuntimeError(
+            "Geometry Script compacted {} materials, expected {}".format(
+                len(compacted_materials),
+                len(used_global_slots),
+            )
+        )
+    return visual_mesh, used_global_slots, True
+
+
+def _remap_compacted_sections_to_global_slots(static_mesh, global_slot_indices):
+    """Keep the nine stable slots but map compact sections back onto them."""
+    subsystem = unreal.get_editor_subsystem(
+        unreal.StaticMeshEditorSubsystem
+    )
+    for section_index, material_slot_index in enumerate(global_slot_indices):
+        subsystem.set_lod_material_slot(
+            static_mesh,
+            int(material_slot_index),
+            0,
+            int(section_index),
+        )
+
+
 def create_or_update_static_mesh(definition, materials=None):
     _require_unreal()
     materials = _ordered_materials(materials)
@@ -1626,6 +1824,15 @@ def create_or_update_static_mesh(definition, materials=None):
         for box in definition.visual_boxes
     )
     visual_mesh = create_visual_dynamic_mesh(definition.visual_boxes)
+    (
+        visual_mesh,
+        used_global_slots,
+        sections_compacted,
+    ) = _compact_visual_material_sections(
+        visual_mesh,
+        materials,
+        definition.visual_boxes,
+    )
     collision_mesh = create_collision_dynamic_mesh(definition.collision_boxes)
     static_mesh = _load_asset_if_exists(definition.asset_path)
 
@@ -1649,6 +1856,11 @@ def create_or_update_static_mesh(definition, materials=None):
         )
 
     _copy_visual_mesh_to_static_mesh(visual_mesh, static_mesh, materials)
+    if sections_compacted:
+        _remap_compacted_sections_to_global_slots(
+            static_mesh,
+            used_global_slots,
+        )
     return apply_structural_collision(
         collision_mesh,
         static_mesh,

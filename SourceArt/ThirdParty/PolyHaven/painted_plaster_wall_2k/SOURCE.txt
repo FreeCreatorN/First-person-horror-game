@@ -1,0 +1,6 @@
+Asset: Painted Plaster Wall
+Source: https://polyhaven.com/a/painted_plaster_wall
+Author: Amal Kumar
+License: CC0
+Resolution used: 2K JPG
+

@@ -485,7 +485,6 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             {
                 "M_MainHome_Wall": "plaster",
                 "M_MainHome_Sign": "plaster",
-                "M_MainHome_FadedGreenMetal": "metal",
             },
             self.generator.REFERENCE_TEXTURE_BY_MATERIAL,
         )
@@ -1386,15 +1385,15 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         panel = next(
             box for box in shutter.visual_boxes if box.label == "Shutter_Panel"
         )
-        self.assertEqual(0.04, self.generator.SHUTTER_OPEN_SCALE_Z)
+        self.assertEqual(0.12, self.generator.SHUTTER_OPEN_SCALE_Z)
         retained_height_cm = (
             panel.size_cm[2] * self.generator.SHUTTER_OPEN_SCALE_Z
         )
         clear_height_cm = panel.size_cm[2] - retained_height_cm
-        self.assertAlmostEqual(10.52, retained_height_cm)
-        self.assertAlmostEqual(252.48, clear_height_cm)
+        self.assertAlmostEqual(31.56, retained_height_cm)
+        self.assertAlmostEqual(231.44, clear_height_cm)
         self.assertGreaterEqual(panel.size_cm[0], 230.0)
-        self.assertGreaterEqual(clear_height_cm, 250.0)
+        self.assertGreaterEqual(clear_height_cm, 225.0)
 
     def test_raised_shutter_strip_is_not_occluded_by_fixed_top_box(self):
         shutter = self._asset_definition(
@@ -1418,7 +1417,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         )
         top_box_z = self.generator.box_bounds(top_box)[2]
 
-        self.assertEqual((266.48, 277.0), open_strip_z)
+        self.assertEqual((245.44, 277.0), open_strip_z)
         self.assertEqual((277.0, 291.0), top_box_z)
         self.assertFalse(
             max(open_strip_z[0], top_box_z[0])
@@ -2054,13 +2053,13 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
         self.assertEqual(
             {
                 "M_MainHome_Wall": ((0.62, 0.52, 0.39, 1.0), 0.90),
-                "M_MainHome_Sign": ((0.54, 0.43, 0.30, 1.0), 0.91),
+                "M_MainHome_Sign": ((0.47, 0.38, 0.27, 1.0), 0.93),
                 "M_MainHome_Trim": ((0.20, 0.16, 0.12, 1.0), 0.88),
-                "M_MainHome_Letters": ((0.30, 0.09, 0.055, 1.0), 0.86),
+                "M_MainHome_Letters": ((0.22, 0.052, 0.030, 1.0), 0.90),
                 "M_MainHome_Stain": ((0.34, 0.27, 0.20, 1.0), 0.95),
                 "M_MainHome_FadedGreenMetal": (
-                    (0.16, 0.25, 0.15, 1.0),
-                    0.84,
+                    (0.085, 0.145, 0.095, 1.0),
+                    0.88,
                 ),
                 "M_MainHome_DarkGlass": (
                     (0.045, 0.065, 0.055, 1.0),
@@ -2107,7 +2106,7 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
             ]["noise_max"],
         )
         self.assertEqual(
-            0.20,
+            0.075,
             self.generator.PROCEDURAL_FALLBACK_SETTINGS[
                 "M_MainHome_FadedGreenMetal"
             ]["noise_max"],
@@ -2156,6 +2155,91 @@ class EnterableMainHomeGeometryTests(unittest.TestCase):
     def test_geometry_script_enables_material_ids_before_append(self):
         source = SCRIPT_PATH.read_text(encoding="utf-8")
         self.assertLess(source.index("enable_material_ids"), source.index("append_box("))
+
+    def test_sparse_visual_material_sections_are_compacted_in_global_order(self):
+        visual_mesh = object()
+        materials = [
+            "material:{}".format(name)
+            for name in self.generator.MATERIAL_ORDER
+        ]
+        shutter = self._asset_definition(
+            self.generator.SHUTTER_STATIC_MESH_ASSET_PATH
+        )
+        calls = []
+
+        def compact_material_i_ds(mesh, source_materials, remove_duplicates):
+            calls.append(
+                (mesh, list(source_materials), remove_duplicates)
+            )
+            return (
+                mesh,
+                [source_materials[4], source_materials[7]],
+            )
+
+        fake_unreal = SimpleNamespace(
+            GeometryScript_Materials=SimpleNamespace(
+                compact_material_i_ds=compact_material_i_ds,
+            ),
+        )
+        self._patch_generator("unreal", fake_unreal)
+
+        result_mesh, global_slots, compacted = (
+            self.generator._compact_visual_material_sections(
+                visual_mesh,
+                materials,
+                shutter.visual_boxes,
+            )
+        )
+
+        self.assertIs(visual_mesh, result_mesh)
+        self.assertEqual([4, 7], global_slots)
+        self.assertTrue(compacted)
+        self.assertEqual(
+            [(visual_mesh, materials, False)],
+            calls,
+        )
+
+    def test_compacted_sections_are_remapped_to_stable_global_slots(self):
+        calls = []
+
+        class FakeSubsystem:
+            def set_lod_material_slot(
+                self,
+                static_mesh,
+                material_slot_index,
+                lod_index,
+                section_index,
+            ):
+                calls.append(
+                    (
+                        static_mesh,
+                        material_slot_index,
+                        lod_index,
+                        section_index,
+                    )
+                )
+
+        subsystem = FakeSubsystem()
+        fake_unreal = SimpleNamespace(
+            StaticMeshEditorSubsystem=object(),
+            get_editor_subsystem=lambda _class: subsystem,
+        )
+        self._patch_generator("unreal", fake_unreal)
+        static_mesh = object()
+
+        self.generator._remap_compacted_sections_to_global_slots(
+            static_mesh,
+            [4, 7, 8],
+        )
+
+        self.assertEqual(
+            [
+                (static_mesh, 4, 0, 0),
+                (static_mesh, 7, 0, 1),
+                (static_mesh, 8, 0, 2),
+            ],
+            calls,
+        )
 
     def test_collision_uses_separate_aligned_box_mesh(self):
         source = SCRIPT_PATH.read_text(encoding="utf-8")

@@ -28,7 +28,7 @@ namespace MainHomeInteractive
 
     float ComputeShutterScale(const float Alpha)
     {
-        return FMath::Lerp(1.0f, 0.04f, FMath::Clamp(Alpha, 0.0f, 1.0f));
+        return FMath::Lerp(1.0f, 0.12f, FMath::Clamp(Alpha, 0.0f, 1.0f));
     }
 
     float AdvanceAlpha(
@@ -235,6 +235,7 @@ AMainHomeInteractiveActor::AMainHomeInteractiveActor()
 void AMainHomeInteractiveActor::BeginPlay()
 {
     Super::BeginPlay();
+    ResetMainHomeComponentLayout();
     ApplyAnimationState();
     SetActorTickEnabled(false);
 }
@@ -538,10 +539,14 @@ void AMainHomeInteractiveActor::ResetMainHomeComponentLayout()
 
     ShutterInteractionZone->SetRelativeTransform(FTransform(
         FRotator::ZeroRotator,
-        FVector(-96.0f, -430.0f, 151.0f),
+        FVector(-96.0f, -394.5f, 151.0f),
         FVector::OneVector
     ));
-    ShutterInteractionZone->SetBoxExtent(FVector(125.0f, 65.0f, 150.0f));
+    ShutterInteractionZone->SetBoxExtent(FVector(
+        125.0f,
+        FMath::Max(1.0f, InteractionDistanceCm),
+        150.0f
+    ));
     DoorInteractionZone->SetRelativeTransform(FTransform(
         FRotator::ZeroRotator,
         FVector(144.0f, -430.0f, 151.0f),
