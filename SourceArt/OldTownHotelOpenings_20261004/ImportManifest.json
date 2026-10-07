@@ -1,0 +1,454 @@
+{
+  "assets": [
+    {
+      "name": "SM_OTS_DoorFrame_1200_1860",
+      "kind": "DoorFrame",
+      "width": 120.0,
+      "height": 186.0,
+      "pivot": "opening_bottom_center",
+      "file": "SM_OTS_DoorFrame_1200_1860.fbx",
+      "bounds_cm": [
+        [
+          -62.99999952316284,
+          -2.500000037252903,
+          0.0
+        ],
+        [
+          62.99999952316284,
+          2.500000037252903,
+          188.99999856948853
+        ]
+      ],
+      "dimensions_cm": [
+        125.99999904632568,
+        5.000000074505806,
+        188.99999856948853
+      ],
+      "vertices": 152,
+      "polygons": 158,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorFrame_1400_2300",
+      "kind": "DoorFrame",
+      "width": 140.0,
+      "height": 230.0,
+      "pivot": "opening_bottom_center",
+      "file": "SM_OTS_DoorFrame_1400_2300.fbx",
+      "bounds_cm": [
+        [
+          -73.00000190734863,
+          -2.500000037252903,
+          0.0
+        ],
+        [
+          73.00000190734863,
+          2.500000037252903,
+          232.99999237060547
+        ]
+      ],
+      "dimensions_cm": [
+        146.00000381469727,
+        5.000000074505806,
+        232.99999237060547
+      ],
+      "vertices": 152,
+      "polygons": 158,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorFrame_900_2000",
+      "kind": "DoorFrame",
+      "width": 90.0,
+      "height": 200.0,
+      "pivot": "opening_bottom_center",
+      "file": "SM_OTS_DoorFrame_900_2000.fbx",
+      "bounds_cm": [
+        [
+          -47.999998927116394,
+          -2.500000037252903,
+          0.0
+        ],
+        [
+          47.999998927116394,
+          2.500000037252903,
+          202.99999713897705
+        ]
+      ],
+      "dimensions_cm": [
+        95.99999785423279,
+        5.000000074505806,
+        202.99999713897705
+      ],
+      "vertices": 152,
+      "polygons": 158,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorHandle_1200_1860",
+      "kind": "DoorHandle",
+      "width": 120.0,
+      "height": 186.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_DoorHandle_1200_1860.fbx",
+      "bounds_cm": [
+        [
+          89.69999551773071,
+          -6.1828698962926865,
+          97.00000286102295
+        ],
+        [
+          102.19999551773071,
+          6.1828698962926865,
+          112.99999952316284
+        ]
+      ],
+      "dimensions_cm": [
+        12.5,
+        12.365739792585373,
+        15.999996662139893
+      ],
+      "vertices": 2016,
+      "polygons": 2028,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorHandle_1400_2300",
+      "kind": "DoorHandle",
+      "width": 140.0,
+      "height": 230.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_DoorHandle_1400_2300.fbx",
+      "bounds_cm": [
+        [
+          109.7000002861023,
+          -6.1828698962926865,
+          97.00000286102295
+        ],
+        [
+          122.2000002861023,
+          6.1828698962926865,
+          112.99999952316284
+        ]
+      ],
+      "dimensions_cm": [
+        12.5,
+        12.365739792585373,
+        15.999996662139893
+      ],
+      "vertices": 2016,
+      "polygons": 2028,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorHandle_900_2000",
+      "kind": "DoorHandle",
+      "width": 90.0,
+      "height": 200.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_DoorHandle_900_2000.fbx",
+      "bounds_cm": [
+        [
+          59.69999432563782,
+          -6.1828698962926865,
+          97.00000286102295
+        ],
+        [
+          72.2000002861023,
+          6.1828698962926865,
+          112.99999952316284
+        ]
+      ],
+      "dimensions_cm": [
+        12.500005960464478,
+        12.365739792585373,
+        15.999996662139893
+      ],
+      "vertices": 2016,
+      "polygons": 2028,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorLeaf_1200_1860",
+      "kind": "DoorLeaf",
+      "width": 120.0,
+      "height": 186.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_DoorLeaf_1200_1860.fbx",
+      "bounds_cm": [
+        [
+          -1.5765348449349403,
+          -2.4000000208616257,
+          0.6000000052154064
+        ],
+        [
+          111.19999885559082,
+          2.4000000208616257,
+          181.40000104904175
+        ]
+      ],
+      "dimensions_cm": [
+        112.77653370052576,
+        4.800000041723251,
+        180.80000104382634
+      ],
+      "vertices": 1680,
+      "polygons": 1696,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorLeaf_1400_2300",
+      "kind": "DoorLeaf",
+      "width": 140.0,
+      "height": 230.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_DoorLeaf_1400_2300.fbx",
+      "bounds_cm": [
+        [
+          -1.5765348449349403,
+          -2.4000000208616257,
+          0.6000000052154064
+        ],
+        [
+          131.2000036239624,
+          2.4000000208616257,
+          225.3999948501587
+        ]
+      ],
+      "dimensions_cm": [
+        132.77653846889734,
+        4.800000041723251,
+        224.79999484494328
+      ],
+      "vertices": 1680,
+      "polygons": 1696,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_DoorLeaf_900_2000",
+      "kind": "DoorLeaf",
+      "width": 90.0,
+      "height": 200.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_DoorLeaf_900_2000.fbx",
+      "bounds_cm": [
+        [
+          -1.5765348449349403,
+          -2.4000000208616257,
+          0.6000000052154064
+        ],
+        [
+          81.19999766349792,
+          2.4000000208616257,
+          195.39999961853027
+        ]
+      ],
+      "dimensions_cm": [
+        82.77653250843287,
+        4.800000041723251,
+        194.79999961331487
+      ],
+      "vertices": 1680,
+      "polygons": 1696,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_HotelSignLetters",
+      "kind": "sign",
+      "width": 201.98919773101807,
+      "height": 48.0,
+      "pivot": "bottom_center",
+      "file": "SM_OTS_HotelSignLetters.fbx",
+      "bounds_cm": [
+        [
+          -100.99459886550903,
+          -0.13257062528282404,
+          0.0
+        ],
+        [
+          100.99459886550903,
+          0.13257062528282404,
+          48.00000190734863
+        ]
+      ],
+      "dimensions_cm": [
+        201.98919773101807,
+        0.2651412505656481,
+        48.00000190734863
+      ],
+      "vertices": 10812,
+      "polygons": 12594,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_WindowFrame_1250_1200",
+      "kind": "WindowFrame",
+      "width": 125.0,
+      "height": 120.0,
+      "pivot": "opening_bottom_center",
+      "file": "SM_OTS_WindowFrame_1250_1200.fbx",
+      "bounds_cm": [
+        [
+          -65.49999713897705,
+          -1.7500000074505806,
+          -2.9999999329447746
+        ],
+        [
+          65.49999713897705,
+          1.7500000074505806,
+          123.00000190734863
+        ]
+      ],
+      "dimensions_cm": [
+        130.9999942779541,
+        3.500000014901161,
+        126.00000184029341
+      ],
+      "vertices": 208,
+      "polygons": 216,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_WindowFrame_900_900",
+      "kind": "WindowFrame",
+      "width": 90.0,
+      "height": 90.0,
+      "pivot": "opening_bottom_center",
+      "file": "SM_OTS_WindowFrame_900_900.fbx",
+      "bounds_cm": [
+        [
+          -47.999998927116394,
+          -1.7500000074505806,
+          -2.9999999329447746
+        ],
+        [
+          47.999998927116394,
+          1.7500000074505806,
+          93.00000071525574
+        ]
+      ],
+      "dimensions_cm": [
+        95.99999785423279,
+        3.500000014901161,
+        96.00000064820051
+      ],
+      "vertices": 208,
+      "polygons": 216,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_WindowGlass_1250_1200",
+      "kind": "WindowGlass",
+      "width": 125.0,
+      "height": 120.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_WindowGlass_1250_1200.fbx",
+      "bounds_cm": [
+        [
+          5.900000035762787,
+          -0.4999999888241291,
+          10.199999809265137
+        ],
+        [
+          52.10000276565552,
+          0.4999999888241291,
+          109.80000495910645
+        ]
+      ],
+      "dimensions_cm": [
+        46.20000272989273,
+        0.9999999776482582,
+        99.60000514984131
+      ],
+      "vertices": 16,
+      "polygons": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_WindowGlass_900_900",
+      "kind": "WindowGlass",
+      "width": 90.0,
+      "height": 90.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_WindowGlass_900_900.fbx",
+      "bounds_cm": [
+        [
+          5.900000035762787,
+          -0.4999999888241291,
+          10.199999809265137
+        ],
+        [
+          34.59999859333038,
+          0.4999999888241291,
+          79.79999780654907
+        ]
+      ],
+      "dimensions_cm": [
+        28.699998557567596,
+        0.9999999776482582,
+        69.59999799728394
+      ],
+      "vertices": 16,
+      "polygons": 12,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_WindowSash_1250_1200",
+      "kind": "WindowSash",
+      "width": 125.0,
+      "height": 120.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_WindowSash_1250_1200.fbx",
+      "bounds_cm": [
+        [
+          0.0,
+          -1.7500000074505806,
+          4.30000014603138
+        ],
+        [
+          57.999998331069946,
+          1.7500000074505806,
+          115.6999945640564
+        ]
+      ],
+      "dimensions_cm": [
+        57.999998331069946,
+        3.500000014901161,
+        111.39999441802502
+      ],
+      "vertices": 336,
+      "polygons": 350,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "SM_OTS_WindowSash_900_900",
+      "kind": "WindowSash",
+      "width": 90.0,
+      "height": 90.0,
+      "pivot": "hinge",
+      "file": "SM_OTS_WindowSash_900_900.fbx",
+      "bounds_cm": [
+        [
+          0.0,
+          -1.7500000074505806,
+          4.30000014603138
+        ],
+        [
+          40.50000011920929,
+          1.7500000074505806,
+          85.69999933242798
+        ]
+      ],
+      "dimensions_cm": [
+        40.50000011920929,
+        3.500000014901161,
+        81.3999991863966
+      ],
+      "vertices": 336,
+      "polygons": 350,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "units": "centimeters",
+  "pivot_coordinates": "centimeters from hinge or opening bottom"
+}

@@ -1,0 +1,15 @@
+{
+  "dimensions_cm": [
+    20.000001907348633,
+    20.000001907348633,
+    4.000000476837158
+  ],
+  "asset": "/Game/Yastars/Mesh/RecessedLight/SM_RecessedLight.SM_RecessedLight",
+  "materials": [
+    "/Game/Yastars/Mesh/RecessedLight/Materials/M_RecessedLight_Housing.M_RecessedLight_Housing",
+    "/Game/Yastars/Mesh/RecessedLight/Materials/M_RecessedLight_Trim.M_RecessedLight_Trim",
+    "/Game/Yastars/Mesh/RecessedLight/Materials/M_RecessedLight_Baffle.M_RecessedLight_Baffle",
+    "/Game/Yastars/Mesh/RecessedLight/Materials/M_RecessedLight_Diffuser.M_RecessedLight_Diffuser"
+  ],
+  "success": true
+}

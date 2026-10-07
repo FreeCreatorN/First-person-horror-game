@@ -1,0 +1,1334 @@
+{
+  "units": "cm",
+  "assets": [
+    {
+      "key": "Toilet",
+      "name": "SM_OTS_Arch_Toilet",
+      "file": "SM_OTS_Arch_Toilet.fbx",
+      "bounds_cm": [
+        [
+          -32.01000094413757,
+          -17.70000010728836,
+          0.0
+        ],
+        [
+          33.000001311302185,
+          17.70000010728836,
+          77.99999713897705
+        ]
+      ],
+      "dimensions_cm": [
+        65.01000225543976,
+        35.40000021457672,
+        77.99999713897705
+      ],
+      "vertices": 520,
+      "materials": [
+        "Ceramic",
+        "DarkMetal"
+      ],
+      "source_sha256": "ef835d76e61b896f778f2b486af79e42c85016683c056840a4cfce38e602a3f3"
+    },
+    {
+      "key": "Washbasin",
+      "name": "SM_OTS_Arch_Washbasin",
+      "file": "SM_OTS_Arch_Washbasin.fbx",
+      "bounds_cm": [
+        [
+          -22.499999403953552,
+          -30.000001192092896,
+          0.0
+        ],
+        [
+          22.499999403953552,
+          30.000001192092896,
+          85.00000238418579
+        ]
+      ],
+      "dimensions_cm": [
+        44.999998807907104,
+        60.00000238418579,
+        85.00000238418579
+      ],
+      "vertices": 432,
+      "materials": [
+        "DarkMetal",
+        "Ceramic"
+      ],
+      "source_sha256": "4892ce277fb909ac36ba8cbd0bf21c6cc0374890c8dc55fb9a2997a6007e87a6"
+    },
+    {
+      "key": "ShowerTray",
+      "name": "SM_OTS_Arch_ShowerTray",
+      "file": "SM_OTS_Arch_ShowerTray.fbx",
+      "bounds_cm": [
+        [
+          -44.999998807907104,
+          -44.999998807907104,
+          0.0
+        ],
+        [
+          44.999998807907104,
+          44.999998807907104,
+          3.999999910593033
+        ]
+      ],
+      "dimensions_cm": [
+        89.99999761581421,
+        89.99999761581421,
+        3.999999910593033
+      ],
+      "vertices": 104,
+      "materials": [
+        "Ceramic",
+        "DarkMetal"
+      ],
+      "source_sha256": "aa92968cb10561ed24203f5f9e7089ff39cf3820a2532b2041e947888d92b764"
+    },
+    {
+      "key": "ShowerScreen",
+      "name": "SM_OTS_Arch_ShowerScreen",
+      "file": "SM_OTS_Arch_ShowerScreen.fbx",
+      "bounds_cm": [
+        [
+          -44.999998807907104,
+          -0.4999999888241291,
+          0.0
+        ],
+        [
+          44.999998807907104,
+          0.4999999888241291,
+          200.0
+        ]
+      ],
+      "dimensions_cm": [
+        89.99999761581421,
+        0.9999999776482582,
+        200.0
+      ],
+      "vertices": 280,
+      "materials": [
+        "Glass",
+        "DarkMetal"
+      ],
+      "source_sha256": "eec0f0560dc14410b66abcb3d06f84c035344c71f2d7cab5d7762639b3ff0a35"
+    },
+    {
+      "key": "Wardrobe",
+      "name": "SM_OTS_Arch_Wardrobe",
+      "file": "SM_OTS_Arch_Wardrobe.fbx",
+      "bounds_cm": [
+        [
+          -32.54999816417694,
+          -60.00000238418579,
+          0.0
+        ],
+        [
+          30.000001192092896,
+          60.00000238418579,
+          209.99999046325684
+        ]
+      ],
+      "dimensions_cm": [
+        62.549999356269836,
+        120.00000476837158,
+        209.99999046325684
+      ],
+      "vertices": 280,
+      "materials": [
+        "Wood",
+        "DarkMetal"
+      ],
+      "source_sha256": "b743e8e9f73a2c6f5ac96ba98a551512046ec437272b03b0d58a372efd0750cf"
+    },
+    {
+      "key": "FluorescentFixture",
+      "name": "SM_OTS_Arch_FluorescentFixture",
+      "file": "SM_OTS_Arch_FluorescentFixture.fbx",
+      "bounds_cm": [
+        [
+          -7.000000029802322,
+          -50.0,
+          0.9999997913837433
+        ],
+        [
+          7.000000029802322,
+          50.0,
+          10.000000149011612
+        ]
+      ],
+      "dimensions_cm": [
+        14.000000059604645,
+        100.0,
+        9.000000357627869
+      ],
+      "vertices": 264,
+      "materials": [
+        "DarkMetal",
+        "Ceramic"
+      ],
+      "source_sha256": "1330d4c337c9bbc348d30c52c6f2b0b092c95a75e39c9d7b1ca9066626c26bf4"
+    },
+    {
+      "key": "KeyRack",
+      "name": "SM_OTS_Arch_KeyRack",
+      "file": "SM_OTS_Arch_KeyRack.fbx",
+      "bounds_cm": [
+        [
+          -7.999999821186066,
+          -75.0,
+          0.0
+        ],
+        [
+          5.000000074505806,
+          75.0,
+          94.9999988079071
+        ]
+      ],
+      "dimensions_cm": [
+        12.999999895691872,
+        150.0,
+        94.9999988079071
+      ],
+      "vertices": 952,
+      "materials": [
+        "Wood"
+      ],
+      "source_sha256": "07466a04fe8c1ca4b839f7b3f97b26eb9b7ddaf30c2b16cf1c72cb15bc9b2b8a"
+    },
+    {
+      "key": "WallVent",
+      "name": "SM_OTS_Arch_WallVent",
+      "file": "SM_OTS_Arch_WallVent.fbx",
+      "bounds_cm": [
+        [
+          -3.5999998450279236,
+          -22.499999403953552,
+          0.0
+        ],
+        [
+          2.500000037252903,
+          22.499999403953552,
+          30.000001192092896
+        ]
+      ],
+      "dimensions_cm": [
+        6.099999882280827,
+        44.999998807907104,
+        30.000001192092896
+      ],
+      "vertices": 672,
+      "materials": [
+        "DarkMetal"
+      ],
+      "source_sha256": "340c7e9a98de53aef22b3c04188b4e1f70ae20f5f31247c0e619ae6d436275ac"
+    },
+    {
+      "key": "RoomNumber_201",
+      "name": "SM_OTS_Arch_RoomNumber_201",
+      "file": "SM_OTS_Arch_RoomNumber_201.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          9.428571164608002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.702856570482254,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 756,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "4f02f4d30bc66a8eab37b5c6138684964903408f7a7acc2f04c4558757297b89"
+    },
+    {
+      "key": "RoomNumber_202",
+      "name": "SM_OTS_Arch_RoomNumber_202",
+      "file": "SM_OTS_Arch_RoomNumber_202.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.274285405874252,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.548570811748505,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1096,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "0fa1a9ea9d9d7427a01084ccfddca57399e0871aaf21393d8f3461cd8a8702bf"
+    },
+    {
+      "key": "RoomNumber_203",
+      "name": "SM_OTS_Arch_RoomNumber_203",
+      "file": "SM_OTS_Arch_RoomNumber_203.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.554285138845444,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.828570544719696,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1328,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "89c001a5f2e99d43d2a7668384d6d169a5539a059eeb74ff6de8199bf2167b40"
+    },
+    {
+      "key": "RoomNumber_204",
+      "name": "SM_OTS_Arch_RoomNumber_204",
+      "file": "SM_OTS_Arch_RoomNumber_204.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.359999120235443,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.634284526109695,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 800,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "49e75a90046fa3192c808140220a584bc0ca86a91e7c92da76023bb7b07c6e01"
+    },
+    {
+      "key": "RoomNumber_205",
+      "name": "SM_OTS_Arch_RoomNumber_205",
+      "file": "SM_OTS_Arch_RoomNumber_205.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.794285476207733,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.068570882081985,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1052,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "501201052c329355c63dfd6c3980977503d7dba62e9076fcffb80e96afaff353"
+    },
+    {
+      "key": "RoomNumber_206",
+      "name": "SM_OTS_Arch_RoomNumber_206",
+      "file": "SM_OTS_Arch_RoomNumber_206.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.25714236497879,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.531427770853043,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1224,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "9acc409d04e2243a7e9bbb39294435c5818ca54e3c49213f81f232982c873e42"
+    },
+    {
+      "key": "RoomNumber_207",
+      "name": "SM_OTS_Arch_RoomNumber_207",
+      "file": "SM_OTS_Arch_RoomNumber_207.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.685713171958923,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.959998577833176,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 764,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "1282e85d86ea06a8c54552c52244f4712e794d201982b00d19e6823d66f99197"
+    },
+    {
+      "key": "RoomNumber_208",
+      "name": "SM_OTS_Arch_RoomNumber_208",
+      "file": "SM_OTS_Arch_RoomNumber_208.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.308571487665176,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.58285689353943,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1508,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "a98f6e47f9b6eabd6604e940258b98ccf868bf79f5dc48622cdf3733b7ffdc59"
+    },
+    {
+      "key": "RoomNumber_209",
+      "name": "SM_OTS_Arch_RoomNumber_209",
+      "file": "SM_OTS_Arch_RoomNumber_209.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.188570946455002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.462856352329254,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1272,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "8ccf27a355c6e3ba272f799c25b6029a98e3745ac081a888347a210a8d1f9659"
+    },
+    {
+      "key": "RoomNumber_210",
+      "name": "SM_OTS_Arch_RoomNumber_210",
+      "file": "SM_OTS_Arch_RoomNumber_210.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.34285682439804,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.617142230272293,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 756,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "4f304cd7cd86a000cb0eaabaec96b7d83c9c50d08d5d295a3f5adf78e4f3ea3c"
+    },
+    {
+      "key": "RoomNumber_211",
+      "name": "SM_OTS_Arch_RoomNumber_211",
+      "file": "SM_OTS_Arch_RoomNumber_211.fbx",
+      "bounds_cm": [
+        [
+          -12.434153258800507,
+          -0.12500151060521603,
+          0.0
+        ],
+        [
+          9.551374614238739,
+          0.12500151060521603,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.985527873039246,
+        0.25000302121043205,
+        11.999999731779099
+      ],
+      "vertices": 388,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "77e27785cf9ab7815834b09fe6a2502a81eaf60596cf8dbf52235932e066af53"
+    },
+    {
+      "key": "RoomNumber_212",
+      "name": "SM_OTS_Arch_RoomNumber_212",
+      "file": "SM_OTS_Arch_RoomNumber_212.fbx",
+      "bounds_cm": [
+        [
+          -12.434153258800507,
+          -0.12500151060521603,
+          0.0
+        ],
+        [
+          12.434153258800507,
+          0.12500151060521603,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.868306517601013,
+        0.25000302121043205,
+        11.999999731779099
+      ],
+      "vertices": 728,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "efd22b7090ccf0cd1f2e8d5ebcf31b12a4d6e15d50e35a2d7c0e7f31aac2c972"
+    },
+    {
+      "key": "RoomNumber_213",
+      "name": "SM_OTS_Arch_RoomNumber_213",
+      "file": "SM_OTS_Arch_RoomNumber_213.fbx",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.554285138845444,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.828570544719696,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 960,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "96ce0b5cef993d1e7b4bf7a9784f80a13cace27437f6c6e0269cd2c415585ada"
+    },
+    {
+      "key": "RoomNumber_301",
+      "name": "SM_OTS_Arch_RoomNumber_301",
+      "file": "SM_OTS_Arch_RoomNumber_301.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          9.428571164608002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.18857055902481,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 988,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "53e76cdf396076809fdb9041351dd507bd3797fe220e5e171c1f4735ad15c28a"
+    },
+    {
+      "key": "RoomNumber_302",
+      "name": "SM_OTS_Arch_RoomNumber_302",
+      "file": "SM_OTS_Arch_RoomNumber_302.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.274285405874252,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.03428480029106,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1328,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "443605b64a7216e5e4ecd8f15ef579db15b01484674cb64f330a75bb5207bab3"
+    },
+    {
+      "key": "RoomNumber_303",
+      "name": "SM_OTS_Arch_RoomNumber_303",
+      "file": "SM_OTS_Arch_RoomNumber_303.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.554285138845444,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.314284533262253,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1560,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "ae2b72de0a65c6758b1c22e66fddde97261451da29deadb2bb8fd939f5ffd4fa"
+    },
+    {
+      "key": "RoomNumber_304",
+      "name": "SM_OTS_Arch_RoomNumber_304",
+      "file": "SM_OTS_Arch_RoomNumber_304.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.359999120235443,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.119998514652252,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1032,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "29b03fa2a917ae40a9e76f462fa0667e8f40d47e022e2fc844ed34d7651423ce"
+    },
+    {
+      "key": "RoomNumber_305",
+      "name": "SM_OTS_Arch_RoomNumber_305",
+      "file": "SM_OTS_Arch_RoomNumber_305.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.794285476207733,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.554284870624542,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1284,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "e0e77681d3e355ae1935407ed01f809ff5debd0ca09cfa8c448f79f232dd7c09"
+    },
+    {
+      "key": "RoomNumber_306",
+      "name": "SM_OTS_Arch_RoomNumber_306",
+      "file": "SM_OTS_Arch_RoomNumber_306.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.25714236497879,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.0171417593956,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1456,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "21920af655e2f865d29aa4e44eddd790dfe652f5c298cb6c070feefec313f700"
+    },
+    {
+      "key": "RoomNumber_307",
+      "name": "SM_OTS_Arch_RoomNumber_307",
+      "file": "SM_OTS_Arch_RoomNumber_307.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.685713171958923,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.445712566375732,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 996,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "0683b4c8922e52c758eb708d60b25338a01402589a9d98944d8289213723d7b5"
+    },
+    {
+      "key": "RoomNumber_308",
+      "name": "SM_OTS_Arch_RoomNumber_308",
+      "file": "SM_OTS_Arch_RoomNumber_308.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.308571487665176,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.068570882081985,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1740,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "134ad393ba58a4cbed0bc84f4ca770cf6e6b524e4e1a6700b4b84e98e91b7b6a"
+    },
+    {
+      "key": "RoomNumber_309",
+      "name": "SM_OTS_Arch_RoomNumber_309",
+      "file": "SM_OTS_Arch_RoomNumber_309.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.188570946455002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.94857034087181,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1504,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "7c02272069882a549751b33746838eaf1c67ef1cbd735e4511f4233b7a64cc1c"
+    },
+    {
+      "key": "RoomNumber_310",
+      "name": "SM_OTS_Arch_RoomNumber_310",
+      "file": "SM_OTS_Arch_RoomNumber_310.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.34285682439804,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.10285621881485,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 988,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "8adf78a117d9cf85f9fcad881c90cb5c62a9c3b065ec2ffcdcc0e186f26b97f3"
+    },
+    {
+      "key": "RoomNumber_311",
+      "name": "SM_OTS_Arch_RoomNumber_311",
+      "file": "SM_OTS_Arch_RoomNumber_311.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          9.428571164608002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.18857055902481,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 620,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "a05585e4216f14e0ab3d5d347d11fb18a13e4257a372da491071d67be2eaa3e9"
+    },
+    {
+      "key": "RoomNumber_312",
+      "name": "SM_OTS_Arch_RoomNumber_312",
+      "file": "SM_OTS_Arch_RoomNumber_312.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.274285405874252,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.03428480029106,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 960,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "bd6b69e44ed9e561ad531123984a3caaaca6cc5a72f4a63d9c9a63fde976136c"
+    },
+    {
+      "key": "RoomNumber_313",
+      "name": "SM_OTS_Arch_RoomNumber_313",
+      "file": "SM_OTS_Arch_RoomNumber_313.fbx",
+      "bounds_cm": [
+        [
+          -11.759999394416809,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.554285138845444,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.314284533262253,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1192,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "fad9c38809a5150bbfdb31ad370b52a89a646d7a437c5854fa1917465d753631"
+    },
+    {
+      "key": "RoomNumber_401",
+      "name": "SM_OTS_Arch_RoomNumber_401",
+      "file": "SM_OTS_Arch_RoomNumber_401.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          9.428571164608002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        22.097142040729523,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 460,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "4715b0126a2c96bda53ae02ead44c09fa4d26ff5ae0c995c3cc60b95ce7745f8"
+    },
+    {
+      "key": "RoomNumber_402",
+      "name": "SM_OTS_Arch_RoomNumber_402",
+      "file": "SM_OTS_Arch_RoomNumber_402.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.274285405874252,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.942856281995773,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 800,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "3c005d58d2dc76d8e220e4cabd852b5c72d096326f1935340955fc314785e725"
+    },
+    {
+      "key": "RoomNumber_403",
+      "name": "SM_OTS_Arch_RoomNumber_403",
+      "file": "SM_OTS_Arch_RoomNumber_403.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.554285138845444,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.222856014966965,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1032,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "66663006b5ab2d1f0560f75f16f615b4eb9e7e47c2155549a656c3a1d7e4de0d"
+    },
+    {
+      "key": "RoomNumber_404",
+      "name": "SM_OTS_Arch_RoomNumber_404",
+      "file": "SM_OTS_Arch_RoomNumber_404.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.359999120235443,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        25.028569996356964,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 504,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "4364a8b09d066ae54267a245002c75f25edf5ecb2ad3ddff3e3142e1479b2afd"
+    },
+    {
+      "key": "RoomNumber_405",
+      "name": "SM_OTS_Arch_RoomNumber_405",
+      "file": "SM_OTS_Arch_RoomNumber_405.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.794285476207733,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.462856352329254,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 756,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "4b09a59ed7d5575a7db6600d57ffad67d4383a51a6359bc94b24a2b23b6cc4eb"
+    },
+    {
+      "key": "RoomNumber_406",
+      "name": "SM_OTS_Arch_RoomNumber_406",
+      "file": "SM_OTS_Arch_RoomNumber_406.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.25714236497879,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.92571324110031,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 928,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "5474ad39ee7b480d90c485986d5bfbb116db4dcb2ad09342ca042d3bffa4b7f6"
+    },
+    {
+      "key": "RoomNumber_407",
+      "name": "SM_OTS_Arch_RoomNumber_407",
+      "file": "SM_OTS_Arch_RoomNumber_407.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.685713171958923,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        25.354284048080444,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 468,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "25085f7f9b57945e8f2d9333850946a9ddc1ef03fbb35de49646ec32676c05dc"
+    },
+    {
+      "key": "RoomNumber_408",
+      "name": "SM_OTS_Arch_RoomNumber_408",
+      "file": "SM_OTS_Arch_RoomNumber_408.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.308571487665176,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.977142363786697,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 1212,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "74e126b8ac4ad766667559f6f290b6cf8d4d681c92aa72e071963bf015e0fd73"
+    },
+    {
+      "key": "RoomNumber_409",
+      "name": "SM_OTS_Arch_RoomNumber_409",
+      "file": "SM_OTS_Arch_RoomNumber_409.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.188570946455002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.857141822576523,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 976,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "83c568f0d8b2a22315140f6e4e0941e70d87b78496979530d720ee1a081fa340"
+    },
+    {
+      "key": "RoomNumber_410",
+      "name": "SM_OTS_Arch_RoomNumber_410",
+      "file": "SM_OTS_Arch_RoomNumber_410.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.34285682439804,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        25.01142770051956,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 460,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "e602931b24c2d0cff89174964c48932782750d600e1f9eacfec54205ab6dce5c"
+    },
+    {
+      "key": "RoomNumber_411",
+      "name": "SM_OTS_Arch_RoomNumber_411",
+      "file": "SM_OTS_Arch_RoomNumber_411.fbx",
+      "bounds_cm": [
+        [
+          -12.833574414253235,
+          -0.12500151060521603,
+          0.0
+        ],
+        [
+          9.551374614238739,
+          0.12500151060521603,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        22.384949028491974,
+        0.25000302121043205,
+        11.999999731779099
+      ],
+      "vertices": 92,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "b1401405ab31972d9c9eca3e3635276a087dc65f8c9ab8d7543b24c13fbda47e"
+    },
+    {
+      "key": "RoomNumber_412",
+      "name": "SM_OTS_Arch_RoomNumber_412",
+      "file": "SM_OTS_Arch_RoomNumber_412.fbx",
+      "bounds_cm": [
+        [
+          -12.833574414253235,
+          -0.12500151060521603,
+          0.0
+        ],
+        [
+          12.434153258800507,
+          0.12500151060521603,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        25.26772767305374,
+        0.25000302121043205,
+        11.999999731779099
+      ],
+      "vertices": 432,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "64626d4e1a4b7ca75caa8ba4275426fb77e76912ee6715f30364d2da250ab10a"
+    },
+    {
+      "key": "RoomNumber_413",
+      "name": "SM_OTS_Arch_RoomNumber_413",
+      "file": "SM_OTS_Arch_RoomNumber_413.fbx",
+      "bounds_cm": [
+        [
+          -12.668570876121521,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          11.554285138845444,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.222856014966965,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 664,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "97ede1bfb57b909d3c9084015e02011806518250a872ae9f5c4ee3e16023e6e2"
+    },
+    {
+      "key": "RoomNumber_101",
+      "name": "SM_OTS_Arch_RoomNumber_101",
+      "file": "SM_OTS_Arch_RoomNumber_101.fbx",
+      "bounds_cm": [
+        [
+          -9.394285082817078,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          9.428571164608002,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        18.82285624742508,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 416,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "c69f28e7d31878ee4d4a458c8ec00c6a92c27acd1939663fb66bdb62e58f0b48"
+    },
+    {
+      "key": "RoomNumber_102",
+      "name": "SM_OTS_Arch_RoomNumber_102",
+      "file": "SM_OTS_Arch_RoomNumber_102.fbx",
+      "bounds_cm": [
+        [
+          -9.394285082817078,
+          -0.1250015222467482,
+          0.0
+        ],
+        [
+          12.274285405874252,
+          0.1250015222467482,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.66857048869133,
+        0.2500030444934964,
+        11.999999731779099
+      ],
+      "vertices": 756,
+      "materials": [
+        "Letters"
+      ],
+      "source_sha256": "cf1a1230c4464c24f293fd14d01c10c224d0a08055976886904741005e15f11f"
+    }
+  ]
+}

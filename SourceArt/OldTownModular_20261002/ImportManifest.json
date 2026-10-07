@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "authoring_units": "meters",
+  "import_units": "centimeters",
+  "fbx_axis_forward": "-Y",
+  "fbx_axis_up": "Z",
+  "authoring_axes": {
+    "X": "width",
+    "Y": "depth, front is -Y",
+    "Z": "up"
+  },
+  "assembly_note": "Offsets are Blender authoring XYZ centimetres; verify Unreal FBX axis conversion before placement.",
+  "materials": {
+    "Wood": {
+      "color": [
+        0.2199999988079071,
+        0.10499999672174454,
+        0.041999999433755875
+      ],
+      "roughness": 0.7200000286102295,
+      "metallic": 0.0
+    },
+    "WoodPanel": {
+      "color": [
+        0.28999999165534973,
+        0.1550000011920929,
+        0.07199999690055847
+      ],
+      "roughness": 0.7599999904632568,
+      "metallic": 0.0
+    },
+    "Metal": {
+      "color": [
+        0.1599999964237213,
+        0.14000000059604645,
+        0.09000000357627869
+      ],
+      "roughness": 0.5400000214576721,
+      "metallic": 0.6800000071525574
+    },
+    "Cloth": {
+      "color": [
+        0.3400000035762787,
+        0.41999998688697815,
+        0.33000001311302185
+      ],
+      "roughness": 0.9300000071525574,
+      "metallic": 0.0
+    },
+    "ClothPillow": {
+      "color": [
+        0.6800000071525574,
+        0.6299999952316284,
+        0.47999998927116394
+      ],
+      "roughness": 0.9599999785423279,
+      "metallic": 0.0
+    },
+    "ClothPiping": {
+      "color": [
+        0.18000000715255737,
+        0.25,
+        0.1899999976158142
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    }
+  },
+  "assets": [
+    {
+      "name": "SM_OTS_Blender_BedFrame",
+      "destination": "/Game/Yastar/Meshes/Bed",
+      "group": "Bed",
+      "file": "SM_OTS_Blender_BedFrame.fbx",
+      "dimensions_cm": [
+        135.6,
+        213.6,
+        97.5
+      ],
+      "offset_cm": [
+        0,
+        0,
+        0
+      ],
+      "bounds_cm": [
+        [
+          -67.8,
+          -106.8,
+          0.0
+        ],
+        [
+          67.8,
+          106.8,
+          97.5
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel"
+      ],
+      "vertices": 3264,
+      "triangles": 6392,
+      "pivot": "floor_or_support",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_BedMattress",
+      "destination": "/Game/Yastar/Meshes/Bed",
+      "group": "Bed",
+      "file": "SM_OTS_Blender_BedMattress.fbx",
+      "dimensions_cm": [
+        120.0,
+        198.0,
+        15.0
+      ],
+      "offset_cm": [
+        0,
+        0,
+        44.0
+      ],
+      "bounds_cm": [
+        [
+          -60.0,
+          -99.0,
+          -0.0
+        ],
+        [
+          60.0,
+          99.0,
+          15.0
+        ]
+      ],
+      "material_slots": [
+        "Cloth",
+        "ClothPiping"
+      ],
+      "vertices": 240,
+      "triangles": 444,
+      "pivot": "floor_or_support",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_BedPillow",
+      "destination": "/Game/Yastar/Meshes/Bed",
+      "group": "Bed",
+      "file": "SM_OTS_Blender_BedPillow.fbx",
+      "dimensions_cm": [
+        58.0,
+        37.0,
+        10.9738
+      ],
+      "offset_cm": [
+        0,
+        69.0,
+        59.0
+      ],
+      "bounds_cm": [
+        [
+          -28.999999165534973,
+          -18.50000023841858,
+          0.0
+        ],
+        [
+          28.999999165534973,
+          18.50000023841858,
+          10.973770916461945
+        ]
+      ],
+      "material_slots": [
+        "ClothPillow"
+      ],
+      "vertices": 168,
+      "triangles": 316,
+      "pivot": "floor_or_support",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_OldWoodTable",
+      "destination": "/Game/Yastar/Meshes/Table",
+      "group": "Table",
+      "file": "SM_OTS_Blender_OldWoodTable.fbx",
+      "dimensions_cm": [
+        121.8,
+        78.0,
+        76.0
+      ],
+      "offset_cm": [
+        0,
+        0,
+        0
+      ],
+      "bounds_cm": [
+        [
+          -60.9,
+          -39.0,
+          0.0
+        ],
+        [
+          60.9,
+          39.0,
+          76.0
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel",
+        "Metal"
+      ],
+      "vertices": 1824,
+      "triangles": 3572,
+      "pivot": "floor_or_support",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_OldWoodChair",
+      "destination": "/Game/Yastar/Meshes/Furniture",
+      "group": "Chair",
+      "file": "SM_OTS_Blender_OldWoodChair.fbx",
+      "dimensions_cm": [
+        43.0,
+        42.3,
+        92.0
+      ],
+      "offset_cm": [
+        0,
+        0,
+        0
+      ],
+      "bounds_cm": [
+        [
+          -21.5,
+          -21.15,
+          0.0
+        ],
+        [
+          21.5,
+          21.15,
+          92.0
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel"
+      ],
+      "vertices": 2016,
+      "triangles": 3948,
+      "pivot": "floor_or_support",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_WardrobeCase",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Wardrobe",
+      "file": "SM_OTS_Blender_WardrobeCase.fbx",
+      "dimensions_cm": [
+        121.0,
+        61.85,
+        192.0
+      ],
+      "offset_cm": [
+        0,
+        0,
+        0
+      ],
+      "bounds_cm": [
+        [
+          -60.5,
+          -31.85,
+          0.0
+        ],
+        [
+          60.5,
+          30.0,
+          192.0
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel"
+      ],
+      "vertices": 1536,
+      "triangles": 3008,
+      "pivot": "floor_or_support",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_WardrobeDoorL",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Wardrobe",
+      "file": "SM_OTS_Blender_WardrobeDoorL.fbx",
+      "dimensions_cm": [
+        56.0,
+        7.45,
+        170.8
+      ],
+      "offset_cm": [
+        -55.8,
+        -33.0,
+        16.0
+      ],
+      "bounds_cm": [
+        [
+          -0.7,
+          -3.4,
+          0.1
+        ],
+        [
+          55.3,
+          4.05,
+          170.9
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel",
+        "Metal"
+      ],
+      "vertices": 1248,
+      "triangles": 2444,
+      "pivot": "hinge_bottom",
+      "source": "Original geometry authored through Blender MCP"
+    },
+    {
+      "name": "SM_OTS_Blender_WardrobeDoorR",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Wardrobe",
+      "file": "SM_OTS_Blender_WardrobeDoorR.fbx",
+      "dimensions_cm": [
+        56.0,
+        7.45,
+        170.8
+      ],
+      "offset_cm": [
+        55.8,
+        -33.0,
+        16.0
+      ],
+      "bounds_cm": [
+        [
+          -55.3,
+          -3.4,
+          0.1
+        ],
+        [
+          0.7,
+          4.05,
+          170.9
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel",
+        "Metal"
+      ],
+      "vertices": 1248,
+      "triangles": 2444,
+      "pivot": "hinge_bottom",
+      "source": "Original geometry authored through Blender MCP"
+    }
+  ]
+}

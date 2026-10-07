@@ -463,6 +463,8 @@ def create_textured_material(
     secondary_scale=1.381966,
     macro_size_cm=1500.0,
     metallic=0.0,
+    secondary_texture=None,
+    secondary_size_cm=None,
 ):
     material = create_material_asset(name)
 
@@ -500,8 +502,8 @@ def create_textured_material(
         if anti_tile:
             secondary_node, secondary_output = build_world_aligned_sample(
                 material,
-                base_texture,
-                texture_size_cm * float(secondary_scale),
+                secondary_texture if secondary_texture is not None else base_texture,
+                secondary_size_cm if secondary_size_cm is not None else texture_size_cm * float(secondary_scale),
                 -1050,
                 -760,
                 False,
@@ -543,7 +545,7 @@ def create_textured_material(
         if anti_tile:
             secondary_node, secondary_output = build_uv_sample(
                 material,
-                base_texture,
+                secondary_texture if secondary_texture is not None else base_texture,
                 -950,
                 -640,
                 False,
@@ -774,42 +776,50 @@ def create_scene_materials(textures):
         textures["T_OTS_Asphalt_BaseColor"],
         textures["T_OTS_Asphalt_Normal"],
         textures["T_OTS_Asphalt_Roughness"],
-        (0.38, 0.42, 0.48, 1.0),
-        350.0,
-        0.48,
+        (0.64, 0.67, 0.70, 1.0),
+        220.0,
+        0.74,
+        True,
+        macro_size_cm=920.0,
     )
     materials["M_OTS_OldConcrete"] = create_textured_material(
         "M_OTS_OldConcrete",
-        textures["T_OTS_Concrete_BaseColor"],
-        textures["T_OTS_Concrete_Normal"],
-        textures["T_OTS_Concrete_Roughness"],
-        (0.64, 0.62, 0.56, 1.0),
-        740.0,
+        textures["T_OTS_PaintedPlaster_BaseColor"],
+        textures["T_OTS_PaintedPlaster_Normal"],
+        textures["T_OTS_PaintedPlaster_Roughness"],
+        (0.60, 0.59, 0.54, 1.0),
+        210.0,
         1.05,
         True,
         1.618,
         2350.0,
+        secondary_texture=textures["T_OTS_Concrete_BaseColor"],
+        secondary_size_cm=1670.0,
     )
     materials["M_OTS_Sidewalk"] = create_textured_material(
         "M_OTS_Sidewalk",
         textures["T_OTS_Concrete_BaseColor"],
         textures["T_OTS_Concrete_Normal"],
         textures["T_OTS_Concrete_Roughness"],
-        (0.54, 0.56, 0.55, 1.0),
-        300.0,
+        (0.42, 0.46, 0.48, 1.0),
+        140.0,
         1.05,
+        True,
+        macro_size_cm=1150.0,
     )
     materials["M_OTS_SchoolWall"] = create_textured_material(
         "M_OTS_SchoolWall",
-        textures["T_OTS_Concrete_BaseColor"],
-        textures["T_OTS_Concrete_Normal"],
-        textures["T_OTS_Concrete_Roughness"],
-        (0.52, 0.50, 0.42, 1.0),
-        650.0,
+        textures["T_OTS_PaintedPlaster_BaseColor"],
+        textures["T_OTS_PaintedPlaster_Normal"],
+        textures["T_OTS_PaintedPlaster_Roughness"],
+        (0.55, 0.57, 0.52, 1.0),
+        245.0,
         0.92,
         True,
         1.327,
         1850.0,
+        secondary_texture=textures["T_OTS_Concrete_BaseColor"],
+        secondary_size_cm=1430.0,
     )
     materials["M_OTS_FadedBlueWall"] = create_textured_material(
         "M_OTS_FadedBlueWall",
@@ -817,7 +827,7 @@ def create_scene_materials(textures):
         textures["T_OTS_PaintedPlaster_Normal"],
         textures["T_OTS_PaintedPlaster_Roughness"],
         (0.34, 0.40, 0.42, 1.0),
-        680.0,
+        225.0,
         1.08,
         True,
         1.414,
@@ -829,7 +839,7 @@ def create_scene_materials(textures):
         textures["T_OTS_PaintedPlaster_Normal"],
         textures["T_OTS_PaintedPlaster_Roughness"],
         (0.36, 0.39, 0.33, 1.0),
-        880.0,
+        280.0,
         1.10,
         True,
         1.732,
@@ -892,6 +902,19 @@ def create_scene_materials(textures):
             roughness,
             metallic,
         )
+    # Wet patches share the road's world-space aggregate and colour, instead
+    # of reading as opaque blue discs.  Only their surface roughness changes.
+    materials["M_OTS_Puddle"] = create_textured_material(
+        "M_OTS_Puddle",
+        textures["T_OTS_Asphalt_BaseColor"],
+        textures["T_OTS_Asphalt_Normal"],
+        textures["T_OTS_Asphalt_Roughness"],
+        (0.54, 0.57, 0.61, 1.0),
+        220.0,
+        0.25,
+        True,
+        macro_size_cm=920.0,
+    )
     materials["M_OTS_WarmWindow"] = create_flat_material(
         "M_OTS_WarmWindow",
         (0.045, 0.032, 0.016, 1.0),
@@ -1083,10 +1106,13 @@ def ensure_detailed_prop_assets():
         "LoadedLaundryRack",
         "OldServiceDoorTransom",
         "WallLampGooseneck",
+        "ShopShelfStocked",
+        "CounterDisplay",
+        "TallPharmacyCabinet",
     }
     require(
         required_p5_names == set(p5_assets),
-        "P5 facade module library is incomplete",
+        "P5 player-range module library is incomplete",
     )
     for name in required_p5_names:
         mesh = p5_assets[name]
@@ -1592,32 +1618,6 @@ def add_main_home_interior_details(
             (440.0, 6.0, 28.0),
             "M_OTS_Stain",
         ),
-        (
-            "OTS_MainHomeShelfLow",
-            (1025.0, 1265.0, 150.0),
-            # Fit between the supports' inner faces (X=880..1170), so no
-            # shelf end can protrude past a vertical post in oblique view.
-            (290.0, 25.0, 10.0),
-            "M_OTS_Cardboard",
-        ),
-        (
-            "OTS_MainHomeShelfHigh",
-            (1025.0, 1265.0, 235.0),
-            (290.0, 25.0, 10.0),
-            "M_OTS_Cardboard",
-        ),
-        (
-            "OTS_MainHomeShelfSupportLeft",
-            (875.0, 1265.0, 205.0),
-            (10.0, 25.0, 220.0),
-            "M_OTS_DarkTrim",
-        ),
-        (
-            "OTS_MainHomeShelfSupportRight",
-            (1175.0, 1265.0, 205.0),
-            (10.0, 25.0, 220.0),
-            "M_OTS_DarkTrim",
-        ),
     ):
         spawn_cube(
             actor_subsystem,
@@ -1630,6 +1630,34 @@ def add_main_home_interior_details(
             folder=FOLDER_ROOT + "/HeroShop/Interior",
             cast_shadow=not prefix.startswith("OTS_MainHomeBaseboard"),
         )
+
+    # Replace the previous floating bars and repeated cardboard cubes with one
+    # centimetre-authored stocked shelf.  Its bounds are X=880..1170 and
+    # Y=1248..1282, leaving the 450 cm-wide customer aisle intact; it remains
+    # collision-free so it cannot alter MainHome's approved interaction route.
+    spawn_native_prop(
+        actor_subsystem,
+        detailed_props["ShopShelfStocked"],
+        "OTS_P5Prop_MainHomeShopShelf",
+        (1025.0, 1265.0, 80.0),
+        (0.0, 0.0, 0.0),
+        (1.0, 1.0, 1.0),
+        False,
+        FOLDER_ROOT + "/P5/MainHomeInterior",
+    )
+    # A narrow glazed medicine cabinet fills the rear-right return rather than
+    # the customer aisle.  At X=1216/Y=1280 its rear stays 2 cm inside the
+    # wall envelope and its front remains behind the counter line.
+    spawn_native_prop(
+        actor_subsystem,
+        detailed_props["TallPharmacyCabinet"],
+        "OTS_P5Prop_MainHomeTallPharmacyCabinet",
+        (1216.0, 1280.0, 10.0),
+        (0.0, 0.0, 0.0),
+        (1.0, 1.0, 1.0),
+        False,
+        FOLDER_ROOT + "/P5/MainHomeInterior",
+    )
     # Two manufactured counter modules replace the former 300 cm featureless
     # Cube.  Their rounded timber tops, metal edge bands, framed legs, lower
     # slatted shelves, drawers and real handles remain readable at first-person
@@ -1646,6 +1674,23 @@ def add_main_home_interior_details(
             True,
             FOLDER_ROOT + "/HeroShop/Interior/Counter",
         )
+
+    # Two small register/scale assemblies stay wholly on the counter tops.
+    # They add inspectable shop furniture while avoiding the middle seam and
+    # leaving the door-to-counter clearance unchanged.
+    counter_top_z = 10.0 + 79.5 * 1.25
+    lower_shelf_z = 10.0 + 25.75 * 1.25
+    for suffix, x, yaw in (("Left", 948.0, 0.0), ("Right", 1102.0, 0.0)):
+        spawn_native_prop(
+            actor_subsystem,
+            detailed_props["CounterDisplay"],
+            "OTS_P5Prop_MainHomeCounterDisplay" + suffix,
+            (x, 1195.0, counter_top_z - 0.20),
+            (0.0, yaw, 0.0),
+            (0.72, 0.72, 0.72),
+            False,
+            FOLDER_ROOT + "/P5/MainHomeInterior",
+        )
     for index, y in enumerate((850.0, 1120.0)):
         spawn_cube(
             actor_subsystem,
@@ -1659,31 +1704,6 @@ def add_main_home_interior_details(
             cast_shadow=False,
         )
 
-    # Break the long empty shelves into stocked bays.  These reuse the
-    # centimetre-authored folded cardboard asset at several non-uniform scales
-    # so the background reads as a lived-in shop instead of bare greybox bars.
-    for index, (x, z, yaw, scale) in enumerate(
-        (
-            (895.0, 156.0, -5.0, (0.46, 0.42, 0.38)),
-            (950.0, 156.0, 3.0, (0.38, 0.36, 0.44)),
-            (1090.0, 156.0, -2.0, (0.50, 0.40, 0.33)),
-            (1150.0, 156.0, 7.0, (0.36, 0.34, 0.48)),
-            (920.0, 241.0, 4.0, (0.44, 0.38, 0.35)),
-            (1035.0, 241.0, -6.0, (0.52, 0.40, 0.31)),
-            (1135.0, 241.0, 2.0, (0.42, 0.36, 0.43)),
-        )
-    ):
-        spawn_native_prop(
-            actor_subsystem,
-            detailed_props["CardboardBox"],
-            "OTS_MainHomeShelfStock{:02d}".format(index + 1),
-            (x, 1248.0, z),
-            (0.0, yaw, 0.0),
-            scale,
-            False,
-            FOLDER_ROOT + "/HeroShop/Interior/ShelfStock",
-        )
-
     # Use the centimetre-authored prop library for the objects the player can
     # inspect at arm's length.  The centre aisle and both entrances remain
     # clear; small loose objects deliberately have no collision.
@@ -1691,30 +1711,30 @@ def add_main_home_interior_details(
         (
             "CardboardBox",
             "OTS_MainHomeProp_CounterBoxLeft",
-            (900.0, 1178.0, 111.0),
-            (0.0, -4.0, 0.0),
-            (0.98, 0.92, 0.92),
+            (915.0, 1195.0, lower_shelf_z - 0.20),
+            (0.0, 0.0, 0.0),
+            (0.50, 0.50, 0.50),
         ),
         (
             "CardboardBox",
             "OTS_MainHomeProp_CounterBoxRight",
-            (1140.0, 1178.0, 111.0),
-            (0.0, 6.0, 0.0),
-            (1.18, 0.95, 0.78),
+            (1120.0, 1195.0, lower_shelf_z - 0.20),
+            (0.0, 0.0, 0.0),
+            (0.62, 0.58, 0.58),
         ),
         (
             "Thermos",
             "OTS_MainHomeProp_Thermos",
-            (982.0, 1174.0, 111.0),
-            (0.0, -10.0, 0.0),
-            (0.92, 0.92, 0.92),
+            (995.0, 1195.0, counter_top_z - 0.20),
+            (0.0, 0.0, 0.0),
+            (0.72, 0.72, 0.72),
         ),
         (
             "Toolbox",
             "OTS_MainHomeProp_Toolbox",
-            (1065.0, 1170.0, 111.0),
-            (0.0, 8.0, 0.0),
-            (0.82, 0.82, 0.82),
+            (980.0, 1195.0, lower_shelf_z - 0.20),
+            (0.0, 0.0, 0.0),
+            (0.70, 0.70, 0.70),
         ),
         (
             "ChineseStool",
@@ -1733,7 +1753,7 @@ def add_main_home_interior_details(
         (
             "PlantPot",
             "OTS_MainHomeProp_PlantPot",
-            (1212.0, 1245.0, 10.0),
+            (1218.0, 1235.0, 10.0),
             (0.0, 14.0, 0.0),
             (0.66, 0.66, 0.72),
         ),
@@ -2556,18 +2576,19 @@ def add_puddles_and_road_wear(
         yaw,
         material_name,
     ):
-        spawn_mesh_actor(
+        patch = spawn_native_prop(
             actor_subsystem,
-            meshes["cylinder"],
+            detailed_props["PuddlePatch"],
             unique_label(prefix),
             (x, y, z),
-            (sx, sy, 1.2),
-            materials[material_name],
             (0.0, yaw, 0.0),
+            (sx / 210.0, sy / 83.0, 1.0),
             False,
             folder=FOLDER_ROOT + "/RoadDetails",
-            cast_shadow=False,
         )
+        component = patch.get_component_by_class(unreal.StaticMeshComponent)
+        component.set_material(0, materials["M_OTS_WetAsphalt"])
+        safe_set(component, "cast_shadow", False)
 
     # Keep wet patches as single, shallow pieces.  The former three-layer
     # ellipses produced visible stacked edges and read like flat game tokens.
@@ -2906,7 +2927,7 @@ def add_street_lights(
         "OTS_Light_MainHomeInteriorFront",
         (1025.0, 850.0, 300.0),
         70.0,
-        4000.0,
+        4900.0,
         520.0,
         (1.0, 1.0, 1.0, 1.0),
         False,
@@ -2920,7 +2941,7 @@ def add_street_lights(
         "OTS_Light_MainHomeInteriorRear",
         (1025.0, 1120.0, 285.0),
         30.0,
-        3900.0,
+        4600.0,
         360.0,
         (1.0, 1.0, 1.0, 1.0),
         False,
@@ -5193,8 +5214,11 @@ def add_street_endcap(
         unreal.StaticMeshComponent
     )
     focal_door_component.set_material(0, materials["M_OTS_OldGreenMetal"])
-    focal_door_component.set_material(1, materials["M_OTS_RustMetal"])
-    focal_door_component.set_material(2, materials["M_OTS_DarkGlass"])
+    # P5 OldServiceDoorTransom slots are: paint, rubber, metal, glass, brass,
+    # damp.  Keep rubber/brass authored in the asset and only override the
+    # intended visible finish slots.
+    focal_door_component.set_material(2, materials["M_OTS_RustMetal"])
+    focal_door_component.set_material(3, materials["M_OTS_DarkGlass"])
     focal_door_component.set_material(5, materials["M_OTS_Stain"])
 
     # Irregular windows along the two arms establish human scale and avoid
@@ -5277,15 +5301,15 @@ def add_street_endcap(
         )
         door_component = door.get_component_by_class(unreal.StaticMeshComponent)
         door_component.set_material(0, materials[door_material])
-        door_component.set_material(1, materials["M_OTS_RustMetal"])
-        door_component.set_material(2, materials["M_OTS_DarkGlass"])
+        door_component.set_material(2, materials["M_OTS_RustMetal"])
+        door_component.set_material(3, materials["M_OTS_DarkGlass"])
         door_component.set_material(5, materials["M_OTS_Stain"])
         add_window_y(
             actor_subsystem,
             meshes,
             materials,
             "OTS_StreetEndWindow_{}_01".format(suffix),
-            6180.0,
+            6040.0,  # Between backdrop columns at X=5850 and X=6225.
             wall_y,
             330.0,
             118.0,
@@ -5972,6 +5996,69 @@ def validate_scene(actor_subsystem, main_home):
             actual_p3_mesh_counts
         ),
     )
+    # P5 replaces the last close-range floating assemblies with authored
+    # player-range meshes.  All P5 objects are deliberately non-blocking: the
+    # existing MainHome shell/counter retain collision ownership and the
+    # facade pieces must never create a second invisible wall.
+    p5_module_actors = [
+        actor
+        for actor in actors
+        if actor.get_actor_label().startswith("OTS_P5Prop_")
+    ]
+    expected_p5_mesh_counts = {
+        "SM_P5_LoadedLaundryRack": 5,
+        "SM_P5_OldServiceDoorTransom": 3,
+        "SM_P5_WallLampGooseneck": 3,
+        "SM_P5_ShopShelfStocked": 1,
+        "SM_P5_CounterDisplay": 2,
+        "SM_P5_TallPharmacyCabinet": 1,
+    }
+    require(
+        len(p5_module_actors) == sum(expected_p5_mesh_counts.values()),
+        "Unexpected P5 player-range module actor count: {}".format(
+            len(p5_module_actors)
+        ),
+    )
+    actual_p5_mesh_counts = {
+        mesh_name: 0 for mesh_name in expected_p5_mesh_counts
+    }
+    for actor in p5_module_actors:
+        component = actor.get_component_by_class(unreal.StaticMeshComponent)
+        mesh = (
+            component.get_editor_property("static_mesh")
+            if component is not None
+            else None
+        )
+        require(
+            mesh is not None
+            and mesh.get_path_name().startswith(P5_PROP_ROOT + "/"),
+            "{} does not use a P5 module asset".format(
+                actor.get_actor_label()
+            ),
+        )
+        mesh_name = mesh.get_name()
+        require(
+            mesh_name in actual_p5_mesh_counts,
+            "{} uses unexpected P5 mesh {}".format(
+                actor.get_actor_label(),
+                mesh_name,
+            ),
+        )
+        actual_p5_mesh_counts[mesh_name] += 1
+        require(
+            not bool(actor.get_actor_enable_collision())
+            and component.get_collision_enabled()
+            == unreal.CollisionEnabled.NO_COLLISION,
+            "{} P5 module must remain non-colliding".format(
+                actor.get_actor_label()
+            ),
+        )
+    require(
+        actual_p5_mesh_counts == expected_p5_mesh_counts,
+        "P5 player-range module distribution drifted: {}".format(
+            actual_p5_mesh_counts
+        ),
+    )
     window_mesh_names = {
         "SM_OTS_Window_Residential",
         "SM_OTS_Window_School",
@@ -6071,6 +6158,8 @@ def validate_scene(actor_subsystem, main_home):
         "generated_actor_count": len(generated),
         "p2_detailed_prop_actor_count": len(detailed_prop_actors),
         "p3_module_actor_count": len(p3_module_actors),
+        "p5_module_actor_count": len(p5_module_actors),
+        "p5_module_distribution": actual_p5_mesh_counts,
         "architectural_window_actor_count": len(
             architectural_window_actors
         ),
@@ -6191,10 +6280,19 @@ def main():
     )
     add_procedural_electric_poles(actor_subsystem, meshes, materials)
     configure_atmosphere(actor_subsystem)
+    for actor in actor_subsystem.get_all_level_actors():
+        if actor.get_actor_label().startswith("OTS_P2Prop_PuddlePatch"):
+            component = actor.get_component_by_class(unreal.StaticMeshComponent)
+            component.set_material(0, materials["M_OTS_Puddle"])
+            safe_set(component, "cast_shadow", False)
     move_player_to_school_gate(actor_subsystem)
     cameras = add_cameras(actor_subsystem)
 
     manifest = validate_scene(actor_subsystem, main_home)
+    sys.path.insert(0, str(PROJECT_ROOT / "Scripts"))
+    from OldTownFurnitureAudit import audit_actors, audit_end_windows
+    manifest["p6_furniture_supports"] = audit_actors(actor_subsystem.get_all_level_actors())
+    manifest["p6_end_window_clearance"] = audit_end_windows(actor_subsystem.get_all_level_actors())
     manifest.update(
         {
             "camera_labels": [
@@ -6203,6 +6301,7 @@ def main():
             "imported_pole_mesh_count": len(imported_poles),
             "p2_detailed_prop_asset_count": 20,
             "p3_module_asset_count": 10,
+            "p5_module_asset_count": 6,
             "architectural_module_asset_count": len(
                 architectural_modules
             ),
@@ -6241,13 +6340,13 @@ def main():
                 "curved_and_structural_details": True,
                 "simple_collision_only_on_blocking_props": True,
                 "sloped_cylinder_endpoint_alignment_fixed": True,
-                "temporary_contact_audit_view_count": 19,
+                "temporary_contact_audit_view_count": 26,
                 "external_download_required": False,
             },
             "free_asset_sources": [
                 "Poly Haven concrete_wall_003 (CC0)",
                 "Poly Haven modular_electricity_poles (CC0)",
-                "Poly Haven modular_electricity_poles wood PBR reused for P2 props (CC0)",
+                "Poly Haven wood_table_worn 2K furniture PBR (CC0)",
                 "ambientCG Asphalt027C (CC0)",
                 "Poly Haven painted_plaster_wall (CC0)",
                 "Poly Haven green_metal_rust (CC0)",

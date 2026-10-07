@@ -1,0 +1,13 @@
+{
+  "triangles": 18332,
+  "uv_channels": 1,
+  "height_m": 0.5479999780654907,
+  "collision_hulls": 3,
+  "material_slots": [
+    "M_TableLamp_Brass",
+    "M_TableLamp_Cord",
+    "M_TableLamp_Socket",
+    "M_TableLamp_Linen",
+    "M_TableLamp_Bulb"
+  ]
+}

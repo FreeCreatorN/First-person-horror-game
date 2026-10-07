@@ -1,0 +1,9 @@
+{
+  "cloth_baked": true,
+  "rotation_sign_flips": [],
+  "max_sword_rotation_step_degrees": 3.7754375934091335,
+  "sampled_penetrations": 0,
+  "max_pin_error_m": 0.001406681214300935,
+  "lowest_silk_z": 0.75093013048172,
+  "max_silk_distance_from_pendant_m": 0.30774683776706757
+}

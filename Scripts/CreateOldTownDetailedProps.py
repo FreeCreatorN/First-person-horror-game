@@ -32,20 +32,20 @@ POLYHAVEN_ROOT = (
     / "SourceArt"
     / "ThirdParty"
     / "PolyHaven"
-    / "modular_electricity_poles_1k"
+    / "wood_table_worn_2k"
 )
 
 WOOD_TEXTURE_SOURCES = {
-    "T_P2_Wood_BaseColor": (
-        POLYHAVEN_ROOT / "modular_electricity_poles_diff_1k.jpg",
+    "T_P6_FurnitureWood_BaseColor": (
+        POLYHAVEN_ROOT / "wood_table_worn_diff_2k.jpg",
         "color",
     ),
-    "T_P2_Wood_Normal": (
-        POLYHAVEN_ROOT / "modular_electricity_poles_nor_dx_1k.jpg",
+    "T_P6_FurnitureWood_Normal": (
+        POLYHAVEN_ROOT / "wood_table_worn_nor_dx_2k.jpg",
         "normal",
     ),
-    "T_P2_Wood_Roughness": (
-        POLYHAVEN_ROOT / "modular_electricity_poles_rough_1k.jpg",
+    "T_P6_FurnitureWood_Roughness": (
+        POLYHAVEN_ROOT / "wood_table_worn_rough_2k.jpg",
         "roughness",
     ),
 }
@@ -108,6 +108,9 @@ P5_ASSET_NAMES = {
     "LoadedLaundryRack": "SM_P5_LoadedLaundryRack",
     "OldServiceDoorTransom": "SM_P5_OldServiceDoorTransom",
     "WallLampGooseneck": "SM_P5_WallLampGooseneck",
+    "ShopShelfStocked": "SM_P5_ShopShelfStocked",
+    "CounterDisplay": "SM_P5_CounterDisplay",
+    "TallPharmacyCabinet": "SM_P5_TallPharmacyCabinet",
 }
 
 
@@ -494,9 +497,11 @@ def _create_material_asset(material_name):
 
 
 def _build_world_aligned_wood(material, textures):
-    base_texture = textures.get("T_P2_Wood_BaseColor")
-    normal_texture = textures.get("T_P2_Wood_Normal")
-    rough_texture = textures.get("T_P2_Wood_Roughness")
+    # A tileable surface scan is required here.  The electricity-pole atlas
+    # contains unrelated UV islands and produced checkerboard joins on boards.
+    base_texture = textures.get("T_P6_FurnitureWood_BaseColor")
+    normal_texture = textures.get("T_P6_FurnitureWood_Normal")
+    rough_texture = textures.get("T_P6_FurnitureWood_Roughness")
     if any(
         texture is None
         for texture in (base_texture, normal_texture, rough_texture)
@@ -506,7 +511,7 @@ def _build_world_aligned_wood(material, textures):
     base_node, base_output = _world_aligned_texture(
         material,
         base_texture,
-        58.0,
+        120.0,
         -1100,
         -420,
         False,
@@ -514,7 +519,7 @@ def _build_world_aligned_wood(material, textures):
     normal_node, normal_output = _world_aligned_texture(
         material,
         normal_texture,
-        58.0,
+        120.0,
         -1100,
         -60,
         True,
@@ -522,14 +527,14 @@ def _build_world_aligned_wood(material, textures):
     rough_node, rough_output = _world_aligned_texture(
         material,
         rough_texture,
-        58.0,
+        120.0,
         -1100,
         300,
         False,
     )
     tint = _constant_color(
         material,
-        MATERIAL_SETTINGS["M_P2_Wood"][0],
+        (0.66, 0.57, 0.43, 1.0),
         -400,
         -300,
     )
@@ -2825,6 +2830,11 @@ def _horizontal_runs(row_bits):
             run_start = None
 
 
+def _glyph_run_center(glyph_left, glyph_width, run_start, run_end, cell_width):
+    """Map bitmap screen-right to local -X on a sign facing local -Y."""
+    return glyph_left + glyph_width - 0.5 * (run_start + run_end) * cell_width
+
+
 def _build_sign_text(logical_name, phrase):
     """Create one readable, shallow-relief old-shop sign phrase."""
     if len(phrase) != 3:
@@ -2845,7 +2855,9 @@ def _build_sign_text(logical_name, phrase):
     first_left = -total_width * 0.5
 
     # SignAssembly faces local -Y.  From that side screen-left is local +X,
-    # hence the reverse phrase order.  The 1.2 cm relief overlaps the board by
+    # hence reverse both the phrase order AND each glyph's horizontal axis.
+    # Reversing only the phrase made asymmetric characters appear mirrored.
+    # The 1.2 cm relief overlaps the board by
     # 0.2 cm and cannot cast a floating-patch gap shadow.
     for glyph_index, char in enumerate(reversed(phrase)):
         rows = _SIGN_GLYPH_BITMAPS[char]
@@ -2854,7 +2866,8 @@ def _build_sign_text(logical_name, phrase):
             center_z = 42.0 + (9.5 - row_index) * cell_height
             for run_start, run_end in _horizontal_runs(row_bits):
                 run_width = (run_end - run_start) * cell_width
-                center_x = glyph_left + 0.5 * (run_start + run_end) * cell_width
+                center_x = _glyph_run_center(
+                    glyph_left, glyph_width, run_start, run_end, cell_width)
                 b.box(
                     (center_x, -6.4, center_z),
                     (run_width, 1.2, cell_height),
@@ -3267,6 +3280,244 @@ def _build_wall_lamp_gooseneck():
     return b
 
 
+def _build_shop_shelf_stocked():
+    """Create a wall-backed grocery shelf with individually modelled stock.
+
+    Local -Y is the customer-facing side.  The whole asset is deliberately
+    shallow (34 cm) so it can replace the former floating shelf bars without
+    intruding into the MainHome's central walkable aisle.  Products overlap
+    their wooden shelves by 0.25 cm. Support legs extend to local Z=-70,
+    reaching the shop floor at the scene placement Z=80.
+    """
+    b = PropMeshBuilder("ShopShelfStocked")
+    wood = "M_P2_Wood"
+    metal = "M_P2_OldMetal"
+    cardboard = "M_P2_Cardboard"
+    enamel = "M_P2_Enamel"
+    brass = "M_P2_Brass"
+    glass = "M_P2_DarkGlass"
+
+    # Outer frame and rear board.  The two upright posts overlap the shelf
+    # ends by 2 cm so their junctions read as manufactured timber joints.
+    b.box((0.0, 11.5, 120.0), (288.0, 5.0, 240.0), wood, bevel=1.0)
+    for x in (-142.0, 142.0):
+        b.box((x, -0.5, 120.0), (12.0, 34.0, 240.0), wood, bevel=1.3)
+        b.box((x, -0.5, -34.0), (12.0, 30.0, 72.0), wood, bevel=0.8)
+        b.box((x, -18.0, 16.0), (18.0, 5.0, 22.0), metal, bevel=0.8)
+        for z in (8.0, 24.0):
+            b.cylinder_between(
+                (x, -20.0, z),
+                (x, -15.0, z),
+                1.45,
+                brass,
+                radial_steps=12,
+            )
+
+    shelf_heights = (16.0, 72.0, 128.0, 184.0, 236.0)
+    for index, z in enumerate(shelf_heights):
+        b.box((0.0, -1.0, z), (278.0, 34.0, 8.0), wood, bevel=0.75)
+        # A thin metal lip on every visible shelf catches the grazing shop
+        # light and hides the box/shelf contact line from a player-height view.
+        b.box((0.0, -19.0, z + 1.0), (274.0, 2.4, 5.0), metal, bevel=0.35)
+        if index < 4:
+            for label_x in (-106.0, -53.0, 0.0, 53.0, 106.0):
+                b.box((label_x, -20.35, z + 1.0), (12.0, 0.9, 3.4), enamel, bevel=0.12)
+
+    # Assorted packages are not a repeated grid: every bay changes width,
+    # height, rotation or material, which makes the small interior read as
+    # lived-in rather than a collection of identical grey boxes.
+    package_rows = (
+        (
+            23.0,
+            ((-105.0, 38.0, 31.0, 34.0, cardboard, -3.0),
+             (-57.0, 30.0, 24.0, 42.0, enamel, 2.0),
+             (-8.0, 42.0, 36.0, 29.0, cardboard, -1.0),
+             (46.0, 27.0, 25.0, 48.0, enamel, 4.0),
+             (96.0, 40.0, 34.0, 32.0, cardboard, -2.0)),
+        ),
+        (
+            79.0,
+            ((-108.0, 28.0, 22.0, 42.0, enamel, 3.0),
+             (-68.0, 44.0, 36.0, 29.0, cardboard, -4.0),
+             (-15.0, 33.0, 28.0, 39.0, cardboard, 1.0),
+             (34.0, 46.0, 38.0, 27.0, enamel, -3.0),
+             (92.0, 30.0, 24.0, 44.0, cardboard, 5.0)),
+        ),
+        (
+            135.0,
+            ((-102.0, 42.0, 34.0, 31.0, cardboard, -2.0),
+             (-51.0, 31.0, 26.0, 43.0, enamel, 3.0),
+             (-2.0, 38.0, 33.0, 34.0, cardboard, 0.0),
+             (49.0, 27.0, 22.0, 49.0, enamel, -4.0),
+             (100.0, 43.0, 35.0, 30.0, cardboard, 2.0)),
+        ),
+        (
+            191.0,
+            ((-105.0, 30.0, 24.0, 43.0, enamel, 2.0),
+             (-62.0, 39.0, 31.0, 35.0, cardboard, -3.0),
+             (-13.0, 45.0, 37.0, 28.0, enamel, 4.0),
+             (43.0, 31.0, 26.0, 42.0, cardboard, -1.0),
+             (94.0, 40.0, 33.0, 32.0, enamel, 3.0)),
+        ),
+    )
+    for shelf_z, packages in package_rows:
+        for x, width, depth, height, material_name, yaw in packages:
+            width *= 0.76
+            depth = min(depth * 0.70, 24.0)
+            height *= 0.72
+            support_z = shelf_z - 3.25
+            material_name = ("M_P2_Cloth" if x < -70.0 else material_name)
+            b.box(
+                (x, -3.0, support_z + height * 0.5),
+                (width, depth, height),
+                material_name,
+                rotation=(0.0, yaw, 0.0),
+                bevel=0.85,
+                bevel_subdivisions=2,
+            )
+            # A small proud label prevents each package face reading as a
+            # featureless primitive without introducing text texture work.
+            face_depth = depth * 0.5 + 0.15
+            angle = math.radians(yaw)
+            b.box(
+                (x + math.sin(angle) * face_depth,
+                 -3.0 - math.cos(angle) * face_depth,
+                 support_z + height * 0.56),
+                (width * 0.55, 0.6, height * 0.24),
+                glass if material_name == enamel else enamel,
+                rotation=(0.0, yaw, 0.0),
+                bevel=0.18,
+            )
+
+    # A few cylindrical tins make the silhouette visibly different from the
+    # lower cardboard boxes while retaining a low-cost static mesh.
+    for x, shelf_top, radius, height in (
+        (-31.0, 20.0, 4.0, 18.0),
+        (70.0, 20.0, 4.0, 22.0),
+        (67.0, 76.0, 4.0, 20.0),
+        (-26.0, 132.0, 4.0, 24.0),
+        (68.0, 188.0, 4.0, 18.0),
+    ):
+        z = shelf_top - 0.25 + height * 0.5
+        b.cylinder((x, -3.0, z), radius, height, brass, radial_steps=20)
+        b.cylinder((x, -3.0, z + height * 0.5), radius * 0.94, 1.2, enamel, radial_steps=20)
+    return b
+
+
+def _build_counter_display():
+    """Create a compact old-shop register, scale and jar display assembly.
+
+    The footprint is intentionally only 92 x 58 cm.  It sits on the existing
+    paired counter modules and therefore adds player-range furniture detail
+    without reducing either of the two entrance-to-aisle routes.
+    """
+    b = PropMeshBuilder("CounterDisplay")
+    wood = "M_P2_Wood"
+    metal = "M_P2_OldMetal"
+    paint = "M_P2_PaintedMetal"
+    enamel = "M_P2_Enamel"
+    brass = "M_P2_Brass"
+    glass = "M_P2_DarkGlass"
+    cardboard = "M_P2_Cardboard"
+
+    # Timber plinth and a set-back metal cash drawer, both physically
+    # intersecting so the register cannot reveal a floating dark seam.
+    b.box((0.0, 0.0, 1.5), (92.0, 58.0, 3.0), wood, bevel=0.7)
+    b.box((-20.0, 5.0, 9.5), (43.0, 34.0, 14.0), paint, bevel=1.2, bevel_subdivisions=2)
+    b.box((-20.0, -12.3, 8.0), (36.0, 1.3, 8.0), metal, bevel=0.3)
+    b.box((-20.0, 14.0, 22.0), (39.0, 14.0, 16.0), paint, bevel=1.1)
+    b.box((-20.0, 6.8, 24.0), (31.0, 1.2, 7.0), glass, bevel=0.35)
+    for row in range(3):
+        for column in range(6):
+            b.box((-33.0 + column * 5.0, -7.0 + row * 4.0, 17.0),
+                  (3.3, 2.8, 1.5), enamel, bevel=0.35)
+    for x in (-30.0, -10.0):
+        b.cylinder_between((x, -12.5, 8.0), (x, -15.5, 8.0), 0.7, brass, radial_steps=12)
+    b.cylinder_between((-30.0, -15.5, 8.0), (-10.0, -15.5, 8.0), 0.7, brass, radial_steps=12)
+
+    # Counter scale and jars occupy the side bays.  The column and bowl enter
+    # each other by 2 cm, keeping their silhouette connected under close light.
+    b.box((25.0, 8.0, 8.0), (23.0, 20.0, 11.0), paint, bevel=1.0)
+    b.cylinder((25.0, 8.0, 17.0), 2.2, 12.0, metal, radial_steps=16)
+    b.box((25.0, 8.0, 24.0), (30.0, 25.0, 3.0), enamel, bevel=0.7)
+    b.cylinder_between((25.0, -2.0, 9.0), (25.0, -3.2, 9.0), 4.0, enamel, radial_steps=24)
+    b.box((25.0, -3.8, 9.0), (0.7, 0.8, 5.0), metal, rotation=(0.0, 0.0, 25.0), bevel=0.1)
+    for x, radius, height in ((11.0, 4.5, 17.0), (27.0, 4.0, 14.0)):
+        base_z = 2.8
+        b.cylinder((x, -19.0, base_z + height * 0.5), radius, height, glass, radial_steps=20)
+        b.cylinder((x, -19.0, base_z + height), radius * 1.04, 1.6, brass, radial_steps=20)
+        b.box((x, -19.0 - radius, base_z + height * 0.55), (radius * 1.4, 0.6, 4.0), enamel, bevel=0.15)
+    return b
+
+
+def _build_tall_pharmacy_cabinet():
+    """Create a shallow framed display cabinet with bottles and drawers.
+
+    It is only 58 cm wide and 34 cm deep, so the P5 placement can tuck it in
+    the rear-right return of MainHome without touching either the double-door
+    threshold or the 350 cm-wide approach route to the counter.
+    """
+    b = PropMeshBuilder("TallPharmacyCabinet")
+    wood = "M_P2_Wood"
+    metal = "M_P2_OldMetal"
+    glass = "M_P2_DarkGlass"
+    brass = "M_P2_Brass"
+    enamel = "M_P2_Enamel"
+    cardboard = "M_P2_Cardboard"
+
+    # The case is built from thick overlapping boards, with the rear panel
+    # entering both side walls and shelves by at least 1 cm.
+    b.box((0.0, 11.5, 122.5), (58.0, 5.0, 245.0), wood, bevel=1.0)
+    for x in (-25.0, 25.0):
+        b.box((x, -0.5, 122.5), (8.0, 34.0, 245.0), wood, bevel=1.1)
+    b.box((0.0, -0.5, 4.0), (58.0, 34.0, 8.0), wood, bevel=0.8)
+    b.box((0.0, -0.5, 241.0), (58.0, 34.0, 8.0), wood, bevel=0.8)
+    for z in (67.0, 122.0, 177.0):
+        b.box((0.0, 0.0, z), (48.0, 31.0, 7.0), wood, bevel=0.6)
+        b.box((0.0, -18.0, z + 1.2), (48.0, 2.0, 4.0), metal, bevel=0.25)
+
+    # Open display frames and a narrow upper transom expose the bottle rows;
+    # the original opaque full-height glazing concealed all interior detail.
+    for x in (-12.0, 12.0):
+        # Small upper glazed transom, with an open display below it so the
+        # opaque dark-glass material cannot conceal all modelled contents.
+        b.box((x, -18.0, 224.0), (22.0, 2.6, 20.0), glass, bevel=0.45)
+        for rail_x, rail_z, sx, sz in (
+            (x, 82.0, 24.0, 4.5),
+            (x, 232.0, 24.0, 4.5),
+            (x - 12.0, 157.0, 4.5, 154.0),
+            (x + 12.0, 157.0, 4.5, 154.0),
+        ):
+            b.box((rail_x, -20.0, rail_z), (sx, 3.0, sz), metal, bevel=0.45)
+    # Wide enough for both handle roots at X=+/-4 to enter the central stile.
+    b.box((0.0, -21.2, 157.0), (10.0, 3.4, 154.0), metal, bevel=0.45)
+    for x in (-4.0, 4.0):
+        for z in (116.0, 136.0):
+            b.cylinder_between((x, -21.5, z), (x, -27.0, z), 1.35, brass, radial_steps=12)
+        b.cylinder_between((x, -27.0, 116.0), (x, -27.0, 136.0), 1.35, brass, radial_steps=12)
+
+    # Four lower drawers keep the furniture readable even if the upper glass
+    # receives dark night lighting.  Their faces and pulls are proud layers.
+    for x in (-13.0, 13.0):
+        for z in (21.0, 51.0):
+            b.box((x, -18.5, z), (23.0, 2.8, 25.0), wood, bevel=0.7)
+            b.box((x, -20.3, z), (15.0, 1.5, 3.5), metal, bevel=0.4)
+            b.cylinder_between((x, -20.5, z), (x, -24.0, z), 1.25, brass, radial_steps=12)
+
+    # Uneven supported bottle rows provide physical depth in the open bays.
+    for z, bottle_specs in (
+        (70.25, (-14.0, -4.0, 8.0, 17.0)),
+        (125.25, (-16.0, -7.0, 5.0, 16.0)),
+        (180.25, (-13.0, -2.0, 10.0, 18.0)),
+    ):
+        for index, x in enumerate(bottle_specs):
+            radius = 2.3 + 0.25 * (index % 2)
+            height = 18.0 + 2.0 * (index % 3)
+            b.cylinder((x, -4.0, z + height * 0.5), radius, height, enamel, radial_steps=14)
+            b.cylinder((x, -4.0, z + height + 2.0), radius * 0.55, 4.0, brass, radial_steps=14)
+    return b
+
+
 def _build_puddle_patch():
     """Create one low-profile, asymmetric wet patch with no stacked faces."""
     b = PropMeshBuilder("PuddlePatch")
@@ -3342,6 +3593,9 @@ P5_BUILDERS = {
     "LoadedLaundryRack": _build_loaded_laundry_rack,
     "OldServiceDoorTransom": _build_old_service_door_transom,
     "WallLampGooseneck": _build_wall_lamp_gooseneck,
+    "ShopShelfStocked": _build_shop_shelf_stocked,
+    "CounterDisplay": _build_counter_display,
+    "TallPharmacyCabinet": _build_tall_pharmacy_cabinet,
 }
 
 
@@ -3589,7 +3843,7 @@ def ensure_p3_module_assets():
 
 
 def ensure_p5_module_assets():
-    """Create/update the P5 player-range facade module library."""
+    """Create/update the P5 player-range facade and interior module library."""
     _require_unreal()
     _ensure_directories()
     wood_textures = _ensure_wood_textures()
@@ -3602,7 +3856,7 @@ def ensure_p5_module_assets():
             raise RuntimeError("{} produced an empty mesh".format(logical_name))
         if builder.collision_boxes:
             raise RuntimeError(
-                "P5 facade module {} must remain collision-free".format(
+                "P5 player-range module {} must remain collision-free".format(
                     logical_name
                 )
             )

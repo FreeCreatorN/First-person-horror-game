@@ -1,0 +1,85 @@
+{
+  "cameras": [],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [
+        0
+      ],
+      "visible": true
+    }
+  ],
+  "lights": [],
+  "materials": [],
+  "metadata": {
+    "created": "2026-09-11T11:46:11.698556",
+    "modified": "2026-09-11T11:46:11.894139",
+    "software": "blender-cli 1.0"
+  },
+  "name": "Mistpine detail kit",
+  "objects": [
+    {
+      "id": 0,
+      "keyframes": [],
+      "location": [
+        0.0,
+        -1.0,
+        2.95
+      ],
+      "material": null,
+      "mesh_params": {
+        "major_radius": 1,
+        "major_segments": 48,
+        "minor_radius": 0.035,
+        "minor_segments": 12
+      },
+      "mesh_type": "torus",
+      "modifiers": [],
+      "name": "CLI brass chandelier ring",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "type": "MESH",
+      "visible": true
+    }
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/",
+    "resolution_percentage": 100,
+    "resolution_x": 1920,
+    "resolution_y": 1080,
+    "samples": 128,
+    "use_denoising": true
+  },
+  "scene": {
+    "fps": 24,
+    "frame_current": 1,
+    "frame_end": 250,
+    "frame_start": 1,
+    "unit_scale": 1.0,
+    "unit_system": "metric"
+  },
+  "version": "1.0",
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "hdri_path": null,
+    "hdri_strength": 1.0,
+    "use_hdri": false
+  }
+}

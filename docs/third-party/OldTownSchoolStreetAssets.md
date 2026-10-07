@@ -11,6 +11,14 @@ modified, and redistributed without attribution.
 | Asphalt 027 C, 2K JPG | https://ambientcg.com/view?id=Asphalt027C | CC0 | `SourceArt/ThirdParty/AmbientCG/Asphalt027C_2K-JPG/` |
 | Painted Plaster Wall, 2K JPG | https://polyhaven.com/a/painted_plaster_wall | CC0 | `SourceArt/ThirdParty/PolyHaven/painted_plaster_wall_2k/` |
 | Green Metal Rust, 2K JPG | https://polyhaven.com/a/green_metal_rust | CC0 | `SourceArt/ThirdParty/PolyHaven/green_metal_rust_2k/` |
+| Wood Table Worn, 2K JPG | https://polyhaven.com/a/wood_table_worn | CC0 | `SourceArt/ThirdParty/PolyHaven/wood_table_worn_2k/` |
+
+P6 (2026-09-05): Wood Table Worn was downloaded directly from the official
+Poly Haven CDN. It replaces the electricity-pole UV atlas on furniture only.
+The colour / DirectX normal / roughness files passed the MD5 checks published
+by the official files API: `44d2440f1581401e0ea65133c0e11d79`,
+`02897d62cc9a9feaca194a5615967e57`, `0eb31614bc05c3e92a832f063991b6e0`.
+Photography: Dimitrios Savva. Processing: Rico Cilliers. Powered by Poly Haven.
 
 Poly Haven's license statement:
 https://polyhaven.com/license

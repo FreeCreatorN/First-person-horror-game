@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "target_level": "/Game/Yastar/Maps/Scenes/L_OldTownSchoolStreet",
+  "source_map_sha256": "a39df284e235743958464cf8ca1d4502ac0d71404ab3dc4edf6a7df9d728a97e",
+  "font_family": "微软雅黑",
+  "generated_by": "Scripts/GenerateOldTownRefinementSigns.ps1",
+  "external_images": false,
+  "transparent_background": false,
+  "png_pixel_format": "RGB24",
+  "units": "centimetres; world_position is sign centre; size_cm is width,height",
+  "plane_rotation": null,
+  "orientation_note": "Use explicit normal/right/up vectors. EnginePlane UV orientation must be checked by the UE importer; no unverified Euler rotation is asserted here. Texture U increases along text_right_world, texture V along negative text_up_world.",
+  "signs": [
+    {
+      "key": "GalleryDirection_F1",
+      "text": "← 南梯 201—207     208—213 北梯 →",
+      "filename": "T_OTS_Refinement_GalleryDirection_F1.png",
+      "kind": "gallery",
+      "style": "faded_green",
+      "world_position_cm": [
+        9196.0,
+        325.0,
+        588.25
+      ],
+      "size_cm": [
+        105.0,
+        28.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 1,
+      "collision": false,
+      "placement_note": "Corridor centre X=9110 is west of this X=9196 sign. Core door spans Y=110..250; sign spans Y=272.5..377.5.",
+      "pixel_size": [
+        2048,
+        544
+      ],
+      "png_sha256": "42619bde4301cb1d7c8a86c05789cf38d8dec4b5fb08b3fcd00f02ebfc32f544"
+    },
+    {
+      "key": "GalleryDirection_F2",
+      "text": "← 南梯 301—307     308—313 北梯 →",
+      "filename": "T_OTS_Refinement_GalleryDirection_F2.png",
+      "kind": "gallery",
+      "style": "faded_green",
+      "world_position_cm": [
+        9196.0,
+        325.0,
+        955.5
+      ],
+      "size_cm": [
+        105.0,
+        28.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 2,
+      "collision": false,
+      "placement_note": "Corridor centre X=9110 is west of this X=9196 sign. Core door spans Y=110..250; sign spans Y=272.5..377.5.",
+      "pixel_size": [
+        2048,
+        544
+      ],
+      "png_sha256": "4cff072cc64715dd96a9b54dc79fe2d07c6009780dc1f3cd45e5d832cae7cbdf"
+    },
+    {
+      "key": "GalleryDirection_F3",
+      "text": "← 南梯 401—407     408—413 北梯 →",
+      "filename": "T_OTS_Refinement_GalleryDirection_F3.png",
+      "kind": "gallery",
+      "style": "faded_green",
+      "world_position_cm": [
+        9196.0,
+        325.0,
+        1322.75
+      ],
+      "size_cm": [
+        105.0,
+        28.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 3,
+      "collision": false,
+      "placement_note": "Corridor centre X=9110 is west of this X=9196 sign. Core door spans Y=110..250; sign spans Y=272.5..377.5.",
+      "pixel_size": [
+        2048,
+        544
+      ],
+      "png_sha256": "8b8eb3bcd71ed53562bceac03ee1afedcb212cef09a7fec1c30058bfe6501948"
+    },
+    {
+      "key": "LiftOutOfService_F0",
+      "text": "电梯停用\n请走楼梯\n老城旅馆管理处",
+      "filename": "T_OTS_Refinement_LiftOutOfService_F0.png",
+      "kind": "lift_notice",
+      "style": "cream_paper",
+      "world_position_cm": [
+        9590.5,
+        235.0,
+        171.0
+      ],
+      "size_cm": [
+        32.0,
+        42.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 0,
+      "collision": false,
+      "placement_note": "Existing lift front is X=9591; right leaf notice spans Y=219..251, clear of centre seam Y=210 and call panel Y=105.",
+      "pixel_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "2cd4e1c737268d12969143c68226aafa8be33f5a3a88cecef6eb9af7afaa89c3"
+    },
+    {
+      "key": "LiftOutOfService_F1",
+      "text": "电梯停用\n请走楼梯\n老城旅馆管理处",
+      "filename": "T_OTS_Refinement_LiftOutOfService_F1.png",
+      "kind": "lift_notice",
+      "style": "cream_paper",
+      "world_position_cm": [
+        9590.5,
+        235.0,
+        538.25
+      ],
+      "size_cm": [
+        32.0,
+        42.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 1,
+      "collision": false,
+      "placement_note": "Existing lift front is X=9591; right leaf notice spans Y=219..251, clear of centre seam Y=210 and call panel Y=105.",
+      "pixel_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "ab4e0881c1e09047ca7afdc35f5e44e74fd18a2af4cdc8a406375001e9db17b2"
+    },
+    {
+      "key": "LiftOutOfService_F2",
+      "text": "电梯停用\n请走楼梯\n老城旅馆管理处",
+      "filename": "T_OTS_Refinement_LiftOutOfService_F2.png",
+      "kind": "lift_notice",
+      "style": "cream_paper",
+      "world_position_cm": [
+        9590.5,
+        235.0,
+        905.5
+      ],
+      "size_cm": [
+        32.0,
+        42.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 2,
+      "collision": false,
+      "placement_note": "Existing lift front is X=9591; right leaf notice spans Y=219..251, clear of centre seam Y=210 and call panel Y=105.",
+      "pixel_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "8e1e4cf940880a3cad2b680f7f41a63171322c74354be37de5ffd5130de71eaf"
+    },
+    {
+      "key": "LiftOutOfService_F3",
+      "text": "电梯停用\n请走楼梯\n老城旅馆管理处",
+      "filename": "T_OTS_Refinement_LiftOutOfService_F3.png",
+      "kind": "lift_notice",
+      "style": "cream_paper",
+      "world_position_cm": [
+        9590.5,
+        235.0,
+        1272.75
+      ],
+      "size_cm": [
+        32.0,
+        42.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 3,
+      "collision": false,
+      "placement_note": "Existing lift front is X=9591; right leaf notice spans Y=219..251, clear of centre seam Y=210 and call panel Y=105.",
+      "pixel_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "a0a691159a05c2b882bf16f6e76b66464b63ac72649d299b14807879d5ec0d31"
+    },
+    {
+      "key": "DirtyLinenStore",
+      "text": "污布草库",
+      "filename": "T_OTS_Refinement_DirtyLinenStore.png",
+      "kind": "linen",
+      "style": "faded_green",
+      "world_position_cm": [
+        9196.0,
+        2490.0,
+        185.0
+      ],
+      "size_cm": [
+        60.0,
+        20.0
+      ],
+      "width_world_axis": "Y",
+      "facing_axis": "negativeX",
+      "normal_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_right_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 0,
+      "collision": false,
+      "placement_note": "West face of gallery wall; sign ends Y=2520, clear of dirty-store door opening Y=2555..2645.",
+      "pixel_size": [
+        1536,
+        512
+      ],
+      "png_sha256": "adbeb060da26b06c49bac8b47843f351023e0f6380bfdb2829c05323589dffbf"
+    },
+    {
+      "key": "CleanLinenStore",
+      "text": "清布草库",
+      "filename": "T_OTS_Refinement_CleanLinenStore.png",
+      "kind": "linen",
+      "style": "faded_green",
+      "world_position_cm": [
+        9860.0,
+        2388.0,
+        185.0
+      ],
+      "size_cm": [
+        60.0,
+        20.0
+      ],
+      "width_world_axis": "X",
+      "facing_axis": "negativeY",
+      "normal_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "text_right_world": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "text_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "floor": 0,
+      "collision": false,
+      "placement_note": "South face of store wall at Y=2390, facing office Y=1800..2400. Sign X=9830..9890 is clear of clean-store door X=9655..9745.",
+      "pixel_size": [
+        1536,
+        512
+      ],
+      "png_sha256": "0f837961f017fcd367e278530d42e801c3f501cd720bce42a6c04341d33e53fb"
+    }
+  ]
+}

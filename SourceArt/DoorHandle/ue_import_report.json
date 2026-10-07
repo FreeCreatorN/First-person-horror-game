@@ -1,0 +1,13 @@
+{
+  "dimensions_cm": [
+    14.495585918426514,
+    5.4956414344630105,
+    20.5
+  ],
+  "asset": "/Game/Yastars/Mesh/DoorHandle/SM_DoorHandle.SM_DoorHandle",
+  "materials": [
+    "/Game/Yastars/Mesh/DoorHandle/Materials/M_Handle_AgedBrass.M_Handle_AgedBrass",
+    "/Game/Yastars/Mesh/DoorHandle/Materials/M_Handle_Recess.M_Handle_Recess"
+  ],
+  "success": true
+}

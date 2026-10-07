@@ -84,8 +84,40 @@ VIEW_SPECS = (
     (
         "AUDIT_MainHomeShelfContact",
         (1010.0, 1080.0, 175.0),
-        (1165.0, 1265.0, 190.0),
+        (1090.0, 1265.0, 190.0),
         28.0,
+    ),
+    (
+        "AUDIT_MainHomeCounterFurniture",
+        (1025.0, 1030.0, 150.0),
+        (1065.0, 1192.0, 132.0),
+        34.0,
+    ),
+    (
+        "AUDIT_MainHomePharmacyCabinet",
+        (1080.0, 1110.0, 174.0),
+        (1216.0, 1270.0, 156.0),
+        38.0,
+    ),
+    # Wide evidence complements close-ups: reveal the floor, support legs,
+    # approach route and the entire cabinet, not merely one attractive part.
+    (
+        "AUDIT_MainHomeInteriorWide",
+        (1030.0, 760.0, 168.0),
+        (1030.0, 1240.0, 163.0),
+        18.0,
+    ),
+    (
+        "AUDIT_MainHomeCounterTop",
+        (1025.0, 1000.0, 238.0),
+        (1025.0, 1195.0, 115.0),
+        22.0,
+    ),
+    (
+        "AUDIT_MainHomeCabinetFull",
+        (1130.0, 990.0, 160.0),
+        (1210.0, 1260.0, 139.0),
+        22.0,
     ),
     (
         "AUDIT_SchoolGatePlayerEntry",
@@ -128,6 +160,18 @@ VIEW_SPECS = (
         (5990.0, -470.0, 175.0),
         (6555.0, 0.0, 215.0),
         24.0,
+    ),
+    (
+        "AUDIT_P5ServiceDoorSeal",
+        (6150.0, -245.0, 175.0),
+        (6572.0, 158.0, 152.0),
+        46.0,
+    ),
+    (
+        "AUDIT_P5WallLampOverlap",
+        (6415.0, -300.0, 300.0),
+        (6572.0, 0.0, 282.0),
+        52.0,
     ),
     (
         "AUDIT_ReadableShopSigns",

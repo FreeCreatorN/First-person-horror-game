@@ -1,0 +1,150 @@
+{
+  "success": true,
+  "created_assets": [
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Anodized.M_Flashlight_Anodized",
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Rubber.M_Flashlight_Rubber",
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Steel.M_Flashlight_Steel",
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Reflector.M_Flashlight_Reflector",
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Print.M_Flashlight_Print",
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Lens.M_Flashlight_Lens",
+    "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_LED.M_Flashlight_LED",
+    "/Game/Yastars/Mesh/Flashlight/Materials/MI_Flashlight_Lens.MI_Flashlight_Lens",
+    "/Game/Yastars/Mesh/Flashlight/Materials/MI_Flashlight_LED.MI_Flashlight_LED",
+    "/Game/Yastars/Mesh/Flashlight/SM_Flashlight.SM_Flashlight"
+  ],
+  "preserved_assets": [],
+  "slot_indices": {
+    "M_Flashlight_Anodized": 0,
+    "M_Flashlight_Rubber": 1,
+    "M_Flashlight_Steel": 2,
+    "M_Flashlight_Reflector": 3,
+    "M_Flashlight_Print": 4,
+    "M_Flashlight_LED": 5,
+    "M_Flashlight_Lens": 6
+  },
+  "instance_paths": {
+    "M_Flashlight_Lens": "/Game/Yastars/Mesh/Flashlight/Materials/MI_Flashlight_Lens.MI_Flashlight_Lens",
+    "M_Flashlight_LED": "/Game/Yastars/Mesh/Flashlight/Materials/MI_Flashlight_LED.MI_Flashlight_LED"
+  },
+  "parameter_readback": {
+    "M_Flashlight_Lens": {
+      "scalar_parameter_names": [
+        "LightStrength",
+        "Opacity"
+      ],
+      "vector_parameter_names": [
+        "LightColor"
+      ],
+      "master_LightStrength": 0.3499999940395355,
+      "master_LightColor": [
+        0.8600000143051147,
+        0.9300000071525574,
+        1.0,
+        1.0
+      ],
+      "instance_LightStrength": 0.3499999940395355,
+      "instance_LightColor": [
+        0.8600000143051147,
+        0.9300000071525574,
+        1.0,
+        1.0
+      ],
+      "external_edit_samples": [
+        {
+          "requested": 0.0,
+          "readback": 0.0
+        },
+        {
+          "requested": 0.8,
+          "readback": 0.800000011920929
+        }
+      ],
+      "master_Opacity": 0.14000000059604645,
+      "instance_Opacity": 0.14000000059604645
+    },
+    "M_Flashlight_LED": {
+      "scalar_parameter_names": [
+        "LightStrength"
+      ],
+      "vector_parameter_names": [
+        "LightColor"
+      ],
+      "master_LightStrength": 0.3499999940395355,
+      "master_LightColor": [
+        0.8600000143051147,
+        0.9300000071525574,
+        1.0,
+        1.0
+      ],
+      "instance_LightStrength": 0.3499999940395355,
+      "instance_LightColor": [
+        0.8600000143051147,
+        0.9300000071525574,
+        1.0,
+        1.0
+      ],
+      "external_edit_samples": [
+        {
+          "requested": 0.0,
+          "readback": 0.0
+        },
+        {
+          "requested": 0.8,
+          "readback": 0.800000011920929
+        }
+      ]
+    }
+  },
+  "mesh": "/Game/Yastars/Mesh/Flashlight/SM_Flashlight.SM_Flashlight",
+  "dimensions_cm": [
+    19.5,
+    5.2200000286102295,
+    5.220000267028809
+  ],
+  "forward_axis": "+X",
+  "convex_collision_hulls": 3,
+  "materials": [
+    {
+      "index": 0,
+      "slot_name": "M_Flashlight_Anodized",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Anodized.M_Flashlight_Anodized"
+    },
+    {
+      "index": 1,
+      "slot_name": "M_Flashlight_Rubber",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Rubber.M_Flashlight_Rubber"
+    },
+    {
+      "index": 2,
+      "slot_name": "M_Flashlight_Steel",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Steel.M_Flashlight_Steel"
+    },
+    {
+      "index": 3,
+      "slot_name": "M_Flashlight_Reflector",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Reflector.M_Flashlight_Reflector"
+    },
+    {
+      "index": 4,
+      "slot_name": "M_Flashlight_Print",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/M_Flashlight_Print.M_Flashlight_Print"
+    },
+    {
+      "index": 5,
+      "slot_name": "M_Flashlight_LED",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/MI_Flashlight_LED.MI_Flashlight_LED"
+    },
+    {
+      "index": 6,
+      "slot_name": "M_Flashlight_Lens",
+      "material": "/Game/Yastars/Mesh/Flashlight/Materials/MI_Flashlight_Lens.MI_Flashlight_Lens"
+    }
+  ],
+  "runtime_control": {
+    "scalar_parameter": "LightStrength",
+    "default": 0.35,
+    "off": 0.0,
+    "color_parameter": "LightColor",
+    "note": "Create a Dynamic Material Instance for both recorded Lens/LED slots and set LightStrength on both. No light Actor or Blueprint is created."
+  }
+}

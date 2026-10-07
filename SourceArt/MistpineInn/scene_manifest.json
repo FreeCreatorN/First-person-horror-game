@@ -1,0 +1,18 @@
+{
+  "objects": 1108,
+  "cameras": [
+    "CAM 02 Lobby",
+    "CAM 03 Corridor",
+    "CAM 04 Guest room",
+    "CAM 01 Exterior",
+    "CAM 05 Architectural overview"
+  ],
+  "collections": [
+    "01 Exterior",
+    "02 Lobby and reception",
+    "03 Guest corridor and rooms",
+    "04 Landscape",
+    "05 Cameras and lighting",
+    "Collection"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "height_cm": 9.83101069618715,
+  "materials": [
+    "/Game/Yastars/Mesh/CeramicMug/Materials/M_Mug_Water.M_Mug_Water",
+    "/Game/Yastars/Mesh/CeramicMug/Materials/M_Mug_OliveBand.M_Mug_OliveBand",
+    "/Game/Yastars/Mesh/CeramicMug/Materials/M_Mug_IvoryGlaze.M_Mug_IvoryGlaze",
+    "/Game/Yastars/Mesh/CeramicMug/Materials/M_Mug_UnglazedFoot.M_Mug_UnglazedFoot"
+  ],
+  "duration_seconds": 9.125,
+  "mesh": "/Game/Yastars/Mesh/CeramicMug/SM_CeramicMug.SM_CeramicMug",
+  "animation": "/Game/Yastars/Mesh/CeramicMug/GC_CeramicMug_Pouring.GC_CeramicMug_Pouring",
+  "success": true
+}

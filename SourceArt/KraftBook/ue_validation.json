@@ -1,0 +1,48 @@
+{
+  "duration_seconds": 67.95833587646484,
+  "samples": [
+    {
+      "time": 0,
+      "extent_cm": [
+        7.549999713897705,
+        11.850000381469727,
+        1.2170000458718278
+      ]
+    },
+    {
+      "time": 30,
+      "extent_cm": [
+        7.549999713897705,
+        11.850000381469727,
+        1.2170000458718278
+      ]
+    },
+    {
+      "time": 67,
+      "extent_cm": [
+        7.549999713897705,
+        11.850000381469727,
+        1.2170000458718278
+      ]
+    }
+  ],
+  "cache_materials": [
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_05.M_Book_Paper_05",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_03.M_Book_Paper_03",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_02.M_Book_Paper_02",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_00.M_Book_Paper_00",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Kraft.M_Book_Kraft",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_01.M_Book_Paper_01",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_04.M_Book_Paper_04",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Ribbon.M_Book_Ribbon",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Crease.M_Book_Crease"
+  ],
+  "lamp_materials": [
+    "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Brass.M_TableLamp_Brass",
+    "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Cord.M_TableLamp_Cord",
+    "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Socket.M_TableLamp_Socket",
+    "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Linen.M_TableLamp_Linen",
+    "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Bulb.M_TableLamp_Bulb"
+  ],
+  "success": true
+}

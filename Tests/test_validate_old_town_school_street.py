@@ -128,6 +128,36 @@ class OldTownSchoolStreetValidatorContractTests(unittest.TestCase):
             self.source,
         )
 
+    def test_p5_contract_is_six_assets_and_fifteen_nonblocking_instances(self):
+        expected_counts = self.constants["EXPECTED_P5_MESH_COUNTS"]
+        self.assertEqual(6, len(expected_counts))
+        self.assertEqual(15, sum(expected_counts.values()))
+        self.assertEqual(
+            {
+                "SM_P5_LoadedLaundryRack": 5,
+                "SM_P5_OldServiceDoorTransom": 3,
+                "SM_P5_WallLampGooseneck": 3,
+                "SM_P5_ShopShelfStocked": 1,
+                "SM_P5_CounterDisplay": 2,
+                "SM_P5_TallPharmacyCabinet": 1,
+            },
+            expected_counts,
+        )
+        self.assertIn(
+            "len(p5_module_actors) == "
+            "sum(EXPECTED_P5_MESH_COUNTS.values())",
+            self.source,
+        )
+        self.assertIn(
+            "P5 module must remain collision-free",
+            self.source,
+        )
+
+    def test_p5_material_variants_require_twenty_eight_materials(self):
+        self.assertEqual(28, self.constants["EXPECTED_MATERIAL_COUNT"])
+        self.assertIn("M_OTS_FadedBlueMetal", self.builder_source)
+        self.assertIn("M_OTS_FadedRedMetal", self.builder_source)
+
     def test_wall_antitiling_uses_shared_noise_instead_of_fixed_weight(self):
         self.assertNotIn(
             "scale_weight = constant_scalar(material, 0.34",
@@ -196,6 +226,9 @@ class OldTownSchoolStreetValidatorContractTests(unittest.TestCase):
                 "p3_module_asset_count",
                 "p3_module_actor_count",
                 "p3_module_distribution",
+                "p5_module_asset_count",
+                "p5_module_actor_count",
+                "p5_module_distribution",
             }.issubset(report_keys)
         )
 

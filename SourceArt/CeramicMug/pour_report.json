@@ -1,0 +1,23 @@
+{
+  "frames": 220,
+  "fps": 24,
+  "water_samples": [
+    {
+      "frame": 2,
+      "retained_fraction": 0.77
+    },
+    {
+      "frame": 90,
+      "retained_fraction": 0.6678571428571428
+    },
+    {
+      "frame": 132,
+      "retained_fraction": 0.18392857142857144
+    },
+    {
+      "frame": 220,
+      "retained_fraction": 0.18392857142857144
+    }
+  ],
+  "method": "Animated water surfaces with ballistic stream"
+}

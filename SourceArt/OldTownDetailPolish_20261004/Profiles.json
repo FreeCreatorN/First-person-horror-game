@@ -1,0 +1,385 @@
+[
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p326316",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.326315789473682,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p326316",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.326315789473682,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p326316",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.32631578947368
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Door_132_224",
+    "kind": "door",
+    "size": [
+      4.0,
+      132.0,
+      224.0
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_8_17p90625",
+    "kind": "flight",
+    "steps": 8,
+    "rise": 17.90625,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p90625",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.90625
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p205882",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.205882352941178,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_8_17p205882",
+    "kind": "flight",
+    "steps": 8,
+    "rise": 17.205882352941178,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p205882",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.205882352941174
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_11_17p5",
+    "kind": "flight",
+    "steps": 11,
+    "rise": 17.5,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p5",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.5
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p5",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.5,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p578947",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.57894736842105,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p578947",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.57894736842105,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p578947",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.578947368421055
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p833333",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.833333333333336,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p833333",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.833333333333336
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p444444",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.444444444444443,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p444444",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.44444444444444
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p638889",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.63888888888889,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p638889",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.638888888888886
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p7",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.7,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p7",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.7
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Door_112_180",
+    "kind": "door",
+    "size": [
+      4.0,
+      112.0,
+      180.0
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p816667",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.816666666666666,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p816667",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.81666666666666
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_11_17p488095",
+    "kind": "flight",
+    "steps": 11,
+    "rise": 17.488095238095237,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p488095",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.488095238095237,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p488095",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.48809523809524
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p191176",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.191176470588236,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_8_17p191176",
+    "kind": "flight",
+    "steps": 8,
+    "rise": 17.191176470588236,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p191176",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.19117647058823
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p433333",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.433333333333334,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p433333",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.43333333333334
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p625",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.625,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p625",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.625
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p291667",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.291666666666668,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p291667",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.29166666666667
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p5",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.5,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_10_17p697368",
+    "kind": "flight",
+    "steps": 10,
+    "rise": 17.69736842105263,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p697368",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.69736842105263,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p697368",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.69736842105263
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_Flight_9_17p166667",
+    "kind": "flight",
+    "steps": 9,
+    "rise": 17.166666666666668,
+    "width": 140.0,
+    "tread": 28.0
+  },
+  {
+    "name": "SM_OTS_Polish_Landing_300_140_37p166667",
+    "kind": "landing",
+    "size": [
+      300.0,
+      140.0,
+      37.16666666666667
+    ]
+  },
+  {
+    "name": "SM_OTS_Polish_InnerTrim_125_120",
+    "kind": "trim",
+    "width": 125.0,
+    "height": 120.0
+  },
+  {
+    "name": "SM_OTS_Polish_InnerTrim_90_90",
+    "kind": "trim",
+    "width": 90.0,
+    "height": 90.0
+  }
+]

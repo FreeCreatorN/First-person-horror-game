@@ -1,0 +1,48 @@
+{
+  "lamp_moved": [
+    [
+      "/Game/Yastars/Mesh/Materials/M_TableLamp_Brass",
+      "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Brass"
+    ],
+    [
+      "/Game/Yastars/Mesh/Materials/M_TableLamp_Bulb",
+      "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Bulb"
+    ],
+    [
+      "/Game/Yastars/Mesh/Materials/M_TableLamp_Cord",
+      "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Cord"
+    ],
+    [
+      "/Game/Yastars/Mesh/Materials/M_TableLamp_Linen",
+      "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Linen"
+    ],
+    [
+      "/Game/Yastars/Mesh/Materials/M_TableLamp_Socket",
+      "/Game/Yastars/Mesh/TableLamp/Materials/M_TableLamp_Socket"
+    ],
+    [
+      "/Game/Yastars/Mesh/SM_TableLamp",
+      "/Game/Yastars/Mesh/TableLamp/SM_TableLamp"
+    ],
+    [
+      "/Game/Yastars/Mesh/Textures/T_TableLamp_Weave",
+      "/Game/Yastars/Mesh/TableLamp/Textures/T_TableLamp_Weave"
+    ]
+  ],
+  "static_mesh": "/Game/Yastars/Mesh/KraftBook/SM_KraftBook.SM_KraftBook",
+  "closed_height_cm": 2.4340000917436555,
+  "animation": "/Game/Yastars/Mesh/KraftBook/GC_KraftBook_FullCycle.GC_KraftBook_FullCycle",
+  "animation_class": "GeometryCache",
+  "animation_materials": [
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_05.M_Book_Paper_05",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_03.M_Book_Paper_03",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_02.M_Book_Paper_02",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_00.M_Book_Paper_00",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Kraft.M_Book_Kraft",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_01.M_Book_Paper_01",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Paper_04.M_Book_Paper_04",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Ribbon.M_Book_Ribbon",
+    "/Game/Yastars/Mesh/KraftBook/Materials/M_Book_Crease.M_Book_Crease"
+  ],
+  "success": true
+}

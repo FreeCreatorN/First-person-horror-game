@@ -1,0 +1,520 @@
+{
+  "units": "cm",
+  "source_units": "metres",
+  "assets": [
+    {
+      "key": "RotaryPhone",
+      "name": "SM_OTS_Ops_RotaryPhone",
+      "file": "SM_OTS_Ops_RotaryPhone.fbx",
+      "bounds_cm": [
+        [
+          -14.000000059604645,
+          -10.499999672174454,
+          0.0
+        ],
+        [
+          14.000000059604645,
+          14.999999105930328,
+          14.000000059604645
+        ]
+      ],
+      "dimensions_cm": [
+        28.00000011920929,
+        25.499998778104782,
+        14.000000059604645
+      ],
+      "nominal_dimensions_cm": [
+        28,
+        25.5,
+        14
+      ],
+      "vertices": 8148,
+      "materials": [
+        "DarkMetal",
+        "Paper",
+        "Letters"
+      ],
+      "source_sha256": "bda4528927ef887c92a6df7652e01d13ae9277f125d0414b62d0bc4e936393eb",
+      "note": "Body 28x21 cm; cord extends to Y=+15 cm for an asymmetric import-axis witness; front -X; base Z=0."
+    },
+    {
+      "key": "Ledger",
+      "name": "SM_OTS_Ops_Ledger",
+      "file": "SM_OTS_Ops_Ledger.fbx",
+      "bounds_cm": [
+        [
+          -20.999999344348907,
+          -15.000000596046448,
+          0.0
+        ],
+        [
+          20.999999344348907,
+          15.000000596046448,
+          2.9999999329447746
+        ]
+      ],
+      "dimensions_cm": [
+        41.999998688697815,
+        30.000001192092896,
+        2.9999999329447746
+      ],
+      "nominal_dimensions_cm": [
+        42,
+        30,
+        3
+      ],
+      "vertices": 592,
+      "materials": [
+        "Wood",
+        "Paper",
+        "Letters"
+      ],
+      "source_sha256": "26b96a53f6b1b7f4705a83ecb7f1781150e48b0eeb0eae5866a250b80dd50ebc",
+      "note": "Open ruled ledger; base Z=0."
+    },
+    {
+      "key": "DeskBell",
+      "name": "SM_OTS_Ops_DeskBell",
+      "file": "SM_OTS_Ops_DeskBell.fbx",
+      "bounds_cm": [
+        [
+          -5.999999865889549,
+          -5.999999865889549,
+          0.0
+        ],
+        [
+          5.999999865889549,
+          5.999999865889549,
+          9.000000357627869
+        ]
+      ],
+      "dimensions_cm": [
+        11.999999731779099,
+        11.999999731779099,
+        9.000000357627869
+      ],
+      "nominal_dimensions_cm": [
+        12,
+        12,
+        9
+      ],
+      "vertices": 1152,
+      "materials": [
+        "DarkMetal",
+        "Letters"
+      ],
+      "source_sha256": "46d32ecaeb93c82d24edc2aa23d2dccab10c353c9a5ad9f2ef8d561171ac5845",
+      "note": ""
+    },
+    {
+      "key": "Chair",
+      "name": "SM_OTS_Ops_Chair",
+      "file": "SM_OTS_Ops_Chair.fbx",
+      "bounds_cm": [
+        [
+          -23.999999463558197,
+          -23.000000417232513,
+          0.0
+        ],
+        [
+          23.999997973442078,
+          23.000000417232513,
+          84.00000333786011
+        ]
+      ],
+      "dimensions_cm": [
+        47.999997437000275,
+        46.00000083446503,
+        84.00000333786011
+      ],
+      "nominal_dimensions_cm": [
+        48,
+        46,
+        84
+      ],
+      "vertices": 728,
+      "materials": [
+        "Wood",
+        "Upholstery"
+      ],
+      "source_sha256": "b2d1d5552078441a6a071f0954b90e5dc6697cd34cdc3bc32693c278a555cba2",
+      "note": "Seat top Z=44 cm; front -X; back +X."
+    },
+    {
+      "key": "SofaTop",
+      "name": "SM_OTS_Ops_SofaTop",
+      "file": "SM_OTS_Ops_SofaTop.fbx",
+      "bounds_cm": [
+        [
+          -140.00000953674316,
+          -34.99999940395355,
+          -3.725290298461914e-07
+        ],
+        [
+          140.00000953674316,
+          35.00000238418579,
+          47.999998927116394
+        ]
+      ],
+      "dimensions_cm": [
+        280.0000190734863,
+        70.00000178813934,
+        47.999999299645424
+      ],
+      "nominal_dimensions_cm": [
+        280,
+        70,
+        48
+      ],
+      "vertices": 2232,
+      "materials": [
+        "Linen",
+        "Upholstery"
+      ],
+      "source_sha256": "4a6e60ff22e8ce0d52348335797523b2cfba6ba30d578918cbc4b76051ff7a75",
+      "note": "Dressing base Z=0 rests at bench-top Z=59 cm; back +Y; both arms."
+    },
+    {
+      "key": "CoffeeTable",
+      "name": "SM_OTS_Ops_CoffeeTable",
+      "file": "SM_OTS_Ops_CoffeeTable.fbx",
+      "bounds_cm": [
+        [
+          -69.9999988079071,
+          -34.99999940395355,
+          0.0
+        ],
+        [
+          69.9999988079071,
+          34.99999940395355,
+          48.00000190734863
+        ]
+      ],
+      "dimensions_cm": [
+        139.9999976158142,
+        69.9999988079071,
+        48.00000190734863
+      ],
+      "nominal_dimensions_cm": [
+        140,
+        70,
+        48
+      ],
+      "vertices": 504,
+      "materials": [
+        "Wood"
+      ],
+      "source_sha256": "d675e72250795da424eddb6246403055a870221fe1a84347fb270efbbbb2d5f0",
+      "note": ""
+    },
+    {
+      "key": "PantrySink",
+      "name": "SM_OTS_Ops_PantrySink",
+      "file": "SM_OTS_Ops_PantrySink.fbx",
+      "bounds_cm": [
+        [
+          -34.99999940395355,
+          -40.00000059604645,
+          0.0
+        ],
+        [
+          34.99999940395355,
+          40.00000059604645,
+          28.00000011920929
+        ]
+      ],
+      "dimensions_cm": [
+        69.9999988079071,
+        80.0000011920929,
+        28.00000011920929
+      ],
+      "nominal_dimensions_cm": [
+        70,
+        80,
+        28
+      ],
+      "vertices": 2700,
+      "materials": [
+        "DarkMetal",
+        "Ceramic",
+        "Letters"
+      ],
+      "source_sha256": "3610766a89615a4b2ef7a6a1375504df4db99c8ed06a8dec3c78b730dd604463",
+      "note": "Rim top Z=8 cm; tap top Z=28 cm; counter-mounted base Z=0."
+    },
+    {
+      "key": "Kettle",
+      "name": "SM_OTS_Ops_Kettle",
+      "file": "SM_OTS_Ops_Kettle.fbx",
+      "bounds_cm": [
+        [
+          -20.673877000808716,
+          -10.999999940395355,
+          0.0
+        ],
+        [
+          10.999999940395355,
+          10.999999940395355,
+          34.00000035762787
+        ]
+      ],
+      "dimensions_cm": [
+        31.67387694120407,
+        21.99999988079071,
+        34.00000035762787
+      ],
+      "nominal_dimensions_cm": [
+        32,
+        22,
+        34
+      ],
+      "vertices": 1828,
+      "materials": [
+        "DarkMetal",
+        "Ceramic"
+      ],
+      "source_sha256": "95b513fe1434238af765f4ae34e58b0e2dba0e2f092fe0191cd86416274344c5",
+      "note": "Body diameter 22 cm; measured X includes spout; handle top Z=34 cm."
+    },
+    {
+      "key": "TowelPile",
+      "name": "SM_OTS_Ops_TowelPile",
+      "file": "SM_OTS_Ops_TowelPile.fbx",
+      "bounds_cm": [
+        [
+          -27.500000596046448,
+          -20.000000298023224,
+          0.0
+        ],
+        [
+          27.500000596046448,
+          20.000000298023224,
+          25.0
+        ]
+      ],
+      "dimensions_cm": [
+        55.000001192092896,
+        40.00000059604645,
+        25.0
+      ],
+      "nominal_dimensions_cm": [
+        55,
+        40,
+        25
+      ],
+      "vertices": 560,
+      "materials": [
+        "Linen"
+      ],
+      "source_sha256": "03b86de004c43f87e7c367ca7123b73169afb76ca40f5a243b296841b89e6566",
+      "note": ""
+    },
+    {
+      "key": "LinenBag",
+      "name": "SM_OTS_Ops_LinenBag",
+      "file": "SM_OTS_Ops_LinenBag.fbx",
+      "bounds_cm": [
+        [
+          -25.0,
+          -22.499999403953552,
+          0.0
+        ],
+        [
+          25.0,
+          22.499999403953552,
+          60.00000238418579
+        ]
+      ],
+      "dimensions_cm": [
+        50.0,
+        44.999998807907104,
+        60.00000238418579
+      ],
+      "nominal_dimensions_cm": [
+        50,
+        45,
+        60
+      ],
+      "vertices": 1010,
+      "materials": [
+        "DarkMetal",
+        "Linen"
+      ],
+      "source_sha256": "b0294a45739ea84bc088c1eb6684e08a4301d12d93e5bda7bccee6ac912421e4",
+      "note": ""
+    },
+    {
+      "key": "HousekeepingCart",
+      "name": "SM_OTS_Ops_HousekeepingCart",
+      "file": "SM_OTS_Ops_HousekeepingCart.fbx",
+      "bounds_cm": [
+        [
+          -37.5,
+          -52.49999761581421,
+          -1.457697962337079e-07
+        ],
+        [
+          37.50000298023224,
+          52.49999761581421,
+          104.99999523162842
+        ]
+      ],
+      "dimensions_cm": [
+        75.00000298023224,
+        104.99999523162842,
+        104.99999537739822
+      ],
+      "nominal_dimensions_cm": [
+        75,
+        105,
+        105
+      ],
+      "vertices": 4616,
+      "materials": [
+        "Wood",
+        "DarkMetal",
+        "Linen",
+        "Letters"
+      ],
+      "source_sha256": "50773d5336285d91602dae34b0f198df80844fa5cbc89cd29bbf84d37191d309",
+      "note": "Front -X; open frame, wheels, shelves, linen bag and mop pocket."
+    },
+    {
+      "key": "LuggageRack",
+      "name": "SM_OTS_Ops_LuggageRack",
+      "file": "SM_OTS_Ops_LuggageRack.fbx",
+      "bounds_cm": [
+        [
+          -50.0,
+          -27.49999761581421,
+          -1.4901161193847656e-06
+        ],
+        [
+          50.0,
+          27.500003576278687,
+          74.82426762580872
+        ]
+      ],
+      "dimensions_cm": [
+        100.0,
+        55.000001192092896,
+        74.82426911592484
+      ],
+      "nominal_dimensions_cm": [
+        100,
+        55,
+        75
+      ],
+      "vertices": 1180,
+      "materials": [
+        "Wood",
+        "DarkMetal",
+        "Letters"
+      ],
+      "source_sha256": "9936f5709aa85d37140d0cfe9d1e852aaca0c6828b9c191e28d36aea11d62b90",
+      "note": "Suitcase atop slatted folding luggage rack; base Z=0; curved handle is within 2mm nominal height."
+    },
+    {
+      "key": "LiftFace",
+      "name": "SM_OTS_Ops_LiftFace",
+      "file": "SM_OTS_Ops_LiftFace.fbx",
+      "bounds_cm": [
+        [
+          -4.000000283122063,
+          -80.0000011920929,
+          0.0
+        ],
+        [
+          0.0,
+          80.0000011920929,
+          220.00000476837158
+        ]
+      ],
+      "dimensions_cm": [
+        4.000000283122063,
+        160.0000023841858,
+        220.00000476837158
+      ],
+      "nominal_dimensions_cm": [
+        4,
+        160,
+        220
+      ],
+      "vertices": 432,
+      "materials": [
+        "DarkMetal",
+        "Letters"
+      ],
+      "source_sha256": "3d8918ff20a54e3cd00d59d9445a2057b38867536e869b1cb5779c3720642ec8",
+      "note": "Local X [-4,0] cm; front -X; centre seam and two steel leaves."
+    },
+    {
+      "key": "LiftCallPanel",
+      "name": "SM_OTS_Ops_LiftCallPanel",
+      "file": "SM_OTS_Ops_LiftCallPanel.fbx",
+      "bounds_cm": [
+        [
+          -3.0000001192092896,
+          -7.500000298023224,
+          0.0
+        ],
+        [
+          0.0,
+          7.500000298023224,
+          34.99999940395355
+        ]
+      ],
+      "dimensions_cm": [
+        3.0000001192092896,
+        15.000000596046448,
+        34.99999940395355
+      ],
+      "nominal_dimensions_cm": [
+        3,
+        15,
+        35
+      ],
+      "vertices": 496,
+      "materials": [
+        "DarkMetal",
+        "Letters"
+      ],
+      "source_sha256": "7548482800cf76f9a61f062b319b77db4fc7c222e4ddeb7e1867b154ec1d17a9",
+      "note": "Local X [-3,0] cm; front -X; round call button."
+    },
+    {
+      "key": "WallClock",
+      "name": "SM_OTS_Ops_WallClock",
+      "file": "SM_OTS_Ops_WallClock.fbx",
+      "bounds_cm": [
+        [
+          -6.000000610947609,
+          -17.499999701976776,
+          8.742311735643327e-09
+        ],
+        [
+          7.760794673572491e-07,
+          17.499999701976776,
+          34.99999940395355
+        ]
+      ],
+      "dimensions_cm": [
+        6.000001387027076,
+        34.99999940395355,
+        34.99999939521124
+      ],
+      "nominal_dimensions_cm": [
+        6,
+        35,
+        35
+      ],
+      "vertices": 592,
+      "materials": [
+        "DarkMetal",
+        "Paper"
+      ],
+      "source_sha256": "473130fe52f5198d51aa6dfb3f9acf2123da20c9e7f38f3c4811aab17d31a735",
+      "note": "Blank vertical YZ dial and stopped hands project ahead of case; front -X; local X [-6,0] cm."
+    }
+  ]
+}

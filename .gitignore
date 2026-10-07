@@ -30,6 +30,13 @@ Thumbs.db
 *.tmp
 *.temp
 *.log
+**/__pycache__/
+*.py[cod]
+*.blend1
+
+# Local copies of external tools and Python environments
+/Tools/CLI-Anything/
+/Tools/BlenderMCP/
 
 # Local git worktrees used for isolated Codex feature work
 .worktrees/

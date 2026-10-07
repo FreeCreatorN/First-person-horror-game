@@ -1,0 +1,114 @@
+[
+  {
+    "name": "SM_OTS_DoorFrame_1400_2300",
+    "kind": "DoorFrame",
+    "width": 140.0,
+    "height": 230.0,
+    "pivot": "opening_bottom_center"
+  },
+  {
+    "name": "SM_OTS_DoorLeaf_1400_2300",
+    "kind": "DoorLeaf",
+    "width": 140.0,
+    "height": 230.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_DoorHandle_1400_2300",
+    "kind": "DoorHandle",
+    "width": 140.0,
+    "height": 230.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_DoorFrame_1200_1860",
+    "kind": "DoorFrame",
+    "width": 120.0,
+    "height": 186.0,
+    "pivot": "opening_bottom_center"
+  },
+  {
+    "name": "SM_OTS_DoorLeaf_1200_1860",
+    "kind": "DoorLeaf",
+    "width": 120.0,
+    "height": 186.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_DoorHandle_1200_1860",
+    "kind": "DoorHandle",
+    "width": 120.0,
+    "height": 186.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_DoorFrame_900_2000",
+    "kind": "DoorFrame",
+    "width": 90.0,
+    "height": 200.0,
+    "pivot": "opening_bottom_center"
+  },
+  {
+    "name": "SM_OTS_DoorLeaf_900_2000",
+    "kind": "DoorLeaf",
+    "width": 90.0,
+    "height": 200.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_DoorHandle_900_2000",
+    "kind": "DoorHandle",
+    "width": 90.0,
+    "height": 200.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_WindowFrame_1250_1200",
+    "kind": "WindowFrame",
+    "width": 125.0,
+    "height": 120.0,
+    "pivot": "opening_bottom_center"
+  },
+  {
+    "name": "SM_OTS_WindowSash_1250_1200",
+    "kind": "WindowSash",
+    "width": 125.0,
+    "height": 120.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_WindowGlass_1250_1200",
+    "kind": "WindowGlass",
+    "width": 125.0,
+    "height": 120.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_WindowFrame_900_900",
+    "kind": "WindowFrame",
+    "width": 90.0,
+    "height": 90.0,
+    "pivot": "opening_bottom_center"
+  },
+  {
+    "name": "SM_OTS_WindowSash_900_900",
+    "kind": "WindowSash",
+    "width": 90.0,
+    "height": 90.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_WindowGlass_900_900",
+    "kind": "WindowGlass",
+    "width": 90.0,
+    "height": 90.0,
+    "pivot": "hinge"
+  },
+  {
+    "name": "SM_OTS_HotelSignLetters",
+    "kind": "sign",
+    "width": 201.98919773101807,
+    "height": 48.0,
+    "pivot": "bottom_center"
+  }
+]

@@ -1,0 +1,406 @@
+{
+  "version": 2,
+  "authoring_units": "meters",
+  "import_units": "centimeters",
+  "fbx_axis_forward": "-Y",
+  "fbx_axis_up": "Z",
+  "authoring_axes": {
+    "X": "width",
+    "Y": "depth, front is -Y",
+    "Z": "up"
+  },
+  "assembly_note": "Offsets are Blender authoring XYZ centimetres; verify Unreal FBX axis conversion before placement.",
+  "materials": {
+    "Wood": {
+      "color": [
+        0.2199999988079071,
+        0.10499999672174454,
+        0.041999999433755875
+      ],
+      "roughness": 0.7200000286102295,
+      "metallic": 0.0
+    },
+    "WoodPanel": {
+      "color": [
+        0.28999999165534973,
+        0.1550000011920929,
+        0.07199999690055847
+      ],
+      "roughness": 0.7599999904632568,
+      "metallic": 0.0
+    },
+    "Metal": {
+      "color": [
+        0.1599999964237213,
+        0.14000000059604645,
+        0.09000000357627869
+      ],
+      "roughness": 0.5400000214576721,
+      "metallic": 0.6800000071525574
+    },
+    "Cloth": {
+      "color": [
+        0.3400000035762787,
+        0.41999998688697815,
+        0.33000001311302185
+      ],
+      "roughness": 0.9300000071525574,
+      "metallic": 0.0
+    },
+    "ClothPillow": {
+      "color": [
+        0.6800000071525574,
+        0.6299999952316284,
+        0.47999998927116394
+      ],
+      "roughness": 0.9599999785423279,
+      "metallic": 0.0
+    },
+    "ClothPiping": {
+      "color": [
+        0.18000000715255737,
+        0.25,
+        0.1899999976158142
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0
+    },
+    "ScaleReferenceBlue": {
+      "color": [
+        0.02500000037252903,
+        0.2199999988079071,
+        0.5199999809265137
+      ],
+      "roughness": 0.7,
+      "metallic": 0
+    }
+  },
+  "assets": [
+    {
+      "name": "SM_OTS_Blender_BedFrame",
+      "destination": "/Game/Yastar/Meshes/Bed",
+      "group": "Bed",
+      "file": "SM_OTS_Blender_BedFrame.fbx",
+      "dimensions_cm": [
+        155.94,
+        224.28,
+        97.5
+      ],
+      "offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_cm": [
+        [
+          -77.97,
+          -112.14,
+          0.0
+        ],
+        [
+          77.97,
+          112.14,
+          97.5
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel"
+      ],
+      "vertices": 3264,
+      "triangles": 6392,
+      "pivot": "floor_or_support",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_BedMattress",
+      "destination": "/Game/Yastar/Meshes/Bed",
+      "group": "Bed",
+      "file": "SM_OTS_Blender_BedMattress.fbx",
+      "dimensions_cm": [
+        138.0,
+        207.9,
+        15.0
+      ],
+      "offset_cm": [
+        0.0,
+        0.0,
+        44.0
+      ],
+      "bounds_cm": [
+        [
+          -69.0,
+          -103.95,
+          -0.0
+        ],
+        [
+          69.0,
+          103.95,
+          15.0
+        ]
+      ],
+      "material_slots": [
+        "Cloth",
+        "ClothPiping"
+      ],
+      "vertices": 240,
+      "triangles": 444,
+      "pivot": "floor_or_support",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_BedPillow",
+      "destination": "/Game/Yastar/Meshes/Bed",
+      "group": "Bed",
+      "file": "SM_OTS_Blender_BedPillow.fbx",
+      "dimensions_cm": [
+        66.7,
+        38.85,
+        10.9738
+      ],
+      "offset_cm": [
+        0.0,
+        72.45,
+        59.0
+      ],
+      "bounds_cm": [
+        [
+          -33.35,
+          -19.425,
+          0.0
+        ],
+        [
+          33.35,
+          19.425,
+          10.9738
+        ]
+      ],
+      "material_slots": [
+        "ClothPillow"
+      ],
+      "vertices": 168,
+      "triangles": 316,
+      "pivot": "floor_or_support",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_OldWoodTable",
+      "destination": "/Game/Yastar/Meshes/Table",
+      "group": "Table",
+      "file": "SM_OTS_Blender_OldWoodTable.fbx",
+      "dimensions_cm": [
+        150.0,
+        90.0,
+        80.0
+      ],
+      "offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_cm": [
+        [
+          -75.0,
+          -45.0,
+          0.0
+        ],
+        [
+          75.0,
+          45.0,
+          80.0
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel",
+        "Metal"
+      ],
+      "vertices": 1824,
+      "triangles": 3572,
+      "pivot": "floor_or_support",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_OldWoodChair",
+      "destination": "/Game/Yastar/Meshes/Furniture",
+      "group": "Chair",
+      "file": "SM_OTS_Blender_OldWoodChair.fbx",
+      "dimensions_cm": [
+        52.0,
+        52.0,
+        100.0
+      ],
+      "offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_cm": [
+        [
+          -26.0,
+          -26.0,
+          0.0
+        ],
+        [
+          26.0,
+          26.0,
+          100.0
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel"
+      ],
+      "vertices": 2016,
+      "triangles": 3948,
+      "pivot": "floor_or_support",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_WardrobeCase",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Wardrobe",
+      "file": "SM_OTS_Blender_WardrobeCase.fbx",
+      "dimensions_cm": [
+        140.0,
+        70.0,
+        200.0
+      ],
+      "offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_cm": [
+        [
+          -70.0,
+          -36.0469,
+          0.0
+        ],
+        [
+          70.0,
+          33.9531,
+          200.0
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel"
+      ],
+      "vertices": 1536,
+      "triangles": 3008,
+      "pivot": "floor_or_support",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_WardrobeDoorL",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Wardrobe",
+      "file": "SM_OTS_Blender_WardrobeDoorL.fbx",
+      "dimensions_cm": [
+        64.7934,
+        8.4317,
+        177.9167
+      ],
+      "offset_cm": [
+        -64.562,
+        -37.3484,
+        16.6667
+      ],
+      "bounds_cm": [
+        [
+          -0.8099,
+          -3.848,
+          0.1042
+        ],
+        [
+          63.9835,
+          4.5837,
+          178.0208
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel",
+        "Metal"
+      ],
+      "vertices": 1248,
+      "triangles": 2444,
+      "pivot": "hinge_bottom",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_Blender_WardrobeDoorR",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Wardrobe",
+      "file": "SM_OTS_Blender_WardrobeDoorR.fbx",
+      "dimensions_cm": [
+        64.7934,
+        8.4317,
+        177.9167
+      ],
+      "offset_cm": [
+        64.562,
+        -37.3484,
+        16.6667
+      ],
+      "bounds_cm": [
+        [
+          -63.9835,
+          -3.848,
+          0.1042
+        ],
+        [
+          0.8099,
+          4.5837,
+          178.0208
+        ]
+      ],
+      "material_slots": [
+        "Wood",
+        "WoodPanel",
+        "Metal"
+      ],
+      "vertices": 1248,
+      "triangles": 2444,
+      "pivot": "hinge_bottom",
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    },
+    {
+      "name": "SM_OTS_HumanReference_180x50",
+      "destination": "/Game/Yastar/Meshes/hOUSE",
+      "group": "Reference",
+      "file": "SM_OTS_HumanReference_180x50.fbx",
+      "dimensions_cm": [
+        50.0,
+        30.5,
+        180.0
+      ],
+      "offset_cm": [
+        0,
+        0,
+        0
+      ],
+      "bounds_cm": [
+        [
+          -25.0,
+          -18.5,
+          0.0
+        ],
+        [
+          25.0,
+          12.0,
+          180.0
+        ]
+      ],
+      "material_slots": [
+        "ScaleReferenceBlue"
+      ],
+      "vertices": 1596,
+      "triangles": 3136,
+      "source": "Original geometry resized through Blender MCP for 180cm human reference"
+    }
+  ],
+  "reference_height_cm": 180,
+  "reference_shoulder_width_cm": 50
+}

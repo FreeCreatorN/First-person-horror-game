@@ -1,0 +1,73 @@
+{
+  "motion_samples": [
+    {
+      "angle_degrees": -4,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": -3,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": -2,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": -1,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": 0,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": 1,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": 2,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": 3,
+      "rocker_shell_base_intersections": 0
+    },
+    {
+      "angle_degrees": 4,
+      "rocker_shell_base_intersections": 0
+    }
+  ],
+  "roundtrip": {
+    "SM_Switch_Base": {
+      "collision_hulls": 5,
+      "dimensions_cm": [
+        8.6,
+        3.3,
+        8.6
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uv_channels": 1,
+      "lights": 0
+    },
+    "SM_Switch_Rocker": {
+      "collision_hulls": 1,
+      "dimensions_cm": [
+        5.8,
+        1.2,
+        5.8
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uv_channels": 1,
+      "lights": 0
+    }
+  },
+  "success": true
+}

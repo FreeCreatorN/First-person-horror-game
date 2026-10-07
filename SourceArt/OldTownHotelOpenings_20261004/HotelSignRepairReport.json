@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "target": "SM_OTS_HotelSignLetters",
+  "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownHotelOpenings_20261004\\Backups\\HotelSignRepair_20261004T150416305890Z",
+  "before_bounds_cm": [
+    [
+      -18544.25506591797,
+      -24.000337719917297,
+      -929.5342445373535
+    ],
+    [
+      18023.260498046875,
+      24.00003969669342,
+      7760.24169921875
+    ]
+  ],
+  "bounds_cm": [
+    [
+      -100.99459886550903,
+      -0.13257062528282404,
+      0.0
+    ],
+    [
+      100.99459886550903,
+      0.13257062528282404,
+      48.00000190734863
+    ]
+  ],
+  "dimensions_cm": [
+    201.98919773101807,
+    0.2651412505656481,
+    48.00000190734863
+  ],
+  "nonmanifold_edges": 0,
+  "protected_blender_objects": 18,
+  "protected_object_fingerprints": {
+    "Camera": "80ba89340c2ef4579fa92550c0a5167cbaaf4b9866bef425c4ec41db3876c1b7",
+    "Cube": "616493f25eb58021d791566589e46908da712047ceabfaca6ffcdf73e98a95b9",
+    "Light": "72209e54995f27282e3d284073abab500767e8383ad3489fbdd7e4a33854ff3e",
+    "SM_OTS_DoorFrame_1200_1860": "79db889ba8c3b4941ae112f7b2156cdd7038b99cdce2350d15f809c16935827c",
+    "SM_OTS_DoorFrame_1400_2300": "b6003c705624c9156bf62dd4f068230a9581adacdd2c1bfcecd52e7abcd324ea",
+    "SM_OTS_DoorFrame_900_2000": "e1c5574c83694f44a8bebc6113b506bc2c9518fab7e32506b925a41b10300386",
+    "SM_OTS_DoorHandle_1200_1860": "d9f5edabdbfa330eab7255a3f718705b5cfbe3566b3eae70ad7b50384adf38df",
+    "SM_OTS_DoorHandle_1400_2300": "64784396c270495d1613f9070841f143b021f59a38b82a0236b387f4c688df73",
+    "SM_OTS_DoorHandle_900_2000": "c1e0d6979a9eff44b2bec7d0821e81405e9f29a99739ea54e2bff68f3cfac0e6",
+    "SM_OTS_DoorLeaf_1200_1860": "ed7d5fee956f665b6096d6c5269feea8e18b04f4b017c551820934deec31eb11",
+    "SM_OTS_DoorLeaf_1400_2300": "cefc0955b4209331ce44f58b16b24e6db382da67a56206d53f461937c5b6fb96",
+    "SM_OTS_DoorLeaf_900_2000": "2766607f4fa55b32338ef718e36c752fbb2d5a23eb72891a67437fa7d2410cf7",
+    "SM_OTS_WindowFrame_1250_1200": "f9b26d90459837f458ea0acf9acc0283e3a87effa027184274934ca83cdfd0cc",
+    "SM_OTS_WindowFrame_900_900": "183ea82d629d48958e75f19c4d28d7f24c88b37e6825caf62e09c9bc5995d339",
+    "SM_OTS_WindowGlass_1250_1200": "c8c29c150738bbec9dc49ddc5b394549e73ac772f83946fea5ab26e62778016b",
+    "SM_OTS_WindowGlass_900_900": "d04384f0e472e695bc8c02c1b526321c5eeafca921b6ee55cc4ed4c4551af171",
+    "SM_OTS_WindowSash_1250_1200": "0d681dddf00d879d217261b52ebe9283d8a9bbbf13e840e55322dde89c6898dc",
+    "SM_OTS_WindowSash_900_900": "1bf242d101a253ed2c3b048b6e878d0810ccfe911430eaa54284d8cb127a8f6a"
+  },
+  "fbx_before_sha256": {
+    "SM_OTS_DoorFrame_1200_1860.fbx": "e36e861b493ebb5eb07d9d8f56ae000e4b1000426d1e2f33098eec9818242476",
+    "SM_OTS_DoorFrame_1400_2300.fbx": "8132cfb57b965824f4ac0ea6ce92e5f5cf4ec5ae7c659228dc38269e1b33c9b3",
+    "SM_OTS_DoorFrame_900_2000.fbx": "d13c26c5e7783b98f3f630398b6b57f26b49994283f7e722c1d8d8e9bec19381",
+    "SM_OTS_DoorHandle_1200_1860.fbx": "b9013b579b06dae45101cab699deb8b39c27fb7ac12980d1bd46a4b02812cb5a",
+    "SM_OTS_DoorHandle_1400_2300.fbx": "ae1557738c46b3bff9751921a5ccd2ac647855e49c233c093f89c4bc8a7af08b",
+    "SM_OTS_DoorHandle_900_2000.fbx": "692d1613092dc030bacba2ac4f9bb648c12908966dfe23028f6d005718fc9198",
+    "SM_OTS_DoorLeaf_1200_1860.fbx": "523c490670f64068acba5d542c3251bec86fbc9376732070f77a17d90d29614d",
+    "SM_OTS_DoorLeaf_1400_2300.fbx": "d051caf7bb9463b123c312da5aded4d8318b6ca7cc760c60d1a9d0bd95cb7f8f",
+    "SM_OTS_DoorLeaf_900_2000.fbx": "05da4dfb4f3856cc0127af4a639d6ba7470fdcb62493227f818a963bd97d4b27",
+    "SM_OTS_HotelSignLetters.fbx": "8b84f51c40cbb6383cb4e8647e8d708947926e28575e1a9c19d481e544bc62b2",
+    "SM_OTS_WindowFrame_1250_1200.fbx": "d8174dec8cd74fe85e808944311e18c906f01a0d9cd92951948ec7017e841b22",
+    "SM_OTS_WindowFrame_900_900.fbx": "62cad828506bfc38cd487927f5954d0c967245ca88a3428fd3b7b193c4c3ec76",
+    "SM_OTS_WindowGlass_1250_1200.fbx": "f95b5f843cfca69b1a92289da74bc32d0c9901c752bba983d08047c8a8fde0d0",
+    "SM_OTS_WindowGlass_900_900.fbx": "64e836d5a666ce2173e594bf5111595b61751543d743efc9735727eef9f6b82e",
+    "SM_OTS_WindowSash_1250_1200.fbx": "05299c308ef59c73241acf3f1f8366a8a2d9a81e7a578728df7871a9b500f385",
+    "SM_OTS_WindowSash_900_900.fbx": "75ea7021642a90e6a420f797da49273a97dddfc36684a40ca8cb7c4e4af796d9"
+  },
+  "fbx_after_sha256": {
+    "SM_OTS_DoorFrame_1200_1860.fbx": "e36e861b493ebb5eb07d9d8f56ae000e4b1000426d1e2f33098eec9818242476",
+    "SM_OTS_DoorFrame_1400_2300.fbx": "8132cfb57b965824f4ac0ea6ce92e5f5cf4ec5ae7c659228dc38269e1b33c9b3",
+    "SM_OTS_DoorFrame_900_2000.fbx": "d13c26c5e7783b98f3f630398b6b57f26b49994283f7e722c1d8d8e9bec19381",
+    "SM_OTS_DoorHandle_1200_1860.fbx": "b9013b579b06dae45101cab699deb8b39c27fb7ac12980d1bd46a4b02812cb5a",
+    "SM_OTS_DoorHandle_1400_2300.fbx": "ae1557738c46b3bff9751921a5ccd2ac647855e49c233c093f89c4bc8a7af08b",
+    "SM_OTS_DoorHandle_900_2000.fbx": "692d1613092dc030bacba2ac4f9bb648c12908966dfe23028f6d005718fc9198",
+    "SM_OTS_DoorLeaf_1200_1860.fbx": "523c490670f64068acba5d542c3251bec86fbc9376732070f77a17d90d29614d",
+    "SM_OTS_DoorLeaf_1400_2300.fbx": "d051caf7bb9463b123c312da5aded4d8318b6ca7cc760c60d1a9d0bd95cb7f8f",
+    "SM_OTS_DoorLeaf_900_2000.fbx": "05da4dfb4f3856cc0127af4a639d6ba7470fdcb62493227f818a963bd97d4b27",
+    "SM_OTS_HotelSignLetters.fbx": "11a387d44db947b04f44ab4f83dabc223a0e194c8ef3a908779288a6cdf57a76",
+    "SM_OTS_WindowFrame_1250_1200.fbx": "d8174dec8cd74fe85e808944311e18c906f01a0d9cd92951948ec7017e841b22",
+    "SM_OTS_WindowFrame_900_900.fbx": "62cad828506bfc38cd487927f5954d0c967245ca88a3428fd3b7b193c4c3ec76",
+    "SM_OTS_WindowGlass_1250_1200.fbx": "f95b5f843cfca69b1a92289da74bc32d0c9901c752bba983d08047c8a8fde0d0",
+    "SM_OTS_WindowGlass_900_900.fbx": "64e836d5a666ce2173e594bf5111595b61751543d743efc9735727eef9f6b82e",
+    "SM_OTS_WindowSash_1250_1200.fbx": "05299c308ef59c73241acf3f1f8366a8a2d9a81e7a578728df7871a9b500f385",
+    "SM_OTS_WindowSash_900_900.fbx": "75ea7021642a90e6a420f797da49273a97dddfc36684a40ca8cb7c4e4af796d9"
+  },
+  "changed_fbx": [
+    "SM_OTS_HotelSignLetters.fbx"
+  ],
+  "source_blend_sha256": "c9b8e43ef31929273442318d961273b3905fb3397c66d434d5f05f7a5e988bc0",
+  "fresh_verification": {
+    "passed": true,
+    "source_dimensions_cm": [
+      201.98919773101807,
+      0.2651412505656481,
+      48.00000190734863
+    ],
+    "fbx_dimensions_cm": [
+      201.98919773101807,
+      0.2651576534844935,
+      48.00000190734863
+    ],
+    "regenerated_font_dimensions_cm": [
+      201.98915004730225,
+      0.2651412505656481,
+      47.999998927116394
+    ],
+    "other_manifest_and_profile_entries_unchanged": true,
+    "protected_objects_unchanged_after_reload": true
+  }
+}

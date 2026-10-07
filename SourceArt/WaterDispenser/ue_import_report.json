@@ -1,0 +1,17 @@
+{
+  "dimensions_cm": [
+    46.99999809265137,
+    52.0972900390625,
+    132.56315296888351
+  ],
+  "asset": "/Game/Yastars/Mesh/WaterDispenser/SM_WaterDispenser.SM_WaterDispenser",
+  "materials": [
+    "/Game/Yastars/Mesh/WaterDispenser/Materials/M_Dispenser_Cream.M_Dispenser_Cream",
+    "/Game/Yastars/Mesh/WaterDispenser/Materials/M_Dispenser_Charcoal.M_Dispenser_Charcoal",
+    "/Game/Yastars/Mesh/WaterDispenser/Materials/M_Dispenser_Steel.M_Dispenser_Steel",
+    "/Game/Yastars/Mesh/WaterDispenser/Materials/M_Dispenser_Red.M_Dispenser_Red",
+    "/Game/Yastars/Mesh/WaterDispenser/Materials/M_Dispenser_Blue.M_Dispenser_Blue",
+    "/Game/Yastars/Mesh/WaterDispenser/Materials/M_Dispenser_Bottle.M_Dispenser_Bottle"
+  ],
+  "success": true
+}

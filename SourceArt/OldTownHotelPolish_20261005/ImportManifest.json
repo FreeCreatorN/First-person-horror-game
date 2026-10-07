@@ -1,0 +1,800 @@
+{
+  "units": "centimeters",
+  "created_utc": "2026-10-04T17:25:14.282428+00:00",
+  "source_blend": "OldTownHotelRoomNumbers.blend",
+  "source_blend_sha256": "cabe3c258ba096893d2e00bf2b2553baa08fe45ee1f45932a2a7f048013bdd48",
+  "source_font": "Bfont",
+  "source_axis": {
+    "X": "horizontal",
+    "Y": "depth",
+    "Z": "vertical"
+  },
+  "unreal_axis_mapping": {
+    "X": "+X",
+    "Y": "-Y",
+    "Z": "+Z"
+  },
+  "unreal_front_axis": "+Y",
+  "fbx_export_settings": {
+    "use_selection": true,
+    "global_scale": 1,
+    "apply_unit_scale": true,
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "use_mesh_modifiers": true,
+    "use_triangles": true,
+    "bake_anim": false,
+    "axis_forward": "-Y",
+    "axis_up": "Z",
+    "bake_space_transform": false
+  },
+  "assets": [
+    {
+      "room_id": "201",
+      "name": "SM_OTS_HotelRoomNumber_201",
+      "bounds_cm": [
+        [
+          -10.851427912712097,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          10.851427912712097,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.702855825424194,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 108,
+      "faces": 208,
+      "polygons": 208,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "201",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_201.fbx",
+      "sha256": "91faf348d09c462b9a567637f46d0ec95afb1277345f4bb0b3a215c14a40a8d8"
+    },
+    {
+      "room_id": "202",
+      "name": "SM_OTS_HotelRoomNumber_202",
+      "bounds_cm": [
+        [
+          -12.274285405874252,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.274285405874252,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.548570811748505,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 152,
+      "faces": 296,
+      "polygons": 296,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "202",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_202.fbx",
+      "sha256": "ae9c64f584d385d8c740e9b32f16874b86cb529e805dfb88a8e7801895f0852c"
+    },
+    {
+      "room_id": "203",
+      "name": "SM_OTS_HotelRoomNumber_203",
+      "bounds_cm": [
+        [
+          -11.914286017417908,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          11.914286017417908,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.828572034835815,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 178,
+      "faces": 348,
+      "polygons": 348,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "203",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_203.fbx",
+      "sha256": "89442e926d986cf97a521a23730116b1884f55a22d213fd1d2baf78c21c60db8"
+    },
+    {
+      "room_id": "204",
+      "name": "SM_OTS_HotelRoomNumber_204",
+      "bounds_cm": [
+        [
+          -12.317142635583878,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.317142635583878,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.634285271167755,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 130,
+      "faces": 256,
+      "polygons": 256,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "204",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_204.fbx",
+      "sha256": "7a4b4b9d756f1944d56a440a33d78aeef3d0209d3a5162277b6d1ac690fd5e36"
+    },
+    {
+      "room_id": "205",
+      "name": "SM_OTS_HotelRoomNumber_205",
+      "bounds_cm": [
+        [
+          -12.034285068511963,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.034285068511963,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.068570137023926,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 148,
+      "faces": 288,
+      "polygons": 288,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "205",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_205.fbx",
+      "sha256": "fe52c5b9d2b6d1763ef5aa818d59bf5bf8792ed2ddff0e3edbf3f77e43d6e897"
+    },
+    {
+      "room_id": "206",
+      "name": "SM_OTS_HotelRoomNumber_206",
+      "bounds_cm": [
+        [
+          -12.265713512897491,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.265713512897491,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.531427025794983,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 162,
+      "faces": 320,
+      "polygons": 320,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "206",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_206.fbx",
+      "sha256": "7472223dd8ebedfa64d2f2c90a03406a7eea3691f479641b346d5a453ff32e6b"
+    },
+    {
+      "room_id": "207",
+      "name": "SM_OTS_HotelRoomNumber_207",
+      "bounds_cm": [
+        [
+          -12.479999661445618,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.479999661445618,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.959999322891235,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 112,
+      "faces": 216,
+      "polygons": 216,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "207",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_207.fbx",
+      "sha256": "ac2ab194d3d70d371a75a2d902d7f790a2d03b2a67a5ebaf4d29561477c7035b"
+    },
+    {
+      "room_id": "208",
+      "name": "SM_OTS_HotelRoomNumber_208",
+      "bounds_cm": [
+        [
+          -12.291427701711655,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.291427701711655,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.58285540342331,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 196,
+      "faces": 392,
+      "polygons": 392,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "208",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_208.fbx",
+      "sha256": "668a3e6088d8bb004fd20cbb0e85e929c4073b1583bccccffcfeafc1ec1266ed"
+    },
+    {
+      "room_id": "301",
+      "name": "SM_OTS_HotelRoomNumber_301",
+      "bounds_cm": [
+        [
+          -10.594285279512405,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          10.594285279512405,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        21.18857055902481,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 134,
+      "faces": 260,
+      "polygons": 260,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "301",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_301.fbx",
+      "sha256": "734cd88889eb815db079a762167d20acd3149183b844fa305a1c09edc2c89090"
+    },
+    {
+      "room_id": "302",
+      "name": "SM_OTS_HotelRoomNumber_302",
+      "bounds_cm": [
+        [
+          -12.0171420276165,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.0171420276165,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.034284055233,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 178,
+      "faces": 348,
+      "polygons": 348,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "302",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_302.fbx",
+      "sha256": "6d85ee5b9d5ee05a7e03171ca8353ded065dc55a4ad75fb161b6331f4ec84007"
+    },
+    {
+      "room_id": "303",
+      "name": "SM_OTS_HotelRoomNumber_303",
+      "bounds_cm": [
+        [
+          -11.657141894102097,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          11.657141894102097,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.314283788204193,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 204,
+      "faces": 400,
+      "polygons": 400,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "303",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_303.fbx",
+      "sha256": "b05c4253474d1bc06487eff9ad693756a85d3b415ba7a3709fe80c36a16b8445"
+    },
+    {
+      "room_id": "304",
+      "name": "SM_OTS_HotelRoomNumber_304",
+      "bounds_cm": [
+        [
+          -12.060000002384186,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.060000002384186,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.12000000476837,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 156,
+      "faces": 308,
+      "polygons": 308,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "304",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_304.fbx",
+      "sha256": "dfba0dc00b50929fabca9a8c6ffad2b94e887d930b36d0c8cd83796d60c3f0e6"
+    },
+    {
+      "room_id": "305",
+      "name": "SM_OTS_HotelRoomNumber_305",
+      "bounds_cm": [
+        [
+          -11.777142435312271,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          11.777142435312271,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        23.554284870624542,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 174,
+      "faces": 340,
+      "polygons": 340,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "305",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_305.fbx",
+      "sha256": "a91bac7c8c2840c91b38910a21ad396ac0b8b4bdea7cc1f0579fa48aff6ae580"
+    },
+    {
+      "room_id": "306",
+      "name": "SM_OTS_HotelRoomNumber_306",
+      "bounds_cm": [
+        [
+          -12.0085708796978,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.0085708796978,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.0171417593956,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 188,
+      "faces": 372,
+      "polygons": 372,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "306",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_306.fbx",
+      "sha256": "1b3f137d85caf01b8bd046af3da088ee173c9d6d3c8aa29bc68fb37975a46b2a"
+    },
+    {
+      "room_id": "307",
+      "name": "SM_OTS_HotelRoomNumber_307",
+      "bounds_cm": [
+        [
+          -12.222856283187866,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.222856283187866,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.445712566375732,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 138,
+      "faces": 268,
+      "polygons": 268,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "307",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_307.fbx",
+      "sha256": "74421933f5a8863433c33fe297a58251053d167eca8deafc85d52d0a78922fd1"
+    },
+    {
+      "room_id": "308",
+      "name": "SM_OTS_HotelRoomNumber_308",
+      "bounds_cm": [
+        [
+          -12.034285068511963,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.034285068511963,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.068570137023926,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 222,
+      "faces": 444,
+      "polygons": 444,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "308",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_308.fbx",
+      "sha256": "77eb0f0559e6e143ac6ec1cd9405fa811907751ceb47fed63b7731c58099479a"
+    },
+    {
+      "room_id": "401",
+      "name": "SM_OTS_HotelRoomNumber_401",
+      "bounds_cm": [
+        [
+          -11.048571020364761,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          11.048571020364761,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        22.097142040729523,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 86,
+      "faces": 168,
+      "polygons": 168,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "401",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_401.fbx",
+      "sha256": "6e67f6aa326278c31a27365995e6844bf0cae41c112ee397957adf9cc1354bd5"
+    },
+    {
+      "room_id": "402",
+      "name": "SM_OTS_HotelRoomNumber_402",
+      "bounds_cm": [
+        [
+          -12.471427768468857,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.471427768468857,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.942855536937714,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 130,
+      "faces": 256,
+      "polygons": 256,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "402",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_402.fbx",
+      "sha256": "e49eecc91bfad01b85e49051081c78223348f0da2fe6e2cc153eabab830cac7a"
+    },
+    {
+      "room_id": "403",
+      "name": "SM_OTS_HotelRoomNumber_403",
+      "bounds_cm": [
+        [
+          -12.111428380012512,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.111428380012512,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.222856760025024,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 156,
+      "faces": 308,
+      "polygons": 308,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "403",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_403.fbx",
+      "sha256": "e73e9098de8bfb5c346acb4c2b28096b576fd7f9f95edc28c3245c389fd4471e"
+    },
+    {
+      "room_id": "404",
+      "name": "SM_OTS_HotelRoomNumber_404",
+      "bounds_cm": [
+        [
+          -12.514285743236542,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.514285743236542,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        25.028571486473083,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 108,
+      "faces": 216,
+      "polygons": 216,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "404",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_404.fbx",
+      "sha256": "a00ceef98775fc825003f414f8a674f53b7411773788c2d81260457bb4e4ddc1"
+    },
+    {
+      "room_id": "405",
+      "name": "SM_OTS_HotelRoomNumber_405",
+      "bounds_cm": [
+        [
+          -12.231428176164627,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.231428176164627,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.462856352329254,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 126,
+      "faces": 248,
+      "polygons": 248,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "405",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_405.fbx",
+      "sha256": "f1b466084b6175220d5db79d47d00a7229d669874fbff4289eff268aad694300"
+    },
+    {
+      "room_id": "406",
+      "name": "SM_OTS_HotelRoomNumber_406",
+      "bounds_cm": [
+        [
+          -12.462856620550156,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.462856620550156,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.92571324110031,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 140,
+      "faces": 280,
+      "polygons": 280,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "406",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_406.fbx",
+      "sha256": "a40a04a5d3e88e15b1e927ed264563a3bf4ef815a24d2d84ab8981a6cf9ef42a"
+    },
+    {
+      "room_id": "407",
+      "name": "SM_OTS_HotelRoomNumber_407",
+      "bounds_cm": [
+        [
+          -12.677143514156342,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.677143514156342,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        25.354287028312683,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 90,
+      "faces": 176,
+      "polygons": 176,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "407",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_407.fbx",
+      "sha256": "93023d8fa6ebe0b62402f65a0ac1ea38e01fa17da08c74842e015765bf5ddd7c"
+    },
+    {
+      "room_id": "408",
+      "name": "SM_OTS_HotelRoomNumber_408",
+      "bounds_cm": [
+        [
+          -12.488570809364319,
+          -0.12499999720603228,
+          0.0
+        ],
+        [
+          12.488570809364319,
+          0.12499999720603228,
+          11.999999731779099
+        ]
+      ],
+      "dimensions_cm": [
+        24.977141618728638,
+        0.24999999441206455,
+        11.999999731779099
+      ],
+      "vertices": 174,
+      "faces": 352,
+      "polygons": 352,
+      "nonmanifold_edges": 0,
+      "front_axis_blender": "-Y",
+      "front_axis_unreal": "+Y",
+      "pivot": "bottom_center",
+      "source_text": "408",
+      "source_font": "Bfont",
+      "file": "SM_OTS_HotelRoomNumber_408.fbx",
+      "sha256": "868a06ac4117dc150d64fe2a5a6cad0c33a5e9818da2a25d6b23b2b6ac0425fe"
+    }
+  ]
+}

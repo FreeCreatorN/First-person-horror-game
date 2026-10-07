@@ -1,0 +1,33 @@
+{
+  "asset": "SM_Flashlight",
+  "dimensions_cm": [
+    19.5,
+    5.22,
+    5.22
+  ],
+  "triangles": 25920,
+  "non_manifold_edges": 0,
+  "uv_channels": 1,
+  "material_slots": [
+    "M_Flashlight_Anodized",
+    "M_Flashlight_Rubber",
+    "M_Flashlight_Steel",
+    "M_Flashlight_Reflector",
+    "M_Flashlight_Print",
+    "M_Flashlight_LED",
+    "M_Flashlight_Lens"
+  ],
+  "emissive_slots": {
+    "M_Flashlight_LED": 5,
+    "M_Flashlight_Lens": 6
+  },
+  "light_strength_default": 0.35,
+  "collision_hulls": 3,
+  "forward_axis": "+X",
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "exported_lights": 0
+}

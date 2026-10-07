@@ -1,0 +1,16 @@
+{
+  "objects": 118,
+  "frames": 1632,
+  "fps": 24,
+  "materials": [
+    "M_Book_Crease",
+    "M_Book_Kraft",
+    "M_Book_Paper_00",
+    "M_Book_Paper_01",
+    "M_Book_Paper_02",
+    "M_Book_Paper_03",
+    "M_Book_Paper_04",
+    "M_Book_Paper_05",
+    "M_Book_Ribbon"
+  ]
+}

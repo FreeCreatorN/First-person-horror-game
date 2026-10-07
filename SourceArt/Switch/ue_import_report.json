@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "assets": {
+    "SM_Switch_Base": {
+      "asset": "/Game/Yastars/Mesh/Switch/SM_Switch_Base.SM_Switch_Base",
+      "dimensions_cm": [
+        8.600000381469727,
+        3.3000006675720215,
+        8.600000381469727
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        -1.0499999523162842,
+        0.0
+      ],
+      "convex_collision_hulls": 5,
+      "materials": [
+        "/Game/Yastars/Mesh/Switch/Materials/M_Switch_Ivory.M_Switch_Ivory",
+        "/Game/Yastars/Mesh/Switch/Materials/M_Switch_Charcoal.M_Switch_Charcoal",
+        "/Game/Yastars/Mesh/Switch/Materials/M_Switch_Steel.M_Switch_Steel"
+      ]
+    },
+    "SM_Switch_Rocker": {
+      "asset": "/Game/Yastars/Mesh/Switch/SM_Switch_Rocker.SM_Switch_Rocker",
+      "dimensions_cm": [
+        5.799999713897705,
+        1.2000004649162292,
+        5.799999713897705
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        -2.9802322387695312e-08,
+        0.0
+      ],
+      "convex_collision_hulls": 1,
+      "materials": [
+        "/Game/Yastars/Mesh/Switch/Materials/M_Switch_Ivory.M_Switch_Ivory",
+        "/Game/Yastars/Mesh/Switch/Materials/M_Switch_Charcoal.M_Switch_Charcoal",
+        "/Game/Yastars/Mesh/Switch/Materials/M_Switch_Steel.M_Switch_Steel"
+      ]
+    }
+  },
+  "assembly": {
+    "rocker_relative_location_cm": [
+      0.0,
+      0.3,
+      0.0
+    ],
+    "rocker_rotation_axis": "X",
+    "rocker_angle_degrees": [
+      -4,
+      4
+    ],
+    "base_wall_origin": [
+      0,
+      0,
+      0
+    ]
+  }
+}

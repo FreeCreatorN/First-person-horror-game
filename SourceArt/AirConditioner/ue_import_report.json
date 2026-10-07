@@ -1,0 +1,15 @@
+{
+  "dimensions_cm": [
+    87.0156021118164,
+    22.084500208497047,
+    28.850001335144043
+  ],
+  "asset": "/Game/Yastars/Mesh/AirConditioner/SM_AirConditioner.SM_AirConditioner",
+  "materials": [
+    "/Game/Yastars/Mesh/AirConditioner/Materials/M_AC_Grey.M_AC_Grey",
+    "/Game/Yastars/Mesh/AirConditioner/Materials/M_AC_Ivory.M_AC_Ivory",
+    "/Game/Yastars/Mesh/AirConditioner/Materials/M_AC_Dark.M_AC_Dark",
+    "/Game/Yastars/Mesh/AirConditioner/Materials/M_AC_Display.M_AC_Display"
+  ],
+  "success": true
+}

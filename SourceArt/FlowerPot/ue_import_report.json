@@ -1,0 +1,16 @@
+{
+  "dimensions_cm": [
+    24.600000381469727,
+    24.600000381469727,
+    46.93023528903723
+  ],
+  "asset": "/Game/Yastars/Mesh/FlowerPot/SM_FlowerPot.SM_FlowerPot",
+  "materials": [
+    "/Game/Yastars/Mesh/FlowerPot/Materials/M_FlowerPot_Terracotta.M_FlowerPot_Terracotta",
+    "/Game/Yastars/Mesh/FlowerPot/Materials/M_FlowerPot_Soil.M_FlowerPot_Soil",
+    "/Game/Yastars/Mesh/FlowerPot/Materials/M_FlowerPot_Petals.M_FlowerPot_Petals",
+    "/Game/Yastars/Mesh/FlowerPot/Materials/M_FlowerPot_Pollen.M_FlowerPot_Pollen",
+    "/Game/Yastars/Mesh/FlowerPot/Materials/M_FlowerPot_Green.M_FlowerPot_Green"
+  ],
+  "success": true
+}

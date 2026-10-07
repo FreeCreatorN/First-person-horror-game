@@ -5,6 +5,7 @@ import hashlib
 import json
 import math
 import struct
+import sys
 import traceback
 
 import unreal
@@ -26,6 +27,7 @@ DETAILED_PROP_ROOT = (
     "/Game/Yastar/OldTownSchoolStreet/Props/Detailed"
 )
 P3_PROP_ROOT = "/Game/Yastar/OldTownSchoolStreet/Props/P3"
+P5_PROP_ROOT = "/Game/Yastar/OldTownSchoolStreet/Props/P5"
 ARCHITECTURAL_MODULE_ROOT = (
     "/Game/Yastar/OldTownSchoolStreet/Architecture/Windows"
 )
@@ -116,6 +118,15 @@ EXPECTED_P3_COLLISION_MESHES = {
     "SM_P3_SchoolGateLeaf",
     "SM_P3_SchoolGatePost",
 }
+EXPECTED_P5_MESH_COUNTS = {
+    "SM_P5_LoadedLaundryRack": 5,
+    "SM_P5_OldServiceDoorTransom": 3,
+    "SM_P5_WallLampGooseneck": 3,
+    "SM_P5_ShopShelfStocked": 1,
+    "SM_P5_CounterDisplay": 2,
+    "SM_P5_TallPharmacyCabinet": 1,
+}
+EXPECTED_MATERIAL_COUNT = 28
 
 
 def require(condition, message):
@@ -542,6 +553,66 @@ def main():
             actual_p3_mesh_counts
         ),
     )
+    p5_module_assets = []
+    for asset_path in unreal.EditorAssetLibrary.list_assets(
+        P5_PROP_ROOT,
+        True,
+        False,
+    ):
+        asset = unreal.EditorAssetLibrary.load_asset(asset_path)
+        if isinstance(asset, unreal.StaticMesh):
+            p5_module_assets.append(asset)
+    require(
+        {
+            asset.get_name()
+            for asset in p5_module_assets
+        } == set(EXPECTED_P5_MESH_COUNTS),
+        "P5 player-range Static Mesh asset set is incomplete",
+    )
+
+    p5_module_actors = []
+    actual_p5_mesh_counts = {
+        mesh_name: 0 for mesh_name in EXPECTED_P5_MESH_COUNTS
+    }
+    for actor in generated:
+        component = actor.get_component_by_class(
+            unreal.StaticMeshComponent
+        )
+        mesh = (
+            component.get_editor_property("static_mesh")
+            if component is not None
+            else None
+        )
+        if (
+            mesh is None
+            or not mesh.get_path_name().startswith(P5_PROP_ROOT + "/")
+        ):
+            continue
+        p5_module_actors.append(actor)
+        mesh_name = mesh.get_name()
+        require(
+            mesh_name in actual_p5_mesh_counts,
+            "Unexpected P5 module mesh: {}".format(mesh_name),
+        )
+        actual_p5_mesh_counts[mesh_name] += 1
+        require(
+            not bool(actor.get_actor_enable_collision())
+            and component.get_collision_enabled()
+            == unreal.CollisionEnabled.NO_COLLISION,
+            "{} P5 module must remain collision-free".format(
+                actor.get_actor_label()
+            ),
+        )
+    require(
+        len(p5_module_actors) == sum(EXPECTED_P5_MESH_COUNTS.values()),
+        "P5 player-range module actor count does not match its contract",
+    )
+    require(
+        actual_p5_mesh_counts == EXPECTED_P5_MESH_COUNTS,
+        "P5 module distribution drifted: {}".format(
+            actual_p5_mesh_counts
+        ),
+    )
     expected_window_meshes = {
         "SM_OTS_Window_Residential",
         "SM_OTS_Window_School",
@@ -640,7 +711,10 @@ def main():
         == len(architectural_window_actors),
         "Architectural window actor count does not match the build manifest",
     )
-    require(len(material_assets) == 26, "Expected exactly 26 materials")
+    require(
+        len(material_assets) == EXPECTED_MATERIAL_COUNT,
+        "Expected exactly {} materials".format(EXPECTED_MATERIAL_COUNT),
+    )
     require(
         len(texture_assets) == len(EXPECTED_SOURCE_TEXTURES),
         "Expected exactly 12 textures",
@@ -658,9 +732,13 @@ def main():
     require(len(pole_assets) >= 100, "Imported pole library is incomplete")
 
     screenshot_reports = []
+    target_map_file = PROJECT_ROOT / "Content/Yastar/Maps/Scenes/L_OldTownSchoolStreet.umap"
+    last_build_time = target_map_file.stat().st_mtime
     for label in CAMERA_LABELS:
         path = OUTPUT_ROOT / "Renders/{}.png".format(label)
         require(path.is_file(), "Missing screenshot: {}".format(label))
+        require(path.stat().st_mtime >= last_build_time - 1.0,
+                "Screenshot predates the rebuilt level: " + label)
         width, height = png_dimensions(path)
         require(
             (width, height) == (1600, 900),
@@ -676,6 +754,14 @@ def main():
             "bytes": path.stat().st_size,
             "dimensions": [width, height],
         })
+
+    contact_paths = sorted((OUTPUT_ROOT / "ContactAudit").glob("AUDIT_*.png"))
+    require(len(contact_paths) == 26, "Expected 26 fresh contact audit views")
+    for path in contact_paths:
+        require(path.stat().st_mtime >= last_build_time - 1.0,
+                "Contact audit predates rebuilt level: " + path.name)
+        require(png_dimensions(path) == (1440, 810), "Invalid contact audit dimensions: " + path.name)
+        require(path.stat().st_size > 20000, "Undersized contact audit: " + path.name)
 
     unreal.SystemLibrary.execute_console_command(
         world,
@@ -712,6 +798,9 @@ def main():
         "p3_module_asset_count": len(p3_module_assets),
         "p3_module_actor_count": len(p3_module_actors),
         "p3_module_distribution": actual_p3_mesh_counts,
+        "p5_module_asset_count": len(p5_module_assets),
+        "p5_module_actor_count": len(p5_module_actors),
+        "p5_module_distribution": actual_p5_mesh_counts,
         "architectural_window_asset_count": len(
             architectural_window_assets
         ),
@@ -719,8 +808,13 @@ def main():
             architectural_window_actors
         ),
         "screenshots": screenshot_reports,
+        "contact_audit_views": [str(path) for path in contact_paths],
         "source_map_sha256": source_map_sha256,
     }
+    sys.path.insert(0, str(PROJECT_ROOT / "Scripts"))
+    from OldTownFurnitureAudit import audit_actors, audit_end_windows
+    report["p6_furniture_supports"] = audit_actors(actors)
+    report["p6_end_window_clearance"] = audit_end_windows(actors)
     REPORT_PATH.write_text(
         json.dumps(report, indent=2, ensure_ascii=False),
         encoding="utf-8",

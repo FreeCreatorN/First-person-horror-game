@@ -1,0 +1,17 @@
+{
+  "added_connectors": [
+    "Harp mounting foot",
+    "Harp mounting foot.001",
+    "Socket saddle",
+    "Shade support center boss",
+    "Upper shade support hoop",
+    "Pull chain socket joint",
+    "Pull chain end link",
+    "Plug cable strain relief"
+  ],
+  "triangles": 24796,
+  "height_m": 0.5479999780654907,
+  "collision_hulls": 3,
+  "shade_spokes_outer_overlap_mm": 0.5,
+  "shade_spokes_inner_overlap_mm": 5.6
+}

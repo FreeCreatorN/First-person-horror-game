@@ -1,0 +1,12 @@
+{
+  "dimensions_cm": [
+    1.7075004577636719,
+    6.171000003814697,
+    0.7400000095367432
+  ],
+  "asset": "/Game/Yastars/Mesh/Key/SM_BrassKey.SM_BrassKey",
+  "materials": [
+    "/Game/Yastars/Mesh/Key/Materials/M_Key_AgedBrass.M_Key_AgedBrass"
+  ],
+  "success": true
+}

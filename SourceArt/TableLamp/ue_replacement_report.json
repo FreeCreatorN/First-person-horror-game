@@ -1,0 +1,15 @@
+{
+  "asset": "/Game/Yastars/Mesh/SM_TableLamp.SM_TableLamp",
+  "height_cm": 54.79999923706055,
+  "material_slots": [
+    "M_TableLamp_Brass",
+    "M_TableLamp_Cord",
+    "M_TableLamp_Socket",
+    "M_TableLamp_Linen",
+    "M_TableLamp_Bulb"
+  ],
+  "convex_collision_hulls": 3,
+  "old_asset_deleted": true,
+  "connections_fixed": true,
+  "saved": true
+}

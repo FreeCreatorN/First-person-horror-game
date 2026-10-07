@@ -1,0 +1,28 @@
+{
+  "model_count": 8,
+  "total_triangles": 22568,
+  "original_scene_objects_preserved": true,
+  "floor_pivots_cm": {
+    "SM_OTS_Blender_BedFrame": 0.0,
+    "SM_OTS_Blender_OldWoodTable": 0.0,
+    "SM_OTS_Blender_OldWoodChair": 0.0,
+    "SM_OTS_Blender_WardrobeCase": 0.0
+  },
+  "bed_contacts_cm": {
+    "mattress_bottom": 44,
+    "mattress_top": 59,
+    "pillow_bottom": 59
+  },
+  "independent_hinge_doors": [
+    "SM_OTS_Blender_WardrobeDoorL",
+    "SM_OTS_Blender_WardrobeDoorR"
+  ],
+  "render_engine": "Cycles CPU",
+  "previews": [
+    "Furniture_Preview.png",
+    "Furniture_WardrobeOpen.png"
+  ],
+  "warnings": [
+    "Unreal placement must apply FBX coordinate conversion to author-space assembly offsets; validate asset bounds in UE."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "non_manifold_edges": 0,
+  "fbx": {
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dimensions_cm": [
+      19.499999284744263,
+      5.220000073313713,
+      5.220000073313713
+    ],
+    "collision_hulls": 3,
+    "light_objects": 0,
+    "materials": [
+      "M_Flashlight_Anodized.004",
+      "M_Flashlight_Rubber.001",
+      "M_Flashlight_Steel.001",
+      "M_Flashlight_Reflector.001",
+      "M_Flashlight_Print.001",
+      "M_Flashlight_LED.001",
+      "M_Flashlight_Lens.001"
+    ]
+  },
+  "material_control": {
+    "LightStrength": 0.35,
+    "off_value": 0,
+    "LightColor": [
+      0.86,
+      0.93,
+      1
+    ],
+    "Lens_Opacity": 0.14
+  }
+}

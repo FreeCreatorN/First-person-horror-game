@@ -1,0 +1,53 @@
+{
+  "faceplate_cm": [
+    8.6,
+    8.6
+  ],
+  "parts": {
+    "SM_Switch_Base": {
+      "triangles": 12274,
+      "dimensions_cm": [
+        8.6,
+        3.3,
+        8.6
+      ],
+      "non_manifold_edges": 0,
+      "materials": [
+        "M_Switch_Ivory",
+        "M_Switch_Charcoal",
+        "M_Switch_Steel"
+      ]
+    },
+    "SM_Switch_Rocker": {
+      "triangles": 3748,
+      "dimensions_cm": [
+        5.8,
+        1.2,
+        5.8
+      ],
+      "non_manifold_edges": 0,
+      "materials": [
+        "M_Switch_Ivory",
+        "M_Switch_Charcoal",
+        "M_Switch_Steel"
+      ]
+    }
+  },
+  "rocker_local_pivot": [
+    0,
+    0,
+    0
+  ],
+  "rocker_assembly_blender_m": [
+    0,
+    -0.003,
+    0
+  ],
+  "press_axis_blender": "X",
+  "press_degrees": [
+    -4,
+    4
+  ],
+  "self_emission": false,
+  "exported_lights": 0
+}

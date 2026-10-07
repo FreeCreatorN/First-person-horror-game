@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "key": "WallClock",
+  "source_sha256": "473130fe52f5198d51aa6dfb3f9acf2123da20c9e7f38f3c4811aab17d31a735",
+  "bounds_cm": [
+    [
+      -6.000000610947609,
+      -17.499999701976776,
+      8.742311735643327e-09
+    ],
+    [
+      7.760794673572491e-07,
+      17.499999701976776,
+      34.99999940395355
+    ]
+  ],
+  "dimensions_cm": [
+    6.000001387027076,
+    34.99999940395355,
+    34.99999939521124
+  ],
+  "paper_islands_shifted": 1,
+  "thin_islands_shifted": 15,
+  "case_islands_unchanged": 1,
+  "source_grid_position_m": [
+    7.0,
+    12.800000190734863,
+    0.0
+  ],
+  "other_fbx_hashes_unchanged": {
+    "RotaryPhone": "bda4528927ef887c92a6df7652e01d13ae9277f125d0414b62d0bc4e936393eb",
+    "Ledger": "26b96a53f6b1b7f4705a83ecb7f1781150e48b0eeb0eae5866a250b80dd50ebc",
+    "DeskBell": "46d32ecaeb93c82d24edc2aa23d2dccab10c353c9a5ad9f2ef8d561171ac5845",
+    "Chair": "b2d1d5552078441a6a071f0954b90e5dc6697cd34cdc3bc32693c278a555cba2",
+    "SofaTop": "4a6e60ff22e8ce0d52348335797523b2cfba6ba30d578918cbc4b76051ff7a75",
+    "CoffeeTable": "d675e72250795da424eddb6246403055a870221fe1a84347fb270efbbbb2d5f0",
+    "PantrySink": "3610766a89615a4b2ef7a6a1375504df4db99c8ed06a8dec3c78b730dd604463",
+    "Kettle": "95b513fe1434238af765f4ae34e58b0e2dba0e2f092fe0191cd86416274344c5",
+    "TowelPile": "03b86de004c43f87e7c367ca7123b73169afb76ca40f5a243b296841b89e6566",
+    "LinenBag": "b0294a45739ea84bc088c1eb6684e08a4301d12d93e5bda7bccee6ac912421e4",
+    "HousekeepingCart": "50773d5336285d91602dae34b0f198df80844fa5cbc89cd29bbf84d37191d309",
+    "LuggageRack": "9936f5709aa85d37140d0cfe9d1e852aaca0c6828b9c191e28d36aea11d62b90",
+    "LiftFace": "3d8918ff20a54e3cd00d59d9445a2057b38867536e869b1cb5779c3720642ec8",
+    "LiftCallPanel": "7548482800cf76f9a61f062b319b77db4fc7c222e4ddeb7e1867b154ec1d17a9"
+  },
+  "other_source_meshes_unchanged": true,
+  "independent_fbx_reimport_passed": true
+}
