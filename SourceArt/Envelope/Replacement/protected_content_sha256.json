@@ -1,0 +1,122 @@
+[
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_ClueReader.uasset",
+    "sha256": "E2E1EF21B90AC998311E4C3D731B9C365F4896243294448E99367EF832F6C708"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_Crosshair.uasset",
+    "sha256": "93D941015277B599BE6257071F0DE0209E7A224013DC21EAA5C7DA981C9CC96A"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_GameOver.uasset",
+    "sha256": "848CF4835B6CB309B5869FAA634CB79EEE9EEB759B07E6A2BB5E4C92513A85E6"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_InteractPrompt.uasset",
+    "sha256": "CC81C1CECEEEF7A399C477B2E10DCB9E2C3DB9CB876D3CDB77D6D00C680792BF"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_Inventory.uasset",
+    "sha256": "8D4703D9635264141E57D2B5CB134A1CEE3B933D5D5A5225076DBD9EB05BCD9C"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_InventoryItem.uasset",
+    "sha256": "6BDD33C323CC60E5BF7A15492407B56E9BEB0746A2EF872CEA4F9506E271C623"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_InventorySlot.uasset",
+    "sha256": "6D95FECB95DFE4B9ED0AAD3965CA2FE804EB255C323A864CBD7871C6F1591BA4"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_ItemTooltip.uasset",
+    "sha256": "8FB601A82857AA44B57ED2176962D26A09AE2941BD64B56EB118728DF6DCCC31"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_StatusHUD.uasset",
+    "sha256": "8D8E3AB948CB163C0ECDC62EB525B99C0CC96062AB729BB0977C799F1A2A424C"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\CharacterPreview\\M_InventoryCharacter.uasset",
+    "sha256": "47F7E90242CFDD5292B54EE1136062CCFCBD6227C4FC734D320AC2E9206157AC"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\CharacterPreview\\RT_InventoryCharacter.uasset",
+    "sha256": "573E174F2A14577F558BCCEF7D32C983B82AF4C35805A7BFE099A16AD2ADFE36"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Flashlight.uasset",
+    "sha256": "7FEC25BE5BBDC52C2E5A91AFDE5544FBF2F75DFB555FCF3D876E800E79A5752A"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Foot.uasset",
+    "sha256": "A3FBB439CDAFD2B51CB3DC5CA472BC8756CA2B5558FE99792C7357AD8A067039"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Key.uasset",
+    "sha256": "DA30082CB11DC7875F9723EB110C4C847D4DA61F8FF09E89E94765FB3D5DE458"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\T_UI_Hydration_Icon1.uasset",
+    "sha256": "DE8EFB6D0E916AFC12EF3DBE500086D109614B5960AA4C6D4ED00F5E4F2C1CC9"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\T_UI_Satiety_Icon1.uasset",
+    "sha256": "56B9CCB6F6A577D4E5E91BF14A25BE69939F3E3CF79EE8F72258ECEE3047B12B"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\ue5-car.uasset",
+    "sha256": "6993025895C4D8870CCB44A4CBBD941654366E2B0FEF5E4B541B54D955BBEC85"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Water.uasset",
+    "sha256": "75D1AB9447CB2AF6E1BA017147501CE1319705700286A456574D8F0CD3C39A1F"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Woodfloor.uasset",
+    "sha256": "41DFB9411DF99AD274D6813EFD592AE87BBD8360596AA261E12E5317EF1ABC7A"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\CodexGenerated\\OldTownVersion2\\Maps\\老城区第二版.umap",
+    "sha256": "151E9409F265B3C0D890589A800129037BD318600741C59EE942BDCD2BFFB80D"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\FirstPerson\\Lvl_FirstPerson.umap",
+    "sha256": "3D476154BF4CAC39A59EC91B88F5ED6889AF113A1ECF9690A01C89D8BC32D258"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Variant_Horror\\Lvl_Horror.umap",
+    "sha256": "47A9E8E5A9BB634EAF4A781EB994D94FFE5D248683F08E41A5EE49C852211E4B"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Maps\\L_Main.umap",
+    "sha256": "F9E59CDD89BBF1C6A0240BE26265146A6FDEDC73E86C11888942673FF70A3BDC"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Maps\\Blockout\\L_Chapter01_Blockout.umap",
+    "sha256": "D15F1749800233495469ACB72E60A7C0D837319EECF57FB14BFF25FDBBD9DE09"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Maps\\Scenes\\L_OldTownSchoolStreet.umap",
+    "sha256": "C2C3927646C1DD4ECB48F6028FCFC3256C7681489BD0C6C5F67B3EF4683A5852"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEditor.ini",
+    "sha256": "51CE417AFC6F41414AD8FF286F1A7E411333231B5407D382A91FD0D9A3FB50FD"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEditorPerProjectUserSettings.ini",
+    "sha256": "D0992E75056C6858059BB7FBFCEDEB6881B1C1498414518F602E84273D262E59"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEngine.ini",
+    "sha256": "6F30A8A9CF8F9C24E9DBBA4E0086302D3A61ECC2ABAB22038B041B1ACDF9551F"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Config\\DefaultGame.ini",
+    "sha256": "E6C38F78B8989E4D22EE67DADC3CC2553719746DB48988FD3342B4CBE034EBD7"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Config\\DefaultInput.ini",
+    "sha256": "24A5A55F97B4DDF2912ACDE45B252E5A477199CB2B35EEAFA74BAD4C9C78A4E0"
+  }
+]

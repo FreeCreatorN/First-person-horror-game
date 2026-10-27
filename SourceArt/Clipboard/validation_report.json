@@ -1,0 +1,690 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_Clipboard_Board": {
+      "vertices": 5576,
+      "faces": 11092,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 11092,
+      "bounds_min_m": [
+        -0.11500000208616257,
+        -0.16899999976158142,
+        -0.0007000000914558768
+      ],
+      "bounds_max_m": [
+        0.11500000208616257,
+        0.16899999976158142,
+        0.015939420089125633
+      ],
+      "dimensions_m": [
+        0.23000000417232513,
+        0.33799999952316284,
+        0.01663942018058151
+      ],
+      "source_materials": [
+        "M_Clipboard_HardboardFront",
+        "M_Clipboard_HardboardEdge",
+        "M_Clipboard_HardboardBack",
+        "M_Clipboard_Steel",
+        "M_Clipboard_Nickel"
+      ]
+    },
+    "SM_Clipboard_Clip": {
+      "vertices": 3024,
+      "faces": 6028,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 6028,
+      "bounds_min_m": [
+        -0.05000000074505806,
+        0.12030000239610672,
+        0.004604999907314777
+      ],
+      "bounds_max_m": [
+        0.05000000074505806,
+        0.1860000044107437,
+        0.025010421872138977
+      ],
+      "dimensions_m": [
+        0.10000000149011612,
+        0.065700002014637,
+        0.0204054219648242
+      ],
+      "source_materials": [
+        "M_Clipboard_Nickel",
+        "M_Clipboard_PressureStrip"
+      ]
+    },
+    "SM_Clipboard_Paper": {
+      "vertices": 1410,
+      "faces": 2816,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 2816,
+      "bounds_min_m": [
+        -0.10499999672174454,
+        -0.15600000321865082,
+        0.0033499998971819878
+      ],
+      "bounds_max_m": [
+        0.10499999672174454,
+        0.14100000262260437,
+        0.0051756384782493114
+      ],
+      "dimensions_m": [
+        0.20999999344348907,
+        0.2970000058412552,
+        0.0018256385810673237
+      ],
+      "source_materials": [
+        "M_Clipboard_WhitePaper"
+      ]
+    }
+  },
+  "uv": {
+    "SM_Clipboard_Board": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.0015869330381974578,
+        0.0015869366470724344
+      ],
+      "max": [
+        0.9984130263328552,
+        0.9500946998596191
+      ],
+      "triangle_uv_area_sum": 0.7418038248923424,
+      "zero_area_triangles": 0
+    },
+    "SM_Clipboard_Clip": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.0028309491463005543,
+        0.0028309791814535856
+      ],
+      "max": [
+        0.9919952154159546,
+        0.997169017791748
+      ],
+      "triangle_uv_area_sum": 0.5998342693362289,
+      "zero_area_triangles": 0
+    },
+    "SM_Clipboard_Paper": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.0007915142341516912,
+        0.0007914852467365563
+      ],
+      "max": [
+        0.9992084503173828,
+        0.9837691783905029
+      ],
+      "triangle_uv_area_sum": 0.6817065810960046,
+      "zero_area_triangles": 0
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_Clipboard_Board": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx",
+      "sha256": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+      "imported_mesh": "SM_Clipboard_Board.001",
+      "geometry": {
+        "vertices": 5576,
+        "faces": 11092,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 11092,
+        "bounds_min_m": [
+          -0.11500001698732376,
+          -0.16900001466274261,
+          -0.0007000000914558768
+        ],
+        "bounds_max_m": [
+          0.11500001698732376,
+          0.16900001466274261,
+          0.015939420089125633
+        ],
+        "dimensions_m": [
+          0.23000003397464752,
+          0.33800002932548523,
+          0.01663942018058151
+        ]
+      },
+      "ucx_count": 5,
+      "expected_ucx_count": 5,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Clipboard_HardboardFront.001",
+        "M_Clipboard_HardboardEdge.001",
+        "M_Clipboard_HardboardBack.001",
+        "M_Clipboard_Steel.001",
+        "M_Clipboard_Nickel.001"
+      ]
+    },
+    "SM_Clipboard_Clip": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx",
+      "sha256": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+      "imported_mesh": "SM_Clipboard_Clip.001",
+      "geometry": {
+        "vertices": 3024,
+        "faces": 6028,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 6028,
+        "bounds_min_m": [
+          -0.050000011920928955,
+          0.12029999494552612,
+          0.004604999907314777
+        ],
+        "bounds_max_m": [
+          0.049999989569187164,
+          0.1860000044107437,
+          0.025010421872138977
+        ],
+        "dimensions_m": [
+          0.10000000149011612,
+          0.06570000946521759,
+          0.0204054219648242
+        ]
+      },
+      "ucx_count": 11,
+      "expected_ucx_count": 11,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Clipboard_Nickel.001",
+        "M_Clipboard_PressureStrip.001"
+      ]
+    },
+    "SM_Clipboard_Paper": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx",
+      "sha256": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb",
+      "imported_mesh": "SM_Clipboard_Paper.001",
+      "geometry": {
+        "vertices": 1410,
+        "faces": 2816,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 2816,
+        "bounds_min_m": [
+          -0.10500001162290573,
+          -0.156000018119812,
+          0.0033499998971819878
+        ],
+        "bounds_max_m": [
+          0.10500001162290573,
+          0.14100001752376556,
+          0.0051756384782493114
+        ],
+        "dimensions_m": [
+          0.21000002324581146,
+          0.2970000356435776,
+          0.0018256385810673237
+        ]
+      },
+      "ucx_count": 11,
+      "expected_ucx_count": 11,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Clipboard_WhitePaper.001"
+      ]
+    }
+  },
+  "bakes": {
+    "T_ClipboardBoard_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 3471762,
+      "sha256": "5fdd65b9226779f677585996b332d45f72c1fb30ef7d956ccc856922efd85b92",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.7333333492279053,
+        0.7529412508010864,
+        0.7764706611633301
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.9041683999967063
+    },
+    "T_ClipboardBoard_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 502952,
+      "sha256": "6134f78dbc5eed1cf7ed8cf6e5c4f3c342b748daf183f5f5a7cee9be714422f2",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.8078432083129883,
+        0.8078432083129883,
+        0.8078432083129883
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.4690401000007114
+    },
+    "T_ClipboardBoard_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 71803,
+      "sha256": "31945ff52a78336f30b56ebe8c6e96863452e54fffdeb19290e3c1db9ff350e8",
+      "sample_min_rgb": [
+        0.46666669845581055,
+        0.4705882668495178,
+        0.9960784912109375
+      ],
+      "sample_max_rgb": [
+        0.5529412031173706,
+        0.5333333611488342,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.4270852000008745
+    },
+    "T_ClipboardBoard_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Metallic.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 17311,
+      "sha256": "1d93625c4379f2232c2edc256e88ceb8117dc1e4bd759299ab1c38b9d66e6890",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.33753950000027544
+    },
+    "T_ClipboardClip_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 1753450,
+      "sha256": "c1cb8dcd4df87d4b8e2b500e8fb942643bf912ecb763d5dcfc2ce2174a880e12",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.7411764860153198,
+        0.760784387588501,
+        0.7882353663444519
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.5879878999985522
+    },
+    "T_ClipboardClip_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 316976,
+      "sha256": "46afb86f16479ce213b5c602f4a2f5b222a6d1f6c45ff32bfccdcb9f18278d8c",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.7686275243759155,
+        0.7686275243759155,
+        0.7686275243759155
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.47225149999940186
+    },
+    "T_ClipboardClip_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 221614,
+      "sha256": "8f662b5d253ffcd5d909faffba8faf9c8ae74dac8174cc3439a8c75cab598025",
+      "sample_min_rgb": [
+        0.4078431725502014,
+        0.46274513006210327,
+        0.988235354423523
+      ],
+      "sample_max_rgb": [
+        0.5647059082984924,
+        0.545098066329956,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.1342944000025454
+    },
+    "T_ClipboardClip_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Metallic.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 27219,
+      "sha256": "ca3fa96d2a1dfa50f84ae83ca17c3eed370e6d288803319227d938390827959f",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.3829485999995086
+    },
+    "T_ClipboardPaper_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 14736379,
+      "sha256": "b3e63f5fc5c2169498aaf9d8bf4e2d729bdd75d3094a9796e0c5a1e5cee0a227",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.988235354423523,
+        0.9843137860298157,
+        0.9686275124549866
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 11.489451700000018
+    },
+    "T_ClipboardPaper_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 470220,
+      "sha256": "0a85cc131f2207e3054575dd9c28986cd0a4a9fcee316b870029aa2a20a591f8",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.8392157554626465,
+        0.8392157554626465,
+        0.8392157554626465
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.5113825000007637
+    },
+    "T_ClipboardPaper_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 25849,
+      "sha256": "c884e66bf35b95a5195bec042caab731589e11cfd24e61fab29b08155f40c68e",
+      "sample_min_rgb": [
+        0.48235297203063965,
+        0.501960813999176,
+        1.0
+      ],
+      "sample_max_rgb": [
+        0.501960813999176,
+        0.501960813999176,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.421381799998926
+    },
+    "T_ClipboardPaper_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Metallic.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 13995,
+      "sha256": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.34656489999906626
+    }
+  },
+  "baked_materials": {
+    "SM_Clipboard_Board": {
+      "name": "T_ClipboardBoard_Baked",
+      "emission_connected": false,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_ClipboardBoard_BaseColor",
+        "Roughness": "T_ClipboardBoard_Roughness",
+        "Normal": "T_ClipboardBoard_Normal",
+        "Metallic": "T_ClipboardBoard_Metallic"
+      }
+    },
+    "SM_Clipboard_Clip": {
+      "name": "T_ClipboardClip_Baked",
+      "emission_connected": false,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_ClipboardClip_BaseColor",
+        "Roughness": "T_ClipboardClip_Roughness",
+        "Normal": "T_ClipboardClip_Normal",
+        "Metallic": "T_ClipboardClip_Metallic"
+      }
+    },
+    "SM_Clipboard_Paper": {
+      "name": "T_ClipboardPaper_Baked",
+      "emission_connected": false,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_ClipboardPaper_BaseColor",
+        "Roughness": "T_ClipboardPaper_Roughness",
+        "Normal": "T_ClipboardPaper_Normal",
+        "Metallic": "T_ClipboardPaper_Metallic"
+      }
+    }
+  },
+  "renders": {
+    "Clipboard_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_Preview.png",
+      "bytes": 2479144,
+      "sha256": "edfd3cdfcc6467dfff43b885c7c3be766a26cab102cfb9eda4af835512643d09",
+      "resolution": [
+        1500,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Clipboard_Board",
+        "SM_Clipboard_Clip",
+        "SM_Clipboard_Paper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 28.55544120000195
+    },
+    "Clipboard_ClipDetail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_ClipDetail.png",
+      "bytes": 2615052,
+      "sha256": "646f449961cc0e1c2fb55f1b9a7eda41c93921b6821e9b21f206dd16e0170222",
+      "resolution": [
+        1500,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Clipboard_Board",
+        "SM_Clipboard_Clip",
+        "SM_Clipboard_Paper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 32.739160599998286
+    },
+    "Clipboard_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_Back.png",
+      "bytes": 2445459,
+      "sha256": "e4ef397c1f9baedeaad7fbe6eaa3cf6acbda111b32a94cb237780de8d1c7932c",
+      "resolution": [
+        1500,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Clipboard_Board",
+        "SM_Clipboard_Clip",
+        "SM_Clipboard_Paper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 16.968011499997374
+    }
+  },
+  "settings": {
+    "color_resolution": 2048,
+    "data_resolution": 1024,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "channels": [
+      "BaseColor",
+      "Roughness",
+      "Normal",
+      "Metallic"
+    ],
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 90.53500780000104,
+  "assembly_contact": {
+    "clip_and_paper_contact_allowed": true,
+    "cross_object_zero_overlap_required": false,
+    "reason": "The spring clamp intentionally contacts the paper and board.",
+    "placement": "All three assets share origin zero; assemble with identical transforms."
+  },
+  "display_materials": {
+    "SM_Clipboard_Board": [
+      "T_ClipboardBoard_Baked",
+      "T_ClipboardBoard_Baked",
+      "T_ClipboardBoard_Baked",
+      "T_ClipboardBoard_Baked",
+      "T_ClipboardBoard_Baked"
+    ],
+    "SM_Clipboard_Clip": [
+      "T_ClipboardClip_Baked",
+      "T_ClipboardClip_Baked"
+    ],
+    "SM_Clipboard_Paper": [
+      "T_ClipboardPaper_Baked"
+    ]
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend",
+  "final_visibility": {
+    "canonical_hidden": true,
+    "display_visible": true,
+    "source_hidden": true
+  },
+  "paper_material_revision": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\RuledPaper\\update_report.json",
+    "style": {
+      "line_spacing_mm": 8,
+      "blue_line_width_mm": 0.35,
+      "red_margin_from_left_mm": 24,
+      "back_unprinted": true,
+      "texture_resolution": [
+        4096,
+        4096
+      ]
+    },
+    "geometry_unchanged": true
+  }
+}

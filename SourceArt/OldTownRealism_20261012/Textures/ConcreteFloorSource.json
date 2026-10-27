@@ -1,0 +1,30 @@
+{
+  "asset": "concrete_floor_01",
+  "source": "https://polyhaven.com/a/concrete_floor_01",
+  "license": "https://polyhaven.com/license",
+  "physical_width_cm": 200,
+  "resolution": "2k",
+  "files": [
+    {
+      "channel": "color",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_01/concrete_floor_01_diff_2k.jpg",
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Textures\\ConcreteFloor_diff.jpg",
+      "sha256": "ca24c52dabae67ef49093f91d8f9b9e5328a3b9fcb1327742ff6181ee542e017",
+      "bytes": 2967720
+    },
+    {
+      "channel": "normal",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_01/concrete_floor_01_nor_dx_2k.jpg",
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Textures\\ConcreteFloor_nor_dx.jpg",
+      "sha256": "8b507fd18302d2cfdfeca2a30249c222a9f2491017dd0b6ed81e499a90093b0a",
+      "bytes": 3285901
+    },
+    {
+      "channel": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_01/concrete_floor_01_rough_2k.jpg",
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Textures\\ConcreteFloor_Rough.jpg",
+      "sha256": "e66fa941d6daa33ba334c853bf126c85f1d77e7b72778073237e4ef8c7c97774",
+      "bytes": 1488360
+    }
+  ]
+}

@@ -41,6 +41,7 @@ _state = {
     "cameras": [], "temporary_actors": [], "temporary_actor_labels": [],
     "metadata_paths": [], "started_at": time.time(), "run_dir": None,
     "temporary_created_count": 0, "lighting_mode": None, "view_mode": None,
+    "new_asset_sha256": {},
 }
 
 
@@ -196,11 +197,15 @@ def _commit_cleanup(success, failure_message):
     except Exception:
         final_hash = None
     map_unchanged = final_hash == _state["map_sha256"]
-    passed = success and lighting["cleanup_verified_zero"] and map_unchanged
+    asset_hashes = {p: _hash_file(Path(p)) for p in _state["new_asset_sha256"]}
+    assets_unchanged = asset_hashes == _state["new_asset_sha256"]
+    passed = success and lighting["cleanup_verified_zero"] and map_unchanged and assets_unchanged
     if not lighting["cleanup_verified_zero"]:
         failure_message = "Owned temporary-light cleanup failed: " + str(lighting)
     if not map_unchanged:
         failure_message = "Persisted map changed during capture"
+    if not assets_unchanged:
+        failure_message = "Referenced appearance assets changed during capture"
     for meta_path in _state["metadata_paths"]:
         metadata = json.loads(meta_path.read_text(encoding="utf-8"))
         metadata.update({"status": "PASS" if passed else "FAIL",
@@ -209,6 +214,9 @@ def _commit_cleanup(success, failure_message):
                          "temporary_lighting_cleanup_remaining_count": lighting["remaining_count"],
                          "temporary_lighting_cleanup_verified_zero": lighting["cleanup_verified_zero"],
                          "map_sha256_after_cleanup": final_hash,
+                         "new_asset_sha256": _state["new_asset_sha256"],
+                         "asset_sha256_after_cleanup": asset_hashes,
+                         "appearance_assets_unchanged": assets_unchanged,
                          "persisted_map_unchanged": map_unchanged})
         if failure_message:
             metadata["failure"] = failure_message
@@ -218,6 +226,8 @@ def _commit_cleanup(success, failure_message):
         "owned_editor_pid": os.getpid(), "target_level": TARGET_LEVEL,
         "output_directory": str(OUTPUT),
         "map_sha256": _state["map_sha256"], "map_sha256_after_cleanup": final_hash,
+        "new_asset_sha256": _state["new_asset_sha256"], "asset_sha256_after_cleanup": asset_hashes,
+        "appearance_assets_unchanged": assets_unchanged,
         "persisted_map_unchanged": map_unchanged, "map_save_requested": False,
         "source": "fresh_persisted_map_load", "lighting_mode": _state["lighting_mode"],
         "view_mode": _state["view_mode"], "temporary_lighting": lighting,
@@ -302,6 +312,7 @@ def on_tick(_delta_seconds):
             metadata = {
                 "status": "CAPTURED", "camera": camera.get_actor_label(),
                 "target_level": TARGET_LEVEL, "map_sha256": _state["map_sha256"],
+                "new_asset_sha256": _state["new_asset_sha256"],
                 "width": WIDTH, "height": HEIGHT, "bytes": path.stat().st_size,
                 "png_sha256": _hash_file(path), "run_id": _state["run_id"],
                 "owned_editor_pid": os.getpid(), "source": "fresh_persisted_map_load",
@@ -347,6 +358,11 @@ def main():
         raise ValueError("Unsupported inspection lighting or viewport mode")
     _state["lighting_mode"], _state["view_mode"] = lighting, view_mode
     report = json.loads(BUILD_REPORT.read_text(encoding="utf-8-sig"))
+    expected_assets = report.get("new_asset_sha256", {})
+    actual_assets = {p: _hash_file(Path(p)) for p in expected_assets}
+    if actual_assets != expected_assets:
+        raise RuntimeError("Build report and persisted appearance asset hashes differ")
+    _state["new_asset_sha256"] = actual_assets
     requested = os.environ.get("OTS_CAPTURE_CAMERAS", "")
     labels = [v.strip() for v in requested.split(",") if v.strip()] if requested else list(
         report.get("hotel_openings_review_cameras", []))[:MAX_CAMERAS]

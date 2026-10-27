@@ -1,0 +1,12 @@
+{
+  "script": "import_ue.py",
+  "pid": 27216,
+  "started_utc": "2026-10-23T01:21:43.3200290Z",
+  "completed_utc": "2026-10-23T01:24:30.8283701Z",
+  "exit_code": 0,
+  "normal_zero_exit": true,
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\ue_import_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "target_root": "/Game/Yastars/Mesh/Pen"
+}

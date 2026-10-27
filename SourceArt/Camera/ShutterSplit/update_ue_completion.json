@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "script": "update_ue.py",
+  "execution_mode": "exclusive_editor",
+  "run_id": "4093e45b-2bd7-4615-bf9b-9c01229b2c35",
+  "script_sha256": "69e6584358ef3dcfcc62917347b3d96303335865bee601defbbd6f30bba87764",
+  "started_utc": "2026-10-26T04:30:43.1279745Z",
+  "target_root": "/Game/Yastars/Mesh/Camera",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\update_ue_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "normal_zero_exit": true,
+  "pid": 11120,
+  "editor_pid": 11120,
+  "exit_code": 0,
+  "report_sha256": "c0630f9528e049b6c34cacf3d2b31b21ecaac5ae826d9053d883060c09432183",
+  "script_completed_utc": "2026-10-26T12:31:21.408586+08:00",
+  "completed_utc": "2026-10-26T04:31:29.8734932Z"
+}

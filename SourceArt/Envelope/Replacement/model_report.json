@@ -1,0 +1,109 @@
+{
+  "parts": {
+    "SM_Envelope_Closed": {
+      "filename": "SM_Envelope_Closed.fbx",
+      "dimensions_cm": [
+        21.99999988079071,
+        11.030000448226929,
+        0.27000047266483307
+      ],
+      "triangles": 11916,
+      "collision_hulls": 1,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Kraft_Inner": "M_EnvelopeClosed",
+        "M_Kraft_Outer": "M_EnvelopeClosed",
+        "M_Kraft_Edge": "M_EnvelopeClosed",
+        "M_Kraft_Gum": "M_EnvelopeClosed"
+      }
+    },
+    "SM_Envelope_Open": {
+      "filename": "SM_Envelope_Open.fbx",
+      "dimensions_cm": [
+        21.99999988079071,
+        17.148983478546143,
+        5.049177631735802
+      ],
+      "triangles": 12308,
+      "collision_hulls": 33,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Kraft_Inner": "M_EnvelopeOpen",
+        "M_Kraft_Outer": "M_EnvelopeOpen",
+        "M_Kraft_Edge": "M_EnvelopeOpen",
+        "M_Kraft_Gum": "M_EnvelopeOpen"
+      }
+    },
+    "SM_LetterPaper": {
+      "filename": "SM_LetterPaper.fbx",
+      "dimensions_cm": [
+        20.499999821186066,
+        9.49999988079071,
+        0.026645322213880718
+      ],
+      "triangles": 1584,
+      "collision_hulls": 1,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Letter_Paper": "M_LetterPaper"
+      }
+    }
+  },
+  "texture_sets": {
+    "Closed": {
+      "prefix": "T_EnvelopeClosed",
+      "BaseColor": "Textures/T_EnvelopeClosed_BaseColor.png",
+      "Roughness": "Textures/T_EnvelopeClosed_Roughness.png",
+      "Normal": "Textures/T_EnvelopeClosed_Normal.png"
+    },
+    "Open": {
+      "prefix": "T_EnvelopeOpen",
+      "BaseColor": "Textures/T_EnvelopeOpen_BaseColor.png",
+      "Roughness": "Textures/T_EnvelopeOpen_Roughness.png",
+      "Normal": "Textures/T_EnvelopeOpen_Normal.png"
+    },
+    "LetterPaper": {
+      "prefix": "T_LetterPaper",
+      "BaseColor": "Textures/T_LetterPaper_BaseColor.png",
+      "Roughness": "Textures/T_LetterPaper_Roughness.png",
+      "Normal": "Textures/T_LetterPaper_Normal.png"
+    }
+  },
+  "materials": {
+    "M_EnvelopeClosed": {
+      "texture_set": "Closed"
+    },
+    "M_EnvelopeOpen": {
+      "texture_set": "Open"
+    },
+    "M_LetterPaper": {
+      "texture_set": "LetterPaper"
+    }
+  },
+  "assembly": {
+    "paper_in_open_envelope_offset_blender_m": [
+      0,
+      0,
+      0.0013
+    ],
+    "paper_in_open_envelope_offset_ue_cm": [
+      0,
+      0,
+      0.13
+    ],
+    "paper_surface_intersections": 0,
+    "open_flap_rotation_degrees": 140
+  },
+  "reference_urls": [
+    "https://www.colourcraftdirect.com/fleck-craft-recycled-gummed-dl-110-mm-x-220-mm-envelope",
+    "https://www.vaessen-creative.com/en/p/florence-envelopes-120g-8-27x4-33inch-kraft-100x-200112-1502"
+  ],
+  "paper_layer_thickness_mm": 0.28,
+  "letter_thickness_mm": 0.13,
+  "real_open_pocket": true,
+  "exported_lights": 0,
+  "exported_cameras": 0
+}

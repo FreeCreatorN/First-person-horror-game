@@ -1,0 +1,424 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-22T03:49:30.001993+00:00",
+  "target_root": "/Game/Yastars/Mesh/LightBulb",
+  "errors": [],
+  "read_only": true,
+  "package_files": {
+    "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Filament": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Materials\\M_LightBulb_Filament.uasset",
+      "bytes": 12176,
+      "sha256": "92acefb1d983aa3896a4980f656bda516fd755f6e1723ecc79f89664c322ac51"
+    },
+    "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Glass": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Materials\\M_LightBulb_Glass.uasset",
+      "bytes": 10476,
+      "sha256": "6c7b4fe818a0aa3f656b77d1402d222499b298681f11aa96b17b5690e8e4fd0e"
+    },
+    "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Opaque": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Materials\\M_LightBulb_Opaque.uasset",
+      "bytes": 14790,
+      "sha256": "85e2e149e8188b58e550d51e4751cf8665dc81c6027204391b40af1be8b967a6"
+    },
+    "/Game/Yastars/Mesh/LightBulb/SM_LightBulb": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\SM_LightBulb.uasset",
+      "bytes": 2186031,
+      "sha256": "24b5c98eb97af1d2a7c547440e2041602e9983b3b11c0f5bfe3546eb5c4b580a"
+    },
+    "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Textures\\T_LightBulb_BaseColor.uasset",
+      "bytes": 93625,
+      "sha256": "e6479e107162c7039e6535a9a7b265941be928f1ea7ba56dd99b8a84329471a8"
+    },
+    "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Textures\\T_LightBulb_Metallic.uasset",
+      "bytes": 29813,
+      "sha256": "0d3f736d37c945106cbeaa9740984fec3853f8f128bfa15106c26a87486a2968"
+    },
+    "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Textures\\T_LightBulb_Normal.uasset",
+      "bytes": 285211,
+      "sha256": "b9709dd1d67c2147c644b1ce0592d4049e2cac63b11295bd94d360ec4225b0e1"
+    },
+    "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\LightBulb\\Textures\\T_LightBulb_Roughness.uasset",
+      "bytes": 113090,
+      "sha256": "5c8e06f0ac84fc8ce08380a55554118968483eee0964770dd1afc39038568025"
+    }
+  },
+  "protected_files_checked": 30,
+  "protected_files_changed": [],
+  "protected_file_sets": {
+    "ui": {
+      "count": 19,
+      "added": [],
+      "missing": []
+    },
+    "maps": {
+      "count": 6,
+      "added": [],
+      "missing": []
+    },
+    "config": {
+      "count": 5,
+      "added": [],
+      "missing": []
+    }
+  },
+  "ui_maps_and_config_unchanged": true,
+  "source_files": {
+    "LightBulb.blend": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb.blend",
+      "bytes": 2931225,
+      "sha256": "7208d7e4e8b1f9cc710bfb36cc2f975b0754cc82de2e05227d4ba19bef16c816"
+    },
+    "SM_LightBulb.fbx": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\SM_LightBulb.fbx",
+      "bytes": 2116572,
+      "sha256": "bb4f70a99763e1fd099197d63b3fb1fd180944ed746674b89b650680f826b312"
+    }
+  },
+  "bakes": {
+    "T_LightBulb_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_BaseColor.png",
+      "bytes": 144106,
+      "sha256": "db13a506fbb15a8e48c9c445e139131ee9251831ccb1d5daf1969bf86b2dbbc8"
+    },
+    "T_LightBulb_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_Roughness.png",
+      "bytes": 192026,
+      "sha256": "3443866e46b528a24de30007ad535f868e0f6d7034738a7478f174df3739787e"
+    },
+    "T_LightBulb_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_Normal.png",
+      "bytes": 313186,
+      "sha256": "4489171205b6d1c3ffd48db224021edca63e7c1e571b4b928bd69c792743fb82"
+    },
+    "T_LightBulb_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_Metallic.png",
+      "bytes": 51062,
+      "sha256": "9d9ba53bd578a5ffb5f56c6fbac814027d8d7f25ab1be02ba9db385c9bab19f2"
+    }
+  },
+  "renders": {
+    "LightBulb_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_Preview.png",
+      "bytes": 2301355,
+      "sha256": "dfd49ae214d1b555dfe6714b2c05088e32679e8b4e63fcea7f6aca4112ddba69",
+      "filament_emission_strength": 0.0,
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true
+    },
+    "LightBulb_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_Detail.png",
+      "bytes": 2281666,
+      "sha256": "4ea12baf52d02b044e31f480e0772e544953405061442582019b54e153f03414",
+      "filament_emission_strength": 0.0,
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true
+    },
+    "LightBulb_BaseDetail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_BaseDetail.png",
+      "bytes": 2435837,
+      "sha256": "a9ae7f5494898d19bbffa56cc85b22400833db9fa95a17d6e52384dba30059f0",
+      "filament_emission_strength": 0.0,
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true
+    },
+    "LightBulb_OnPreview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_OnPreview.png",
+      "bytes": 2306675,
+      "sha256": "b3bb324fc39cfeccca71341349c6c08ceeff343a50c57415e7fa01b3d9e89ef3",
+      "filament_emission_strength": 5.0,
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true
+    }
+  },
+  "ue_material_compile_log_audit": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\ue_import.log",
+    "failure_messages": [],
+    "method": "Read existing completed UE import log; no editor launched",
+    "material_stats_queried": false
+  },
+  "separate_materials_preserved_in_source_previews": {
+    "glass": {
+      "source_name": "M_Bulb_Glass",
+      "transmission": 1.0,
+      "ior": 1.45,
+      "roughness": 0.07,
+      "alpha": 1.0,
+      "preserved": true
+    },
+    "filament": {
+      "source_name": "M_Bulb_Filament",
+      "default_emission_strength": 0.0,
+      "preserved": true
+    }
+  },
+  "default_and_on_previews_verified": true,
+  "geometry": {
+    "vertices": 32838,
+    "faces": 65636,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "triangles": 65636,
+    "bounds_min_m": [
+      -0.029999999329447746,
+      -0.029999999329447746,
+      0.0
+    ],
+    "bounds_max_m": [
+      0.029999999329447746,
+      0.029999999329447746,
+      0.10499999672174454
+    ],
+    "dimensions_m": [
+      0.05999999865889549,
+      0.05999999865889549,
+      0.10499999672174454
+    ],
+    "source_materials": [
+      "M_Bulb_Glass",
+      "M_Bulb_NickelCap",
+      "M_Bulb_BlackInsulator",
+      "M_Bulb_ContactButton",
+      "M_Bulb_Filament",
+      "M_Bulb_NickelLeadWires"
+    ]
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\SM_LightBulb.fbx",
+    "sha256": "bb4f70a99763e1fd099197d63b3fb1fd180944ed746674b89b650680f826b312",
+    "imported_mesh": "SM_LightBulb.001",
+    "geometry": {
+      "vertices": 32838,
+      "faces": 65636,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 65636,
+      "bounds_min_m": [
+        -0.029999999329447746,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.029999999329447746,
+        0.029999999329447746,
+        0.10499999672174454
+      ],
+      "dimensions_m": [
+        0.05999999865889549,
+        0.05999999865889549,
+        0.10499999672174454
+      ]
+    },
+    "ucx_count": 2,
+    "expected_ucx_count": 2,
+    "uv_layers": 1,
+    "pivot_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "material_slots": [
+      "M_Bulb_Glass.001",
+      "M_Bulb_NickelCap.001",
+      "M_Bulb_BlackInsulator.001",
+      "M_Bulb_ContactButton.001",
+      "M_Bulb_Filament.001",
+      "M_Bulb_NickelLeadWires.001"
+    ]
+  },
+  "ue_mesh": {
+    "asset": "/Game/Yastars/Mesh/LightBulb/SM_LightBulb.SM_LightBulb",
+    "dimensions_cm": [
+      6.0,
+      6.0,
+      10.5
+    ],
+    "expected_dimensions_cm": [
+      5.999999865889549,
+      5.999999865889549,
+      10.499999672174454
+    ],
+    "dimension_error_cm": [
+      1.341104507446289e-07,
+      1.341104507446289e-07,
+      3.2782554626464844e-07
+    ],
+    "dimension_tolerance_cm": 0.05,
+    "bounds_origin_cm": [
+      0.0,
+      0.0,
+      5.25
+    ],
+    "convex_collision_hulls": 2,
+    "expected_collision_hulls": 2,
+    "uv_channels_lod0": 1,
+    "source_uv_channels_expected": 1,
+    "source_triangles": 65636,
+    "matSlots": [
+      {
+        "index": 0,
+        "slot_name": "M_Bulb_Glass",
+        "material": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Glass.M_LightBulb_Glass"
+      },
+      {
+        "index": 1,
+        "slot_name": "M_Bulb_NickelCap",
+        "material": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Opaque.M_LightBulb_Opaque"
+      },
+      {
+        "index": 2,
+        "slot_name": "M_Bulb_BlackInsulator",
+        "material": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Opaque.M_LightBulb_Opaque"
+      },
+      {
+        "index": 3,
+        "slot_name": "M_Bulb_ContactButton",
+        "material": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Opaque.M_LightBulb_Opaque"
+      },
+      {
+        "index": 4,
+        "slot_name": "M_Bulb_Filament",
+        "material": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Filament.M_LightBulb_Filament"
+      },
+      {
+        "index": 5,
+        "slot_name": "M_Bulb_NickelLeadWires",
+        "material": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Opaque.M_LightBulb_Opaque"
+      }
+    ],
+    "lightmap_coordinate_index": 1,
+    "lightmap_build_settings": {
+      "generate_lightmap_u_vs": true,
+      "src_lightmap_index": 0,
+      "dst_lightmap_index": 1,
+      "generated_render_data_uv1_separately_verified": false
+    }
+  },
+  "ue_materials": {
+    "M_LightBulb_Opaque": {
+      "asset": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Opaque.M_LightBulb_Opaque",
+      "shader_type": "opaque_atlas",
+      "emissive_connected": false,
+      "texture_set": "Opaque",
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_BaseColor.T_LightBulb_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_Roughness.T_LightBulb_Roughness",
+        "Normal": "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_Normal.T_LightBulb_Normal",
+        "Metallic": "/Game/Yastars/Mesh/LightBulb/Textures/T_LightBulb_Metallic.T_LightBulb_Metallic"
+      },
+      "connections": {
+        "BaseColor": "BaseColor.RGB * Tint.RGB",
+        "Roughness": "Roughness.R",
+        "Normal": "Normal.RGB",
+        "Metallic": "Metallic.R"
+      },
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "vector_parameters": [
+        "Tint"
+      ],
+      "vector_defaults": {
+        "Tint": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "scalar_parameters": {}
+    },
+    "M_LightBulb_Glass": {
+      "asset": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Glass.M_LightBulb_Glass",
+      "shader_type": "glass",
+      "emissive_connected": false,
+      "translucency_lighting_mode": "<TranslucencyLightingMode.TLM_SURFACE: 4>",
+      "refraction_method": "<RefractionMode.RM_INDEX_OF_REFRACTION: 0>",
+      "refraction_connected": true,
+      "two_sided": false,
+      "metallic": 0.0,
+      "connections": {
+        "BaseColor": "GlassTint.RGB",
+        "Opacity": "Opacity",
+        "Roughness": "GlassRoughness",
+        "Refraction": "IOR",
+        "Metallic": "0"
+      },
+      "blend_mode": "<BlendMode.BLEND_TRANSLUCENT: 2>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "vector_parameters": [
+        "GlassTint"
+      ],
+      "vector_defaults": {
+        "GlassTint": [
+          0.9399999976158142,
+          0.9800000190734863,
+          1.0,
+          1.0
+        ]
+      },
+      "scalar_parameters": {
+        "Opacity": 0.10000000149011612,
+        "GlassRoughness": 0.07999999821186066,
+        "IOR": 1.4500000476837158
+      }
+    },
+    "M_LightBulb_Filament": {
+      "asset": "/Game/Yastars/Mesh/LightBulb/Materials/M_LightBulb_Filament.M_LightBulb_Filament",
+      "shader_type": "filament",
+      "emissive_connected": true,
+      "emissive_default_effective": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connections": {
+        "BaseColor": "BaseColor.RGB",
+        "EmissiveColor": "EmissiveColor.RGB * GlowStrength",
+        "Roughness": "0.4",
+        "Metallic": "0.75"
+      },
+      "use_emissive_for_dynamic_area_lighting": false,
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "vector_parameters": [
+        "BaseColor",
+        "EmissiveColor"
+      ],
+      "vector_defaults": {
+        "BaseColor": [
+          0.23999999463558197,
+          0.20000000298023224,
+          0.12999999523162842,
+          1.0
+        ],
+        "EmissiveColor": [
+          1.0,
+          0.7200000286102295,
+          0.36000001430511475,
+          1.0
+        ]
+      },
+      "scalar_parameters": {
+        "GlowStrength": 0.0
+      }
+    }
+  },
+  "ue_completion": {
+    "script": "import_ue.py",
+    "pid": 18184,
+    "started_utc": "2026-10-22T03:40:51.3487039Z",
+    "completed_utc": "2026-10-22T03:43:21.6894658Z",
+    "exit_code": 0,
+    "normal_zero_exit": true,
+    "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\ue_import_report.json",
+    "temporary_engine_world": "/Engine/Maps/Entry",
+    "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+    "target_root": "/Game/Yastars/Mesh/LightBulb"
+  },
+  "no_exported_lights_or_cameras": true,
+  "filament_glow_is_externally_adjustable_and_off_by_default": true
+}

@@ -1,0 +1,83 @@
+{
+  "parts": {
+    "SM_LightBulb": {
+      "filename": "SM_LightBulb.fbx",
+      "dimensions_cm": [
+        5.999999865889549,
+        5.999999865889549,
+        10.499999672174454
+      ],
+      "triangles": 65636,
+      "collision_hulls": 2,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Bulb_Glass": "M_LightBulb_Glass",
+        "M_Bulb_NickelCap": "M_LightBulb_Opaque",
+        "M_Bulb_BlackInsulator": "M_LightBulb_Opaque",
+        "M_Bulb_ContactButton": "M_LightBulb_Opaque",
+        "M_Bulb_Filament": "M_LightBulb_Filament",
+        "M_Bulb_NickelLeadWires": "M_LightBulb_Opaque"
+      }
+    }
+  },
+  "texture_sets": {
+    "Opaque": {
+      "prefix": "T_LightBulb",
+      "BaseColor": "Textures/T_LightBulb_BaseColor.png",
+      "Roughness": "Textures/T_LightBulb_Roughness.png",
+      "Normal": "Textures/T_LightBulb_Normal.png",
+      "Metallic": "Textures/T_LightBulb_Metallic.png"
+    }
+  },
+  "materials": {
+    "M_LightBulb_Opaque": {
+      "shader_type": "opaque_atlas",
+      "texture_set": "Opaque"
+    },
+    "M_LightBulb_Glass": {
+      "shader_type": "glass",
+      "opacity": 0.1,
+      "roughness": 0.08,
+      "ior": 1.45,
+      "tint": [
+        0.94,
+        0.98,
+        1
+      ]
+    },
+    "M_LightBulb_Filament": {
+      "shader_type": "filament",
+      "base_color": [
+        0.24,
+        0.2,
+        0.13
+      ],
+      "emissive_color": [
+        1,
+        0.72,
+        0.36
+      ],
+      "glow_strength": 0
+    }
+  },
+  "glass_wall_thickness_mm": 0.55,
+  "nominal_height_mm": 105,
+  "nominal_diameter_mm": 60,
+  "cap_type": "E27 style",
+  "thread_is_continuous_helix": true,
+  "thread_pitch_mm": 3.63,
+  "assembly": {
+    "combined_single_mesh": true,
+    "filament_center_blender_m": [
+      0.0,
+      -0.0010500000000000002,
+      0.079
+    ],
+    "filament_glow_default": 0,
+    "light_actors_included": false
+  },
+  "exported_lights": 0,
+  "exported_cameras": 0,
+  "reference_url": "https://www.signify.com/global/prof/conventional-lamps-and-tubes/incandescent-lamps/gls-specialties/philips-standard-extra-low-voltage-a60/920021020517_EU/product"
+}

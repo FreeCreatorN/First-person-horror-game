@@ -1,0 +1,200 @@
+{
+  "success": true,
+  "geometry": {
+    "vertices": 16905,
+    "faces": 33646,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "triangles": 33646,
+    "bounds_min_m": [
+      -1.100000023841858,
+      -0.30000001192092896,
+      0.0
+    ],
+    "bounds_max_m": [
+      1.100000023841858,
+      0.30000001192092896,
+      0.949999988079071
+    ],
+    "dimensions_m": [
+      2.200000047683716,
+      0.6000000238418579,
+      0.949999988079071
+    ],
+    "source_materials": [
+      "M_Altar_Wood",
+      "M_Altar_Endgrain",
+      "M_Altar_Dark"
+    ],
+    "shader_attributes": {
+      "WoodCoord": {
+        "domain": "POINT",
+        "data_type": "FLOAT_VECTOR",
+        "count": 16905
+      },
+      "WoodTone": {
+        "domain": "POINT",
+        "data_type": "FLOAT",
+        "count": 16905
+      },
+      "Wear": {
+        "domain": "POINT",
+        "data_type": "FLOAT",
+        "count": 16905
+      }
+    }
+  },
+  "uv": {
+    "layers": [
+      "UVMap"
+    ],
+    "active": "UVMap",
+    "min": [
+      0.004510147962719202,
+      0.004510111175477505
+    ],
+    "max": [
+      0.995489776134491,
+      0.9277597665786743
+    ],
+    "triangle_uv_area_sum": 0.4046944588701715,
+    "zero_area_triangles": 0
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\SM_AltarTable.fbx",
+    "sha256": "24effa99d16ed07e39eb604628dc721a9e089e24690725be5cac8281b2f07d57",
+    "imported_mesh": "SM_AltarTable.001",
+    "geometry": {
+      "vertices": 16905,
+      "faces": 33646,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 33646,
+      "bounds_min_m": [
+        -1.100000023841858,
+        -0.3000001013278961,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.100000023841858,
+        0.3000001013278961,
+        0.949999988079071
+      ],
+      "dimensions_m": [
+        2.200000047683716,
+        0.6000002026557922,
+        0.949999988079071
+      ]
+    },
+    "ucx_count": 14,
+    "expected_ucx_count": 14,
+    "uv_layers": 1,
+    "pivot_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "material_slots": [
+      "M_Altar_Wood.001",
+      "M_Altar_Endgrain.001",
+      "M_Altar_Dark.002"
+    ]
+  },
+  "bakes": {
+    "T_AltarTable_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\Textures\\T_AltarTable_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 7916073,
+      "sha256": "135cbd0c234c028523b3daa249fa50ff9c3f26c67160934e29b1d9aa8be46387",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.4078431725502014,
+        0.2196078598499298,
+        0.11372549831867218
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 12.46749849999992
+    },
+    "T_AltarTable_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\Textures\\T_AltarTable_Roughness.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 1019029,
+      "sha256": "377c37fb4cfca68200b91047a0e85dfd8fb1681dffa043807cb6cbfb3e0775e6",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.760784387588501,
+        0.760784387588501,
+        0.760784387588501
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.5017149999998765
+    },
+    "T_AltarTable_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\Textures\\T_AltarTable_Normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 1976175,
+      "sha256": "0ff9350edcc88d10b27ec23ec4fc2ca560a1fe584abedb4eff01d2e249b29c81",
+      "sample_min_rgb": [
+        0.3960784673690796,
+        0.46666669845581055,
+        0.988235354423523
+      ],
+      "sample_max_rgb": [
+        0.5921568870544434,
+        0.5960784554481506,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 5.025900900000124
+    }
+  },
+  "renders": {
+    "preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\AltarTable_Preview.png",
+    "detail": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\AltarTable_Detail.png"
+  },
+  "settings": {
+    "color_resolution": 4096,
+    "data_resolution": 2048,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 57.45827089999989,
+  "baked_material": {
+    "name": "M_AltarTable_Baked",
+    "emission_connected": false,
+    "images": {
+      "BaseColor": "T_AltarTable_BaseColor",
+      "Roughness": "T_AltarTable_Roughness",
+      "Normal": "T_AltarTable_Normal"
+    }
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\AltarTable.blend"
+}

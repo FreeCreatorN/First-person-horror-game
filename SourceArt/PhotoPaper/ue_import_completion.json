@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "script": "import_ue.py",
+  "execution_mode": "exclusive_editor",
+  "run_id": "35616e36-c322-40d9-9f6f-6722c9498961",
+  "script_sha256": "fac517fc0e66702490b41236317d446f86b3c25fcd82d7eccc1f2042a5c8152f",
+  "started_utc": "2026-10-26T05:03:45.5871500Z",
+  "target_root": "/Game/Yastars/Mesh/PhotoPaper",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "pid": 2808,
+  "editor_pid": 2808,
+  "report_sha256": "e0ac8cf356c41b2eeda5c503927da26900bb75693f24fa18a44f690f0f8624f2",
+  "fresh_report_verified": true,
+  "material_compile_failure_log_count": 0,
+  "completed_utc": "2026-10-26T05:05:08.2529330Z"
+}

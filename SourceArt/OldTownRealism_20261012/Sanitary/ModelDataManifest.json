@@ -1,0 +1,3017 @@
+{
+  "schema": "OldTownRealismSanitaryV1",
+  "status": "PASS",
+  "source_map_sha256": "ade3fcc6a6482713618e3fadbd4534771549e773097fd2b9d34886318451e1f6",
+  "source_build_report_sha256": "5994b5cf0d4f4b5d3b70fe4d484c7f721e438686b3ac490f32688b1fdf55396b",
+  "source_snapshot_sha256": "3c7e949cdf23ae4bd315e7a836e8345df4d87cd83e6897e225f3a8e9b0d21c71",
+  "source_script_sha256": "862f0fac8373e851f2522af3e2cb9d57fd57510421584d745b27d9dc8631efb1",
+  "source_blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\OldTownRealismSanitary.blend",
+  "source_blend_sha256": "5448b7609e1ef7f0fefd64a49ed8c09ba36fa58604f7cb898e1bd717e6245eb4",
+  "variant_count": 4,
+  "actor_count": 114,
+  "unchanged_independent_collider_count": 87,
+  "material_roles": [
+    "Ceramic",
+    "Chrome",
+    "DarkMetal",
+    "Glass",
+    "Rubber"
+  ],
+  "variants": [
+    {
+      "key": "Toilet",
+      "source_asset": "/Game/CodexGenerated/OldTown/Meshes/SanitaryFinish_20261012/SM_OTS_Arch_Toilet_Shaped.SM_OTS_Arch_Toilet_Shaped",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\CodexGenerated\\OldTown\\Meshes\\SanitaryFinish_20261012\\SM_OTS_Arch_Toilet_Shaped.uasset",
+      "source_sha256": "4b0ee2ea7e57a5514ba5f86f2747b6db3702169d2e329a4a6ea9867dd43711f8",
+      "source_local_bounds_cm": [
+        [
+          -32.01000213623047,
+          -17.69999885559082,
+          0.0
+        ],
+        [
+          33.0,
+          17.700000762939453,
+          78.0
+        ]
+      ],
+      "source_actor_labels": [
+        "OTS_HotelV4_Room201_Toilet",
+        "OTS_HotelV4_Room202_Toilet",
+        "OTS_HotelV4_Room203_Toilet",
+        "OTS_HotelV4_Room204_Toilet",
+        "OTS_HotelV4_Room205_Toilet",
+        "OTS_HotelV4_Room206_Toilet",
+        "OTS_HotelV4_Room207_Toilet",
+        "OTS_HotelV4_Room208_Toilet",
+        "OTS_HotelV4_Room209_Toilet",
+        "OTS_HotelV4_Room301_Toilet",
+        "OTS_HotelV4_Room302_Toilet",
+        "OTS_HotelV4_Room303_Toilet",
+        "OTS_HotelV4_Room304_Toilet",
+        "OTS_HotelV4_Room305_Toilet",
+        "OTS_HotelV4_Room306_Toilet",
+        "OTS_HotelV4_Room307_Toilet",
+        "OTS_HotelV4_Room308_Toilet",
+        "OTS_HotelV4_Room309_Toilet",
+        "OTS_HotelV4_Room401_Toilet",
+        "OTS_HotelV4_Room402_Toilet",
+        "OTS_HotelV4_Room403_Toilet",
+        "OTS_HotelV4_Room404_Toilet",
+        "OTS_HotelV4_Room405_Toilet",
+        "OTS_HotelV4_Room406_Toilet",
+        "OTS_HotelV4_Room407_Toilet",
+        "OTS_HotelV4_Room408_Toilet",
+        "OTS_HotelV4_Room409_Toilet",
+        "OTS_HotelV4_PublicWCStall0Toilet",
+        "OTS_HotelV4_PublicWCStall1Toilet",
+        "OTS_HotelV4_StaffWCToilet"
+      ],
+      "source_actor_count": 30,
+      "source_triangle_count": 6936,
+      "mesh_name": "SM_OTS_Real_Toilet",
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Toilet.fbx",
+      "fbx_sha256": "877fdffe6685e5522e976942c1168b7506b076cf44b9a787d92f668e76d85a32",
+      "source_native_geometry_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexOutputs\\OldTownRealism_20261012\\NativeMeshes\\SM_OTS_Arch_Toilet_Shaped_365b27c0ed.json",
+      "source_native_geometry_sha256": "063894d4df22bab5c4d094af7f7427188847bed74a5cd29b127f5190275b23b7",
+      "local_bounds_cm": [
+        [
+          -31.979602575302124,
+          -17.69999861717224,
+          0.0
+        ],
+        [
+          34.47999954223633,
+          17.70000010728836,
+          77.99999713897705
+        ]
+      ],
+      "triangles": 17436,
+      "vertices": 8748,
+      "material_roles": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "parts": [
+        {
+          "name": "Toilet_RetainedSection0",
+          "role": "Ceramic",
+          "source_retained": true,
+          "bounds_cm": [
+            [
+              -31.979602575302124,
+              -17.69999861717224,
+              0.0
+            ],
+            [
+              33.000001311302185,
+              17.70000010728836,
+              77.99999713897705
+            ]
+          ]
+        },
+        {
+          "name": "SeatHingeMount_-1",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              11.500000208616257,
+              -7.500000298023224,
+              40.79999923706055
+            ],
+            [
+              14.499999582767487,
+              -4.500000178813934,
+              41.80000126361847
+            ]
+          ]
+        },
+        {
+          "name": "SeatHingeBarrel_-1",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              11.45000010728836,
+              -7.299999892711639,
+              41.24999940395355
+            ],
+            [
+              12.950000166893005,
+              -4.699999839067459,
+              42.750000953674316
+            ]
+          ]
+        },
+        {
+          "name": "SeatHingePin_-1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              11.900000274181366,
+              -7.500000298023224,
+              41.69999957084656
+            ],
+            [
+              12.5,
+              -4.500000178813934,
+              42.30000078678131
+            ]
+          ]
+        },
+        {
+          "name": "SeatHingeMount_1",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              11.500000208616257,
+              4.500000178813934,
+              40.79999923706055
+            ],
+            [
+              14.499999582767487,
+              7.500000298023224,
+              41.80000126361847
+            ]
+          ]
+        },
+        {
+          "name": "SeatHingeBarrel_1",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              11.45000010728836,
+              4.699999839067459,
+              41.24999940395355
+            ],
+            [
+              12.950000166893005,
+              7.299999892711639,
+              42.750000953674316
+            ]
+          ]
+        },
+        {
+          "name": "SeatHingePin_1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              11.900000274181366,
+              4.500000178813934,
+              41.69999957084656
+            ],
+            [
+              12.5,
+              7.500000298023224,
+              42.30000078678131
+            ]
+          ]
+        },
+        {
+          "name": "FlushLeverWallBoss",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              32.55000114440918,
+              -1.0999999940395355,
+              66.90000295639038
+            ],
+            [
+              33.75000059604645,
+              1.0999999940395355,
+              69.0999984741211
+            ]
+          ]
+        },
+        {
+          "name": "FlushLeverSpindle",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              33.149999380111694,
+              -0.4800000227987766,
+              67.51999855041504
+            ],
+            [
+              34.450000524520874,
+              0.4800000227987766,
+              68.48000288009644
+            ]
+          ]
+        },
+        {
+          "name": "FlushLeverGrip",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              33.52000117301941,
+              -0.4999999888241291,
+              67.51999855041504
+            ],
+            [
+              34.47999954223633,
+              4.500000178813934,
+              68.48000288009644
+            ]
+          ]
+        }
+      ],
+      "maximum_local_protrusion_cm": [
+        1.4799995422363281,
+        0.0,
+        0.0
+      ],
+      "checks": [
+        {
+          "name": "SeatMountIntoExistingSeat_-1",
+          "passed": true,
+          "point_cm": [
+            12.0,
+            -6.0,
+            41.5
+          ],
+          "inside_parts": {
+            "SeatHingeMount_-1": true,
+            "Toilet_RetainedSection0": true
+          }
+        },
+        {
+          "name": "SeatMountIntoExistingShoulder_-1",
+          "passed": true,
+          "point_cm": [
+            13.5,
+            -6.0,
+            41.0
+          ],
+          "inside_parts": {
+            "SeatHingeMount_-1": true,
+            "Toilet_RetainedSection0": true
+          }
+        },
+        {
+          "name": "SeatBarrelIntoMount_-1",
+          "passed": true,
+          "point_cm": [
+            12.2,
+            -6.0,
+            41.6
+          ],
+          "inside_parts": {
+            "SeatHingeMount_-1": true,
+            "SeatHingeBarrel_-1": true
+          }
+        },
+        {
+          "name": "SeatMountIntoExistingSeat_1",
+          "passed": true,
+          "point_cm": [
+            12.0,
+            6.0,
+            41.5
+          ],
+          "inside_parts": {
+            "SeatHingeMount_1": true,
+            "Toilet_RetainedSection0": true
+          }
+        },
+        {
+          "name": "SeatMountIntoExistingShoulder_1",
+          "passed": true,
+          "point_cm": [
+            13.5,
+            6.0,
+            41.0
+          ],
+          "inside_parts": {
+            "SeatHingeMount_1": true,
+            "Toilet_RetainedSection0": true
+          }
+        },
+        {
+          "name": "SeatBarrelIntoMount_1",
+          "passed": true,
+          "point_cm": [
+            12.2,
+            6.0,
+            41.6
+          ],
+          "inside_parts": {
+            "SeatHingeMount_1": true,
+            "SeatHingeBarrel_1": true
+          }
+        },
+        {
+          "name": "FlushBossIntoTank",
+          "passed": true,
+          "point_cm": [
+            32.7,
+            0.0,
+            68.0
+          ],
+          "inside_parts": {
+            "FlushLeverWallBoss": true,
+            "Toilet_RetainedSection0": true
+          }
+        },
+        {
+          "name": "FlushSpindleIntoBoss",
+          "passed": true,
+          "point_cm": [
+            33.65,
+            0.0,
+            68.0
+          ],
+          "inside_parts": {
+            "FlushLeverWallBoss": true,
+            "FlushLeverSpindle": true
+          }
+        },
+        {
+          "name": "FlushGripIntoSpindle",
+          "passed": true,
+          "point_cm": [
+            34.0,
+            0.0,
+            68.0
+          ],
+          "inside_parts": {
+            "FlushLeverGrip": true,
+            "FlushLeverSpindle": true
+          }
+        },
+        {
+          "name": "Toilet_RetainedSection0:closed_surface",
+          "passed": true,
+          "role": "Ceramic"
+        },
+        {
+          "name": "SeatHingeMount_-1:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "SeatHingeBarrel_-1:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "SeatHingePin_-1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "SeatHingeMount_1:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "SeatHingeBarrel_1:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "SeatHingePin_1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "FlushLeverWallBoss:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "FlushLeverSpindle:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "FlushLeverGrip:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "NoHardwareProtrusionOverThreeCentimetres",
+          "passed": true,
+          "protrusion_cm": [
+            1.4799995422363281,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "passed": true,
+      "design_notes": [
+        "Current hollow bowl, rounded cistern, ceramic seat and ceramic support positions retained.",
+        "Source flat disconnected metal lever replaced by an attached outside boss, spindle and grip.",
+        "Fine 1 mm ceramic edge treatment; source curved profiles keep their existing positions."
+      ],
+      "coordinates": "Local Blender metres = current native UE local centimetres / 100",
+      "export_axis_forward": "-Y",
+      "export_axis_up": "Z",
+      "export_apply_scale_options": "FBX_SCALE_NONE",
+      "collision": "NoCollision; preserve all existing independent collision actors",
+      "source_file_sha256": "877fdffe6685e5522e976942c1168b7506b076cf44b9a787d92f668e76d85a32",
+      "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Toilet.geometry.json",
+      "geometry_recipe_sha256": "dde743ecb9763fa18059205509ecb128aa9f917828d9f0385ccee5ba66649ec5",
+      "faces": 17436,
+      "material_slots": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "tangent_space_verified": true,
+      "invalid_tangent_count": 0,
+      "uv_degenerate_triangle_count": 0,
+      "uv_mapping": "Every actual triangle projected from its geometric dominant physical plane; one UV unit = one metre",
+      "solid_uv_repair": {
+        "category": "Sanitary",
+        "key": "Toilet",
+        "mesh_name": "SM_OTS_Real_Toilet",
+        "exact_union": false,
+        "original_part_count": 16,
+        "exact_union_operations": 0,
+        "original_triangles": 17440,
+        "repaired_triangles": 17436,
+        "source_part_checks": [
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 11892.99008078433,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 6416.999841335976,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 21386.749342338255,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 1806.1240773604297,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 545.1842593410411,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 10397.989783185147,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 17141.77825540116,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 8.902178131844671,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 4.583480987298905,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.8462911174811962,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 8.902178040677818,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 4.5834809872988655,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.8462911174811933,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 4.532543647628595,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.9371012735750663,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 3.592934943157684,
+            "filled_original_boundary_faces": 0
+          }
+        ],
+        "unions": [],
+        "final_physical_topology": {
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+          "signed_volume_cm3": 69625.54177168275
+        },
+        "original_local_bounds_cm": [
+          [
+            -31.979602575302124,
+            -17.69999861717224,
+            0.0
+          ],
+          [
+            34.47999954223633,
+            17.70000010728836,
+            77.99999713897705
+          ]
+        ],
+        "local_bounds_cm": [
+          [
+            -31.979602575302124,
+            -17.69999861717224,
+            0.0
+          ],
+          [
+            34.47999954223633,
+            17.70000010728836,
+            77.99999713897705
+          ]
+        ],
+        "maximum_bounds_change_cm": 0.0,
+        "material_roles": [
+          "Ceramic",
+          "Chrome",
+          "DarkMetal"
+        ],
+        "material_slot_order_unchanged": true,
+        "uv_degenerate_triangle_count": 0,
+        "minimum_uv_area2": 7.111647715163372e-09,
+        "uv_projection_chart_offsets": {
+          "(0, 1)": [
+            0.0,
+            0.0
+          ],
+          "(0, 2)": [
+            0.000137,
+            0.000223
+          ],
+          "(1, 2)": [
+            0.000271,
+            0.000389
+          ]
+        },
+        "invalid_tangent_count": 0,
+        "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Toilet.fbx",
+        "fbx_sha256": "877fdffe6685e5522e976942c1168b7506b076cf44b9a787d92f668e76d85a32",
+        "blender_mikk_zero_tangent_count": 0,
+        "explicit_geometric_uv_tangent_count": 52308,
+        "numerical_collinear_vertices_dissolved": 0,
+        "numerical_collinear_triangulation_edges_rotated": 0,
+        "numerical_material_boundary_collapses": 0,
+        "maximum_numerical_boundary_collapse_cm": 0.0,
+        "new_boolean_needle_edges_retessellated": 0,
+        "hard_geometric_normal_junction_faces": [],
+        "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Toilet.geometry.json",
+        "geometry_recipe_sha256": "dde743ecb9763fa18059205509ecb128aa9f917828d9f0385ccee5ba66649ec5",
+        "passed": true
+      }
+    },
+    {
+      "key": "Washbasin",
+      "source_asset": "/Game/CodexGenerated/OldTown/Meshes/SanitaryShapes_20261011/SM_OTS_Arch_Washbasin_Shaped.SM_OTS_Arch_Washbasin_Shaped",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\CodexGenerated\\OldTown\\Meshes\\SanitaryShapes_20261011\\SM_OTS_Arch_Washbasin_Shaped.uasset",
+      "source_sha256": "e12db233ceeb3e8ba0714ffb044a5e5f5806b87e11e97223bc17825c199cd66f",
+      "source_local_bounds_cm": [
+        [
+          -22.500001907348633,
+          -30.000003814697266,
+          0.0
+        ],
+        [
+          22.500001907348633,
+          30.000003814697266,
+          96.05000305175781
+        ]
+      ],
+      "source_actor_labels": [
+        "OTS_HotelV4_Room201_Basin",
+        "OTS_HotelV4_Room202_Basin",
+        "OTS_HotelV4_Room203_Basin",
+        "OTS_HotelV4_Room204_Basin",
+        "OTS_HotelV4_Room205_Basin",
+        "OTS_HotelV4_Room206_Basin",
+        "OTS_HotelV4_Room207_Basin",
+        "OTS_HotelV4_Room208_Basin",
+        "OTS_HotelV4_Room209_Basin",
+        "OTS_HotelV4_Room301_Basin",
+        "OTS_HotelV4_Room302_Basin",
+        "OTS_HotelV4_Room303_Basin",
+        "OTS_HotelV4_Room304_Basin",
+        "OTS_HotelV4_Room305_Basin",
+        "OTS_HotelV4_Room306_Basin",
+        "OTS_HotelV4_Room307_Basin",
+        "OTS_HotelV4_Room308_Basin",
+        "OTS_HotelV4_Room309_Basin",
+        "OTS_HotelV4_Room401_Basin",
+        "OTS_HotelV4_Room402_Basin",
+        "OTS_HotelV4_Room403_Basin",
+        "OTS_HotelV4_Room404_Basin",
+        "OTS_HotelV4_Room405_Basin",
+        "OTS_HotelV4_Room406_Basin",
+        "OTS_HotelV4_Room407_Basin",
+        "OTS_HotelV4_Room408_Basin",
+        "OTS_HotelV4_Room409_Basin",
+        "OTS_HotelV4_PublicWCBasin0",
+        "OTS_HotelV4_PublicWCBasin1",
+        "OTS_HotelV4_StaffWCBasin"
+      ],
+      "source_actor_count": 30,
+      "source_triangle_count": 4240,
+      "mesh_name": "SM_OTS_Real_Washbasin",
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Washbasin.fbx",
+      "fbx_sha256": "23d7c5b765d4c8ca6db18617c315e747e6a562065f56b17b304bcbcea476968e",
+      "source_native_geometry_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexOutputs\\OldTownRealism_20261012\\NativeMeshes\\SM_OTS_Arch_Washbasin_Shaped_68eb620600.json",
+      "source_native_geometry_sha256": "6682c6ac5be4fc4ba454233db2fcfd78d0e235cb6aef9064c1f5e5331e0488cd",
+      "local_bounds_cm": [
+        [
+          -22.499999403953552,
+          -30.000001192092896,
+          0.0
+        ],
+        [
+          22.499999403953552,
+          30.000001192092896,
+          96.05000019073486
+        ]
+      ],
+      "triangles": 26240,
+      "vertices": 13156,
+      "material_roles": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "parts": [
+        {
+          "name": "Washbasin_RetainedSection0",
+          "role": "DarkMetal",
+          "source_retained": true,
+          "bounds_cm": [
+            [
+              2.9000001028180122,
+              -2.9999999329447746,
+              80.69999814033508
+            ],
+            [
+              17.84999966621399,
+              2.9999999329447746,
+              96.05000019073486
+            ]
+          ]
+        },
+        {
+          "name": "ContinuousPorcelainBasin",
+          "role": "Ceramic",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -22.499999403953552,
+              -30.000001192092896,
+              73.00000190734863
+            ],
+            [
+              22.499999403953552,
+              30.000001192092896,
+              85.00000238418579
+            ]
+          ]
+        },
+        {
+          "name": "BasinRearTie",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              19.699999690055847,
+              -25.0,
+              72.79999852180481
+            ],
+            [
+              21.0999995470047,
+              25.0,
+              74.80000257492065
+            ]
+          ]
+        },
+        {
+          "name": "BasinSupportArm_-1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              10.999999940395355,
+              -18.700000643730164,
+              72.39999771118164
+            ],
+            [
+              20.999999344348907,
+              -17.29999929666519,
+              73.7999975681305
+            ]
+          ]
+        },
+        {
+          "name": "BasinSupportLeg_-1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              19.55000013113022,
+              -18.75,
+              0.3000000026077032
+            ],
+            [
+              21.050000190734863,
+              -17.249999940395355,
+              73.29999804496765
+            ]
+          ]
+        },
+        {
+          "name": "BasinSupportFoot_-1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              17.499999701976776,
+              -20.000000298023224,
+              0.0
+            ],
+            [
+              22.499999403953552,
+              -15.999999642372131,
+              0.7000000216066837
+            ]
+          ]
+        },
+        {
+          "name": "BasinFloorAnchor_-1_18.2",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              17.94999986886978,
+              -18.250000476837158,
+              0.6399999838322401
+            ],
+            [
+              18.449999392032623,
+              -17.749999463558197,
+              0.9999999776482582
+            ]
+          ]
+        },
+        {
+          "name": "BasinFloorAnchor_-1_21.8",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              21.549999713897705,
+              -18.250000476837158,
+              0.6399999838322401
+            ],
+            [
+              22.050000727176666,
+              -17.749999463558197,
+              0.9999999776482582
+            ]
+          ]
+        },
+        {
+          "name": "BasinSupportArm_1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              10.999999940395355,
+              17.29999929666519,
+              72.39999771118164
+            ],
+            [
+              20.999999344348907,
+              18.700000643730164,
+              73.7999975681305
+            ]
+          ]
+        },
+        {
+          "name": "BasinSupportLeg_1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              19.55000013113022,
+              17.249999940395355,
+              0.3000000026077032
+            ],
+            [
+              21.050000190734863,
+              18.75,
+              73.29999804496765
+            ]
+          ]
+        },
+        {
+          "name": "BasinSupportFoot_1",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              17.499999701976776,
+              15.999999642372131,
+              0.0
+            ],
+            [
+              22.499999403953552,
+              20.000000298023224,
+              0.7000000216066837
+            ]
+          ]
+        },
+        {
+          "name": "BasinFloorAnchor_1_18.2",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              17.94999986886978,
+              17.749999463558197,
+              0.6399999838322401
+            ],
+            [
+              18.449999392032623,
+              18.250000476837158,
+              0.9999999776482582
+            ]
+          ]
+        },
+        {
+          "name": "BasinFloorAnchor_1_21.8",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              21.549999713897705,
+              17.749999463558197,
+              0.6399999838322401
+            ],
+            [
+              22.050000727176666,
+              18.250000476837158,
+              0.9999999776482582
+            ]
+          ]
+        },
+        {
+          "name": "BasinDrainFlange",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -2.549999952316284,
+              -2.549999952316284,
+              75.99999904632568
+            ],
+            [
+              2.549999952316284,
+              2.549999952316284,
+              76.34999752044678
+            ]
+          ]
+        },
+        {
+          "name": "BasinDrainOutlet",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -2.019999921321869,
+              -2.019999921321869,
+              71.8999981880188
+            ],
+            [
+              2.019999921321869,
+              2.019999921321869,
+              76.2000024318695
+            ]
+          ]
+        },
+        {
+          "name": "ConnectedPTrap",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -1.899999938905239,
+              -1.899999938905239,
+              57.099997997283936
+            ],
+            [
+              13.897711038589478,
+              1.899999938905239,
+              74.19999837875366
+            ]
+          ]
+        },
+        {
+          "name": "ExistingFloorOutletStack",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              9.49999988079071,
+              -2.500000037252903,
+              0.0
+            ],
+            [
+              14.499999582767487,
+              2.500000037252903,
+              66.00000262260437
+            ]
+          ]
+        },
+        {
+          "name": "FloorStackCoupling_3.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              9.25000011920929,
+              -2.749999985098839,
+              2.4000000208616257
+            ],
+            [
+              14.749999344348907,
+              2.749999985098839,
+              3.5999998450279236
+            ]
+          ]
+        },
+        {
+          "name": "FloorStackCoupling_54.5",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              9.25000011920929,
+              -2.749999985098839,
+              53.89999747276306
+            ],
+            [
+              14.749999344348907,
+              2.749999985098839,
+              55.09999990463257
+            ]
+          ]
+        },
+        {
+          "name": "FloorStackCoupling_65.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              9.25000011920929,
+              -2.749999985098839,
+              64.3999993801117
+            ],
+            [
+              14.749999344348907,
+              2.749999985098839,
+              65.6000018119812
+            ]
+          ]
+        }
+      ],
+      "maximum_local_protrusion_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "checks": [
+        {
+          "name": "ArmIntoPorcelain_-1",
+          "passed": true,
+          "point_cm": [
+            12.0,
+            -18.0,
+            73.5
+          ],
+          "inside_parts": {
+            "BasinSupportArm_-1": true,
+            "ContinuousPorcelainBasin": true
+          }
+        },
+        {
+          "name": "ArmIntoRearTie_-1",
+          "passed": true,
+          "point_cm": [
+            20.3,
+            -18.0,
+            73.1
+          ],
+          "inside_parts": {
+            "BasinSupportArm_-1": true,
+            "BasinRearTie": true
+          }
+        },
+        {
+          "name": "LegIntoArm_-1",
+          "passed": true,
+          "point_cm": [
+            20.3,
+            -18.0,
+            73.1
+          ],
+          "inside_parts": {
+            "BasinSupportLeg_-1": true,
+            "BasinSupportArm_-1": true
+          }
+        },
+        {
+          "name": "LegIntoFoot_-1",
+          "passed": true,
+          "point_cm": [
+            20.3,
+            -18.0,
+            0.5
+          ],
+          "inside_parts": {
+            "BasinSupportLeg_-1": true,
+            "BasinSupportFoot_-1": true
+          }
+        },
+        {
+          "name": "AnchorIntoFoot_-1_18.2",
+          "passed": true,
+          "point_cm": [
+            18.2,
+            -18.0,
+            0.68
+          ],
+          "inside_parts": {
+            "BasinFloorAnchor_-1_18.2": true,
+            "BasinSupportFoot_-1": true
+          }
+        },
+        {
+          "name": "AnchorIntoFoot_-1_21.8",
+          "passed": true,
+          "point_cm": [
+            21.8,
+            -18.0,
+            0.68
+          ],
+          "inside_parts": {
+            "BasinFloorAnchor_-1_21.8": true,
+            "BasinSupportFoot_-1": true
+          }
+        },
+        {
+          "name": "ArmIntoPorcelain_1",
+          "passed": true,
+          "point_cm": [
+            12.0,
+            18.0,
+            73.5
+          ],
+          "inside_parts": {
+            "BasinSupportArm_1": true,
+            "ContinuousPorcelainBasin": true
+          }
+        },
+        {
+          "name": "ArmIntoRearTie_1",
+          "passed": true,
+          "point_cm": [
+            20.3,
+            18.0,
+            73.1
+          ],
+          "inside_parts": {
+            "BasinSupportArm_1": true,
+            "BasinRearTie": true
+          }
+        },
+        {
+          "name": "LegIntoArm_1",
+          "passed": true,
+          "point_cm": [
+            20.3,
+            18.0,
+            73.1
+          ],
+          "inside_parts": {
+            "BasinSupportLeg_1": true,
+            "BasinSupportArm_1": true
+          }
+        },
+        {
+          "name": "LegIntoFoot_1",
+          "passed": true,
+          "point_cm": [
+            20.3,
+            18.0,
+            0.5
+          ],
+          "inside_parts": {
+            "BasinSupportLeg_1": true,
+            "BasinSupportFoot_1": true
+          }
+        },
+        {
+          "name": "AnchorIntoFoot_1_18.2",
+          "passed": true,
+          "point_cm": [
+            18.2,
+            18.0,
+            0.68
+          ],
+          "inside_parts": {
+            "BasinFloorAnchor_1_18.2": true,
+            "BasinSupportFoot_1": true
+          }
+        },
+        {
+          "name": "AnchorIntoFoot_1_21.8",
+          "passed": true,
+          "point_cm": [
+            21.8,
+            18.0,
+            0.68
+          ],
+          "inside_parts": {
+            "BasinFloorAnchor_1_21.8": true,
+            "BasinSupportFoot_1": true
+          }
+        },
+        {
+          "name": "DrainFlangeIntoPorcelain",
+          "passed": true,
+          "point_cm": [
+            2.3,
+            0.0,
+            76.1
+          ],
+          "inside_parts": {
+            "BasinDrainFlange": true,
+            "ContinuousPorcelainBasin": true
+          }
+        },
+        {
+          "name": "DrainOutletIntoFlange",
+          "passed": true,
+          "point_cm": [
+            1.9,
+            0.0,
+            76.1
+          ],
+          "inside_parts": {
+            "BasinDrainFlange": true,
+            "BasinDrainOutlet": true
+          }
+        },
+        {
+          "name": "TrapIntoDrainOutlet",
+          "passed": true,
+          "point_cm": [
+            1.8,
+            0.0,
+            73.5
+          ],
+          "inside_parts": {
+            "BasinDrainOutlet": true,
+            "ConnectedPTrap": true
+          }
+        },
+        {
+          "name": "TrapIntoFloorStack",
+          "passed": true,
+          "point_cm": [
+            12.0,
+            1.8,
+            64.8
+          ],
+          "inside_parts": {
+            "ConnectedPTrap": true,
+            "ExistingFloorOutletStack": true
+          }
+        },
+        {
+          "name": "ExistingFaucetStubIntoRearDeck",
+          "passed": true,
+          "point_cm": [
+            16.0,
+            0.0,
+            81.0
+          ],
+          "inside_parts": {
+            "Washbasin_RetainedSection0": true,
+            "ContinuousPorcelainBasin": true
+          }
+        },
+        {
+          "name": "Washbasin_RetainedSection0:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "ContinuousPorcelainBasin:closed_surface",
+          "passed": true,
+          "role": "Ceramic"
+        },
+        {
+          "name": "BasinRearTie:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinSupportArm_-1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinSupportLeg_-1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinSupportFoot_-1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinFloorAnchor_-1_18.2:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "BasinFloorAnchor_-1_21.8:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "BasinSupportArm_1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinSupportLeg_1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinSupportFoot_1:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "BasinFloorAnchor_1_18.2:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "BasinFloorAnchor_1_21.8:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "BasinDrainFlange:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "BasinDrainOutlet:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ConnectedPTrap:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ExistingFloorOutletStack:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "FloorStackCoupling_3.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "FloorStackCoupling_54.5:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "FloorStackCoupling_65.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "NoHardwareProtrusionOverThreeCentimetres",
+          "passed": true,
+          "protrusion_cm": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "BasinGroundAndFaucetHeightPreserved",
+          "passed": true
+        },
+        {
+          "name": "IndependentLoadBearingFrameGroundedWithinOriginalFootprint",
+          "passed": true,
+          "frame_bounds_cm": [
+            [
+              10.999999940395355,
+              -25.0,
+              0.0
+            ],
+            [
+              22.499999403953552,
+              25.0,
+              74.80000257492065
+            ]
+          ],
+          "drainage_is_not_structural": true
+        }
+      ],
+      "passed": true,
+      "design_notes": [
+        "Original local bounds, faucet location and rounded spout retained.",
+        "Porcelain is one continuous rounded shell with a real open bowl and through drain.",
+        "Thick unsupported source beam replaced by two narrow arms and floor legs with grounded pads.",
+        "Floor frame independently carries the basin; the hollow P trap and stack carry drainage only.",
+        "Open metal drain, hollow P trap, existing floor outlet position and coupling collars.",
+        "Drain cavity is not filled by a solid disc; source original floor stem island replaced."
+      ],
+      "coordinates": "Local Blender metres = current native UE local centimetres / 100",
+      "export_axis_forward": "-Y",
+      "export_axis_up": "Z",
+      "export_apply_scale_options": "FBX_SCALE_NONE",
+      "collision": "NoCollision; preserve all existing independent collision actors",
+      "source_file_sha256": "23d7c5b765d4c8ca6db18617c315e747e6a562065f56b17b304bcbcea476968e",
+      "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Washbasin.geometry.json",
+      "geometry_recipe_sha256": "6566e1ab948bbff1fb6e992f22cb6e365b744ff91e3ac8a82d65f07469b2bd5d",
+      "faces": 26240,
+      "material_slots": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "tangent_space_verified": true,
+      "invalid_tangent_count": 0,
+      "uv_degenerate_triangle_count": 0,
+      "uv_mapping": "Every actual triangle projected from its geometric dominant physical plane; one UV unit = one metre",
+      "solid_uv_repair": {
+        "category": "Sanitary",
+        "key": "Washbasin",
+        "mesh_name": "SM_OTS_Real_Washbasin",
+        "exact_union": false,
+        "original_part_count": 26,
+        "exact_union_operations": 0,
+        "original_triangles": 26240,
+        "repaired_triangles": 26240,
+        "source_part_checks": [
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 47.34065298650383,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 50.38399251245006,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 3.1901501996050174,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 2.4907429631392457,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 15.937477297528341,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 7.870801766183846,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.22728086920705,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 17546.045359030646,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 139.6597641574774,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.51900100887272,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 163.6356537148202,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 13.938793454280537,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.06975451839308869,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.06975448401785145,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.519001008872692,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 163.63565371481724,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 13.938793454280535,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.06975451839308888,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.06975448401785131,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 3.970538513411263,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 16.074487064496797,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 92.16409628636298,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 764.7961519946766,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 8.563680342272534,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 8.563687148075507,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 8.563659924864382,
+            "filled_original_boundary_faces": 0
+          }
+        ],
+        "unions": [],
+        "final_physical_topology": {
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+          "signed_volume_cm3": 19129.30843843134
+        },
+        "original_local_bounds_cm": [
+          [
+            -22.499999403953552,
+            -30.000001192092896,
+            0.0
+          ],
+          [
+            22.499999403953552,
+            30.000001192092896,
+            96.05000019073486
+          ]
+        ],
+        "local_bounds_cm": [
+          [
+            -22.499999403953552,
+            -30.000001192092896,
+            0.0
+          ],
+          [
+            22.499999403953552,
+            30.000001192092896,
+            96.05000019073486
+          ]
+        ],
+        "maximum_bounds_change_cm": 0.0,
+        "material_roles": [
+          "Ceramic",
+          "Chrome",
+          "DarkMetal"
+        ],
+        "material_slot_order_unchanged": true,
+        "uv_degenerate_triangle_count": 0,
+        "minimum_uv_area2": 3.7898713500794656e-08,
+        "uv_projection_chart_offsets": {
+          "(0, 1)": [
+            0.0,
+            0.0
+          ],
+          "(0, 2)": [
+            0.000137,
+            0.000223
+          ],
+          "(1, 2)": [
+            0.000271,
+            0.000389
+          ]
+        },
+        "invalid_tangent_count": 0,
+        "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Washbasin.fbx",
+        "fbx_sha256": "23d7c5b765d4c8ca6db18617c315e747e6a562065f56b17b304bcbcea476968e",
+        "blender_mikk_zero_tangent_count": 0,
+        "explicit_geometric_uv_tangent_count": 78720,
+        "numerical_collinear_vertices_dissolved": 0,
+        "numerical_collinear_triangulation_edges_rotated": 0,
+        "numerical_material_boundary_collapses": 0,
+        "maximum_numerical_boundary_collapse_cm": 0.0,
+        "new_boolean_needle_edges_retessellated": 0,
+        "hard_geometric_normal_junction_faces": [],
+        "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Washbasin.geometry.json",
+        "geometry_recipe_sha256": "6566e1ab948bbff1fb6e992f22cb6e365b744ff91e3ac8a82d65f07469b2bd5d",
+        "passed": true
+      }
+    },
+    {
+      "key": "ShowerTray",
+      "source_asset": "/Game/CodexGenerated/OldTown/SurfaceSeparation_20261009/Meshes/SM_OTS_Arch_ShowerTray_Separated_2bf3b2d112bb.SM_OTS_Arch_ShowerTray_Separated_2bf3b2d112bb",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\CodexGenerated\\OldTown\\SurfaceSeparation_20261009\\Meshes\\SM_OTS_Arch_ShowerTray_Separated_2bf3b2d112bb.uasset",
+      "source_sha256": "ec7e7f45f547e3ef6da4d20a8aabf1544deea9896e41215ca17006947ee4c5c8",
+      "source_local_bounds_cm": [
+        [
+          -45.000003814697266,
+          -45.000003814697266,
+          0.0
+        ],
+        [
+          45.000003814697266,
+          45.000003814697266,
+          4.0
+        ]
+      ],
+      "source_actor_labels": [
+        "OTS_HotelV4_Room201_ShowerTray",
+        "OTS_HotelV4_Room202_ShowerTray",
+        "OTS_HotelV4_Room203_ShowerTray",
+        "OTS_HotelV4_Room204_ShowerTray",
+        "OTS_HotelV4_Room205_ShowerTray",
+        "OTS_HotelV4_Room206_ShowerTray",
+        "OTS_HotelV4_Room207_ShowerTray",
+        "OTS_HotelV4_Room208_ShowerTray",
+        "OTS_HotelV4_Room209_ShowerTray",
+        "OTS_HotelV4_Room301_ShowerTray",
+        "OTS_HotelV4_Room302_ShowerTray",
+        "OTS_HotelV4_Room303_ShowerTray",
+        "OTS_HotelV4_Room304_ShowerTray",
+        "OTS_HotelV4_Room305_ShowerTray",
+        "OTS_HotelV4_Room306_ShowerTray",
+        "OTS_HotelV4_Room307_ShowerTray",
+        "OTS_HotelV4_Room308_ShowerTray",
+        "OTS_HotelV4_Room309_ShowerTray",
+        "OTS_HotelV4_Room401_ShowerTray",
+        "OTS_HotelV4_Room402_ShowerTray",
+        "OTS_HotelV4_Room403_ShowerTray",
+        "OTS_HotelV4_Room404_ShowerTray",
+        "OTS_HotelV4_Room405_ShowerTray",
+        "OTS_HotelV4_Room406_ShowerTray",
+        "OTS_HotelV4_Room407_ShowerTray",
+        "OTS_HotelV4_Room408_ShowerTray",
+        "OTS_HotelV4_Room409_ShowerTray"
+      ],
+      "source_actor_count": 27,
+      "source_triangle_count": 200,
+      "mesh_name": "SM_OTS_Real_ShowerTray",
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerTray.fbx",
+      "fbx_sha256": "82bfa13d69b64d52a1ebcf7990f281bbb8b9f25304203c0c1cbd1d1b15fcb634",
+      "source_native_geometry_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexOutputs\\OldTownRealism_20261012\\NativeMeshes\\SM_OTS_Arch_ShowerTray_Separated_2bf3b2d112bb_1f6850330c.json",
+      "source_native_geometry_sha256": "0a785f798dc3ce780e17aad417b358e8b8e860fe79a9fe8e2866bdbd2cfac2cc",
+      "local_bounds_cm": [
+        [
+          -44.999998807907104,
+          -44.999998807907104,
+          0.0
+        ],
+        [
+          44.999998807907104,
+          44.999998807907104,
+          3.999999910593033
+        ]
+      ],
+      "triangles": 5480,
+      "vertices": 2752,
+      "material_roles": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "parts": [
+        {
+          "name": "RoundedSlopingShowerTray",
+          "role": "Ceramic",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -44.999998807907104,
+              -44.999998807907104,
+              0.0
+            ],
+            [
+              44.999998807907104,
+              44.999998807907104,
+              3.999999910593033
+            ]
+          ]
+        },
+        {
+          "name": "ShowerDrainFrame",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              28.749999403953552,
+              28.749999403953552,
+              2.1400000900030136
+            ],
+            [
+              35.24999916553497,
+              35.24999916553497,
+              2.3399999365210533
+            ]
+          ]
+        },
+        {
+          "name": "ShowerDrainThroat",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.249998927116394,
+              29.249998927116394,
+              0.0
+            ],
+            [
+              34.74999964237213,
+              34.74999964237213,
+              2.280000038444996
+            ]
+          ]
+        },
+        {
+          "name": "ShowerGrateBar_00",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.94040846824646,
+              29.8799991607666,
+              2.1800000220537186
+            ],
+            [
+              34.059593081474304,
+              30.12000024318695,
+              2.3399999365210533
+            ]
+          ]
+        },
+        {
+          "name": "ShowerGrateBar_01",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.370176792144775,
+              30.68000078201294,
+              2.1800000220537186
+            ],
+            [
+              34.62982177734375,
+              30.91999888420105,
+              2.3399999365210533
+            ]
+          ]
+        },
+        {
+          "name": "ShowerGrateBar_02",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.128718376159668,
+              31.47999942302704,
+              2.1800000220537186
+            ],
+            [
+              34.87128019332886,
+              31.720000505447388,
+              2.3399999365210533
+            ]
+          ]
+        },
+        {
+          "name": "ShowerGrateBar_03",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.128718376159668,
+              32.28000104427338,
+              2.1800000220537186
+            ],
+            [
+              34.87128019332886,
+              32.51999914646149,
+              2.3399999365210533
+            ]
+          ]
+        },
+        {
+          "name": "ShowerGrateBar_04",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.370176792144775,
+              33.079999685287476,
+              2.1800000220537186
+            ],
+            [
+              34.62982177734375,
+              33.320000767707825,
+              2.3399999365210533
+            ]
+          ]
+        },
+        {
+          "name": "ShowerGrateBar_05",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              29.94040846824646,
+              33.88000130653381,
+              2.1800000220537186
+            ],
+            [
+              34.059593081474304,
+              34.119999408721924,
+              2.3399999365210533
+            ]
+          ]
+        }
+      ],
+      "maximum_local_protrusion_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "checks": [
+        {
+          "name": "GrateBarJoinsFrame_00",
+          "passed": true,
+          "point_cm": [
+            33.95959179422654,
+            30.0,
+            2.26
+          ],
+          "inside_parts": {
+            "ShowerGrateBar_00": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "GrateBarJoinsFrame_01",
+          "passed": true,
+          "point_cm": [
+            34.529822128134704,
+            30.8,
+            2.26
+          ],
+          "inside_parts": {
+            "ShowerGrateBar_01": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "GrateBarJoinsFrame_02",
+          "passed": true,
+          "point_cm": [
+            34.7712812921102,
+            31.6,
+            2.26
+          ],
+          "inside_parts": {
+            "ShowerGrateBar_02": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "GrateBarJoinsFrame_03",
+          "passed": true,
+          "point_cm": [
+            34.7712812921102,
+            32.4,
+            2.26
+          ],
+          "inside_parts": {
+            "ShowerGrateBar_03": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "GrateBarJoinsFrame_04",
+          "passed": true,
+          "point_cm": [
+            34.529822128134704,
+            33.2,
+            2.26
+          ],
+          "inside_parts": {
+            "ShowerGrateBar_04": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "GrateBarJoinsFrame_05",
+          "passed": true,
+          "point_cm": [
+            33.95959179422654,
+            34.0,
+            2.26
+          ],
+          "inside_parts": {
+            "ShowerGrateBar_05": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "DrainFrameIntoTray",
+          "passed": true,
+          "point_cm": [
+            35.02,
+            32.0,
+            2.19
+          ],
+          "inside_parts": {
+            "ShowerDrainFrame": true,
+            "RoundedSlopingShowerTray": true
+          }
+        },
+        {
+          "name": "DrainThroatIntoFrame",
+          "passed": true,
+          "point_cm": [
+            34.7,
+            32.0,
+            2.2
+          ],
+          "inside_parts": {
+            "ShowerDrainThroat": true,
+            "ShowerDrainFrame": true
+          }
+        },
+        {
+          "name": "AllFloorSamplesSlopeToCurrentDrain",
+          "passed": true,
+          "drain_position_cm": [
+            32.0,
+            32.0,
+            2.2
+          ],
+          "maximum_floor_z_cm": 3.332456427132002,
+          "slope": 0.011
+        },
+        {
+          "name": "RoundedSlopingShowerTray:closed_surface",
+          "passed": true,
+          "role": "Ceramic"
+        },
+        {
+          "name": "ShowerDrainFrame:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerDrainThroat:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "ShowerGrateBar_00:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerGrateBar_01:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerGrateBar_02:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerGrateBar_03:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerGrateBar_04:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerGrateBar_05:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "NoHardwareProtrusionOverThreeCentimetres",
+          "passed": true,
+          "protrusion_cm": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "ShowerTrayGroundAndTopPreserved",
+          "passed": true
+        }
+      ],
+      "passed": true,
+      "design_notes": [
+        "Same 90x90x4 cm envelope and offset drain position as current saved fixture.",
+        "Rounded ceramic edge, recessed floor with 1.1 percent slope toward the drain.",
+        "Physical metal grate bars with open spaces and a hollow recessed metal throat."
+      ],
+      "coordinates": "Local Blender metres = current native UE local centimetres / 100",
+      "export_axis_forward": "-Y",
+      "export_axis_up": "Z",
+      "export_apply_scale_options": "FBX_SCALE_NONE",
+      "collision": "NoCollision; preserve all existing independent collision actors",
+      "source_file_sha256": "82bfa13d69b64d52a1ebcf7990f281bbb8b9f25304203c0c1cbd1d1b15fcb634",
+      "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerTray.geometry.json",
+      "geometry_recipe_sha256": "c55f83762ed39c3adf171d702b723a6180cd4c76503364d95aa32dadd87b78a9",
+      "faces": 5480,
+      "material_slots": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "tangent_space_verified": true,
+      "invalid_tangent_count": 0,
+      "uv_degenerate_triangle_count": 0,
+      "uv_mapping": "Every actual triangle projected from its geometric dominant physical plane; one UV unit = one metre",
+      "solid_uv_repair": {
+        "category": "Sanitary",
+        "key": "ShowerTray",
+        "mesh_name": "SM_OTS_Real_ShowerTray",
+        "exact_union": false,
+        "original_part_count": 9,
+        "exact_union_operations": 0,
+        "original_triangles": 5480,
+        "repaired_triangles": 5480,
+        "source_part_checks": [
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 23584.44714389923,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 2.2233530286714274,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 11.169524065841449,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.152713803083036,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.19510812146738915,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.21306438290682772,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.21306194594177957,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.19511181732053579,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 0.15271077787750437,
+            "filled_original_boundary_faces": 0
+          }
+        ],
+        "unions": [],
+        "final_physical_topology": {
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+          "signed_volume_cm3": 23598.96179184267
+        },
+        "original_local_bounds_cm": [
+          [
+            -44.999998807907104,
+            -44.999998807907104,
+            0.0
+          ],
+          [
+            44.999998807907104,
+            44.999998807907104,
+            3.999999910593033
+          ]
+        ],
+        "local_bounds_cm": [
+          [
+            -44.999998807907104,
+            -44.999998807907104,
+            0.0
+          ],
+          [
+            44.999998807907104,
+            44.999998807907104,
+            3.999999910593033
+          ]
+        ],
+        "maximum_bounds_change_cm": 0.0,
+        "material_roles": [
+          "Ceramic",
+          "Chrome",
+          "DarkMetal"
+        ],
+        "material_slot_order_unchanged": true,
+        "uv_degenerate_triangle_count": 0,
+        "minimum_uv_area2": 8.1810427876583e-09,
+        "uv_projection_chart_offsets": {
+          "(0, 1)": [
+            0.0,
+            0.0
+          ],
+          "(0, 2)": [
+            0.000137,
+            0.000223
+          ],
+          "(1, 2)": [
+            0.000271,
+            0.000389
+          ]
+        },
+        "invalid_tangent_count": 0,
+        "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerTray.fbx",
+        "fbx_sha256": "82bfa13d69b64d52a1ebcf7990f281bbb8b9f25304203c0c1cbd1d1b15fcb634",
+        "blender_mikk_zero_tangent_count": 0,
+        "explicit_geometric_uv_tangent_count": 16440,
+        "numerical_collinear_vertices_dissolved": 0,
+        "numerical_collinear_triangulation_edges_rotated": 0,
+        "numerical_material_boundary_collapses": 0,
+        "maximum_numerical_boundary_collapse_cm": 0.0,
+        "new_boolean_needle_edges_retessellated": 0,
+        "hard_geometric_normal_junction_faces": [],
+        "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerTray.geometry.json",
+        "geometry_recipe_sha256": "c55f83762ed39c3adf171d702b723a6180cd4c76503364d95aa32dadd87b78a9",
+        "passed": true
+      }
+    },
+    {
+      "key": "ShowerScreen",
+      "source_asset": "/Game/Yastar/Meshes/hOUSE/HotelArchitecture_20261005/SM_OTS_Arch_ShowerScreen.SM_OTS_Arch_ShowerScreen",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Meshes\\hOUSE\\HotelArchitecture_20261005\\SM_OTS_Arch_ShowerScreen.uasset",
+      "source_sha256": "3cc4ff2d1654303213236ae80c08b418b673711ec91e4e974010501033f14252",
+      "source_local_bounds_cm": [
+        [
+          -45.0,
+          -0.5000039339065552,
+          0.0
+        ],
+        [
+          45.0,
+          0.5000039339065552,
+          200.0
+        ]
+      ],
+      "source_actor_labels": [
+        "OTS_HotelV4_Room201_ShowerScreen",
+        "OTS_HotelV4_Room202_ShowerScreen",
+        "OTS_HotelV4_Room203_ShowerScreen",
+        "OTS_HotelV4_Room204_ShowerScreen",
+        "OTS_HotelV4_Room205_ShowerScreen",
+        "OTS_HotelV4_Room206_ShowerScreen",
+        "OTS_HotelV4_Room207_ShowerScreen",
+        "OTS_HotelV4_Room208_ShowerScreen",
+        "OTS_HotelV4_Room209_ShowerScreen",
+        "OTS_HotelV4_Room301_ShowerScreen",
+        "OTS_HotelV4_Room302_ShowerScreen",
+        "OTS_HotelV4_Room303_ShowerScreen",
+        "OTS_HotelV4_Room304_ShowerScreen",
+        "OTS_HotelV4_Room305_ShowerScreen",
+        "OTS_HotelV4_Room306_ShowerScreen",
+        "OTS_HotelV4_Room307_ShowerScreen",
+        "OTS_HotelV4_Room308_ShowerScreen",
+        "OTS_HotelV4_Room309_ShowerScreen",
+        "OTS_HotelV4_Room401_ShowerScreen",
+        "OTS_HotelV4_Room402_ShowerScreen",
+        "OTS_HotelV4_Room403_ShowerScreen",
+        "OTS_HotelV4_Room404_ShowerScreen",
+        "OTS_HotelV4_Room405_ShowerScreen",
+        "OTS_HotelV4_Room406_ShowerScreen",
+        "OTS_HotelV4_Room407_ShowerScreen",
+        "OTS_HotelV4_Room408_ShowerScreen",
+        "OTS_HotelV4_Room409_ShowerScreen"
+      ],
+      "source_actor_count": 27,
+      "source_triangle_count": 540,
+      "mesh_name": "SM_OTS_Real_ShowerScreen",
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerScreen.fbx",
+      "fbx_sha256": "715c9f7d90e5313a66a253edefbdd79b3cd892a2a24671f7046e919851e41f2d",
+      "source_native_geometry_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexOutputs\\OldTownRealism_20261012\\NativeMeshes\\SM_OTS_Arch_ShowerScreen_14519f987b.json",
+      "source_native_geometry_sha256": "d4864315b68a023c99d4a9eb9959f1a3fe1b11f6ba9297007424ab1b40d7b2f5",
+      "local_bounds_cm": [
+        [
+          -44.999998807907104,
+          -0.9999999776482582,
+          0.0
+        ],
+        [
+          44.999998807907104,
+          2.6499997824430466,
+          200.0
+        ]
+      ],
+      "triangles": 5056,
+      "vertices": 2552,
+      "material_roles": [
+        "Chrome",
+        "DarkMetal",
+        "Glass",
+        "Rubber"
+      ],
+      "parts": [
+        {
+          "name": "ShowerScreen_RetainedSection0",
+          "role": "Glass",
+          "source_retained": true,
+          "bounds_cm": [
+            [
+              -43.99999976158142,
+              -0.30000382103025913,
+              0.9999990463256836
+            ],
+            [
+              43.99999976158142,
+              0.30000382103025913,
+              199.00000095367432
+            ]
+          ]
+        },
+        {
+          "name": "ContinuousShowerFrame",
+          "role": "DarkMetal",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -44.999998807907104,
+              -0.4999999888241291,
+              0.0
+            ],
+            [
+              44.999998807907104,
+              0.4999999888241291,
+              200.0
+            ]
+          ]
+        },
+        {
+          "name": "GlassSeal_-1",
+          "role": "Rubber",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -44.06000077724457,
+              0.2199999988079071,
+              1.0999999940395355
+            ],
+            [
+              -43.74000132083893,
+              0.4000000189989805,
+              198.89999628067017
+            ]
+          ]
+        },
+        {
+          "name": "GlassClamp_-1_40.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -44.94999945163727,
+              -0.9999999776482582,
+              37.99999952316284
+            ],
+            [
+              -42.44999885559082,
+              0.9999999776482582,
+              41.999998688697815
+            ]
+          ]
+        },
+        {
+          "name": "GlassClamp_-1_160.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -44.94999945163727,
+              -0.9999999776482582,
+              158.00000429153442
+            ],
+            [
+              -42.44999885559082,
+              0.9999999776482582,
+              162.00000047683716
+            ]
+          ]
+        },
+        {
+          "name": "GlassSeal_1",
+          "role": "Rubber",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              43.74000132083893,
+              0.2199999988079071,
+              1.0999999940395355
+            ],
+            [
+              44.06000077724457,
+              0.4000000189989805,
+              198.89999628067017
+            ]
+          ]
+        },
+        {
+          "name": "GlassClamp_1_40.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              42.44999885559082,
+              -0.9999999776482582,
+              37.99999952316284
+            ],
+            [
+              44.94999945163727,
+              0.9999999776482582,
+              41.999998688697815
+            ]
+          ]
+        },
+        {
+          "name": "GlassClamp_1_160.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              42.44999885559082,
+              -0.9999999776482582,
+              158.00000429153442
+            ],
+            [
+              44.94999945163727,
+              0.9999999776482582,
+              162.00000047683716
+            ]
+          ]
+        },
+        {
+          "name": "HorizontalGlassSeal_1.15",
+          "role": "Rubber",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -43.90000104904175,
+              0.2199999988079071,
+              0.9499999694526196
+            ],
+            [
+              43.90000104904175,
+              0.4000000189989805,
+              1.3500000350177288
+            ]
+          ]
+        },
+        {
+          "name": "HorizontalGlassSeal_198.85",
+          "role": "Rubber",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              -43.90000104904175,
+              0.2199999988079071,
+              198.65000247955322
+            ],
+            [
+              43.90000104904175,
+              0.4000000189989805,
+              199.0499973297119
+            ]
+          ]
+        },
+        {
+          "name": "ShowerHandleStandoff_88.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              27.399998903274536,
+              0.24999999441206455,
+              87.40000128746033
+            ],
+            [
+              28.600001335144043,
+              2.250000089406967,
+              88.59999775886536
+            ]
+          ]
+        },
+        {
+          "name": "ShowerHandleStandoff_112.0",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              27.399998903274536,
+              0.24999999441206455,
+              111.39999628067017
+            ],
+            [
+              28.600001335144043,
+              2.250000089406967,
+              112.60000467300415
+            ]
+          ]
+        },
+        {
+          "name": "ShowerHandleGrip",
+          "role": "Chrome",
+          "source_retained": false,
+          "bounds_cm": [
+            [
+              27.549999952316284,
+              1.7500000074505806,
+              87.99999952316284
+            ],
+            [
+              28.450000286102295,
+              2.6499999687075615,
+              112.00000047683716
+            ]
+          ]
+        }
+      ],
+      "maximum_local_protrusion_cm": [
+        0.0,
+        2.1499960348010063,
+        0.0
+      ],
+      "checks": [
+        {
+          "name": "ClampIntoGlass_-1_40.0",
+          "passed": true,
+          "point_cm": [
+            -43.5,
+            0.0,
+            40.0
+          ],
+          "inside_parts": {
+            "GlassClamp_-1_40.0": true,
+            "ShowerScreen_RetainedSection0": true
+          }
+        },
+        {
+          "name": "ClampIntoGlass_-1_160.0",
+          "passed": true,
+          "point_cm": [
+            -43.5,
+            0.0,
+            160.0
+          ],
+          "inside_parts": {
+            "GlassClamp_-1_160.0": true,
+            "ShowerScreen_RetainedSection0": true
+          }
+        },
+        {
+          "name": "ClampIntoGlass_1_40.0",
+          "passed": true,
+          "point_cm": [
+            43.5,
+            0.0,
+            40.0
+          ],
+          "inside_parts": {
+            "GlassClamp_1_40.0": true,
+            "ShowerScreen_RetainedSection0": true
+          }
+        },
+        {
+          "name": "ClampIntoGlass_1_160.0",
+          "passed": true,
+          "point_cm": [
+            43.5,
+            0.0,
+            160.0
+          ],
+          "inside_parts": {
+            "GlassClamp_1_160.0": true,
+            "ShowerScreen_RetainedSection0": true
+          }
+        },
+        {
+          "name": "HandleMountIntoGlass_88.0",
+          "passed": true,
+          "point_cm": [
+            28.0,
+            0.28,
+            88.0
+          ],
+          "inside_parts": {
+            "ShowerHandleStandoff_88.0": true,
+            "ShowerScreen_RetainedSection0": true
+          }
+        },
+        {
+          "name": "HandleMountIntoGlass_112.0",
+          "passed": true,
+          "point_cm": [
+            28.0,
+            0.28,
+            112.0
+          ],
+          "inside_parts": {
+            "ShowerHandleStandoff_112.0": true,
+            "ShowerScreen_RetainedSection0": true
+          }
+        },
+        {
+          "name": "HandleGripIntoStandoff_88.0",
+          "passed": true,
+          "point_cm": [
+            28.0,
+            2.2,
+            88.2
+          ],
+          "inside_parts": {
+            "ShowerHandleStandoff_88.0": true,
+            "ShowerHandleGrip": true
+          }
+        },
+        {
+          "name": "HandleGripIntoStandoff_112.0",
+          "passed": true,
+          "point_cm": [
+            28.0,
+            2.2,
+            111.8
+          ],
+          "inside_parts": {
+            "ShowerHandleStandoff_112.0": true,
+            "ShowerHandleGrip": true
+          }
+        },
+        {
+          "name": "ShowerScreen_RetainedSection0:closed_surface",
+          "passed": true,
+          "role": "Glass"
+        },
+        {
+          "name": "ContinuousShowerFrame:closed_surface",
+          "passed": true,
+          "role": "DarkMetal"
+        },
+        {
+          "name": "GlassSeal_-1:closed_surface",
+          "passed": true,
+          "role": "Rubber"
+        },
+        {
+          "name": "GlassClamp_-1_40.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "GlassClamp_-1_160.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "GlassSeal_1:closed_surface",
+          "passed": true,
+          "role": "Rubber"
+        },
+        {
+          "name": "GlassClamp_1_40.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "GlassClamp_1_160.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "HorizontalGlassSeal_1.15:closed_surface",
+          "passed": true,
+          "role": "Rubber"
+        },
+        {
+          "name": "HorizontalGlassSeal_198.85:closed_surface",
+          "passed": true,
+          "role": "Rubber"
+        },
+        {
+          "name": "ShowerHandleStandoff_88.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerHandleStandoff_112.0:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "ShowerHandleGrip:closed_surface",
+          "passed": true,
+          "role": "Chrome"
+        },
+        {
+          "name": "NoHardwareProtrusionOverThreeCentimetres",
+          "passed": true,
+          "protrusion_cm": [
+            0.0,
+            2.1499960348010063,
+            0.0
+          ]
+        }
+      ],
+      "passed": true,
+      "design_notes": [
+        "Current glass and frame origin, opening width and height retained.",
+        "Real rubber glazing seals, screwed metal clamps and connected pull-handle standoffs.",
+        "Maximum pull-handle projection is 2.15 cm beyond original front plane; collision unchanged."
+      ],
+      "coordinates": "Local Blender metres = current native UE local centimetres / 100",
+      "export_axis_forward": "-Y",
+      "export_axis_up": "Z",
+      "export_apply_scale_options": "FBX_SCALE_NONE",
+      "collision": "NoCollision; preserve all existing independent collision actors",
+      "source_file_sha256": "715c9f7d90e5313a66a253edefbdd79b3cd892a2a24671f7046e919851e41f2d",
+      "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerScreen.geometry.json",
+      "geometry_recipe_sha256": "5f99463ec25659dd6d471b31e8124427f73684dbd904f97e1e23b0251fe58158",
+      "faces": 5056,
+      "material_slots": [
+        "Chrome",
+        "DarkMetal",
+        "Glass",
+        "Rubber"
+      ],
+      "closed_manifold": true,
+      "boundary_or_nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "tangent_space_verified": true,
+      "invalid_tangent_count": 0,
+      "uv_degenerate_triangle_count": 0,
+      "uv_mapping": "Every actual triangle projected from its geometric dominant physical plane; one UV unit = one metre",
+      "solid_uv_repair": {
+        "category": "Sanitary",
+        "key": "ShowerScreen",
+        "mesh_name": "SM_OTS_Real_ShowerScreen",
+        "exact_union": false,
+        "original_part_count": 13,
+        "exact_union_operations": 0,
+        "original_triangles": 5056,
+        "repaired_triangles": 5056,
+        "source_part_checks": [
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 10451.044831544883,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 572.1897025863497,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 11.076024586044007,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.673639642365906,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.673637722508786,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 11.076024586044063,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.673639847050133,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 19.67363651311311,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 6.2134082547900364,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 6.213240086127428,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 2.2466478318048164,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 2.246643109012932,
+            "filled_original_boundary_faces": 0
+          },
+          {
+            "nonmanifold_edges": 0,
+            "degenerate_faces": 0,
+            "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+            "signed_volume_cm3": 15.230274303023755,
+            "filled_original_boundary_faces": 0
+          }
+        ],
+        "unions": [],
+        "final_physical_topology": {
+          "nonmanifold_edges": 0,
+          "degenerate_faces": 0,
+          "geometric_area_method": "Double precision cross from actual vertex buffers; no float Newell cancellation",
+          "signed_volume_cm3": 11156.231350367321
+        },
+        "original_local_bounds_cm": [
+          [
+            -44.999998807907104,
+            -0.9999999776482582,
+            0.0
+          ],
+          [
+            44.999998807907104,
+            2.6499999687075615,
+            200.0
+          ]
+        ],
+        "local_bounds_cm": [
+          [
+            -44.999998807907104,
+            -0.9999999776482582,
+            0.0
+          ],
+          [
+            44.999998807907104,
+            2.6499997824430466,
+            200.0
+          ]
+        ],
+        "maximum_bounds_change_cm": 1.862645149230957e-07,
+        "material_roles": [
+          "Chrome",
+          "DarkMetal",
+          "Glass",
+          "Rubber"
+        ],
+        "material_slot_order_unchanged": true,
+        "uv_degenerate_triangle_count": 0,
+        "minimum_uv_area2": 8.180621607206673e-09,
+        "uv_projection_chart_offsets": {
+          "(0, 1)": [
+            0.0,
+            0.0
+          ],
+          "(0, 2)": [
+            0.000137,
+            0.000223
+          ],
+          "(1, 2)": [
+            0.000271,
+            0.000389
+          ]
+        },
+        "invalid_tangent_count": 0,
+        "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerScreen.fbx",
+        "fbx_sha256": "715c9f7d90e5313a66a253edefbdd79b3cd892a2a24671f7046e919851e41f2d",
+        "blender_mikk_zero_tangent_count": 0,
+        "explicit_geometric_uv_tangent_count": 15168,
+        "numerical_collinear_vertices_dissolved": 0,
+        "numerical_collinear_triangulation_edges_rotated": 0,
+        "numerical_material_boundary_collapses": 0,
+        "maximum_numerical_boundary_collapse_cm": 0.0,
+        "new_boolean_needle_edges_retessellated": 0,
+        "hard_geometric_normal_junction_faces": [],
+        "geometry_recipe_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerScreen.geometry.json",
+        "geometry_recipe_sha256": "5f99463ec25659dd6d471b31e8124427f73684dbd904f97e1e23b0251fe58158",
+        "passed": true
+      }
+    }
+  ],
+  "UV0": "Per-face physical metres; one tile per metre, cm/100",
+  "import_policy": "Root applies verified FBX axis correction if required; keep original actor poses and WPO overrides.",
+  "solid_uv_repair": {
+    "schema": "OldTownRealismSourceSolidUVRepairV1",
+    "source_manifest_sha256": "4923db4ea517cff76c88b083fe77bf45c361af29f65e596c595b805ac521cdfb",
+    "source_script_file": "D:\\UE\\Project\\HorrorGame\\Scripts\\RepairOldTownRealismSolidsBlender.py",
+    "source_script_sha256": "94821984e1cbc4146390c4fc68ee5cff7e1841b59c03ceb1433722f020d0c929",
+    "variant_count": 4,
+    "exact_union_count": 0,
+    "closed_meshes_verified": true,
+    "material_slots_unchanged": true,
+    "all_uv_degenerate_triangle_counts_zero": true,
+    "maximum_bounds_change_cm": 1.862645149230957e-07
+  },
+  "total_variant_vertices": 27208,
+  "total_variant_triangles": 54212,
+  "closed_meshes_verified": true
+}

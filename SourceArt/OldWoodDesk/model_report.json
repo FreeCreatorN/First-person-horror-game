@@ -1,0 +1,52 @@
+{
+  "tabletop_size_cm": [
+    120,
+    64,
+    77
+  ],
+  "parts": {
+    "SM_OldWoodDesk_Base": {
+      "triangles": 9684,
+      "dimensions_cm": [
+        119.99999284744263,
+        63.999998569488525,
+        77.00852751731873
+      ],
+      "collision_hulls": 17,
+      "non_manifold_edges": 0,
+      "material_slots": [
+        "M_OldDesk_Wood",
+        "M_OldDesk_Endgrain",
+        "M_OldDesk_Iron"
+      ],
+      "uv_channels": 1
+    },
+    "SM_OldWoodDesk_Drawer": {
+      "triangles": 5568,
+      "dimensions_cm": [
+        62.40000128746033,
+        55.16999959945679,
+        12.39999532699585
+      ],
+      "collision_hulls": 6,
+      "non_manifold_edges": 0,
+      "material_slots": [
+        "M_OldDesk_Wood",
+        "M_OldDesk_Endgrain",
+        "M_OldDesk_Iron"
+      ],
+      "uv_channels": 1
+    }
+  },
+  "assembly_offsets_cm": [
+    0,
+    0,
+    0
+  ],
+  "drawer_open_offset_ue_cm": [
+    0,
+    23,
+    0
+  ],
+  "material_coordinates": "stored vertex attributes; stable after joining and baking"
+}

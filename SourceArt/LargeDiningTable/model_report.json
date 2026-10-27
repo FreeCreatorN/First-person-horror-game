@@ -1,0 +1,210 @@
+{
+  "parts": {
+    "SM_LargeDiningTable": {
+      "dimensions_cm": [
+        239.99998569488525,
+        104.99999523162842,
+        76.01999640464783
+      ],
+      "triangles": 20272,
+      "collision_hulls": 11,
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Dining_Wood",
+        "M_Dining_Endgrain",
+        "M_Dining_Dark"
+      ]
+    }
+  },
+  "style": "eight-seat old solid wood dining table with breadboard top and turned legs",
+  "seats": 8,
+  "apron_clearance_cm": 64.8,
+  "long_side_clear_span_cm": 189.0,
+  "end_clear_span_cm": 65.0,
+  "joinery_contacts": [
+    {
+      "joint": "Turned leg into upper block",
+      "bounds_overlap_mm": [
+        100.0,
+        100.0,
+        8.0
+      ]
+    },
+    {
+      "joint": "Leg shoulder into tabletop",
+      "bounds_overlap_mm": [
+        100.0,
+        74.825,
+        6.0
+      ]
+    },
+    {
+      "joint": "Turned leg into upper block",
+      "bounds_overlap_mm": [
+        100.0,
+        100.0,
+        8.0
+      ]
+    },
+    {
+      "joint": "Leg shoulder into tabletop",
+      "bounds_overlap_mm": [
+        100.0,
+        74.825,
+        6.0
+      ]
+    },
+    {
+      "joint": "Turned leg into upper block",
+      "bounds_overlap_mm": [
+        100.0,
+        100.0,
+        8.0
+      ]
+    },
+    {
+      "joint": "Leg shoulder into tabletop",
+      "bounds_overlap_mm": [
+        100.0,
+        74.825,
+        6.0
+      ]
+    },
+    {
+      "joint": "Turned leg into upper block",
+      "bounds_overlap_mm": [
+        100.0,
+        100.0,
+        8.0
+      ]
+    },
+    {
+      "joint": "Leg shoulder into tabletop",
+      "bounds_overlap_mm": [
+        100.0,
+        74.825,
+        6.0
+      ]
+    },
+    {
+      "joint": "Long apron tenon into leg",
+      "bounds_overlap_mm": [
+        2.5,
+        35.0,
+        72.0
+      ]
+    },
+    {
+      "joint": "Long apron tenon into leg",
+      "bounds_overlap_mm": [
+        2.5,
+        35.0,
+        72.0
+      ]
+    },
+    {
+      "joint": "Long apron into tabletop",
+      "bounds_overlap_mm": [
+        1895.0,
+        35.0,
+        4.0001
+      ]
+    },
+    {
+      "joint": "Long apron tenon into leg",
+      "bounds_overlap_mm": [
+        2.5,
+        35.0,
+        72.0
+      ]
+    },
+    {
+      "joint": "Long apron tenon into leg",
+      "bounds_overlap_mm": [
+        2.5,
+        35.0,
+        72.0
+      ]
+    },
+    {
+      "joint": "Long apron into tabletop",
+      "bounds_overlap_mm": [
+        1895.0,
+        35.0,
+        4.0001
+      ]
+    },
+    {
+      "joint": "End apron tenon into leg",
+      "bounds_overlap_mm": [
+        35.0,
+        2.5,
+        72.0
+      ]
+    },
+    {
+      "joint": "End apron tenon into leg",
+      "bounds_overlap_mm": [
+        35.0,
+        2.5,
+        72.0
+      ]
+    },
+    {
+      "joint": "End apron into tabletop",
+      "bounds_overlap_mm": [
+        35.0,
+        174.65,
+        4.0001
+      ]
+    },
+    {
+      "joint": "End apron tenon into leg",
+      "bounds_overlap_mm": [
+        35.0,
+        2.5,
+        72.0
+      ]
+    },
+    {
+      "joint": "End apron tenon into leg",
+      "bounds_overlap_mm": [
+        35.0,
+        2.5,
+        72.0
+      ]
+    },
+    {
+      "joint": "End apron into tabletop",
+      "bounds_overlap_mm": [
+        35.0,
+        174.65,
+        4.0001
+      ]
+    },
+    {
+      "joint": "Batten into tabletop",
+      "bounds_overlap_mm": [
+        52.0,
+        174.65,
+        3.0
+      ]
+    },
+    {
+      "joint": "Batten into tabletop",
+      "bounds_overlap_mm": [
+        52.0,
+        174.65,
+        3.0
+      ]
+    }
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "exported_lights": 0,
+  "exported_cameras": 0
+}

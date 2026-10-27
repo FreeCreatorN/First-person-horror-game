@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "selected_assets": [
+    "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Base",
+    "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Drawer"
+  ],
+  "preserved_existing_assets": true,
+  "assets": {
+    "SM_OldWoodDesk_Base": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Base.SM_OldWoodDesk_Base",
+      "dimensions_cm": [
+        120.0,
+        64.00000381469727,
+        77.00852966308594
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        1.9073486328125e-06,
+        38.50426483154297
+      ],
+      "convex_collision_hulls": 17,
+      "expected_collision_hulls": 17,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_OldDesk_Wood",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_OldDesk_Endgrain",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_OldDesk_Iron",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base"
+        }
+      ],
+      "assembly_offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "SM_OldWoodDesk_Drawer": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Drawer.SM_OldWoodDesk_Drawer",
+      "dimensions_cm": [
+        62.400001525878906,
+        55.170000076293945,
+        12.39999771118164
+      ],
+      "bounds_origin_cm": [
+        1.9073486328125e-06,
+        6.014998435974121,
+        65.60000419616699
+      ],
+      "convex_collision_hulls": 6,
+      "expected_collision_hulls": 6,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_OldDesk_Wood",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_OldDesk_Endgrain",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_OldDesk_Iron",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer"
+        }
+      ],
+      "assembly_offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "texture_count": 6,
+  "material_count": 2
+}

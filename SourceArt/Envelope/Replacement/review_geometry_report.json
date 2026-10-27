@@ -1,0 +1,314 @@
+{
+  "success": true,
+  "hinge": {
+    "hinge_front_surface_intersections": 69,
+    "hinge_open_flap_surface_intersections": 88,
+    "source_open_flap": "Large V sealing flap.002"
+  },
+  "open_ucx_count": 33,
+  "paper_collision_pose_offset_m": [
+    0,
+    0,
+    0.0013
+  ],
+  "minimum_ucx_aabb_separation_mm": 0.2999999560415745,
+  "collision_checks": [
+    {
+      "name": "UCX_SM_Envelope_Open_00",
+      "aabb_separation_mm": 0.2999999560415745,
+      "axis_gaps_mm": [
+        0,
+        0,
+        0.2999999560415745
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_20",
+      "aabb_separation_mm": 9.271501003849822,
+      "axis_gaps_mm": [
+        6.499983370304108,
+        6.601698696613312,
+        0.35849877167493105
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_29",
+      "aabb_separation_mm": 5.499981343746185,
+      "axis_gaps_mm": [
+        0,
+        5.499981343746185,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_12",
+      "aabb_separation_mm": 5.499988794326782,
+      "axis_gaps_mm": [
+        5.499988794326782,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_22",
+      "aabb_separation_mm": 6.682829582586751,
+      "axis_gaps_mm": [
+        4.49998676776886,
+        4.940681159496307,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_01",
+      "aabb_separation_mm": 1.339999958872795,
+      "axis_gaps_mm": [
+        0,
+        0,
+        1.339999958872795
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_02",
+      "aabb_separation_mm": 6.509875987591199,
+      "axis_gaps_mm": [
+        6.499983370304108,
+        0,
+        0.3587499959394336
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_05",
+      "aabb_separation_mm": 3.4999847412109375,
+      "axis_gaps_mm": [
+        3.4999847412109375,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_13",
+      "aabb_separation_mm": 4.49998676776886,
+      "axis_gaps_mm": [
+        4.49998676776886,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_21",
+      "aabb_separation_mm": 7.972233684695993,
+      "axis_gaps_mm": [
+        5.499988794326782,
+        5.77118992805481,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_14",
+      "aabb_separation_mm": 3.4999847412109375,
+      "axis_gaps_mm": [
+        3.4999847412109375,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_31",
+      "aabb_separation_mm": 3.7822654600690093,
+      "axis_gaps_mm": [
+        0,
+        3.4999847412109375,
+        1.4337499160319567
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_30",
+      "aabb_separation_mm": 4.49998676776886,
+      "axis_gaps_mm": [
+        0,
+        4.49998676776886,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_06",
+      "aabb_separation_mm": 8.522244580152352,
+      "axis_gaps_mm": [
+        5.499988794326782,
+        6.500005722045898,
+        0.3587499959394336
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_15",
+      "aabb_separation_mm": 8.519835005364573,
+      "axis_gaps_mm": [
+        5.500003695487976,
+        6.499983370304108,
+        0.29624998569488525
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_23",
+      "aabb_separation_mm": 5.398460859243123,
+      "axis_gaps_mm": [
+        3.4999847412109375,
+        4.110168665647507,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_32",
+      "aabb_separation_mm": 7.218647748231888,
+      "axis_gaps_mm": [
+        0,
+        7.218647748231888,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_07",
+      "aabb_separation_mm": 6.186898372720273,
+      "axis_gaps_mm": [
+        2.833321690559387,
+        5.499999970197678,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_24",
+      "aabb_separation_mm": 9.271495535283428,
+      "axis_gaps_mm": [
+        6.4999982714653015,
+        6.601676344871521,
+        0.35849877167493105
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_08",
+      "aabb_separation_mm": 4.503086582742117,
+      "axis_gaps_mm": [
+        0.1666545867919922,
+        4.500001668930054,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_16",
+      "aabb_separation_mm": 6.1868886383657244,
+      "axis_gaps_mm": [
+        2.833336591720581,
+        5.499981343746185,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_25",
+      "aabb_separation_mm": 7.972227784268841,
+      "axis_gaps_mm": [
+        5.500003695487976,
+        5.771167576313019,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_03",
+      "aabb_separation_mm": 5.499988794326782,
+      "axis_gaps_mm": [
+        5.499988794326782,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_09",
+      "aabb_separation_mm": 3.4999996423721313,
+      "axis_gaps_mm": [
+        0,
+        3.4999996423721313,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_17",
+      "aabb_separation_mm": 4.503068520554533,
+      "axis_gaps_mm": [
+        0.16666948795318604,
+        4.499983042478561,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_26",
+      "aabb_separation_mm": 6.68282309170425,
+      "axis_gaps_mm": [
+        4.500001668930054,
+        4.940658807754517,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_04",
+      "aabb_separation_mm": 4.49998676776886,
+      "axis_gaps_mm": [
+        4.49998676776886,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_10",
+      "aabb_separation_mm": 1.7399999778717756,
+      "axis_gaps_mm": [
+        0,
+        0,
+        1.7399999778717756
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_18",
+      "aabb_separation_mm": 3.499981015920639,
+      "axis_gaps_mm": [
+        0,
+        3.499981015920639,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_27",
+      "aabb_separation_mm": 5.398459175017077,
+      "axis_gaps_mm": [
+        3.4999996423721313,
+        4.110153764486313,
+        0
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_11",
+      "aabb_separation_mm": 6.506730966334336,
+      "axis_gaps_mm": [
+        6.499983370304108,
+        0,
+        0.29624998569488525
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_19",
+      "aabb_separation_mm": 2.1399997640401125,
+      "axis_gaps_mm": [
+        0,
+        0,
+        2.1399997640401125
+      ]
+    },
+    {
+      "name": "UCX_SM_Envelope_Open_28",
+      "aabb_separation_mm": 6.5041850269847785,
+      "axis_gaps_mm": [
+        0,
+        6.499983370304108,
+        0.23374997545033693
+      ]
+    }
+  ]
+}

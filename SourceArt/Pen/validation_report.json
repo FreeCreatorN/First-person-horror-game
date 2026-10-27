@@ -1,0 +1,295 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_Pen": {
+      "vertices": 9798,
+      "faces": 19544,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 19544,
+      "bounds_min_m": [
+        -0.0055599999614059925,
+        -0.008290000259876251,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.0055599999614059925,
+        0.0055599999614059925,
+        0.1421000063419342
+      ],
+      "dimensions_m": [
+        0.011119999922811985,
+        0.013850000221282244,
+        0.1421000063419342
+      ],
+      "source_materials": [
+        "M_Pen_PolishedEdge",
+        "M_Pen_TungstenBall",
+        "M_Pen_BrushedNickel",
+        "M_Pen_RecessedSeams",
+        "M_Pen_DeepGreenEnamel"
+      ]
+    }
+  },
+  "uv": {
+    "SM_Pen": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.002652805531397462,
+        0.0026527021545916796
+      ],
+      "max": [
+        0.9945525527000427,
+        0.9973471760749817
+      ],
+      "triangle_uv_area_sum": 0.7201113061654484,
+      "zero_area_triangles": 0
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_Pen": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\SM_Pen.fbx",
+      "sha256": "f85988a13070be4984b7dd882fd9ed130b216f3c7cbf8b5d41453da783bacc10",
+      "imported_mesh": "SM_Pen.001",
+      "geometry": {
+        "vertices": 9798,
+        "faces": 19544,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 19544,
+        "bounds_min_m": [
+          -0.0055599999614059925,
+          -0.008290000259876251,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.0055599999614059925,
+          0.0055599999614059925,
+          0.1421000063419342
+        ],
+        "dimensions_m": [
+          0.011119999922811985,
+          0.013850000221282244,
+          0.1421000063419342
+        ]
+      },
+      "ucx_count": 2,
+      "expected_ucx_count": 2,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Pen_PolishedEdge.001",
+        "M_Pen_TungstenBall.001",
+        "M_Pen_BrushedNickel.001",
+        "M_Pen_RecessedSeams.001",
+        "M_Pen_DeepGreenEnamel.001"
+      ]
+    }
+  },
+  "bakes": {
+    "T_Pen_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 127503,
+      "sha256": "c8e9ebe38a56c9ba3dfab266cc35f3efa5f1c32e5dd98604a36f1202575bf54a",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.7960785031318665,
+        0.8078432083129883,
+        0.8196079134941101
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.5526853000000074
+    },
+    "T_Pen_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 517645,
+      "sha256": "425cecf8e9eb0fcd63c204d61764c56eadd7c5774ffac89c6cbdc87155273a10",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.46666669845581055,
+        0.46666669845581055,
+        0.46666669845581055
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.4841607999999269
+    },
+    "T_Pen_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 112163,
+      "sha256": "bddf0cea871506b7046269b9a21af87d35f889f009bd1e192a5458d56a3c00fd",
+      "sample_min_rgb": [
+        0.46666669845581055,
+        0.4862745404243469,
+        0.9960784912109375
+      ],
+      "sample_max_rgb": [
+        0.5568627715110779,
+        0.5215686559677124,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.414427299999943
+    },
+    "T_Pen_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_Metallic.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 44009,
+      "sha256": "23a1d15637d302319701f9207602dee3df05863306ea2f6c0de1706d6e762180",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.3421346000000085
+    }
+  },
+  "baked_materials": {
+    "SM_Pen": {
+      "name": "T_Pen_Baked",
+      "emission_connected": false,
+      "emission_strength": 0.0,
+      "subsurface_weight": 0.0,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_Pen_BaseColor",
+        "Roughness": "T_Pen_Roughness",
+        "Normal": "T_Pen_Normal",
+        "Metallic": "T_Pen_Metallic"
+      }
+    }
+  },
+  "renders": {
+    "Pen_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen_Preview.png",
+      "bytes": 1373471,
+      "sha256": "83ab9b0d406a869f3400520d06cbb7c79ef51a3e1ce96ca390faa81ec0073258",
+      "resolution": [
+        1400,
+        1000
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 32,
+      "visible_assets": [
+        "SM_Pen"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 15.32573590000004
+    },
+    "Pen_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen_Detail.png",
+      "bytes": 1440317,
+      "sha256": "61a4f8d5d65b09caa1bfa9ed7b6df5d05767a714b8374135357a1a8f6055e646",
+      "resolution": [
+        1400,
+        1000
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 32,
+      "visible_assets": [
+        "SM_Pen"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 17.07914040000003
+    },
+    "Pen_TipDetail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen_TipDetail.png",
+      "bytes": 1399371,
+      "sha256": "589c7cdd922eac6cdee1332b937990a2d966d64ed202e13dbe9deaab6f682815",
+      "resolution": [
+        1400,
+        1000
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 32,
+      "visible_assets": [
+        "SM_Pen"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 19.118699799999945
+    }
+  },
+  "settings": {
+    "color_resolution": 2048,
+    "data_resolution": 1024,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "channels": [
+      "BaseColor",
+      "Roughness",
+      "Normal",
+      "Metallic"
+    ],
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 55.757082399999945,
+  "assembly_contact": {
+    "cross_object_zero_overlap_required": false,
+    "reason": "Single joined mesh; nib, barrel, clip, and click-button meet intentionally."
+  },
+  "display_materials": {
+    "SM_Pen": [
+      "T_Pen_Baked",
+      "T_Pen_Baked",
+      "T_Pen_Baked",
+      "T_Pen_Baked",
+      "T_Pen_Baked"
+    ]
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen.blend",
+  "final_visibility": {
+    "canonical_hidden": true,
+    "display_visible": true,
+    "source_hidden": true
+  }
+}

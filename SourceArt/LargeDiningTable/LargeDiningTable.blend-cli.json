@@ -1,0 +1,251 @@
+{
+  "cameras": [
+    {
+      "clip_end": 1000.0,
+      "clip_start": 0.01,
+      "dof_aperture": 2.8,
+      "dof_enabled": false,
+      "dof_focus_distance": 10.0,
+      "focal_length": 50.0,
+      "id": 0,
+      "is_active": true,
+      "location": [
+        3.1,
+        -3.5,
+        2.4
+      ],
+      "name": "DiningCamera",
+      "rotation": [
+        65.0,
+        0.0,
+        40.0
+      ],
+      "sensor_width": 36.0,
+      "type": "PERSP"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "id": 0,
+      "location": [
+        0.0,
+        -2.0,
+        3.0
+      ],
+      "name": "PreviewKey",
+      "power": 400.0,
+      "rotation": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "shape": "RECTANGLE",
+      "size": 1.0,
+      "size_y": 1.0,
+      "type": "AREA"
+    }
+  ],
+  "materials": [],
+  "metadata": {
+    "created": "2026-10-20T11:32:42.739763",
+    "modified": "2026-10-20T11:32:44.287659",
+    "software": "blender-cli 1.0"
+  },
+  "name": "LargeDiningTable",
+  "objects": [
+    {
+      "id": 0,
+      "keyframes": [],
+      "location": [
+        0.0,
+        0.0,
+        0.738
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "LongDiningTop",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.2,
+        0.525,
+        0.022
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 1,
+      "keyframes": [],
+      "location": [
+        -0.995,
+        -0.375,
+        0.36
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "DiningLeg",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.05,
+        0.05,
+        0.36
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "keyframes": [],
+      "location": [
+        -0.995,
+        0.375,
+        0.36
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "DiningLeg.001",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.05,
+        0.05,
+        0.36
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "keyframes": [],
+      "location": [
+        0.995,
+        -0.375,
+        0.36
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "DiningLeg.002",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.05,
+        0.05,
+        0.36
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "keyframes": [],
+      "location": [
+        0.995,
+        0.375,
+        0.36
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "DiningLeg.003",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.05,
+        0.05,
+        0.36
+      ],
+      "type": "MESH",
+      "visible": true
+    }
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/",
+    "resolution_percentage": 100,
+    "resolution_x": 1200,
+    "resolution_y": 800,
+    "samples": 24,
+    "use_denoising": true
+  },
+  "scene": {
+    "fps": 24,
+    "frame_current": 1,
+    "frame_end": 250,
+    "frame_start": 1,
+    "unit_scale": 1.0,
+    "unit_system": "metric"
+  },
+  "version": "1.0",
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "hdri_path": null,
+    "hdri_strength": 1.0,
+    "use_hdri": false
+  }
+}

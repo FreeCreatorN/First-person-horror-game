@@ -1,0 +1,251 @@
+{
+  "cameras": [
+    {
+      "clip_end": 1000.0,
+      "clip_start": 0.01,
+      "dof_aperture": 2.8,
+      "dof_enabled": false,
+      "dof_focus_distance": 10.0,
+      "focal_length": 50.0,
+      "id": 0,
+      "is_active": true,
+      "location": [
+        1.5,
+        -1.9,
+        1.35
+      ],
+      "name": "Camera_Desk",
+      "rotation": [
+        70.0,
+        0.0,
+        38.0
+      ],
+      "sensor_width": 36.0,
+      "type": "PERSP"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "id": 0,
+      "location": [
+        0.5,
+        -1.5,
+        2.6
+      ],
+      "name": "Preview_Key",
+      "power": 180.0,
+      "rotation": [
+        32.0,
+        0.0,
+        20.0
+      ],
+      "shape": "RECTANGLE",
+      "size": 1.0,
+      "size_y": 1.0,
+      "type": "AREA"
+    }
+  ],
+  "materials": [],
+  "metadata": {
+    "created": "2026-10-19T21:52:31.931592",
+    "modified": "2026-10-19T21:52:33.883201",
+    "software": "blender-cli 1.0"
+  },
+  "name": "OldWoodDesk",
+  "objects": [
+    {
+      "id": 0,
+      "keyframes": [],
+      "location": [
+        0.0,
+        0.0,
+        0.752
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Tabletop",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.6,
+        0.32,
+        0.018
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 1,
+      "keyframes": [],
+      "location": [
+        -0.505,
+        -0.245,
+        0.367
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Leg",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0325,
+        0.0325,
+        0.367
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "keyframes": [],
+      "location": [
+        -0.505,
+        0.245,
+        0.367
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Leg.001",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0325,
+        0.0325,
+        0.367
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "keyframes": [],
+      "location": [
+        0.505,
+        -0.245,
+        0.367
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Leg.002",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0325,
+        0.0325,
+        0.367
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "keyframes": [],
+      "location": [
+        0.505,
+        0.245,
+        0.367
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Leg.003",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0325,
+        0.0325,
+        0.367
+      ],
+      "type": "MESH",
+      "visible": true
+    }
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/",
+    "resolution_percentage": 100,
+    "resolution_x": 1000,
+    "resolution_y": 800,
+    "samples": 24,
+    "use_denoising": true
+  },
+  "scene": {
+    "fps": 24,
+    "frame_current": 1,
+    "frame_end": 250,
+    "frame_start": 1,
+    "unit_scale": 1.0,
+    "unit_system": "metric"
+  },
+  "version": "1.0",
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "hdri_path": null,
+    "hdri_strength": 1.0,
+    "use_hdri": false
+  }
+}

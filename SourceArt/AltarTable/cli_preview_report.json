@@ -1,0 +1,71 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261019T142528Z_123c1098_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-10-19T14:25:32.085724Z",
+  "cache_key": "sha256:123c1098fa3a332543784e349bb20ede76c8045e043976137a97791953d57016",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\AltarTable.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\AltarTable.blend-cli.json",
+    "project_name": "AltarTable.blend-cli.json",
+    "project_fingerprint": "sha256:6079ad325d0b93fc322f3dd6615f09d6053758ef435422dd697487cd56a85c28"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 142741,
+      "width": 600,
+      "height": 400,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 163815,
+      "width": 600,
+      "height": 400,
+      "preset": "workbench",
+      "blender_method": "blender-headless"
+    }
+  ],
+  "context": {
+    "frame_range": "1-250",
+    "fps": 24,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 6,
+    "material_count": 0,
+    "camera_count": 1,
+    "light_count": 1,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ],
+  "_manifest_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\CLI_Previews\\blender\\quick\\20261019T142528Z_123c1098_quick\\manifest.json",
+  "_bundle_dir": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\CLI_Previews\\blender\\quick\\20261019T142528Z_123c1098_quick",
+  "_summary_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\AltarTable\\CLI_Previews\\blender\\quick\\20261019T142528Z_123c1098_quick\\summary.json",
+  "cached": false
+}

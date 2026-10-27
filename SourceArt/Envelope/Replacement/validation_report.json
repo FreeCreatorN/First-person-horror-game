@@ -1,0 +1,649 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_Envelope_Closed": {
+      "vertices": 5974,
+      "faces": 11916,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 11916,
+      "bounds_min_m": [
+        -0.10999999940395355,
+        -0.054999999701976776,
+        -4.773028194904327e-09
+      ],
+      "bounds_max_m": [
+        0.10999999940395355,
+        0.05530000105500221,
+        0.0027000000700354576
+      ],
+      "dimensions_m": [
+        0.2199999988079071,
+        0.11030000075697899,
+        0.0027000048430636525
+      ],
+      "source_materials": [
+        "M_Kraft_Inner",
+        "M_Kraft_Outer",
+        "M_Kraft_Edge",
+        "M_Kraft_Gum"
+      ],
+      "shader_attributes": {
+        "PaperCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 5974
+        },
+        "PaperTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 5974
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 5974
+        }
+      }
+    },
+    "SM_Envelope_Open": {
+      "vertices": 6170,
+      "faces": 12308,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 12308,
+      "bounds_min_m": [
+        -0.10999999940395355,
+        -0.054999999701976776,
+        -4.773028194904327e-09
+      ],
+      "bounds_max_m": [
+        0.10999999940395355,
+        0.11648984253406525,
+        0.05049177259206772
+      ],
+      "dimensions_m": [
+        0.2199999988079071,
+        0.17148984223604202,
+        0.05049177736509591
+      ],
+      "source_materials": [
+        "M_Kraft_Inner",
+        "M_Kraft_Outer",
+        "M_Kraft_Edge",
+        "M_Kraft_Gum"
+      ],
+      "shader_attributes": {
+        "PaperCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 6170
+        },
+        "PaperTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 6170
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 6170
+        }
+      }
+    },
+    "SM_LetterPaper": {
+      "vertices": 794,
+      "faces": 1584,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 1584,
+      "bounds_min_m": [
+        -0.10249999910593033,
+        -0.04749999940395355,
+        3.688100714584197e-13
+      ],
+      "bounds_max_m": [
+        0.10249999910593033,
+        0.04749999940395355,
+        0.0002664532221388072
+      ],
+      "dimensions_m": [
+        0.20499999821186066,
+        0.0949999988079071,
+        0.0002664532217699971
+      ],
+      "source_materials": [
+        "M_Letter_Paper"
+      ],
+      "shader_attributes": {
+        "PaperCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 794
+        },
+        "PaperTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 794
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 794
+        }
+      }
+    }
+  },
+  "uv": {
+    "SM_Envelope_Closed": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.001982755260542035,
+        0.0019827375654131174
+      ],
+      "max": [
+        0.8515591025352478,
+        0.9980172514915466
+      ],
+      "triangle_uv_area_sum": 0.4976768063612005,
+      "zero_area_triangles": 0
+    },
+    "SM_Envelope_Open": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.002228866331279278,
+        0.002228835830464959
+      ],
+      "max": [
+        0.9977710247039795,
+        0.9451499581336975
+      ],
+      "triangle_uv_area_sum": 0.4354046724121996,
+      "zero_area_triangles": 0
+    },
+    "SM_LetterPaper": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.0008640338201075792,
+        0.0008640317828394473
+      ],
+      "max": [
+        0.9347392320632935,
+        0.9991359710693359
+      ],
+      "triangle_uv_area_sum": 0.92530448292033,
+      "zero_area_triangles": 0
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_Envelope_Closed": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\SM_Envelope_Closed.fbx",
+      "sha256": "3a1536f4cd225fcce617c63f04d3ede8e0cefd469bdc667f29297f97a36b37d5",
+      "imported_mesh": "SM_Envelope_Closed.001",
+      "geometry": {
+        "vertices": 5974,
+        "faces": 11916,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 11916,
+        "bounds_min_m": [
+          -0.11000000685453415,
+          -0.05500001087784767,
+          -4.773028194904327e-09
+        ],
+        "bounds_max_m": [
+          0.11000000685453415,
+          0.05530001223087311,
+          0.0027000000700354576
+        ],
+        "dimensions_m": [
+          0.2200000137090683,
+          0.11030002310872078,
+          0.0027000048430636525
+        ]
+      },
+      "ucx_count": 1,
+      "expected_ucx_count": 1,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Kraft_Inner.001",
+        "M_Kraft_Outer.001",
+        "M_Kraft_Edge.001",
+        "M_Kraft_Gum.001"
+      ]
+    },
+    "SM_Envelope_Open": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\SM_Envelope_Open.fbx",
+      "sha256": "59eebb32609a3365a6651bafba47e86d52ed55abf65a5addf009c52587ba52e2",
+      "imported_mesh": "SM_Envelope_Open.001",
+      "geometry": {
+        "vertices": 6170,
+        "faces": 12308,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 12308,
+        "bounds_min_m": [
+          -0.11000000685453415,
+          -0.05500001087784767,
+          -4.773028194904327e-09
+        ],
+        "bounds_max_m": [
+          0.11000000685453415,
+          0.11648984253406525,
+          0.05049177259206772
+        ],
+        "dimensions_m": [
+          0.2200000137090683,
+          0.17148985341191292,
+          0.05049177736509591
+        ]
+      },
+      "ucx_count": 33,
+      "expected_ucx_count": 33,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Kraft_Inner.001",
+        "M_Kraft_Outer.001",
+        "M_Kraft_Edge.001",
+        "M_Kraft_Gum.001"
+      ]
+    },
+    "SM_LetterPaper": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\SM_LetterPaper.fbx",
+      "sha256": "9194c6a3ef8542e1077248ae30b4aa20c6639b190e60496818d9ff467061dd34",
+      "imported_mesh": "SM_LetterPaper.001",
+      "geometry": {
+        "vertices": 794,
+        "faces": 1584,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 1584,
+        "bounds_min_m": [
+          -0.10250000655651093,
+          -0.04750000685453415,
+          3.688100714584197e-13
+        ],
+        "bounds_max_m": [
+          0.10250000655651093,
+          0.04750000685453415,
+          0.0002664532221388072
+        ],
+        "dimensions_m": [
+          0.20500001311302185,
+          0.0950000137090683,
+          0.0002664532217699971
+        ]
+      },
+      "ucx_count": 1,
+      "expected_ucx_count": 1,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Letter_Paper.001"
+      ]
+    }
+  },
+  "bakes": {
+    "T_EnvelopeClosed_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeClosed_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 1508621,
+      "sha256": "4ed65df0dd858dc06bb891386cd8dc4d9d5c40e6f81171fc8e54f5780b6701ca",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.6078431606292725,
+        0.44705885648727417,
+        0.27450981736183167
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.8807041000000027
+    },
+    "T_EnvelopeClosed_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeClosed_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 285859,
+      "sha256": "f4be6776478f6239a3d1bda227e4f90ceff7e9ea0de32f8ad25665088040d00c",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.9490196704864502,
+        0.9490196704864502,
+        0.9490196704864502
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.44553750000341097
+    },
+    "T_EnvelopeClosed_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeClosed_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 330514,
+      "sha256": "b6ad5b844ca9dad0d2221980c756f2652e189342b13962d4381faafdd5f7b77e",
+      "sample_min_rgb": [
+        0.4274510145187378,
+        0.41568630933761597,
+        0.9764706492424011
+      ],
+      "sample_max_rgb": [
+        0.5686274766921997,
+        0.6431372761726379,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.2790478999995685
+    },
+    "T_EnvelopeOpen_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeOpen_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 1489158,
+      "sha256": "02b22194e590832e3f173d187f34deaf75cc2bc256ceabb55e0c9607cce1722a",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.6117647290229797,
+        0.45098042488098145,
+        0.27843138575553894
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.5502415000009933
+    },
+    "T_EnvelopeOpen_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeOpen_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 281521,
+      "sha256": "b2ab2e5cb45865c157c6331835a36015b883e2a84e53c2ab9bb5c689b4ee8a30",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.9568628072738647,
+        0.9568628072738647,
+        0.9568628072738647
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.4399654999979248
+    },
+    "T_EnvelopeOpen_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeOpen_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 318746,
+      "sha256": "78af05ac1a5d1e31fd27266667fb8c5fb3ed2b45dc525f63e69ac950ac59fc50",
+      "sample_min_rgb": [
+        0.41568630933761597,
+        0.3490196168422699,
+        0.9725490808486938
+      ],
+      "sample_max_rgb": [
+        0.5843137502670288,
+        0.6352941393852234,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.1257509999995818
+    },
+    "T_LetterPaper_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_LetterPaper_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 398498,
+      "sha256": "b9f7f6e512b93c2e896754d5514d67a6a18bf73204251218662ac02a5fa36ef1",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.917647123336792,
+        0.917647123336792,
+        0.9098039865493774
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.9456528999980947
+    },
+    "T_LetterPaper_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_LetterPaper_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 302756,
+      "sha256": "01e513710d0ab9606ff3e43d81467eae04e9c52cfd86775672944da721f0be2f",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.874509871006012,
+        0.874509871006012,
+        0.874509871006012
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.5454643999983091
+    },
+    "T_LetterPaper_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_LetterPaper_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 19344,
+      "sha256": "69cdf3ca1ac3799c98348062b06994e21123626191173f28ac3bb362142e76a7",
+      "sample_min_rgb": [
+        0.501960813999176,
+        0.501960813999176,
+        1.0
+      ],
+      "sample_max_rgb": [
+        0.501960813999176,
+        0.501960813999176,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 2.0145941999981005
+    }
+  },
+  "baked_materials": {
+    "SM_Envelope_Closed": {
+      "name": "T_EnvelopeClosed_Baked",
+      "emission_connected": false,
+      "images": {
+        "BaseColor": "T_EnvelopeClosed_BaseColor",
+        "Roughness": "T_EnvelopeClosed_Roughness",
+        "Normal": "T_EnvelopeClosed_Normal"
+      }
+    },
+    "SM_Envelope_Open": {
+      "name": "T_EnvelopeOpen_Baked",
+      "emission_connected": false,
+      "images": {
+        "BaseColor": "T_EnvelopeOpen_BaseColor",
+        "Roughness": "T_EnvelopeOpen_Roughness",
+        "Normal": "T_EnvelopeOpen_Normal"
+      }
+    },
+    "SM_LetterPaper": {
+      "name": "T_LetterPaper_Baked",
+      "emission_connected": false,
+      "images": {
+        "BaseColor": "T_LetterPaper_BaseColor",
+        "Roughness": "T_LetterPaper_Roughness",
+        "Normal": "T_LetterPaper_Normal"
+      }
+    }
+  },
+  "renders": {
+    "EnvelopeSet_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeSet_Preview.png",
+      "bytes": 1955186,
+      "sha256": "71df905049e26f9146e8c998e5007ba73a9f76545ad36a8115a814d6093419bf",
+      "resolution": [
+        1800,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Envelope_Closed",
+        "SM_Envelope_Open",
+        "SM_LetterPaper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 25.661729299998115
+    },
+    "EnvelopeOpen_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeOpen_Preview.png",
+      "bytes": 1909957,
+      "sha256": "03b9cf0fa9c009cd61b2429e3f0c070ab01d989d6cbe421be1310c31f322418a",
+      "resolution": [
+        1800,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Envelope_Open",
+        "SM_LetterPaper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 30.087742499999877
+    },
+    "EnvelopeClosed_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeClosed_Preview.png",
+      "bytes": 1936199,
+      "sha256": "3ad0a22c34d0c113ac17d4fd20d2d45dd1c2468ad869eddf074645abe83055d8",
+      "resolution": [
+        1800,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Envelope_Closed"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 26.254648999998608
+    }
+  },
+  "settings": {
+    "color_resolution": 2048,
+    "data_resolution": 1024,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 93.93087559999913,
+  "paper_insertion": {
+    "paper_offset_blender_m": [
+      0.0,
+      0.0,
+      0.0013000000035390258
+    ],
+    "overlapping_triangle_pairs": 0,
+    "first_pairs": []
+  },
+  "display_materials": {
+    "SM_Envelope_Closed": [
+      "T_EnvelopeClosed_Baked",
+      "T_EnvelopeClosed_Baked",
+      "T_EnvelopeClosed_Baked",
+      "T_EnvelopeClosed_Baked"
+    ],
+    "SM_Envelope_Open": [
+      "T_EnvelopeOpen_Baked",
+      "T_EnvelopeOpen_Baked",
+      "T_EnvelopeOpen_Baked",
+      "T_EnvelopeOpen_Baked"
+    ],
+    "SM_LetterPaper": [
+      "T_LetterPaper_Baked"
+    ]
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeSet.blend",
+  "final_visibility": {
+    "canonical_hidden": true,
+    "display_visible": true,
+    "source_hidden": true
+  }
+}

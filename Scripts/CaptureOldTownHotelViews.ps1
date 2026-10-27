@@ -65,6 +65,14 @@ function Test-HotelCapture([string]$Camera, [datetime]$Since = [datetime]::MinVa
     if (-not (Test-Path -LiteralPath $capturePng) -or -not (Test-Path -LiteralPath $captureMeta)) { return $false }
     try {
         $captureMetadata = Get-Content -LiteralPath $captureMeta -Raw | ConvertFrom-Json
+        $expectedAssetProperties = @($hotelReport.new_asset_sha256.PSObject.Properties)
+        $capturedAssetProperties = @($captureMetadata.new_asset_sha256.PSObject.Properties)
+        if ($expectedAssetProperties.Count -ne $capturedAssetProperties.Count -or
+            $captureMetadata.appearance_assets_unchanged -ne $true) { return $false }
+        foreach ($captureAsset in $expectedAssetProperties) {
+            if ($captureMetadata.new_asset_sha256.PSObject.Properties[$captureAsset.Name].Value -ne $captureAsset.Value -or
+                $captureMetadata.asset_sha256_after_cleanup.PSObject.Properties[$captureAsset.Name].Value -ne $captureAsset.Value) { return $false }
+        }
         $captureImage = Get-Item -LiteralPath $capturePng
         $captureInfo = Get-Item -LiteralPath $captureMeta
         $captureHash = (Get-FileHash -LiteralPath $capturePng -Algorithm SHA256).Hash.ToLowerInvariant()
@@ -223,6 +231,7 @@ try {
                 lighting_mode=$Lighting; view_mode=$ViewMode; map_sha256=$hotelMapHash; owned_editor_pid=$hotelOwnedPid;
                 run_id=$hotelRunId; exit_code=$hotelOwnedProcess.ExitCode; forced_cleanup=$hotelForcedCleanup;
                 normal_exit=$hotelPidEvidence.normal_exit; lifecycle_status=$hotelPidEvidence.lifecycle_status;
+                new_asset_sha256=$hotelReport.new_asset_sha256;
                 path=$hotelPng; archive=(Join-Path $hotelArchive ($hotelCamera + '.png'))}
             Write-Output ($hotelCamera + ': captured=' + $hotelCaptured + ' lighting=' + $Lighting + ' helper_exit=' + $hotelOwnedProcess.ExitCode)
             if (-not $hotelCaptured) { $hotelBatchPassed = $false }

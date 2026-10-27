@@ -1,0 +1,295 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_Candle": {
+      "vertices": 17254,
+      "faces": 34484,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 34484,
+      "bounds_min_m": [
+        -0.05620000138878822,
+        -0.05620000138878822,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.05620000138878822,
+        0.05620000138878822,
+        0.15002785623073578
+      ],
+      "dimensions_m": [
+        0.11240000277757645,
+        0.11240000277757645,
+        0.15002785623073578
+      ],
+      "source_materials": [
+        "M_Candle_Wax",
+        "M_Candle_CooledWaxPool",
+        "M_Candle_AgedBrass",
+        "M_Candle_CharredWick",
+        "M_Candle_WickFiber"
+      ]
+    }
+  },
+  "uv": {
+    "SM_Candle": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.0018076935084536672,
+        0.001807674067094922
+      ],
+      "max": [
+        0.9690706729888916,
+        0.9981922507286072
+      ],
+      "triangle_uv_area_sum": 0.4024582247019076,
+      "zero_area_triangles": 0
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_Candle": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\SM_Candle.fbx",
+      "sha256": "ff7c1c571208c828880732be90142ce279f65ad2dd18378fac37dcf7f9b9b087",
+      "imported_mesh": "SM_Candle.001",
+      "geometry": {
+        "vertices": 17254,
+        "faces": 34484,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 34484,
+        "bounds_min_m": [
+          -0.05620000138878822,
+          -0.05620000138878822,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.05620000138878822,
+          0.05620000138878822,
+          0.15002785623073578
+        ],
+        "dimensions_m": [
+          0.11240000277757645,
+          0.11240000277757645,
+          0.15002785623073578
+        ]
+      },
+      "ucx_count": 4,
+      "expected_ucx_count": 4,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Candle_Wax.001",
+        "M_Candle_CooledWaxPool.001",
+        "M_Candle_AgedBrass.001",
+        "M_Candle_CharredWick.001",
+        "M_Candle_WickFiber.001"
+      ]
+    }
+  },
+  "bakes": {
+    "T_Candle_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 1626244,
+      "sha256": "ff3a12c77426d9ebf3267905f124ba33107cc1b1d42167c454fe5e1d528fcbb7",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.8941177129745483,
+        0.8117647767066956,
+        0.6666666865348816
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.4941357999996399
+    },
+    "T_Candle_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 206245,
+      "sha256": "3718dd1fe9870b5f3ac5dc85c9676672e93751ebc7853b8b8e0da3550da3c8bc",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.9098039865493774,
+        0.9098039865493774,
+        0.9098039865493774
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.342826299999615
+    },
+    "T_Candle_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 184825,
+      "sha256": "e3f93a2b2d288f12a48fb50fc7f1690499ec47c0aacc8fa7976b3b929bb4eaae",
+      "sample_min_rgb": [
+        0.46274513006210327,
+        0.43137258291244507,
+        0.9921569228172302
+      ],
+      "sample_max_rgb": [
+        0.5490196347236633,
+        0.5568627715110779,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.139174599999933
+    },
+    "T_Candle_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_Metallic.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 34863,
+      "sha256": "336ff2b42bd799b5f34c1ddf1e4a0c06cd5f822495778417fbd4d9c7d6de984f",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.2685553000001164
+    }
+  },
+  "baked_materials": {
+    "SM_Candle": {
+      "name": "T_Candle_Baked",
+      "emission_connected": false,
+      "emission_strength": 0.0,
+      "subsurface_weight": 0.0,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_Candle_BaseColor",
+        "Roughness": "T_Candle_Roughness",
+        "Normal": "T_Candle_Normal",
+        "Metallic": "T_Candle_Metallic"
+      }
+    }
+  },
+  "renders": {
+    "Candle_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle_Preview.png",
+      "bytes": 2243139,
+      "sha256": "495a0919425f701f97e997f1715cb4573a95715128e238e49cb5b1f3d4f7074b",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Candle"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 25.97789499999999
+    },
+    "Candle_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle_Detail.png",
+      "bytes": 2181313,
+      "sha256": "c876d17f4ab722864b371529d5e91bd24da9bcaf2101d10d212300a687dd83ff",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Candle"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 27.610579700000017
+    },
+    "Candle_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle_Back.png",
+      "bytes": 2303483,
+      "sha256": "a96b66353d3e3f197c2303c4caf07f97cb73893ebe2bc0289e90c0f4cf46f241",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Candle"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 26.63629039999978
+    }
+  },
+  "settings": {
+    "color_resolution": 2048,
+    "data_resolution": 1024,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "channels": [
+      "BaseColor",
+      "Roughness",
+      "Normal",
+      "Metallic"
+    ],
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 84.10136310000053,
+  "assembly_contact": {
+    "cross_object_zero_overlap_required": false,
+    "reason": "Single joined mesh; wax drips, wick, and metal holder meet intentionally."
+  },
+  "display_materials": {
+    "SM_Candle": [
+      "T_Candle_Baked",
+      "T_Candle_Baked",
+      "T_Candle_Baked",
+      "T_Candle_Baked",
+      "T_Candle_Baked"
+    ]
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle.blend",
+  "final_visibility": {
+    "canonical_hidden": true,
+    "display_visible": true,
+    "source_hidden": true
+  }
+}

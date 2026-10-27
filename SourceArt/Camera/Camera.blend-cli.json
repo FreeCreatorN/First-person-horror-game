@@ -1,0 +1,193 @@
+{
+  "cameras": [
+    {
+      "clip_end": 1000.0,
+      "clip_start": 0.0001,
+      "dof_aperture": 2.8,
+      "dof_enabled": false,
+      "dof_focus_distance": 10.0,
+      "focal_length": 50.0,
+      "id": 0,
+      "is_active": true,
+      "location": [
+        0.23,
+        -0.34,
+        0.24
+      ],
+      "name": "Camera",
+      "rotation": [
+        64.0,
+        0.0,
+        34.0
+      ],
+      "sensor_width": 36.0,
+      "type": "PERSP"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [
+        0,
+        1,
+        2
+      ],
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "id": 0,
+      "location": [
+        -0.14,
+        -0.16,
+        0.3
+      ],
+      "name": "PreviewKey",
+      "power": 8.0,
+      "rotation": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "shape": "RECTANGLE",
+      "size": 1.0,
+      "size_y": 1.0,
+      "type": "AREA"
+    }
+  ],
+  "materials": [],
+  "metadata": {
+    "created": "2026-10-25T14:28:52.333191",
+    "modified": "2026-10-25T14:28:53.766960",
+    "software": "blender-cli 1.0"
+  },
+  "name": "Camera",
+  "objects": [
+    {
+      "id": 0,
+      "keyframes": [],
+      "location": [
+        0.0,
+        0.0,
+        0.039
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Body",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.071,
+        0.024,
+        0.036
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 1,
+      "keyframes": [],
+      "location": [
+        -0.008,
+        -0.05,
+        0.044
+      ],
+      "material": null,
+      "mesh_params": {
+        "depth": 2.0,
+        "radius": 1.0,
+        "vertices": 32
+      },
+      "mesh_type": "cylinder",
+      "modifiers": [],
+      "name": "Lens",
+      "parent": null,
+      "rotation": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.029,
+        0.029,
+        0.027
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "keyframes": [],
+      "location": [
+        -0.008,
+        0.0,
+        0.084
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "Prism",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.028,
+        0.02,
+        0.013
+      ],
+      "type": "MESH",
+      "visible": true
+    }
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/",
+    "resolution_percentage": 100,
+    "resolution_x": 1500,
+    "resolution_y": 1100,
+    "samples": 24,
+    "use_denoising": true
+  },
+  "scene": {
+    "fps": 24,
+    "frame_current": 1,
+    "frame_end": 250,
+    "frame_start": 1,
+    "unit_scale": 1.0,
+    "unit_system": "metric"
+  },
+  "version": "1.0",
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "hdri_path": null,
+    "hdri_strength": 1.0,
+    "use_hdri": false
+  }
+}

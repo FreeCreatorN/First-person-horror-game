@@ -1,0 +1,67 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261022T032847Z_3d3b6d4c_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-10-22T03:29:10.594452Z",
+  "cache_key": "sha256:3d3b6d4c4a3cf1b4e6aaf684f1df4465353cc017914fe7247d0e6f06cc184b95",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb.blend-cli.json",
+    "project_name": "LightBulb.blend-cli.json",
+    "project_fingerprint": "sha256:34ba643a78a07313bb36125c75c1b1f06ce9c29ca9cf2976985d9ef6cfc53bd3"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 211288,
+      "width": 800,
+      "height": 500,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 262051,
+      "width": 800,
+      "height": 500,
+      "preset": "workbench",
+      "blender_method": "blender-headless"
+    }
+  ],
+  "context": {
+    "frame_range": "1-250",
+    "fps": 24,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 3,
+    "material_count": 0,
+    "camera_count": 1,
+    "light_count": 1,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ]
+}

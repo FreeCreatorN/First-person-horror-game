@@ -1,0 +1,71 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261025T062854Z_2678a3db_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-10-25T06:29:20.832037Z",
+  "cache_key": "sha256:2678a3dbd2300cf6b21d34f3eb1a1c34ad76cd2bbbd25f31ff2398fc46b13dfe",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera.blend-cli.json",
+    "project_name": "Camera.blend-cli.json",
+    "project_fingerprint": "sha256:f50faa67aeb281cf919842a9d3f0bed21b4ad393c3ae9d232c9976d772f9cad0"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 256092,
+      "width": 750,
+      "height": 550,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 282305,
+      "width": 750,
+      "height": 550,
+      "preset": "workbench",
+      "blender_method": "blender-headless"
+    }
+  ],
+  "context": {
+    "frame_range": "1-250",
+    "fps": 24,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 3,
+    "material_count": 0,
+    "camera_count": 1,
+    "light_count": 1,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ],
+  "_manifest_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\CLI_Previews\\blender\\quick\\20261025T062854Z_2678a3db_quick\\manifest.json",
+  "_bundle_dir": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\CLI_Previews\\blender\\quick\\20261025T062854Z_2678a3db_quick",
+  "_summary_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\CLI_Previews\\blender\\quick\\20261025T062854Z_2678a3db_quick\\summary.json",
+  "cached": false
+}

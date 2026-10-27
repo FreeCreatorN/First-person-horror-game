@@ -1,0 +1,18 @@
+{
+  "success": false,
+  "script": "import_ue.py",
+  "execution_mode": "exclusive_editor",
+  "run_id": "54501589-5db0-469f-a338-7bfb57890fd5",
+  "script_sha256": "36afac7a2e0e3c171afd088a7fdcc8428f25d5c97867beb114f0166ee32ad8f5",
+  "started_utc": "2026-10-26T04:57:25.7715769Z",
+  "target_root": "/Game/Yastars/Mesh/PhotoPaper",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "pid": 26968,
+  "editor_pid": 26968,
+  "error": "PhotoPaper import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/PhotoPaper/import_ue.py\", line 239, in <module>\n    assert ml.connect_material_expressions(coordinates, '', photo, 'Coordinates')\nAssertionError\n",
+  "completed_utc": "2026-10-26T04:59:00.0669152Z"
+}

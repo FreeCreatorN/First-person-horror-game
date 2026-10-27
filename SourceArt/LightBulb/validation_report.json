@@ -1,0 +1,356 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_LightBulb": {
+      "vertices": 32838,
+      "faces": 65636,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 65636,
+      "bounds_min_m": [
+        -0.029999999329447746,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.029999999329447746,
+        0.029999999329447746,
+        0.10499999672174454
+      ],
+      "dimensions_m": [
+        0.05999999865889549,
+        0.05999999865889549,
+        0.10499999672174454
+      ],
+      "source_materials": [
+        "M_Bulb_Glass",
+        "M_Bulb_NickelCap",
+        "M_Bulb_BlackInsulator",
+        "M_Bulb_ContactButton",
+        "M_Bulb_Filament",
+        "M_Bulb_NickelLeadWires"
+      ]
+    }
+  },
+  "uv": {
+    "SM_LightBulb": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.003065332304686308,
+        0.003065315540879965
+      ],
+      "max": [
+        0.9926778674125671,
+        0.9969345927238464
+      ],
+      "triangle_uv_area_sum": 0.5221015095139432,
+      "zero_area_triangles": 0
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_LightBulb": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\SM_LightBulb.fbx",
+      "sha256": "bb4f70a99763e1fd099197d63b3fb1fd180944ed746674b89b650680f826b312",
+      "imported_mesh": "SM_LightBulb.001",
+      "geometry": {
+        "vertices": 32838,
+        "faces": 65636,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 65636,
+        "bounds_min_m": [
+          -0.029999999329447746,
+          -0.029999999329447746,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.029999999329447746,
+          0.029999999329447746,
+          0.10499999672174454
+        ],
+        "dimensions_m": [
+          0.05999999865889549,
+          0.05999999865889549,
+          0.10499999672174454
+        ]
+      },
+      "ucx_count": 2,
+      "expected_ucx_count": 2,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Bulb_Glass.001",
+        "M_Bulb_NickelCap.001",
+        "M_Bulb_BlackInsulator.001",
+        "M_Bulb_ContactButton.001",
+        "M_Bulb_Filament.001",
+        "M_Bulb_NickelLeadWires.001"
+      ]
+    }
+  },
+  "bakes": {
+    "T_LightBulb_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 144106,
+      "sha256": "db13a506fbb15a8e48c9c445e139131ee9251831ccb1d5daf1969bf86b2dbbc8",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.6000000238418579,
+        0.5843137502670288,
+        0.5372549295425415
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.2535328000003574
+    },
+    "T_LightBulb_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_Roughness.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 192026,
+      "sha256": "3443866e46b528a24de30007ad535f868e0f6d7034738a7478f174df3739787e",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.38110039999992296
+    },
+    "T_LightBulb_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_Normal.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 313186,
+      "sha256": "4489171205b6d1c3ffd48db224021edca63e7c1e571b4b928bd69c792743fb82",
+      "sample_min_rgb": [
+        0.38823533058166504,
+        0.3450980484485626,
+        0.9686275124549866
+      ],
+      "sample_max_rgb": [
+        0.6274510025978088,
+        0.6352941393852234,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.3114493000002767
+    },
+    "T_LightBulb_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\Textures\\T_LightBulb_Metallic.png",
+      "resolution": [
+        1024,
+        1024
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 51062,
+      "sha256": "9d9ba53bd578a5ffb5f56c6fbac814027d8d7f25ab1be02ba9db385c9bab19f2",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 0.421253099999376
+    }
+  },
+  "baked_materials": {
+    "SM_LightBulb": {
+      "name": "T_LightBulb_Baked",
+      "emission_connected": false,
+      "emission_strength": 0.0,
+      "subsurface_weight": 0.0,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_LightBulb_BaseColor",
+        "Roughness": "T_LightBulb_Roughness",
+        "Normal": "T_LightBulb_Normal",
+        "Metallic": "T_LightBulb_Metallic"
+      },
+      "source_opaque_slots": {
+        "1": "M_Bulb_NickelCap",
+        "2": "M_Bulb_BlackInsulator",
+        "3": "M_Bulb_ContactButton",
+        "5": "M_Bulb_NickelLeadWires"
+      },
+      "preserved_slots": {
+        "0": "M_Bulb_Glass",
+        "4": "M_Bulb_Filament"
+      },
+      "excluded_uv_pixels": "Neutral placeholders; never assigned to glass or filament."
+    }
+  },
+  "renders": {
+    "LightBulb_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_Preview.png",
+      "bytes": 2301355,
+      "sha256": "dfd49ae214d1b555dfe6714b2c05088e32679e8b4e63fcea7f6aca4112ddba69",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 64,
+      "visible_assets": [
+        "SM_LightBulb"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true,
+      "filament_emission_strength": 0.0,
+      "elapsed_seconds": 54.90741919999982
+    },
+    "LightBulb_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_Detail.png",
+      "bytes": 2281666,
+      "sha256": "4ea12baf52d02b044e31f480e0772e544953405061442582019b54e153f03414",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 64,
+      "visible_assets": [
+        "SM_LightBulb"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true,
+      "filament_emission_strength": 0.0,
+      "elapsed_seconds": 105.13321289999931
+    },
+    "LightBulb_BaseDetail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_BaseDetail.png",
+      "bytes": 2435837,
+      "sha256": "a9ae7f5494898d19bbffa56cc85b22400833db9fa95a17d6e52384dba30059f0",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 64,
+      "visible_assets": [
+        "SM_LightBulb"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true,
+      "filament_emission_strength": 0.0,
+      "elapsed_seconds": 73.98720289999983
+    },
+    "LightBulb_OnPreview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb_OnPreview.png",
+      "bytes": 2306675,
+      "sha256": "b3bb324fc39cfeccca71341349c6c08ceeff343a50c57415e7fa01b3d9e89ef3",
+      "resolution": [
+        1400,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 64,
+      "visible_assets": [
+        "SM_LightBulb"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_and_filament_preserved": true,
+      "filament_emission_strength": 5.0,
+      "elapsed_seconds": 64.82123070000034
+    }
+  },
+  "settings": {
+    "color_resolution": 2048,
+    "data_resolution": 1024,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "channels": [
+      "BaseColor",
+      "Roughness",
+      "Normal",
+      "Metallic"
+    ],
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "separate_materials": {
+    "glass": {
+      "source_name": "M_Bulb_Glass",
+      "transmission": 1.0,
+      "ior": 1.45,
+      "roughness": 0.07,
+      "alpha": 1.0,
+      "preserved": true
+    },
+    "filament": {
+      "source_name": "M_Bulb_Filament",
+      "default_emission_strength": 0.0,
+      "preserved": true
+    }
+  },
+  "elapsed_seconds": 302.3286904000006,
+  "assembly_contact": {
+    "cross_object_zero_overlap_required": false,
+    "reason": "Single joined mesh; glass, support wires, and screw-base meet intentionally."
+  },
+  "display_materials": {
+    "SM_LightBulb": [
+      "M_Bulb_Glass",
+      "T_LightBulb_Baked",
+      "T_LightBulb_Baked",
+      "T_LightBulb_Baked",
+      "M_Bulb_Filament",
+      "T_LightBulb_Baked"
+    ]
+  },
+  "render_settings": {
+    "samples": 64,
+    "transmission_bounces": 8,
+    "denoising": true,
+    "added_point_lights": 0,
+    "filament_final_emission_strength": 0.0
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LightBulb\\LightBulb.blend",
+  "final_visibility": {
+    "canonical_hidden": true,
+    "display_visible": true,
+    "source_hidden": true
+  }
+}

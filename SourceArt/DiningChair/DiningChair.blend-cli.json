@@ -1,0 +1,281 @@
+{
+  "cameras": [
+    {
+      "clip_end": 1000.0,
+      "clip_start": 0.005,
+      "dof_aperture": 2.8,
+      "dof_enabled": false,
+      "dof_focus_distance": 10.0,
+      "focal_length": 50.0,
+      "id": 0,
+      "is_active": true,
+      "location": [
+        1.5,
+        -2.0,
+        1.35
+      ],
+      "name": "ChairCamera",
+      "rotation": [
+        75.0,
+        0.0,
+        35.0
+      ],
+      "sensor_width": 36.0,
+      "type": "PERSP"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "visible": true
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "id": 0,
+      "location": [
+        0.0,
+        -2.0,
+        3.0
+      ],
+      "name": "PreviewKey",
+      "power": 300.0,
+      "rotation": [
+        30.0,
+        0.0,
+        0.0
+      ],
+      "shape": "RECTANGLE",
+      "size": 1.0,
+      "size_y": 1.0,
+      "type": "AREA"
+    }
+  ],
+  "materials": [],
+  "metadata": {
+    "created": "2026-10-20T15:43:02.973601",
+    "modified": "2026-10-20T15:43:04.829574",
+    "software": "blender-cli 1.0"
+  },
+  "name": "DiningChair",
+  "objects": [
+    {
+      "id": 0,
+      "keyframes": [],
+      "location": [
+        0.0,
+        -0.02,
+        0.4425
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "HardwoodSeat",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.22,
+        0.0175
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 1,
+      "keyframes": [],
+      "location": [
+        -0.194,
+        -0.188,
+        0.22
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "FrontLeg",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.025,
+        0.025,
+        0.22
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "keyframes": [],
+      "location": [
+        -0.194,
+        0.21,
+        0.52
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "RearBackPost",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.024,
+        0.024,
+        0.52
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "keyframes": [],
+      "location": [
+        0.194,
+        -0.188,
+        0.22
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "FrontLeg.001",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.025,
+        0.025,
+        0.22
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "keyframes": [],
+      "location": [
+        0.194,
+        0.21,
+        0.52
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "RearBackPost.001",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.024,
+        0.024,
+        0.52
+      ],
+      "type": "MESH",
+      "visible": true
+    },
+    {
+      "id": 5,
+      "keyframes": [],
+      "location": [
+        0.0,
+        0.265,
+        1.025
+      ],
+      "material": null,
+      "mesh_params": {
+        "size": 2.0
+      },
+      "mesh_type": "cube",
+      "modifiers": [],
+      "name": "CrestRail",
+      "parent": null,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.235,
+        0.02,
+        0.035
+      ],
+      "type": "MESH",
+      "visible": true
+    }
+  ],
+  "render": {
+    "engine": "CYCLES",
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/",
+    "resolution_percentage": 100,
+    "resolution_x": 1000,
+    "resolution_y": 1100,
+    "samples": 24,
+    "use_denoising": true
+  },
+  "scene": {
+    "fps": 24,
+    "frame_current": 1,
+    "frame_end": 250,
+    "frame_start": 1,
+    "unit_scale": 1.0,
+    "unit_system": "metric"
+  },
+  "version": "1.0",
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "hdri_path": null,
+    "hdri_strength": 1.0,
+    "use_hdri": false
+  }
+}

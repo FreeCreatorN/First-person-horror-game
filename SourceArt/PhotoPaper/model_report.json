@@ -1,0 +1,86 @@
+{
+  "parts": {
+    "SM_PhotoPaper": {
+      "filename": "SM_PhotoPaper.fbx",
+      "dimensions_cm": [
+        8.799999952316284,
+        10.80000028014183,
+        0.09970739483833313
+      ],
+      "bounds_min_m": [
+        -0.04399999976158142,
+        -0.05400000140070915,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04399999976158142,
+        0.05400000140070915,
+        0.0009970739483833313
+      ],
+      "triangles": 720,
+      "collision_hulls": 1,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_PhotoPaper_Frame": "M_PhotoPaper_Frame",
+        "M_PhotoPaper_Image": "MI_PhotoPaper_Image",
+        "M_PhotoPaper_Back": "M_PhotoPaper_Back"
+      }
+    }
+  },
+  "materials": {
+    "M_PhotoPaper_Frame": {
+      "base_color": [
+        0.82,
+        0.8,
+        0.75
+      ],
+      "roughness": 0.66
+    },
+    "M_PhotoPaper_Image": {
+      "texture_parameter": "PhotoTexture",
+      "roughness": 0.23
+    },
+    "M_PhotoPaper_Back": {
+      "base_color": [
+        0.73,
+        0.72,
+        0.67
+      ],
+      "roughness": 0.8
+    }
+  },
+  "texture": {
+    "name": "T_PhotoPaper_Blank",
+    "filename": "Textures/T_PhotoPaper_Blank.png",
+    "sha256": "8584a42365834e56f8564b959276e2fd689baf78f1657b2db74eb2b2f21520c4"
+  },
+  "photo_uv": {
+    "min": [
+      -1.0316188792103276e-08,
+      1.0698269825581974e-08
+    ],
+    "max": [
+      1.0,
+      1.0
+    ],
+    "slot_index": 1,
+    "source_slot_name": "M_PhotoPaper_Image",
+    "photo_size_m": [
+      0.078,
+      0.078
+    ],
+    "front_normal": "+Z",
+    "image_top_direction": "+Y"
+  },
+  "thickness_mm": 0.35,
+  "corner_lift_mm": 0.65,
+  "borders_mm": {
+    "left": 5,
+    "right": 5,
+    "top": 5,
+    "bottom": 25
+  },
+  "exported_cameras": 0,
+  "exported_lights": 0
+}

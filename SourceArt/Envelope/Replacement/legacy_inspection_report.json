@@ -1,0 +1,128 @@
+{
+  "success": true,
+  "started_utc": "2026-10-21T01:29:43.731592+00:00",
+  "mode": "inspect_and_backup_only",
+  "deletion_executed": false,
+  "rename_executed": false,
+  "asset_or_map_save_executed": false,
+  "level_load_executed": false,
+  "legacy_packages": [
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope",
+    "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal"
+  ],
+  "backup_root": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020",
+  "assets": {
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope": {
+      "asset_class": "<Struct 'TopLevelAssetPath' (0x000001F3CAECEBBC) {package_name: \"/Script/Engine\", asset_name: \"StaticMesh\"}>",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope.uasset",
+      "source_bytes": 185122,
+      "source_sha256": "1403d31aedb948bd74fd58b96cee9680dc549a1c449f9990d95c04e8d0b6f17d",
+      "registry_referencers": [],
+      "editor_asset_library_referencers": [],
+      "internal_legacy_referencers": [],
+      "external_referencers": [],
+      "backup_status": "created",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope.uasset",
+      "backup_sha256": "1403d31aedb948bd74fd58b96cee9680dc549a1c449f9990d95c04e8d0b6f17d"
+    },
+    "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope": {
+      "asset_class": "<Struct 'TopLevelAssetPath' (0x000001F470E564DC) {package_name: \"/Script/Engine\", asset_name: \"Material\"}>",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_Envelope.uasset",
+      "source_bytes": 14488,
+      "source_sha256": "a78a6afc093083de5ac1d44edb696cc2ce02a67e71994fd817aebbb6077250ee",
+      "registry_referencers": [
+        "/Game/Yastars/Mesh/Envelope/SM_Envelope"
+      ],
+      "editor_asset_library_referencers": [
+        "/Game/Yastars/Mesh/Envelope/SM_Envelope"
+      ],
+      "internal_legacy_referencers": [
+        "/Game/Yastars/Mesh/Envelope/SM_Envelope"
+      ],
+      "external_referencers": [],
+      "backup_status": "created",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_Envelope.uasset",
+      "backup_sha256": "a78a6afc093083de5ac1d44edb696cc2ce02a67e71994fd817aebbb6077250ee"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor": {
+      "asset_class": "<Struct 'TopLevelAssetPath' (0x000001F3CAECDD7C) {package_name: \"/Script/Engine\", asset_name: \"Texture2D\"}>",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_BaseColor.uasset",
+      "source_bytes": 2403350,
+      "source_sha256": "aed2afbfa61aefec937b87b92090c585d295475ef99202e4599f017108822c96",
+      "registry_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "editor_asset_library_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "internal_legacy_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "external_referencers": [],
+      "backup_status": "created",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_BaseColor.uasset",
+      "backup_sha256": "aed2afbfa61aefec937b87b92090c585d295475ef99202e4599f017108822c96"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness": {
+      "asset_class": "<Struct 'TopLevelAssetPath' (0x000001F470E5657C) {package_name: \"/Script/Engine\", asset_name: \"Texture2D\"}>",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Roughness.uasset",
+      "source_bytes": 184863,
+      "source_sha256": "7cdd2ac39d322944239be5f315525582639ec80cd44b81b521013797d4b64a0d",
+      "registry_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "editor_asset_library_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "internal_legacy_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "external_referencers": [],
+      "backup_status": "created",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Roughness.uasset",
+      "backup_sha256": "7cdd2ac39d322944239be5f315525582639ec80cd44b81b521013797d4b64a0d"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal": {
+      "asset_class": "<Struct 'TopLevelAssetPath' (0x000001F470E56F7C) {package_name: \"/Script/Engine\", asset_name: \"Texture2D\"}>",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Normal.uasset",
+      "source_bytes": 182915,
+      "source_sha256": "d12d29db1a8e3b89c28ca96a979fbe052ab68095d72806ab0b230958c5c5666e",
+      "registry_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "editor_asset_library_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "internal_legacy_referencers": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "external_referencers": [],
+      "backup_status": "created",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Normal.uasset",
+      "backup_sha256": "d12d29db1a8e3b89c28ca96a979fbe052ab68095d72806ab0b230958c5c5666e"
+    }
+  },
+  "external_referencers": {},
+  "deletion_gate_passed": true,
+  "reference_scope": "Fresh on-disk AssetRegistry hard/soft/game/editor/searchable/management references plus EditorAssetLibrary hard/soft cross-check. Does not inspect unsaved state in another editor or arbitrary string literals.",
+  "world_before": "/Engine/Maps/Entry.Entry",
+  "reference_options_applied": [
+    "include_hard_package_references",
+    "include_soft_package_references",
+    "include_searchable_names",
+    "include_hard_management_references",
+    "include_soft_management_references",
+    "include_game_package_references",
+    "include_editor_only_package_references"
+  ],
+  "optional_reference_options_unsupported": {},
+  "world_after": "/Engine/Maps/Entry.Entry",
+  "same_world_object": true,
+  "backed_up_package_files": 5,
+  "external_referencer_packages": [],
+  "next_action": "Inspection passed for these five packages only. This script has not deleted anything. Recheck references immediately before a separately authorized exact-package replacement.",
+  "completed_utc": "2026-10-21T01:29:43.872288+00:00"
+}

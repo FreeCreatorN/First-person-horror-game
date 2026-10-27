@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "parts": {
+    "SM_Camera": {
+      "triangles": 44216,
+      "bounds_min_m": [
+        -0.0742499977350235,
+        -0.07717500627040863,
+        -5.999952554702759e-05
+      ],
+      "bounds_max_m": [
+        0.07706660777330399,
+        0.03154999762773514,
+        0.10105000436306
+      ],
+      "dimensions_cm": [
+        15.131660550832748,
+        10.872500389814377,
+        10.111000388860703
+      ],
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "filename": "SM_Camera.fbx",
+      "sha256": "5297757e6f8affb5ca70329c4142ee560473416fd72a231e22c057fabd3bf6fe",
+      "collision_hulls": 4,
+      "material_slots": {
+        "M_Camera_SatinChrome": "M_Camera_Opaque",
+        "M_Camera_Leatherette": "M_Camera_Opaque",
+        "M_Camera_PolishedTrim": "M_Camera_Opaque",
+        "M_Camera_OpticalInterior": "M_Camera_Opaque",
+        "M_Camera_BlackEnamel": "M_Camera_Opaque",
+        "M_Camera_ContactBrass": "M_Camera_Opaque",
+        "M_Camera_EngravedIvory": "M_Camera_Opaque",
+        "M_Camera_RubberGrip": "M_Camera_Opaque",
+        "M_Camera_OpticalGlass": "M_Camera_Glass",
+        "M_Camera_FilmMemoPaper": "M_Camera_Opaque"
+      },
+      "fbx_roundtrip": {
+        "success": true,
+        "triangles": 44216,
+        "collision_hulls": 4,
+        "uv_channels": 1
+      }
+    },
+    "SM_Camera_ShutterButton": {
+      "triangles": 952,
+      "bounds_min_m": [
+        -0.003699999302625656,
+        -0.0037000002339482307,
+        -7.450580596923828e-09
+      ],
+      "bounds_max_m": [
+        0.003699999302625656,
+        0.0037000002339482307,
+        0.0032749995589256287
+      ],
+      "dimensions_cm": [
+        0.7399998605251312,
+        0.7400000467896461,
+        0.32750070095062256
+      ],
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "filename": "SM_Camera_ShutterButton.fbx",
+      "sha256": "fa61f59d9e21bc9fe54aa1ca6552b610e7e9081b782dbc825ccfed11d3cf6463",
+      "collision_hulls": 1,
+      "material_slots": {
+        "M_Camera_PolishedTrim": "M_Camera_Opaque",
+        "M_Camera_OpticalInterior": "M_Camera_Opaque"
+      },
+      "fbx_roundtrip": {
+        "success": true,
+        "triangles": 952,
+        "collision_hulls": 1,
+        "uv_channels": 1
+      }
+    }
+  },
+  "renders": {
+    "Released": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\Camera_Shutter_Released.png",
+      "sha256": "50e336c62c7ec86eb5f5cc08c21992f2007bedcce6149d37af53b0954f11c55b",
+      "button_world_z_m": 0.08240000158548355,
+      "press_offset_m": 0.0
+    },
+    "Pressed": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\Camera_Shutter_Pressed.png",
+      "sha256": "84ec5cc2a78747f9b1676e95ece0a69a48621af21f55f82743cc2a0124e6c792",
+      "button_world_z_m": 0.0812000036239624,
+      "press_offset_m": -0.0012
+    }
+  },
+  "original_total_triangles": 45168,
+  "combined_total_triangles": 45168,
+  "pivot_blender_m": [
+    0.061000000685453415,
+    -0.010999999940395355,
+    0.08240000158548355
+  ],
+  "socket_ue_cm": [
+    6.1,
+    1.1,
+    8.24
+  ],
+  "press_travel_cm": 0.12,
+  "texture_files_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_BaseColor.png": "0b641c5afbb3da55785067a62e98130f5cc737586a16f929b8434cb0d2125a40",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Metallic.png": "72d706a86831bbc9ce8d5a7a5e4a1b3a7b37652d0fee455f43a0552e78ad3414",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Normal.png": "f8dce21efa1c41ca10a325bbc4896734002655cbf48e6fb88752e4e9eef4a86b",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Roughness.png": "5a38b0bbc49d8c150fcb55935a240c606af9e8157b6e3aaf267d159e51777e7b"
+  },
+  "uv_atlas_reused_without_rebaking": true,
+  "source_components_preserved": 131,
+  "exported_cameras": 0,
+  "exported_lights": 0,
+  "blend_sha256": "34c8d1b9b85958ec4d32ad1be16f1fb0c540daacdd947d39650835e84af24ac6"
+}

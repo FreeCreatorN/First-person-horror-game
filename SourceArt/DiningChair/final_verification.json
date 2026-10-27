@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "verified_at": "2026-10-20T15:49:57.1702999+08:00",
+  "ue_root": "/Game/Yastars/Mesh/DiningChair",
+  "asset_count": 5,
+  "dimensions_cm": [
+    48.0,
+    52.39697074890137,
+    105.99999237060547
+  ],
+  "convex_collision_hulls": 23,
+  "material_slots_bound": 3,
+  "blender_validation_success": true,
+  "ue_import_success": true,
+  "ue_normal_zero_exit": true,
+  "protected_file_count": 30,
+  "protected_files_unchanged": true,
+  "UI_file_count": 19,
+  "UI_added_files": 0,
+  "maps_saved": 0,
+  "lights_exported": 0
+}

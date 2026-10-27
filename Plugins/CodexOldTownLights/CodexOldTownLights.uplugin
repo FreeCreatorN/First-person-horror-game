@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Codex Old Town Lights",
+  "Description": "Isolated callable controllers for assistant-created old-town light fixtures.",
+  "Category": "Gameplay",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "Modules": [
+    { "Name": "CodexOldTownLights", "Type": "Runtime", "LoadingPhase": "Default" },
+    { "Name": "CodexOldTownLightsEditor", "Type": "Editor", "LoadingPhase": "PostEngineInit" }
+  ]
+}

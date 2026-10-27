@@ -1,0 +1,73 @@
+{
+  "success": false,
+  "started_utc": "2026-10-26T04:28:09.300028+00:00",
+  "run_id": "610ab86d-9aa5-4f02-ac02-2635aa12f0f3",
+  "editor_pid": 15564,
+  "target_root": "/Game/Yastars/Mesh/Camera",
+  "update_script_sha256": "fb7dc2c6a8a0e85bc814bdb85f14f0871da2cff0d9563075bc0ecb791ef81b7a",
+  "assets": {},
+  "source_files_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\split_report.json": "45824ff5e4eef86cc4bd177e53b4fc74a6b5a7bade89ca2e21e216b61b1146a9",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\ue_before_manifest.json": "7b4a81ea3802a00a24e9c2308a560f6b0ff005bb340e18de8befba3896a9be81",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\protected_content_sha256.json": "ade5d10c41ad239b2fe763a7dbd8a8e5e765d2b95b7ee970f01f998cd72e2574",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera.blend": "34c8d1b9b85958ec4d32ad1be16f1fb0c540daacdd947d39650835e84af24ac6",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\SM_Camera.fbx": "5297757e6f8affb5ca70329c4142ee560473416fd72a231e22c057fabd3bf6fe",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\SM_Camera_ShutterButton.fbx": "fa61f59d9e21bc9fe54aa1ca6552b610e7e9081b782dbc825ccfed11d3cf6463",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_BaseColor.png": "0b641c5afbb3da55785067a62e98130f5cc737586a16f929b8434cb0d2125a40",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Metallic.png": "72d706a86831bbc9ce8d5a7a5e4a1b3a7b37652d0fee455f43a0552e78ad3414",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Normal.png": "f8dce21efa1c41ca10a325bbc4896734002655cbf48e6fb88752e4e9eef4a86b",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Roughness.png": "5a38b0bbc49d8c150fcb55935a240c606af9e8157b6e3aaf267d159e51777e7b"
+  },
+  "packages_before": {
+    "/Game/Yastars/Mesh/Camera/Materials/M_Camera_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Materials\\M_Camera_Glass.uasset",
+      "bytes": 10643,
+      "sha256": "6dfc7005c7f17cb74547854f348972fd5784fec96ce5ef14ecd3bcc515832f7b"
+    },
+    "/Game/Yastars/Mesh/Camera/Materials/M_Camera_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Materials\\M_Camera_Opaque.uasset",
+      "bytes": 16283,
+      "sha256": "7187f322f44dce33d4e5e1a8ff155194e14d5b8dba7da570682758a62f84c329"
+    },
+    "/Game/Yastars/Mesh/Camera/SM_Camera": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\SM_Camera.uasset",
+      "bytes": 1720580,
+      "sha256": "1de27331ab7f859fe322017ba3c9b145e90831d6b1de1b460af585c3bfedcf62"
+    },
+    "/Game/Yastars/Mesh/Camera/Textures/T_Camera_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_BaseColor.uasset",
+      "bytes": 205148,
+      "sha256": "224b9560fae7199e683cfdf87ea5f7c16fd3d94719ef2823c520ae7d2a2d828c"
+    },
+    "/Game/Yastars/Mesh/Camera/Textures/T_Camera_Metallic": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_Metallic.uasset",
+      "bytes": 106070,
+      "sha256": "6567571831d998af64b68964a140027a0f5ff57f5785bad89afc895d195bdbee"
+    },
+    "/Game/Yastars/Mesh/Camera/Textures/T_Camera_Normal": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_Normal.uasset",
+      "bytes": 879273,
+      "sha256": "46c8f1d3e8038936a00d3714c33af85139f786c51a7734002dddbb582e23579d"
+    },
+    "/Game/Yastars/Mesh/Camera/Textures/T_Camera_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_Roughness.uasset",
+      "bytes": 560946,
+      "sha256": "35aaff0491589dc29f809e21a498f86c1be01004a462bc13e5409cb6667db244"
+    }
+  },
+  "packages_after": {},
+  "saved_assets": [],
+  "import_order": [],
+  "map_save_executed": false,
+  "level_load_executed": false,
+  "asset_delete_executed": false,
+  "asset_or_map_rename_executed": false,
+  "actors_spawned": 0,
+  "materials_created": 0,
+  "textures_created": 0,
+  "world_before": "/Engine/Maps/Entry.Entry",
+  "protected_files_checked": 36,
+  "body_asset_path_before": "/Game/Yastars/Mesh/Camera/SM_Camera.SM_Camera",
+  "error": "Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Camera/ShutterSplit/update_ue.py\", line 257, in <module>\n    for socket in existing_body.get_editor_property('sockets')}\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read\n",
+  "completed_utc": "2026-10-26T04:28:09.613556+00:00"
+}

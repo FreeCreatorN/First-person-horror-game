@@ -1,0 +1,443 @@
+{
+  "success": true,
+  "geometry": {
+    "Base": {
+      "vertices": 4928,
+      "edges": 14526,
+      "faces": 9684,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "dimensions_m": [
+        1.1999999284744263,
+        0.6399999558925629,
+        0.7700852751731873
+      ],
+      "bounds_min_m": [
+        -0.5999999642372131,
+        -0.3199999928474426,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.5999999642372131,
+        0.31999996304512024,
+        0.7700852751731873
+      ],
+      "triangles": 9684,
+      "shader_attributes": {
+        "WoodCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 4928
+        },
+        "WoodTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 4928
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 4928
+        }
+      },
+      "source_materials": [
+        "M_OldDesk_Wood",
+        "M_OldDesk_Endgrain",
+        "M_OldDesk_Iron"
+      ]
+    },
+    "Drawer": {
+      "vertices": 2816,
+      "edges": 8352,
+      "faces": 5568,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "dimensions_m": [
+        0.6240000128746033,
+        0.5516999959945679,
+        0.1239999532699585
+      ],
+      "bounds_min_m": [
+        -0.31200000643730164,
+        -0.335999995470047,
+        0.5940000414848328
+      ],
+      "bounds_max_m": [
+        0.31200000643730164,
+        0.21570000052452087,
+        0.7179999947547913
+      ],
+      "triangles": 5568,
+      "shader_attributes": {
+        "WoodCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 2816
+        },
+        "WoodTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 2816
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 2816
+        }
+      },
+      "source_materials": [
+        "M_OldDesk_Wood",
+        "M_OldDesk_Endgrain",
+        "M_OldDesk_Iron"
+      ]
+    }
+  },
+  "uv": {
+    "Base": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.006802810821682215,
+        0.006802808493375778
+      ],
+      "max": [
+        0.9931972622871399,
+        0.9924325942993164
+      ],
+      "triangle_uv_area_sum": 0.48353461966562,
+      "zero_area_triangles": 0
+    },
+    "Drawer": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.0038499971851706505,
+        0.0038499741349369287
+      ],
+      "max": [
+        0.9749020934104919,
+        0.996150016784668
+      ],
+      "triangle_uv_area_sum": 0.7921807611929659,
+      "zero_area_triangles": 0
+    }
+  },
+  "drawer_motion": [
+    {
+      "open_distance_m": 0.0,
+      "blender_offset_m": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "overlapping_triangle_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "open_distance_m": 0.06,
+      "blender_offset_m": [
+        0.0,
+        -0.06,
+        0.0
+      ],
+      "overlapping_triangle_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "open_distance_m": 0.12,
+      "blender_offset_m": [
+        0.0,
+        -0.12,
+        0.0
+      ],
+      "overlapping_triangle_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "open_distance_m": 0.18,
+      "blender_offset_m": [
+        0.0,
+        -0.18,
+        0.0
+      ],
+      "overlapping_triangle_pairs": 0,
+      "first_pairs": []
+    },
+    {
+      "open_distance_m": 0.23,
+      "blender_offset_m": [
+        0.0,
+        -0.23,
+        0.0
+      ],
+      "overlapping_triangle_pairs": 0,
+      "first_pairs": []
+    }
+  ],
+  "fbx_roundtrip": {
+    "SM_OldWoodDesk_Base": {
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\SM_OldWoodDesk_Base.fbx",
+      "sha256": "75d7331cb0c3bb7226ebbba7a97d0883f46415f275507bf69f2a4cb108786471",
+      "success": true,
+      "imported_mesh": "SM_OldWoodDesk_Base.001",
+      "geometry": {
+        "vertices": 4928,
+        "edges": 14526,
+        "faces": 9684,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "dimensions_m": [
+          1.1999999284744263,
+          0.6400000751018524,
+          0.7700852751731873
+        ],
+        "bounds_min_m": [
+          -0.5999999642372131,
+          -0.3200000524520874,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.5999999642372131,
+          0.320000022649765,
+          0.7700852751731873
+        ],
+        "triangles": 9684
+      },
+      "ucx_count": 17,
+      "expected_ucx_count": 17,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_OldDesk_Wood.001",
+        "M_OldDesk_Endgrain.001",
+        "M_OldDesk_Iron.001"
+      ]
+    },
+    "SM_OldWoodDesk_Drawer": {
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\SM_OldWoodDesk_Drawer.fbx",
+      "sha256": "18153fe1db9989542d77128714fb04b272ec0d2b9ade7dcbdbf1a968fe5de337",
+      "success": true,
+      "imported_mesh": "SM_OldWoodDesk_Drawer.001",
+      "geometry": {
+        "vertices": 2816,
+        "edges": 8352,
+        "faces": 5568,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "dimensions_m": [
+          0.6240000128746033,
+          0.5517000108957291,
+          0.1239999532699585
+        ],
+        "bounds_min_m": [
+          -0.31199997663497925,
+          -0.335999995470047,
+          0.5940000414848328
+        ],
+        "bounds_max_m": [
+          0.312000036239624,
+          0.21570001542568207,
+          0.7179999947547913
+        ],
+        "triangles": 5568
+      },
+      "ucx_count": 6,
+      "expected_ucx_count": 6,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_OldDesk_Wood.001",
+        "M_OldDesk_Endgrain.001",
+        "M_OldDesk_Iron.001"
+      ]
+    }
+  },
+  "bakes": {
+    "T_OldDesk_Base_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Base_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 8417872,
+      "sha256": "b0426ac3a387ad34a225f3780b72b7e3b0346a2afdf74c8ee94805e6b8ae0e22",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.4745098352432251,
+        0.364705890417099,
+        0.24705883860588074
+      ],
+      "elapsed_seconds": 11.563731800000824,
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true
+    },
+    "T_OldDesk_Base_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Base_Roughness.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 1043821,
+      "sha256": "dad4e3a5c00907e3ce96358a3c55ac3744fd77c363819ffdd9267fa19fcf7f4c",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.8196079134941101,
+        0.8196079134941101,
+        0.8196079134941101
+      ],
+      "elapsed_seconds": 1.5714749999970081,
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true
+    },
+    "T_OldDesk_Base_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Base_Normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 2274895,
+      "sha256": "1ed68e13d27b8181bc9f5a69abd750fd2d4b6461e1131140c2b575402d2a1c4c",
+      "sample_min_rgb": [
+        0.3803921937942505,
+        0.41960787773132324,
+        0.9843137860298157
+      ],
+      "sample_max_rgb": [
+        0.6274510025978088,
+        0.5803921818733215,
+        1.0
+      ],
+      "elapsed_seconds": 6.316399100003764,
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true
+    },
+    "T_OldDesk_Drawer_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Drawer_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 8776336,
+      "sha256": "eb3e22456164ff3617c0ca60db3e7366c9f41d0e895d1abedf40c724e6084bf5",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.4745098352432251,
+        0.35686275362968445,
+        0.2352941334247589
+      ],
+      "elapsed_seconds": 15.528390699997544,
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true
+    },
+    "T_OldDesk_Drawer_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Drawer_Roughness.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 848225,
+      "sha256": "bb2d120c810998e2830ac1aab19a55f06ed4da1fdd8f9feb73d4eaab2d4d7bc9",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.6941176652908325,
+        0.6941176652908325,
+        0.6941176652908325
+      ],
+      "elapsed_seconds": 2.234509900001285,
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true
+    },
+    "T_OldDesk_Drawer_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Drawer_Normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 2501430,
+      "sha256": "2de532d10ac007c191f4d4da5d6d1701406f02fe4db11db863ae2f468a3afe05",
+      "sample_min_rgb": [
+        0.4235294461250305,
+        0.4431372880935669,
+        0.9921569228172302
+      ],
+      "sample_max_rgb": [
+        0.5686274766921997,
+        0.529411792755127,
+        1.0
+      ],
+      "elapsed_seconds": 10.69637839999632,
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true
+    }
+  },
+  "baked_materials": {
+    "Base": {
+      "material": "M_OldDesk_Base_Baked",
+      "images": {
+        "BaseColor": "T_OldDesk_Base_BaseColor",
+        "Roughness": "T_OldDesk_Base_Roughness",
+        "Normal": "T_OldDesk_Base_Normal"
+      },
+      "emission_connected": false
+    },
+    "Drawer": {
+      "material": "M_OldDesk_Drawer_Baked",
+      "images": {
+        "BaseColor": "T_OldDesk_Drawer_BaseColor",
+        "Roughness": "T_OldDesk_Drawer_Roughness",
+        "Normal": "T_OldDesk_Drawer_Normal"
+      },
+      "emission_connected": false
+    }
+  },
+  "renders": {
+    "closed": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\OldWoodDesk_Preview.png",
+    "drawer_open": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\OldWoodDesk_DrawerOpen.png"
+  },
+  "settings": {
+    "color_resolution": 4096,
+    "data_resolution": 2048,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 87.51142450000043,
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\OldWoodDesk.blend"
+}

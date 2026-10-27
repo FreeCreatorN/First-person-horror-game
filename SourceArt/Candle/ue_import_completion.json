@@ -1,0 +1,12 @@
+{
+  "script": "import_ue.py",
+  "pid": 2368,
+  "started_utc": "2026-10-22T03:09:25.4673138Z",
+  "completed_utc": "2026-10-22T03:11:05.0887575Z",
+  "exit_code": 0,
+  "normal_zero_exit": true,
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\ue_import_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "target_root": "/Game/Yastars/Mesh/Candle"
+}

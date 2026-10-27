@@ -1,0 +1,47 @@
+{
+  "parts": {
+    "SM_Pen": {
+      "filename": "SM_Pen.fbx",
+      "dimensions_cm": [
+        1.1119999922811985,
+        1.3849999755620956,
+        14.21000063419342
+      ],
+      "triangles": 19544,
+      "collision_hulls": 2,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Pen_PolishedEdge": "M_Pen",
+        "M_Pen_TungstenBall": "M_Pen",
+        "M_Pen_BrushedNickel": "M_Pen",
+        "M_Pen_RecessedSeams": "M_Pen",
+        "M_Pen_DeepGreenEnamel": "M_Pen"
+      }
+    }
+  },
+  "texture_sets": {
+    "Pen": {
+      "prefix": "T_Pen",
+      "BaseColor": "Textures/T_Pen_BaseColor.png",
+      "Roughness": "Textures/T_Pen_Roughness.png",
+      "Normal": "Textures/T_Pen_Normal.png",
+      "Metallic": "Textures/T_Pen_Metallic.png"
+    }
+  },
+  "materials": {
+    "M_Pen": {
+      "texture_set": "Pen"
+    }
+  },
+  "assembly": {
+    "combined_single_mesh": true,
+    "style": "Retractable deep-green and nickel ballpoint",
+    "writing_ball_is_extended": true,
+    "pivot": "Writing ball contact at Z=0",
+    "clip_is_continuous_spring_leaf": true,
+    "light_actors_included": false
+  },
+  "exported_lights": 0,
+  "exported_cameras": 0
+}

@@ -1,0 +1,347 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-23T01:30:19.865141+00:00",
+  "target_root": "/Game/Yastars/Mesh/Pen",
+  "errors": [],
+  "read_only": true,
+  "package_files": {
+    "/Game/Yastars/Mesh/Pen/Materials/M_Pen": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Pen\\Materials\\M_Pen.uasset",
+      "bytes": 15860,
+      "sha256": "3a7e533bb326e21af2b355f14b14efd9523f527e8c7c87f52c8c8d706ea2627a"
+    },
+    "/Game/Yastars/Mesh/Pen/SM_Pen": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Pen\\SM_Pen.uasset",
+      "bytes": 701110,
+      "sha256": "598849333fa76e1a93069de2a305f9fc0883d994c5412b1f4048cd6dc57db4d6"
+    },
+    "/Game/Yastars/Mesh/Pen/Textures/T_Pen_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Pen\\Textures\\T_Pen_BaseColor.uasset",
+      "bytes": 80049,
+      "sha256": "dc7571e9193414e71e0bbe7577109aaff45e7dd7fd9964d3b4c1524a68a98989"
+    },
+    "/Game/Yastars/Mesh/Pen/Textures/T_Pen_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Pen\\Textures\\T_Pen_Metallic.uasset",
+      "bytes": 25400,
+      "sha256": "dda1b7d0ec7fe37e5645ae30d17b15ac01d53f989d83584945b2def5cb94b05e"
+    },
+    "/Game/Yastars/Mesh/Pen/Textures/T_Pen_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Pen\\Textures\\T_Pen_Normal.uasset",
+      "bytes": 82333,
+      "sha256": "d125d1d24ff552f5f902d260f6fb26a0b82b86d955a47277220261a724f57355"
+    },
+    "/Game/Yastars/Mesh/Pen/Textures/T_Pen_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Pen\\Textures\\T_Pen_Roughness.uasset",
+      "bytes": 293093,
+      "sha256": "88a78f990504a63f214e02090bc02485668c2dba1ba4c7ea38c75194ccb9caa8"
+    }
+  },
+  "protected_files_checked": 31,
+  "protected_files_changed": [],
+  "protected_file_sets": {
+    "ui": {
+      "count": 20,
+      "added": [],
+      "missing": []
+    },
+    "maps": {
+      "count": 6,
+      "added": [],
+      "missing": []
+    },
+    "config": {
+      "count": 5,
+      "added": [],
+      "missing": []
+    }
+  },
+  "ui_maps_and_config_unchanged": true,
+  "source_files": {
+    "Pen.blend": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen.blend",
+      "bytes": 811114,
+      "sha256": "4180596b7ee554b74ef85954b03a49a302e66a3c8c73864705e04f4e93f1b61f"
+    },
+    "SM_Pen.fbx": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\SM_Pen.fbx",
+      "bytes": 593244,
+      "sha256": "f85988a13070be4984b7dd882fd9ed130b216f3c7cbf8b5d41453da783bacc10"
+    }
+  },
+  "bakes": {
+    "T_Pen_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_BaseColor.png",
+      "bytes": 127503,
+      "sha256": "c8e9ebe38a56c9ba3dfab266cc35f3efa5f1c32e5dd98604a36f1202575bf54a"
+    },
+    "T_Pen_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_Roughness.png",
+      "bytes": 517645,
+      "sha256": "425cecf8e9eb0fcd63c204d61764c56eadd7c5774ffac89c6cbdc87155273a10"
+    },
+    "T_Pen_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_Normal.png",
+      "bytes": 112163,
+      "sha256": "bddf0cea871506b7046269b9a21af87d35f889f009bd1e192a5458d56a3c00fd"
+    },
+    "T_Pen_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Textures\\T_Pen_Metallic.png",
+      "bytes": 44009,
+      "sha256": "23a1d15637d302319701f9207602dee3df05863306ea2f6c0de1706d6e762180"
+    }
+  },
+  "previous_failure_preserved": {
+    "ue_import_report.json": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\FailedImportBeforeFix\\ue_import_report.json",
+      "bytes": 7267,
+      "sha256": "7ef6697bc54a11246a43760f6e0f5abb7bc97d7204b18c3ae9a09f9d202ade6c"
+    },
+    "ue_import_completion.json": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\FailedImportBeforeFix\\ue_import_completion.json",
+      "bytes": 460,
+      "sha256": "20a217d08f5fdeb89b2bfee6b565b59b13c48d62f5cb1f4d7e4c56129b757e82"
+    },
+    "ue_import.log": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\FailedImportBeforeFix\\ue_import.log",
+      "bytes": 138393,
+      "sha256": "0bbd20dc2fd2ab61c31ae05733f84959ca77d9332f6ce9f90f295e7936fc4146"
+    }
+  },
+  "physical_tungsten_ballpoint_preserved": {
+    "slot": "M_Pen_TungstenBall",
+    "all_source_triangles_preserved": true,
+    "bounds_match_within_cm": 0.001
+  },
+  "renders": {
+    "Pen_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen_Preview.png",
+      "bytes": 1373471,
+      "sha256": "83ab9b0d406a869f3400520d06cbb7c79ef51a3e1ce96ca390faa81ec0073258"
+    },
+    "Pen_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen_Detail.png",
+      "bytes": 1440317,
+      "sha256": "61a4f8d5d65b09caa1bfa9ed7b6df5d05767a714b8374135357a1a8f6055e646"
+    },
+    "Pen_TipDetail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\Pen_TipDetail.png",
+      "bytes": 1399371,
+      "sha256": "589c7cdd922eac6cdee1332b937990a2d966d64ed202e13dbe9deaab6f682815"
+    }
+  },
+  "geometry": {
+    "vertices": 9798,
+    "faces": 19544,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "triangles": 19544,
+    "bounds_min_m": [
+      -0.0055599999614059925,
+      -0.008290000259876251,
+      0.0
+    ],
+    "bounds_max_m": [
+      0.0055599999614059925,
+      0.0055599999614059925,
+      0.1421000063419342
+    ],
+    "dimensions_m": [
+      0.011119999922811985,
+      0.013850000221282244,
+      0.1421000063419342
+    ],
+    "source_materials": [
+      "M_Pen_PolishedEdge",
+      "M_Pen_TungstenBall",
+      "M_Pen_BrushedNickel",
+      "M_Pen_RecessedSeams",
+      "M_Pen_DeepGreenEnamel"
+    ]
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\SM_Pen.fbx",
+    "sha256": "f85988a13070be4984b7dd882fd9ed130b216f3c7cbf8b5d41453da783bacc10",
+    "imported_mesh": "SM_Pen.001",
+    "geometry": {
+      "vertices": 9798,
+      "faces": 19544,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 19544,
+      "bounds_min_m": [
+        -0.0055599999614059925,
+        -0.008290000259876251,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.0055599999614059925,
+        0.0055599999614059925,
+        0.1421000063419342
+      ],
+      "dimensions_m": [
+        0.011119999922811985,
+        0.013850000221282244,
+        0.1421000063419342
+      ]
+    },
+    "ucx_count": 2,
+    "expected_ucx_count": 2,
+    "uv_layers": 1,
+    "pivot_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "material_slots": [
+      "M_Pen_PolishedEdge.001",
+      "M_Pen_TungstenBall.001",
+      "M_Pen_BrushedNickel.001",
+      "M_Pen_RecessedSeams.001",
+      "M_Pen_DeepGreenEnamel.001"
+    ]
+  },
+  "ue_mesh": {
+    "asset": "/Game/Yastars/Mesh/Pen/SM_Pen.SM_Pen",
+    "dimensions_cm": [
+      1.1119999885559082,
+      1.3850000500679016,
+      14.210000991821289
+    ],
+    "expected_dimensions_cm": [
+      1.1119999922811985,
+      1.3849999755620956,
+      14.21000063419342
+    ],
+    "dimension_error_cm": [
+      3.725290298461914e-09,
+      7.450580596923828e-08,
+      3.5762786865234375e-07
+    ],
+    "dimension_tolerance_cm": 0.001,
+    "bounds_origin_cm": [
+      0.0,
+      0.1365000307559967,
+      7.1050004959106445
+    ],
+    "bounds_min_cm": [
+      -0.5559999942779541,
+      -0.5559999942779541,
+      0.0
+    ],
+    "bounds_max_cm": [
+      0.5559999942779541,
+      0.8290000557899475,
+      14.210000991821289
+    ],
+    "expected_bounds_min_cm": [
+      -0.5559999961405993,
+      -0.5559999961405993,
+      0.0
+    ],
+    "expected_bounds_max_cm": [
+      0.5559999961405993,
+      0.8290000259876251,
+      14.21000063419342
+    ],
+    "bounds_error_cm": [
+      1.862645149230957e-09,
+      1.862645149230957e-09,
+      0.0,
+      1.862645149230957e-09,
+      2.9802322387695312e-08,
+      3.5762786865234375e-07
+    ],
+    "bounds_tolerance_cm": 0.001,
+    "render_triangles_lod0": 19544,
+    "expected_triangles": 19544,
+    "fbx_import_remove_degenerates": false,
+    "required_ballpoint_slot": "M_Pen_TungstenBall",
+    "convex_collision_hulls": 2,
+    "expected_collision_hulls": 2,
+    "uv_channels_lod0": 1,
+    "source_uv_channels_expected": 1,
+    "source_triangles": 19544,
+    "matSlots": [
+      {
+        "index": 0,
+        "slot_name": "M_Pen_PolishedEdge",
+        "material": "/Game/Yastars/Mesh/Pen/Materials/M_Pen.M_Pen"
+      },
+      {
+        "index": 1,
+        "slot_name": "M_Pen_TungstenBall",
+        "material": "/Game/Yastars/Mesh/Pen/Materials/M_Pen.M_Pen"
+      },
+      {
+        "index": 2,
+        "slot_name": "M_Pen_BrushedNickel",
+        "material": "/Game/Yastars/Mesh/Pen/Materials/M_Pen.M_Pen"
+      },
+      {
+        "index": 3,
+        "slot_name": "M_Pen_RecessedSeams",
+        "material": "/Game/Yastars/Mesh/Pen/Materials/M_Pen.M_Pen"
+      },
+      {
+        "index": 4,
+        "slot_name": "M_Pen_DeepGreenEnamel",
+        "material": "/Game/Yastars/Mesh/Pen/Materials/M_Pen.M_Pen"
+      }
+    ],
+    "lightmap_coordinate_index": 1,
+    "lightmap_build_settings": {
+      "generate_lightmap_u_vs": true,
+      "remove_degenerates": false,
+      "src_lightmap_index": 0,
+      "dst_lightmap_index": 1,
+      "generated_render_data_uv1_separately_verified": false
+    }
+  },
+  "ue_material": {
+    "asset": "/Game/Yastars/Mesh/Pen/Materials/M_Pen.M_Pen",
+    "texture_set": "Pen",
+    "textures": {
+      "BaseColor": "/Game/Yastars/Mesh/Pen/Textures/T_Pen_BaseColor.T_Pen_BaseColor",
+      "Roughness": "/Game/Yastars/Mesh/Pen/Textures/T_Pen_Roughness.T_Pen_Roughness",
+      "Normal": "/Game/Yastars/Mesh/Pen/Textures/T_Pen_Normal.T_Pen_Normal",
+      "Metallic": "/Game/Yastars/Mesh/Pen/Textures/T_Pen_Metallic.T_Pen_Metallic"
+    },
+    "vector_parameters": [
+      "Tint"
+    ],
+    "Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "connections": {
+      "BaseColor": "BaseColor.RGB * Tint.RGB",
+      "Roughness": "Roughness.R",
+      "Normal": "Normal.RGB",
+      "Metallic": "Metallic.R"
+    },
+    "emissive_connected": false,
+    "emissive_default": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ue_completion": {
+    "script": "import_ue.py",
+    "pid": 35800,
+    "started_utc": "2026-10-23T01:28:38.1394921Z",
+    "completed_utc": "2026-10-23T01:30:06.7293026Z",
+    "exit_code": 0,
+    "normal_zero_exit": true,
+    "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\ue_import_report.json",
+    "temporary_engine_world": "/Engine/Maps/Entry",
+    "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+    "target_root": "/Game/Yastars/Mesh/Pen",
+    "previous_failure_backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Pen\\FailedImportBeforeFix"
+  },
+  "no_exported_lights_or_cameras": true,
+  "no_emissive_material_connection": true
+}

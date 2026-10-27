@@ -1,0 +1,489 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-21T07:08:55.523617+00:00",
+  "new_packages": {
+    "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed": {
+      "bytes": 14549,
+      "sha256": "fd1af2deb9322d6c231552a8eefddb678cb2d571e019f81b9a0e6751a82caba0"
+    },
+    "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen": {
+      "bytes": 14663,
+      "sha256": "86b4649adc4f425a5c3944dd1a0b95920f2496af11bb73e4318cfcfcd6fe8953"
+    },
+    "/Game/Yastars/Mesh/Envelope/Materials/M_LetterPaper": {
+      "bytes": 12910,
+      "sha256": "ff829762bde1953508fba0a74ae3af99f83c5d31380061d260be4028f82d663a"
+    },
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope_Closed": {
+      "bytes": 359748,
+      "sha256": "c285a074a41c97321f92a5b88e613ae50280b2dd3fadba5563a7416093dc32a2"
+    },
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope_Open": {
+      "bytes": 442712,
+      "sha256": "4ce12f46a5dcae4e1ccab2217feda2933f6d729f801416d81d1d60f93bed8f94"
+    },
+    "/Game/Yastars/Mesh/Envelope/SM_LetterPaper": {
+      "bytes": 54311,
+      "sha256": "d955d8a6afda8da2674ae74a12d5d01c67efaa4d6b1e7a7caabc12802bfcab27"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_BaseColor": {
+      "bytes": 1356380,
+      "sha256": "25bc19f68d7935a8fcff79317950218d0e05bfbc8ad94a7e34dc975163d80fc4"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Normal": {
+      "bytes": 255202,
+      "sha256": "467ef9116adb06c53919345dba13059a36a6b28523f33e1834c75fbb2b6f9fd8"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Roughness": {
+      "bytes": 173998,
+      "sha256": "0ba9300fa2bad52fd1480965a5d4f98f1c5ac1f6de98c68f9f39733b116f4e51"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_BaseColor": {
+      "bytes": 1332272,
+      "sha256": "206ec021b2711af1cf60cb427006e231c1bb744d0a3efa8303fd83a841f75e19"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Normal": {
+      "bytes": 247632,
+      "sha256": "9544efd418542f6c4addcbf5539d35954bafe4dfb7d5cc499fc20436ce73fc0b"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Roughness": {
+      "bytes": 169199,
+      "sha256": "fad023a480b03b99be503ef6e8e1dfa391a17e2cad9d530c1a51770045996904"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_BaseColor": {
+      "bytes": 276182,
+      "sha256": "b4e938e9bd0f361515eb32eb3d8feb91aabcfd0261398c75e503c9d40b95dfb1"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Normal": {
+      "bytes": 9544,
+      "sha256": "e823778df6e46b69d20485743641ebbbc78ab923973085b27ebc46aa99218dbe"
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Roughness": {
+      "bytes": 174922,
+      "sha256": "0a9830804371d8382e1cce6be4900a6091d812c62335b6a583529b26e4b1b27c"
+    }
+  },
+  "deleted_legacy": [
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope",
+    "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal"
+  ],
+  "ue_completion": {
+    "script": "import_set.py",
+    "pid": 2672,
+    "started_utc": "2026-10-21T07:00:44.4542645Z",
+    "completed_utc": "2026-10-21T07:02:50.6942721Z",
+    "exit_code": 0,
+    "normal_zero_exit": true,
+    "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\ue_import_report.json",
+    "temporary_engine_world": "/Engine/Maps/Entry",
+    "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement"
+  },
+  "ue_meshes": {
+    "SM_Envelope_Closed": {
+      "asset": "/Game/Yastars/Mesh/Envelope/SM_Envelope_Closed.SM_Envelope_Closed",
+      "created": true,
+      "dimensions_cm": [
+        22.0,
+        11.030002117156982,
+        0.27000048803165555
+      ],
+      "expected_dimensions_cm": [
+        21.99999988079071,
+        11.030000448226929,
+        0.27000047266483307
+      ],
+      "dimension_error_cm": [
+        1.1920928955078125e-07,
+        1.6689300537109375e-06,
+        1.5366822481155396e-08
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        -0.015000104904174805,
+        0.13499976671300828
+      ],
+      "convex_collision_hulls": 1,
+      "expected_collision_hulls": 1,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Kraft_Inner",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Kraft_Outer",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Kraft_Edge",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        },
+        {
+          "index": 3,
+          "slot_name": "M_Kraft_Gum",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    },
+    "SM_Envelope_Open": {
+      "asset": "/Game/Yastars/Mesh/Envelope/SM_Envelope_Open.SM_Envelope_Open",
+      "created": true,
+      "dimensions_cm": [
+        22.0,
+        17.147212982177734,
+        5.048314095009118
+      ],
+      "expected_dimensions_cm": [
+        21.99999988079071,
+        17.148983478546143,
+        5.049177631735802
+      ],
+      "dimension_error_cm": [
+        1.1920928955078125e-07,
+        0.0017704963684082031,
+        0.0008635367266833782
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        -3.073605537414551,
+        2.5241565702017397
+      ],
+      "convex_collision_hulls": 33,
+      "expected_collision_hulls": 33,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Kraft_Inner",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Kraft_Outer",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Kraft_Edge",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        },
+        {
+          "index": 3,
+          "slot_name": "M_Kraft_Gum",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    },
+    "SM_LetterPaper": {
+      "asset": "/Game/Yastars/Mesh/Envelope/SM_LetterPaper.SM_LetterPaper",
+      "created": true,
+      "dimensions_cm": [
+        20.5,
+        9.500001907348633,
+        0.026645321362092456
+      ],
+      "expected_dimensions_cm": [
+        20.499999821186066,
+        9.49999988079071,
+        0.026645322213880718
+      ],
+      "dimension_error_cm": [
+        1.7881393432617188e-07,
+        2.0265579223632812e-06,
+        8.517882614522687e-10
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        0.013322660717927237
+      ],
+      "convex_collision_hulls": 1,
+      "expected_collision_hulls": 1,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Letter_Paper",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_LetterPaper.M_LetterPaper"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    }
+  },
+  "assembly": {
+    "paper_in_open_envelope_offset_blender_m": [
+      0,
+      0,
+      0.0013
+    ],
+    "paper_in_open_envelope_offset_ue_cm": [
+      0,
+      0,
+      0.13
+    ],
+    "paper_surface_intersections": 0,
+    "open_flap_rotation_degrees": 140
+  },
+  "paper_hinge_and_collision_review": {
+    "hinge": {
+      "hinge_front_surface_intersections": 69,
+      "hinge_open_flap_surface_intersections": 88,
+      "source_open_flap": "Large V sealing flap.002"
+    },
+    "open_ucx_count": 33,
+    "minimum_ucx_aabb_separation_mm": 0.2999999560415745
+  },
+  "protected_files_checked": 30,
+  "protected_files_changed": [
+    "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEngine.ini"
+  ],
+  "preexisting_user_settings_preserved": [
+    {
+      "path": "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEngine.ini",
+      "change": "Only appended bRemoteExecution=False section; saved before import",
+      "sha256": "06da0114e7c998fa10c69611d55602f061a39cd1c224ab431ed31660f574ed6f"
+    }
+  ],
+  "yastar_ui_file_count": 19,
+  "ui_and_maps_unchanged": true,
+  "source_files": {
+    "EnvelopeSet.blend": {
+      "bytes": 1039533,
+      "sha256": "3f94f4ef1bfe6bd9626218fb3f1566f66e1c0e9d4cb58e3f6646c6f3c6d420b2"
+    },
+    "SM_Envelope_Closed.fbx": {
+      "bytes": 417932,
+      "sha256": "3a1536f4cd225fcce617c63f04d3ede8e0cefd469bdc667f29297f97a36b37d5"
+    },
+    "SM_Envelope_Open.fbx": {
+      "bytes": 528972,
+      "sha256": "59eebb32609a3365a6651bafba47e86d52ed55abf65a5addf009c52587ba52e2"
+    },
+    "SM_LetterPaper.fbx": {
+      "bytes": 71132,
+      "sha256": "9194c6a3ef8542e1077248ae30b4aa20c6639b190e60496818d9ff467061dd34"
+    }
+  },
+  "renders": {
+    "EnvelopeSet_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeSet_Preview.png",
+      "bytes": 1955186,
+      "sha256": "71df905049e26f9146e8c998e5007ba73a9f76545ad36a8115a814d6093419bf",
+      "resolution": [
+        1800,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Envelope_Closed",
+        "SM_Envelope_Open",
+        "SM_LetterPaper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 25.661729299998115
+    },
+    "EnvelopeOpen_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeOpen_Preview.png",
+      "bytes": 1909957,
+      "sha256": "03b9cf0fa9c009cd61b2429e3f0c070ab01d989d6cbe421be1310c31f322418a",
+      "resolution": [
+        1800,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Envelope_Open",
+        "SM_LetterPaper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 30.087742499999877
+    },
+    "EnvelopeClosed_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\EnvelopeClosed_Preview.png",
+      "bytes": 1936199,
+      "sha256": "3ad0a22c34d0c113ac17d4fd20d2d45dd1c2468ad869eddf074645abe83055d8",
+      "resolution": [
+        1800,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Envelope_Closed"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 26.254648999998608
+    }
+  },
+  "geometry": {
+    "SM_Envelope_Closed": {
+      "vertices": 5974,
+      "faces": 11916,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 11916,
+      "bounds_min_m": [
+        -0.10999999940395355,
+        -0.054999999701976776,
+        -4.773028194904327e-09
+      ],
+      "bounds_max_m": [
+        0.10999999940395355,
+        0.05530000105500221,
+        0.0027000000700354576
+      ],
+      "dimensions_m": [
+        0.2199999988079071,
+        0.11030000075697899,
+        0.0027000048430636525
+      ],
+      "source_materials": [
+        "M_Kraft_Inner",
+        "M_Kraft_Outer",
+        "M_Kraft_Edge",
+        "M_Kraft_Gum"
+      ],
+      "shader_attributes": {
+        "PaperCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 5974
+        },
+        "PaperTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 5974
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 5974
+        }
+      }
+    },
+    "SM_Envelope_Open": {
+      "vertices": 6170,
+      "faces": 12308,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 12308,
+      "bounds_min_m": [
+        -0.10999999940395355,
+        -0.054999999701976776,
+        -4.773028194904327e-09
+      ],
+      "bounds_max_m": [
+        0.10999999940395355,
+        0.11648984253406525,
+        0.05049177259206772
+      ],
+      "dimensions_m": [
+        0.2199999988079071,
+        0.17148984223604202,
+        0.05049177736509591
+      ],
+      "source_materials": [
+        "M_Kraft_Inner",
+        "M_Kraft_Outer",
+        "M_Kraft_Edge",
+        "M_Kraft_Gum"
+      ],
+      "shader_attributes": {
+        "PaperCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 6170
+        },
+        "PaperTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 6170
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 6170
+        }
+      }
+    },
+    "SM_LetterPaper": {
+      "vertices": 794,
+      "faces": 1584,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 1584,
+      "bounds_min_m": [
+        -0.10249999910593033,
+        -0.04749999940395355,
+        3.688100714584197e-13
+      ],
+      "bounds_max_m": [
+        0.10249999910593033,
+        0.04749999940395355,
+        0.0002664532221388072
+      ],
+      "dimensions_m": [
+        0.20499999821186066,
+        0.0949999988079071,
+        0.0002664532217699971
+      ],
+      "source_materials": [
+        "M_Letter_Paper"
+      ],
+      "shader_attributes": {
+        "PaperCoord": {
+          "domain": "POINT",
+          "data_type": "FLOAT_VECTOR",
+          "count": 794
+        },
+        "PaperTone": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 794
+        },
+        "Wear": {
+          "domain": "POINT",
+          "data_type": "FLOAT",
+          "count": 794
+        }
+      }
+    }
+  }
+}

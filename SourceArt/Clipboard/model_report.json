@@ -1,0 +1,110 @@
+{
+  "parts": {
+    "SM_Clipboard_Board": {
+      "filename": "SM_Clipboard_Board.fbx",
+      "dimensions_cm": [
+        23.000000417232513,
+        33.799999952316284,
+        1.663942076265812
+      ],
+      "triangles": 11092,
+      "collision_hulls": 5,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Clipboard_HardboardFront": "M_ClipboardBoard",
+        "M_Clipboard_HardboardEdge": "M_ClipboardBoard",
+        "M_Clipboard_HardboardBack": "M_ClipboardBoard",
+        "M_Clipboard_Steel": "M_ClipboardBoard",
+        "M_Clipboard_Nickel": "M_ClipboardBoard"
+      }
+    },
+    "SM_Clipboard_Clip": {
+      "filename": "SM_Clipboard_Clip.fbx",
+      "dimensions_cm": [
+        10.000000149011612,
+        6.570000201463699,
+        2.0405422896146774
+      ],
+      "triangles": 6028,
+      "collision_hulls": 11,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Clipboard_Nickel": "M_ClipboardClip",
+        "M_Clipboard_PressureStrip": "M_ClipboardClip"
+      }
+    },
+    "SM_Clipboard_Paper": {
+      "filename": "SM_Clipboard_Paper.fbx",
+      "dimensions_cm": [
+        20.999999344348907,
+        29.6999990940094,
+        0.18256385810673237
+      ],
+      "triangles": 2816,
+      "collision_hulls": 11,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Clipboard_WhitePaper": "M_ClipboardPaper"
+      }
+    }
+  },
+  "texture_sets": {
+    "Board": {
+      "prefix": "T_ClipboardBoard",
+      "BaseColor": "Textures/T_ClipboardBoard_BaseColor.png",
+      "Roughness": "Textures/T_ClipboardBoard_Roughness.png",
+      "Normal": "Textures/T_ClipboardBoard_Normal.png",
+      "Metallic": "Textures/T_ClipboardBoard_Metallic.png"
+    },
+    "Clip": {
+      "prefix": "T_ClipboardClip",
+      "BaseColor": "Textures/T_ClipboardClip_BaseColor.png",
+      "Roughness": "Textures/T_ClipboardClip_Roughness.png",
+      "Normal": "Textures/T_ClipboardClip_Normal.png",
+      "Metallic": "Textures/T_ClipboardClip_Metallic.png"
+    },
+    "Paper": {
+      "prefix": "T_ClipboardPaper",
+      "BaseColor": "Textures/T_ClipboardPaper_BaseColor.png",
+      "Roughness": "Textures/T_ClipboardPaper_Roughness.png",
+      "Normal": "Textures/T_ClipboardPaper_Normal.png",
+      "Metallic": "Textures/T_ClipboardPaper_Metallic.png"
+    }
+  },
+  "materials": {
+    "M_ClipboardBoard": {
+      "texture_set": "Board"
+    },
+    "M_ClipboardClip": {
+      "texture_set": "Clip"
+    },
+    "M_ClipboardPaper": {
+      "texture_set": "Paper"
+    }
+  },
+  "assembly": {
+    "all_parts_share_origin": true,
+    "relative_position_cm": [
+      0,
+      0,
+      0
+    ],
+    "hinge_pivot_blender_m": [
+      0,
+      0.148,
+      0.011
+    ],
+    "hinge_axis": "X",
+    "clip_is_independent": true,
+    "paper_size_mm": [
+      210,
+      297
+    ]
+  },
+  "reference_url": "https://rapesco.com/product/business-pack-pack-of-4-heavy-duty-hardboard-clipboard-a4-brown/",
+  "exported_lights": 0,
+  "exported_cameras": 0
+}

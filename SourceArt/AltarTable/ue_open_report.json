@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "selected_assets": [
+    "/Game/Yastars/Mesh/AltarTable/SM_AltarTable"
+  ],
+  "assets": {
+    "SM_AltarTable": {
+      "asset": "/Game/Yastars/Mesh/AltarTable/SM_AltarTable.SM_AltarTable",
+      "dimensions_cm": [
+        220.00001525878906,
+        60.000022888183594,
+        95.0
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        47.5
+      ],
+      "expected_collision_hulls": 14,
+      "convex_collision_hulls": 14,
+      "source_uv_channels_expected": 1,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Altar_Wood",
+          "material": "/Game/Yastars/Mesh/AltarTable/Materials/M_AltarTable.M_AltarTable"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Altar_Endgrain",
+          "material": "/Game/Yastars/Mesh/AltarTable/Materials/M_AltarTable.M_AltarTable"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Altar_Dark",
+          "material": "/Game/Yastars/Mesh/AltarTable/Materials/M_AltarTable.M_AltarTable"
+        }
+      ]
+    }
+  },
+  "texture_count": 3,
+  "material_count": 1
+}

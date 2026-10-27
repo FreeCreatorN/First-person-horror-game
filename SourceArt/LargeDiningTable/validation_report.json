@@ -1,0 +1,200 @@
+{
+  "success": true,
+  "geometry": {
+    "vertices": 10240,
+    "faces": 20272,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "triangles": 20272,
+    "bounds_min_m": [
+      -1.1999999284744263,
+      -0.5249999761581421,
+      0.0
+    ],
+    "bounds_max_m": [
+      1.1999999284744263,
+      0.5249999761581421,
+      0.7601999640464783
+    ],
+    "dimensions_m": [
+      2.3999998569488525,
+      1.0499999523162842,
+      0.7601999640464783
+    ],
+    "source_materials": [
+      "M_Dining_Wood",
+      "M_Dining_Endgrain",
+      "M_Dining_Dark"
+    ],
+    "shader_attributes": {
+      "WoodCoord": {
+        "domain": "POINT",
+        "data_type": "FLOAT_VECTOR",
+        "count": 10240
+      },
+      "WoodTone": {
+        "domain": "POINT",
+        "data_type": "FLOAT",
+        "count": 10240
+      },
+      "Wear": {
+        "domain": "POINT",
+        "data_type": "FLOAT",
+        "count": 10240
+      }
+    }
+  },
+  "uv": {
+    "layers": [
+      "UVMap"
+    ],
+    "active": "UVMap",
+    "min": [
+      0.005456565413624048,
+      0.005456557031720877
+    ],
+    "max": [
+      0.9909380078315735,
+      0.9945434331893921
+    ],
+    "triangle_uv_area_sum": 0.4874327136699554,
+    "zero_area_triangles": 0
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\SM_LargeDiningTable.fbx",
+    "sha256": "85af7bad721f9c94957ee287f90f9d04a52830ffcfe4d1a7182dd659cec5eaff",
+    "imported_mesh": "SM_LargeDiningTable.001",
+    "geometry": {
+      "vertices": 10240,
+      "faces": 20272,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 20272,
+      "bounds_min_m": [
+        -1.1999999284744263,
+        -0.5250000953674316,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.1999999284744263,
+        0.5250000953674316,
+        0.7601999640464783
+      ],
+      "dimensions_m": [
+        2.3999998569488525,
+        1.0500001907348633,
+        0.7601999640464783
+      ]
+    },
+    "ucx_count": 11,
+    "expected_ucx_count": 11,
+    "uv_layers": 1,
+    "pivot_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "material_slots": [
+      "M_Dining_Wood.001",
+      "M_Dining_Endgrain.001",
+      "M_Dining_Dark.001"
+    ]
+  },
+  "bakes": {
+    "T_LargeDiningTable_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\Textures\\T_LargeDiningTable_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 9534654,
+      "sha256": "2fcf9ed93d7b93ee231b7d45aed461b3cd818f5ba730bea3aeab8a2d9588b770",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.4392157196998596,
+        0.2980392277240753,
+        0.16862745583057404
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 10.898670300000049
+    },
+    "T_LargeDiningTable_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\Textures\\T_LargeDiningTable_Roughness.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 1239355,
+      "sha256": "269329f1fd6bb4dd559c52fc063c7f3cc44d3962c290d58f6d4d8e1eac247e46",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.729411780834198,
+        0.729411780834198,
+        0.729411780834198
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.512670899999648
+    },
+    "T_LargeDiningTable_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\Textures\\T_LargeDiningTable_Normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 2254217,
+      "sha256": "defe6997c1666e182391df8d9d6ac127591b4082dcecfcd5d3933fa31f992d38",
+      "sample_min_rgb": [
+        0.40392160415649414,
+        0.458823561668396,
+        0.9843137860298157
+      ],
+      "sample_max_rgb": [
+        0.6078431606292725,
+        0.6117647290229797,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 5.462076799999977
+    }
+  },
+  "renders": {
+    "preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\LargeDiningTable_Preview.png",
+    "detail": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\LargeDiningTable_Detail.png"
+  },
+  "settings": {
+    "color_resolution": 4096,
+    "data_resolution": 2048,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 56.32459299999982,
+  "baked_material": {
+    "name": "M_LargeDiningTable_Baked",
+    "emission_connected": false,
+    "images": {
+      "BaseColor": "T_LargeDiningTable_BaseColor",
+      "Roughness": "T_LargeDiningTable_Roughness",
+      "Normal": "T_LargeDiningTable_Normal"
+    }
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\LargeDiningTable.blend"
+}

@@ -1,0 +1,142 @@
+{
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\ModelDataManifest.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\ModelDataManifest.json.bak",
+    "sha256": "e6c660e4081046164732075c2446f0bb8940d175c6f116ff45b7de5964e05ed7"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\OldTownRealFurniture.blend": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\OldTownRealFurniture.blend.bak",
+    "sha256": "e205dbbe7e5f7d6aa4dda6294483393567e5dea1302a3bfcd28418625463b32e"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedBase_200x100x29.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedBase_200x100x29.fbx.bak",
+    "sha256": "777b0725bc799dfc60fe4cdb71efd38095ea808461711eb841cb0e0e1308a239"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedBase_200x160x29.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedBase_200x160x29.fbx.bak",
+    "sha256": "9b03d51581b22ef83fa6f4ede3d6cb2ee416cc599fd5a32bb20388caf8da49b1"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedHead_9x100x95.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedHead_9x100x95.fbx.bak",
+    "sha256": "06096302b2e5e4a37b9abb9698607ce14848aeed78535d094254fbabefba2f44"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedHead_9x160x95.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedHead_9x160x95.fbx.bak",
+    "sha256": "e8d44dcaae39c4a950692b8d2c811f44cc41bff8f89fd78203be4483505d0e71"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedMattress_200x100x17.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedMattress_200x100x17.fbx.bak",
+    "sha256": "4ccc443a02dcf688c25a5d5ec007f4f96cd9632f1fbabbd4c98e0a2302f34ee8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedMattress_200x160x17.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedMattress_200x160x17.fbx.bak",
+    "sha256": "90d12bccdc7946ad87957e7e4421c96bb14ca3b4cad95757b399b60e19b5f862"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedPillow_28x144x12.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedPillow_28x144x12.fbx.bak",
+    "sha256": "8d69242ffb6fb2042aa50359d054deae96428d2fe2c0f173d369e51d9547ffa3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_BedPillow_28x84x12.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_BedPillow_28x84x12.fbx.bak",
+    "sha256": "88a9e251b5688e981b263eea3fe24da4124e84f93bc39383ec079f7d8f46330e"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_ReceptionBody_80x420x104.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_ReceptionBody_80x420x104.fbx.bak",
+    "sha256": "1ecfdbee0bb28510ab1c0d09d508f904601c0f2d95cc94f74ec6aea2d33be60a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_ReceptionTop_88x428x5.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_ReceptionTop_88x428x5.fbx.bak",
+    "sha256": "688abeb5477e11d7cb9ea27493dff33ddba666d9fd8680192b322fd0a5109a2d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_12x220x47_XP.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_12x220x47_XP.fbx.bak",
+    "sha256": "b3514aab9cf436b8054502827dc16625c228fb67fb908885056475930c0933f3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_12x45x47_XN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_12x45x47_XN.fbx.bak",
+    "sha256": "22f513e5177346cae40af1cb70eca50cabb1fe398d87dd9b4c0af97296ab2329"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_12x45x47_XP.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_12x45x47_XP.fbx.bak",
+    "sha256": "ebd050a1191e90164f06fcd08d1404b60a8153867904b2be61ddaa71fe10c908"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_12x65x47_XN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_12x65x47_XN.fbx.bak",
+    "sha256": "fbce0339491c082b222cd235f078c961993519b15c448d0abd6ed47e403d926d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_135x12x47_YN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_135x12x47_YN.fbx.bak",
+    "sha256": "fa593250abc9c45a31ff9499d239e60bcf155ca6bf5bbf82a131ed4bab2102ab"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_210x12x47_YN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_210x12x47_YN.fbx.bak",
+    "sha256": "dd354a22c4acb76b7298c0265bb23a89d61698a840d35c14b28a00c3370d2370"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBack_210x12x47_YP.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBack_210x12x47_YP.fbx.bak",
+    "sha256": "e33d99de16195afa84ca54b8effe33d6b0a8b1ac8b3cf3789e5fae6bd9efa06e"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_135x80x35_YN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_135x80x35_YN.fbx.bak",
+    "sha256": "309daf921c275ebd7003209243ce793b09474b41edfe5bf08b2484247018972f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_210x80x35_YN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_210x80x35_YN.fbx.bak",
+    "sha256": "b6918a256a896f25ef1d1e7b1c9a4748f2e7dd5ec73ed3244cf04f13626a9cca"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_210x80x35_YP.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_210x80x35_YP.fbx.bak",
+    "sha256": "41a5450c18a03c2117531a53e7205e42b2dc1681fb6f239c3cc7e00fc6d2c11d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_45x45x35_XN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_45x45x35_XN.fbx.bak",
+    "sha256": "d05b5108dabcee9666edac0e1cc8f459b5d3afb6b8f590d996227dfb60ff6bde"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_45x45x35_XP.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_45x45x35_XP.fbx.bak",
+    "sha256": "f8f9182feb0a759638465057cbd6cdef734e09e94782903cc794a6bb7d40b0f1"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_65x65x35_XN.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_65x65x35_XN.fbx.bak",
+    "sha256": "bbdd8db1e2ffe3570ff20b25674323d07e36fd4a70985d2f54022bf506cac7ac"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_SeatBase_80x220x35_XP.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_SeatBase_80x220x35_XP.fbx.bak",
+    "sha256": "b5ca17c4ecc557d556856e7f912bad017b1609f844c96ca3f2b819bdc0367675"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableLeg_5x5x49.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableLeg_5x5x49.fbx.bak",
+    "sha256": "0890a9e15a4d93bb6f21a330952b682f9c762479db9d0494a05d9949280f25b0"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableLeg_5x5x69.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableLeg_5x5x69.fbx.bak",
+    "sha256": "0d8af2a39334c933a5a83bbd500beb25caa4ae24b5565f2dd932592c2cad546a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableTop_60x90x6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableTop_60x90x6.fbx.bak",
+    "sha256": "e90d207ab9cafca51da15cd6b4b28d5c515b6cc315258dc5f17ddbf3dcf6a5f4"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableTop_65x110x6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableTop_65x110x6.fbx.bak",
+    "sha256": "6f75a899470a3f6654a7a63096fa01f9cfe29c6a3a7917ed341d1b310465024d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableTop_65x170x6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableTop_65x170x6.fbx.bak",
+    "sha256": "cd6a0d814b9b166902065c778695a0e853dc03cefe97c572b8a42ff92209e11d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableTop_70x60x6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableTop_70x60x6.fbx.bak",
+    "sha256": "5b681560e4919416cbf3fedb6c5e0d5646e2cbc29e30ac1e47d33b776d0137d2"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_TableTop_80x130x6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_TableTop_80x130x6.fbx.bak",
+    "sha256": "675baf46ea33b4f47605558d820d76ac94307149714c876ef3f65b58c2de7388"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_WardrobeBody_180x60x185.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_WardrobeBody_180x60x185.fbx.bak",
+    "sha256": "37bced9ec8837b6b34bb2ebb9feaadb5a3a456f6acf6652aeb90dc6f12956d2d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\SM_OTS_Real_WardrobeDoors_170x1p7x165.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\BeforeSolids\\SM_OTS_Real_WardrobeDoors_170x1p7x165.fbx.bak",
+    "sha256": "6ffc21b76e22b92c89edccedf8ad881d12ac89a0ad63de1d08fe76ed583331ab"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_Camera": {
+      "vertices": 45676,
+      "faces": 90336,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 90336,
+      "bounds_min_m": [
+        -0.0742499977350235,
+        -0.07717500627040863,
+        -5.999952554702759e-05
+      ],
+      "bounds_max_m": [
+        0.07706660777330399,
+        0.03154999762773514,
+        0.10105000436306
+      ],
+      "dimensions_m": [
+        0.15131660550832748,
+        0.10872500389814377,
+        0.10111000388860703
+      ],
+      "source_materials": [
+        "M_Camera_SatinChrome",
+        "M_Camera_Leatherette",
+        "M_Camera_PolishedTrim",
+        "M_Camera_OpticalInterior",
+        "M_Camera_BlackEnamel",
+        "M_Camera_ContactBrass",
+        "M_Camera_EngravedIvory",
+        "M_Camera_RubberGrip",
+        "M_Camera_OpticalGlass",
+        "M_Camera_FilmMemoPaper"
+      ]
+    }
+  },
+  "uv": {
+    "SM_Camera": {
+      "layers": [
+        "UVMap"
+      ],
+      "active": "UVMap",
+      "min": [
+        0.00587886618450284,
+        0.005878870841115713
+      ],
+      "max": [
+        0.9934256076812744,
+        0.9941210746765137
+      ],
+      "triangle_uv_area_sum": 0.14983908759325743,
+      "zero_area_triangles": 0
+    }
+  },
+  "fbx_roundtrip": {
+    "SM_Camera": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\SM_Camera.fbx",
+      "sha256": "2894aa69718b89b9a7790c4265a948acd7cd1642f7bdb3100d044004809d41bb",
+      "imported_mesh": "SM_Camera.001",
+      "geometry": {
+        "vertices": 45676,
+        "faces": 90336,
+        "non_manifold_edges": 0,
+        "loose_vertices": 0,
+        "triangles": 90336,
+        "bounds_min_m": [
+          -0.0742499977350235,
+          -0.07717500627040863,
+          -5.999952554702759e-05
+        ],
+        "bounds_max_m": [
+          0.07706660777330399,
+          0.03154999762773514,
+          0.10105000436306
+        ],
+        "dimensions_m": [
+          0.15131660550832748,
+          0.10872500389814377,
+          0.10111000388860703
+        ]
+      },
+      "ucx_count": 4,
+      "expected_ucx_count": 4,
+      "uv_layers": 1,
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "M_Camera_SatinChrome.001",
+        "M_Camera_Leatherette.001",
+        "M_Camera_PolishedTrim.001",
+        "M_Camera_OpticalInterior.001",
+        "M_Camera_BlackEnamel.001",
+        "M_Camera_ContactBrass.001",
+        "M_Camera_EngravedIvory.001",
+        "M_Camera_RubberGrip.001",
+        "M_Camera_OpticalGlass.001",
+        "M_Camera_FilmMemoPaper.001"
+      ],
+      "ucx_names": [
+        "UCX_SM_Camera_00",
+        "UCX_SM_Camera_02",
+        "UCX_SM_Camera_01",
+        "UCX_SM_Camera_03"
+      ],
+      "normalized_material_slots": [
+        "M_Camera_SatinChrome",
+        "M_Camera_Leatherette",
+        "M_Camera_PolishedTrim",
+        "M_Camera_OpticalInterior",
+        "M_Camera_BlackEnamel",
+        "M_Camera_ContactBrass",
+        "M_Camera_EngravedIvory",
+        "M_Camera_RubberGrip",
+        "M_Camera_OpticalGlass",
+        "M_Camera_FilmMemoPaper"
+      ]
+    }
+  },
+  "bakes": {
+    "T_Camera_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_BaseColor.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bytes": 400172,
+      "sha256": "163a3b5e8629df1793662500f9c8c006babb93ee4b3de4ae978dbedbe022682c",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.847058892250061,
+        0.8549020290374756,
+        0.8274510502815247
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.2911903000003804
+    },
+    "T_Camera_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Roughness.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 785884,
+      "sha256": "ac8dc244cabdb11b130943aef1a52cd90d0fb83b7a9d5fd74da3d92f0951ee22",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.2235051999996358
+    },
+    "T_Camera_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 1050604,
+      "sha256": "01ceb5f45cf5e8d397950b73ae6757121415e956f4b4bb0bfac3b8072ecc59dc",
+      "sample_min_rgb": [
+        0.3764706254005432,
+        0.4431372880935669,
+        0.9647059440612793
+      ],
+      "sample_max_rgb": [
+        0.6196078658103943,
+        0.572549045085907,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.5831980999992084
+    },
+    "T_Camera_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Textures\\T_Camera_Metallic.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 279746,
+      "sha256": "73081f2e56a3a44411f642c019fb6451049aa5c8d3df1115cc9ff07c48acd7a9",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.020554799999445
+    }
+  },
+  "baked_materials": {
+    "SM_Camera": {
+      "name": "T_Camera_Baked",
+      "emission_connected": false,
+      "emission_strength": 0.0,
+      "subsurface_weight": 0.0,
+      "metallic_texture_connected": true,
+      "images": {
+        "BaseColor": "T_Camera_BaseColor",
+        "Roughness": "T_Camera_Roughness",
+        "Normal": "T_Camera_Normal",
+        "Metallic": "T_Camera_Metallic"
+      },
+      "source_opaque_slots": {
+        "0": "M_Camera_SatinChrome",
+        "1": "M_Camera_Leatherette",
+        "2": "M_Camera_PolishedTrim",
+        "3": "M_Camera_OpticalInterior",
+        "4": "M_Camera_BlackEnamel",
+        "5": "M_Camera_ContactBrass",
+        "6": "M_Camera_EngravedIvory",
+        "7": "M_Camera_RubberGrip",
+        "9": "M_Camera_FilmMemoPaper"
+      },
+      "preserved_slots": {
+        "8": "M_Camera_OpticalGlass"
+      },
+      "excluded_uv_pixels": "Neutral placeholders; never assigned to optical glass."
+    }
+  },
+  "renders": {
+    "Camera_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera_Preview.png",
+      "bytes": 1862345,
+      "sha256": "f64a746f56ef70b48c676849364a89ef6980eca2337be6c1c31e0cf5d1e11565",
+      "resolution": [
+        1500,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Camera"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_preserved": true,
+      "elapsed_seconds": 41.62560779999876
+    },
+    "Camera_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera_Back.png",
+      "bytes": 1706384,
+      "sha256": "47e2f2233133ae22e36d476876223c61fb772749b0c9ba44ae638267ca0ebb32",
+      "resolution": [
+        1500,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Camera"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_preserved": true,
+      "elapsed_seconds": 32.781836099999055
+    },
+    "Camera_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera_Detail.png",
+      "bytes": 2012033,
+      "sha256": "9ed30056430a715fbd35df12aaf50a621f7c5cb89d84de1ca7508e0843355ef2",
+      "resolution": [
+        1500,
+        1100
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Camera"
+      ],
+      "opaque_material_from_saved_pngs": true,
+      "glass_preserved": true,
+      "elapsed_seconds": 57.7811786000002
+    }
+  },
+  "settings": {
+    "color_resolution": 2048,
+    "data_resolution": 2048,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "channels": [
+      "BaseColor",
+      "Roughness",
+      "Normal",
+      "Metallic"
+    ],
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "separate_materials": {
+    "glass": {
+      "source_name": "M_Camera_OpticalGlass",
+      "transmission": 1.0,
+      "ior": 1.46,
+      "roughness": 0.07,
+      "alpha": 1.0,
+      "emission_strength": 0.0,
+      "preserved": true
+    }
+  },
+  "elapsed_seconds": 138.85595029999968,
+  "assembly_contact": {
+    "cross_object_zero_overlap_required": false,
+    "reason": "Single joined mesh; body, controls, lens barrels, and optical glass meet intentionally."
+  },
+  "display_materials": {
+    "SM_Camera": [
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "T_Camera_Baked",
+      "M_Camera_OpticalGlass",
+      "T_Camera_Baked"
+    ]
+  },
+  "render_settings": {
+    "samples": 40,
+    "max_bounces": 8,
+    "transmission_bounces": 8,
+    "denoising": true,
+    "added_lights": 0,
+    "glass_preserved": true
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\Camera.blend",
+  "final_visibility": {
+    "canonical_hidden": true,
+    "display_visible": true,
+    "source_hidden": true
+  }
+}

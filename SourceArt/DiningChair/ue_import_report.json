@@ -1,0 +1,102 @@
+{
+  "success": true,
+  "assets": {
+    "SM_DiningChair": {
+      "asset": "/Game/Yastars/Mesh/DiningChair/SM_DiningChair.SM_DiningChair",
+      "dimensions_cm": [
+        48.0,
+        52.39697074890137,
+        105.99999237060547
+      ],
+      "bounds_origin_cm": [
+        1.9073486328125e-06,
+        -2.198483467102051,
+        52.999996185302734
+      ],
+      "expected_collision_hulls": 23,
+      "convex_collision_hulls": 23,
+      "source_uv_channels_expected": 1,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Chair_Wood",
+          "material": "/Game/Yastars/Mesh/DiningChair/Materials/M_DiningChair.M_DiningChair"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Chair_Endgrain",
+          "material": "/Game/Yastars/Mesh/DiningChair/Materials/M_DiningChair.M_DiningChair"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Chair_Dark",
+          "material": "/Game/Yastars/Mesh/DiningChair/Materials/M_DiningChair.M_DiningChair"
+        }
+      ]
+    }
+  },
+  "textures": {
+    "T_DiningChair_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_BaseColor.T_DiningChair_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\Textures\\T_DiningChair_BaseColor.png",
+      "created": true,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_DiningChair_Roughness": {
+      "asset": "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_Roughness.T_DiningChair_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\Textures\\T_DiningChair_Roughness.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_DiningChair_Normal": {
+      "asset": "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_Normal.T_DiningChair_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\Textures\\T_DiningChair_Normal.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    }
+  },
+  "materials": {
+    "M_DiningChair": {
+      "asset": "/Game/Yastars/Mesh/DiningChair/Materials/M_DiningChair.M_DiningChair",
+      "created": true,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_BaseColor.T_DiningChair_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_Roughness.T_DiningChair_Roughness",
+        "Normal": "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_Normal.T_DiningChair_Normal"
+      },
+      "vector_parameter_names": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "created_assets": [
+    "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_BaseColor.T_DiningChair_BaseColor",
+    "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_Roughness.T_DiningChair_Roughness",
+    "/Game/Yastars/Mesh/DiningChair/Textures/T_DiningChair_Normal.T_DiningChair_Normal",
+    "/Game/Yastars/Mesh/DiningChair/Materials/M_DiningChair.M_DiningChair",
+    "/Game/Yastars/Mesh/DiningChair/SM_DiningChair.SM_DiningChair"
+  ],
+  "preserved_assets": [],
+  "reimported_assets": [],
+  "warnings": []
+}

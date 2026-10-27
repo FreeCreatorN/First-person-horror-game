@@ -1,0 +1,666 @@
+{
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\ModelDataManifest.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\ModelDataManifest.json.bak",
+    "sha256": "61591b6f172ffa2bdb041f3b855b425c3c6531786d713c79af7236c8f47912c9"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\OldTownRealArchitecture.blend": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\OldTownRealArchitecture.blend.bak",
+    "sha256": "14558a9b24614a734aca458a8d500b565c1493cb4a2167afe4a9bffd554ef22e"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_0b380f92ea.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_0b380f92ea.fbx.bak",
+    "sha256": "aa990b4813105d74a59f791f6f06a73f7b863d99cb9b7d450d6fe750f3a88b23"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_0b380f92ea.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_0b380f92ea.geometry.json.bak",
+    "sha256": "25ab1aeac7fac68448fa4befa78a29a5a5274304d136fac16875b3604bf99962"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_2af870817e.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_2af870817e.fbx.bak",
+    "sha256": "cacfa9c373ef58622d79022e16a52ca3290e7b2a365c4535bbc8a369c19c2070"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_2af870817e.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_2af870817e.geometry.json.bak",
+    "sha256": "b2ea6484fd6468e198296bbd5e73e42746c0dbcbdd84e0295c418aff4c23e99d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_56f8888dfb.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_56f8888dfb.fbx.bak",
+    "sha256": "1531eed1146826e2e7404b1c7d325eb9584624d5f4f0c89bb7c8a36943ffa5b8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_56f8888dfb.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_56f8888dfb.geometry.json.bak",
+    "sha256": "b1ad33bf0b58f5572a186e1393badc578a3286e93194f8bcd9a5bc435e558530"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_706aaa15a0.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_706aaa15a0.fbx.bak",
+    "sha256": "88dd66fa8c46fbddbf3697c3dc730a7e7845d2a6f427598894c0e5702cdc0bbc"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_706aaa15a0.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_706aaa15a0.geometry.json.bak",
+    "sha256": "536a120c93def614044cef6046ea3a7d53cd375513e3b6c95612f23094ca35b3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_71c134ad8c.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_71c134ad8c.fbx.bak",
+    "sha256": "870e9cde145049ddd40e802e771872893c9207c408e6ddffb2ee1b19854f47e8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_71c134ad8c.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_71c134ad8c.geometry.json.bak",
+    "sha256": "ad47165abfcc68efd338509026d07808b554ca7f50841243b690799e26b90f6f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_879d976e1b.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_879d976e1b.fbx.bak",
+    "sha256": "df9701d64ea3190c24f5fc3ac987fc7eb73911b52226197c67c6a6f84a9ab0be"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_879d976e1b.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_879d976e1b.geometry.json.bak",
+    "sha256": "5d15734c34f4426925f1b10686a0142cbbc7664842b199c6f0668f2a53cd25a0"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_df340a5b4e.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_df340a5b4e.fbx.bak",
+    "sha256": "f91821614e3fa9fbbd9a1f54e6e89d23d643f26768a868a644e8e45e45e6e736"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_df340a5b4e.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_df340a5b4e.geometry.json.bak",
+    "sha256": "39423f9902463ea6b1dda31bdac1d55cbe47a7c9fd3d7402a082d02c1cb4e658"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_f93be63ff7.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_f93be63ff7.fbx.bak",
+    "sha256": "ff4a3a47e8bfa0072bdf47316fd859b17f25ceebd601da092fedb966a20f9b02"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorHeader_f93be63ff7.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorHeader_f93be63ff7.geometry.json.bak",
+    "sha256": "4f84ac0b6ae0c66506acf11574303c7993bb576ce759a1e67313f94bdba35e71"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_5dae27136b.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_5dae27136b.fbx.bak",
+    "sha256": "9075df3e8ae3e6d11d6f59ec1bcf2146bacabc4f38b47774ef21a054948da22b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_5dae27136b.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_5dae27136b.geometry.json.bak",
+    "sha256": "71432964ff6e34428e30677ee8b845c9436bc9b6f68e49be0a0b84a8757cf030"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_6ee46eb31f.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_6ee46eb31f.fbx.bak",
+    "sha256": "98bd3490211e73507c437e5e292990f777eac311f373a5ee0a764d79945c47ff"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_6ee46eb31f.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_6ee46eb31f.geometry.json.bak",
+    "sha256": "8b4004d92f8a3ae78071a61cf9bf5e91ae7ca7b15c236dc31bc6007308b3bf78"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_b90f6db6aa.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_b90f6db6aa.fbx.bak",
+    "sha256": "ee7e4419349e799fc9880a7e4f32560e31455190e2876d697955b7ace2c1e39b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_b90f6db6aa.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_b90f6db6aa.geometry.json.bak",
+    "sha256": "eda21800a54939ad84d7296f7a79d5b989c6ca82d50fb3324a91922a70400301"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_cea11b1332.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_cea11b1332.fbx.bak",
+    "sha256": "d1aad1b350be095a8150712f3851274dcb8e42656be78e3b2156ffc5250b2a15"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambLeft_cea11b1332.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambLeft_cea11b1332.geometry.json.bak",
+    "sha256": "b08407bb36c3c71df05f5e5f47699f5c59773e2f38da6673a1fe05d8fa933ec3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_0e1a975de7.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_0e1a975de7.fbx.bak",
+    "sha256": "a2f7b29434aaa8bd507ab95b960f9a0723e202570220c6e740c81036ccb4c369"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_0e1a975de7.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_0e1a975de7.geometry.json.bak",
+    "sha256": "6d4b17bed52a210618c5e6a4a8c1dd33b1889d72259264d79ea24d0e37c24abd"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_6fca77f158.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_6fca77f158.fbx.bak",
+    "sha256": "3aa9c8a40b9bec400ad7d40fd083cee46851cfb5a48e2ed11392d54aa902d583"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_6fca77f158.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_6fca77f158.geometry.json.bak",
+    "sha256": "6371193fdd83a605e52c0f85c7a4ec205a828e2299f2653c933d547af7b6037a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_b4f54a2e34.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_b4f54a2e34.fbx.bak",
+    "sha256": "89a5a2a280560ce4767dab7dd288ae7f02c3271e7a27c3370d7f02f199c6b855"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_b4f54a2e34.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_b4f54a2e34.geometry.json.bak",
+    "sha256": "e8408e11ccf86af76b993187820f915b6fb7ecc6fe32e84a1f5c93c34c5e6bbf"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_bb7490a47a.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_bb7490a47a.fbx.bak",
+    "sha256": "2d06b7c881d653fde63f443fedfb70f13cec0dcab85534f66bc589786bd8d351"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_DoorJambRight_bb7490a47a.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_DoorJambRight_bb7490a47a.geometry.json.bak",
+    "sha256": "3771ff3eb329001b240018d27b4016d9d0d6965b74137f9fc0b01edcaf38a317"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_ElevatorLeaf_1f4fa87bc4.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_ElevatorLeaf_1f4fa87bc4.fbx.bak",
+    "sha256": "695923daa7f4ecb368a3989e9892484a209a63541c83cb83eb77a2c2be8709eb"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_ElevatorLeaf_1f4fa87bc4.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_ElevatorLeaf_1f4fa87bc4.geometry.json.bak",
+    "sha256": "99d8efa24737bf29ea062d204f03580a27a07979debf3c87e2bdc140924a5b43"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_EntranceLeaf_076ffab1dc.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_EntranceLeaf_076ffab1dc.fbx.bak",
+    "sha256": "89fefaef133d456420b5303f90082ea9de157c5eabf47dba69c4ebdf858c6ab0"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_EntranceLeaf_076ffab1dc.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_EntranceLeaf_076ffab1dc.geometry.json.bak",
+    "sha256": "3e3fdd145ce4d66adf5ae8f9aa0f7a3e921781254b2c3969f8b07ee95b8d3591"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_FluorescentHousing_52dcb7cbc2.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_FluorescentHousing_52dcb7cbc2.fbx.bak",
+    "sha256": "5d43137285f661d1bb97824dce9f026982c6533d0b9f5aa8681f55838829c408"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_FluorescentHousing_52dcb7cbc2.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_FluorescentHousing_52dcb7cbc2.geometry.json.bak",
+    "sha256": "a46961130c76ffe8a9c829c7ae0924ad422ef7e60302421c51b6819b9741570b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_HandrailPipe_3205330807.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_HandrailPipe_3205330807.fbx.bak",
+    "sha256": "3de1a44887c4ebe3c0d756b11001acca946235450589db5b61842d60b09d9cee"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_HandrailPipe_3205330807.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_HandrailPipe_3205330807.geometry.json.bak",
+    "sha256": "12cd445869077f4315277d4bc50c769dddf3bf466b605c16164e5d4bd80115f8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_HandrailPipe_889fcc4728.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_HandrailPipe_889fcc4728.fbx.bak",
+    "sha256": "ef108a195917e789aa7b4a4967ec576776cf87dd61cdb4c2328743f356ccf58c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_HandrailPipe_889fcc4728.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_HandrailPipe_889fcc4728.geometry.json.bak",
+    "sha256": "e300518ad16b7bdfdea667ef289c08df5068f2e7e1b368f3796979f023e0d846"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_HandrailPipe_e6120b9018.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_HandrailPipe_e6120b9018.fbx.bak",
+    "sha256": "c7bb4c4517648e07d3bbd12881fd674271286d86558c4ca811b8d68a260496ce"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_HandrailPipe_e6120b9018.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_HandrailPipe_e6120b9018.geometry.json.bak",
+    "sha256": "673e989c6df690ddd8fe6fa84cf88e2533ade9cb49be56f58f6dd7480c85a223"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_LeverHandle_3ece9e3b8a.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_LeverHandle_3ece9e3b8a.fbx.bak",
+    "sha256": "47d8750e6969e31c95934c9f7cd8654614c26f1f9c1a4cd9c6db2da1831ce38f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_LeverHandle_3ece9e3b8a.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_LeverHandle_3ece9e3b8a.geometry.json.bak",
+    "sha256": "3c8675e5d04cdc85cbe3cd0e4f5eb8d5bb01dcfd10e16d69b6623b82ea1f19bc"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_LeverHandle_f5e04b11ca.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_LeverHandle_f5e04b11ca.fbx.bak",
+    "sha256": "311aa2e1de7683cbe3dfc831776cca1fdfdcb224a08125738227509987d688df"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_LeverHandle_f5e04b11ca.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_LeverHandle_f5e04b11ca.geometry.json.bak",
+    "sha256": "0c3985bec29c8958e8eb7c9bd6312b4810bef362f71193f1729d9aadc848f00b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_PullHandle_8d4a16092d.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_PullHandle_8d4a16092d.fbx.bak",
+    "sha256": "2fa9c90db6b649aa470cd2be70761c89de2734732e05e7ed3c62aa7667efba79"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_PullHandle_8d4a16092d.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_PullHandle_8d4a16092d.geometry.json.bak",
+    "sha256": "716623d5047d583910ca273ec5b65c46361cd365a4d1edf764edb44bbf7d6ce4"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SlidingLeaf_4df6c03b64.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SlidingLeaf_4df6c03b64.fbx.bak",
+    "sha256": "cb700463e6d51ea7726a1d389aa940a8081f077d651a9b7470526f9412eb92a0"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SlidingLeaf_4df6c03b64.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SlidingLeaf_4df6c03b64.geometry.json.bak",
+    "sha256": "02cbbfb5250c11b9aeeb6cac10f530270d72225ecb7461a32f5be2da64a50bd4"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SlidingLeaf_861023be2a.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SlidingLeaf_861023be2a.fbx.bak",
+    "sha256": "ffd33a513ae288cade81368bcfa10f62990a3b553180db928d61ddfc18568c81"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SlidingLeaf_861023be2a.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SlidingLeaf_861023be2a.geometry.json.bak",
+    "sha256": "eb4d9102314abdc79ac4d099cbec36641c5184e50bd6d7fa6d07fdaf47e5de64"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_06f3bb22db.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_06f3bb22db.fbx.bak",
+    "sha256": "7d38e497158026503b3872a24c1a0d90cee42efd62f4b43a25753206c99bf266"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_06f3bb22db.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_06f3bb22db.geometry.json.bak",
+    "sha256": "2dbc43fc060a5d9923472df273282840a270b4c1ed13e5ef03d3ddbe85ac6c80"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_11014a6d10.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_11014a6d10.fbx.bak",
+    "sha256": "224c59b4db6f78c43143ea82171ef153818f35aa7935d63437319cf6de447336"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_11014a6d10.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_11014a6d10.geometry.json.bak",
+    "sha256": "727ea7e7221fa2aaea36ce2ed592eaa2cab775d5496956d49bf348f4544eb014"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_3b870f129c.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_3b870f129c.fbx.bak",
+    "sha256": "db79ad74b6a7b77e822952bdd9959308c41b7f9d305f294a26f7c6eb29ae64ef"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_3b870f129c.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_3b870f129c.geometry.json.bak",
+    "sha256": "fc21243033e27c9bb84334668e974b8c8d7fc82c9a79351754c0f8b015d71750"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_4e47d4c3bd.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_4e47d4c3bd.fbx.bak",
+    "sha256": "8da449d19c444ef2196f308cafec9cce1c9cd4f4461b5037336c7a9851cf7485"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_4e47d4c3bd.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_4e47d4c3bd.geometry.json.bak",
+    "sha256": "cc7f0b5160d07916a17e6b793f1077d11ae5277d297cab4a0547176f36f2d1ae"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_8fc27de089.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_8fc27de089.fbx.bak",
+    "sha256": "6a024d5b181fb49b3297f5898a01335ed277db44710b7d4837e2e43591368f8a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_8fc27de089.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_8fc27de089.geometry.json.bak",
+    "sha256": "98a16c88ec5177ef6333ac65305162ebf91263d81801a9a82ccabef15e52e408"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_bd914d02d5.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_bd914d02d5.fbx.bak",
+    "sha256": "89b9834edab55093c44dc79900bfe01e528a9d72d2c3f3ffa5bd64a66f96aaf6"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_bd914d02d5.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_bd914d02d5.geometry.json.bak",
+    "sha256": "ebb8bfbe1ed90d1ad8616643a3ac1b0249149a842ce08af7f86c288d65717220"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_c2b9dc0be6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_c2b9dc0be6.fbx.bak",
+    "sha256": "fa04db601272b9a7345987d3c3832292ebfe1232c1b39afb824a39e7d6166b5f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_c2b9dc0be6.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_c2b9dc0be6.geometry.json.bak",
+    "sha256": "0b60618749ef0b6d58fcf729553e570fde5858d7a0042171420f57cf7e0f7f83"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_dcfbfd74ac.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_dcfbfd74ac.fbx.bak",
+    "sha256": "86f684fb1a8db6a9dc8e32f2e80e6026c176627314b8cb30e0ccecd9c749c811"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairBaseplate_dcfbfd74ac.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairBaseplate_dcfbfd74ac.geometry.json.bak",
+    "sha256": "bf5051b5d51ea3cf997098ff20781558e5965ca5e906c4c98f93c5685601460b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_128fb9a408.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_128fb9a408.fbx.bak",
+    "sha256": "aaeb4a62fc40f6535ed01623943d3b7b514f73186f3b2f96cd0fb565db49390a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_128fb9a408.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_128fb9a408.geometry.json.bak",
+    "sha256": "7911322ea13695bc7ea865f5cbbf0a20b70f06fb3a6cb86f6a986d8df7345f87"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_6f4f88a374.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_6f4f88a374.fbx.bak",
+    "sha256": "184edcb67cfca6ead00243809f081689cca486cde912233556babaa32fb5f52a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_6f4f88a374.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_6f4f88a374.geometry.json.bak",
+    "sha256": "5fd1391e2170c641ca3b45e723320cfaa210c72ef178e5480a7d06c09eba670c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_9e1c1281ff.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_9e1c1281ff.fbx.bak",
+    "sha256": "6013209fd4383d1e9f84b517d7c768d876d555ff1729c12e18e3ec145cce384b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_9e1c1281ff.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_9e1c1281ff.geometry.json.bak",
+    "sha256": "9418e1a83c30c6445e518d7ba67543c6a1529fa602a32697884c887fe6da953a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_ac64793f50.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_ac64793f50.fbx.bak",
+    "sha256": "d1408f4b23d2947dd9dd6389fb4ab978159fc2fbbe0a5a9928a7f99695a2a49d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_ac64793f50.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_ac64793f50.geometry.json.bak",
+    "sha256": "4e8b0637d5fee6e139c73864b0606b8d259c91cca6f962c09a8505e41b933123"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_b7e5716bb9.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_b7e5716bb9.fbx.bak",
+    "sha256": "a575a6ccb4942f36c8e12e37eebf15362fe2ccb3b2222085e695efebe223d576"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairPost_b7e5716bb9.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairPost_b7e5716bb9.geometry.json.bak",
+    "sha256": "5fc04bef7e6313de89127ba22083f45349e2c4c17e1fe9b76e58eccf513b2d07"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_025739b020.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_025739b020.fbx.bak",
+    "sha256": "ef4e628fe77f6ba100fb6edfe7e79f6164ed4ffc56338524b4138c223eea0382"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_025739b020.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_025739b020.geometry.json.bak",
+    "sha256": "f486c9d8332c36ad6b7d3d643e39e71a5e898616bf2390ec20540dbccca53303"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_135a08e179.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_135a08e179.fbx.bak",
+    "sha256": "884afc0851212e307a1776f12e89f427b5fee7315a2e971bc63dc99938212b24"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_135a08e179.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_135a08e179.geometry.json.bak",
+    "sha256": "d0e53da37bb9dff9193b05db6a7286c0bcf97df1c8b8bfb0f14d363daad76ace"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_35a6c090cf.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_35a6c090cf.fbx.bak",
+    "sha256": "3141ad4ff980643396aaba6d5efad242466d4f334320b43e205b80014068d935"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_35a6c090cf.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_35a6c090cf.geometry.json.bak",
+    "sha256": "f1a61c9145eea8b396ead11e11ea5cde1a0a5f9a7d3df4635842b18d0c8596e8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_7a852392f8.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_7a852392f8.fbx.bak",
+    "sha256": "a94bf3bd91808482b8323219fd920cf2f46baa4789a67302893093212f5d7859"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_7a852392f8.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_7a852392f8.geometry.json.bak",
+    "sha256": "3b185c869411400f00daece23e7e5369f082e6ef4ca80c8b5d6355e0d1639591"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_97a2deab11.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_97a2deab11.fbx.bak",
+    "sha256": "0e1de2f7b509f5ff851a2322df3ac974d1555b7ef3b591a734193a0ff0770ec6"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_97a2deab11.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_97a2deab11.geometry.json.bak",
+    "sha256": "ae96879cd3e9a96c073cc8e82b3588d060cb09ed4cc5219cbd026fd195839637"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_ca7ddb41ba.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_ca7ddb41ba.fbx.bak",
+    "sha256": "7d287aa98bb98b34f3f980e03be8fda26a9ad58e0f7897e5fc35b2b408c0cb4b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_ca7ddb41ba.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_ca7ddb41ba.geometry.json.bak",
+    "sha256": "3e7c752a73b21cd3e62913b7bca50987b2f235f97b482a8f4a72b22338d5b55e"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_e5c527d3e0.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_e5c527d3e0.fbx.bak",
+    "sha256": "646a17d15df78c0ff5950bee470f2d11f1e73e534049983ad277cf5388cdcdea"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_StairTread_e5c527d3e0.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_StairTread_e5c527d3e0.geometry.json.bak",
+    "sha256": "eb2393f6840df1b11b9f75deaf65df2c6d4a9b2f19e859dbf760e9878f8f2d48"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_18692591a0.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_18692591a0.fbx.bak",
+    "sha256": "d6588b34175c2293d7f3538e290ccc47547aacb2ec649de9c72a1737aa69f4ee"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_18692591a0.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_18692591a0.geometry.json.bak",
+    "sha256": "3ee1e0618c72ebdccd62e52d93df3ef9cd338bfc632fb53c79f282a8f7a6670c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_1930e6b294.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_1930e6b294.fbx.bak",
+    "sha256": "7a925f5608c793df39daa8d8fe1f1ac132f053c29b55dae8de605b5306b588e2"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_1930e6b294.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_1930e6b294.geometry.json.bak",
+    "sha256": "1579dd99a7cfca1fcf375bd76771bafc1140336367ec4706b65ab3e01a4d6195"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_4f899d7237.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_4f899d7237.fbx.bak",
+    "sha256": "375b2f465bc451a8b370005ac50743fd964a3736a268b042f5933e821ba71371"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_4f899d7237.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_4f899d7237.geometry.json.bak",
+    "sha256": "17bc8ad3be8778c601a715b48dbdd2a531ade6efd36cc7757215bda69c0312fc"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_8981ab5342.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_8981ab5342.fbx.bak",
+    "sha256": "8bc2725df590e26411d79e015545fd9db939c54b09ba2e5dcd82043b1a3775c7"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_8981ab5342.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_8981ab5342.geometry.json.bak",
+    "sha256": "46e0939a12920c17e35b6ab9d93c40a240afd282f6a305b42461ae7b8f6b1912"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_b9a1fb20d6.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_b9a1fb20d6.fbx.bak",
+    "sha256": "95a43fdbe79948885c3a81ecec1c51341209ec464c7bc6363bcc86cb1eccc74c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_b9a1fb20d6.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_b9a1fb20d6.geometry.json.bak",
+    "sha256": "2733cab36a044e84e75fd64783832a390b8f03fcb865f00333f1f2e3657c6d4d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_e06a57dfce.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_e06a57dfce.fbx.bak",
+    "sha256": "c01b41f62686565bcb07414118718e8f108d3f7b7c8e177238fc83c77d225b14"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_SwingLeaf_e06a57dfce.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_SwingLeaf_e06a57dfce.geometry.json.bak",
+    "sha256": "aff758dcb22f62a7a8b49493c01e7fd469ef9247de7e6263d2ee942aca502f52"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_240d09a960.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_240d09a960.fbx.bak",
+    "sha256": "362d9f32e7845b419ec4cf831403eea21674663cbceaa3aeb3d542bcab8a0d53"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_240d09a960.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_240d09a960.geometry.json.bak",
+    "sha256": "d89f29f116582a4982af636aa875a64c41fb37f4d809411943cc52533ef6dd3d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_8c27229006.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_8c27229006.fbx.bak",
+    "sha256": "c81288577e30375cdc6cd90c5d093cecc45deffb4baa6b9370112c57ecfe8407"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_8c27229006.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_8c27229006.geometry.json.bak",
+    "sha256": "830a01311cf6351cdbc856668055b43e672ec2711090f4611e1526dac8578345"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_b4dd6e1e0e.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_b4dd6e1e0e.fbx.bak",
+    "sha256": "aa2dd854a77c7f955ca0c3c2aa96456f2df58e5450bfb125789914dc96497b6c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_b4dd6e1e0e.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_b4dd6e1e0e.geometry.json.bak",
+    "sha256": "55bf915d664fb28296c4441c83b753d52ca91361c2b7632c2f7f3bf3c3b5a386"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_b9fc2e8d6d.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_b9fc2e8d6d.fbx.bak",
+    "sha256": "1fb8af250972f5b98b901d6ed98e96e3fc5b0f4bf1b5d7856c8a51d572fabba6"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_b9fc2e8d6d.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_b9fc2e8d6d.geometry.json.bak",
+    "sha256": "1a750499ae24f82f2892e0ed822b8e4382eb25e5e8c112f21858304c98171813"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_c02326e057.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_c02326e057.fbx.bak",
+    "sha256": "0c85171a027e13cbf1404244340bb2d874931caf28c96056847c57b3873f8bae"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_c02326e057.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_c02326e057.geometry.json.bak",
+    "sha256": "fc6e3c31b947153d0a9f2f70a6fd286810e32291cf2c7a705ae56ecd298cc153"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_eee19f4aa9.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_eee19f4aa9.fbx.bak",
+    "sha256": "9f203c6aded1be080dfbcaf0b98e9f952d5dacc4463dfeac10bfd305d61a9a21"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowGlazing_eee19f4aa9.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowGlazing_eee19f4aa9.geometry.json.bak",
+    "sha256": "a34e649d319df070925219d0926f6c34bae93411f2eeeb1e46b1bc69e75164af"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_3e078a199f.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_3e078a199f.fbx.bak",
+    "sha256": "b050d4f8d72fc55ca43a439e18cb13be9aa772b8b0a936ec63317686b7239761"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_3e078a199f.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_3e078a199f.geometry.json.bak",
+    "sha256": "49d292c5d37bdc1d94823f98192ef8ad75b4066c5da7a7f1c72493d538a0bc8b"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_68f41b01b1.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_68f41b01b1.fbx.bak",
+    "sha256": "acffaf1da5d5953858e4d550681217966f12629ae2686c2376024c5bfddc76b2"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_68f41b01b1.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_68f41b01b1.geometry.json.bak",
+    "sha256": "9acca691a96c7570e3fe80f6d7dd467f479677d4596e278f1374a002a648d4c8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_6ca52ea399.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_6ca52ea399.fbx.bak",
+    "sha256": "c18f04afb65cdcc946bb8c8847148ed084bb4ff6a9778a19d3eeadd046f97cd8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_6ca52ea399.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_6ca52ea399.geometry.json.bak",
+    "sha256": "47d6e3454221c6c5568bb91603659504147e59943f05f85f3ce392d0901e5f62"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_6d377a468c.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_6d377a468c.fbx.bak",
+    "sha256": "d2823651e07a223191e3b32b7e2507f62a77972197bc5228b9204c2d54a1489c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_6d377a468c.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_6d377a468c.geometry.json.bak",
+    "sha256": "251cb96473af6a2ee13ded4048bc79432cb0b256a710683a23b026617fcbe37d"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_a3bf3351b2.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_a3bf3351b2.fbx.bak",
+    "sha256": "ad44f0e3f667675cbdba05110c9ba9d864ce7e1ace25f9f769205b029dd80213"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_a3bf3351b2.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_a3bf3351b2.geometry.json.bak",
+    "sha256": "c6c4026dd90f555b69f064dff87cd034ca4230858559fb4ca4d2b461aaeb5ce8"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_c119c96d03.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_c119c96d03.fbx.bak",
+    "sha256": "2b53bc30a70c30f6c4a849ac12f3f3fd740898ac027e5824edda8025ee7e6c5f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHeader_c119c96d03.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHeader_c119c96d03.geometry.json.bak",
+    "sha256": "ed8029ca9f40e2e626c2b36fc186d5bfd20f0356d39f7b561906af4ee271d509"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_2e64a6b145.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_2e64a6b145.fbx.bak",
+    "sha256": "10843159813b0270a1a73d73d19682263e38364c052fc6ae98f4380855047d29"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_2e64a6b145.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_2e64a6b145.geometry.json.bak",
+    "sha256": "98609eaef153f9c189a018b3df54f784d414ef9a1e8568b50530a32229032e31"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_505c4c7dfb.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_505c4c7dfb.fbx.bak",
+    "sha256": "3fb37af382e1dc6e34d84cce50676137362ee78227082314d254f90b8606b599"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_505c4c7dfb.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_505c4c7dfb.geometry.json.bak",
+    "sha256": "056e43b1abfcd5aa33ded60b440192f3fb74d3b088ad0c32e06bce1cad1429f1"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_5140871fcd.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_5140871fcd.fbx.bak",
+    "sha256": "af4fe1ac29c24f15cc424b61f279f9789312a1bf09516ac7d1cb9430eced86f5"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_5140871fcd.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_5140871fcd.geometry.json.bak",
+    "sha256": "779f4556e284f83e2a89e086e8c7e1ab712c9a61dccf60eaad2c536cf3220abc"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_606d0af3ae.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_606d0af3ae.fbx.bak",
+    "sha256": "51e57f14871bdd8880eda35fb80e594946a25a893e861c41a148e8c8dd82a08a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_606d0af3ae.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_606d0af3ae.geometry.json.bak",
+    "sha256": "ba635801197c6f92bf60bd7ebdc3a4005b88902dad2b7eb236dcddebdcc5906e"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_bcbe6bf198.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_bcbe6bf198.fbx.bak",
+    "sha256": "004c9090f699c71dfc7e9ade699d6f87109815a69f543872e481744684c9d7bf"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowHorizontalRail_bcbe6bf198.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowHorizontalRail_bcbe6bf198.geometry.json.bak",
+    "sha256": "af36393aa0b7f6a1c679613111dbf30aa0a7c8547336636935eaa333ca8bd967"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambLeft_3817c60d9e.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambLeft_3817c60d9e.fbx.bak",
+    "sha256": "45d59b29038a13570f1e0fb29bf5036c9c30525d7efba7a01d191e3b6aa204be"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambLeft_3817c60d9e.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambLeft_3817c60d9e.geometry.json.bak",
+    "sha256": "823d3d5e72aac6754c7147715addc6a05b6e7283a0f00362c4438107e767ea3a"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambLeft_b463a71085.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambLeft_b463a71085.fbx.bak",
+    "sha256": "a8dfc6fdb9cb58204c309668dacda5bade0b280e936e7e9bc52549653e7ec3d6"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambLeft_b463a71085.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambLeft_b463a71085.geometry.json.bak",
+    "sha256": "5592b645311ca9f941729a300dc36e78cbc3e82cdea14d1cb22b25bc2f28d483"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambRight_7872cbfe9f.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambRight_7872cbfe9f.fbx.bak",
+    "sha256": "2bffe1f2cd6e4c1896cc7a93d273985849c9a84b78caa770a2b3deb30d50f0f3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambRight_7872cbfe9f.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambRight_7872cbfe9f.geometry.json.bak",
+    "sha256": "4caa88575af8d162ca297895074000a252c7612b5007d5a4b1ad180417677b0f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambRight_cbc551931f.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambRight_cbc551931f.fbx.bak",
+    "sha256": "416dee741c99ee9ffa6b22ab5a93b3ba20ddcd489c309bc5dacd080476a011e1"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowJambRight_cbc551931f.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowJambRight_cbc551931f.geometry.json.bak",
+    "sha256": "01865f69174f56a1c822ca20b64e4b22a1ae2dadc742ae5fab8784250270a5ac"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowMeetingRail_a4bd161649.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowMeetingRail_a4bd161649.fbx.bak",
+    "sha256": "17aeb3db280054f822f517a2f290af6176f52bde3595dac4a2ec94f0e13930c3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowMeetingRail_a4bd161649.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowMeetingRail_a4bd161649.geometry.json.bak",
+    "sha256": "4b05a3c77c2fd4b1bee98d4ba795e71e2f360363a47e3e3a254103f7e09f07eb"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowMeetingRail_dfa1834f24.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowMeetingRail_dfa1834f24.fbx.bak",
+    "sha256": "3d8d8398914699ac0555afab7282d4f839efa4834e25a4c15068dded850e3c6f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowMeetingRail_dfa1834f24.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowMeetingRail_dfa1834f24.geometry.json.bak",
+    "sha256": "33581cc29c8bb2f045f10e7b638c0660e8ae5d5f75afe3d26d1c04fd83026563"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_46f818cb3f.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_46f818cb3f.fbx.bak",
+    "sha256": "206a92fcd3a3b335f09e6e4da8ae94d1251be299fb2cf6d870268d8bbeb5fc08"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_46f818cb3f.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_46f818cb3f.geometry.json.bak",
+    "sha256": "f9ce4f2e6eb3f8872503da87b5ed7043496601e6ce02e7db5fe8fc83507cf400"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_6938f24d6f.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_6938f24d6f.fbx.bak",
+    "sha256": "228c323c31192eb01375aaf6ece6b4e5cee74171f2629e481846fee7d0630222"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_6938f24d6f.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_6938f24d6f.geometry.json.bak",
+    "sha256": "df8082a8c3e28ad9d22f4e40c484553e3cdf5b8163bf84b2b6982f11c6241c4c"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_b064116305.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_b064116305.fbx.bak",
+    "sha256": "f453f942468f454d9b301464ee3f55c41952bff5b3e460f775abdcfa85b9dcd9"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_b064116305.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_b064116305.geometry.json.bak",
+    "sha256": "31ef0042a91fe5d926994eeb2562dfc74017cb7780be88a08d7aaa7417a4bf63"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_b09cee6bed.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_b09cee6bed.fbx.bak",
+    "sha256": "ab110bc3251f66a3a67be91aafdf0f06eaf2e1728b7ec6f378b8e46448e221ae"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_b09cee6bed.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_b09cee6bed.geometry.json.bak",
+    "sha256": "421fc468f4d3d98333a778761ed3e1e940cd0763a66f54868083dad8989fb7a3"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_c7bd2a5481.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_c7bd2a5481.fbx.bak",
+    "sha256": "41a730deca5722be853acde31e06deb2031355d21fbaaa41f19c8a6ba7ef5dbb"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_c7bd2a5481.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_c7bd2a5481.geometry.json.bak",
+    "sha256": "5cddfbf0864aa2ee902f1b450fc9bbee3003f336f8603e16036bd3712b77a476"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_d83bb25ff8.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_d83bb25ff8.fbx.bak",
+    "sha256": "d433915bb7d137ad2f7003ae1a9341923553916a7288507fa406e30d050bcb41"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\SM_OTS_Real_Arch_WindowSill_d83bb25ff8.geometry.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Architecture\\BeforeSolids\\SM_OTS_Real_Arch_WindowSill_d83bb25ff8.geometry.json.bak",
+    "sha256": "62ed542b4d39f4e061f50c4f69058c7e04d00ac57c611dc4d3cf795344003743"
+  }
+}

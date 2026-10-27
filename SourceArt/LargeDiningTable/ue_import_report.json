@@ -1,0 +1,102 @@
+{
+  "success": true,
+  "assets": {
+    "SM_LargeDiningTable": {
+      "asset": "/Game/Yastars/Mesh/LargeDiningTable/SM_LargeDiningTable.SM_LargeDiningTable",
+      "dimensions_cm": [
+        240.0,
+        105.00001525878906,
+        76.0199966430664
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        38.0099983215332
+      ],
+      "expected_collision_hulls": 11,
+      "convex_collision_hulls": 11,
+      "source_uv_channels_expected": 1,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Dining_Wood",
+          "material": "/Game/Yastars/Mesh/LargeDiningTable/Materials/M_LargeDiningTable.M_LargeDiningTable"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Dining_Endgrain",
+          "material": "/Game/Yastars/Mesh/LargeDiningTable/Materials/M_LargeDiningTable.M_LargeDiningTable"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Dining_Dark",
+          "material": "/Game/Yastars/Mesh/LargeDiningTable/Materials/M_LargeDiningTable.M_LargeDiningTable"
+        }
+      ]
+    }
+  },
+  "textures": {
+    "T_LargeDiningTable_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_BaseColor.T_LargeDiningTable_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\Textures\\T_LargeDiningTable_BaseColor.png",
+      "created": true,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_LargeDiningTable_Roughness": {
+      "asset": "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_Roughness.T_LargeDiningTable_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\Textures\\T_LargeDiningTable_Roughness.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_LargeDiningTable_Normal": {
+      "asset": "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_Normal.T_LargeDiningTable_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\LargeDiningTable\\Textures\\T_LargeDiningTable_Normal.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    }
+  },
+  "materials": {
+    "M_LargeDiningTable": {
+      "asset": "/Game/Yastars/Mesh/LargeDiningTable/Materials/M_LargeDiningTable.M_LargeDiningTable",
+      "created": true,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_BaseColor.T_LargeDiningTable_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_Roughness.T_LargeDiningTable_Roughness",
+        "Normal": "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_Normal.T_LargeDiningTable_Normal"
+      },
+      "vector_parameter_names": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "created_assets": [
+    "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_BaseColor.T_LargeDiningTable_BaseColor",
+    "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_Roughness.T_LargeDiningTable_Roughness",
+    "/Game/Yastars/Mesh/LargeDiningTable/Textures/T_LargeDiningTable_Normal.T_LargeDiningTable_Normal",
+    "/Game/Yastars/Mesh/LargeDiningTable/Materials/M_LargeDiningTable.M_LargeDiningTable",
+    "/Game/Yastars/Mesh/LargeDiningTable/SM_LargeDiningTable.SM_LargeDiningTable"
+  ],
+  "preserved_assets": [],
+  "reimported_assets": [],
+  "warnings": []
+}

@@ -1,0 +1,31 @@
+{
+  "parts": {
+    "SM_AltarTable": {
+      "dimensions_cm": [
+        220.00000476837158,
+        60.00000238418579,
+        94.9999988079071
+      ],
+      "triangles": 33646,
+      "collision_hulls": 14,
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Altar_Wood",
+        "M_Altar_Endgrain",
+        "M_Altar_Dark"
+      ]
+    }
+  },
+  "style": "long flat rectangular traditional altar table with central ruyi relief and cloud aprons",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "front_blender": "-Y",
+  "front_ue": "+Y",
+  "carved_cloud_reliefs": 1,
+  "relief_embedding_depth_mm": 1.5,
+  "exported_lights": 0
+}

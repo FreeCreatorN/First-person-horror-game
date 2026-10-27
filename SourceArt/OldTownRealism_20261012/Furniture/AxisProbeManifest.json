@@ -1,0 +1,57 @@
+{
+  "expected_UE_local_min_cm": [
+    -2,
+    -7,
+    -13
+  ],
+  "expected_UE_local_max_cm": [
+    3,
+    11,
+    17
+  ],
+  "source_vertices_cm": [
+    [
+      -2,
+      -7,
+      -13
+    ],
+    [
+      3,
+      -7,
+      -13
+    ],
+    [
+      3,
+      11,
+      -13
+    ],
+    [
+      -2,
+      11,
+      -13
+    ],
+    [
+      -2,
+      -7,
+      17
+    ],
+    [
+      3,
+      -7,
+      17
+    ],
+    [
+      3,
+      11,
+      17
+    ],
+    [
+      -2,
+      11,
+      17
+    ]
+  ],
+  "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Furniture\\AxisProbe.fbx",
+  "fbx_sha256": "fa5c026bd1fd0db6e7a5d6172cf15c59e9a60f5af4a78b3d4ccfa135bdf959b4",
+  "note": "Asymmetric bounds identify signed axis permutation after UE FBX import; not part of33 formal model variants."
+}

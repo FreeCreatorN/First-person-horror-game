@@ -1,0 +1,26 @@
+{
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\ModelDataManifest.json": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\BeforeSolids\\ModelDataManifest.json.bak",
+    "sha256": "4923db4ea517cff76c88b083fe77bf45c361af29f65e596c595b805ac521cdfb"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\OldTownRealismSanitary.blend": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\BeforeSolids\\OldTownRealismSanitary.blend.bak",
+    "sha256": "d20d060d1da37302ede3a204a1293a19f2855776e525575d9a493de09b8f4e3f"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Toilet.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\BeforeSolids\\SM_OTS_Real_Toilet.fbx.bak",
+    "sha256": "9a8f4d51f7bb35fecaa8b71fd1a69b6788fb250a9aea987276acb0856520ea31"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Washbasin.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\BeforeSolids\\SM_OTS_Real_Washbasin.fbx.bak",
+    "sha256": "628b56f20dbbcaa95d25d058c0ca6b7642319b0e613503aae77ffe5257016ba4"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerTray.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\BeforeSolids\\SM_OTS_Real_ShowerTray.fbx.bak",
+    "sha256": "3e64966fbee9686f3a3c13cc4a8ba0ed22a745ee75a50919ecc49a6c0510f224"
+  },
+  "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerScreen.fbx": {
+    "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\BeforeSolids\\SM_OTS_Real_ShowerScreen.fbx.bak",
+    "sha256": "3af466f57cafaef488b319c812337d1dc05df621c5b0472fb3335f0a5e294d34"
+  }
+}

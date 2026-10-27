@@ -1,0 +1,200 @@
+{
+  "success": true,
+  "geometry": {
+    "vertices": 5185,
+    "faces": 10270,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "triangles": 10270,
+    "bounds_min_m": [
+      -0.23999999463558197,
+      -0.23999999463558197,
+      0.0
+    ],
+    "bounds_max_m": [
+      0.23999999463558197,
+      0.2839696705341339,
+      1.059999942779541
+    ],
+    "dimensions_m": [
+      0.47999998927116394,
+      0.5239696651697159,
+      1.059999942779541
+    ],
+    "source_materials": [
+      "M_Chair_Wood",
+      "M_Chair_Endgrain",
+      "M_Chair_Dark"
+    ],
+    "shader_attributes": {
+      "WoodCoord": {
+        "domain": "POINT",
+        "data_type": "FLOAT_VECTOR",
+        "count": 5185
+      },
+      "WoodTone": {
+        "domain": "POINT",
+        "data_type": "FLOAT",
+        "count": 5185
+      },
+      "Wear": {
+        "domain": "POINT",
+        "data_type": "FLOAT",
+        "count": 5185
+      }
+    }
+  },
+  "uv": {
+    "layers": [
+      "UVMap"
+    ],
+    "active": "UVMap",
+    "min": [
+      0.004834920167922974,
+      0.004834882449358702
+    ],
+    "max": [
+      0.9910341501235962,
+      0.9951650500297546
+    ],
+    "triangle_uv_area_sum": 0.5111656522475366,
+    "zero_area_triangles": 0
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\SM_DiningChair.fbx",
+    "sha256": "6be919fbbf519e46e04ecbb3ba6e4c6c938ceb99d5b05703d82bae2beace825c",
+    "imported_mesh": "SM_DiningChair.001",
+    "geometry": {
+      "vertices": 5185,
+      "faces": 10270,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 10270,
+      "bounds_min_m": [
+        -0.23999997973442078,
+        -0.24000000953674316,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.24000000953674316,
+        0.2839697003364563,
+        1.059999942779541
+      ],
+      "dimensions_m": [
+        0.47999998927116394,
+        0.5239697098731995,
+        1.059999942779541
+      ]
+    },
+    "ucx_count": 23,
+    "expected_ucx_count": 23,
+    "uv_layers": 1,
+    "pivot_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "material_slots": [
+      "M_Chair_Wood.001",
+      "M_Chair_Endgrain.001",
+      "M_Chair_Dark.001"
+    ]
+  },
+  "bakes": {
+    "T_DiningChair_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\Textures\\T_DiningChair_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 8746215,
+      "sha256": "73f82e728d3089229524db2f3ab614407ae351c44106de5b8f5e73ba956ec3c4",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.458823561668396,
+        0.3137255012989044,
+        0.18431372940540314
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 11.64077460000044
+    },
+    "T_DiningChair_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\Textures\\T_DiningChair_Roughness.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 837960,
+      "sha256": "46d4e488de6212db422251a08cd4159ee9b03709c227a75dcb7b2f25e8137625",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.6823529601097107,
+        0.6823529601097107,
+        0.6823529601097107
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 1.6191142000025138
+    },
+    "T_DiningChair_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\Textures\\T_DiningChair_Normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bytes": 2489288,
+      "sha256": "73bc87e7b36195504277ca339539f5f217357e30a6885b8b5ae101d5cd31cc30",
+      "sample_min_rgb": [
+        0.40392160415649414,
+        0.43529415130615234,
+        0.9921569228172302
+      ],
+      "sample_max_rgb": [
+        0.5764706134796143,
+        0.5843137502670288,
+        1.0
+      ],
+      "method": "NORMAL",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 6.011439300000347
+    }
+  },
+  "renders": {
+    "preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\DiningChair_Preview.png",
+    "detail": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\DiningChair_Detail.png"
+  },
+  "settings": {
+    "color_resolution": 4096,
+    "data_resolution": 2048,
+    "cycles_device": "CPU",
+    "bake_samples": 8,
+    "margin_pixels": 16,
+    "selected_to_active": false,
+    "normal_space": "TANGENT",
+    "normal_green": "POS_Y"
+  },
+  "elapsed_seconds": 57.47735929999908,
+  "baked_material": {
+    "name": "M_DiningChair_Baked",
+    "emission_connected": false,
+    "images": {
+      "BaseColor": "T_DiningChair_BaseColor",
+      "Roughness": "T_DiningChair_Roughness",
+      "Normal": "T_DiningChair_Normal"
+    }
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\DiningChair.blend"
+}

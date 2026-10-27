@@ -1,0 +1,290 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-22T03:15:01.270643+00:00",
+  "target_root": "/Game/Yastars/Mesh/Candle",
+  "errors": [],
+  "read_only": true,
+  "package_files": {
+    "/Game/Yastars/Mesh/Candle/Materials/M_Candle": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Candle\\Materials\\M_Candle.uasset",
+      "bytes": 15025,
+      "sha256": "6815e293eaa1155edbcb6ab610be48dd4872d74afb7881435f27c7e240e9a4d2"
+    },
+    "/Game/Yastars/Mesh/Candle/SM_Candle": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Candle\\SM_Candle.uasset",
+      "bytes": 1300360,
+      "sha256": "458f75a979952d853efaf9c5c703d3d739eac84edb83cf13f5b2e9d46b139c75"
+    },
+    "/Game/Yastars/Mesh/Candle/Textures/T_Candle_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Candle\\Textures\\T_Candle_BaseColor.uasset",
+      "bytes": 1444059,
+      "sha256": "2cae30885ba69040f2eca6439b640427523ebb5b8627fa74291856da2830aa73"
+    },
+    "/Game/Yastars/Mesh/Candle/Textures/T_Candle_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Candle\\Textures\\T_Candle_Metallic.uasset",
+      "bytes": 20338,
+      "sha256": "084ff13c5e77e29057155cc732bcc91685b395a1ff7aefbefda5ae63665e6b9b"
+    },
+    "/Game/Yastars/Mesh/Candle/Textures/T_Candle_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Candle\\Textures\\T_Candle_Normal.uasset",
+      "bytes": 140197,
+      "sha256": "f5a887fc9aad70d3eac326b28a400a7d70d9a697ccc65b58d8ec95438c7f99fe"
+    },
+    "/Game/Yastars/Mesh/Candle/Textures/T_Candle_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Candle\\Textures\\T_Candle_Roughness.uasset",
+      "bytes": 118590,
+      "sha256": "18d5ff3d2039ccd4711d3a6af1624776e8d04c459bf08af2a995d2c3f16555af"
+    }
+  },
+  "protected_files_checked": 30,
+  "protected_files_changed": [],
+  "protected_file_sets": {
+    "ui": {
+      "count": 19,
+      "added": [],
+      "missing": []
+    },
+    "maps": {
+      "count": 6,
+      "added": [],
+      "missing": []
+    },
+    "config": {
+      "count": 5,
+      "added": [],
+      "missing": []
+    }
+  },
+  "ui_maps_and_config_unchanged": true,
+  "source_files": {
+    "Candle.blend": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle.blend",
+      "bytes": 1729749,
+      "sha256": "ada84c771917c5d299f4b509fad72a7af0d112d18a8878532bc1465d01d7a653"
+    },
+    "SM_Candle.fbx": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\SM_Candle.fbx",
+      "bytes": 1030044,
+      "sha256": "ff7c1c571208c828880732be90142ce279f65ad2dd18378fac37dcf7f9b9b087"
+    }
+  },
+  "bakes": {
+    "T_Candle_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_BaseColor.png",
+      "bytes": 1626244,
+      "sha256": "ff3a12c77426d9ebf3267905f124ba33107cc1b1d42167c454fe5e1d528fcbb7"
+    },
+    "T_Candle_Roughness": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_Roughness.png",
+      "bytes": 206245,
+      "sha256": "3718dd1fe9870b5f3ac5dc85c9676672e93751ebc7853b8b8e0da3550da3c8bc"
+    },
+    "T_Candle_Normal": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_Normal.png",
+      "bytes": 184825,
+      "sha256": "e3f93a2b2d288f12a48fb50fc7f1690499ec47c0aacc8fa7976b3b929bb4eaae"
+    },
+    "T_Candle_Metallic": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Textures\\T_Candle_Metallic.png",
+      "bytes": 34863,
+      "sha256": "336ff2b42bd799b5f34c1ddf1e4a0c06cd5f822495778417fbd4d9c7d6de984f"
+    }
+  },
+  "renders": {
+    "Candle_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle_Preview.png",
+      "bytes": 2243139,
+      "sha256": "495a0919425f701f97e997f1715cb4573a95715128e238e49cb5b1f3d4f7074b"
+    },
+    "Candle_Detail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle_Detail.png",
+      "bytes": 2181313,
+      "sha256": "c876d17f4ab722864b371529d5e91bd24da9bcaf2101d10d212300a687dd83ff"
+    },
+    "Candle_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\Candle_Back.png",
+      "bytes": 2303483,
+      "sha256": "a96b66353d3e3f197c2303c4caf07f97cb73893ebe2bc0289e90c0f4cf46f241"
+    }
+  },
+  "geometry": {
+    "vertices": 17254,
+    "faces": 34484,
+    "non_manifold_edges": 0,
+    "loose_vertices": 0,
+    "triangles": 34484,
+    "bounds_min_m": [
+      -0.05620000138878822,
+      -0.05620000138878822,
+      0.0
+    ],
+    "bounds_max_m": [
+      0.05620000138878822,
+      0.05620000138878822,
+      0.15002785623073578
+    ],
+    "dimensions_m": [
+      0.11240000277757645,
+      0.11240000277757645,
+      0.15002785623073578
+    ],
+    "source_materials": [
+      "M_Candle_Wax",
+      "M_Candle_CooledWaxPool",
+      "M_Candle_AgedBrass",
+      "M_Candle_CharredWick",
+      "M_Candle_WickFiber"
+    ]
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\SM_Candle.fbx",
+    "sha256": "ff7c1c571208c828880732be90142ce279f65ad2dd18378fac37dcf7f9b9b087",
+    "imported_mesh": "SM_Candle.001",
+    "geometry": {
+      "vertices": 17254,
+      "faces": 34484,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "triangles": 34484,
+      "bounds_min_m": [
+        -0.05620000138878822,
+        -0.05620000138878822,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.05620000138878822,
+        0.05620000138878822,
+        0.15002785623073578
+      ],
+      "dimensions_m": [
+        0.11240000277757645,
+        0.11240000277757645,
+        0.15002785623073578
+      ]
+    },
+    "ucx_count": 4,
+    "expected_ucx_count": 4,
+    "uv_layers": 1,
+    "pivot_world_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "material_slots": [
+      "M_Candle_Wax.001",
+      "M_Candle_CooledWaxPool.001",
+      "M_Candle_AgedBrass.001",
+      "M_Candle_CharredWick.001",
+      "M_Candle_WickFiber.001"
+    ]
+  },
+  "ue_mesh": {
+    "asset": "/Game/Yastars/Mesh/Candle/SM_Candle.SM_Candle",
+    "dimensions_cm": [
+      11.24000072479248,
+      11.24000072479248,
+      15.002785682678223
+    ],
+    "expected_dimensions_cm": [
+      11.240000277757645,
+      11.240000277757645,
+      15.002785623073578
+    ],
+    "dimension_error_cm": [
+      4.470348358154297e-07,
+      4.470348358154297e-07,
+      5.960464477539063e-08
+    ],
+    "dimension_tolerance_cm": 0.05,
+    "bounds_origin_cm": [
+      0.0,
+      0.0,
+      7.501392841339111
+    ],
+    "convex_collision_hulls": 4,
+    "expected_collision_hulls": 4,
+    "uv_channels_lod0": 1,
+    "source_uv_channels_expected": 1,
+    "source_triangles": 34484,
+    "matSlots": [
+      {
+        "index": 0,
+        "slot_name": "M_Candle_Wax",
+        "material": "/Game/Yastars/Mesh/Candle/Materials/M_Candle.M_Candle"
+      },
+      {
+        "index": 1,
+        "slot_name": "M_Candle_CooledWaxPool",
+        "material": "/Game/Yastars/Mesh/Candle/Materials/M_Candle.M_Candle"
+      },
+      {
+        "index": 2,
+        "slot_name": "M_Candle_AgedBrass",
+        "material": "/Game/Yastars/Mesh/Candle/Materials/M_Candle.M_Candle"
+      },
+      {
+        "index": 3,
+        "slot_name": "M_Candle_CharredWick",
+        "material": "/Game/Yastars/Mesh/Candle/Materials/M_Candle.M_Candle"
+      },
+      {
+        "index": 4,
+        "slot_name": "M_Candle_WickFiber",
+        "material": "/Game/Yastars/Mesh/Candle/Materials/M_Candle.M_Candle"
+      }
+    ],
+    "lightmap_coordinate_index": 1,
+    "lightmap_build_settings": {
+      "generate_lightmap_u_vs": true,
+      "src_lightmap_index": 0,
+      "dst_lightmap_index": 1,
+      "generated_render_data_uv1_separately_verified": false
+    }
+  },
+  "ue_material": {
+    "asset": "/Game/Yastars/Mesh/Candle/Materials/M_Candle.M_Candle",
+    "texture_set": "Candle",
+    "textures": {
+      "BaseColor": "/Game/Yastars/Mesh/Candle/Textures/T_Candle_BaseColor.T_Candle_BaseColor",
+      "Roughness": "/Game/Yastars/Mesh/Candle/Textures/T_Candle_Roughness.T_Candle_Roughness",
+      "Normal": "/Game/Yastars/Mesh/Candle/Textures/T_Candle_Normal.T_Candle_Normal",
+      "Metallic": "/Game/Yastars/Mesh/Candle/Textures/T_Candle_Metallic.T_Candle_Metallic"
+    },
+    "vector_parameters": [
+      "Tint"
+    ],
+    "Tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "connections": {
+      "BaseColor": "BaseColor.RGB * Tint.RGB",
+      "Roughness": "Roughness.R",
+      "Normal": "Normal.RGB",
+      "Metallic": "Metallic.R"
+    },
+    "emissive_connected": false,
+    "emissive_default": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ue_completion": {
+    "script": "import_ue.py",
+    "pid": 2368,
+    "started_utc": "2026-10-22T03:09:25.4673138Z",
+    "completed_utc": "2026-10-22T03:11:05.0887575Z",
+    "exit_code": 0,
+    "normal_zero_exit": true,
+    "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Candle\\ue_import_report.json",
+    "temporary_engine_world": "/Engine/Maps/Entry",
+    "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+    "target_root": "/Game/Yastars/Mesh/Candle"
+  },
+  "no_exported_lights_or_cameras": true,
+  "no_emissive_material_connection": true
+}

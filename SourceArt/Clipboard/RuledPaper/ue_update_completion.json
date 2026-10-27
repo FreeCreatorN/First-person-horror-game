@@ -1,0 +1,12 @@
+{
+  "script": "update_ue.py",
+  "pid": 7220,
+  "started_utc": "2026-10-22T01:48:59.8855362Z",
+  "completed_utc": "2026-10-22T01:51:49.5074066Z",
+  "exit_code": 0,
+  "normal_zero_exit": true,
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\RuledPaper\\ue_update_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "allowed_target": "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor"
+}

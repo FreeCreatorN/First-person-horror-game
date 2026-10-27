@@ -1,0 +1,132 @@
+{
+  "parts": {
+    "SM_Camera": {
+      "triangles": 44216,
+      "bounds_min_m": [
+        -0.0742499977350235,
+        -0.07717500627040863,
+        -5.999952554702759e-05
+      ],
+      "bounds_max_m": [
+        0.07706660777330399,
+        0.03154999762773514,
+        0.10105000436306
+      ],
+      "dimensions_cm": [
+        15.131660550832748,
+        10.872500389814377,
+        10.111000388860703
+      ],
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "filename": "SM_Camera.fbx",
+      "sha256": "5297757e6f8affb5ca70329c4142ee560473416fd72a231e22c057fabd3bf6fe",
+      "collision_hulls": 4,
+      "material_slots": {
+        "M_Camera_SatinChrome": "M_Camera_Opaque",
+        "M_Camera_Leatherette": "M_Camera_Opaque",
+        "M_Camera_PolishedTrim": "M_Camera_Opaque",
+        "M_Camera_OpticalInterior": "M_Camera_Opaque",
+        "M_Camera_BlackEnamel": "M_Camera_Opaque",
+        "M_Camera_ContactBrass": "M_Camera_Opaque",
+        "M_Camera_EngravedIvory": "M_Camera_Opaque",
+        "M_Camera_RubberGrip": "M_Camera_Opaque",
+        "M_Camera_OpticalGlass": "M_Camera_Glass",
+        "M_Camera_FilmMemoPaper": "M_Camera_Opaque"
+      },
+      "fbx_roundtrip": {
+        "success": true,
+        "triangles": 44216,
+        "collision_hulls": 4,
+        "uv_channels": 1
+      }
+    },
+    "SM_Camera_ShutterButton": {
+      "triangles": 952,
+      "bounds_min_m": [
+        -0.003699999302625656,
+        -0.0037000002339482307,
+        -7.450580596923828e-09
+      ],
+      "bounds_max_m": [
+        0.003699999302625656,
+        0.0037000002339482307,
+        0.0032749995589256287
+      ],
+      "dimensions_cm": [
+        0.7399998605251312,
+        0.7400000467896461,
+        0.32750070095062256
+      ],
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "filename": "SM_Camera_ShutterButton.fbx",
+      "sha256": "fa61f59d9e21bc9fe54aa1ca6552b610e7e9081b782dbc825ccfed11d3cf6463",
+      "collision_hulls": 1,
+      "material_slots": {
+        "M_Camera_PolishedTrim": "M_Camera_Opaque",
+        "M_Camera_OpticalInterior": "M_Camera_Opaque"
+      },
+      "fbx_roundtrip": {
+        "success": true,
+        "triangles": 952,
+        "collision_hulls": 1,
+        "uv_channels": 1
+      }
+    }
+  },
+  "texture_sets": {
+    "Opaque": {
+      "prefix": "T_Camera",
+      "BaseColor": "Textures/T_Camera_BaseColor.png",
+      "Roughness": "Textures/T_Camera_Roughness.png",
+      "Normal": "Textures/T_Camera_Normal.png",
+      "Metallic": "Textures/T_Camera_Metallic.png"
+    }
+  },
+  "materials": {
+    "M_Camera_Opaque": {
+      "shader_type": "opaque_atlas",
+      "texture_set": "Opaque"
+    },
+    "M_Camera_Glass": {
+      "shader_type": "glass",
+      "opacity": 0.18,
+      "roughness": 0.07,
+      "ior": 1.46,
+      "tint": [
+        0.72,
+        0.84,
+        0.94
+      ]
+    }
+  },
+  "assembly": {
+    "combined_single_mesh": false,
+    "style": "Silver and black 35 mm SLR prop",
+    "front_direction": "-Y",
+    "lens_center_m": [
+      -0.008,
+      -0.025,
+      0.044
+    ],
+    "optical_glass_is_separate": true,
+    "preview_only_lights": true,
+    "editable_source_components": 131,
+    "shutter_button_independent": true,
+    "button_mesh": "SM_Camera_ShutterButton",
+    "button_pivot_blender_m": [
+      0.061000000685453415,
+      -0.010999999940395355,
+      0.08240000158548355
+    ],
+    "button_socket_ue_cm": [
+      6.1,
+      1.1,
+      8.24
+    ],
+    "button_press_travel_cm": 0.12
+  },
+  "exported_lights": 0,
+  "exported_cameras": 0
+}

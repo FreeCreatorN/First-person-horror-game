@@ -1,0 +1,548 @@
+{
+  "success": true,
+  "started_utc": "2026-10-21T07:02:34.444753+00:00",
+  "assets": {
+    "SM_Envelope_Closed": {
+      "asset": "/Game/Yastars/Mesh/Envelope/SM_Envelope_Closed.SM_Envelope_Closed",
+      "created": true,
+      "dimensions_cm": [
+        22.0,
+        11.030002117156982,
+        0.27000048803165555
+      ],
+      "expected_dimensions_cm": [
+        21.99999988079071,
+        11.030000448226929,
+        0.27000047266483307
+      ],
+      "dimension_error_cm": [
+        1.1920928955078125e-07,
+        1.6689300537109375e-06,
+        1.5366822481155396e-08
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        -0.015000104904174805,
+        0.13499976671300828
+      ],
+      "convex_collision_hulls": 1,
+      "expected_collision_hulls": 1,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Kraft_Inner",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Kraft_Outer",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Kraft_Edge",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        },
+        {
+          "index": 3,
+          "slot_name": "M_Kraft_Gum",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    },
+    "SM_Envelope_Open": {
+      "asset": "/Game/Yastars/Mesh/Envelope/SM_Envelope_Open.SM_Envelope_Open",
+      "created": true,
+      "dimensions_cm": [
+        22.0,
+        17.147212982177734,
+        5.048314095009118
+      ],
+      "expected_dimensions_cm": [
+        21.99999988079071,
+        17.148983478546143,
+        5.049177631735802
+      ],
+      "dimension_error_cm": [
+        1.1920928955078125e-07,
+        0.0017704963684082031,
+        0.0008635367266833782
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        -3.073605537414551,
+        2.5241565702017397
+      ],
+      "convex_collision_hulls": 33,
+      "expected_collision_hulls": 33,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Kraft_Inner",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Kraft_Outer",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Kraft_Edge",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        },
+        {
+          "index": 3,
+          "slot_name": "M_Kraft_Gum",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    },
+    "SM_LetterPaper": {
+      "asset": "/Game/Yastars/Mesh/Envelope/SM_LetterPaper.SM_LetterPaper",
+      "created": true,
+      "dimensions_cm": [
+        20.5,
+        9.500001907348633,
+        0.026645321362092456
+      ],
+      "expected_dimensions_cm": [
+        20.499999821186066,
+        9.49999988079071,
+        0.026645322213880718
+      ],
+      "dimension_error_cm": [
+        1.7881393432617188e-07,
+        2.0265579223632812e-06,
+        8.517882614522687e-10
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        0.013322660717927237
+      ],
+      "convex_collision_hulls": 1,
+      "expected_collision_hulls": 1,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Letter_Paper",
+          "material": "/Game/Yastars/Mesh/Envelope/Materials/M_LetterPaper.M_LetterPaper"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    }
+  },
+  "materials": {
+    "M_EnvelopeClosed": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed",
+      "texture_set": "Closed",
+      "created": true,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_BaseColor.T_EnvelopeClosed_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Roughness.T_EnvelopeClosed_Roughness",
+        "Normal": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Normal.T_EnvelopeClosed_Normal"
+      },
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "M_EnvelopeOpen": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen",
+      "texture_set": "Open",
+      "created": true,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_BaseColor.T_EnvelopeOpen_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Roughness.T_EnvelopeOpen_Roughness",
+        "Normal": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Normal.T_EnvelopeOpen_Normal"
+      },
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "M_LetterPaper": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Materials/M_LetterPaper.M_LetterPaper",
+      "texture_set": "LetterPaper",
+      "created": true,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_BaseColor.T_LetterPaper_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Roughness.T_LetterPaper_Roughness",
+        "Normal": "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Normal.T_LetterPaper_Normal"
+      },
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "textures": {
+    "T_EnvelopeClosed_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_BaseColor.T_EnvelopeClosed_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeClosed_BaseColor.png",
+      "created": true,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_EnvelopeClosed_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Roughness.T_EnvelopeClosed_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeClosed_Roughness.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_EnvelopeClosed_Normal": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Normal.T_EnvelopeClosed_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeClosed_Normal.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    },
+    "T_EnvelopeOpen_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_BaseColor.T_EnvelopeOpen_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeOpen_BaseColor.png",
+      "created": true,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_EnvelopeOpen_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Roughness.T_EnvelopeOpen_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeOpen_Roughness.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_EnvelopeOpen_Normal": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Normal.T_EnvelopeOpen_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_EnvelopeOpen_Normal.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    },
+    "T_LetterPaper_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_BaseColor.T_LetterPaper_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_LetterPaper_BaseColor.png",
+      "created": true,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_LetterPaper_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Roughness.T_LetterPaper_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_LetterPaper_Roughness.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_LetterPaper_Normal": {
+      "asset": "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Normal.T_LetterPaper_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\Textures\\T_LetterPaper_Normal.png",
+      "created": true,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    }
+  },
+  "created_assets": [
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_BaseColor.T_EnvelopeClosed_BaseColor",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Roughness.T_EnvelopeClosed_Roughness",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Normal.T_EnvelopeClosed_Normal",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_BaseColor.T_EnvelopeOpen_BaseColor",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Roughness.T_EnvelopeOpen_Roughness",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Normal.T_EnvelopeOpen_Normal",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_BaseColor.T_LetterPaper_BaseColor",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Roughness.T_LetterPaper_Roughness",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Normal.T_LetterPaper_Normal",
+    "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed.M_EnvelopeClosed",
+    "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen.M_EnvelopeOpen",
+    "/Game/Yastars/Mesh/Envelope/Materials/M_LetterPaper.M_LetterPaper",
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope_Closed.SM_Envelope_Closed",
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope_Open.SM_Envelope_Open",
+    "/Game/Yastars/Mesh/Envelope/SM_LetterPaper.SM_LetterPaper"
+  ],
+  "preserved_assets": [],
+  "deleted_legacy": [
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope",
+    "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness",
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal"
+  ],
+  "legacy_external_referencers_before_delete": {
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope": {
+      "registry": [],
+      "editor_asset_library": [],
+      "external": [],
+      "internal_legacy": []
+    },
+    "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope": {
+      "registry": [
+        "/Game/Yastars/Mesh/Envelope/SM_Envelope"
+      ],
+      "editor_asset_library": [
+        "/Game/Yastars/Mesh/Envelope/SM_Envelope"
+      ],
+      "external": [],
+      "internal_legacy": [
+        "/Game/Yastars/Mesh/Envelope/SM_Envelope"
+      ]
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor": {
+      "registry": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "editor_asset_library": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "external": [],
+      "internal_legacy": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ]
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness": {
+      "registry": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "editor_asset_library": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "external": [],
+      "internal_legacy": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ]
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal": {
+      "registry": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "editor_asset_library": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ],
+      "external": [],
+      "internal_legacy": [
+        "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope"
+      ]
+    }
+  },
+  "legacy_deletion_checks": [
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/SM_Envelope",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope.uasset",
+      "verified_sha256": "1403d31aedb948bd74fd58b96cee9680dc549a1c449f9990d95c04e8d0b6f17d",
+      "referencers_immediately_before_delete": {
+        "registry": [],
+        "editor_asset_library": [],
+        "external": [],
+        "internal_legacy": []
+      }
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_Envelope.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_Envelope.uasset",
+      "verified_sha256": "a78a6afc093083de5ac1d44edb696cc2ce02a67e71994fd817aebbb6077250ee",
+      "referencers_immediately_before_delete": {
+        "registry": [],
+        "editor_asset_library": [],
+        "external": [],
+        "internal_legacy": []
+      }
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_BaseColor.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_BaseColor.uasset",
+      "verified_sha256": "aed2afbfa61aefec937b87b92090c585d295475ef99202e4599f017108822c96",
+      "referencers_immediately_before_delete": {
+        "registry": [],
+        "editor_asset_library": [],
+        "external": [],
+        "internal_legacy": []
+      }
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Roughness.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Roughness.uasset",
+      "verified_sha256": "7cdd2ac39d322944239be5f315525582639ec80cd44b81b521013797d4b64a0d",
+      "referencers_immediately_before_delete": {
+        "registry": [],
+        "editor_asset_library": [],
+        "external": [],
+        "internal_legacy": []
+      }
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Normal.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Normal.uasset",
+      "verified_sha256": "d12d29db1a8e3b89c28ca96a979fbe052ab68095d72806ab0b230958c5c5666e",
+      "referencers_immediately_before_delete": {
+        "registry": [],
+        "editor_asset_library": [],
+        "external": [],
+        "internal_legacy": []
+      }
+    }
+  ],
+  "new_packages_on_disk": {
+    "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeClosed": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_EnvelopeClosed.uasset",
+      "bytes": 14549
+    },
+    "/Game/Yastars/Mesh/Envelope/Materials/M_EnvelopeOpen": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_EnvelopeOpen.uasset",
+      "bytes": 14663
+    },
+    "/Game/Yastars/Mesh/Envelope/Materials/M_LetterPaper": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_LetterPaper.uasset",
+      "bytes": 12910
+    },
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope_Closed": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope_Closed.uasset",
+      "bytes": 359748
+    },
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope_Open": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope_Open.uasset",
+      "bytes": 442712
+    },
+    "/Game/Yastars/Mesh/Envelope/SM_LetterPaper": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\SM_LetterPaper.uasset",
+      "bytes": 54311
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_EnvelopeClosed_BaseColor.uasset",
+      "bytes": 1356380
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Normal": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_EnvelopeClosed_Normal.uasset",
+      "bytes": 255202
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeClosed_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_EnvelopeClosed_Roughness.uasset",
+      "bytes": 173998
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_EnvelopeOpen_BaseColor.uasset",
+      "bytes": 1332272
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Normal": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_EnvelopeOpen_Normal.uasset",
+      "bytes": 247632
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_EnvelopeOpen_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_EnvelopeOpen_Roughness.uasset",
+      "bytes": 169199
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_LetterPaper_BaseColor.uasset",
+      "bytes": 276182
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Normal": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_LetterPaper_Normal.uasset",
+      "bytes": 9544
+    },
+    "/Game/Yastars/Mesh/Envelope/Textures/T_LetterPaper_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_LetterPaper_Roughness.uasset",
+      "bytes": 174922
+    }
+  },
+  "warnings": [],
+  "asset_or_map_rename_executed": false,
+  "map_save_executed": false,
+  "level_load_executed": false,
+  "actors_spawned": 0,
+  "world_before": "/Engine/Maps/Entry.Entry",
+  "legacy_backup_preflight": [
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/SM_Envelope",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\SM_Envelope.uasset",
+      "verified_sha256": "1403d31aedb948bd74fd58b96cee9680dc549a1c449f9990d95c04e8d0b6f17d"
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_Envelope.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Materials\\M_Envelope.uasset",
+      "verified_sha256": "a78a6afc093083de5ac1d44edb696cc2ce02a67e71994fd817aebbb6077250ee"
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_BaseColor.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_BaseColor.uasset",
+      "verified_sha256": "aed2afbfa61aefec937b87b92090c585d295475ef99202e4599f017108822c96"
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Roughness.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Roughness.uasset",
+      "verified_sha256": "7cdd2ac39d322944239be5f315525582639ec80cd44b81b521013797d4b64a0d"
+    },
+    {
+      "package": "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal",
+      "source_file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Normal.uasset",
+      "backup_file": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\EnvelopeBeforeReplacement_20261020\\Content\\Yastars\\Mesh\\Envelope\\Textures\\T_Envelope_Normal.uasset",
+      "verified_sha256": "d12d29db1a8e3b89c28ca96a979fbe052ab68095d72806ab0b230958c5c5666e"
+    }
+  ],
+  "new_package_count": 15,
+  "replacement_assets_saved_and_verified": true,
+  "optional_reference_options_unsupported": {},
+  "legacy_files_absent": {
+    "/Game/Yastars/Mesh/Envelope/SM_Envelope": true,
+    "/Game/Yastars/Mesh/Envelope/Materials/M_Envelope": true,
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_BaseColor": true,
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Roughness": true,
+    "/Game/Yastars/Mesh/Envelope/Textures/T_Envelope_Normal": true
+  },
+  "world_after": "/Engine/Maps/Entry.Entry",
+  "same_world_object": true,
+  "completed_utc": "2026-10-21T07:02:43.293049+00:00"
+}

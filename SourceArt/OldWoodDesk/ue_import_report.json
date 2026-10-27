@@ -1,0 +1,216 @@
+{
+  "success": true,
+  "assets": {
+    "SM_OldWoodDesk_Base": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Base.SM_OldWoodDesk_Base",
+      "dimensions_cm": [
+        120.0,
+        64.00000381469727,
+        77.00852966308594
+      ],
+      "bounds_origin_cm": [
+        0.0,
+        1.9073486328125e-06,
+        38.50426483154297
+      ],
+      "convex_collision_hulls": 17,
+      "expected_collision_hulls": 17,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_OldDesk_Wood",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_OldDesk_Endgrain",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_OldDesk_Iron",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base"
+        }
+      ],
+      "assembly_offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "SM_OldWoodDesk_Drawer": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Drawer.SM_OldWoodDesk_Drawer",
+      "dimensions_cm": [
+        62.400001525878906,
+        55.170000076293945,
+        12.39999771118164
+      ],
+      "bounds_origin_cm": [
+        1.9073486328125e-06,
+        6.014998435974121,
+        65.60000419616699
+      ],
+      "convex_collision_hulls": 6,
+      "expected_collision_hulls": 6,
+      "uv_channels_lod0": 1,
+      "texture_atlas_uv0_present": true,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      },
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 256,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_OldDesk_Wood",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_OldDesk_Endgrain",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_OldDesk_Iron",
+          "material": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer"
+        }
+      ],
+      "assembly_offset_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "textures": {
+    "T_OldDesk_Base_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_BaseColor.T_OldDesk_Base_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Base_BaseColor.png",
+      "created": false,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_OldDesk_Base_Roughness": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_Roughness.T_OldDesk_Base_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Base_Roughness.png",
+      "created": false,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_OldDesk_Base_Normal": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_Normal.T_OldDesk_Base_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Base_Normal.png",
+      "created": false,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    },
+    "T_OldDesk_Drawer_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_BaseColor.T_OldDesk_Drawer_BaseColor",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Drawer_BaseColor.png",
+      "created": false,
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>"
+    },
+    "T_OldDesk_Drawer_Roughness": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_Roughness.T_OldDesk_Drawer_Roughness",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Drawer_Roughness.png",
+      "created": false,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_MASKS: 2>"
+    },
+    "T_OldDesk_Drawer_Normal": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_Normal.T_OldDesk_Drawer_Normal",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldWoodDesk\\Textures\\T_OldDesk_Drawer_Normal.png",
+      "created": false,
+      "srgb": false,
+      "compression_settings": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "flip_green_channel": true
+    }
+  },
+  "materials": {
+    "M_OldDesk_Base": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base",
+      "created": false,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_BaseColor.T_OldDesk_Base_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_Roughness.T_OldDesk_Base_Roughness",
+        "Normal": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_Normal.T_OldDesk_Base_Normal"
+      },
+      "vector_parameter_names": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "M_OldDesk_Drawer": {
+      "asset": "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer",
+      "created": false,
+      "textures": {
+        "BaseColor": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_BaseColor.T_OldDesk_Drawer_BaseColor",
+        "Roughness": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_Roughness.T_OldDesk_Drawer_Roughness",
+        "Normal": "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_Normal.T_OldDesk_Drawer_Normal"
+      },
+      "vector_parameter_names": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "created_assets": [],
+  "preserved_assets": [
+    "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_BaseColor.T_OldDesk_Base_BaseColor",
+    "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_Roughness.T_OldDesk_Base_Roughness",
+    "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Base_Normal.T_OldDesk_Base_Normal",
+    "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Base.M_OldDesk_Base",
+    "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Base.SM_OldWoodDesk_Base",
+    "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_BaseColor.T_OldDesk_Drawer_BaseColor",
+    "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_Roughness.T_OldDesk_Drawer_Roughness",
+    "/Game/Yastars/Mesh/OldWoodDesk/Textures/T_OldDesk_Drawer_Normal.T_OldDesk_Drawer_Normal",
+    "/Game/Yastars/Mesh/OldWoodDesk/Materials/M_OldDesk_Drawer.M_OldDesk_Drawer",
+    "/Game/Yastars/Mesh/OldWoodDesk/SM_OldWoodDesk_Drawer.SM_OldWoodDesk_Drawer"
+  ],
+  "reimported_assets": [],
+  "warnings": [],
+  "assembly_offsets": {
+    "Base": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Drawer": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "drawer_open_offset_cm": [
+    0.0,
+    23.0,
+    0.0
+  ],
+  "drawer_forward_axis": "+Y"
+}

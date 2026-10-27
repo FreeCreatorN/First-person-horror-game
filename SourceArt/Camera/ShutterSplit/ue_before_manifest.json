@@ -1,0 +1,30 @@
+[
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\SM_Camera.uasset",
+    "sha256": "1de27331ab7f859fe322017ba3c9b145e90831d6b1de1b460af585c3bfedcf62"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Materials\\M_Camera_Glass.uasset",
+    "sha256": "6dfc7005c7f17cb74547854f348972fd5784fec96ce5ef14ecd3bcc515832f7b"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Materials\\M_Camera_Opaque.uasset",
+    "sha256": "7187f322f44dce33d4e5e1a8ff155194e14d5b8dba7da570682758a62f84c329"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_BaseColor.uasset",
+    "sha256": "224b9560fae7199e683cfdf87ea5f7c16fd3d94719ef2823c520ae7d2a2d828c"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_Metallic.uasset",
+    "sha256": "6567571831d998af64b68964a140027a0f5ff57f5785bad89afc895d195bdbee"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_Normal.uasset",
+    "sha256": "46c8f1d3e8038936a00d3714c33af85139f786c51a7734002dddbb582e23579d"
+  },
+  {
+    "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Camera\\Textures\\T_Camera_Roughness.uasset",
+    "sha256": "35aaff0491589dc29f809e21a498f86c1be01004a462bc13e5409cb6667db244"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "script": "import_ue.py",
+  "execution_mode": "exclusive_editor",
+  "pid": 28692,
+  "editor_pid": 28692,
+  "script_sha256": "10794d8407d9cacd0fd3ba421db0ddfb647addce38a9cec1f46fbfa2649cf42c",
+  "started_utc": "2026-10-26T04:07:00.5428077Z",
+  "completed_utc": "2026-10-26T04:09:43.0830749Z",
+  "exit_code": 0,
+  "normal_zero_exit": true,
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ue_import_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "target_root": "/Game/Yastars/Mesh/Camera"
+}

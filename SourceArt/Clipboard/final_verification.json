@@ -1,0 +1,967 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-22T01:52:18.702549+00:00",
+  "paper_material_revision": {
+    "source": {
+      "success": true,
+      "bakes": {
+        "T_ClipboardPaper_BaseColor": {
+          "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_BaseColor.png",
+          "resolution": [
+            4096,
+            4096
+          ],
+          "colorspace": "sRGB",
+          "bytes": 14736379,
+          "sha256": "b3e63f5fc5c2169498aaf9d8bf4e2d729bdd75d3094a9796e0c5a1e5cee0a227",
+          "sample_min_rgb": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "sample_max_rgb": [
+            0.988235354423523,
+            0.9843137860298157,
+            0.9686275124549866
+          ],
+          "method": "EMIT from Principled input",
+          "reloaded_from_saved_png": true,
+          "elapsed_seconds": 11.489451700000018
+        }
+      },
+      "renders": {
+        "overall": {
+          "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_Preview.png",
+          "sha256": "edfd3cdfcc6467dfff43b885c7c3be766a26cab102cfb9eda4af835512643d09",
+          "bytes": 2479144
+        },
+        "clip_detail": {
+          "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_ClipDetail.png",
+          "sha256": "646f449961cc0e1c2fb55f1b9a7eda41c93921b6821e9b21f206dd16e0170222",
+          "bytes": 2615052
+        },
+        "paper_detail": {
+          "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\RuledPaper\\Clipboard_RuledPaper_Detail.png",
+          "sha256": "d68a7fd09d10b41ce0c35ed283a1c32e879fce9c54234005b7d8e9048804bdd8",
+          "bytes": 2509552
+        }
+      },
+      "changed_texture": "T_ClipboardPaper_BaseColor.png",
+      "backup_root": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\ClipboardBeforeRuledPaper_20261022",
+      "elapsed_seconds": 102.02605399999999,
+      "geometry_before": {
+        "SM_Clipboard_Board": "b226b78257840aa440bbe45b7f0f5b1a0afda30b81c3198786eea05905932414",
+        "SM_Clipboard_Clip": "05c35ec8c29c661d1ca66fdba365710553127f14628cd6d001a90381d4d823a9",
+        "SM_Clipboard_Paper": "0c4928dd93c2b336f9e159aa2b85c6e00e997873739bac5594f7167c2fe0dcb0"
+      },
+      "geometry_after": {
+        "SM_Clipboard_Board": "b226b78257840aa440bbe45b7f0f5b1a0afda30b81c3198786eea05905932414",
+        "SM_Clipboard_Clip": "05c35ec8c29c661d1ca66fdba365710553127f14628cd6d001a90381d4d823a9",
+        "SM_Clipboard_Paper": "0c4928dd93c2b336f9e159aa2b85c6e00e997873739bac5594f7167c2fe0dcb0"
+      },
+      "untouched_source_files": {
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_BaseColor.png": "5fdd65b9226779f677585996b332d45f72c1fb30ef7d956ccc856922efd85b92",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Metallic.png": "1d93625c4379f2232c2edc256e88ceb8117dc1e4bd759299ab1c38b9d66e6890",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Normal.png": "31945ff52a78336f30b56ebe8c6e96863452e54fffdeb19290e3c1db9ff350e8",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Roughness.png": "6134f78dbc5eed1cf7ed8cf6e5c4f3c342b748daf183f5f5a7cee9be714422f2",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_BaseColor.png": "c1cb8dcd4df87d4b8e2b500e8fb942643bf912ecb763d5dcfc2ce2174a880e12",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Metallic.png": "ca3fa96d2a1dfa50f84ae83ca17c3eed370e6d288803319227d938390827959f",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Normal.png": "8f662b5d253ffcd5d909faffba8faf9c8ae74dac8174cc3439a8c75cab598025",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Roughness.png": "46afb86f16479ce213b5c602f4a2f5b222a6d1f6c45ff32bfccdcb9f18278d8c",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Metallic.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Normal.png": "c884e66bf35b95a5195bec042caab731589e11cfd24e61fab29b08155f40c68e",
+        "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Roughness.png": "0a85cc131f2207e3054575dd9c28986cd0a4a9fcee316b870029aa2a20a591f8"
+      },
+      "paper_style": {
+        "line_spacing_mm": 8,
+        "blue_line_width_mm": 0.35,
+        "red_margin_from_left_mm": 24,
+        "back_unprinted": true,
+        "texture_resolution": [
+          4096,
+          4096
+        ]
+      },
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend",
+      "source_sha256": "313877d1748079300eb31200af02b0dfeed97517f498cea614b3889b16ad3252"
+    },
+    "ue": {
+      "success": true,
+      "started_utc": "2026-10-22T01:51:39.457106+00:00",
+      "target": "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor",
+      "source_png": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_BaseColor.png",
+      "target_root": "/Game/Yastars/Mesh/Clipboard",
+      "allowed_saved_packages": [
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor"
+      ],
+      "saved_packages": [
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor"
+      ],
+      "material_saved": false,
+      "mesh_saved": false,
+      "asset_deleted": false,
+      "map_saved": false,
+      "level_loaded": false,
+      "actors_spawned": 0,
+      "all_package_hashes_before": {
+        "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Materials\\M_ClipboardBoard.uasset",
+          "bytes": 14582,
+          "sha256": "72ea5b6b6b2feb6ea51bc6ed48ce4a64a97dbd84182eab9aa8438a735ce6db59"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardClip": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Materials\\M_ClipboardClip.uasset",
+          "bytes": 15164,
+          "sha256": "07bd914a63c78f1f7cdfe5258a44c276dc9f80fe9c4531252b96292ef046d29d"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardPaper": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Materials\\M_ClipboardPaper.uasset",
+          "bytes": 14488,
+          "sha256": "5b657bb962b53b50d16f5b4d63ffb8c361a21e9aee93c262674424fbaf592300"
+        },
+        "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Board": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\SM_Clipboard_Board.uasset",
+          "bytes": 363467,
+          "sha256": "46ff95e6ec2eb239d36de92619b4f67fe7658fef925a355fe2e52bca9b60afba"
+        },
+        "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Clip": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\SM_Clipboard_Clip.uasset",
+          "bytes": 222946,
+          "sha256": "4b2f607f31c55945d3a2b213e25bd09acd67d042ffa677cd3eeab01a180bd83a"
+        },
+        "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Paper": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\SM_Clipboard_Paper.uasset",
+          "bytes": 90595,
+          "sha256": "53d2b7a6f98e531a55952cff4192e9218230955b5758818740c6716ba1385c87"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_BaseColor": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_BaseColor.uasset",
+          "bytes": 3147435,
+          "sha256": "7321a547bcc645d3c64f1a1e9116925cd68761155787a6957ff98af13f11b387"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Metallic": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_Metallic.uasset",
+          "bytes": 9261,
+          "sha256": "70dbe1780ab82d57affb2fa1aa9ebff4f9a19047bf0edb85665294bf26bfca37"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Normal": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_Normal.uasset",
+          "bytes": 55150,
+          "sha256": "3e99a45076faaa04aef1d112a9c81f1bc68af27043f28539b37bff1e1638e5de"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Roughness": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_Roughness.uasset",
+          "bytes": 269417,
+          "sha256": "a5390ee8f89d5d3428fd439e108ded6ae07cc23b7940366c8df0bfbdcd7575b6"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_BaseColor": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_BaseColor.uasset",
+          "bytes": 1555627,
+          "sha256": "3fb0c962a8590ea97ba40ed52b615d0b5e944b1d57e30c0a12d0a3c7e25fcd62"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Metallic": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_Metallic.uasset",
+          "bytes": 15261,
+          "sha256": "364cf99609006f5a671aa9bd69ed8f94fa56937d993691b0de2eda850ff1c3d5"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Normal": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_Normal.uasset",
+          "bytes": 181749,
+          "sha256": "26cc8242fc7fc85d3de5f3aafdc27371afe7acf31cd0e2c0e0525430915261ad"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Roughness": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_Roughness.uasset",
+          "bytes": 180836,
+          "sha256": "c5e77c35ba5339ac8163624f2828cd3e591f3899eee67effa63e5ba9908ee227"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_BaseColor.uasset",
+          "bytes": 3376881,
+          "sha256": "e88d0b037c012bb9f96a659068f84e4677a135e7490e80c71ce7f955735ba3e9"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Metallic": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_Metallic.uasset",
+          "bytes": 6324,
+          "sha256": "42747d4f42697ae0032886d79b80235f184284a804b40ebdada61153ef3c0b3f"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Normal": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_Normal.uasset",
+          "bytes": 17281,
+          "sha256": "37a57761f4a400d4cb871af923d423f3f39a4925000d47ad1c022ed83679db9d"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Roughness": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_Roughness.uasset",
+          "bytes": 245265,
+          "sha256": "f273379b946fefa130e2014af6a1c32bfe478ffa85c6012e70cbda659fd9197d"
+        }
+      },
+      "all_package_hashes_after": {
+        "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Materials\\M_ClipboardBoard.uasset",
+          "bytes": 14582,
+          "sha256": "72ea5b6b6b2feb6ea51bc6ed48ce4a64a97dbd84182eab9aa8438a735ce6db59"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardClip": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Materials\\M_ClipboardClip.uasset",
+          "bytes": 15164,
+          "sha256": "07bd914a63c78f1f7cdfe5258a44c276dc9f80fe9c4531252b96292ef046d29d"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardPaper": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Materials\\M_ClipboardPaper.uasset",
+          "bytes": 14488,
+          "sha256": "5b657bb962b53b50d16f5b4d63ffb8c361a21e9aee93c262674424fbaf592300"
+        },
+        "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Board": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\SM_Clipboard_Board.uasset",
+          "bytes": 363467,
+          "sha256": "46ff95e6ec2eb239d36de92619b4f67fe7658fef925a355fe2e52bca9b60afba"
+        },
+        "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Clip": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\SM_Clipboard_Clip.uasset",
+          "bytes": 222946,
+          "sha256": "4b2f607f31c55945d3a2b213e25bd09acd67d042ffa677cd3eeab01a180bd83a"
+        },
+        "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Paper": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\SM_Clipboard_Paper.uasset",
+          "bytes": 90595,
+          "sha256": "53d2b7a6f98e531a55952cff4192e9218230955b5758818740c6716ba1385c87"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_BaseColor": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_BaseColor.uasset",
+          "bytes": 3147435,
+          "sha256": "7321a547bcc645d3c64f1a1e9116925cd68761155787a6957ff98af13f11b387"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Metallic": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_Metallic.uasset",
+          "bytes": 9261,
+          "sha256": "70dbe1780ab82d57affb2fa1aa9ebff4f9a19047bf0edb85665294bf26bfca37"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Normal": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_Normal.uasset",
+          "bytes": 55150,
+          "sha256": "3e99a45076faaa04aef1d112a9c81f1bc68af27043f28539b37bff1e1638e5de"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Roughness": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardBoard_Roughness.uasset",
+          "bytes": 269417,
+          "sha256": "a5390ee8f89d5d3428fd439e108ded6ae07cc23b7940366c8df0bfbdcd7575b6"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_BaseColor": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_BaseColor.uasset",
+          "bytes": 1555627,
+          "sha256": "3fb0c962a8590ea97ba40ed52b615d0b5e944b1d57e30c0a12d0a3c7e25fcd62"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Metallic": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_Metallic.uasset",
+          "bytes": 15261,
+          "sha256": "364cf99609006f5a671aa9bd69ed8f94fa56937d993691b0de2eda850ff1c3d5"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Normal": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_Normal.uasset",
+          "bytes": 181749,
+          "sha256": "26cc8242fc7fc85d3de5f3aafdc27371afe7acf31cd0e2c0e0525430915261ad"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Roughness": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardClip_Roughness.uasset",
+          "bytes": 180836,
+          "sha256": "c5e77c35ba5339ac8163624f2828cd3e591f3899eee67effa63e5ba9908ee227"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_BaseColor.uasset",
+          "bytes": 13234358,
+          "sha256": "c11284268e82026a4c8b4047166f98c78f14b185011fe5001c98ecebcc16a5ff"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Metallic": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_Metallic.uasset",
+          "bytes": 6324,
+          "sha256": "42747d4f42697ae0032886d79b80235f184284a804b40ebdada61153ef3c0b3f"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Normal": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_Normal.uasset",
+          "bytes": 17281,
+          "sha256": "37a57761f4a400d4cb871af923d423f3f39a4925000d47ad1c022ed83679db9d"
+        },
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Roughness": {
+          "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Clipboard\\Textures\\T_ClipboardPaper_Roughness.uasset",
+          "bytes": 245265,
+          "sha256": "f273379b946fefa130e2014af6a1c32bfe478ffa85c6012e70cbda659fd9197d"
+        }
+      },
+      "world_before": "/Engine/Maps/Entry.Entry",
+      "source_png_sha256": "b3e63f5fc5c2169498aaf9d8bf4e2d729bdd75d3094a9796e0c5a1e5cee0a227",
+      "texture_object_path_before": "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor.T_ClipboardPaper_BaseColor",
+      "texture_settings_before": {
+        "srgb": true,
+        "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+        "flip_green_channel": false
+      },
+      "material_parameters_before": {
+        "asset": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardPaper.M_ClipboardPaper",
+        "vector_parameters": {
+          "Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "scalar_parameters": {}
+      },
+      "material_dependencies_before": [
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor",
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Metallic",
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Normal",
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Roughness"
+      ],
+      "backup": {
+        "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\RuledPaper\\BeforeUpdate\\T_ClipboardPaper_BaseColor.uasset",
+        "sha256": "e88d0b037c012bb9f96a659068f84e4677a135e7490e80c71ce7f955735ba3e9"
+      },
+      "imported_object_paths": [
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor.T_ClipboardPaper_BaseColor"
+      ],
+      "same_texture_uobject": true,
+      "texture_object_path_after": "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor.T_ClipboardPaper_BaseColor",
+      "texture_settings_after": {
+        "srgb": true,
+        "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+        "flip_green_channel": false
+      },
+      "same_material_uobject": true,
+      "material_parameters_after": {
+        "asset": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardPaper.M_ClipboardPaper",
+        "vector_parameters": {
+          "Tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "scalar_parameters": {}
+      },
+      "material_dependencies_after": [
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor",
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Metallic",
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Normal",
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Roughness"
+      ],
+      "changed_packages": [
+        "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor"
+      ],
+      "other_17_package_hashes_unchanged": true,
+      "target_package_changed": true,
+      "world_after": "/Engine/Maps/Entry.Entry",
+      "same_world_object": true,
+      "completed_utc": "2026-10-22T01:51:40.760283+00:00"
+    },
+    "completion": {
+      "script": "update_ue.py",
+      "pid": 7220,
+      "started_utc": "2026-10-22T01:48:59.8855362Z",
+      "completed_utc": "2026-10-22T01:51:49.5074066Z",
+      "exit_code": 0,
+      "normal_zero_exit": true,
+      "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\RuledPaper\\ue_update_report.json",
+      "temporary_engine_world": "/Engine/Maps/Entry",
+      "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+      "allowed_target": "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor"
+    }
+  },
+  "package_files": {
+    "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard": {
+      "bytes": 14582,
+      "sha256": "72ea5b6b6b2feb6ea51bc6ed48ce4a64a97dbd84182eab9aa8438a735ce6db59"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardClip": {
+      "bytes": 15164,
+      "sha256": "07bd914a63c78f1f7cdfe5258a44c276dc9f80fe9c4531252b96292ef046d29d"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardPaper": {
+      "bytes": 14488,
+      "sha256": "5b657bb962b53b50d16f5b4d63ffb8c361a21e9aee93c262674424fbaf592300"
+    },
+    "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Board": {
+      "bytes": 363467,
+      "sha256": "46ff95e6ec2eb239d36de92619b4f67fe7658fef925a355fe2e52bca9b60afba"
+    },
+    "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Clip": {
+      "bytes": 222946,
+      "sha256": "4b2f607f31c55945d3a2b213e25bd09acd67d042ffa677cd3eeab01a180bd83a"
+    },
+    "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Paper": {
+      "bytes": 90595,
+      "sha256": "53d2b7a6f98e531a55952cff4192e9218230955b5758818740c6716ba1385c87"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_BaseColor": {
+      "bytes": 3147435,
+      "sha256": "7321a547bcc645d3c64f1a1e9116925cd68761155787a6957ff98af13f11b387"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Metallic": {
+      "bytes": 9261,
+      "sha256": "70dbe1780ab82d57affb2fa1aa9ebff4f9a19047bf0edb85665294bf26bfca37"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Normal": {
+      "bytes": 55150,
+      "sha256": "3e99a45076faaa04aef1d112a9c81f1bc68af27043f28539b37bff1e1638e5de"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardBoard_Roughness": {
+      "bytes": 269417,
+      "sha256": "a5390ee8f89d5d3428fd439e108ded6ae07cc23b7940366c8df0bfbdcd7575b6"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_BaseColor": {
+      "bytes": 1555627,
+      "sha256": "3fb0c962a8590ea97ba40ed52b615d0b5e944b1d57e30c0a12d0a3c7e25fcd62"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Metallic": {
+      "bytes": 15261,
+      "sha256": "364cf99609006f5a671aa9bd69ed8f94fa56937d993691b0de2eda850ff1c3d5"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Normal": {
+      "bytes": 181749,
+      "sha256": "26cc8242fc7fc85d3de5f3aafdc27371afe7acf31cd0e2c0e0525430915261ad"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardClip_Roughness": {
+      "bytes": 180836,
+      "sha256": "c5e77c35ba5339ac8163624f2828cd3e591f3899eee67effa63e5ba9908ee227"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_BaseColor": {
+      "bytes": 13234358,
+      "sha256": "c11284268e82026a4c8b4047166f98c78f14b185011fe5001c98ecebcc16a5ff"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Metallic": {
+      "bytes": 6324,
+      "sha256": "42747d4f42697ae0032886d79b80235f184284a804b40ebdada61153ef3c0b3f"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Normal": {
+      "bytes": 17281,
+      "sha256": "37a57761f4a400d4cb871af923d423f3f39a4925000d47ad1c022ed83679db9d"
+    },
+    "/Game/Yastars/Mesh/Clipboard/Textures/T_ClipboardPaper_Roughness": {
+      "bytes": 245265,
+      "sha256": "f273379b946fefa130e2014af6a1c32bfe478ffa85c6012e70cbda659fd9197d"
+    }
+  },
+  "protected_files_checked": 30,
+  "protected_files_changed": [],
+  "ui_and_maps_unchanged": true,
+  "ue_meshes": {
+    "SM_Clipboard_Board": {
+      "asset": "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Board.SM_Clipboard_Board",
+      "dimensions_cm": [
+        23.000003814697266,
+        33.80000305175781,
+        1.6639420539140701
+      ],
+      "expected_dimensions_cm": [
+        23.000000417232513,
+        33.799999952316284,
+        1.663942076265812
+      ],
+      "dimension_error_cm": [
+        3.3974647521972656e-06,
+        3.0994415283203125e-06,
+        2.2351741790771484e-08
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        0.0,
+        0.7619710192084312
+      ],
+      "convex_collision_hulls": 5,
+      "expected_collision_hulls": 5,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "source_triangles": 11092,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Clipboard_HardboardFront",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard.M_ClipboardBoard"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Clipboard_HardboardEdge",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard.M_ClipboardBoard"
+        },
+        {
+          "index": 2,
+          "slot_name": "M_Clipboard_HardboardBack",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard.M_ClipboardBoard"
+        },
+        {
+          "index": 3,
+          "slot_name": "M_Clipboard_Steel",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard.M_ClipboardBoard"
+        },
+        {
+          "index": 4,
+          "slot_name": "M_Clipboard_Nickel",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardBoard.M_ClipboardBoard"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    },
+    "SM_Clipboard_Clip": {
+      "asset": "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Clip.SM_Clipboard_Clip",
+      "dimensions_cm": [
+        10.0,
+        6.570000648498535,
+        2.0405421257019043
+      ],
+      "expected_dimensions_cm": [
+        10.000000149011612,
+        6.570000201463699,
+        2.0405422896146774
+      ],
+      "dimension_error_cm": [
+        1.4901161193847656e-07,
+        4.470348358154297e-07,
+        1.6391277313232422e-07
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        -9.5367431640625e-07,
+        -15.315000057220459,
+        1.4807710647583008
+      ],
+      "convex_collision_hulls": 11,
+      "expected_collision_hulls": 11,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "source_triangles": 6028,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Clipboard_Nickel",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardClip.M_ClipboardClip"
+        },
+        {
+          "index": 1,
+          "slot_name": "M_Clipboard_PressureStrip",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardClip.M_ClipboardClip"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    },
+    "SM_Clipboard_Paper": {
+      "asset": "/Game/Yastars/Mesh/Clipboard/SM_Clipboard_Paper.SM_Clipboard_Paper",
+      "dimensions_cm": [
+        21.000001907348633,
+        29.700002670288086,
+        0.18256384134292603
+      ],
+      "expected_dimensions_cm": [
+        20.999999344348907,
+        29.6999990940094,
+        0.18256385810673237
+      ],
+      "dimension_error_cm": [
+        2.562999725341797e-06,
+        3.5762786865234375e-06,
+        1.6763806343078613e-08
+      ],
+      "dimension_tolerance_cm": 0.05,
+      "bounds_origin_cm": [
+        0.0,
+        0.75,
+        0.4262818992137909
+      ],
+      "convex_collision_hulls": 11,
+      "expected_collision_hulls": 11,
+      "uv_channels_lod0": 1,
+      "source_uv_channels_expected": 1,
+      "source_triangles": 2816,
+      "matSlots": [
+        {
+          "index": 0,
+          "slot_name": "M_Clipboard_WhitePaper",
+          "material": "/Game/Yastars/Mesh/Clipboard/Materials/M_ClipboardPaper.M_ClipboardPaper"
+        }
+      ],
+      "lightmap_coordinate_index": 1,
+      "lightmap_build_settings": {
+        "generate_lightmap_u_vs": true,
+        "src_lightmap_index": 0,
+        "dst_lightmap_index": 1,
+        "generated_render_data_uv1_separately_verified": false
+      }
+    }
+  },
+  "assembly": {
+    "all_parts_share_origin": true,
+    "relative_position_cm": [
+      0,
+      0,
+      0
+    ],
+    "hinge_pivot_blender_m": [
+      0,
+      0.148,
+      0.011
+    ],
+    "hinge_axis": "X",
+    "clip_is_independent": true,
+    "paper_size_mm": [
+      210,
+      297
+    ]
+  },
+  "contacts": {
+    "success": true,
+    "errors": [],
+    "warnings": [],
+    "units": "meters",
+    "numerical_collision_inset_m": 2e-07,
+    "source_mesh_contacts": {
+      "SM_Clipboard_Board": {
+        "triangle_intersection_count": 0,
+        "first_triangle_pairs": []
+      },
+      "SM_Clipboard_Clip": {
+        "triangle_intersection_count": 0,
+        "first_triangle_pairs": []
+      }
+    },
+    "pressure_strip": {
+      "object": "Paper pressure edge.001",
+      "triangle_intersection_count": 0,
+      "first_triangle_pairs": [],
+      "nearest_evaluated_strip_vertex_to_paper": {
+        "distance_m": 4.999805241823196e-06,
+        "point_a_m": [
+          -0.04944499954581261,
+          0.12035500258207321,
+          0.004604999907314777
+        ],
+        "point_b_m": [
+          -0.04944499954581261,
+          0.12035500258207321,
+          0.004600000102072954
+        ],
+        "triangle_b": 371
+      },
+      "designed_gap_m": 5e-06
+    },
+    "fbx": {
+      "SM_Clipboard_Board": {
+        "mesh": "SM_Clipboard_Board.001",
+        "collision_hulls": 5,
+        "expected_collision_hulls": 5,
+        "dimensions_cm": [
+          23.000003397464752,
+          33.80000293254852,
+          1.663942018058151
+        ],
+        "dimension_errors_cm": [
+          2.9802322387695312e-06,
+          2.9802322387695312e-06,
+          5.820766091346741e-08
+        ],
+        "foreign_collisions_against_actual_paper": [
+          {
+            "object": "UCX_SM_Clipboard_Board_00",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Board_01",
+            "aabb_overlaps_paper": true,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": [],
+            "outward_convex_planes": 6
+          },
+          {
+            "object": "UCX_SM_Clipboard_Board_02",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Board_03",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Board_04",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          }
+        ],
+        "exported_mesh_against_paper": {
+          "triangle_intersection_count": 0,
+          "first_triangle_pairs": []
+        }
+      },
+      "SM_Clipboard_Clip": {
+        "mesh": "SM_Clipboard_Clip.001",
+        "collision_hulls": 11,
+        "expected_collision_hulls": 11,
+        "dimensions_cm": [
+          10.000000149011612,
+          6.570000946521759,
+          2.04054219648242
+        ],
+        "dimension_errors_cm": [
+          0.0,
+          7.450580596923828e-07,
+          9.313225746154785e-08
+        ],
+        "foreign_collisions_against_actual_paper": [
+          {
+            "object": "UCX_SM_Clipboard_Clip_00",
+            "aabb_overlaps_paper": true,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": [],
+            "outward_convex_planes": 7
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_01",
+            "aabb_overlaps_paper": true,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": [],
+            "outward_convex_planes": 8
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_02",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_03",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_04",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_05",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_06",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_07",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_08",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_09",
+            "aabb_overlaps_paper": false,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": []
+          },
+          {
+            "object": "UCX_SM_Clipboard_Clip_10",
+            "aabb_overlaps_paper": true,
+            "paper_triangles_inside_inset_hull": 0,
+            "paper_surface_area_inside_inset_hull_m2": 0.0,
+            "first_penetrating_paper_triangles": [],
+            "outward_convex_planes": 6
+          }
+        ],
+        "exported_mesh_against_paper": {
+          "triangle_intersection_count": 0,
+          "first_triangle_pairs": []
+        }
+      },
+      "SM_Clipboard_Paper": {
+        "mesh": "SM_Clipboard_Paper.001",
+        "collision_hulls": 11,
+        "expected_collision_hulls": 11,
+        "dimensions_cm": [
+          21.000002324581146,
+          29.700003564357758,
+          0.18256385810673237
+        ],
+        "dimension_errors_cm": [
+          2.9802322387695312e-06,
+          4.470348358154297e-06,
+          0.0
+        ],
+        "foreign_collisions_against_actual_paper": [],
+        "own_paper_collision_role": "Paper collision intentionally contains its own paper surface",
+        "exported_paper_against_canonical_parts": {
+          "SM_Clipboard_Board": {
+            "triangle_intersection_count": 0,
+            "first_triangle_pairs": []
+          },
+          "SM_Clipboard_Clip": {
+            "triangle_intersection_count": 0,
+            "first_triangle_pairs": []
+          }
+        },
+        "own_collision_convex_planes": {
+          "UCX_SM_Clipboard_Paper_00": 6,
+          "UCX_SM_Clipboard_Paper_01": 6,
+          "UCX_SM_Clipboard_Paper_02": 6,
+          "UCX_SM_Clipboard_Paper_03": 7,
+          "UCX_SM_Clipboard_Paper_04": 10,
+          "UCX_SM_Clipboard_Paper_05": 14,
+          "UCX_SM_Clipboard_Paper_06": 13,
+          "UCX_SM_Clipboard_Paper_07": 12,
+          "UCX_SM_Clipboard_Paper_08": 15,
+          "UCX_SM_Clipboard_Paper_09": 13,
+          "UCX_SM_Clipboard_Paper_10": 13
+        }
+      }
+    },
+    "main_file_saved": false,
+    "source_sha256_before": {
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend": "99a51a57d931c683a46476078328ec069aaafc16f4ff55634ec4c61f48ff9234",
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb"
+    },
+    "source_sha256_after": {
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend": "99a51a57d931c683a46476078328ec069aaafc16f4ff55634ec4c61f48ff9234",
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+      "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb"
+    },
+    "source_and_exports_unchanged": true,
+    "elapsed_seconds": 0.3246883000028902
+  },
+  "renders": {
+    "Clipboard_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_Preview.png",
+      "bytes": 2479144,
+      "sha256": "edfd3cdfcc6467dfff43b885c7c3be766a26cab102cfb9eda4af835512643d09",
+      "resolution": [
+        1500,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Clipboard_Board",
+        "SM_Clipboard_Clip",
+        "SM_Clipboard_Paper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 28.55544120000195
+    },
+    "Clipboard_ClipDetail.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_ClipDetail.png",
+      "bytes": 2615052,
+      "sha256": "646f449961cc0e1c2fb55f1b9a7eda41c93921b6821e9b21f206dd16e0170222",
+      "resolution": [
+        1500,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Clipboard_Board",
+        "SM_Clipboard_Clip",
+        "SM_Clipboard_Paper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 32.739160599998286
+    },
+    "Clipboard_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_Back.png",
+      "bytes": 2445459,
+      "sha256": "e4ef397c1f9baedeaad7fbe6eaa3cf6acbda111b32a94cb237780de8d1c7932c",
+      "resolution": [
+        1500,
+        1600
+      ],
+      "resolution_percentage": 100,
+      "engine": "CYCLES",
+      "samples": 40,
+      "visible_assets": [
+        "SM_Clipboard_Board",
+        "SM_Clipboard_Clip",
+        "SM_Clipboard_Paper"
+      ],
+      "materials_from_saved_pngs": true,
+      "elapsed_seconds": 16.968011499997374
+    }
+  },
+  "ue_completion": {
+    "script": "import_ue.py",
+    "pid": 27200,
+    "started_utc": "2026-10-21T10:10:19.6004251Z",
+    "completed_utc": "2026-10-21T10:15:48.3757577Z",
+    "exit_code": 0,
+    "normal_zero_exit": true,
+    "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\ue_import_report.json",
+    "temporary_engine_world": "/Engine/Maps/Entry",
+    "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+    "target_root": "/Game/Yastars/Mesh/Clipboard"
+  },
+  "source_files": {
+    "Clipboard.blend": {
+      "bytes": 795843,
+      "sha256": "313877d1748079300eb31200af02b0dfeed97517f498cea614b3889b16ad3252"
+    },
+    "SM_Clipboard_Board.fbx": {
+      "bytes": 367116,
+      "sha256": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d"
+    },
+    "SM_Clipboard_Clip.fbx": {
+      "bytes": 234684,
+      "sha256": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad"
+    },
+    "SM_Clipboard_Paper.fbx": {
+      "bytes": 100220,
+      "sha256": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb"
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "units": "meters",
+  "numerical_collision_inset_m": 2e-07,
+  "source_mesh_contacts": {
+    "SM_Clipboard_Board": {
+      "triangle_intersection_count": 0,
+      "first_triangle_pairs": []
+    },
+    "SM_Clipboard_Clip": {
+      "triangle_intersection_count": 0,
+      "first_triangle_pairs": []
+    }
+  },
+  "pressure_strip": {
+    "object": "Paper pressure edge.001",
+    "triangle_intersection_count": 0,
+    "first_triangle_pairs": [],
+    "nearest_evaluated_strip_vertex_to_paper": {
+      "distance_m": 4.999805241823196e-06,
+      "point_a_m": [
+        -0.04944499954581261,
+        0.12035500258207321,
+        0.004604999907314777
+      ],
+      "point_b_m": [
+        -0.04944499954581261,
+        0.12035500258207321,
+        0.004600000102072954
+      ],
+      "triangle_b": 371
+    },
+    "designed_gap_m": 5e-06
+  },
+  "fbx": {
+    "SM_Clipboard_Board": {
+      "mesh": "SM_Clipboard_Board.001",
+      "collision_hulls": 5,
+      "expected_collision_hulls": 5,
+      "dimensions_cm": [
+        23.000003397464752,
+        33.80000293254852,
+        1.663942018058151
+      ],
+      "dimension_errors_cm": [
+        2.9802322387695312e-06,
+        2.9802322387695312e-06,
+        5.820766091346741e-08
+      ],
+      "foreign_collisions_against_actual_paper": [
+        {
+          "object": "UCX_SM_Clipboard_Board_00",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Board_01",
+          "aabb_overlaps_paper": true,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": [],
+          "outward_convex_planes": 6
+        },
+        {
+          "object": "UCX_SM_Clipboard_Board_02",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Board_03",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Board_04",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        }
+      ],
+      "exported_mesh_against_paper": {
+        "triangle_intersection_count": 0,
+        "first_triangle_pairs": []
+      }
+    },
+    "SM_Clipboard_Clip": {
+      "mesh": "SM_Clipboard_Clip.001",
+      "collision_hulls": 11,
+      "expected_collision_hulls": 11,
+      "dimensions_cm": [
+        10.000000149011612,
+        6.570000946521759,
+        2.04054219648242
+      ],
+      "dimension_errors_cm": [
+        0.0,
+        7.450580596923828e-07,
+        9.313225746154785e-08
+      ],
+      "foreign_collisions_against_actual_paper": [
+        {
+          "object": "UCX_SM_Clipboard_Clip_00",
+          "aabb_overlaps_paper": true,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": [],
+          "outward_convex_planes": 7
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_01",
+          "aabb_overlaps_paper": true,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": [],
+          "outward_convex_planes": 8
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_02",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_03",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_04",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_05",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_06",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_07",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_08",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_09",
+          "aabb_overlaps_paper": false,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": []
+        },
+        {
+          "object": "UCX_SM_Clipboard_Clip_10",
+          "aabb_overlaps_paper": true,
+          "paper_triangles_inside_inset_hull": 0,
+          "paper_surface_area_inside_inset_hull_m2": 0.0,
+          "first_penetrating_paper_triangles": [],
+          "outward_convex_planes": 6
+        }
+      ],
+      "exported_mesh_against_paper": {
+        "triangle_intersection_count": 0,
+        "first_triangle_pairs": []
+      }
+    },
+    "SM_Clipboard_Paper": {
+      "mesh": "SM_Clipboard_Paper.001",
+      "collision_hulls": 11,
+      "expected_collision_hulls": 11,
+      "dimensions_cm": [
+        21.000002324581146,
+        29.700003564357758,
+        0.18256385810673237
+      ],
+      "dimension_errors_cm": [
+        2.9802322387695312e-06,
+        4.470348358154297e-06,
+        0.0
+      ],
+      "foreign_collisions_against_actual_paper": [],
+      "own_paper_collision_role": "Paper collision intentionally contains its own paper surface",
+      "exported_paper_against_canonical_parts": {
+        "SM_Clipboard_Board": {
+          "triangle_intersection_count": 0,
+          "first_triangle_pairs": []
+        },
+        "SM_Clipboard_Clip": {
+          "triangle_intersection_count": 0,
+          "first_triangle_pairs": []
+        }
+      },
+      "own_collision_convex_planes": {
+        "UCX_SM_Clipboard_Paper_00": 6,
+        "UCX_SM_Clipboard_Paper_01": 6,
+        "UCX_SM_Clipboard_Paper_02": 6,
+        "UCX_SM_Clipboard_Paper_03": 7,
+        "UCX_SM_Clipboard_Paper_04": 10,
+        "UCX_SM_Clipboard_Paper_05": 14,
+        "UCX_SM_Clipboard_Paper_06": 13,
+        "UCX_SM_Clipboard_Paper_07": 12,
+        "UCX_SM_Clipboard_Paper_08": 15,
+        "UCX_SM_Clipboard_Paper_09": 13,
+        "UCX_SM_Clipboard_Paper_10": 13
+      }
+    }
+  },
+  "main_file_saved": false,
+  "source_sha256_before": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend": "99a51a57d931c683a46476078328ec069aaafc16f4ff55634ec4c61f48ff9234",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb"
+  },
+  "source_sha256_after": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend": "99a51a57d931c683a46476078328ec069aaafc16f4ff55634ec4c61f48ff9234",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb"
+  },
+  "source_and_exports_unchanged": true,
+  "elapsed_seconds": 0.3246883000028902
+}

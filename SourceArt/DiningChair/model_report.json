@@ -1,0 +1,289 @@
+{
+  "parts": {
+    "SM_DiningChair": {
+      "dimensions_cm": [
+        47.999998927116394,
+        52.39696502685547,
+        105.9999942779541
+      ],
+      "triangles": 10270,
+      "collision_hulls": 23,
+      "non_manifold_edges": 0,
+      "uv_channels": 1,
+      "material_slots": [
+        "M_Chair_Wood",
+        "M_Chair_Endgrain",
+        "M_Chair_Dark"
+      ]
+    }
+  },
+  "style": "high back hardwood dining chair, arched crest, curved slats, turned front legs, no cushion",
+  "seat_height_cm": 46,
+  "seat_center_height_cm": 45.35,
+  "saddle_depth_mm": 6.5,
+  "seat_size_cm": [
+    48,
+    44
+  ],
+  "back_recline_degrees": 8.250387228905497,
+  "joinery_contacts": [
+    {
+      "joint": "Front leg into shoulder",
+      "overlap_mm": [
+        50.0,
+        50.0,
+        9.0
+      ]
+    },
+    {
+      "joint": "Front shoulder into hardwood seat",
+      "overlap_mm": [
+        52.0,
+        52.0,
+        13.0
+      ]
+    },
+    {
+      "joint": "Rear post passes into seat mortise",
+      "overlap_mm": [
+        63.588,
+        51.855,
+        34.98
+      ]
+    },
+    {
+      "joint": "Front leg into shoulder",
+      "overlap_mm": [
+        50.0,
+        50.0,
+        9.0
+      ]
+    },
+    {
+      "joint": "Front shoulder into hardwood seat",
+      "overlap_mm": [
+        52.0,
+        52.0,
+        13.0
+      ]
+    },
+    {
+      "joint": "Rear post passes into seat mortise",
+      "overlap_mm": [
+        63.588,
+        51.855,
+        34.98
+      ]
+    },
+    {
+      "joint": "Front apron into shoulder",
+      "overlap_mm": [
+        31.0,
+        24.0,
+        68.0
+      ]
+    },
+    {
+      "joint": "Front apron into shoulder",
+      "overlap_mm": [
+        31.0,
+        24.0,
+        68.0
+      ]
+    },
+    {
+      "joint": "Front apron against seat underside",
+      "overlap_mm": [
+        398.0,
+        24.0,
+        9.0
+      ]
+    },
+    {
+      "joint": "Rear apron into continuous post",
+      "overlap_mm": [
+        27.0,
+        25.0,
+        62.0
+      ]
+    },
+    {
+      "joint": "Rear apron into continuous post",
+      "overlap_mm": [
+        27.0,
+        25.0,
+        62.0
+      ]
+    },
+    {
+      "joint": "Side apron into front shoulder",
+      "overlap_mm": [
+        25.0,
+        30.0,
+        62.0
+      ]
+    },
+    {
+      "joint": "Side apron into rear post",
+      "overlap_mm": [
+        25.0,
+        29.855,
+        62.0
+      ]
+    },
+    {
+      "joint": "Side apron into front shoulder",
+      "overlap_mm": [
+        25.0,
+        30.0,
+        62.0
+      ]
+    },
+    {
+      "joint": "Side apron into rear post",
+      "overlap_mm": [
+        25.0,
+        29.855,
+        62.0
+      ]
+    },
+    {
+      "joint": "Side stretcher into front leg",
+      "overlap_mm": [
+        27.982,
+        25.117,
+        24.0
+      ]
+    },
+    {
+      "joint": "Side stretcher into rear leg",
+      "overlap_mm": [
+        27.982,
+        46.472,
+        24.0
+      ]
+    },
+    {
+      "joint": "Side stretcher into front leg",
+      "overlap_mm": [
+        27.982,
+        25.117,
+        24.0
+      ]
+    },
+    {
+      "joint": "Side stretcher into rear leg",
+      "overlap_mm": [
+        27.982,
+        46.472,
+        24.0
+      ]
+    },
+    {
+      "joint": "H cross stretcher into side stretcher",
+      "overlap_mm": [
+        13.991,
+        25.0,
+        24.0
+      ]
+    },
+    {
+      "joint": "H cross stretcher into side stretcher",
+      "overlap_mm": [
+        13.991,
+        25.0,
+        24.0
+      ]
+    },
+    {
+      "joint": "Lower back rail into stiles",
+      "overlap_mm": [
+        37.0,
+        42.385,
+        47.0
+      ]
+    },
+    {
+      "joint": "Lower back rail into stiles",
+      "overlap_mm": [
+        37.0,
+        42.385,
+        47.0
+      ]
+    },
+    {
+      "joint": "Crest mortise into back stile",
+      "overlap_mm": [
+        63.0,
+        50.238,
+        80.132
+      ]
+    },
+    {
+      "joint": "Crest mortise into back stile",
+      "overlap_mm": [
+        63.0,
+        50.238,
+        80.132
+      ]
+    },
+    {
+      "joint": "Back slat tenon into lower rail",
+      "overlap_mm": [
+        51.0,
+        29.807,
+        15.0
+      ]
+    },
+    {
+      "joint": "Back slat tenon into crest",
+      "overlap_mm": [
+        51.0,
+        36.785,
+        48.132
+      ]
+    },
+    {
+      "joint": "Back slat tenon into lower rail",
+      "overlap_mm": [
+        73.0,
+        29.807,
+        15.0
+      ]
+    },
+    {
+      "joint": "Back slat tenon into crest",
+      "overlap_mm": [
+        73.0,
+        36.785,
+        48.132
+      ]
+    },
+    {
+      "joint": "Back slat tenon into lower rail",
+      "overlap_mm": [
+        51.0,
+        29.807,
+        15.0
+      ]
+    },
+    {
+      "joint": "Back slat tenon into crest",
+      "overlap_mm": [
+        51.0,
+        36.785,
+        48.132
+      ]
+    }
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "front_blender": "-Y",
+  "front_ue": "+Y",
+  "exported_lights": 0,
+  "exported_cameras": 0,
+  "cushion": false
+}

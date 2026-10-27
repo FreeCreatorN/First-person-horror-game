@@ -1,0 +1,18 @@
+{
+  "success": false,
+  "script": "update_ue.py",
+  "execution_mode": "exclusive_editor",
+  "run_id": "610ab86d-9aa5-4f02-ac02-2635aa12f0f3",
+  "script_sha256": "fb7dc2c6a8a0e85bc814bdb85f14f0871da2cff0d9563075bc0ecb791ef81b7a",
+  "started_utc": "2026-10-26T04:26:53.3399098Z",
+  "target_root": "/Game/Yastars/Mesh/Camera",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Camera\\ShutterSplit\\update_ue_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+  "normal_zero_exit": true,
+  "pid": 15564,
+  "editor_pid": 15564,
+  "exit_code": 0,
+  "error": "Camera update failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Camera/ShutterSplit/update_ue.py\", line 257, in <module>\n    for socket in existing_body.get_editor_property('sockets')}\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: StaticMesh: Property 'Sockets' for attribute 'sockets' on 'StaticMesh' is protected and cannot be read\n",
+  "completed_utc": "2026-10-26T04:28:18.3810753Z"
+}

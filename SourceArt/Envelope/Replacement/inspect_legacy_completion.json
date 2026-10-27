@@ -1,0 +1,11 @@
+{
+  "script": "inspect_legacy.py",
+  "pid": 16120,
+  "started_utc": "2026-10-21T01:20:31.1159986Z",
+  "completed_utc": "2026-10-21T01:29:52.4400916Z",
+  "exit_code": 0,
+  "normal_zero_exit": true,
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Envelope\\Replacement\\legacy_inspection_report.json",
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement"
+}

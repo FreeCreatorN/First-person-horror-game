@@ -1,0 +1,5 @@
+{
+  "owned_pid_stopped": 18308,
+  "reason": "startup completed but automation never ran; no table packages created",
+  "stopped_at": "2026-10-20T15:20:57.0366506+08:00"
+}

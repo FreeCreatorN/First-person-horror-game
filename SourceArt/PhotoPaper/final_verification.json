@@ -1,0 +1,385 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-26T05:05:43.364506+00:00",
+  "target_root": "/Game/Yastars/Mesh/PhotoPaper",
+  "read_only": true,
+  "errors": [],
+  "package_files": {
+    "/Game/Yastars/Mesh/PhotoPaper/Materials/MI_PhotoPaper_Image": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\PhotoPaper\\Materials\\MI_PhotoPaper_Image.uasset",
+      "bytes": 7790,
+      "sha256": "25a9d746204aa371f8df90ecd060ce9c04a4c993a6fa1f966fa8cfb3a56c3057"
+    },
+    "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Back": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\PhotoPaper\\Materials\\M_PhotoPaper_Back.uasset",
+      "bytes": 10340,
+      "sha256": "36d2378735cf85c6752383e8d1bcee5e0069f6a9939cb173fe9988979474f6e7"
+    },
+    "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Frame": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\PhotoPaper\\Materials\\M_PhotoPaper_Frame.uasset",
+      "bytes": 10362,
+      "sha256": "ebcaacd93cac9e9bc642a956e6ebc5ea26c1552bfd7598c306f75bfafc2f4190"
+    },
+    "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Image": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\PhotoPaper\\Materials\\M_PhotoPaper_Image.uasset",
+      "bytes": 12598,
+      "sha256": "7f3265a6f466dc7afb180835ea26b111983a14575c1c5a51a42dc7538ed95bf1"
+    },
+    "/Game/Yastars/Mesh/PhotoPaper/SM_PhotoPaper": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\PhotoPaper\\SM_PhotoPaper.uasset",
+      "bytes": 44337,
+      "sha256": "55a4d41270c9b0678900cfca45fd7e9a63a2ef3a92d9bd82573df1a9701fca80"
+    },
+    "/Game/Yastars/Mesh/PhotoPaper/Textures/T_PhotoPaper_Blank": {
+      "path": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\PhotoPaper\\Textures\\T_PhotoPaper_Blank.uasset",
+      "bytes": 5360,
+      "sha256": "af4596c6543cda6f6d6db62c99a172f7ea5c898f96bd96785077a4ba5b85bbe4"
+    }
+  },
+  "protected_files_checked": 36,
+  "protected_files_changed": [],
+  "protected_file_sets": {
+    "ui": {
+      "count": 25,
+      "added": [],
+      "missing": []
+    },
+    "maps": {
+      "count": 6,
+      "added": [],
+      "missing": []
+    },
+    "config": {
+      "count": 5,
+      "added": [],
+      "missing": []
+    }
+  },
+  "ui_maps_and_config_unchanged": true,
+  "photo_uv_0_1_verified": true,
+  "source_files": {
+    "PhotoPaper.blend": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper.blend",
+      "bytes": 122878,
+      "sha256": "5bf83469caa7e47f77077073c38659af7da64b6ed5a5d7014913667b9be00df0"
+    },
+    "SM_PhotoPaper.fbx": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\SM_PhotoPaper.fbx",
+      "bytes": 44108,
+      "sha256": "c22a76fe64a4909ac97149f15ab9c3247033d80d445fdee0f812aea93ddad5d7"
+    },
+    "model_report.json": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\model_report.json",
+      "bytes": 1883,
+      "sha256": "266bb284dcb08d6e156e9083eee3078da331b95545bfe48d54a45e50b3f77e4e"
+    },
+    "PhotoPaper_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Back.png",
+      "bytes": 1645396,
+      "sha256": "c75e22109006b5e445e22f9e3859888d0f8cfc31e466e7114f9ede0de62dc104"
+    },
+    "PhotoPaper_Edge.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Edge.png",
+      "bytes": 1613509,
+      "sha256": "b753a69bfde9803c36264da49d05d4d485cbcd5fed5935f9023b7e6bb6c7c80a"
+    },
+    "PhotoPaper_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Preview.png",
+      "bytes": 1672847,
+      "sha256": "a00073695a893fb08a4ccbce66ac9bf6ae0b552d98809e047862e9ef6c2d8908"
+    },
+    "protected_content_sha256.json": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\protected_content_sha256.json",
+      "bytes": 6607,
+      "sha256": "ade5d10c41ad239b2fe763a7dbd8a8e5e765d2b95b7ee970f01f998cd72e2574"
+    },
+    "Textures\\T_PhotoPaper_Blank.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\Textures\\T_PhotoPaper_Blank.png",
+      "bytes": 672,
+      "sha256": "8584a42365834e56f8564b959276e2fd689baf78f1657b2db74eb2b2f21520c4"
+    },
+    "validation_report.json": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\validation_report.json",
+      "bytes": 2829,
+      "sha256": "fd5844a2018cb9428a4d0ac1802146e029bae2ed0e6a73359ac9acdbd26d9b2a"
+    }
+  },
+  "blank_texture": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\Textures\\T_PhotoPaper_Blank.png",
+    "bytes": 672,
+    "sha256": "8584a42365834e56f8564b959276e2fd689baf78f1657b2db74eb2b2f21520c4"
+  },
+  "renders": {
+    "PhotoPaper_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Preview.png",
+      "bytes": 1672847,
+      "sha256": "a00073695a893fb08a4ccbce66ac9bf6ae0b552d98809e047862e9ef6c2d8908"
+    },
+    "PhotoPaper_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Back.png",
+      "bytes": 1645396,
+      "sha256": "c75e22109006b5e445e22f9e3859888d0f8cfc31e466e7114f9ede0de62dc104"
+    },
+    "PhotoPaper_Edge.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Edge.png",
+      "bytes": 1613509,
+      "sha256": "b753a69bfde9803c36264da49d05d4d485cbcd5fed5935f9023b7e6bb6c7c80a"
+    }
+  },
+  "ue_mesh": {
+    "asset": "/Game/Yastars/Mesh/PhotoPaper/SM_PhotoPaper.SM_PhotoPaper",
+    "dimensions_cm": [
+      8.80000114440918,
+      10.80000114440918,
+      0.09970739483833313
+    ],
+    "expected_dimensions_cm": [
+      8.799999952316284,
+      10.80000028014183,
+      0.09970739483833313
+    ],
+    "dimension_error_cm": [
+      1.1920928955078125e-06,
+      8.642673492431641e-07,
+      0.0
+    ],
+    "dimension_tolerance_cm": 0.001,
+    "bounds_min_cm": [
+      -4.40000057220459,
+      -5.40000057220459,
+      0.0
+    ],
+    "bounds_max_cm": [
+      4.40000057220459,
+      5.40000057220459,
+      0.09970739483833313
+    ],
+    "expected_bounds_min_cm": [
+      -4.399999976158142,
+      -5.400000140070915,
+      0.0
+    ],
+    "expected_bounds_max_cm": [
+      4.399999976158142,
+      5.400000140070915,
+      0.09970739483833313
+    ],
+    "bounds_error_cm": [
+      5.960464477539062e-07,
+      4.3213367462158203e-07,
+      0.0,
+      5.960464477539062e-07,
+      4.3213367462158203e-07,
+      0.0
+    ],
+    "bounds_tolerance_cm": 0.001,
+    "render_triangles_lod0": 720,
+    "expected_triangles": 720,
+    "convex_collision_hulls": 1,
+    "expected_collision_hulls": 1,
+    "uv_channels_lod0": 1,
+    "source_uv_channels_expected": 1,
+    "fbx_import_remove_degenerates": false,
+    "lightmap_build_settings": {
+      "remove_degenerates": false,
+      "generate_lightmap_u_vs": true,
+      "src_lightmap_index": 0,
+      "dst_lightmap_index": 1,
+      "generated_render_data_uv1_separately_verified": false
+    },
+    "lightmap_coordinate_index": 1,
+    "source_photo_uv0_verified": true,
+    "matSlots": [
+      {
+        "index": 0,
+        "slot_name": "M_PhotoPaper_Frame",
+        "material": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Frame.M_PhotoPaper_Frame"
+      },
+      {
+        "index": 1,
+        "slot_name": "M_PhotoPaper_Image",
+        "material": "/Game/Yastars/Mesh/PhotoPaper/Materials/MI_PhotoPaper_Image.MI_PhotoPaper_Image"
+      },
+      {
+        "index": 2,
+        "slot_name": "M_PhotoPaper_Back",
+        "material": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Back.M_PhotoPaper_Back"
+      }
+    ]
+  },
+  "ue_materials": {
+    "M_PhotoPaper_Frame": {
+      "asset": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Frame.M_PhotoPaper_Frame",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "two_sided": false,
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.75,
+        1.0
+      ],
+      "scalar_parameters": {
+        "Roughness": 0.6600000262260437
+      },
+      "texture_parameters": [],
+      "emissive_connected": false,
+      "metallic": 0.0,
+      "connections": {
+        "BaseColor": "Tint.RGB",
+        "Roughness": "Roughness",
+        "Metallic": "0"
+      }
+    },
+    "M_PhotoPaper_Image": {
+      "asset": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Image.M_PhotoPaper_Image",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "two_sided": false,
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scalar_parameters": {
+        "Roughness": 0.23000000417232513
+      },
+      "texture_parameters": [
+        "PhotoTexture"
+      ],
+      "emissive_connected": false,
+      "metallic": 0.0,
+      "connections": {
+        "BaseColor": "PhotoTexture.RGB * Tint.RGB",
+        "Roughness": "Roughness",
+        "Metallic": "0",
+        "PhotoTextureCoordinates": "unconnected; ConstCoordinate=0 (UV0)"
+      },
+      "PhotoTexture_default": "/Game/Yastars/Mesh/PhotoPaper/Textures/T_PhotoPaper_Blank.T_PhotoPaper_Blank",
+      "PhotoTexture_node_class": "MaterialExpressionTextureSampleParameter2D",
+      "PhotoTexture_sampler_type": "<MaterialSamplerType.SAMPLERTYPE_COLOR: 0>",
+      "PhotoTexture_coordinate_index": 0,
+      "PhotoTexture_coordinate_mode": "implicit_const_coordinate"
+    },
+    "M_PhotoPaper_Back": {
+      "asset": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Back.M_PhotoPaper_Back",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "two_sided": false,
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        0.7300000190734863,
+        0.7200000286102295,
+        0.6700000166893005,
+        1.0
+      ],
+      "scalar_parameters": {
+        "Roughness": 0.800000011920929
+      },
+      "texture_parameters": [],
+      "emissive_connected": false,
+      "metallic": 0.0,
+      "connections": {
+        "BaseColor": "Tint.RGB",
+        "Roughness": "Roughness",
+        "Metallic": "0"
+      }
+    }
+  },
+  "ue_material_instance": {
+    "asset": "/Game/Yastars/Mesh/PhotoPaper/Materials/MI_PhotoPaper_Image.MI_PhotoPaper_Image",
+    "parent": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Image.M_PhotoPaper_Image",
+    "texture_parameters": [
+      "PhotoTexture"
+    ],
+    "texture_overrides": {
+      "PhotoTexture": "/Game/Yastars/Mesh/PhotoPaper/Textures/T_PhotoPaper_Blank.T_PhotoPaper_Blank"
+    },
+    "PhotoTexture_effective": "/Game/Yastars/Mesh/PhotoPaper/Textures/T_PhotoPaper_Blank.T_PhotoPaper_Blank",
+    "runtime_parameter_name": "PhotoTexture",
+    "runtime_capture_texture_compatible": true
+  },
+  "source_geometry": {
+    "triangles": 720,
+    "bounds_min_m": [
+      -0.04399999976158142,
+      -0.05400000140070915,
+      0.0
+    ],
+    "bounds_max_m": [
+      0.04399999976158142,
+      0.05400000140070915,
+      0.0009970739483833313
+    ],
+    "dimensions_m": [
+      0.08799999952316284,
+      0.1080000028014183,
+      0.0009970739483833313
+    ],
+    "non_manifold_edges": 0,
+    "loose_vertices": 0
+  },
+  "fbx_roundtrip": {
+    "success": true,
+    "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\SM_PhotoPaper.fbx",
+    "sha256": "c22a76fe64a4909ac97149f15ab9c3247033d80d445fdee0f812aea93ddad5d7",
+    "ucx_count": 1,
+    "uv_layers": 1,
+    "geometry": {
+      "triangles": 720,
+      "bounds_min_m": [
+        -0.04400000348687172,
+        -0.05400000512599945,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04400000348687172,
+        0.05400000512599945,
+        0.0009970739483833313
+      ],
+      "dimensions_m": [
+        0.08800000697374344,
+        0.1080000102519989,
+        0.0009970739483833313
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0
+    },
+    "material_slots": [
+      "M_PhotoPaper_Frame",
+      "M_PhotoPaper_Image",
+      "M_PhotoPaper_Back"
+    ]
+  },
+  "ue_completion": {
+    "success": true,
+    "script": "import_ue.py",
+    "execution_mode": "exclusive_editor",
+    "run_id": "35616e36-c322-40d9-9f6f-6722c9498961",
+    "script_sha256": "fac517fc0e66702490b41236317d446f86b3c25fcd82d7eccc1f2042a5c8152f",
+    "started_utc": "2026-10-26T05:03:45.5871500Z",
+    "target_root": "/Game/Yastars/Mesh/PhotoPaper",
+    "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\ue_import_report.json",
+    "normal_zero_exit": true,
+    "exit_code": 0,
+    "temporary_engine_world": "/Engine/Maps/Entry",
+    "private_ddc": "D:/UE/Project/HorrorGame/Saved/CodexDDC/EnvelopeReplacement",
+    "pid": 2808,
+    "editor_pid": 2808,
+    "report_sha256": "e0ac8cf356c41b2eeda5c503927da26900bb75693f24fa18a44f690f0f8624f2",
+    "fresh_report_verified": true,
+    "material_compile_failure_log_count": 0,
+    "completed_utc": "2026-10-26T05:05:08.2529330Z"
+  },
+  "no_imported_lights_cameras_or_level_actors": true,
+  "runtime_photo_texture_parameter_ready": true
+}

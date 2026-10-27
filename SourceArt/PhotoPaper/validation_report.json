@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "geometry": {
+    "SM_PhotoPaper": {
+      "triangles": 720,
+      "bounds_min_m": [
+        -0.04399999976158142,
+        -0.05400000140070915,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04399999976158142,
+        0.05400000140070915,
+        0.0009970739483833313
+      ],
+      "dimensions_m": [
+        0.08799999952316284,
+        0.1080000028014183,
+        0.0009970739483833313
+      ],
+      "non_manifold_edges": 0,
+      "loose_vertices": 0
+    }
+  },
+  "uv": {
+    "SM_PhotoPaper": {
+      "layers": [
+        "UVMap"
+      ],
+      "zero_area_triangles": 0
+    }
+  },
+  "photo_uv": {
+    "min": [
+      -1.0316188792103276e-08,
+      1.0698269825581974e-08
+    ],
+    "max": [
+      1.0,
+      1.0
+    ],
+    "slot_index": 1,
+    "source_slot_name": "M_PhotoPaper_Image",
+    "photo_size_m": [
+      0.078,
+      0.078
+    ],
+    "front_normal": "+Z",
+    "image_top_direction": "+Y"
+  },
+  "fbx_roundtrip": {
+    "SM_PhotoPaper": {
+      "success": true,
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\SM_PhotoPaper.fbx",
+      "sha256": "c22a76fe64a4909ac97149f15ab9c3247033d80d445fdee0f812aea93ddad5d7",
+      "ucx_count": 1,
+      "uv_layers": 1,
+      "geometry": {
+        "triangles": 720,
+        "bounds_min_m": [
+          -0.04400000348687172,
+          -0.05400000512599945,
+          0.0
+        ],
+        "bounds_max_m": [
+          0.04400000348687172,
+          0.05400000512599945,
+          0.0009970739483833313
+        ],
+        "dimensions_m": [
+          0.08800000697374344,
+          0.1080000102519989,
+          0.0009970739483833313
+        ],
+        "non_manifold_edges": 0,
+        "loose_vertices": 0
+      },
+      "material_slots": [
+        "M_PhotoPaper_Frame",
+        "M_PhotoPaper_Image",
+        "M_PhotoPaper_Back"
+      ]
+    }
+  },
+  "renders": {
+    "PhotoPaper_Preview.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Preview.png",
+      "sha256": "a00073695a893fb08a4ccbce66ac9bf6ae0b552d98809e047862e9ef6c2d8908",
+      "engine": "CYCLES",
+      "samples": 32
+    },
+    "PhotoPaper_Back.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Back.png",
+      "sha256": "c75e22109006b5e445e22f9e3859888d0f8cfc31e466e7114f9ede0de62dc104",
+      "engine": "CYCLES",
+      "samples": 32
+    },
+    "PhotoPaper_Edge.png": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Edge.png",
+      "sha256": "b753a69bfde9803c36264da49d05d4d485cbcd5fed5935f9023b7e6bb6c7c80a",
+      "engine": "CYCLES",
+      "samples": 32
+    }
+  },
+  "blend_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper.blend"
+}

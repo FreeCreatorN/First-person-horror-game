@@ -1,0 +1,104 @@
+{
+  "success": false,
+  "started_utc": "2026-10-26T04:58:49.484395+00:00",
+  "run_id": "54501589-5db0-469f-a338-7bfb57890fd5",
+  "editor_pid": 26968,
+  "target_root": "/Game/Yastars/Mesh/PhotoPaper",
+  "import_script_sha256": "36afac7a2e0e3c171afd088a7fdcc8428f25d5c97867beb114f0166ee32ad8f5",
+  "assets": {},
+  "materials": {
+    "M_PhotoPaper_Frame": {
+      "asset": "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Frame.M_PhotoPaper_Frame",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "two_sided": false,
+      "vector_parameters": [
+        "Tint"
+      ],
+      "Tint": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.75,
+        1.0
+      ],
+      "scalar_parameters": {
+        "Roughness": 0.6600000262260437
+      },
+      "texture_parameters": [],
+      "emissive_connected": false,
+      "metallic": 0.0,
+      "connections": {
+        "BaseColor": "Tint.RGB",
+        "Roughness": "Roughness",
+        "Metallic": "0"
+      }
+    }
+  },
+  "material_instances": {},
+  "textures": {
+    "T_PhotoPaper_Blank": {
+      "asset": "/Game/Yastars/Mesh/PhotoPaper/Textures/T_PhotoPaper_Blank.T_PhotoPaper_Blank",
+      "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\Textures\\T_PhotoPaper_Blank.png",
+      "srgb": true,
+      "compression_settings": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "source_dimensions_px": [
+        128,
+        128
+      ],
+      "source_sha256": "8584a42365834e56f8564b959276e2fd689baf78f1657b2db74eb2b2f21520c4"
+    }
+  },
+  "created_assets": [
+    "/Game/Yastars/Mesh/PhotoPaper/Textures/T_PhotoPaper_Blank.T_PhotoPaper_Blank",
+    "/Game/Yastars/Mesh/PhotoPaper/Materials/M_PhotoPaper_Frame.M_PhotoPaper_Frame"
+  ],
+  "existing_target_packages": [],
+  "new_packages_on_disk": {},
+  "source_files_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\model_report.json": "266bb284dcb08d6e156e9083eee3078da331b95545bfe48d54a45e50b3f77e4e",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper.blend": "9d4bd2467bf3f8fc787bba82e544239b3f712c7ca8582979fb85c3620d2276e9",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Back.png": "c75e22109006b5e445e22f9e3859888d0f8cfc31e466e7114f9ede0de62dc104",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Edge.png": "e3d5e91cecbb3e1ae5c70651138d40f5c974f8c500e71e7beaadf89d46926549",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\PhotoPaper_Preview.png": "a00073695a893fb08a4ccbce66ac9bf6ae0b552d98809e047862e9ef6c2d8908",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\protected_content_sha256.json": "ade5d10c41ad239b2fe763a7dbd8a8e5e765d2b95b7ee970f01f998cd72e2574",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\SM_PhotoPaper.fbx": "c22a76fe64a4909ac97149f15ab9c3247033d80d445fdee0f812aea93ddad5d7",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\Textures\\T_PhotoPaper_Blank.png": "8584a42365834e56f8564b959276e2fd689baf78f1657b2db74eb2b2f21520c4",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\PhotoPaper\\validation_report.json": "6643eb76823d32bb9c825e6724e8f65caeb1caca534b705c1706e52eb48d8af5"
+  },
+  "map_save_executed": false,
+  "level_load_executed": false,
+  "actors_spawned": 0,
+  "asset_delete_executed": false,
+  "asset_or_map_rename_executed": false,
+  "emissive_material_connections_created": 0,
+  "imported_cameras": 0,
+  "imported_lights": 0,
+  "world_before": "/Engine/Maps/Entry.Entry",
+  "existing_target_files": [],
+  "protected_files_checked_before": 36,
+  "source_preflight_passed": true,
+  "photo_uv": {
+    "min": [
+      -1.0316188792103276e-08,
+      1.0698269825581974e-08
+    ],
+    "max": [
+      1.0,
+      1.0
+    ],
+    "slot_index": 1,
+    "source_slot_name": "M_PhotoPaper_Image",
+    "photo_size_m": [
+      0.078,
+      0.078
+    ],
+    "front_normal": "+Z",
+    "image_top_direction": "+Y"
+  },
+  "fbx_backend_flag_before": 0,
+  "fbx_backend_flag_during_import": 0,
+  "error": "Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/PhotoPaper/import_ue.py\", line 239, in <module>\n    assert ml.connect_material_expressions(coordinates, '', photo, 'Coordinates')\nAssertionError\n",
+  "fbx_backend_flag_after": 0,
+  "fbx_backend_flag_restored": true,
+  "completed_utc": "2026-10-26T04:58:52.353628+00:00"
+}

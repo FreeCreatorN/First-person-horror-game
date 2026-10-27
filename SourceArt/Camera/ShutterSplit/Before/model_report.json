@@ -1,0 +1,70 @@
+{
+  "parts": {
+    "SM_Camera": {
+      "filename": "SM_Camera.fbx",
+      "dimensions_cm": [
+        15.131661295890808,
+        10.872500389814377,
+        10.111000388860703
+      ],
+      "triangles": 45168,
+      "collision_hulls": 4,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Camera_SatinChrome": "M_Camera_Opaque",
+        "M_Camera_Leatherette": "M_Camera_Opaque",
+        "M_Camera_PolishedTrim": "M_Camera_Opaque",
+        "M_Camera_OpticalInterior": "M_Camera_Opaque",
+        "M_Camera_BlackEnamel": "M_Camera_Opaque",
+        "M_Camera_ContactBrass": "M_Camera_Opaque",
+        "M_Camera_EngravedIvory": "M_Camera_Opaque",
+        "M_Camera_RubberGrip": "M_Camera_Opaque",
+        "M_Camera_OpticalGlass": "M_Camera_Glass",
+        "M_Camera_FilmMemoPaper": "M_Camera_Opaque"
+      },
+      "exact_duplicate_triangles": 0
+    }
+  },
+  "texture_sets": {
+    "Opaque": {
+      "prefix": "T_Camera",
+      "BaseColor": "Textures/T_Camera_BaseColor.png",
+      "Roughness": "Textures/T_Camera_Roughness.png",
+      "Normal": "Textures/T_Camera_Normal.png",
+      "Metallic": "Textures/T_Camera_Metallic.png"
+    }
+  },
+  "materials": {
+    "M_Camera_Opaque": {
+      "shader_type": "opaque_atlas",
+      "texture_set": "Opaque"
+    },
+    "M_Camera_Glass": {
+      "shader_type": "glass",
+      "opacity": 0.18,
+      "roughness": 0.07,
+      "ior": 1.46,
+      "tint": [
+        0.72,
+        0.84,
+        0.94
+      ]
+    }
+  },
+  "assembly": {
+    "combined_single_mesh": true,
+    "style": "Silver and black 35 mm SLR prop",
+    "front_direction": "-Y",
+    "lens_center_m": [
+      -0.008,
+      -0.025,
+      0.044
+    ],
+    "optical_glass_is_separate": true,
+    "preview_only_lights": true,
+    "editable_source_components": 131
+  },
+  "exported_lights": 0,
+  "exported_cameras": 0
+}

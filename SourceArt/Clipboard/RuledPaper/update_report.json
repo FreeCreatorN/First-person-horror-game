@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "bakes": {
+    "T_ClipboardPaper_BaseColor": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_BaseColor.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bytes": 14736379,
+      "sha256": "b3e63f5fc5c2169498aaf9d8bf4e2d729bdd75d3094a9796e0c5a1e5cee0a227",
+      "sample_min_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_max_rgb": [
+        0.988235354423523,
+        0.9843137860298157,
+        0.9686275124549866
+      ],
+      "method": "EMIT from Principled input",
+      "reloaded_from_saved_png": true,
+      "elapsed_seconds": 11.489451700000018
+    }
+  },
+  "renders": {
+    "overall": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_Preview.png",
+      "sha256": "edfd3cdfcc6467dfff43b885c7c3be766a26cab102cfb9eda4af835512643d09",
+      "bytes": 2479144
+    },
+    "clip_detail": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard_ClipDetail.png",
+      "sha256": "646f449961cc0e1c2fb55f1b9a7eda41c93921b6821e9b21f206dd16e0170222",
+      "bytes": 2615052
+    },
+    "paper_detail": {
+      "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\RuledPaper\\Clipboard_RuledPaper_Detail.png",
+      "sha256": "d68a7fd09d10b41ce0c35ed283a1c32e879fce9c54234005b7d8e9048804bdd8",
+      "bytes": 2509552
+    }
+  },
+  "changed_texture": "T_ClipboardPaper_BaseColor.png",
+  "backup_root": "D:\\UE\\Project\\HorrorGame\\Saved\\CodexBackups\\ClipboardBeforeRuledPaper_20261022",
+  "elapsed_seconds": 102.02605399999999,
+  "geometry_before": {
+    "SM_Clipboard_Board": "b226b78257840aa440bbe45b7f0f5b1a0afda30b81c3198786eea05905932414",
+    "SM_Clipboard_Clip": "05c35ec8c29c661d1ca66fdba365710553127f14628cd6d001a90381d4d823a9",
+    "SM_Clipboard_Paper": "0c4928dd93c2b336f9e159aa2b85c6e00e997873739bac5594f7167c2fe0dcb0"
+  },
+  "geometry_after": {
+    "SM_Clipboard_Board": "b226b78257840aa440bbe45b7f0f5b1a0afda30b81c3198786eea05905932414",
+    "SM_Clipboard_Clip": "05c35ec8c29c661d1ca66fdba365710553127f14628cd6d001a90381d4d823a9",
+    "SM_Clipboard_Paper": "0c4928dd93c2b336f9e159aa2b85c6e00e997873739bac5594f7167c2fe0dcb0"
+  },
+  "untouched_source_files": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Board.fbx": "e5825f33f0349980ebe92b7d01f6f4359fc7632682d05517d1be746cc1643c2d",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Clip.fbx": "9b892582ea2cffe0af7a5a56f96ab7166c2f6e64ddbb20f8911dabf09ac469ad",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\SM_Clipboard_Paper.fbx": "25485cd915ab49d950dd14538a70da905976c47e2f3ded26b0125c7ea84ddefb",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_BaseColor.png": "5fdd65b9226779f677585996b332d45f72c1fb30ef7d956ccc856922efd85b92",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Metallic.png": "1d93625c4379f2232c2edc256e88ceb8117dc1e4bd759299ab1c38b9d66e6890",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Normal.png": "31945ff52a78336f30b56ebe8c6e96863452e54fffdeb19290e3c1db9ff350e8",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardBoard_Roughness.png": "6134f78dbc5eed1cf7ed8cf6e5c4f3c342b748daf183f5f5a7cee9be714422f2",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_BaseColor.png": "c1cb8dcd4df87d4b8e2b500e8fb942643bf912ecb763d5dcfc2ce2174a880e12",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Metallic.png": "ca3fa96d2a1dfa50f84ae83ca17c3eed370e6d288803319227d938390827959f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Normal.png": "8f662b5d253ffcd5d909faffba8faf9c8ae74dac8174cc3439a8c75cab598025",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardClip_Roughness.png": "46afb86f16479ce213b5c602f4a2f5b222a6d1f6c45ff32bfccdcb9f18278d8c",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Metallic.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Normal.png": "c884e66bf35b95a5195bec042caab731589e11cfd24e61fab29b08155f40c68e",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Textures\\T_ClipboardPaper_Roughness.png": "0a85cc131f2207e3054575dd9c28986cd0a4a9fcee316b870029aa2a20a591f8"
+  },
+  "paper_style": {
+    "line_spacing_mm": 8,
+    "blue_line_width_mm": 0.35,
+    "red_margin_from_left_mm": 24,
+    "back_unprinted": true,
+    "texture_resolution": [
+      4096,
+      4096
+    ]
+  },
+  "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Clipboard\\Clipboard.blend",
+  "source_sha256": "313877d1748079300eb31200af02b0dfeed97517f498cea614b3889b16ad3252"
+}

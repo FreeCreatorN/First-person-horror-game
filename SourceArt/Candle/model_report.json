@@ -1,0 +1,58 @@
+{
+  "parts": {
+    "SM_Candle": {
+      "filename": "SM_Candle.fbx",
+      "dimensions_cm": [
+        11.240000277757645,
+        11.240000277757645,
+        15.002785623073578
+      ],
+      "triangles": 34484,
+      "collision_hulls": 4,
+      "uv_channels": 1,
+      "non_manifold_edges": 0,
+      "material_slots": {
+        "M_Candle_Wax": "M_Candle",
+        "M_Candle_CooledWaxPool": "M_Candle",
+        "M_Candle_AgedBrass": "M_Candle",
+        "M_Candle_CharredWick": "M_Candle",
+        "M_Candle_WickFiber": "M_Candle"
+      }
+    }
+  },
+  "texture_sets": {
+    "Candle": {
+      "prefix": "T_Candle",
+      "BaseColor": "Textures/T_Candle_BaseColor.png",
+      "Roughness": "Textures/T_Candle_Roughness.png",
+      "Normal": "Textures/T_Candle_Normal.png",
+      "Metallic": "Textures/T_Candle_Metallic.png"
+    }
+  },
+  "materials": {
+    "M_Candle": {
+      "texture_set": "Candle"
+    }
+  },
+  "assembly": {
+    "candle_and_tray_combined": true,
+    "wick_tip_blender_m": [
+      -0.001,
+      -0.0006,
+      0.1465
+    ],
+    "suggested_flame_position_ue_cm": [
+      -0.1,
+      0.06,
+      14.75
+    ]
+  },
+  "wax_body_height_mm": 142.0,
+  "wax_nominal_diameter_mm": 45,
+  "tray_diameter_mm": 112.4,
+  "unlit": true,
+  "emission_strength": 0,
+  "exported_lights": 0,
+  "exported_cameras": 0,
+  "drips_are_continuous_body_surface": true
+}

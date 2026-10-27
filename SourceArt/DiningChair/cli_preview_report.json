@@ -1,0 +1,71 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261020T074305Z_05d6bb68_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-10-20T07:43:27.809270Z",
+  "cache_key": "sha256:05d6bb6882b958f6a1dad65d245bc5bf04f0aa3ca22b268016ff26999bff902a",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\DiningChair.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\DiningChair.blend-cli.json",
+    "project_name": "DiningChair.blend-cli.json",
+    "project_fingerprint": "sha256:4f2079f8417dc0a34ab54e20b5afc8835551f6da6a7b63acda30423fb8f38e72"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 154134,
+      "width": 500,
+      "height": 550,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 177924,
+      "width": 500,
+      "height": 550,
+      "preset": "workbench",
+      "blender_method": "blender-headless"
+    }
+  ],
+  "context": {
+    "frame_range": "1-250",
+    "fps": 24,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 6,
+    "material_count": 0,
+    "camera_count": 1,
+    "light_count": 1,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ],
+  "_manifest_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\CLI_Previews\\blender\\quick\\20261020T074305Z_05d6bb68_quick\\manifest.json",
+  "_bundle_dir": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\CLI_Previews\\blender\\quick\\20261020T074305Z_05d6bb68_quick",
+  "_summary_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\DiningChair\\CLI_Previews\\blender\\quick\\20261020T074305Z_05d6bb68_quick\\summary.json",
+  "cached": false
+}

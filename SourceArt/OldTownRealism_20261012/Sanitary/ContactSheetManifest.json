@@ -1,0 +1,13 @@
+{
+  "image": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\ContactSheet.png",
+  "image_sha256": "616cea05214d08a9218ae2c8dedc8ee59edadd9c3edd76f2d27c0f0fa2be8197",
+  "input_image_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_Toilet.png": "7f8b9fb0d1c4d7faadc46ec7749e0bd3217cd27c0fb232f51afae3ec0ac31ab5",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_Washbasin.png": "d88047b8690133eb64687383f48b5ee3ad078b6550e658d4a8df2614bc7a68f2",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_ShowerTray.png": "e70e669c950f27d76ccdea5a326d212dcf318b7ade396e295a1496b31fe67af6",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_ShowerScreen.png": "16001c7ae87b98d598301f9e86069ad58e54719144cf7a82e16cf82fdbd10be5"
+  },
+  "input_model_manifest_sha256": "4923db4ea517cff76c88b083fe77bf45c361af29f65e596c595b805ac521cdfb",
+  "verification_report_sha256": "243db6504d1a21d0947e13cf127fc8799d9136bd21c0d89311ac0c1b8abfdbf7",
+  "note": "Four current independent FBX reload previews, composed without geometry or asset changes."
+}

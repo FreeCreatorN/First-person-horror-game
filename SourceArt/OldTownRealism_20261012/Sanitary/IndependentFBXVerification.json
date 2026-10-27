@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "key": "Toilet",
+      "passed": true,
+      "bounds_cm": [
+        [
+          -31.979602813720703,
+          -17.700000762939453,
+          0.0
+        ],
+        [
+          34.47999954223633,
+          17.69999885559082,
+          78.0
+        ]
+      ],
+      "bounds_match": true,
+      "closed_after_position_weld": true,
+      "material_roles": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "uv_layers": [
+        "UVPhysicalMetres"
+      ],
+      "degenerate_uv_triangles": 0,
+      "triangles": 17440,
+      "expected_triangles": 17440,
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Toilet.fbx",
+      "fbx_sha256": "9a8f4d51f7bb35fecaa8b71fd1a69b6788fb250a9aea987276acb0856520ea31",
+      "geometry_preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_Toilet.png"
+    },
+    {
+      "key": "Washbasin",
+      "passed": true,
+      "bounds_cm": [
+        [
+          -22.5,
+          -30.000001907348633,
+          0.0
+        ],
+        [
+          22.5,
+          30.000001907348633,
+          96.05000305175781
+        ]
+      ],
+      "bounds_match": true,
+      "closed_after_position_weld": true,
+      "material_roles": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "uv_layers": [
+        "UVPhysicalMetres"
+      ],
+      "degenerate_uv_triangles": 0,
+      "triangles": 26240,
+      "expected_triangles": 26240,
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_Washbasin.fbx",
+      "fbx_sha256": "628b56f20dbbcaa95d25d058c0ca6b7642319b0e613503aae77ffe5257016ba4",
+      "geometry_preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_Washbasin.png"
+    },
+    {
+      "key": "ShowerTray",
+      "passed": true,
+      "bounds_cm": [
+        [
+          -45.0,
+          -45.0,
+          0.0
+        ],
+        [
+          45.0,
+          45.0,
+          4.0
+        ]
+      ],
+      "bounds_match": true,
+      "closed_after_position_weld": true,
+      "material_roles": [
+        "Ceramic",
+        "Chrome",
+        "DarkMetal"
+      ],
+      "uv_layers": [
+        "UVPhysicalMetres"
+      ],
+      "degenerate_uv_triangles": 0,
+      "triangles": 5480,
+      "expected_triangles": 5480,
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerTray.fbx",
+      "fbx_sha256": "3e64966fbee9686f3a3c13cc4a8ba0ed22a745ee75a50919ecc49a6c0510f224",
+      "geometry_preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_ShowerTray.png"
+    },
+    {
+      "key": "ShowerScreen",
+      "passed": true,
+      "bounds_cm": [
+        [
+          -45.0,
+          -1.0000039339065552,
+          0.0
+        ],
+        [
+          45.0,
+          2.6500024795532227,
+          200.0
+        ]
+      ],
+      "bounds_match": true,
+      "closed_after_position_weld": true,
+      "material_roles": [
+        "Chrome",
+        "DarkMetal",
+        "Glass",
+        "Rubber"
+      ],
+      "uv_layers": [
+        "UVPhysicalMetres"
+      ],
+      "degenerate_uv_triangles": 0,
+      "triangles": 5056,
+      "expected_triangles": 5056,
+      "fbx_file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\SM_OTS_Real_ShowerScreen.fbx",
+      "fbx_sha256": "3af466f57cafaef488b319c812337d1dc05df621c5b0472fb3335f0a5e294d34",
+      "geometry_preview": "D:\\UE\\Project\\HorrorGame\\SourceArt\\OldTownRealism_20261012\\Sanitary\\Preview_ShowerScreen.png"
+    }
+  ],
+  "source_manifest_sha256": "4923db4ea517cff76c88b083fe77bf45c361af29f65e596c595b805ac521cdfb",
+  "note": "Independent FBX reload validates original pivot dimensions, materials, watertight parts and physical UV. Previews show geometry using placeholder physical roles."
+}

@@ -61,19 +61,32 @@ def finish(key):
 
 # Toilet: shaped base, elliptical seat rim, bowl and rear cistern.
 cylinder('Pedestal',(-.06,0,.16),.14,.32,scale=(1.1,.8,1))
-cylinder('Bowl',(-.09,0,.32),.17,.14,scale=(1.28,1,1))
+cylinder('Bowl',(-.09,0,.3285),.17,.157,scale=(1.28,1,1))
 rim('SeatRim',(-.09,0,.415),.165,.012,(1.3,1,1))
+# A connected rear ceramic foot/shoulder carries the cistern from the floor.
+cylinder('RearCeramicPedestal',(.13,0,.155),.12,.31,scale=(1,.75,1))
+cylinder('RearCeramicShoulder',(.13,0,.3775),.16,.165,scale=(1,.75,1))
 cube('Cistern',(.23,0,.615),(.20,.35,.33))
 cube('CisternLid',(.23,0,.767),(.20,.35,.026))
 cube('FlushLever',(.326,0,.68),(.008,.035,.02),'DarkMetal',.002)
 finish('Toilet')
-cylinder('TrapStem',(.12,0,.32),.025,.64,'DarkMetal')
+# Seat the drain inside the ceramic underside, rather than ending 5cm below
+# its bracket. Keep the floor endpoint, diameter and basin envelope unchanged.
+cylinder('TrapStem',(.12,0,.3665),.025,.733,'DarkMetal')
 cube('BasinSupport',(.16,0,.72),(.10,.50,.06),'DarkMetal')
 cube('BasinUnder',(-.005,0,.77),(.41,.58,.08))
 cube('BasinBack',(.20,0,.81),(.05,.60,.08))
 cube('BasinFront',(-.20,0,.81),(.05,.60,.08))
 for y in (-.275,.275):cube('BasinRim',(-.005,y,.81),(.36,.05,.08))
-cylinder('Tap',(.16,0,.832),.012,.036,'DarkMetal')
+# The lower end embeds 3mm into the basin instead of floating 4mm above it.
+cylinder('Tap',(.16,0,.8285),.012,.043,'DarkMetal')
+cylinder('TapSleeve',(.16,0,.892),.013,.096,'DarkMetal')
+c=cylinder('TapSpout',(.10,0,.924),.0105,.12,'DarkMetal');c.rotation_euler[1]=math.pi/2
+cylinder('TapDrop',(.04,0,.909),.0095,.032,'DarkMetal')
+cylinder('TapAerator',(.04,0,.8955),.011,.0085,'DarkMetal')
+cylinder('TapValve',(.16,0,.941),.0065,.019,'DarkMetal')
+cylinder('TapCap',(.16,0,.953),.0185,.015,'DarkMetal')
+c=cylinder('TapBar',(.16,0,.953),.0065,.06,'DarkMetal');c.rotation_euler[0]=math.pi/2
 finish('Washbasin')
 cube('ShowerTray',(0,0,.02),(.9,.9,.04),bevel=.012)
 cylinder('Drain',(.32,.32,.038),.028,.004,'DarkMetal')

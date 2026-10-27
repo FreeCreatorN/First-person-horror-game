@@ -1,0 +1,20 @@
+{
+  "headline": "Blender quick preview rendered for frame 1",
+  "facts": {
+    "recipe": "quick",
+    "scene_name": "LightBulb",
+    "frame": 1,
+    "hero_resolution": "800x500",
+    "workbench_resolution": "800x500",
+    "object_count": 3,
+    "material_count": 0,
+    "camera_count": 1,
+    "light_count": 1,
+    "frame_current": 1
+  },
+  "warnings": [],
+  "next_actions": [
+    "Inspect hero.png for shading, materials, and framing.",
+    "Inspect workbench.png for silhouette and structural problems."
+  ]
+}
