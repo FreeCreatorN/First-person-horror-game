@@ -1,0 +1,10 @@
+{
+  "success": false,
+  "normal_zero_exit": false,
+  "started_utc": "2026-10-30T08:03:01.4609593Z",
+  "script_sha256": "f57bbf3217109fab534dce02cac9b7be5b211b96ce76ce6d0f0e7129e312dbe6",
+  "editor_pid": 13868,
+  "exit_code": 3,
+  "error": "Fresh UE exited with code 3",
+  "completed_utc": "2026-10-30T08:03:21.9744689Z"
+}

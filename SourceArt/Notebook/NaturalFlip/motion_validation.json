@@ -1,0 +1,3373 @@
+{
+  "success": true,
+  "geometry_uv_hash": "d581a13c9244546f15956bda9c1af562783a34d9b6dc438e308736116dac0d86",
+  "geometry_unchanged": true,
+  "max_contact_projection_mm": 0.17987601975048406,
+  "max_sampled_penetration_mm": 0.0,
+  "turn_seconds": 1.2,
+  "same_skeleton_bones": 156,
+  "contact_samples": 560,
+  "half_frame_samples": 1168,
+  "per_frame_contact": [
+    {
+      "leaf": 1,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.0114285474527593,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 1,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.013658832958592451,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.019755978607426637,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.13148146375115655,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.016186592575627955,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 2,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.01008946305765257,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.009856352460662146,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.09668921778136462,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.006273467961608915,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 3,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.010307752924025408,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.01920295868364317,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.14557297668591884,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.017679200583525963,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 4,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.013038144910234792,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.02098612136523445,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.14245065098122434,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.018109263714568072,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 5,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.011403547171841798,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.006470232900787805,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.08181572200807644,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.0017414769974783903,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 6,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.010581364605939149,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.019039924657736004,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.1430949543068244,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.017300080172175797,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 7,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.011609610144048231,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.024239567708282846,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.1700058036276644,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.022939450271268653,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 8,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.011548645618856233,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.006094783059081878,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.0795090332755986,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.0011086984234845096,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 9,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.011985886036518408,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.016148603752596212,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.11824469094598183,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.012816222170023393,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 10,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.011035427322582218,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.028007435969329246,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.17987601975048406,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.02555053908538229,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 11,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.010327584144866238,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.008672080590845128,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.09188693217085114,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.00465619507956927,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 12,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.012913058195358935,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.014405244901596718,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.10852355924872384,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.01006028167073545,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 13,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.011960661382991004,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.02267243126010711,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.15882283843521913,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.02089224076808234,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 14,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.00916861467451218,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.011303706177438408,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.10367581234500302,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.008659903180970388,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 15,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.027777777777777776,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.05555555555555555,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.08333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.1111111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.1388888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.16666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.19444444444444445,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.2222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.25,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.2777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.3055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.3333333333333333,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.3611111111111111,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.3888888888888889,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.4166666666666667,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.4444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.4722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.5,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.5277777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.5555555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.5833333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.6111111111111112,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.6388888888888888,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.6666666666666666,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.6944444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.7222222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.75,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.7777777777777778,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.8055555555555556,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.8333333333333334,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.8611111111111112,
+      "contact_lift_mm": 0.0163168601656858,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.8888888888888888,
+      "contact_lift_mm": 0.11770616243852311,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.9166666666666666,
+      "contact_lift_mm": 0.012805739256502649,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.9444444444444444,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    },
+    {
+      "leaf": 16,
+      "phase": 0.9722222222222222,
+      "contact_lift_mm": 0.0,
+      "penetration_mm": 0.0
+    }
+  ]
+}

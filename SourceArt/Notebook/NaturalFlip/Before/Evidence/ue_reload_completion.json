@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "normal_zero_exit": true,
+  "started_utc": "2026-10-30T08:05:26.5337524Z",
+  "script_sha256": "55f8ab8cd3cfc273929c4ae52ff586442cc71af942558ce4c9e27dc7734d9582",
+  "editor_pid": 12220,
+  "exit_code": 0,
+  "report_sha256": "7396ace69f99b8c4098a8b7ad767ade4f29d0009c0b57cc045b4bfa1878ea7fa",
+  "completed_utc": "2026-10-30T08:05:45.0589607Z"
+}

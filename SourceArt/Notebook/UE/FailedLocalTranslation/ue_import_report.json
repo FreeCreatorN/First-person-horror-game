@@ -1,0 +1,1143 @@
+{
+  "success": false,
+  "started_utc": "2026-10-30T07:47:49.676880+00:00",
+  "run_id": "ac2d0890-fdee-4c57-9859-fc9333934c4d",
+  "editor_pid": 10288,
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "created_assets": [
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Kraft_BaseColor.T_Notebook_Kraft_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Kraft_Roughness.T_Notebook_Kraft_Roughness",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Cloth_BaseColor.T_Notebook_Cloth_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Cloth_Roughness.T_Notebook_Cloth_Roughness",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Endpaper_BaseColor.T_Notebook_Endpaper_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Paper_Roughness.T_Notebook_Paper_Roughness",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PageEdges_BaseColor.T_Notebook_PageEdges_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PageEdges_Roughness.T_Notebook_PageEdges_Roughness",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Ribbon_BaseColor.T_Notebook_Ribbon_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Ribbon_Roughness.T_Notebook_Ribbon_Roughness",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Label_BaseColor.T_Notebook_Label_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Label_Roughness.T_Notebook_Label_Roughness",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Kraft.M_Notebook_Kraft",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Cloth.M_Notebook_Cloth",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Endpaper.M_Notebook_Endpaper",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_PageEdges.M_Notebook_PageEdges",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Ribbon.M_Notebook_Ribbon",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Label.M_Notebook_Label",
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page01.MI_Notebook_Page01",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page02.MI_Notebook_Page02",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page03.MI_Notebook_Page03",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page04.MI_Notebook_Page04",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page05.MI_Notebook_Page05",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page06.MI_Notebook_Page06",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page07.MI_Notebook_Page07",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page08.MI_Notebook_Page08",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page09.MI_Notebook_Page09",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page10.MI_Notebook_Page10",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page11.MI_Notebook_Page11",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page12.MI_Notebook_Page12",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page13.MI_Notebook_Page13",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page14.MI_Notebook_Page14",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page15.MI_Notebook_Page15",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page16.MI_Notebook_Page16",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page17.MI_Notebook_Page17",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page18.MI_Notebook_Page18",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page19.MI_Notebook_Page19",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page20.MI_Notebook_Page20",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page21.MI_Notebook_Page21",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page22.MI_Notebook_Page22",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page23.MI_Notebook_Page23",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page24.MI_Notebook_Page24",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page25.MI_Notebook_Page25",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page26.MI_Notebook_Page26",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page27.MI_Notebook_Page27",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page28.MI_Notebook_Page28",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page29.MI_Notebook_Page29",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page30.MI_Notebook_Page30",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page31.MI_Notebook_Page31",
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page32.MI_Notebook_Page32",
+    "/Game/Yastars/Mesh/Notebook/SK_Notebook.SK_Notebook",
+    "/Game/Yastars/Mesh/Notebook/SK_Notebook_Skeleton.SK_Notebook_Skeleton",
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_FullCycle.A_Notebook_FullCycle"
+  ],
+  "assets": {
+    "SK_Notebook": {
+      "asset": "/Game/Yastars/Mesh/Notebook/SK_Notebook.SK_Notebook",
+      "skeleton": "/Game/Yastars/Mesh/Notebook/SK_Notebook_Skeleton.SK_Notebook_Skeleton",
+      "triangles": 35756,
+      "bones": 156,
+      "dimensions_cm": [
+        15.688000917434692,
+        24.700000762939453,
+        1.0775014534592628
+      ],
+      "materials": [
+        "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Kraft.M_Notebook_Kraft",
+        "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Cloth.M_Notebook_Cloth",
+        "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Endpaper.M_Notebook_Endpaper",
+        "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_PageEdges.M_Notebook_PageEdges",
+        "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Ribbon.M_Notebook_Ribbon",
+        "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Label.M_Notebook_Label",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page01.MI_Notebook_Page01",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page02.MI_Notebook_Page02",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page03.MI_Notebook_Page03",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page04.MI_Notebook_Page04",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page05.MI_Notebook_Page05",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page06.MI_Notebook_Page06",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page07.MI_Notebook_Page07",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page08.MI_Notebook_Page08",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page09.MI_Notebook_Page09",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page10.MI_Notebook_Page10",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page11.MI_Notebook_Page11",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page12.MI_Notebook_Page12",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page13.MI_Notebook_Page13",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page14.MI_Notebook_Page14",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page15.MI_Notebook_Page15",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page16.MI_Notebook_Page16",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page17.MI_Notebook_Page17",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page18.MI_Notebook_Page18",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page19.MI_Notebook_Page19",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page20.MI_Notebook_Page20",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page21.MI_Notebook_Page21",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page22.MI_Notebook_Page22",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page23.MI_Notebook_Page23",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page24.MI_Notebook_Page24",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page25.MI_Notebook_Page25",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page26.MI_Notebook_Page26",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page27.MI_Notebook_Page27",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page28.MI_Notebook_Page28",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page29.MI_Notebook_Page29",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page30.MI_Notebook_Page30",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page31.MI_Notebook_Page31",
+        "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page32.MI_Notebook_Page32"
+      ],
+      "remove_degenerates": false,
+      "bounds_extensions_cm": {
+        "positive": [
+          0.0,
+          0.0,
+          16.0
+        ],
+        "negative": [
+          15.0,
+          0.0,
+          0.0
+        ]
+      },
+      "extended_dimensions_cm": [
+        30.688000917434692,
+        24.700000762939453,
+        17.077501453459263
+      ],
+      "extended_center_cm": [
+        -0.3439995050430298,
+        1.25,
+        8.638748925179243
+      ]
+    },
+    "A_Notebook_FullCycle": {
+      "asset": "/Game/Yastars/Mesh/Notebook/A_Notebook_FullCycle.A_Notebook_FullCycle",
+      "seconds": 26.0,
+      "frames": 780,
+      "track_names": [
+        "root",
+        "frontcover",
+        "backcover",
+        "page_01_00",
+        "page_01_01",
+        "page_01_02",
+        "page_01_03",
+        "page_01_04",
+        "page_01_05",
+        "page_01_06",
+        "page_01_07",
+        "page_01_08",
+        "page_02_00",
+        "page_02_01",
+        "page_02_02",
+        "page_02_03",
+        "page_02_04",
+        "page_02_05",
+        "page_02_06",
+        "page_02_07",
+        "page_02_08",
+        "page_03_00",
+        "page_03_01",
+        "page_03_02",
+        "page_03_03",
+        "page_03_04",
+        "page_03_05",
+        "page_03_06",
+        "page_03_07",
+        "page_03_08",
+        "page_04_00",
+        "page_04_01",
+        "page_04_02",
+        "page_04_03",
+        "page_04_04",
+        "page_04_05",
+        "page_04_06",
+        "page_04_07",
+        "page_04_08",
+        "page_05_00",
+        "page_05_01",
+        "page_05_02",
+        "page_05_03",
+        "page_05_04",
+        "page_05_05",
+        "page_05_06",
+        "page_05_07",
+        "page_05_08",
+        "page_06_00",
+        "page_06_01",
+        "page_06_02",
+        "page_06_03",
+        "page_06_04",
+        "page_06_05",
+        "page_06_06",
+        "page_06_07",
+        "page_06_08",
+        "page_07_00",
+        "page_07_01",
+        "page_07_02",
+        "page_07_03",
+        "page_07_04",
+        "page_07_05",
+        "page_07_06",
+        "page_07_07",
+        "page_07_08",
+        "page_08_00",
+        "page_08_01",
+        "page_08_02",
+        "page_08_03",
+        "page_08_04",
+        "page_08_05",
+        "page_08_06",
+        "page_08_07",
+        "page_08_08",
+        "page_09_00",
+        "page_09_01",
+        "page_09_02",
+        "page_09_03",
+        "page_09_04",
+        "page_09_05",
+        "page_09_06",
+        "page_09_07",
+        "page_09_08",
+        "page_10_00",
+        "page_10_01",
+        "page_10_02",
+        "page_10_03",
+        "page_10_04",
+        "page_10_05",
+        "page_10_06",
+        "page_10_07",
+        "page_10_08",
+        "page_11_00",
+        "page_11_01",
+        "page_11_02",
+        "page_11_03",
+        "page_11_04",
+        "page_11_05",
+        "page_11_06",
+        "page_11_07",
+        "page_11_08",
+        "page_12_00",
+        "page_12_01",
+        "page_12_02",
+        "page_12_03",
+        "page_12_04",
+        "page_12_05",
+        "page_12_06",
+        "page_12_07",
+        "page_12_08",
+        "page_13_00",
+        "page_13_01",
+        "page_13_02",
+        "page_13_03",
+        "page_13_04",
+        "page_13_05",
+        "page_13_06",
+        "page_13_07",
+        "page_13_08",
+        "page_14_00",
+        "page_14_01",
+        "page_14_02",
+        "page_14_03",
+        "page_14_04",
+        "page_14_05",
+        "page_14_06",
+        "page_14_07",
+        "page_14_08",
+        "page_15_00",
+        "page_15_01",
+        "page_15_02",
+        "page_15_03",
+        "page_15_04",
+        "page_15_05",
+        "page_15_06",
+        "page_15_07",
+        "page_15_08",
+        "page_16_00",
+        "page_16_01",
+        "page_16_02",
+        "page_16_03",
+        "page_16_04",
+        "page_16_05",
+        "page_16_06",
+        "page_16_07",
+        "page_16_08",
+        "spine_00",
+        "spine_01",
+        "spine_02",
+        "spine_03",
+        "spine_04",
+        "spine_05",
+        "spine_06",
+        "spine_07",
+        "spine_08"
+      ],
+      "compression_join_completed": true
+    }
+  },
+  "materials": {
+    "M_Notebook_Kraft": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Kraft.M_Notebook_Kraft",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_Kraft_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_Kraft_Roughness.png",
+        "two_sided": false,
+        "page_parameter": null
+      },
+      "page_parent": false,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "M_Notebook_Cloth": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Cloth.M_Notebook_Cloth",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_Cloth_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_Cloth_Roughness.png",
+        "two_sided": false,
+        "page_parameter": null
+      },
+      "page_parent": false,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "M_Notebook_Endpaper": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Endpaper.M_Notebook_Endpaper",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_Endpaper_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+        "two_sided": false,
+        "page_parameter": null
+      },
+      "page_parent": false,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "M_Notebook_PageEdges": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_PageEdges.M_Notebook_PageEdges",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_PageEdges_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_PageEdges_Roughness.png",
+        "two_sided": false,
+        "page_parameter": null
+      },
+      "page_parent": false,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "M_Notebook_Ribbon": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Ribbon.M_Notebook_Ribbon",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_Ribbon_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_Ribbon_Roughness.png",
+        "two_sided": false,
+        "page_parameter": null
+      },
+      "page_parent": false,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "M_Notebook_Label": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Label.M_Notebook_Label",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_Label_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_Label_Roughness.png",
+        "two_sided": false,
+        "page_parameter": null
+      },
+      "page_parent": false,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "M_Notebook_Page": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "source": {
+        "base_color": [
+          1,
+          1,
+          1
+        ],
+        "roughness": 0.8,
+        "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+        "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+        "two_sided": false,
+        "page_parameter": "PageTexture"
+      },
+      "page_parent": true,
+      "two_sided": false,
+      "emissive_connected": false
+    },
+    "MI_Notebook_Page01": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page01.MI_Notebook_Page01",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page01"
+    },
+    "MI_Notebook_Page02": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page02.MI_Notebook_Page02",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page02"
+    },
+    "MI_Notebook_Page03": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page03.MI_Notebook_Page03",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page03"
+    },
+    "MI_Notebook_Page04": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page04.MI_Notebook_Page04",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page04"
+    },
+    "MI_Notebook_Page05": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page05.MI_Notebook_Page05",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page05"
+    },
+    "MI_Notebook_Page06": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page06.MI_Notebook_Page06",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page06"
+    },
+    "MI_Notebook_Page07": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page07.MI_Notebook_Page07",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page07"
+    },
+    "MI_Notebook_Page08": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page08.MI_Notebook_Page08",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page08"
+    },
+    "MI_Notebook_Page09": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page09.MI_Notebook_Page09",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page09"
+    },
+    "MI_Notebook_Page10": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page10.MI_Notebook_Page10",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page10"
+    },
+    "MI_Notebook_Page11": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page11.MI_Notebook_Page11",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page11"
+    },
+    "MI_Notebook_Page12": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page12.MI_Notebook_Page12",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page12"
+    },
+    "MI_Notebook_Page13": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page13.MI_Notebook_Page13",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page13"
+    },
+    "MI_Notebook_Page14": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page14.MI_Notebook_Page14",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page14"
+    },
+    "MI_Notebook_Page15": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page15.MI_Notebook_Page15",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page15"
+    },
+    "MI_Notebook_Page16": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page16.MI_Notebook_Page16",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page16"
+    },
+    "MI_Notebook_Page17": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page17.MI_Notebook_Page17",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page17"
+    },
+    "MI_Notebook_Page18": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page18.MI_Notebook_Page18",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page18"
+    },
+    "MI_Notebook_Page19": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page19.MI_Notebook_Page19",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page19"
+    },
+    "MI_Notebook_Page20": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page20.MI_Notebook_Page20",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page20"
+    },
+    "MI_Notebook_Page21": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page21.MI_Notebook_Page21",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page21"
+    },
+    "MI_Notebook_Page22": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page22.MI_Notebook_Page22",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page22"
+    },
+    "MI_Notebook_Page23": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page23.MI_Notebook_Page23",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page23"
+    },
+    "MI_Notebook_Page24": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page24.MI_Notebook_Page24",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page24"
+    },
+    "MI_Notebook_Page25": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page25.MI_Notebook_Page25",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page25"
+    },
+    "MI_Notebook_Page26": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page26.MI_Notebook_Page26",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page26"
+    },
+    "MI_Notebook_Page27": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page27.MI_Notebook_Page27",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page27"
+    },
+    "MI_Notebook_Page28": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page28.MI_Notebook_Page28",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page28"
+    },
+    "MI_Notebook_Page29": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page29.MI_Notebook_Page29",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page29"
+    },
+    "MI_Notebook_Page30": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page30.MI_Notebook_Page30",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page30"
+    },
+    "MI_Notebook_Page31": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page31.MI_Notebook_Page31",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source_slot": "M_Notebook_Page31"
+    },
+    "MI_Notebook_Page32": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page32.MI_Notebook_Page32",
+      "parent": "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page.M_Notebook_Page",
+      "PageTexture": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source_slot": "M_Notebook_Page32"
+    }
+  },
+  "textures": {
+    "T_Notebook_Kraft_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Kraft_BaseColor.T_Notebook_Kraft_BaseColor",
+      "source": "Textures/T_Notebook_Kraft_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_Kraft_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Kraft_Roughness.T_Notebook_Kraft_Roughness",
+      "source": "Textures/T_Notebook_Kraft_Roughness.png",
+      "srgb": false
+    },
+    "T_Notebook_Cloth_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Cloth_BaseColor.T_Notebook_Cloth_BaseColor",
+      "source": "Textures/T_Notebook_Cloth_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_Cloth_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Cloth_Roughness.T_Notebook_Cloth_Roughness",
+      "source": "Textures/T_Notebook_Cloth_Roughness.png",
+      "srgb": false
+    },
+    "T_Notebook_Endpaper_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Endpaper_BaseColor.T_Notebook_Endpaper_BaseColor",
+      "source": "Textures/T_Notebook_Endpaper_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_Paper_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Paper_Roughness.T_Notebook_Paper_Roughness",
+      "source": "Textures/T_Notebook_Paper_Roughness.png",
+      "srgb": false
+    },
+    "T_Notebook_PageEdges_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PageEdges_BaseColor.T_Notebook_PageEdges_BaseColor",
+      "source": "Textures/T_Notebook_PageEdges_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_PageEdges_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PageEdges_Roughness.T_Notebook_PageEdges_Roughness",
+      "source": "Textures/T_Notebook_PageEdges_Roughness.png",
+      "srgb": false
+    },
+    "T_Notebook_Ribbon_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Ribbon_BaseColor.T_Notebook_Ribbon_BaseColor",
+      "source": "Textures/T_Notebook_Ribbon_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_Ribbon_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Ribbon_Roughness.T_Notebook_Ribbon_Roughness",
+      "source": "Textures/T_Notebook_Ribbon_Roughness.png",
+      "srgb": false
+    },
+    "T_Notebook_Label_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Label_BaseColor.T_Notebook_Label_BaseColor",
+      "source": "Textures/T_Notebook_Label_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_Label_Roughness": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Label_Roughness.T_Notebook_Label_Roughness",
+      "source": "Textures/T_Notebook_Label_Roughness.png",
+      "srgb": false
+    },
+    "T_Notebook_PaperFront_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor.T_Notebook_PaperFront_BaseColor",
+      "source": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "srgb": true
+    },
+    "T_Notebook_PaperBack_BaseColor": {
+      "asset": "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor.T_Notebook_PaperBack_BaseColor",
+      "source": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "srgb": true
+    }
+  },
+  "poses": {
+    "Closed": {
+      "frame": 1,
+      "seconds": 0.0,
+      "bones": {
+        "FrontCover": {
+          "translation": [
+            0.0,
+            0.0,
+            0.9200000204145908
+          ],
+          "rotation": [
+            0.0,
+            -0.0013237596722319722,
+            0.0,
+            0.9999992251396179
+          ],
+          "scale": [
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        "BackCover": {
+          "translation": [
+            0.0,
+            0.0,
+            0.35000003408640623
+          ],
+          "rotation": [
+            0.0,
+            -1.1265277862548828e-05,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      }
+    }
+  },
+  "actors_spawned": 0,
+  "map_save_executed": false,
+  "level_load_executed": false,
+  "asset_delete_executed": false,
+  "asset_or_map_rename_executed": false,
+  "imported_cameras": 0,
+  "imported_lights": 0,
+  "emissive_connections": 0,
+  "required_apis": {
+    "AnimationLibrary": true,
+    "AnimPoseExtensions": true,
+    "AnimPoseEvaluationOptions": true,
+    "BlueprintEditorLibrary": true,
+    "SubobjectDataSubsystem": true,
+    "AddNewSubobjectParams": true
+  },
+  "import_script_sha256": "ed253595d601e40233c742c0f5a7962f7affd6c280c5d7ce832a41fe50446ed1",
+  "world_before": "/Engine/Maps/Entry.Entry",
+  "existing_target_packages": [],
+  "existing_target_files": [],
+  "protected_files_checked": 46,
+  "source_files_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_CloseLast.fbx": "ce5936b34c8353903e145075c3dcb9f5e9f56eb0dded82b2ebf31eea2745aa59",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_FullCycle.fbx": "2e9ada84d3935a71df00dfb62385e07e9126e03cde5f9bfcd872efe0843ed3d2",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Open.fbx": "7055d0fbb4a157d169856a2768eb7c35a75c8a6f4702c0190c6a8a12eca6f8c8",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn01.fbx": "3f005d46e967073579f65c41ddfb141034b0ec8ec9299f628a399a148f9b1791",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn02.fbx": "98fdf40b23088b0f70bddd0904abfe1472097c347b4a29df11d53bcaf612859f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn03.fbx": "baaacf20189abf046df856526460799a68802e85e696430f1ccc7eddffbcb7bf",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn04.fbx": "ab3108d6294f4a167cf8221c8746bcc36be593edb251a7e7a4edd8b4f1be6959",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn05.fbx": "9ddc432f29f4995462de214f54dff688ba924dbba68aabb3ccb52dfc7f6b0b7c",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn06.fbx": "fda78f6083eba49c7d70c457190c60a54f0967afd284b20b42b815c4f476efe5",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn07.fbx": "e6b2991e109b4b471be280c564e3a0cb28aa9f0e1620a455b3bd83b6b8c2e42a",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn08.fbx": "b2130623c3ed7b7ec529f56c600ed3cfc8c20380666b3f46c7c43a8a65bcfecf",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn09.fbx": "4cf8b64b789001cbf1a28423decc474cd1e2216b84b62e09a98b25001d99a805",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn10.fbx": "7f04af60c02f1288c4939381ba55068f75c295e99fbe584c29d589d927105b6c",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn11.fbx": "0b5cf8bfa5d5e67c6df0f49e5c7d9bc281f9e0b807ffbdabe1b31436f3374077",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn12.fbx": "68517d614f758ca8395b6c5b4f3d5795ba663911b741952b1bb4fd9c2d03743f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn13.fbx": "f4b014b57ca8f6f440fca94a1023bd891a3c77a735806b853e248d761836ef59",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn14.fbx": "d457e6bad2dd1ac5bbc60543c7a5c0e72191d6d826d77e930f21e99984ea24f5",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn15.fbx": "810f2b21257f5a840cf3ef12f9271a359333457d3b19dce1c1fdbde4e837408e",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn16.fbx": "993d77b1498c5bf89ef36c50a300220c915d4bd3bc224c2020064989125872c2",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\SK_Notebook.fbx": "54b059f2beb7c44543006e44ed19cf9bbd4999c929f0a234257f03678526579f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\model_report.json": "ce77eabd6875d59d9ffeac9037fcc6cfe3dc26713b9b5af897c1934ab7835bdb",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Notebook.blend": "c166e1359e31b71cf7789d6efdf2a941bf3e91687c33bda3aad06623fcf7cabc",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Cloth_BaseColor.png": "8506262620033ee9eefe2d7cf6b73909c853452a82938c8a4fda32b8a2acb953",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Cloth_Roughness.png": "92065f6ef7ce45bbbfba154f5337b3a906a7574f305c9783cdd1b4d748abc7e5",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Endpaper_BaseColor.png": "102273eec3ce9ecd177d822f30a33df2a7833d68345f2402c05179b5e388f606",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Kraft_BaseColor.png": "ced0cbfb4272c13b82c5665f6853718f2fb58f674a502b3e0de1f4e06d2d6604",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Kraft_Roughness.png": "d370178c6f0ffa942bff5fc7cd9ce415da18cf92210ab3a2250e2947decf5a8b",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Label_BaseColor.png": "79a3cb35283bcd89f259b8fec9dab5e9cc8b58fe3afcd7cdf101bbae273ca8a1",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Label_Roughness.png": "fa2e41d2a41bcb0038a9687539c56b078c63b192d3f4423eb3be4c0058168d9c",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PageEdges_BaseColor.png": "6ae798f58deb93f3c368d2ef38d508dfab43e09558f3f3367dd8d0e08c37836f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PageEdges_Roughness.png": "11896bbb66ca41eb9a8147359d541954c697f7f9871731a2c798d321d86def8e",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Paper_Roughness.png": "03670751815d4c4ec2575a556821cc3b12fc4da0c2ce70c6700760b55903fc4b",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PaperBack_BaseColor.png": "2cb89171f27c558e5454731d809de87c7366366a1ec0684faae17c276790725c",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PaperFront_BaseColor.png": "e5712a054d54589950d1342782275479d8ed25a2b339bcd91490e437d6e12060",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Ribbon_BaseColor.png": "6e9567a1890f280ae0781c228d6704c420581a097350912d0e9cc7255d19c3ff",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Ribbon_Roughness.png": "04ce3a81c853cc6871cc832ee418073887bf480d2eb2b1b352f244d5e19a2213"
+  },
+  "source_preflight_passed": true,
+  "fbx_import_scales": {
+    "skeletal_mesh": 1.0,
+    "animation": 100.0
+  },
+  "model_contract": {
+    "triangles": 35756,
+    "bones": [
+      "root",
+      "FrontCover",
+      "BackCover",
+      "Page_01_00",
+      "Page_01_01",
+      "Page_01_02",
+      "Page_01_03",
+      "Page_01_04",
+      "Page_01_05",
+      "Page_01_06",
+      "Page_01_07",
+      "Page_01_08",
+      "Page_02_00",
+      "Page_02_01",
+      "Page_02_02",
+      "Page_02_03",
+      "Page_02_04",
+      "Page_02_05",
+      "Page_02_06",
+      "Page_02_07",
+      "Page_02_08",
+      "Page_03_00",
+      "Page_03_01",
+      "Page_03_02",
+      "Page_03_03",
+      "Page_03_04",
+      "Page_03_05",
+      "Page_03_06",
+      "Page_03_07",
+      "Page_03_08",
+      "Page_04_00",
+      "Page_04_01",
+      "Page_04_02",
+      "Page_04_03",
+      "Page_04_04",
+      "Page_04_05",
+      "Page_04_06",
+      "Page_04_07",
+      "Page_04_08",
+      "Page_05_00",
+      "Page_05_01",
+      "Page_05_02",
+      "Page_05_03",
+      "Page_05_04",
+      "Page_05_05",
+      "Page_05_06",
+      "Page_05_07",
+      "Page_05_08",
+      "Page_06_00",
+      "Page_06_01",
+      "Page_06_02",
+      "Page_06_03",
+      "Page_06_04",
+      "Page_06_05",
+      "Page_06_06",
+      "Page_06_07",
+      "Page_06_08",
+      "Page_07_00",
+      "Page_07_01",
+      "Page_07_02",
+      "Page_07_03",
+      "Page_07_04",
+      "Page_07_05",
+      "Page_07_06",
+      "Page_07_07",
+      "Page_07_08",
+      "Page_08_00",
+      "Page_08_01",
+      "Page_08_02",
+      "Page_08_03",
+      "Page_08_04",
+      "Page_08_05",
+      "Page_08_06",
+      "Page_08_07",
+      "Page_08_08",
+      "Page_09_00",
+      "Page_09_01",
+      "Page_09_02",
+      "Page_09_03",
+      "Page_09_04",
+      "Page_09_05",
+      "Page_09_06",
+      "Page_09_07",
+      "Page_09_08",
+      "Page_10_00",
+      "Page_10_01",
+      "Page_10_02",
+      "Page_10_03",
+      "Page_10_04",
+      "Page_10_05",
+      "Page_10_06",
+      "Page_10_07",
+      "Page_10_08",
+      "Page_11_00",
+      "Page_11_01",
+      "Page_11_02",
+      "Page_11_03",
+      "Page_11_04",
+      "Page_11_05",
+      "Page_11_06",
+      "Page_11_07",
+      "Page_11_08",
+      "Page_12_00",
+      "Page_12_01",
+      "Page_12_02",
+      "Page_12_03",
+      "Page_12_04",
+      "Page_12_05",
+      "Page_12_06",
+      "Page_12_07",
+      "Page_12_08",
+      "Page_13_00",
+      "Page_13_01",
+      "Page_13_02",
+      "Page_13_03",
+      "Page_13_04",
+      "Page_13_05",
+      "Page_13_06",
+      "Page_13_07",
+      "Page_13_08",
+      "Page_14_00",
+      "Page_14_01",
+      "Page_14_02",
+      "Page_14_03",
+      "Page_14_04",
+      "Page_14_05",
+      "Page_14_06",
+      "Page_14_07",
+      "Page_14_08",
+      "Page_15_00",
+      "Page_15_01",
+      "Page_15_02",
+      "Page_15_03",
+      "Page_15_04",
+      "Page_15_05",
+      "Page_15_06",
+      "Page_15_07",
+      "Page_15_08",
+      "Page_16_00",
+      "Page_16_01",
+      "Page_16_02",
+      "Page_16_03",
+      "Page_16_04",
+      "Page_16_05",
+      "Page_16_06",
+      "Page_16_07",
+      "Page_16_08",
+      "Spine_00",
+      "Spine_01",
+      "Spine_02",
+      "Spine_03",
+      "Spine_04",
+      "Spine_05",
+      "Spine_06",
+      "Spine_07",
+      "Spine_08"
+    ],
+    "material_slots": [
+      "M_Notebook_Kraft",
+      "M_Notebook_Cloth",
+      "M_Notebook_Endpaper",
+      "M_Notebook_PageEdges",
+      "M_Notebook_Ribbon",
+      "M_Notebook_Label",
+      "M_Notebook_Page01",
+      "M_Notebook_Page02",
+      "M_Notebook_Page03",
+      "M_Notebook_Page04",
+      "M_Notebook_Page05",
+      "M_Notebook_Page06",
+      "M_Notebook_Page07",
+      "M_Notebook_Page08",
+      "M_Notebook_Page09",
+      "M_Notebook_Page10",
+      "M_Notebook_Page11",
+      "M_Notebook_Page12",
+      "M_Notebook_Page13",
+      "M_Notebook_Page14",
+      "M_Notebook_Page15",
+      "M_Notebook_Page16",
+      "M_Notebook_Page17",
+      "M_Notebook_Page18",
+      "M_Notebook_Page19",
+      "M_Notebook_Page20",
+      "M_Notebook_Page21",
+      "M_Notebook_Page22",
+      "M_Notebook_Page23",
+      "M_Notebook_Page24",
+      "M_Notebook_Page25",
+      "M_Notebook_Page26",
+      "M_Notebook_Page27",
+      "M_Notebook_Page28",
+      "M_Notebook_Page29",
+      "M_Notebook_Page30",
+      "M_Notebook_Page31",
+      "M_Notebook_Page32"
+    ],
+    "fps": 30,
+    "frame_start": 1,
+    "frame_end": 781,
+    "markers": {
+      "Closed": {
+        "frame": 1,
+        "bones": [
+          "FrontCover",
+          "BackCover"
+        ]
+      },
+      "Open": {
+        "frame": 60,
+        "bones": [
+          "FrontCover"
+        ]
+      },
+      "MidTurn": {
+        "frame": 85,
+        "bones": [
+          "Page_01_04"
+        ]
+      },
+      "LastPage": {
+        "frame": 710,
+        "bones": [
+          "Page_16_04"
+        ]
+      },
+      "ClosedEnd": {
+        "frame": 781,
+        "bones": [
+          "BackCover"
+        ]
+      },
+      "Spread_01": {
+        "frame": 110,
+        "bones": [
+          "Page_01_04"
+        ]
+      },
+      "Spread_02": {
+        "frame": 150,
+        "bones": [
+          "Page_02_04"
+        ]
+      },
+      "Spread_03": {
+        "frame": 190,
+        "bones": [
+          "Page_03_04"
+        ]
+      },
+      "Spread_04": {
+        "frame": 230,
+        "bones": [
+          "Page_04_04"
+        ]
+      },
+      "Spread_05": {
+        "frame": 270,
+        "bones": [
+          "Page_05_04"
+        ]
+      },
+      "Spread_06": {
+        "frame": 310,
+        "bones": [
+          "Page_06_04"
+        ]
+      },
+      "Spread_07": {
+        "frame": 350,
+        "bones": [
+          "Page_07_04"
+        ]
+      },
+      "Spread_08": {
+        "frame": 390,
+        "bones": [
+          "Page_08_04"
+        ]
+      },
+      "Spread_09": {
+        "frame": 430,
+        "bones": [
+          "Page_09_04"
+        ]
+      },
+      "Spread_10": {
+        "frame": 470,
+        "bones": [
+          "Page_10_04"
+        ]
+      },
+      "Spread_11": {
+        "frame": 510,
+        "bones": [
+          "Page_11_04"
+        ]
+      },
+      "Spread_12": {
+        "frame": 550,
+        "bones": [
+          "Page_12_04"
+        ]
+      },
+      "Spread_13": {
+        "frame": 590,
+        "bones": [
+          "Page_13_04"
+        ]
+      },
+      "Spread_14": {
+        "frame": 630,
+        "bones": [
+          "Page_14_04"
+        ]
+      },
+      "Spread_15": {
+        "frame": 670,
+        "bones": [
+          "Page_15_04"
+        ]
+      },
+      "Spread_16": {
+        "frame": 710,
+        "bones": [
+          "Page_16_04"
+        ]
+      }
+    }
+  },
+  "fbx_backend_flag_before": 0,
+  "fbx_backend_flag_during_import": 0,
+  "error": "Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 382, in <module>\n    assert name in values and close(values[name]['translation'], expected_location, .02), (\n           ^^^^^^^^^^^^^^\nAssertionError: ('Animation bone position differs from Blender', 'Open', 'FrontCover', {'translation': [0.0, 0.0, 0.9200000204145908], 'rotation': [0.0, 1.0, 0.0, 0.0], 'scale': [100.0, 100.0, 100.0]}, [0.0, -0.0, 0.35000001080334187])\n",
+  "fbx_backend_flag_restored": true,
+  "completed_utc": "2026-10-30T07:47:56.177982+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "run_id": "5c86d164-1102-41e2-b115-9e87a0ae2c2a",
+  "execution_mode": "exclusive_editor",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "9c04faf2c0d7f4b634a54770c0e68f0decb5830f8a6ec7b8cf9416d36a12614e",
+  "started_utc": "2026-10-30T07:59:03.0573715Z",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\UE\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "editor_pid": 13740,
+  "error": "Notebook import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 442, in <module>\n    assert translation_error <= .005 and rotation_error <= .0001 and close(a['scale'], b['scale'], .0001), (name, endpoint, bone, a, b)\n                                         ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('A_Notebook_Open', 'end', 'Spine_05', {'translation': [0.14058613777160645, 0.0, 0.22119396924972534], 'rotation': [0.0, -0.7071068286895752, 0.0, 0.7071068286895752], 'scale': [1.0, 1.0, 1.0]}, {'translation': [0.13362497091293335, 0.0, 0.22119396924972534], 'rotation': [0.0, -0.7075789570808411, 0.0, 0.7066342830657959], 'scale': [1.0, 1.0, 1.0]})\n",
+  "completed_utc": "2026-10-30T07:59:39.2354861Z"
+}

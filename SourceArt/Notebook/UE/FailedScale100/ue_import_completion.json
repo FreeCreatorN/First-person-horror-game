@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "run_id": "0b70e13a-3485-48f5-a77e-132d1df5500a",
+  "execution_mode": "exclusive_editor",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "7f79175844a8460b5b5ce329d99490c696be9d4d361b5b2b1b8f4b5beb1a6299",
+  "started_utc": "2026-10-30T07:29:14.1874946Z",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\UE\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "editor_pid": 37440,
+  "error": "Notebook import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 306, in <module>\n    assert close(dims, expected_dims, .02), ('Dimensions changed', dims, expected_dims)\nAssertionError: ('Dimensions changed', [1568.7999954223633, 2470.0001220703125, 107.75014209747314], [15.68800057284534, 24.700000882148743, 1.0774999973364174])\n",
+  "completed_utc": "2026-10-30T07:32:17.2035928Z"
+}

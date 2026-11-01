@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-30T08:54:30.190278+00:00",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "updated_animation_packages": 17,
+  "preserved_package_count": 59,
+  "unchanged_animations": [
+    "A_Notebook_Open",
+    "A_Notebook_CloseLast"
+  ],
+  "package_count": 76,
+  "protected_files_checked": 46,
+  "source_pose_samples": 30,
+  "independent_clips": 18,
+  "fresh_editor_persistence_verified": true,
+  "source_normal_checks": 49,
+  "geometry_skeleton_materials_blueprints_unchanged": true,
+  "source_and_packages_sha256_verified": true
+}

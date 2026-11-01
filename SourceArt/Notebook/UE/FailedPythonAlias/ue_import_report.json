@@ -1,0 +1,22 @@
+{
+  "success": false,
+  "started_utc": "2026-10-30T07:36:01.091484+00:00",
+  "run_id": "76c6ea29-545e-4a5d-a0bc-93b994e916aa",
+  "editor_pid": 3556,
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "created_assets": [],
+  "assets": {},
+  "materials": {},
+  "textures": {},
+  "poses": {},
+  "actors_spawned": 0,
+  "map_save_executed": false,
+  "level_load_executed": false,
+  "asset_delete_executed": false,
+  "asset_or_map_rename_executed": false,
+  "imported_cameras": 0,
+  "imported_lights": 0,
+  "emissive_connections": 0,
+  "error": "Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 209, in <module>\n    assert all(hasattr(unreal, name) for name in ('AnimationBlueprintLibrary', 'AnimPoseExtensions',\nAssertionError\n",
+  "completed_utc": "2026-10-30T07:36:01.094996+00:00"
+}

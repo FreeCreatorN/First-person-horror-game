@@ -1,0 +1,129 @@
+{
+  "fps": 30,
+  "page_faces": 32,
+  "leaves": 16,
+  "stops": [
+    {
+      "spread": 0,
+      "frame": 60,
+      "time_seconds": 1.9666666666666666,
+      "left_page": 0,
+      "right_page": 1
+    },
+    {
+      "spread": 1,
+      "frame": 110,
+      "time_seconds": 3.6333333333333333,
+      "left_page": 2,
+      "right_page": 3
+    },
+    {
+      "spread": 2,
+      "frame": 150,
+      "time_seconds": 4.966666666666667,
+      "left_page": 4,
+      "right_page": 5
+    },
+    {
+      "spread": 3,
+      "frame": 190,
+      "time_seconds": 6.3,
+      "left_page": 6,
+      "right_page": 7
+    },
+    {
+      "spread": 4,
+      "frame": 230,
+      "time_seconds": 7.633333333333334,
+      "left_page": 8,
+      "right_page": 9
+    },
+    {
+      "spread": 5,
+      "frame": 270,
+      "time_seconds": 8.966666666666667,
+      "left_page": 10,
+      "right_page": 11
+    },
+    {
+      "spread": 6,
+      "frame": 310,
+      "time_seconds": 10.3,
+      "left_page": 12,
+      "right_page": 13
+    },
+    {
+      "spread": 7,
+      "frame": 350,
+      "time_seconds": 11.633333333333333,
+      "left_page": 14,
+      "right_page": 15
+    },
+    {
+      "spread": 8,
+      "frame": 390,
+      "time_seconds": 12.966666666666667,
+      "left_page": 16,
+      "right_page": 17
+    },
+    {
+      "spread": 9,
+      "frame": 430,
+      "time_seconds": 14.3,
+      "left_page": 18,
+      "right_page": 19
+    },
+    {
+      "spread": 10,
+      "frame": 470,
+      "time_seconds": 15.633333333333333,
+      "left_page": 20,
+      "right_page": 21
+    },
+    {
+      "spread": 11,
+      "frame": 510,
+      "time_seconds": 16.966666666666665,
+      "left_page": 22,
+      "right_page": 23
+    },
+    {
+      "spread": 12,
+      "frame": 550,
+      "time_seconds": 18.3,
+      "left_page": 24,
+      "right_page": 25
+    },
+    {
+      "spread": 13,
+      "frame": 590,
+      "time_seconds": 19.633333333333333,
+      "left_page": 26,
+      "right_page": 27
+    },
+    {
+      "spread": 14,
+      "frame": 630,
+      "time_seconds": 20.966666666666665,
+      "left_page": 28,
+      "right_page": 29
+    },
+    {
+      "spread": 15,
+      "frame": 670,
+      "time_seconds": 22.3,
+      "left_page": 30,
+      "right_page": 31
+    },
+    {
+      "spread": 16,
+      "frame": 710,
+      "time_seconds": 23.633333333333333,
+      "left_page": 32,
+      "right_page": 0
+    }
+  ],
+  "animation": "A_Notebook_FullCycle",
+  "closed_seconds": 0,
+  "closed_end_seconds": 26
+}

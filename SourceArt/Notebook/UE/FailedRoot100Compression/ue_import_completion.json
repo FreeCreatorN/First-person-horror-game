@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "run_id": "d8d5685a-8aef-441e-a4cc-80507cacfe5e",
+  "execution_mode": "exclusive_editor",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "bcb43b3b2cb3daa2e9a9bdc151c28323ba6f66594f46a1bc6321a5da6ce6b1da",
+  "started_utc": "2026-10-30T07:51:22.9630306Z",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\UE\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "editor_pid": 10876,
+  "error": "Notebook import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 406, in <module>\n    assert name in values and close(values[name]['translation'], expected_location, .02), (\n           ^^^^^^^^^^^^^^\nAssertionError: ('Animation bone position differs from Blender', 'Open', 'FrontCover', {'translation': [0.0, 0.0, 0.9200000204145908], 'rotation': [0.0, 1.0, 0.0, 0.0], 'scale': [100.0, 100.0, 100.0]}, [0.0, -0.0, 0.35000001080334187])\n",
+  "completed_utc": "2026-10-30T07:51:57.5004731Z"
+}

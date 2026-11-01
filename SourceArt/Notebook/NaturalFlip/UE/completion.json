@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "run_id": "30f56151-1dd3-4a68-bea4-c816cd707dd9",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "197396c9fd5b8128d3328912ae1de64fbefb11fc005485215b0004dfe14486a5",
+  "plan_sha256": "f6101b3b0b987b3e75654a152d5a59a97405ac99a6c10efdd5a96601e7a6181b",
+  "started_utc": "2026-10-30T08:51:52.3811226Z",
+  "runs": [
+    {
+      "mode": "animation_only_update",
+      "editor_pid": 26232,
+      "normal_zero_exit": true,
+      "exit_code": 0,
+      "started_utc": "2026-10-30T08:51:52.4080835Z",
+      "completed_utc": "2026-10-30T08:54:04.3052219Z",
+      "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\UE\\update_ue_report.json",
+      "report_sha256": "be86b051e1be28fed0bc355d491efc87b5c5e1402e65c2844b108acc7328cb0c",
+      "log_error_count": 0
+    },
+    {
+      "mode": "verify_saved",
+      "editor_pid": 36736,
+      "normal_zero_exit": true,
+      "exit_code": 0,
+      "started_utc": "2026-10-30T08:54:04.3139996Z",
+      "completed_utc": "2026-10-30T08:54:30.0259163Z",
+      "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\UE\\ue_reload_report.json",
+      "report_sha256": "fc5d97f1c236197cb55cda25b007e0c78064a861c882762442a6896d6d75d012",
+      "log_error_count": 0
+    }
+  ],
+  "completed_utc": "2026-10-30T08:54:30.0306500Z"
+}

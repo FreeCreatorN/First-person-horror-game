@@ -1,0 +1,142 @@
+{
+  "resolution": 2048,
+  "source": "original procedural textures, seed 193110",
+  "color_space": "BaseColor sRGB; Roughness linear/non-color",
+  "textures": {
+    "Kraft_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Kraft_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "ced0cbfb4272c13b82c5665f6853718f2fb58f674a502b3e0de1f4e06d2d6604",
+      "mode": "RGB"
+    },
+    "Kraft_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Kraft_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "d370178c6f0ffa942bff5fc7cd9ce415da18cf92210ab3a2250e2947decf5a8b",
+      "mode": "L"
+    },
+    "Cloth_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Cloth_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "8506262620033ee9eefe2d7cf6b73909c853452a82938c8a4fda32b8a2acb953",
+      "mode": "RGB"
+    },
+    "Cloth_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Cloth_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "92065f6ef7ce45bbbfba154f5337b3a906a7574f305c9783cdd1b4d748abc7e5",
+      "mode": "L"
+    },
+    "Endpaper_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Endpaper_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "102273eec3ce9ecd177d822f30a33df2a7833d68345f2402c05179b5e388f606",
+      "mode": "RGB"
+    },
+    "PaperFront_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PaperFront_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "e5712a054d54589950d1342782275479d8ed25a2b339bcd91490e437d6e12060",
+      "mode": "RGB"
+    },
+    "PaperBack_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PaperBack_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "2cb89171f27c558e5454731d809de87c7366366a1ec0684faae17c276790725c",
+      "mode": "RGB"
+    },
+    "Paper_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Paper_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "03670751815d4c4ec2575a556821cc3b12fc4da0c2ce70c6700760b55903fc4b",
+      "mode": "L"
+    },
+    "PageEdges_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PageEdges_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "6ae798f58deb93f3c368d2ef38d508dfab43e09558f3f3367dd8d0e08c37836f",
+      "mode": "RGB"
+    },
+    "PageEdges_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PageEdges_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "11896bbb66ca41eb9a8147359d541954c697f7f9871731a2c798d321d86def8e",
+      "mode": "L"
+    },
+    "Ribbon_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Ribbon_BaseColor.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "6e9567a1890f280ae0781c228d6704c420581a097350912d0e9cc7255d19c3ff",
+      "mode": "RGB"
+    },
+    "Ribbon_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Ribbon_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "04ce3a81c853cc6871cc832ee418073887bf480d2eb2b1b352f244d5e19a2213",
+      "mode": "L"
+    },
+    "Label_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Label_BaseColor.png",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "sha256": "79a3cb35283bcd89f259b8fec9dab5e9cc8b58fe3afcd7cdf101bbae273ca8a1",
+      "mode": "RGB"
+    },
+    "Label_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Label_Roughness.png",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "sha256": "fa2e41d2a41bcb0038a9687539c56b078c63b192d3f4423eb3be4c0058168d9c",
+      "mode": "L"
+    }
+  },
+  "uv_convention": {
+    "all": "UV0 0..1; image top corresponds to V=1; no baked light or emissive",
+    "Label": "2:1 physical panel; full UV0; Chinese title 手记 with double border",
+    "PaperFront": "+Z-facing recto, image top +Y, right red margin U=.835",
+    "PaperBack": "-Z-facing verso, image top +Y, left red margin U=.165; do not mirror the texture again",
+    "PageEdges": "horizontal texture rows follow the physical layer lines; U along edge length, V along stack height",
+    "Cloth": "seamless fine weave at 14/2048 repeat per thread",
+    "Paper_rule_count": 27
+  }
+}

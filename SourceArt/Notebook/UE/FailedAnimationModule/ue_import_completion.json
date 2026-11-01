@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "run_id": "65fc49a2-c1cb-4300-b245-93b0b8585ec6",
+  "execution_mode": "exclusive_editor",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "6cc08e30446b6c78fa50af588a0c326e702563cdbb1638971ef7df88aa431e9b",
+  "started_utc": "2026-10-30T07:32:56.6451533Z",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\UE\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "editor_pid": 24536,
+  "error": "Notebook import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 320, in <module>\n    'frames': unreal.AnimationBlueprintLibrary.get_num_frames(animation)}\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'unreal' has no attribute 'AnimationBlueprintLibrary'\n",
+  "completed_utc": "2026-10-30T07:34:25.2824542Z"
+}

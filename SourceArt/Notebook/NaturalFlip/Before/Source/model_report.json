@@ -1,0 +1,1139 @@
+{
+  "asset": "Notebook",
+  "triangles": 35756,
+  "vertices": 17920,
+  "nonmanifold_edges": 0,
+  "bones": [
+    "root",
+    "FrontCover",
+    "BackCover",
+    "Page_01_00",
+    "Page_01_01",
+    "Page_01_02",
+    "Page_01_03",
+    "Page_01_04",
+    "Page_01_05",
+    "Page_01_06",
+    "Page_01_07",
+    "Page_01_08",
+    "Page_02_00",
+    "Page_02_01",
+    "Page_02_02",
+    "Page_02_03",
+    "Page_02_04",
+    "Page_02_05",
+    "Page_02_06",
+    "Page_02_07",
+    "Page_02_08",
+    "Page_03_00",
+    "Page_03_01",
+    "Page_03_02",
+    "Page_03_03",
+    "Page_03_04",
+    "Page_03_05",
+    "Page_03_06",
+    "Page_03_07",
+    "Page_03_08",
+    "Page_04_00",
+    "Page_04_01",
+    "Page_04_02",
+    "Page_04_03",
+    "Page_04_04",
+    "Page_04_05",
+    "Page_04_06",
+    "Page_04_07",
+    "Page_04_08",
+    "Page_05_00",
+    "Page_05_01",
+    "Page_05_02",
+    "Page_05_03",
+    "Page_05_04",
+    "Page_05_05",
+    "Page_05_06",
+    "Page_05_07",
+    "Page_05_08",
+    "Page_06_00",
+    "Page_06_01",
+    "Page_06_02",
+    "Page_06_03",
+    "Page_06_04",
+    "Page_06_05",
+    "Page_06_06",
+    "Page_06_07",
+    "Page_06_08",
+    "Page_07_00",
+    "Page_07_01",
+    "Page_07_02",
+    "Page_07_03",
+    "Page_07_04",
+    "Page_07_05",
+    "Page_07_06",
+    "Page_07_07",
+    "Page_07_08",
+    "Page_08_00",
+    "Page_08_01",
+    "Page_08_02",
+    "Page_08_03",
+    "Page_08_04",
+    "Page_08_05",
+    "Page_08_06",
+    "Page_08_07",
+    "Page_08_08",
+    "Page_09_00",
+    "Page_09_01",
+    "Page_09_02",
+    "Page_09_03",
+    "Page_09_04",
+    "Page_09_05",
+    "Page_09_06",
+    "Page_09_07",
+    "Page_09_08",
+    "Page_10_00",
+    "Page_10_01",
+    "Page_10_02",
+    "Page_10_03",
+    "Page_10_04",
+    "Page_10_05",
+    "Page_10_06",
+    "Page_10_07",
+    "Page_10_08",
+    "Page_11_00",
+    "Page_11_01",
+    "Page_11_02",
+    "Page_11_03",
+    "Page_11_04",
+    "Page_11_05",
+    "Page_11_06",
+    "Page_11_07",
+    "Page_11_08",
+    "Page_12_00",
+    "Page_12_01",
+    "Page_12_02",
+    "Page_12_03",
+    "Page_12_04",
+    "Page_12_05",
+    "Page_12_06",
+    "Page_12_07",
+    "Page_12_08",
+    "Page_13_00",
+    "Page_13_01",
+    "Page_13_02",
+    "Page_13_03",
+    "Page_13_04",
+    "Page_13_05",
+    "Page_13_06",
+    "Page_13_07",
+    "Page_13_08",
+    "Page_14_00",
+    "Page_14_01",
+    "Page_14_02",
+    "Page_14_03",
+    "Page_14_04",
+    "Page_14_05",
+    "Page_14_06",
+    "Page_14_07",
+    "Page_14_08",
+    "Page_15_00",
+    "Page_15_01",
+    "Page_15_02",
+    "Page_15_03",
+    "Page_15_04",
+    "Page_15_05",
+    "Page_15_06",
+    "Page_15_07",
+    "Page_15_08",
+    "Page_16_00",
+    "Page_16_01",
+    "Page_16_02",
+    "Page_16_03",
+    "Page_16_04",
+    "Page_16_05",
+    "Page_16_06",
+    "Page_16_07",
+    "Page_16_08",
+    "Spine_00",
+    "Spine_01",
+    "Spine_02",
+    "Spine_03",
+    "Spine_04",
+    "Spine_05",
+    "Spine_06",
+    "Spine_07",
+    "Spine_08"
+  ],
+  "material_slots": [
+    "M_Notebook_Kraft",
+    "M_Notebook_Cloth",
+    "M_Notebook_Endpaper",
+    "M_Notebook_PageEdges",
+    "M_Notebook_Ribbon",
+    "M_Notebook_Label",
+    "M_Notebook_Page01",
+    "M_Notebook_Page02",
+    "M_Notebook_Page03",
+    "M_Notebook_Page04",
+    "M_Notebook_Page05",
+    "M_Notebook_Page06",
+    "M_Notebook_Page07",
+    "M_Notebook_Page08",
+    "M_Notebook_Page09",
+    "M_Notebook_Page10",
+    "M_Notebook_Page11",
+    "M_Notebook_Page12",
+    "M_Notebook_Page13",
+    "M_Notebook_Page14",
+    "M_Notebook_Page15",
+    "M_Notebook_Page16",
+    "M_Notebook_Page17",
+    "M_Notebook_Page18",
+    "M_Notebook_Page19",
+    "M_Notebook_Page20",
+    "M_Notebook_Page21",
+    "M_Notebook_Page22",
+    "M_Notebook_Page23",
+    "M_Notebook_Page24",
+    "M_Notebook_Page25",
+    "M_Notebook_Page26",
+    "M_Notebook_Page27",
+    "M_Notebook_Page28",
+    "M_Notebook_Page29",
+    "M_Notebook_Page30",
+    "M_Notebook_Page31",
+    "M_Notebook_Page32"
+  ],
+  "materials": {
+    "M_Notebook_Kraft": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_Kraft_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Kraft_Roughness.png",
+      "two_sided": false,
+      "page_parameter": null
+    },
+    "M_Notebook_Cloth": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_Cloth_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Cloth_Roughness.png",
+      "two_sided": false,
+      "page_parameter": null
+    },
+    "M_Notebook_Endpaper": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_Endpaper_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": null
+    },
+    "M_Notebook_PageEdges": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PageEdges_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_PageEdges_Roughness.png",
+      "two_sided": false,
+      "page_parameter": null
+    },
+    "M_Notebook_Ribbon": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_Ribbon_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Ribbon_Roughness.png",
+      "two_sided": false,
+      "page_parameter": null
+    },
+    "M_Notebook_Label": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_Label_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Label_Roughness.png",
+      "two_sided": false,
+      "page_parameter": null
+    },
+    "M_Notebook_Page01": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page02": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page03": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page04": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page05": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page06": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page07": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page08": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page09": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page10": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page11": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page12": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page13": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page14": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page15": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page16": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page17": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page18": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page19": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page20": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page21": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page22": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page23": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page24": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page25": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page26": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page27": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page28": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page29": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page30": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page31": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperFront_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    },
+    "M_Notebook_Page32": {
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "roughness": 0.8,
+      "texture": "Textures/T_Notebook_PaperBack_BaseColor.png",
+      "roughness_texture": "Textures/T_Notebook_Paper_Roughness.png",
+      "two_sided": false,
+      "page_parameter": "PageTexture"
+    }
+  },
+  "bounds_min_m": [
+    -0.00687999976798892,
+    -0.13600000739097595,
+    0.0010000000474974513
+  ],
+  "bounds_max_m": [
+    0.15000000596046448,
+    0.11100000143051147,
+    0.011775000020861626
+  ],
+  "fps": 30,
+  "frame_start": 1,
+  "frame_end": 781,
+  "markers": {
+    "Closed": {
+      "frame": 1,
+      "bones": [
+        "FrontCover",
+        "BackCover"
+      ]
+    },
+    "Open": {
+      "frame": 60,
+      "bones": [
+        "FrontCover"
+      ]
+    },
+    "MidTurn": {
+      "frame": 85,
+      "bones": [
+        "Page_01_04"
+      ]
+    },
+    "LastPage": {
+      "frame": 710,
+      "bones": [
+        "Page_16_04"
+      ]
+    },
+    "ClosedEnd": {
+      "frame": 781,
+      "bones": [
+        "BackCover"
+      ]
+    },
+    "Spread_01": {
+      "frame": 110,
+      "bones": [
+        "Page_01_04"
+      ]
+    },
+    "Spread_02": {
+      "frame": 150,
+      "bones": [
+        "Page_02_04"
+      ]
+    },
+    "Spread_03": {
+      "frame": 190,
+      "bones": [
+        "Page_03_04"
+      ]
+    },
+    "Spread_04": {
+      "frame": 230,
+      "bones": [
+        "Page_04_04"
+      ]
+    },
+    "Spread_05": {
+      "frame": 270,
+      "bones": [
+        "Page_05_04"
+      ]
+    },
+    "Spread_06": {
+      "frame": 310,
+      "bones": [
+        "Page_06_04"
+      ]
+    },
+    "Spread_07": {
+      "frame": 350,
+      "bones": [
+        "Page_07_04"
+      ]
+    },
+    "Spread_08": {
+      "frame": 390,
+      "bones": [
+        "Page_08_04"
+      ]
+    },
+    "Spread_09": {
+      "frame": 430,
+      "bones": [
+        "Page_09_04"
+      ]
+    },
+    "Spread_10": {
+      "frame": 470,
+      "bones": [
+        "Page_10_04"
+      ]
+    },
+    "Spread_11": {
+      "frame": 510,
+      "bones": [
+        "Page_11_04"
+      ]
+    },
+    "Spread_12": {
+      "frame": 550,
+      "bones": [
+        "Page_12_04"
+      ]
+    },
+    "Spread_13": {
+      "frame": 590,
+      "bones": [
+        "Page_13_04"
+      ]
+    },
+    "Spread_14": {
+      "frame": 630,
+      "bones": [
+        "Page_14_04"
+      ]
+    },
+    "Spread_15": {
+      "frame": 670,
+      "bones": [
+        "Page_15_04"
+      ]
+    },
+    "Spread_16": {
+      "frame": 710,
+      "bones": [
+        "Page_16_04"
+      ]
+    }
+  },
+  "leaves": 16,
+  "printable_faces": 32,
+  "max_vertex_influences": 2,
+  "source_axis": "+Y page top, +Z cover front, spine along Y",
+  "files": {
+    "Notebook.blend": "c166e1359e31b71cf7789d6efdf2a941bf3e91687c33bda3aad06623fcf7cabc",
+    "Exports\\SK_Notebook.fbx": "9de952045a3c852ef8eb5069903b5c08ba5177d461fe78f2bba77cdbb6917382",
+    "Exports\\A_Notebook_FullCycle.fbx": "6245c5a833101ba9a39945174bae66e1e70712d5c1d506e076efe346efcbd34d",
+    "page_stops.json": "2d5721268a256a577b4b798782e0e2fa46b92a8ce13d89f1cc6d6f95760db785",
+    "Exports/A_Notebook_Open.fbx": "7055d0fbb4a157d169856a2768eb7c35a75c8a6f4702c0190c6a8a12eca6f8c8",
+    "Exports/A_Notebook_Turn01.fbx": "3f005d46e967073579f65c41ddfb141034b0ec8ec9299f628a399a148f9b1791",
+    "Exports/A_Notebook_Turn02.fbx": "98fdf40b23088b0f70bddd0904abfe1472097c347b4a29df11d53bcaf612859f",
+    "Exports/A_Notebook_Turn03.fbx": "baaacf20189abf046df856526460799a68802e85e696430f1ccc7eddffbcb7bf",
+    "Exports/A_Notebook_Turn04.fbx": "ab3108d6294f4a167cf8221c8746bcc36be593edb251a7e7a4edd8b4f1be6959",
+    "Exports/A_Notebook_Turn05.fbx": "9ddc432f29f4995462de214f54dff688ba924dbba68aabb3ccb52dfc7f6b0b7c",
+    "Exports/A_Notebook_Turn06.fbx": "fda78f6083eba49c7d70c457190c60a54f0967afd284b20b42b815c4f476efe5",
+    "Exports/A_Notebook_Turn07.fbx": "e6b2991e109b4b471be280c564e3a0cb28aa9f0e1620a455b3bd83b6b8c2e42a",
+    "Exports/A_Notebook_Turn08.fbx": "b2130623c3ed7b7ec529f56c600ed3cfc8c20380666b3f46c7c43a8a65bcfecf",
+    "Exports/A_Notebook_Turn09.fbx": "4cf8b64b789001cbf1a28423decc474cd1e2216b84b62e09a98b25001d99a805",
+    "Exports/A_Notebook_Turn10.fbx": "7f04af60c02f1288c4939381ba55068f75c295e99fbe584c29d589d927105b6c",
+    "Exports/A_Notebook_Turn11.fbx": "0b5cf8bfa5d5e67c6df0f49e5c7d9bc281f9e0b807ffbdabe1b31436f3374077",
+    "Exports/A_Notebook_Turn12.fbx": "68517d614f758ca8395b6c5b4f3d5795ba663911b741952b1bb4fd9c2d03743f",
+    "Exports/A_Notebook_Turn13.fbx": "f4b014b57ca8f6f440fca94a1023bd891a3c77a735806b853e248d761836ef59",
+    "Exports/A_Notebook_Turn14.fbx": "d457e6bad2dd1ac5bbc60543c7a5c0e72191d6d826d77e930f21e99984ea24f5",
+    "Exports/A_Notebook_Turn15.fbx": "810f2b21257f5a840cf3ef12f9271a359333457d3b19dce1c1fdbde4e837408e",
+    "Exports/A_Notebook_Turn16.fbx": "993d77b1498c5bf89ef36c50a300220c915d4bd3bc224c2020064989125872c2",
+    "Exports/A_Notebook_CloseLast.fbx": "ce5936b34c8353903e145075c3dcb9f5e9f56eb0dded82b2ebf31eea2745aa59",
+    "Exports\\A_Notebook_CloseLast.fbx": "fafe2dc2f7e044256dcfed630d3a31bdd906d305e7fa61f52670b93f47e19b42",
+    "Exports\\A_Notebook_Open.fbx": "960f08f7d6371d385a23505962171f84fee5daa060cacf9000ae7ec4e6bb62af",
+    "Exports\\A_Notebook_Turn01.fbx": "4a58bb4867e71eedbd91fa49245299ac5b431936d151f24bfe3887f43417bb4f",
+    "Exports\\A_Notebook_Turn02.fbx": "da96c34eef5257e8bf312a2c8033f1bc3e3459f3c6030637f36d0505cc80965c",
+    "Exports\\A_Notebook_Turn03.fbx": "47d77c1d569e056220895389eff4892f200b57fe8214b419df2612ec01010385",
+    "Exports\\A_Notebook_Turn04.fbx": "1a9cdd9cf005d0594f304c9f5fa4545134ea39d1d960a9adbe8df220503b7ec5",
+    "Exports\\A_Notebook_Turn05.fbx": "9768258798a015e598af375870b18472039291264dd044836864243b7263a496",
+    "Exports\\A_Notebook_Turn06.fbx": "699759ef5d1cb26ccb2a8317dce58a8927ca64cdb8b5b284ee0c561183b4555c",
+    "Exports\\A_Notebook_Turn07.fbx": "10793ca47f49d2483c921dae9f77e7b00f2989f598bba6cb5f50185b3ba8694d",
+    "Exports\\A_Notebook_Turn08.fbx": "6121e409e024deab3d96027b8687dbfd1632574d730cb34569345e8d30f82448",
+    "Exports\\A_Notebook_Turn09.fbx": "e2f6a670510232b5f15b3f8de5363a852d1058ee41cfcbc98e191d2aaf353c8b",
+    "Exports\\A_Notebook_Turn10.fbx": "c35c47aee75dd6baa1ec7cfdcc2e7eb5690ff73d5e9f5d9843e41a3800bccc24",
+    "Exports\\A_Notebook_Turn11.fbx": "adf90a7d85ae232932b170b0da0f7729ad5f6c2a0501375b695e9d41a708765d",
+    "Exports\\A_Notebook_Turn12.fbx": "6d48d7e08f4ab942310a8351f94484582ac07ca069d33f73c8158ef18c95e34e",
+    "Exports\\A_Notebook_Turn13.fbx": "1feb285ec382e50fe27c66a70fcff32ab291842e803b9cfbf507894453139b29",
+    "Exports\\A_Notebook_Turn14.fbx": "7ca4e7c5c72dd52ebb6a6751c8560a53235a44cdaae3de25e776811cb822f193",
+    "Exports\\A_Notebook_Turn15.fbx": "0ad0f91f901a66ab189814cc6d69934e5ed8650305ca8b15e419e69b15a7b8c8",
+    "Exports\\A_Notebook_Turn16.fbx": "047df30821a1d4c92560fbb8f7919bf255b0cba5d188ab02a64cb7b879fcd1ab"
+  },
+  "clips": [
+    {
+      "name": "A_Notebook_Open",
+      "frame_start": 1,
+      "frame_end": 49,
+      "file": "Exports/A_Notebook_Open.fbx",
+      "seconds": 1.6
+    },
+    {
+      "name": "A_Notebook_Turn01",
+      "frame_start": 71,
+      "frame_end": 99,
+      "file": "Exports/A_Notebook_Turn01.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn02",
+      "frame_start": 111,
+      "frame_end": 139,
+      "file": "Exports/A_Notebook_Turn02.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn03",
+      "frame_start": 151,
+      "frame_end": 179,
+      "file": "Exports/A_Notebook_Turn03.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn04",
+      "frame_start": 191,
+      "frame_end": 219,
+      "file": "Exports/A_Notebook_Turn04.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn05",
+      "frame_start": 231,
+      "frame_end": 259,
+      "file": "Exports/A_Notebook_Turn05.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn06",
+      "frame_start": 271,
+      "frame_end": 299,
+      "file": "Exports/A_Notebook_Turn06.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn07",
+      "frame_start": 311,
+      "frame_end": 339,
+      "file": "Exports/A_Notebook_Turn07.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn08",
+      "frame_start": 351,
+      "frame_end": 379,
+      "file": "Exports/A_Notebook_Turn08.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn09",
+      "frame_start": 391,
+      "frame_end": 419,
+      "file": "Exports/A_Notebook_Turn09.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn10",
+      "frame_start": 431,
+      "frame_end": 459,
+      "file": "Exports/A_Notebook_Turn10.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn11",
+      "frame_start": 471,
+      "frame_end": 499,
+      "file": "Exports/A_Notebook_Turn11.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn12",
+      "frame_start": 511,
+      "frame_end": 539,
+      "file": "Exports/A_Notebook_Turn12.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn13",
+      "frame_start": 551,
+      "frame_end": 579,
+      "file": "Exports/A_Notebook_Turn13.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn14",
+      "frame_start": 591,
+      "frame_end": 619,
+      "file": "Exports/A_Notebook_Turn14.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn15",
+      "frame_start": 631,
+      "frame_end": 659,
+      "file": "Exports/A_Notebook_Turn15.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_Turn16",
+      "frame_start": 671,
+      "frame_end": 699,
+      "file": "Exports/A_Notebook_Turn16.fbx",
+      "seconds": 0.9333333333333333
+    },
+    {
+      "name": "A_Notebook_CloseLast",
+      "frame_start": 721,
+      "frame_end": 769,
+      "file": "Exports/A_Notebook_CloseLast.fbx",
+      "seconds": 1.6
+    }
+  ],
+  "source_marker_bone_locations_cm": {
+    "Closed": {
+      "FrontCover": [
+        0.0,
+        -0.0,
+        0.9200000204145908
+      ],
+      "BackCover": [
+        0.0,
+        -0.0,
+        0.35000001080334187
+      ]
+    },
+    "Open": {
+      "FrontCover": [
+        0.0,
+        -0.0,
+        0.35000001080334187
+      ]
+    },
+    "MidTurn": {
+      "Page_01_04": [
+        2.5250371545553207,
+        -0.0,
+        7.307827472686768
+      ]
+    },
+    "LastPage": {
+      "Page_16_04": [
+        -7.249999791383743,
+        -0.0,
+        0.8750000037252903
+      ]
+    },
+    "ClosedEnd": {
+      "BackCover": [
+        0.0,
+        -0.0,
+        0.9200000204145908
+      ]
+    },
+    "Spread_01": {
+      "Page_01_04": [
+        -7.249999791383743,
+        -0.0,
+        0.39499998092651367
+      ]
+    },
+    "Spread_02": {
+      "Page_02_04": [
+        -7.249999791383743,
+        -0.0,
+        0.42699999175965786
+      ]
+    },
+    "Spread_03": {
+      "Page_03_04": [
+        -7.249999791383743,
+        -0.0,
+        0.45900000259280205
+      ]
+    },
+    "Spread_04": {
+      "Page_04_04": [
+        -7.249999791383743,
+        -0.0,
+        0.4909999668598175
+      ]
+    },
+    "Spread_05": {
+      "Page_05_04": [
+        -7.249999791383743,
+        -0.0,
+        0.5230000242590904
+      ]
+    },
+    "Spread_06": {
+      "Page_06_04": [
+        -7.249999791383743,
+        -0.0,
+        0.5549999885261059
+      ]
+    },
+    "Spread_07": {
+      "Page_07_04": [
+        -7.249999791383743,
+        -0.0,
+        0.5869999993592501
+      ]
+    },
+    "Spread_08": {
+      "Page_08_04": [
+        -7.249999791383743,
+        -0.0,
+        0.6190000101923943
+      ]
+    },
+    "Spread_09": {
+      "Page_09_04": [
+        -7.249999791383743,
+        -0.0,
+        0.6510000210255384
+      ]
+    },
+    "Spread_10": {
+      "Page_10_04": [
+        -7.249999791383743,
+        -0.0,
+        0.6829999852925539
+      ]
+    },
+    "Spread_11": {
+      "Page_11_04": [
+        -7.249999791383743,
+        -0.0,
+        0.7149999961256981
+      ]
+    },
+    "Spread_12": {
+      "Page_12_04": [
+        -7.249999791383743,
+        -0.0,
+        0.7470000069588423
+      ]
+    },
+    "Spread_13": {
+      "Page_13_04": [
+        -7.249999791383743,
+        -0.0,
+        0.7790000177919865
+      ]
+    },
+    "Spread_14": {
+      "Page_14_04": [
+        -7.249999791383743,
+        -0.0,
+        0.8109999820590019
+      ]
+    },
+    "Spread_15": {
+      "Page_15_04": [
+        -7.249999791383743,
+        -0.0,
+        0.8430000394582748
+      ]
+    },
+    "Spread_16": {
+      "Page_16_04": [
+        -7.249999791383743,
+        -0.0,
+        0.8750000037252903
+      ]
+    }
+  },
+  "exported_cameras": 0,
+  "exported_lights": 0,
+  "source_blender_version": "5.2.3 LTS",
+  "fbx_unit": "centimeter",
+  "fbx_armature_scale": 1,
+  "ue_import_uniform_scale": 1,
+  "source_blend_unit": "meter; unchanged; use export_ue_centimeters.py after rebuilding"
+}

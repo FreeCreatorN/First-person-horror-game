@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "run_id": "74b79e3f-d75a-44dc-935a-6b5931b118d3",
+  "execution_mode": "exclusive_editor",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "8b0b1d81be330b7dbbb8b663bc8e62dd60c4ca91cf6d17f6ed3d2cea9c5d5ca8",
+  "started_utc": "2026-10-30T08:01:24.9398900Z",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\UE\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "editor_pid": 38612,
+  "fresh_report_verified": true,
+  "report_sha256": "5751dbbaa54f7dc60c408476439e604606de03b2fa6936a0b9c7ae9c63e79b33",
+  "material_compile_failure_log_count": 0,
+  "completed_utc": "2026-10-30T08:02:28.7886941Z"
+}

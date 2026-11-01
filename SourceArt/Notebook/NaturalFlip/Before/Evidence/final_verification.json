@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-30T08:06:05.963946+00:00",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "package_count": 76,
+  "protected_files_checked": 46,
+  "triangles": 35756,
+  "bones": 156,
+  "animation_seconds": 26.0,
+  "compressed_pose_samples": 21,
+  "replaceable_page_materials": 32,
+  "independent_clips": 18,
+  "clip_endpoints_match_full_cycle": true,
+  "fresh_editor_persistence_verified": true,
+  "closed_collision_boxes": 1,
+  "source_and_packages_sha256_verified": true
+}

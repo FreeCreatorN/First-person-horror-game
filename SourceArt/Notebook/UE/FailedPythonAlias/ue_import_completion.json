@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "run_id": "76c6ea29-545e-4a5d-a0bc-93b994e916aa",
+  "execution_mode": "exclusive_editor",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "script_sha256": "e028a065e2ca36c0b20a8fc7b93413f046f10aaa92ebce2f23b1a7d94a9ad314",
+  "started_utc": "2026-10-30T07:35:12.6948340Z",
+  "report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\UE\\ue_import_report.json",
+  "normal_zero_exit": true,
+  "exit_code": 0,
+  "temporary_engine_world": "/Engine/Maps/Entry",
+  "editor_pid": 3556,
+  "error": "Notebook import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/Notebook/UE/import_ue.py\", line 209, in <module>\n    assert all(hasattr(unreal, name) for name in ('AnimationBlueprintLibrary', 'AnimPoseExtensions',\nAssertionError\n",
+  "completed_utc": "2026-10-30T07:36:07.9940182Z"
+}

@@ -1,0 +1,768 @@
+{
+  "success": true,
+  "started_utc": "2026-10-30T08:05:34.265254+00:00",
+  "editor_pid": 12220,
+  "read_only": true,
+  "assets_saved": 0,
+  "actors_spawned": 0,
+  "poses": {
+    "Closed": {
+      "FrontCover": {
+        "translation": [
+          0.0,
+          0.0,
+          0.922235369682312
+        ],
+        "rotation": [
+          0.0,
+          0.0003578066825866699,
+          0.0,
+          0.9999999403953552
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "BackCover": {
+        "translation": [
+          0.0,
+          0.0,
+          0.3500000238418579
+        ],
+        "rotation": [
+          0.0,
+          -1.1265277862548828e-05,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Open": {
+      "FrontCover": {
+        "translation": [
+          0.0,
+          0.0,
+          0.3500000238418579
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "MidTurn": {
+      "Page_01_04": {
+        "translation": [
+          2.520822525024414,
+          0.0,
+          7.305688381195068
+        ],
+        "rotation": [
+          0.0,
+          -0.4754634499549866,
+          0.0,
+          0.8797354698181152
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "LastPage": {
+      "Page_16_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.8750438690185547
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "ClosedEnd": {
+      "BackCover": {
+        "translation": [
+          0.0,
+          0.0,
+          0.9129462242126465
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_01": {
+      "Page_01_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.39499998092651367
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_02": {
+      "Page_02_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.4270000159740448
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_03": {
+      "Page_03_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.45900002121925354
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_04": {
+      "Page_04_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.4909999668598175
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_05": {
+      "Page_05_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.5230000019073486
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_06": {
+      "Page_06_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.5550000071525574
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_07": {
+      "Page_07_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.5870000123977661
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_08": {
+      "Page_08_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.6190000176429749
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_09": {
+      "Page_09_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.6510217785835266
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_10": {
+      "Page_10_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.6829632520675659
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_11": {
+      "Page_11_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.7150425314903259
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_12": {
+      "Page_12_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.7470290660858154
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_13": {
+      "Page_13_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.7790217399597168
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_14": {
+      "Page_14_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.8110100030899048
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_15": {
+      "Page_15_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.8429831266403198
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Spread_16": {
+      "Page_16_04": {
+        "translation": [
+          -7.25,
+          0.0,
+          0.8750438690185547
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "blueprints": {
+    "BP_Notebook": {
+      "component": "/Game/Yastars/Mesh/Notebook/BP_Notebook.Default__BP_Notebook_C:SkeletalMeshComponent0",
+      "mesh": "/Game/Yastars/Mesh/Notebook/SK_Notebook.SK_Notebook",
+      "animation": "/Game/Yastars/Mesh/Notebook/A_Notebook_FullCycle.A_Notebook_FullCycle",
+      "playing": false,
+      "looping": false,
+      "position_seconds": 0.0,
+      "single_node_mode": true,
+      "fixed_skeletal_bounds": true,
+      "box_collision_profile": "BlockAll",
+      "box_half_extents_cm": [
+        7.84400028642267,
+        12.350000441074371,
+        0.5387499986682087
+      ]
+    },
+    "BP_Notebook_Demo": {
+      "component": "/Game/Yastars/Mesh/Notebook/BP_Notebook_Demo.Default__BP_Notebook_Demo_C:SkeletalMeshComponent0",
+      "mesh": "/Game/Yastars/Mesh/Notebook/SK_Notebook.SK_Notebook",
+      "animation": "/Game/Yastars/Mesh/Notebook/A_Notebook_FullCycle.A_Notebook_FullCycle",
+      "playing": true,
+      "looping": false,
+      "position_seconds": 0.0,
+      "single_node_mode": true,
+      "fixed_skeletal_bounds": true,
+      "box_collision_profile": "NoCollision",
+      "box_half_extents_cm": [
+        7.84400028642267,
+        12.350000441074371,
+        0.5387499986682087
+      ]
+    }
+  },
+  "clips": {
+    "A_Notebook_Open": {
+      "seconds": 1.600000023841858,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.003916323184967041,
+          "max_rotation_dot_error": 2.3593877074290504e-08,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.006961166858673096,
+          "max_rotation_dot_error": 1.6066910291101522e-07,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn01": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.008461475372314453,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 9.5367431640625e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn02": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.00833594799041748,
+          "max_rotation_dot_error": 5.410373913328215e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.0075016021728515625,
+          "max_rotation_dot_error": 1.3113021850585938e-06,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn03": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.008433699607849121,
+          "max_rotation_dot_error": 1.3179456495038266e-06,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 9.5367431640625e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn04": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.006689965724945068,
+          "max_rotation_dot_error": 5.389797268495755e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 9.5367431640625e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn05": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.011520624160766602,
+          "max_rotation_dot_error": 2.048175780089423e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 9.5367431640625e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn06": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.006549835205078125,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 9.5367431640625e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn07": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.010413944721221924,
+          "max_rotation_dot_error": 5.556339336409977e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 9.5367431640625e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn08": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.007781028747558594,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 1.0251998901367188e-05,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn09": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.0019483566284179688,
+          "max_rotation_dot_error": 6.582553027101312e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.0064743757247924805,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn10": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.00557708740234375,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.007649719715118408,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn11": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.0019483566284179688,
+          "max_rotation_dot_error": 5.556339336409977e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.0077751874923706055,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn12": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.00557708740234375,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.007368147373199463,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn13": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.0019483566284179688,
+          "max_rotation_dot_error": 5.556339336409977e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.006920337677001953,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn14": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.0017032623291015625,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.006872951984405518,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn15": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.0019483566284179688,
+          "max_rotation_dot_error": 5.556339336409977e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.010584890842437744,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_Turn16": {
+      "seconds": 0.9333333373069763,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.001651763916015625,
+          "max_rotation_dot_error": 2.949090003312449e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.006770968437194824,
+          "max_rotation_dot_error": 3.422854177870249e-08,
+          "bone_count": 156
+        }
+      }
+    },
+    "A_Notebook_CloseLast": {
+      "seconds": 1.600000023841858,
+      "endpoints": {
+        "start": {
+          "max_translation_error_cm": 0.003918886184692383,
+          "max_rotation_dot_error": 3.4307402074773563e-07,
+          "bone_count": 156
+        },
+        "end": {
+          "max_translation_error_cm": 0.01090860366821289,
+          "max_rotation_dot_error": 0.0,
+          "bone_count": 156
+        }
+      }
+    }
+  },
+  "import_report_sha256": "5751dbbaa54f7dc60c408476439e604606de03b2fa6936a0b9c7ae9c63e79b33",
+  "script_sha256": "55f8ab8cd3cfc273929c4ae52ff586442cc71af942558ce4c9e27dc7734d9582",
+  "world": "/Engine/Maps/Entry.Entry",
+  "mesh_geometry_and_materials_persisted": true,
+  "collision": {
+    "physics_asset": null,
+    "blueprint_box_components": 2,
+    "closed_blueprint_blocks": true,
+    "demo_collision_disabled": true
+  },
+  "page_texture_overrides_persisted": 32,
+  "package_files_unchanged": true,
+  "protected_content_unchanged": true,
+  "completed_utc": "2026-10-30T08:05:34.987810+00:00"
+}

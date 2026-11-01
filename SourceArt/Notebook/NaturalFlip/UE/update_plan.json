@@ -1,0 +1,421 @@
+{
+  "success": true,
+  "checked_utc": "2026-10-30T08:51:46.031409+00:00",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "unexpected_changes": [],
+  "animations": {
+    "A_Notebook_FullCycle": {
+      "name": "A_Notebook_FullCycle",
+      "file": "Exports/A_Notebook_FullCycle.fbx",
+      "frame_start": 1,
+      "frame_end": 781,
+      "seconds": 26.0,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_FullCycle",
+      "source_sha256": "d3ae250509d0ed2ef2c0e255658c676c34c4348415a9d3a01d21608324a604ca",
+      "original_package_sha256": "f6daadcac2eb08661cfccfd54ca1c59462cd5021eb91e3db5aa9c681684e35ea",
+      "old_semantic": {
+        "sha256": "cf8956381bb1b187248759b5fd45d041a70b85316fa36c469106a63fe24d4f8a",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "d78c5b1b6305f5d238f154828bb56026e18296dfde990396fe32d830a6172ebf",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Open": {
+      "name": "A_Notebook_Open",
+      "frame_start": 1,
+      "frame_end": 49,
+      "file": "Exports/A_Notebook_Open.fbx",
+      "seconds": 1.6,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Open",
+      "source_sha256": "4ef14e3ae62db61230e0f9931cff32e361d02b3d15c150b5ee4fafda9e1fdfaa",
+      "original_package_sha256": "05cd9ef1549e7babe54d046b14a742af96cf18f2e988b13ef8f97dcf295ab000",
+      "old_semantic": {
+        "sha256": "5440a58a47609c817be66e8ce23e1254047ed84a04c24be5076f299448b7de41",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "5440a58a47609c817be66e8ce23e1254047ed84a04c24be5076f299448b7de41",
+        "channels": 1413
+      },
+      "replace": false
+    },
+    "A_Notebook_Turn01": {
+      "name": "A_Notebook_Turn01",
+      "frame_start": 71,
+      "frame_end": 107,
+      "file": "Exports/A_Notebook_Turn01.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn01",
+      "source_sha256": "f51bbd492624ee977f2f8e8a3948eff29d1a063b50f6155766b4f4ade17d804f",
+      "original_package_sha256": "8a94263e4e6a6de581e16b139dc821e77788ff5135b78bfd64a6f92391fa3895",
+      "old_semantic": {
+        "sha256": "c60220e0a11b0fd872203c6a450cc8203aaa319b5dc22afcf5d98ed58b583a87",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "033eae73d828357cfc0c1bfa19a7175ecad7d604ac1fb02bd8e652d99b99e231",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn02": {
+      "name": "A_Notebook_Turn02",
+      "frame_start": 111,
+      "frame_end": 147,
+      "file": "Exports/A_Notebook_Turn02.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn02",
+      "source_sha256": "957bd6a21a713af0e102605eb56ae684dff22ee25f8b527a6c7b1c88113580bb",
+      "original_package_sha256": "7ff721ec779aa1beb4b87f0242122b54dffb6e3a97b1567a94ac96ffeb25b105",
+      "old_semantic": {
+        "sha256": "c69a45d5445eb8b500def6a9b1feb89699ca98f20e00497df4d0039ed78ae356",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "37d621356e73a4a25653f048b712f3f36ff215460a1c741bb91d79ffcc92bbad",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn03": {
+      "name": "A_Notebook_Turn03",
+      "frame_start": 151,
+      "frame_end": 187,
+      "file": "Exports/A_Notebook_Turn03.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn03",
+      "source_sha256": "2336e09c54cdb561ea488f82cfbe398c50a86a58bc9942f2fd7bbe913bf71517",
+      "original_package_sha256": "ba96235654934680e0d59396af797f4662b58b9f79fa1772ec16d994ba24a2f0",
+      "old_semantic": {
+        "sha256": "e8a4e8b2fea5293b6e07f285a371118a52f0f836dc3c050c3c319156e9851f22",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "9347b06b7bef9efcba3e17a7b222b3af3272d5d5a77fa260737c6609657fd319",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn04": {
+      "name": "A_Notebook_Turn04",
+      "frame_start": 191,
+      "frame_end": 227,
+      "file": "Exports/A_Notebook_Turn04.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn04",
+      "source_sha256": "fecff5cf2692daee041a0564be589999cfeb326ced9bd61f33d4d52627111033",
+      "original_package_sha256": "b27c20b5777dafeca42a4da84b8ef067b70c98e5f77b043ac4ea021cd3550a5f",
+      "old_semantic": {
+        "sha256": "35c7afe035628d188eead80ea470dc2c8cf6950f09dcbccb8487fc84084b356b",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "d843936203d2e48c147cb43474ea88f987658810af797dbc7f97d8005f9b8f0e",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn05": {
+      "name": "A_Notebook_Turn05",
+      "frame_start": 231,
+      "frame_end": 267,
+      "file": "Exports/A_Notebook_Turn05.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn05",
+      "source_sha256": "7ff723cc8ab511d38da502e868cd416d544b2e2c69230cafaf6504b75730c79b",
+      "original_package_sha256": "ee9f55f5f649873c528b821630c0a4f28246b18592a82f4cec21b5fdf3c79edc",
+      "old_semantic": {
+        "sha256": "5127158d48fada75a9cff57015147e8288e822cbea71e245d3d583fa96d82412",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "e66a8c4992adf1309dd0a55f06ce09adcc75200a42044b762c9e5410d721bc88",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn06": {
+      "name": "A_Notebook_Turn06",
+      "frame_start": 271,
+      "frame_end": 307,
+      "file": "Exports/A_Notebook_Turn06.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn06",
+      "source_sha256": "0ad08603e85ce8a3f1fe0fd649ef3d51a6d279bf85990dc063523e8a82a6351a",
+      "original_package_sha256": "8759727cc22f234ef3853a85f356dae0a842fd880d8a3cd31a48a84db6b3acd3",
+      "old_semantic": {
+        "sha256": "3448d13594236302b9e467cb2bcbce50cd6c61d6c0fbddccd43f58759b9e123e",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "d5c808c444017fbf35fae2cd01a1ae746b36cb1aa5bc3077b01cf50d6863f40b",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn07": {
+      "name": "A_Notebook_Turn07",
+      "frame_start": 311,
+      "frame_end": 347,
+      "file": "Exports/A_Notebook_Turn07.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn07",
+      "source_sha256": "8001ac9efaf79a93c2f95683d686a89256e98375524aadb674684d073a786620",
+      "original_package_sha256": "bcd8765a9c9b5e69c4829825d22244fb371a38e9f0ab0ac7e88c549bcfe58522",
+      "old_semantic": {
+        "sha256": "efd15e2a03be231bd84df9448bc224267ad80712d806c7f0ab3949835303c897",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "6db066327a94b5acc5aa54d69b27614e910f6d45bf5e115e99a687b21e2b2850",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn08": {
+      "name": "A_Notebook_Turn08",
+      "frame_start": 351,
+      "frame_end": 387,
+      "file": "Exports/A_Notebook_Turn08.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn08",
+      "source_sha256": "bea2f5f03942a5a43556c01739030d5636b28a520f306655cd76d0afa7beede9",
+      "original_package_sha256": "a8506e08bc84d0870c95f7c64ef83e8264acb2b49dd4405c171d58839e386453",
+      "old_semantic": {
+        "sha256": "4fcbc501b6569ad29160c6fb4bfc1245ec369c155e34f809dcfbdae1c593b1fc",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "be7a2d98389e169547d2950b5763682df5a8716c69336e0b25e52536f09a2d3f",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn09": {
+      "name": "A_Notebook_Turn09",
+      "frame_start": 391,
+      "frame_end": 427,
+      "file": "Exports/A_Notebook_Turn09.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn09",
+      "source_sha256": "7f8c97038fc614a93cb017188cc293abac1b7e64c903777cf55b3e5c36e74ac0",
+      "original_package_sha256": "656a16f3775d3becfd934419743965dc5f518051c72cbe8da8342f2ddccef086",
+      "old_semantic": {
+        "sha256": "8e513a7da20ecbb8e361a355069a71fca6e8156341a7d779b115f251b607ebf5",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "6c5717d7726e58ffb71619d34e2c8d54570066b3170955bdfab606e6daf36ab0",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn10": {
+      "name": "A_Notebook_Turn10",
+      "frame_start": 431,
+      "frame_end": 467,
+      "file": "Exports/A_Notebook_Turn10.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn10",
+      "source_sha256": "1f7741245ba06da737197249ec66c05d21974570eaf665de7c99de957fbe302c",
+      "original_package_sha256": "8fc21e6b9af46ab202eed0d58342f0d5a6b7f7150fd61073ee763fe8d9fda19d",
+      "old_semantic": {
+        "sha256": "0259afb263973fdfb74daadcfa2eb885c0034aedf586d5ffa8e3c8a36eb6a4a2",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "637bf0e1362131f4462904d9c945ea5e911a01620a50bf255e8a64d3bbd2c240",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn11": {
+      "name": "A_Notebook_Turn11",
+      "frame_start": 471,
+      "frame_end": 507,
+      "file": "Exports/A_Notebook_Turn11.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn11",
+      "source_sha256": "9869000bc68f69aad53fe7d1f013994b07b1d1fb264d769a1a9a5f5463d260bf",
+      "original_package_sha256": "db417bcb638fc3cf4b2e2b4d4aeaf96e9cceb73df4b50b2998c438b079bb3c5a",
+      "old_semantic": {
+        "sha256": "a5340b04efbb8e79e85241a94fefdbbda1ff599d0c23c501acaac2b8e09b6080",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "a5855e22ced0d28b6ca711ed30d7cd64719104c00d7e01f731db5de728f3f7ce",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn12": {
+      "name": "A_Notebook_Turn12",
+      "frame_start": 511,
+      "frame_end": 547,
+      "file": "Exports/A_Notebook_Turn12.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn12",
+      "source_sha256": "b3449566fa9d49aff24da5a7f740417c88f376e5f3f770e162e109b98d33e9e9",
+      "original_package_sha256": "1a19db9ed555f0f44754c4d4cc1ecf787a90f07c6323a80b0759ff927be57546",
+      "old_semantic": {
+        "sha256": "a748ba56a8c39d02fc2c6f9fc3819345f28b71943a6fd5571ee83b785d8cbe59",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "e42486c30e9922208ad1ef5701c5d468c438fc5ec577fb7fe4499ca6ddbe67ef",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn13": {
+      "name": "A_Notebook_Turn13",
+      "frame_start": 551,
+      "frame_end": 587,
+      "file": "Exports/A_Notebook_Turn13.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn13",
+      "source_sha256": "cb029df9d5ba397d7ad01a843778b513dffb89738ca279d2257282c044d11478",
+      "original_package_sha256": "a8bdad687bdec3b81cf63ad93b9b9490603a03ccd5006e611a9f0a938ccd09f4",
+      "old_semantic": {
+        "sha256": "d6a8bb3bfb6d5abf7e171c1bc278d4ec679e4ec9ee6821bb23742ba5b95e923a",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "a485edac33aa277c6ac44968213ee286127427b0f9f7a022ce4ed8af30e5089e",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn14": {
+      "name": "A_Notebook_Turn14",
+      "frame_start": 591,
+      "frame_end": 627,
+      "file": "Exports/A_Notebook_Turn14.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn14",
+      "source_sha256": "c412a3ac42fad23372ef9a57b884b18209905f3b3567e79715c3d17c88b34f60",
+      "original_package_sha256": "37c9deff0f21a65b3bdf4b211d1cb908cd1b6ae51bdb039447ed8d98a7a04859",
+      "old_semantic": {
+        "sha256": "4753dffe16ea6959afe813b8e6ca2ae4d31424e3297f67eaa761119b6f877a89",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "d9df84aefa67d016684bd7197680e8de7a607253f6b66166097bafbab4dde79d",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn15": {
+      "name": "A_Notebook_Turn15",
+      "frame_start": 631,
+      "frame_end": 667,
+      "file": "Exports/A_Notebook_Turn15.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn15",
+      "source_sha256": "a8d55aacb7df38775807c55b5db8c19f1d1d9e62531a3eb78c1cc1de79cfb834",
+      "original_package_sha256": "5cbfad631ca07abe90ba4a31d2af21c8ff0c786aa41c95a8a41b5c28f454d624",
+      "old_semantic": {
+        "sha256": "641d3083187549942dfd3be934e0214ff8dfa1e2d8024c043ee230af1a4a53ae",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "c6255f3d4897cd68162a6ddd597256b7cfab494f6800fd84aaff0202d67dd787",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_Turn16": {
+      "name": "A_Notebook_Turn16",
+      "frame_start": 671,
+      "frame_end": 707,
+      "file": "Exports/A_Notebook_Turn16.fbx",
+      "seconds": 1.2,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn16",
+      "source_sha256": "404148232a3508ce657e1590eb1226ab85cc72636632635bfb08f065d92cef02",
+      "original_package_sha256": "b879c0be2cff721bafe49042201aac834059fd54c938949da5ac0a58c3895a1b",
+      "old_semantic": {
+        "sha256": "5ae8b5152b85cae97b06609d188df2e6f76249472359993b7faaa2d2304afd32",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "fd1cf76ad4772ff6b47b3aa6cb9fea6fc18094cfaa1555c089f94be8496f12b5",
+        "channels": 1413
+      },
+      "replace": true
+    },
+    "A_Notebook_CloseLast": {
+      "name": "A_Notebook_CloseLast",
+      "frame_start": 721,
+      "frame_end": 769,
+      "file": "Exports/A_Notebook_CloseLast.fbx",
+      "seconds": 1.6,
+      "package": "/Game/Yastars/Mesh/Notebook/A_Notebook_CloseLast",
+      "source_sha256": "54f1d705698b7d01c97f5fe4f81c20a4e4e99ad0f0cb4c0b4916c1b974db650b",
+      "original_package_sha256": "755c603212145c71fdd6ccb32f24a7ea125bdb05c674d7195074fde79c648d0c",
+      "old_semantic": {
+        "sha256": "ed6dc32202cc6b8f259b579f877b47c32a0ace1f6c0affcef01a1ff356a6b920",
+        "channels": 1413
+      },
+      "new_semantic": {
+        "sha256": "ed6dc32202cc6b8f259b579f877b47c32a0ace1f6c0affcef01a1ff356a6b920",
+        "channels": 1413
+      },
+      "replace": false
+    }
+  },
+  "sources_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn05.fbx": "7ff723cc8ab511d38da502e868cd416d544b2e2c69230cafaf6504b75730c79b",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn10.fbx": "1f7741245ba06da737197249ec66c05d21974570eaf665de7c99de957fbe302c",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn02.fbx": "957bd6a21a713af0e102605eb56ae684dff22ee25f8b527a6c7b1c88113580bb",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn04.fbx": "fecff5cf2692daee041a0564be589999cfeb326ced9bd61f33d4d52627111033",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn16.fbx": "404148232a3508ce657e1590eb1226ab85cc72636632635bfb08f065d92cef02",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn09.fbx": "7f8c97038fc614a93cb017188cc293abac1b7e64c903777cf55b3e5c36e74ac0",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn13.fbx": "cb029df9d5ba397d7ad01a843778b513dffb89738ca279d2257282c044d11478",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Open.fbx": "4ef14e3ae62db61230e0f9931cff32e361d02b3d15c150b5ee4fafda9e1fdfaa",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_FullCycle.fbx": "d3ae250509d0ed2ef2c0e255658c676c34c4348415a9d3a01d21608324a604ca",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Notebook.blend": "7bb5202f68f670ee2adf82dc4dc4b5e450d3813b78a2120becd567d11eae79df",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\SK_Notebook.fbx": "d5cebd23afed1079b869ae0c5d2d01b9788acb4754b2aa280b68b41f28778f4f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn14.fbx": "c412a3ac42fad23372ef9a57b884b18209905f3b3567e79715c3d17c88b34f60",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_CloseLast.fbx": "54f1d705698b7d01c97f5fe4f81c20a4e4e99ad0f0cb4c0b4916c1b974db650b",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn06.fbx": "0ad08603e85ce8a3f1fe0fd649ef3d51a6d279bf85990dc063523e8a82a6351a",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn03.fbx": "2336e09c54cdb561ea488f82cfbe398c50a86a58bc9942f2fd7bbe913bf71517",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn11.fbx": "9869000bc68f69aad53fe7d1f013994b07b1d1fb264d769a1a9a5f5463d260bf",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn07.fbx": "8001ac9efaf79a93c2f95683d686a89256e98375524aadb674684d073a786620",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn08.fbx": "bea2f5f03942a5a43556c01739030d5636b28a520f306655cd76d0afa7beede9",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn15.fbx": "a8d55aacb7df38775807c55b5db8c19f1d1d9e62531a3eb78c1cc1de79cfb834",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\model_report.json": "55d90438e514fdaa2c3545990367c8a095469d0c463c8437f47eb2e8aa1986d7",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn01.fbx": "f51bbd492624ee977f2f8e8a3948eff29d1a063b50f6155766b4f4ade17d804f",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn12.fbx": "b3449566fa9d49aff24da5a7f740417c88f376e5f3f770e162e109b98d33e9e9"
+  },
+  "before_manifest_sha256": "8f9cbcee23bf32e1c347ade31cf3117dae2fcf606a6d5248466b978c0fded806",
+  "preflight_scripts_sha256": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\UE\\prepare_update.py": "16ca992513f962419e16a4c8ec1305b05b75f68dbbe9fb2be8ac26297b3a025a",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\UE\\fbx_semantics.py": "bae6aa78ada0b092b8403e1c50378c83fd20eae6cc7ee986568ce1e00dba4692"
+  },
+  "replace_names": [
+    "A_Notebook_FullCycle",
+    "A_Notebook_Turn01",
+    "A_Notebook_Turn02",
+    "A_Notebook_Turn03",
+    "A_Notebook_Turn04",
+    "A_Notebook_Turn05",
+    "A_Notebook_Turn06",
+    "A_Notebook_Turn07",
+    "A_Notebook_Turn08",
+    "A_Notebook_Turn09",
+    "A_Notebook_Turn10",
+    "A_Notebook_Turn11",
+    "A_Notebook_Turn12",
+    "A_Notebook_Turn13",
+    "A_Notebook_Turn14",
+    "A_Notebook_Turn15",
+    "A_Notebook_Turn16"
+  ],
+  "preserve_names": [
+    "A_Notebook_Open",
+    "A_Notebook_CloseLast"
+  ]
+}

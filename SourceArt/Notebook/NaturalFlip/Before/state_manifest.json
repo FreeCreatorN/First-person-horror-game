@@ -1,0 +1,707 @@
+{
+  "created_utc": "2026-10-30T08:32:23.152284+00:00",
+  "target_root": "/Game/Yastars/Mesh/Notebook",
+  "packages": {
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn12": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn12.uasset",
+      "sha256": "1a19db9ed555f0f44754c4d4cc1ecf787a90f07c6323a80b0759ff927be57546",
+      "bytes": 192685,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn12.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page03": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page03.uasset",
+      "sha256": "ac7e8783bf96b4b99f4bc75edbc4db9abb978407f5c746a0451db9689886feb3",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn04": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn04.uasset",
+      "sha256": "b27c20b5777dafeca42a4da84b8ef067b70c98e5f77b043ac4ea021cd3550a5f",
+      "bytes": 192786,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn04.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page12": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page12.uasset",
+      "sha256": "d591eb3b5d328be2cbafef714052be663b42acff2cacc418b18e429d050a47e6",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn05": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn05.uasset",
+      "sha256": "ee9f55f5f649873c528b821630c0a4f28246b18592a82f4cec21b5fdf3c79edc",
+      "bytes": 192849,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn05.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page13": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page13.uasset",
+      "sha256": "661b4946569b978e052bc6f338e90737b631ccd752bf1a41ddd2222ddfa89292",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Cloth": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_Cloth.uasset",
+      "sha256": "d0102c0efe4b8fdd8125548ae5b49b90c4af0c76243b485dbf58b9defd10687a",
+      "bytes": 11180,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn15": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn15.uasset",
+      "sha256": "5cbfad631ca07abe90ba4a31d2af21c8ff0c786aa41c95a8a41b5c28f454d624",
+      "bytes": 192654,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn15.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Ribbon_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Ribbon_BaseColor.uasset",
+      "sha256": "c12622e1b6ec40d81f61cc6909eed3a5219bf6a7c3363e1e5c84688bd131d48f",
+      "bytes": 984503,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Label_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Label_Roughness.uasset",
+      "sha256": "8862cd25ef529e654a825978cd725b7ca718f2c3ff583f524bfa024889adfdf1",
+      "bytes": 730246,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page21": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page21.uasset",
+      "sha256": "19273b733669efa7884fd0c59e6934eab2c3ab5a254fe8d9dcc54c80e33f789e",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/SK_Notebook_Skeleton": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\SK_Notebook_Skeleton.uasset",
+      "sha256": "e3e32f343f7c4e48cbd4c7f965aa507d01d928bd205b9c903979c89ba9334eab",
+      "bytes": 33506,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page15": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page15.uasset",
+      "sha256": "eb32607fc349f565f91edf39810b9c18ffd252a2becf654ba0d0eea7d082299b",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page27": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page27.uasset",
+      "sha256": "38502cc1a12979e85d9aff830e17ccdfa7f29c54cb8629add3846d862b64baa9",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page09": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page09.uasset",
+      "sha256": "789da71dc8f5ffb4172bbe621e3ed342e090c4e0e3877b5e968cb91943b00bc7",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn06": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn06.uasset",
+      "sha256": "8759727cc22f234ef3853a85f356dae0a842fd880d8a3cd31a48a84db6b3acd3",
+      "bytes": 192735,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn06.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page06": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page06.uasset",
+      "sha256": "ea4dd82f139709dd8fb4dfc9a79e25810d8e635b86d9dc6f5bdb4aa8de538018",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn13": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn13.uasset",
+      "sha256": "a8bdad687bdec3b81cf63ad93b9b9490603a03ccd5006e611a9f0a938ccd09f4",
+      "bytes": 192791,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn13.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_CloseLast": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_CloseLast.uasset",
+      "sha256": "755c603212145c71fdd6ccb32f24a7ea125bdb05c674d7195074fde79c648d0c",
+      "bytes": 227070,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_CloseLast.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page11": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page11.uasset",
+      "sha256": "ff74e275c1b10246ed2854043a6e72ca20256956fece5cdec0c8038ba8cd2908",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn11": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn11.uasset",
+      "sha256": "db417bcb638fc3cf4b2e2b4d4aeaf96e9cceb73df4b50b2998c438b079bb3c5a",
+      "bytes": 192688,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn11.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/BP_Notebook_Demo": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\BP_Notebook_Demo.uasset",
+      "sha256": "5d8c9b4815827b5b5c24e9e6b76633d934f0cda864d5ef39e4fe7fed6be4ce22",
+      "bytes": 33607,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Paper_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Paper_Roughness.uasset",
+      "sha256": "73c3ea37fe6cae9089bac2f4bab754e4bdad2a36ed7128ed3f318cb023488768",
+      "bytes": 731471,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page26": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page26.uasset",
+      "sha256": "640ce1466d671f0bf56b91293135bf79391ee2f8032f558f1e2c774567368302",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/SK_Notebook": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\SK_Notebook.uasset",
+      "sha256": "2b7a817caee4ffdcb38a1477bb70fd1bea6a42858453c4eb0b545ac4f2ce8306",
+      "bytes": 5182159,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page18": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page18.uasset",
+      "sha256": "b4a5facbae8c2cc8e4e2efa12f7ea18d8252410ff778422388ac0e20618048d8",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn02": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn02.uasset",
+      "sha256": "7ff721ec779aa1beb4b87f0242122b54dffb6e3a97b1567a94ac96ffeb25b105",
+      "bytes": 192745,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn02.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn14": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn14.uasset",
+      "sha256": "37c9deff0f21a65b3bdf4b211d1cb908cd1b6ae51bdb039447ed8d98a7a04859",
+      "bytes": 192674,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn14.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn08": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn08.uasset",
+      "sha256": "a8506e08bc84d0870c95f7c64ef83e8264acb2b49dd4405c171d58839e386453",
+      "bytes": 192720,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn08.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Kraft_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Kraft_Roughness.uasset",
+      "sha256": "5eb0e0a4b82e9d4a1e524fa625bdc582df4ff01cf63789f4dab4d67f4ec74c6c",
+      "bytes": 846404,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Label_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Label_BaseColor.uasset",
+      "sha256": "3dfec858a77ac39f130cf673c4efbcfbdacf67e4b118f3dd19bc059642cdb25d",
+      "bytes": 329900,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page24": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page24.uasset",
+      "sha256": "70e181903bc7efbfd01fefa02161d27a1f955c0b175e484eb49c33ce478fe4b8",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Label": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_Label.uasset",
+      "sha256": "1e75b120128d975a38dc1a28cbe2944bfa61e071ae3a3dc74817c2471c26d10c",
+      "bytes": 12062,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PageEdges_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_PageEdges_Roughness.uasset",
+      "sha256": "00d3916e6b6a22c062ac14c3cc2acdfa87294c9a114eeddfd47284767c40523b",
+      "bytes": 731582,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Page": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_Page.uasset",
+      "sha256": "fa922df574fe45d173e91c0ff231abb40685c0c990d3b21248d0d8280caa0f5d",
+      "bytes": 11618,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page07": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page07.uasset",
+      "sha256": "5726a0022f50d618e2c6b75c057c7cb4fe1cc836659b2738907b4cfaf826cadf",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/BP_Notebook": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\BP_Notebook.uasset",
+      "sha256": "0766e8d2163f2694c45b8f310fc38dee554e4af8340c292f67cb3e072a714181",
+      "bytes": 33424,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page23": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page23.uasset",
+      "sha256": "191b8c4cd32811ee276618604110ca412fcadd51737fa9ae10eb561617ebf587",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Open": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Open.uasset",
+      "sha256": "05cd9ef1549e7babe54d046b14a742af96cf18f2e988b13ef8f97dcf295ab000",
+      "bytes": 198982,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Open.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Kraft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_Kraft.uasset",
+      "sha256": "631e73682c555c434b56ce356615c4322f9a1c9280d926ee01fe30d9e7ffe69b",
+      "bytes": 11527,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Endpaper_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Endpaper_BaseColor.uasset",
+      "sha256": "a678ccd97fbf293b2e36250adcaae936422f2ef2c075186c5fb60cac0687c955",
+      "bytes": 1970835,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page05": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page05.uasset",
+      "sha256": "8c3bf7eeb7bee471cb4cd68a2a7d3cbfb00d3d2160df5117d7267260ed136108",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperFront_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_PaperFront_BaseColor.uasset",
+      "sha256": "d540ff9bab90e07074dc07ef74cb266f5916aa43f9bde0fd872e8e48b26dd293",
+      "bytes": 2034145,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn01": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn01.uasset",
+      "sha256": "8a94263e4e6a6de581e16b139dc821e77788ff5135b78bfd64a6f92391fa3895",
+      "bytes": 192541,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn01.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn09": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn09.uasset",
+      "sha256": "656a16f3775d3becfd934419743965dc5f518051c72cbe8da8342f2ddccef086",
+      "bytes": 192701,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn09.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Ribbon_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Ribbon_Roughness.uasset",
+      "sha256": "6ba752f84a94e7c3dee98bb6eed12827831c464feed76b58a6de429a8cffe7ff",
+      "bytes": 845656,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page01": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page01.uasset",
+      "sha256": "8109d4ccc305e7130a6cdd04f4e071a02672010166efb8c8346592134298dc35",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PageEdges_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_PageEdges_BaseColor.uasset",
+      "sha256": "a212224876615083da85aef5d583b4c4531cd930e724fe07449fdb8add0bef63",
+      "bytes": 733271,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page25": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page25.uasset",
+      "sha256": "c73c09f1b4ca7d7156b8a33ea518510cc272148c90748baefc9b436d5fa90806",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page30": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page30.uasset",
+      "sha256": "ba5751c4ac880505792a06dc7393fcd4a849f7ed51b9ee0590413958df896232",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page17": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page17.uasset",
+      "sha256": "225fe185ed79716376d100607e2b40de70faa0bc45acda8b51e615e2605088d9",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page02": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page02.uasset",
+      "sha256": "0390048c2832533596b80a44dff377fbf370e4d4b8afdd109cae0d4cdfd51892",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn10": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn10.uasset",
+      "sha256": "8fc21e6b9af46ab202eed0d58342f0d5a6b7f7150fd61073ee763fe8d9fda19d",
+      "bytes": 192873,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn10.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page32": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page32.uasset",
+      "sha256": "781e0664938c5ffd9c76f92a2853a0133acef6f49ee93f0047f2d66ecd7c5ed9",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Cloth_Roughness": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Cloth_Roughness.uasset",
+      "sha256": "065f50bee7ef168dda66a741ccde536ddcf53e8a4346d824423ff10766cb2d5f",
+      "bytes": 845771,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page04": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page04.uasset",
+      "sha256": "8a9c18dbc47f0e1c47aa0c132dfe00ca1e2175e39beb348f24a755daaab47f6a",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page08": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page08.uasset",
+      "sha256": "de92633ffdc74f93d85875bebe68e04c6b6b4b73d8aefc2d8bbc43927b215ef1",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Cloth_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Cloth_BaseColor.uasset",
+      "sha256": "4701fc41389b81973573b8f7322aea0357af4d0faf6f7dde104aa22a40f5c7af",
+      "bytes": 976874,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page28": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page28.uasset",
+      "sha256": "7c64ecdb9d4713d5294889328e90ed76ade443f0118164912e6fcbf4d77538f4",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page10": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page10.uasset",
+      "sha256": "fa6f20b42f551fd555f85b787b85d10b5ac44b8ad02c43cf257465677e85bca6",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_FullCycle": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_FullCycle.uasset",
+      "sha256": "f6daadcac2eb08661cfccfd54ca1c59462cd5021eb91e3db5aa9c681684e35ea",
+      "bytes": 19469365,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_FullCycle.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page31": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page31.uasset",
+      "sha256": "d0f2293477783140cb56723c8cb991a68c2598611a8955c8fb219bee934f5b4d",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page20": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page20.uasset",
+      "sha256": "00cd3e55fc068903ba6a9885c0099d7d2af75f2ba8c02cf62ee3231b5ee56896",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn16": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn16.uasset",
+      "sha256": "b879c0be2cff721bafe49042201aac834059fd54c938949da5ac0a58c3895a1b",
+      "bytes": 192619,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn16.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_PageEdges": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_PageEdges.uasset",
+      "sha256": "e92bd848fc5ae5b503f9e0e98d05af825f3482ccd2a37f7a7e1d2e279f252b77",
+      "bytes": 11643,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page14": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page14.uasset",
+      "sha256": "f4c4485a9e0036b2e58470f9343b21d4ac8fb06e3b08e9f1aad4d746772d9027",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_Kraft_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_Kraft_BaseColor.uasset",
+      "sha256": "21fa3704deafc802244e987e92286d437a3b4343f1743e1ca9fc4a747d2f5d83",
+      "bytes": 2801469,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn07": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn07.uasset",
+      "sha256": "bcd8765a9c9b5e69c4829825d22244fb371a38e9f0ab0ac7e88c549bcfe58522",
+      "bytes": 192782,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn07.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/A_Notebook_Turn03": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn03.uasset",
+      "sha256": "ba96235654934680e0d59396af797f4662b58b9f79fa1772ec16d994ba24a2f0",
+      "bytes": 192903,
+      "replace_allowed": true,
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Packages\\Yastars\\Mesh\\Notebook\\A_Notebook_Turn03.uasset"
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page22": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page22.uasset",
+      "sha256": "c7be59390b0af2e2ec7daa5c3f725de2062d11d7d2f4861e7d7a5f207da2fdec",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Ribbon": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_Ribbon.uasset",
+      "sha256": "f94071662bde61119c3f37bfe798ae684124ee01b2e47fef29346c86075fab22",
+      "bytes": 11489,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page16": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page16.uasset",
+      "sha256": "156ceadb3f408e87aaae8774323acae34dba2a9428016427abfa4c9e5bece264",
+      "bytes": 8052,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page19": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page19.uasset",
+      "sha256": "45609f1bb423cd5beacc9b9c08870a9953594cf76c0137749ff9756f3325d472",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/MI_Notebook_Page29": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\MI_Notebook_Page29.uasset",
+      "sha256": "745ca64136c123d0f2098982a4d56a1b5bfe2f4835866b9a0ba1bdd10c297b16",
+      "bytes": 8053,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Textures/T_Notebook_PaperBack_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Textures\\T_Notebook_PaperBack_BaseColor.uasset",
+      "sha256": "b9388420baa4c71bde53e3e186be43e2fbb346e18482cd856fdebdcc06bad063",
+      "bytes": 2032364,
+      "replace_allowed": false
+    },
+    "/Game/Yastars/Mesh/Notebook/Materials/M_Notebook_Endpaper": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\Notebook\\Materials\\M_Notebook_Endpaper.uasset",
+      "sha256": "769d7359ecc6e2fa0c6bc5dd87dd5423066c2599222b1ae141e465202d10527a",
+      "bytes": 11634,
+      "replace_allowed": false
+    }
+  },
+  "source_files": {
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Notebook.blend": {
+      "sha256": "c166e1359e31b71cf7789d6efdf2a941bf3e91687c33bda3aad06623fcf7cabc",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Notebook.blend"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\SK_Notebook.fbx": {
+      "sha256": "9de952045a3c852ef8eb5069903b5c08ba5177d461fe78f2bba77cdbb6917382",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\SK_Notebook.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Cloth_BaseColor.png": {
+      "sha256": "8506262620033ee9eefe2d7cf6b73909c853452a82938c8a4fda32b8a2acb953",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Cloth_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Cloth_Roughness.png": {
+      "sha256": "92065f6ef7ce45bbbfba154f5337b3a906a7574f305c9783cdd1b4d748abc7e5",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Cloth_Roughness.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\export_ue_centimeters.py": {
+      "sha256": "84f8fd2e0b0ac265395eeed6deef6cf81b99884c44ba9b09a926de92082adb8e",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\export_ue_centimeters.py"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\render_flip_preview.py": {
+      "sha256": "8d1a66952f16ebda6dc453c86127f14acd0b69196b019747a99f33e6fe55a565",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\render_flip_preview.py"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_FullCycle.fbx": {
+      "sha256": "6245c5a833101ba9a39945174bae66e1e70712d5c1d506e076efe346efcbd34d",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_FullCycle.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\model_report.json": {
+      "sha256": "c9e24aedeabc38a2275167dda0711a5c12e3546662893c6dded412baaf8f635a",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\model_report.json"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Endpaper_BaseColor.png": {
+      "sha256": "102273eec3ce9ecd177d822f30a33df2a7833d68345f2402c05179b5e388f606",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Endpaper_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn05.fbx": {
+      "sha256": "9768258798a015e598af375870b18472039291264dd044836864243b7263a496",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn05.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn09.fbx": {
+      "sha256": "e2f6a670510232b5f15b3f8de5363a852d1058ee41cfcbc98e191d2aaf353c8b",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn09.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PageEdges_BaseColor.png": {
+      "sha256": "6ae798f58deb93f3c368d2ef38d508dfab43e09558f3f3367dd8d0e08c37836f",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_PageEdges_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PageEdges_Roughness.png": {
+      "sha256": "11896bbb66ca41eb9a8147359d541954c697f7f9871731a2c798d321d86def8e",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_PageEdges_Roughness.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_CloseLast.fbx": {
+      "sha256": "fafe2dc2f7e044256dcfed630d3a31bdd906d305e7fa61f52670b93f47e19b42",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_CloseLast.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn02.fbx": {
+      "sha256": "da96c34eef5257e8bf312a2c8033f1bc3e3459f3c6030637f36d0505cc80965c",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn02.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Label_Roughness.png": {
+      "sha256": "fa2e41d2a41bcb0038a9687539c56b078c63b192d3f4423eb3be4c0058168d9c",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Label_Roughness.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Label_BaseColor.png": {
+      "sha256": "79a3cb35283bcd89f259b8fec9dab5e9cc8b58fe3afcd7cdf101bbae273ca8a1",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Label_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PaperFront_BaseColor.png": {
+      "sha256": "e5712a054d54589950d1342782275479d8ed25a2b339bcd91490e437d6e12060",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_PaperFront_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn12.fbx": {
+      "sha256": "6d48d7e08f4ab942310a8351f94484582ac07ca069d33f73c8158ef18c95e34e",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn12.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn07.fbx": {
+      "sha256": "10793ca47f49d2483c921dae9f77e7b00f2989f598bba6cb5f50185b3ba8694d",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn07.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn04.fbx": {
+      "sha256": "1a9cdd9cf005d0594f304c9f5fa4545134ea39d1d960a9adbe8df220503b7ec5",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn04.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn06.fbx": {
+      "sha256": "699759ef5d1cb26ccb2a8317dce58a8927ca64cdb8b5b284ee0c561183b4555c",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn06.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\finish_exports.py": {
+      "sha256": "f32f4fe06fb9fa495af122f0020bc7be19dbdf7d22c07bfd64a7a353cdc1ad00",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\finish_exports.py"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Ribbon_Roughness.png": {
+      "sha256": "04ce3a81c853cc6871cc832ee418073887bf480d2eb2b1b352f244d5e19a2213",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Ribbon_Roughness.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Paper_Roughness.png": {
+      "sha256": "03670751815d4c4ec2575a556821cc3b12fc4da0c2ce70c6700760b55903fc4b",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Paper_Roughness.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\cli_seed.py": {
+      "sha256": "f79444b86fb0fe13484e1feaea5a9163b5fc5013bcda03fd1f3b1a390bf4a5ec",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\cli_seed.py"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Ribbon_BaseColor.png": {
+      "sha256": "6e9567a1890f280ae0781c228d6704c420581a097350912d0e9cc7255d19c3ff",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Ribbon_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Kraft_Roughness.png": {
+      "sha256": "d370178c6f0ffa942bff5fc7cd9ce415da18cf92210ab3a2250e2947decf5a8b",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Kraft_Roughness.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\CONTINUE.md": {
+      "sha256": "af3ce91831c0c3eda4fbec6c5facd707a7f8a5a8c3836db8de4fbfad5b980431",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\CONTINUE.md"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn13.fbx": {
+      "sha256": "1feb285ec382e50fe27c66a70fcff32ab291842e803b9cfbf507894453139b29",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn13.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_Kraft_BaseColor.png": {
+      "sha256": "ced0cbfb4272c13b82c5665f6853718f2fb58f674a502b3e0de1f4e06d2d6604",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_Kraft_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Textures\\T_Notebook_PaperBack_BaseColor.png": {
+      "sha256": "2cb89171f27c558e5454731d809de87c7366366a1ec0684faae17c276790725c",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Textures\\T_Notebook_PaperBack_BaseColor.png"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn10.fbx": {
+      "sha256": "c35c47aee75dd6baa1ec7cfdcc2e7eb5690ff73d5e9f5d9843e41a3800bccc24",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn10.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn01.fbx": {
+      "sha256": "4a58bb4867e71eedbd91fa49245299ac5b431936d151f24bfe3887f43417bb4f",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn01.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn08.fbx": {
+      "sha256": "6121e409e024deab3d96027b8687dbfd1632574d730cb34569345e8d30f82448",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn08.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\build.py": {
+      "sha256": "ac40400721c7179ab1ec29f0c2e58aac93042ec8e9791675eb234bd4b2715b92",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\build.py"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn15.fbx": {
+      "sha256": "0ad0f91f901a66ab189814cc6d69934e5ed8650305ca8b15e419e69b15a7b8c8",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn15.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn03.fbx": {
+      "sha256": "47d77c1d569e056220895389eff4892f200b57fe8214b419df2612ec01010385",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn03.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn14.fbx": {
+      "sha256": "7ca4e7c5c72dd52ebb6a6751c8560a53235a44cdaae3de25e776811cb822f193",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn14.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn11.fbx": {
+      "sha256": "adf90a7d85ae232932b170b0da0f7729ad5f6c2a0501375b695e9d41a708765d",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn11.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Turn16.fbx": {
+      "sha256": "047df30821a1d4c92560fbb8f7919bf255b0cba5d188ab02a64cb7b879fcd1ab",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Turn16.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\Exports\\A_Notebook_Open.fbx": {
+      "sha256": "960f08f7d6371d385a23505962171f84fee5daa060cacf9000ae7ec4e6bb62af",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\Exports\\A_Notebook_Open.fbx"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\README.md": {
+      "sha256": "b4a535e6c7af3ba9c18b5f1c67cc48a6e4b58108ab79eb141865df7b19e52d3c",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\README.md"
+    },
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\make_textures.py": {
+      "sha256": "f9eab8ab94d66f9ffde71e49b2794604bee25ea79559d6f2c71fd171641cfca5",
+      "backup": "D:\\UE\\Project\\HorrorGame\\SourceArt\\Notebook\\NaturalFlip\\Before\\Source\\make_textures.py"
+    }
+  },
+  "protected_files": {
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\CharacterPreview\\M_InventoryCharacter.uasset": "47f7e90242cfdd5292b54ee1136062ccfcbd6227c4fc734d320ac2e9206157ac",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_NotebookPhotoItem.uasset": "9e99e4f5e6ff927ce387a63d22940ce4bc2bfd5d9989b7242574c2ee0e0edf15",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Key.uasset": "da30082cb11dc7875f9723eb110c4c847d4da61f8ff09e89e94765fb3d5de458",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_Crosshair.uasset": "93d941015277b599be6257071f0de0209e7a224013dc21eaa5c7da981c9cc96a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_InventorySlot.uasset": "6d95fecb95dfe4b9ed0aad3965ca2fe804eb255c323a864cbd7871c6f1591ba4",
+    "D:\\UE\\Project\\HorrorGame\\Content\\FirstPerson\\Lvl_FirstPerson.umap": "3d476154bf4cac39a59ec91b88f5ed6889af113a1ecf9690a01c89d8bc32d258",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_Notebook.uasset": "7f8c87f3241117e93523e268d6b0338e8f6732a8a187bdfcca46e8b7726ebef2",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Variant_Horror\\Lvl_Horror.umap": "47a9e8e5a9bb634eaf4a781eb994d94ffe5d248683f08e41a5ee49c852211e4b",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Water.uasset": "75d1ab9447cb2af6e1ba017147501ce1319705700286a456574d8f0cd3c39a1f",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\ST_NotebookPageData.uasset": "741d5262fdd9f9636a46a7cbd9cf1db5724683f37a8338afd62bc58c082275b6",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Flashlight.uasset": "7fec25be5bbdc52c2e5a91afde5544fbf2f75dfb555fcf3d876e800e79a5752a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\BP_ItemPickup.uasset": "485029af7cf4e702186961d138fbcbaa66b40e1c06d9203061c7c4ce240c8800",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_ItemTooltip.uasset": "8fb601a82857aa44b57ed2176962d26a09ae2941bd64b56eb118728df6dccc31",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\E_NotebookElementType.uasset": "ce820a24d39a0bd596605471b4eabe93381711b9bc4e02e603f7dcc595f6aa44",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\E_NotebookRegion.uasset": "3fbce9d379b5457bf234455b007c98fe7f815b4c84267e63bd8b958b7c7ae5d9",
+    "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEngine.ini": "c605f5792d15cf5b5d430f1f82a6268973e39030a42c35de8ffefcdb6495f670",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_Notebook_v1.uasset": "c415e1fa6527a711ed56a693babac647e4fb06522a99bab69ce2400a15c7098a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\DT_NotebookPhotoCatalog.uasset": "eda478bb2c7b447e8194412ce16c160db81b5655dabf4ac4a54f3f28febca5e8",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_InteractPrompt.uasset": "cc81c1ceceeef7a399c477b2e10dcb9e2c3db9cb876d3cdb77d6d00c680792bf",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Maps\\Blockout\\L_Chapter01_Blockout.umap": "d15f1749800233495469acb72e60a7c0d837319eecf57fb14bff25fdbbd9de09",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\ST_NotebookElementData.uasset": "16154ee75ef0858fc7c36b0374c228acc9325c6653851cec0e60f2e0b157f652",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_StatusHUD.uasset": "8d8e3ab948cb163c0ecdc62eb525b99c0cc96062ab729bb0977c799f1a2a424c",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_NotebookEntry.uasset": "0b4a7b8d9ca504061520576a9de2b7bf4d730fad3391eb51367b8d623290fd38",
+    "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEditor.ini": "51ce417afc6f41414ad8ff286f1a7e411333231b5407d382a91fd0d9a3fb50fd",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Maps\\Scenes\\L_OldTownSchoolStreet.umap": "2acfdc88d7223be269ab4e9b4a536715dbf0f248d3d8a7c42793fee73431b536",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Woodfloor.uasset": "41dfb9411df99ad274d6813efd592ae87bbd8360596aa261e12e5317ef1abc7a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\ST_InventorySlot.uasset": "6883e8af248c6b51b4663fed0b9b3ee2c719cae3a9144cc26468a80fa9317de3",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\ST_NotebookPhotoAsset.uasset": "49e61409a327787ef49a6885f81a19a2ed92922dd06565bdda19a743fa5ebd2e",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_Inventory.uasset": "8d4703d9635264141e57d2b5cb134a1cee3b933d5d5a5225076dbd9eb05bcd9c",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\Foot.uasset": "a3fbb439cdafd2b51cb3dc5ca472bc8756ca2b5558fe99792c7357ad8a067039",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\ue5-car.uasset": "6993025895c4d8870ccb44a4cbbd941654366e2b0fef5e4b541b54d955bbec85",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_NotebookPhotoPicker.uasset": "9f8fe404df5da954e92c5f7cd9cbc902dedbfd638e8214a939a52755573fcf9a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\CodexGenerated\\OldTownVersion2\\Maps\\\u8001\u57ce\u533a\u7b2c\u4e8c\u7248.umap": "151e9409f265b3c0d890589a800129037bd318600741c59ee942bdcd2bffb80d",
+    "D:\\UE\\Project\\HorrorGame\\Config\\DefaultEditorPerProjectUserSettings.ini": "d0992e75056c6858059bb7fbfcedeb6881b1c1498414518f602e84273d262e59",
+    "D:\\UE\\Project\\HorrorGame\\Config\\DefaultGame.ini": "e6c38f78b8989e4d22ee67dadc3cc2553719746db48988fd3342b4cbe034ebd7",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_ClueReader.uasset": "e00685803d565b51b4746103407fafb1712d96df64ad25f28fc05e9fd2598eae",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\T_UI_Hydration_Icon1.uasset": "de8efb6d0e916afc12ef3dbe500086d109614b5960aa4c6d4ed00f5e4f2c1cc9",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\Icons\\T_UI_Satiety_Icon1.uasset": "56b9ccb6f6a577d4e5e91bf14a25be69939f3e3cf79ee8f72258ecee3047b12b",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\E_ItemUseType.uasset": "5498fcfdb72e34da41cc424b2a49a7d58a59ae2cc374d28e546f01a5edaa9717",
+    "D:\\UE\\Project\\HorrorGame\\Config\\DefaultInput.ini": "24a5a55f97b4ddf2912acde45b252e5a477199cb2b35eeafa74bad4c9c78a4e0",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_GameOver.uasset": "848cf4835b6cb309b5869faa634cb79eee9eeb759b07e6a2bb5e4c92513a85e6",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_NotebookPlacedPhoto.uasset": "0ca1b5b4ec753cb929005edcb04acdd4d09d0ccc1eda7b1359119a11d1dc518a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Items\\ST_ItemData.uasset": "d7639784355a9909e7ef359303b93045d5394633ad6943a05a54608a55024b3a",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\Maps\\L_Main.umap": "f9e59cdd89bbf1c6a0240be26265146a6fdedc73e86c11888942673ff70a3bdc",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\WBP_InventoryItem.uasset": "6bdd33c323cc60e5bf7a15492407b56e9beb0746a2ef872cea4f9506e271c623",
+    "D:\\UE\\Project\\HorrorGame\\Content\\Yastar\\UI\\CharacterPreview\\RT_InventoryCharacter.uasset": "573e174f2a14577f558bccef7d32c983b82af4c35805a7bfe099a16ad2adfe36"
+  }
+}
