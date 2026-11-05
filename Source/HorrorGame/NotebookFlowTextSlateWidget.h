@@ -28,9 +28,36 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
     FVector2D PaperSize = FVector2D(700.0f, 1000.0f);
 
-    // 横线间距
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
-    float LineSpacing = 24.0f;
+    // ==================== 文字样式 ====================
+
+    // 字体大小
+    UPROPERTY(EditAnywhere, BlueprintReadWrite,
+        Category = "Notebook|Text Style",
+        meta = (ClampMin = "6", ClampMax = "72"))
+    int32 FontSize = 14;
+
+    // 行高比例
+    UPROPERTY(EditAnywhere, BlueprintReadWrite,
+        Category = "Notebook|Text Style",
+        meta = (ClampMin = "0.1", ClampMax = "3.0"))
+    float LineHeightRatio = 1.4f;
+
+    // 字间距
+    UPROPERTY(EditAnywhere, BlueprintReadWrite,
+        Category = "Notebook|Text Style",
+        meta = (ClampMin = "-10", ClampMax = "100"))
+    int32 LetterSpacing = 0;
+
+    // 字体颜色
+    UPROPERTY(EditAnywhere, BlueprintReadWrite,
+        Category = "Notebook|Text Style")
+    FColor FontColor = FColor(38, 38, 38, 255);
+
+    // 笔记本实际横线间距
+    UPROPERTY(EditAnywhere, BlueprintReadWrite,
+        Category = "Notebook|Layout",
+        meta = (ClampMin = "1.0"))
+    float RuleSpacing = 30.0f;
 
     // 照片避让区域
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
@@ -58,7 +85,7 @@ public:
     UFUNCTION(BlueprintCallable, Category = "Notebook|Layout")
     void SetPaperLayout(
         FVector2D InPaperSize,
-        float InLineSpacing
+        float InRuleSpacing
     );
 
 protected:
@@ -72,6 +99,9 @@ protected:
     ) override;
 
 private:
+
+    // 根据字号和行高比例计算实际行距
+    float GetEffectiveTextLineHeight() const;
 
     TSharedPtr<SNotebookFlowTextEditor> MySlateWidget;
 
