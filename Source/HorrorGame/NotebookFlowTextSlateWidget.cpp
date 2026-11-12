@@ -133,7 +133,41 @@ void UNotebookFlowTextSlateWidget::SetPhotoExclusionSquares(
 
     UE_LOG(
         LogTemp,
-        Warning,
+        Display,
+        TEXT("[NotebookFlow][UMG] Widget=%s | Squares=%d"),
+        *GetName(),
+        InSquares.Num()
+    );
+
+    for (int32 i = 0; i < InSquares.Num(); ++i)
+    {
+        const FNotebookPhotoExclusionSquare& Square = InSquares[i];
+
+        UE_LOG(
+            LogTemp,
+            Display,
+            TEXT("[NotebookFlow][UMG] Widget=%s | Photo=%d | Center=(%.2f, %.2f) | HalfExtent=%.2f"),
+            *GetName(),
+            i,
+            Square.Center.X,
+            Square.Center.Y,
+            Square.HalfExtent
+        );
+    }
+
+    UE_LOG(
+        LogTemp,
+        Display,
+        TEXT("[NotebookFlow] Widget=%s | Paper=(%.1f,%.1f) | Squares=%d"),
+        *GetName(),
+        PaperSize.X,
+        PaperSize.Y,
+        InSquares.Num()
+    );
+
+    UE_LOG(
+        LogTemp,
+        Display,
         TEXT("[NotebookFlow] UMG received photo count: %d"),
         InSquares.Num()
     );
@@ -142,7 +176,7 @@ void UNotebookFlowTextSlateWidget::SetPhotoExclusionSquares(
     {
         UE_LOG(
             LogTemp,
-            Warning,
+            Display,
             TEXT("[NotebookFlow] Slate widget is valid")
         );
         MySlateWidget->SetPhotoExclusionSquares(InSquares);
@@ -151,7 +185,7 @@ void UNotebookFlowTextSlateWidget::SetPhotoExclusionSquares(
     {
         UE_LOG(
             LogTemp,
-            Warning,
+            Display,
             TEXT("[NotebookFlow] Slate widget is NOT valid")
         );
     }

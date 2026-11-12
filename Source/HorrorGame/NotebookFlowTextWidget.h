@@ -13,11 +13,19 @@ struct FNotebookPhotoExclusionSquare
 {
 	GENERATED_BODY()
 
-	//正方形中心，使用纸张局部坐标
+	// 避让区域中心
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
 	FVector2D Center = FVector2D::ZeroVector;
 
-	//正方形半边长
+	// 横向半宽
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
+	float HalfWidth = 0.0f;
+
+	// 纵向半高
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
+	float HalfHeight = 0.0f;
+
+	// 保留旧字段，兼容原有蓝图和数据
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Notebook|Layout")
 	float HalfExtent = 0.0f;
 };

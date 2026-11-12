@@ -17,6 +17,7 @@ void UNotebookFlowTextWidget::SetPhotoExclusionSquares(
 	const TArray<FNotebookPhotoExclusionSquare>& InSquares)
 {
 	PhotoExclusionSquares = InSquares;
+
 }
 
 void UNotebookFlowTextWidget::ClearPhotoExclusionSquares()
@@ -167,7 +168,23 @@ UNotebookFlowTextWidget::CalculatePhotoExclusionSquare(
 	const float BoundingHalfWidth = AbsCos * HalfWidth + AbsSin * HalfHeight;
 	const float BoundingHalfHeight = AbsSin * HalfWidth + AbsCos * HalfHeight;
 
-	//取较大值，形成能够完整包围照片的正方形
+	UE_LOG(
+		LogTemp,
+		Display,
+		TEXT("[NotebookFlow] PhotoSize=(%.2f, %.2f) | Rotation=%.2f | BoundingHalfWidth=%.2f | BoundingHalfHeight=%.2f | HalfExtent=%.2f"),
+		PhotoSize.X,
+		PhotoSize.Y,
+		PhotoRotation,
+		BoundingHalfWidth,
+		BoundingHalfHeight,
+		FMath::Max(BoundingHalfWidth, BoundingHalfHeight)
+	);
+
+	// 分别保存旋转后的矩形包围范围
+	Result.HalfWidth = BoundingHalfWidth;
+	Result.HalfHeight = BoundingHalfHeight;
+
+	// 保留旧字段，兼容原有蓝图
 	Result.HalfExtent = FMath::Max(
 		BoundingHalfWidth,
 		BoundingHalfHeight

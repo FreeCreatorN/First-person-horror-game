@@ -56,6 +56,32 @@ public:
     {
         PhotoExclusionSquares = InSquares;
 
+        UE_LOG(
+            LogTemp,
+            Display,
+            TEXT("[NotebookFlow] Layout received Squares=%d | PaperSize=(%.1f, %.1f) | RuleSpacing=%.1f"),
+            PhotoExclusionSquares.Num(),
+            PaperSize.X,
+            PaperSize.Y,
+            RuleSpacing
+        );
+
+        for (int32 i = 0; i < PhotoExclusionSquares.Num(); ++i)
+        {
+            const FNotebookPhotoExclusionSquare& Square =
+                PhotoExclusionSquares[i];
+
+            UE_LOG(
+                LogTemp,
+                Display,
+                TEXT("[NotebookFlow] Photo=%d | Center=(%.2f, %.2f) | HalfExtent=%.2f"),
+                i,
+                Square.Center.X,
+                Square.Center.Y,
+                Square.HalfExtent
+            );
+        }
+
         RebuildLineSegments();
 
         DirtyLayout();
@@ -78,10 +104,10 @@ public:
 
     virtual void UpdateLayout() override
     {
-        //先让UE生成原始文字布局
+        // 先让 UE 生成原始文字布局
         FSlateTextLayout::UpdateLayout();
 
-        // 纸张尺寸无效时，不执行自定义排版
+        // 检查布局参数
         if (PaperSize.X <= KINDA_SMALL_NUMBER ||
             PaperSize.Y <= KINDA_SMALL_NUMBER ||
             RuleSpacing <= KINDA_SMALL_NUMBER ||
@@ -90,28 +116,29 @@ public:
             return;
         }
 
-        //保存原始文字
+        // 保存原始文字布局
         const TArray<FTextLayout::FLineView> SourceViews = LineViews;
 
-        //清空原来的视觉行
+        // 清空原来的视图
         LineViews.Reset();
 
-        //当前纸张上的物理横线编号
+        // 当前物理行编号
         int32 PhysicalRow = 0;
 
-        const TArray < FTextLayout::FLineModel >& Models =
+        const TArray<FTextLayout::FLineModel>& Models =
             GetLineModels();
 
-        //逐条处理原始文字行
+        // 逐条处理原始文字行
         for (const FTextLayout::FLineView& SourceView : SourceViews)
         {
-            const TArray<TSharedRef<ILayoutBlock>>& SourceBlocks = SourceView.Blocks;
+            const TArray<TSharedRef<ILayoutBlock>>& SourceBlocks =
+                SourceView.Blocks;
 
             TArray<int32> BlockCursors;
 
             bool bHasText = false;
 
-            //初始化每个文字块的读取位置
+            // 初始化每个文字块的读取位置
             for (const TSharedRef<ILayoutBlock>& Block : SourceBlocks)
             {
                 const FTextRange Range = Block->GetTextRange();
@@ -124,7 +151,7 @@ public:
                 }
             }
 
-            //空行也必须保留，方便后续定位光标
+            // 空行保留
             if (!bHasText)
             {
                 FTextLayout::FLineView EmptyView = SourceView;
@@ -153,14 +180,21 @@ public:
                 continue;
             }
 
-            const FString& SourceText = *Models[SourceView.ModelIndex].Text;
+            const FString& SourceText =
+                *Models[SourceView.ModelIndex].Text;
 
             int32 BlockIndex = 0;
 
-            //当前逻辑文字行可能占据多个物理横线
+            // 防止连续遇到无法容纳文字的行时无限循环
+            int32 ConsecutiveNoProgressRows = 0;
+
+            const int32 MaxNoProgressRows =
+                FMath::Max(1, LineSegmentsByRow.Num() + 1);
+
+            // 只要还有未处理的文字，就继续排版
             while (BlockIndex < SourceBlocks.Num())
             {
-                //跳过已近处理完成的文字块
+                // 跳过已经处理完的文字块
                 while (BlockIndex < SourceBlocks.Num() &&
                     BlockCursors[BlockIndex] >=
                     SourceBlocks[BlockIndex]->GetTextRange().EndIndex)
@@ -173,17 +207,30 @@ public:
                     break;
                 }
 
-                //获取当前横线的可写区间
+                // 获取当前物理行的可写区域
                 const TArray<FNotebookTextLineSegment> Segments =
                     GetSegmentsForRow(PhysicalRow);
 
-                // 当前横线没有可写区域，直接尝试下一行
+                // 当前整行都被照片遮挡
                 if (Segments.IsEmpty())
                 {
                     ++PhysicalRow;
+                    ++ConsecutiveNoProgressRows;
+
+                    if (ConsecutiveNoProgressRows > MaxNoProgressRows)
+                    {
+                        UE_LOG(
+                            LogTemp,
+                            Error,
+                            TEXT("[NotebookFlow] Too many blocked rows.")
+                        );
+                        break;
+                    }
+
                     continue;
                 }
 
+                // 每条物理行只创建一个 VisualLine
                 FTextLayout::FLineView VisualLine = SourceView;
 
                 VisualLine.Blocks.Reset();
@@ -193,34 +240,63 @@ public:
 
                 bool bMadeProgress = false;
 
-                //依次填充当前横线上的所有可写区间
+                // 遍历当前物理行的所有可写区域
                 for (const FNotebookTextLineSegment& Segment : Segments)
                 {
+                    // 无效区域直接跳过
+                    if (Segment.EndX <=
+                        Segment.StartX + KINDA_SMALL_NUMBER)
+                    {
+                        continue;
+                    }
+
                     float CurrentX = Segment.StartX;
 
-                    while (CurrentX < Segment.EndX - KINDA_SMALL_NUMBER)
+                    // 当前区域还有可写空间
+                    while (CurrentX <
+                        Segment.EndX - KINDA_SMALL_NUMBER)
                     {
+                        // 跳过已完成的文字块
                         while (BlockIndex < SourceBlocks.Num() &&
                             BlockCursors[BlockIndex] >=
                             SourceBlocks[BlockIndex]->GetTextRange().EndIndex)
-                        {   ++BlockIndex;   }
+                        {
+                            ++BlockIndex;
+                        }
 
                         if (BlockIndex >= SourceBlocks.Num())
+                        {
                             break;
+                        }
 
-                        const TSharedRef<ILayoutBlock> SourceBlock = SourceBlocks[BlockIndex];
+                        const TSharedRef<ILayoutBlock> SourceBlock =
+                            SourceBlocks[BlockIndex];
 
-                        const FTextRange SourceRange = SourceBlock->GetTextRange();
+                        const FTextRange SourceRange =
+                            SourceBlock->GetTextRange();
 
-                        const int32 CurrentIndex = BlockCursors[BlockIndex];
+                        const int32 CurrentIndex =
+                            BlockCursors[BlockIndex];
 
-                        const TSharedRef<IRun> Run = SourceBlock->GetRun();
+                        // 防止读取位置超出文字块范围
+                        if (CurrentIndex < SourceRange.BeginIndex ||
+                            CurrentIndex >= SourceRange.EndIndex)
+                        {
+                            ++BlockIndex;
+                            continue;
+                        }
 
-                        const FLayoutBlockTextContext TextContext = SourceBlock->GetTextContext();
+                        const TSharedRef<IRun> Run =
+                            SourceBlock->GetRun();
 
-                        const TSharedPtr<IRunRenderer> Renderer = SourceBlock->GetRenderer();
+                        const FLayoutBlockTextContext TextContext =
+                            SourceBlock->GetTextContext();
 
-                        const float AvailableWidth = Segment.EndX - CurrentX;
+                        const TSharedPtr<IRunRenderer> Renderer =
+                            SourceBlock->GetRenderer();
+
+                        const float AvailableWidth =
+                            Segment.EndX - CurrentX;
 
                         int32 FitEnd = CurrentIndex;
 
@@ -229,7 +305,7 @@ public:
                             SourceBlock->GetSize().Y
                         );
 
-                        //使用真实文字宽度寻找能够放入的文字范围
+                        // 测量当前区域能够容纳的文字
                         while (FitEnd < SourceRange.EndIndex)
                         {
                             const int32 NextIndex = GetNextTextIndex(
@@ -237,6 +313,11 @@ public:
                                 FitEnd,
                                 SourceRange.EndIndex
                             );
+
+                            if (NextIndex <= FitEnd)
+                            {
+                                break;
+                            }
 
                             const FVector2D CandidateSize =
                                 Run->Measure(
@@ -248,7 +329,9 @@ public:
 
                             if (CandidateSize.X >
                                 AvailableWidth + KINDA_SMALL_NUMBER)
+                            {
                                 break;
+                            }
 
                             FitEnd = NextIndex;
 
@@ -261,10 +344,14 @@ public:
                             );
                         }
 
-                        //当前区间放不下下一个字符，尝试下一个区间
-                        if (FitEnd == CurrentIndex) break;
+                        // 当前区域放不下下一个字符
+                        // 不换物理行，继续尝试下一个可写区域
+                        if (FitEnd == CurrentIndex)
+                        {
+                            break;
+                        }
 
-                        //创建当前区间对应的文字块
+                        // 创建当前区域对应的文字块
                         TSharedRef<ILayoutBlock> NewBlock =
                             FDefaultLayoutBlock::Create(
                                 Run,
@@ -274,7 +361,7 @@ public:
                                 Renderer
                             );
 
-                        //设置文字块在纸张上的水平位置
+                        // 设置文字块在当前物理行的位置
                         NewBlock->SetLocationOffset(
                             FVector2D(
                                 CurrentX,
@@ -282,81 +369,134 @@ public:
                             )
                         );
 
+                        // 添加到当前 VisualLine
                         VisualLine.Blocks.Add(NewBlock);
 
-                        if (RowStartIndex == INDEX_NONE) RowStartIndex = CurrentIndex;;
+                        if (RowStartIndex == INDEX_NONE)
+                        {
+                            RowStartIndex = CurrentIndex;
+                        }
 
                         RowEndIndex = FitEnd;
 
-                        //更新当前文字块读取位置
+                        // 更新文字读取位置
                         BlockCursors[BlockIndex] = FitEnd;
 
                         CurrentX += FitSize.X;
 
                         bMadeProgress = true;
 
-                        //当前文字块已近全部处理完
-                        if (FitEnd >= SourceRange.EndIndex) ++BlockIndex;
-                        else break;
+                        // 当前文字块处理完成
+                        if (FitEnd >= SourceRange.EndIndex)
+                        {
+                            ++BlockIndex;
+                        }
+                        else
+                        {
+                            // 当前区域放不下剩余文字
+                            // 继续尝试当前行的下一个区域
+                            break;
+                        }
 
-                        if (BlockIndex >= SourceBlocks.Num()) break;
+                        if (BlockIndex >= SourceBlocks.Num())
+                        {
+                            break;
+                        }
                     }
 
-                    // 当前横线没有容纳任何文字，跳到下一横线
-                    if (!bMadeProgress)
+                    if (BlockIndex >= SourceBlocks.Num())
                     {
-                        ++PhysicalRow;
-                        continue;
+                        break;
+                    }
+                }
+
+                // 当前物理行所有区域都无法容纳文字
+                if (!bMadeProgress)
+                {
+                    ++PhysicalRow;
+                    ++ConsecutiveNoProgressRows;
+
+                    if (ConsecutiveNoProgressRows > MaxNoProgressRows)
+                    {
+                        UE_LOG(
+                            LogTemp,
+                            Error,
+                            TEXT("[NotebookFlow] Unable to fit text. Check PaperSize.X and font size.")
+                        );
+                        break;
                     }
 
-                    //设置当前视觉行的文字范围
-                    VisualLine.Range = FTextRange(
+                    continue;
+                }
+
+                // 检查文字范围是否合法
+                if (RowStartIndex == INDEX_NONE ||
+                    RowEndIndex <= RowStartIndex)
+                {
+                    UE_LOG(
+                        LogTemp,
+                        Error,
+                        TEXT("[NotebookFlow] Invalid text range: %d - %d"),
                         RowStartIndex,
                         RowEndIndex
                     );
 
-                    //设置当前视觉行的位置
-                    VisualLine.Offset = FVector2D(
-                        0.0f,
-                        PhysicalRow * RuleSpacing
-                    );
+                    break;
+                }
 
-                    VisualLine.Size = FVector2D(
-                        PaperSize.X,
-                        FMath::Max(
-                            TextLineHeight,
-                            SourceView.TextHeight
-                        )
-                    );
+                // 设置当前物理行的文字范围
+                VisualLine.Range = FTextRange(
+                    RowStartIndex,
+                    RowEndIndex
+                );
 
-                    VisualLine.TextHeight = FMath::Max(
+                // 设置当前物理行的位置
+                VisualLine.Offset = FVector2D(
+                    0.0f,
+                    PhysicalRow * RuleSpacing
+                );
+
+                // 设置文字布局高度
+                VisualLine.Size = FVector2D(
+                    PaperSize.X,
+                    FMath::Max(
                         TextLineHeight,
                         SourceView.TextHeight
-                    );
+                    )
+                );
 
+                VisualLine.TextHeight = FMath::Max(
+                    TextLineHeight,
+                    SourceView.TextHeight
+                );
 
-                    VisualLine.JustificationWidth = PaperSize.X;
+                VisualLine.JustificationWidth = PaperSize.X;
 
-                    LineViews.Add(MoveTemp(VisualLine));
+                // 一条物理行只添加一次
+                LineViews.Add(MoveTemp(VisualLine));
 
-                    const FTextLayout::FLineView& AddedLine = LineViews.Last();
+                const FTextLayout::FLineView& AddedLine =
+                    LineViews.Last();
 
-                    UE_LOG(
-                        LogTemp,
-                        Warning,
-                        TEXT("[NotebookFlow] Added View: Row=%d | Range=%d-%d | OffsetY=%.2f | Blocks=%d"),
-                        PhysicalRow,
-                        AddedLine.Range.BeginIndex,
-                        AddedLine.Range.EndIndex,
-                        AddedLine.Offset.Y,
-                        AddedLine.Blocks.Num()
-                    );
+                UE_LOG(
+                    LogTemp,
+                    Display,
+                    TEXT("[NotebookFlow] Added View: Row=%d | Range=%d-%d | OffsetY=%.2f | Blocks=%d"),
+                    PhysicalRow,
+                    AddedLine.Range.BeginIndex,
+                    AddedLine.Range.EndIndex,
+                    AddedLine.Offset.Y,
+                    AddedLine.Blocks.Num()
+                );
 
-                    ++PhysicalRow;
-                }
+                // 当前行已经成功处理
+                ConsecutiveNoProgressRows = 0;
+
+                // 所有区域处理完毕，才进入下一物理行
+                ++PhysicalRow;
             }
 
-            //根据新的视觉行重新计算文字高亮与选择区域
+            // 更新文字高亮和选区
             UpdateHighlights();
         }
     }
@@ -410,23 +550,51 @@ private:
 
             for (const FNotebookPhotoExclusionSquare& Square : PhotoExclusionSquares)
             {
-                const float Half = FMath::Max(
-                    0.0f,
-                    Square.HalfExtent
-                );
+                float HalfWidth = Square.HalfWidth;
+                float HalfHeight = Square.HalfHeight;
 
-                if (Half <= KINDA_SMALL_NUMBER)
+                // 打印照片最终传入 Slate 的位置和避让半尺寸
+                if (LineIndex == 0)
+                {
+                    UE_LOG(
+                        LogTemp,
+                        Display,
+                        TEXT("[NotebookFlow][Check] Center=(%.2f, %.2f) | HalfWidth=%.2f | HalfHeight=%.2f"),
+                        Square.Center.X,
+                        Square.Center.Y,
+                        HalfWidth,
+                        HalfHeight
+                    );
+                }
+
+                // 兼容旧的正方形数据
+                if (HalfWidth <= KINDA_SMALL_NUMBER ||
+                    HalfHeight <= KINDA_SMALL_NUMBER)
+                {
+                    HalfWidth = Square.HalfExtent;
+                    HalfHeight = Square.HalfExtent;
+                }
+
+                if (HalfWidth <= KINDA_SMALL_NUMBER ||
+                    HalfHeight <= KINDA_SMALL_NUMBER)
                 {
                     continue;
                 }
 
-                const float SquareTop = Square.Center.Y - Half;
+                // 检查横向半宽和纵向半高是否有效
+                if (HalfWidth <= KINDA_SMALL_NUMBER ||
+                    HalfHeight <= KINDA_SMALL_NUMBER)
+                {
+                    continue;
+                }
 
-                const float SquareBottom = Square.Center.Y + Half;
+                const float PhotoTop = Square.Center.Y - HalfHeight;
+
+                const float PhotoBottom = Square.Center.Y + HalfHeight;
 
                 //判断照片是否与当前横线相交
-                if (SquareBottom <= RowTop ||
-                    SquareTop >= RowBottom)
+                if (PhotoBottom <= RowTop ||
+                    PhotoTop >= RowBottom)
                 {
                     continue;
                 }
@@ -434,20 +602,62 @@ private:
                 FNotebookTextLineSegment Blocked;
 
                 Blocked.StartX = FMath::Clamp(
-                    Square.Center.X - Half,
+                    Square.Center.X - HalfWidth,
                     0.0f,
                     PaperSize.X
                 );
 
                 Blocked.EndX = FMath::Clamp(
-                    Square.Center.X + Half,
+                    Square.Center.X + HalfWidth,
                     0.0f,
                     PaperSize.X
+                );
+
+                // 打印当前行实际避让范围
+                UE_LOG(
+                    LogTemp,
+                    Display,
+                    TEXT("[NotebookFlow][Check] Row=%d | RowY=%.2f-%.2f | PhotoY=%.2f-%.2f | BlockedX=%.2f-%.2f | Width=%.2f"),
+                    LineIndex,
+                    RowTop,
+                    RowBottom,
+                    PhotoTop,
+                    PhotoBottom,
+                    Blocked.StartX,
+                    Blocked.EndX,
+                    Blocked.EndX - Blocked.StartX
                 );
 
                 if (Blocked.EndX > Blocked.StartX)
                 {
                     BlockedRanges.Add(Blocked);
+                }
+            }
+
+            if (BlockedRanges.Num() > 0)
+            {
+                UE_LOG(
+                    LogTemp,
+                    Display,
+                    TEXT("[NotebookFlow] Row=%d | RowTop=%.2f | RowBottom=%.2f | BlockedRanges=%d"),
+                    LineIndex,
+                    RowTop,
+                    RowBottom,
+                    BlockedRanges.Num()
+                );
+
+                for (const FNotebookTextLineSegment& Blocked : BlockedRanges)
+                {
+                    UE_LOG(
+                        LogTemp,
+                        Display,
+                        TEXT("[NotebookFlow][Editor=%p] PaperWidth=%.2f | BlockedX=%.2f-%.2f | Width=%.2f"),
+                        this,
+                        PaperSize.X,
+                        Blocked.StartX,
+                        Blocked.EndX,
+                        Blocked.EndX - Blocked.StartX
+                    );
                 }
             }
 
@@ -511,43 +721,59 @@ private:
                 LineSegmentsByRow[LineIndex].Add(Available);
             }
 
-            /*
-            for (const FNotebookTextLineSegment& Range
-                : MergedRanges)
+            if (BlockedRanges.Num() > 0)
             {
-                if (Range.StartX >
-                    CursorX + KINDA_SMALL_NUMBER)
-                {
-                    FNotebookTextLineSegment Available;
+                const auto& Segments = LineSegmentsByRow[LineIndex];
 
-                    Available.StartX = CursorX;
-                    Available.EndX = Range.StartX;
-
-                    LineSegmentsByRow[LineIndex].Add(
-                        Available
-                    );
-                }
-
-                CursorX = FMath::Max(
-                    CursorX,
-                    Range.EndX
+                UE_LOG(
+                    LogTemp,
+                    Display,
+                    TEXT("[NotebookFlow] PaperWidth=%.1f | Row=%d | Available=%d"),
+                    PaperSize.X,
+                    LineIndex,
+                    Segments.Num()
                 );
 
-                //最后一个照片区域右侧
-                if (PaperSize.X >
-                    CursorX + KINDA_SMALL_NUMBER)
+                for (const FNotebookTextLineSegment& Segment : Segments)
                 {
-                    FNotebookTextLineSegment Available;
-
-                    Available.StartX = CursorX;
-                    Available.EndX = PaperSize.X;
-
-                    LineSegmentsByRow[LineIndex].Add(
-                        Available
+                    UE_LOG(
+                        LogTemp,
+                        Display,
+                        TEXT("[NotebookFlow] Available X: %.2f - %.2f"),
+                        Segment.StartX,
+                        Segment.EndX
                     );
                 }
             }
-            */
+
+            // 输出当前横线生成的可写区间数量
+            UE_LOG(
+                LogTemp,
+                Display,
+                TEXT("[NotebookFlow] Row=%d AvailableSegments=%d"),
+                LineIndex,
+                LineSegmentsByRow[LineIndex].Num()
+            );
+
+            // 输出每一个可写区间的实际位置
+            for (int32 i = 0;
+                i < LineSegmentsByRow[LineIndex].Num();
+                ++i)
+            {
+                const FNotebookTextLineSegment& Segment =
+                    LineSegmentsByRow[LineIndex][i];
+
+                UE_LOG(
+                    LogTemp,
+                    Display,
+                    TEXT("[NotebookFlow] Row=%d Segment=%d StartX=%.1f EndX=%.1f Width=%.1f"),
+                    LineIndex,
+                    i,
+                    Segment.StartX,
+                    Segment.EndX,
+                    Segment.EndX - Segment.StartX
+                );
+            }
         }
     }
 
