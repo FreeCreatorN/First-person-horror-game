@@ -1,0 +1,47 @@
+{
+  "description": "Original fictional ice-cream freezer enamel print; unlit base-color artwork",
+  "resolution": [
+    2048,
+    1024
+  ],
+  "base_color": "T_FreezerFront_BaseColor.png",
+  "roughness": "T_FreezerFront_Roughness.png",
+  "print_mask": "T_FreezerFront_PrintMask.png",
+  "color_spaces": {
+    "base_color": "sRGB",
+    "roughness": "Non-Color",
+    "print_mask": "Non-Color"
+  },
+  "palette_srgb_255": {
+    "ivory": [
+      193,
+      190,
+      178
+    ],
+    "blue": [
+      71,
+      106,
+      128
+    ],
+    "light_blue": [
+      107,
+      137,
+      150
+    ],
+    "red": [
+      165,
+      102,
+      91
+    ],
+    "yellow": [
+      179,
+      151,
+      91
+    ]
+  },
+  "sha256": {
+    "T_FreezerFront_BaseColor.png": "c6eb66af08b77719a83f76b46bbfb91e0d93a36a2ebb7b3f6d077ef3804b476a",
+    "T_FreezerFront_Roughness.png": "005f6236f757f7b743bd755d813ff15753364a1ce0d10e7301855065e8ac6be7",
+    "T_FreezerFront_PrintMask.png": "f24c36b7d80321c5dc4213ab0b6f5cbd9fd7a56d433443c29f23d4cf239cafd9"
+  }
+}

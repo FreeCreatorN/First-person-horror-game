@@ -1,0 +1,64 @@
+{
+  "description": "Original generic red painted beverage cooler artwork; no lighting or emission baked",
+  "header": {
+    "resolution": [
+      1024,
+      384
+    ],
+    "base_color": "T_BeverageHeader_BaseColor.png",
+    "roughness": "T_BeverageHeader_Roughness.png",
+    "print_mask": "T_BeverageHeader_PrintMask.png",
+    "uv": "front-facing rectangular sign, U left-to-right, V bottom-to-top"
+  },
+  "body_side": {
+    "resolution": [
+      700,
+      2048
+    ],
+    "base_color": "T_BeverageSide_BaseColor.png",
+    "roughness": "T_BeverageSide_Roughness.png",
+    "print_mask": "T_BeverageSide_PrintMask.png",
+    "uv": "full tall case side, U front-to-back or mirrored as needed, V bottom-to-top",
+    "intended_physical_aspect_width_over_height": 0.34153005464480873
+  },
+  "palette_srgb_255": {
+    "aged_red": [
+      133,
+      46,
+      39
+    ],
+    "header_red": [
+      151,
+      54,
+      44
+    ],
+    "cream_ink": [
+      218,
+      210,
+      189
+    ],
+    "paint_chip": [
+      115,
+      111,
+      102
+    ],
+    "rust": [
+      93,
+      64,
+      43
+    ]
+  },
+  "color_spaces": {
+    "base_color": "sRGB",
+    "roughness": "Non-Color",
+    "print_mask": "Non-Color"
+  },
+  "sha256": {
+    "T_BeverageHeader_BaseColor.png": "b9a0a4232fe4c2264ecc07f631b050f1f1a8ffd24a0fae29397d0fe03dcbff54",
+    "T_BeverageHeader_Roughness.png": "c35bfee9cbe350ead43b9e542e54275bf832ff35320e9e15e4c74ee88fdf5e58",
+    "T_BeverageHeader_PrintMask.png": "cc53a16e5f75ba56eb31b9cd67ee11298f655f125d2948b83f3a3a838f06abf1",
+    "T_BeverageSide_BaseColor.png": "2f3e78b6ec1f7bc556ab58eea4035365fb7962741caa8caf4f26b08bac838a80",
+    "T_BeverageSide_Roughness.png": "bb65ac8df679a32ef64c45b923944943b0182e437e0108d7bcb5afeac8445847",
+    "T_BeverageSide_PrintMask.png": "fc01cd2ef318e82019c9bfe0832317dbdaa5aa39d3868c29eef6a953d3fc4c30"
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "success": true,
+  "verified_in_fresh_editor": true,
+  "started_utc": "2026-11-22T15:21:57.857986+00:00",
+  "materials": {
+    "Standard": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Standard.M_Cardboard_Standard",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Standard_BaseColor.T_Carton_Standard_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Standard_ORM.T_Carton_Standard_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Damaged": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Damaged.M_Cardboard_Damaged",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Damaged_BaseColor.T_Carton_Damaged_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Damaged_ORM.T_Carton_Damaged_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Fruit": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Fruit.M_Cardboard_Fruit",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Fruit_BaseColor.T_Carton_Fruit_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Fruit_ORM.T_Carton_Fruit_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Water": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Water.M_Cardboard_Water",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Water_BaseColor.T_Carton_Water_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Water_ORM.T_Carton_Water_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Noodles": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Noodles.M_Cardboard_Noodles",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Noodles_BaseColor.T_Carton_Noodles_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Noodles_ORM.T_Carton_Noodles_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Tape": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Tape.M_Cardboard_Tape",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Tape_BaseColor.T_Carton_Tape_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Tape_ORM.T_Carton_Tape_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 512
+    },
+    "Edge": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Plain_BaseColor.T_Carton_Plain_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Plain_ORM.T_Carton_Plain_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 512
+    }
+  },
+  "meshes": {
+    "SM_CardboardBox_A_Sealed": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_A_Sealed.SM_CardboardBox_A_Sealed",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2356049359805183e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        30.000003814697266
+      ],
+      "triangles": 296,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Standard": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Standard.M_Cardboard_Standard"
+      }
+    },
+    "SM_CardboardBox_B_Body": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_Body.SM_CardboardBox_B_Body",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2470093174197245e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        30.000003814697266
+      ],
+      "triangles": 92,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Standard": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Standard.M_Cardboard_Standard",
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_B_FlapFront": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapFront.SM_CardboardBox_B_FlapFront",
+      "min_cm": [
+        -29.600000381469727,
+        -0.0941932424902916,
+        -0.057357534766197205
+      ],
+      "max_cm": [
+        29.600000381469727,
+        11.565726280212402,
+        16.440399169921875
+      ],
+      "triangles": 44,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        -0.1979999989271164,
+        0.30000001192092896
+      ],
+      "materials": {
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_B_FlapBack": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapBack.SM_CardboardBox_B_FlapBack",
+      "min_cm": [
+        -29.600000381469727,
+        -8.567185401916504,
+        -0.042262688279151917
+      ],
+      "max_cm": [
+        29.600000381469727,
+        0.11481492221355438,
+        18.168415069580078
+      ],
+      "triangles": 44,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.1979999989271164,
+        0.30000001192092896
+      ],
+      "materials": {
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_B_FlapLeft": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapLeft.SM_CardboardBox_B_FlapLeft",
+      "min_cm": [
+        -23.04561424255371,
+        -19.60000228881836,
+        -0.08277019113302231
+      ],
+      "max_cm": [
+        0.06427764892578125,
+        19.600000381469727,
+        19.36640167236328
+      ],
+      "triangles": 44,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        -0.2980000078678131,
+        0.0,
+        0.30000001192092896
+      ],
+      "materials": {
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_B_FlapRight": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapRight.SM_CardboardBox_B_FlapRight",
+      "min_cm": [
+        -0.08276700973510742,
+        -19.60000228881836,
+        -0.06428083032369614
+      ],
+      "max_cm": [
+        19.366392135620117,
+        19.600000381469727,
+        23.04561996459961
+      ],
+      "triangles": 44,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.2980000078678131,
+        0.0,
+        0.30000001192092896
+      ],
+      "materials": {
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_C_Body": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Body.SM_CardboardBox_C_Body",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2486384498042753e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        30.200002670288086
+      ],
+      "triangles": 388,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_C_Lid": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Lid.SM_CardboardBox_C_Lid",
+      "min_cm": [
+        -30.799999237060547,
+        -20.80000114440918,
+        -3.3773458198993467e-06
+      ],
+      "max_cm": [
+        30.799999237060547,
+        20.80000114440918,
+        3.600001811981201
+      ],
+      "triangles": 92,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.27000001072883606
+      ],
+      "materials": {
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_D_Damaged": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_D_Damaged.SM_CardboardBox_D_Damaged",
+      "min_cm": [
+        -30.341503143310547,
+        -20.0000057220459,
+        -3.2290879516949644e-06
+      ],
+      "max_cm": [
+        30.179420471191406,
+        19.999990463256836,
+        29.975204467773438
+      ],
+      "triangles": 296,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Damaged": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Damaged.M_Cardboard_Damaged"
+      }
+    },
+    "SM_CardboardBox_E_Stack": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_E_Stack.SM_CardboardBox_E_Stack",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2356049359805183e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        56.000003814697266
+      ],
+      "triangles": 592,
+      "convex_hulls": 2,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Standard": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Standard.M_Cardboard_Standard"
+      }
+    },
+    "SM_CardboardBox_F_Fruit": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_F_Fruit.SM_CardboardBox_F_Fruit",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2470093174197245e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        30.000003814697266
+      ],
+      "triangles": 432,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Fruit": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Fruit.M_Cardboard_Fruit",
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_G_Water": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_G_Water.SM_CardboardBox_G_Water",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2470093174197245e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        30.000003814697266
+      ],
+      "triangles": 432,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Water": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Water.M_Cardboard_Water",
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    },
+    "SM_CardboardBox_H_Noodles": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_H_Noodles.SM_CardboardBox_H_Noodles",
+      "min_cm": [
+        -30.000001907348633,
+        -20.0000057220459,
+        -3.2470093174197245e-06
+      ],
+      "max_cm": [
+        30.000001907348633,
+        20.0,
+        30.000003814697266
+      ],
+      "triangles": 432,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "lightmap_uv_available": false,
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": {
+        "M_Cardboard_Noodles": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Noodles.M_Cardboard_Noodles",
+        "M_Cardboard_Edge": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge"
+      }
+    }
+  },
+  "blueprints": {
+    "BP_CardboardBox_B_Open": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/BP_CardboardBox_B_Open.BP_CardboardBox_B_Open",
+      "components": {
+        "B_Body": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_Body.SM_CardboardBox_B_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapFront": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapFront.SM_CardboardBox_B_FlapFront",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            19.79999989271164,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapBack": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapBack.SM_CardboardBox_B_FlapBack",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -19.79999989271164,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapLeft": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapLeft.SM_CardboardBox_B_FlapLeft",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -29.80000078678131,
+            -0.0,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapRight": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapRight.SM_CardboardBox_B_FlapRight",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            29.80000078678131,
+            -0.0,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 5,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_CardboardBox_C_Storage": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/BP_CardboardBox_C_Storage.BP_CardboardBox_C_Storage",
+      "components": {
+        "C_Body": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Body.SM_CardboardBox_C_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "C_Lid": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Lid.SM_CardboardBox_C_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            27.000001072883606
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    }
+  },
+  "target_root": "/Game/Yastars/Mesh/CardboardBoxSet",
+  "source_hashes": {
+    "export_report.json": "7ee0047540f520aba9926ee83ef6060e529fb04589b4bcfae19f210f9a27d7d5",
+    "SM_CardboardBox_A_Sealed.fbx": "4ba3da31b88891784b1ba9b3e21ef37eb25ebc8ab801f52a9160db4f1c79ef04",
+    "SM_CardboardBox_B_Body.fbx": "be471d65a53ddbe96fc930149c87ddc8697b56a2eefbf989d5127bc187d2d6c0",
+    "SM_CardboardBox_B_FlapFront.fbx": "281e3be3f91bef7152d749ca83fb2069630c30f4ac8fa36ba8fa91d7d463af10",
+    "SM_CardboardBox_B_FlapBack.fbx": "ee96c84947ed583ff3158a813295a75d4fd29a75ca29b1bbf0213d37b88afca2",
+    "SM_CardboardBox_B_FlapLeft.fbx": "2f2fcfea967609ea298e740edcf3b975457006edd4562fb3416a83a92e794f3a",
+    "SM_CardboardBox_B_FlapRight.fbx": "eae0ee06d1d9b8ab6aeef5469b3a9f379f43e8cce898fa6193f2c95652712f8c",
+    "SM_CardboardBox_C_Body.fbx": "1e4e11b091aeb7367e12e1c3e256ca20e76dc5b89e9dc46cec2e040a09d9c65d",
+    "SM_CardboardBox_C_Lid.fbx": "03cc7ea111873ca6611873923a592b350673234f4da9ea2a91538c5ba833ddaf",
+    "SM_CardboardBox_D_Damaged.fbx": "1f5df9539a3c7c76eff872f2e796329b00bab2aaebb1c57f43d09091aebd4771",
+    "SM_CardboardBox_E_Stack.fbx": "f2ebeb08ffcb91c9a9188cdf7f5d082f487dbb086008ff1c0b5528ea9f9b85d9",
+    "SM_CardboardBox_F_Fruit.fbx": "22328832d5ce9ec82ac116a655f718b1cb364699477b8ebcacb08416130ef53e",
+    "SM_CardboardBox_G_Water.fbx": "ccf91b8f20fe5426abdb60f4aa91f5f1c2366980ffb166b092e4b7f473a4af15",
+    "SM_CardboardBox_H_Noodles.fbx": "f413de21802739178de3051e18b0889226626b4e01dbe0859df402d42214f8a0",
+    "T_Carton_Standard_BaseColor.png": "91afab7804627709ed330c841e9bdb64435bdde5869b48bc77882e4afe1c4203",
+    "T_Carton_Standard_ORM.png": "e6aa81abd8a4ddf042701a88dccc4decbec9952e8db445ab53e8f0cf4ad81ec8",
+    "T_Carton_Damaged_BaseColor.png": "d67abae6230538d780d419f33b35bc7cd72f861946838102d706dc597abf52f9",
+    "T_Carton_Damaged_ORM.png": "8726dbd17e6f45c4a9dad52aaa55e64040f141c1a2fe0216b54215a98aeb38db",
+    "T_Carton_Fruit_BaseColor.png": "eb1bd61d32a1344f1e32d8089e9cd74ac3c7dd9e0f6acdffe5c768552c64d0ab",
+    "T_Carton_Fruit_ORM.png": "b7d90d64ebdbb40ae0682a818edab7f99c32fe357ea6be29de96d68c99c8fa0f",
+    "T_Carton_Water_BaseColor.png": "d8d96a4980633ab664da9f0a6e46c518d789847de56ee6eae2921e042a6b7d89",
+    "T_Carton_Water_ORM.png": "05ee71f00a28b1c013bf72bcd4dcfc8762bc42b525aeb61427a2eb892af3968e",
+    "T_Carton_Noodles_BaseColor.png": "825a557510bce00a64e25d8a095b6e9f11dd78415090bb53d3b0d80a9b9ddc61",
+    "T_Carton_Noodles_ORM.png": "57bbcd66e0d751009fce9f3c9413ab647c3ce57025db38fb6c8fd8ee43de6e28",
+    "T_Carton_Tape_BaseColor.png": "e3d0b82a15584ad604e1333b73a8e80bfed768e5109aac47a9ff83c768464d90",
+    "T_Carton_Tape_ORM.png": "3a876c8b10aea700f8204ca00753f0664b8fb54e7e73c45f5bead4cb049f17a7",
+    "T_Carton_Plain_BaseColor.png": "7fe513bb4371de16e9261e1fdb5c7f8e8df9581eff2e53e3dcd1aa8cfeb87ab5",
+    "T_Carton_Plain_ORM.png": "d3df871d27212a606aa7ce5749f10006fa6429d05fdd588d9341c509e0757552",
+    "T_Carton_Shared_Normal.png": "60d488b4af20fcfbc980a4a6f0d494d8f615b6e070a21247df89926283a35abe"
+  },
+  "package_hashes": {
+    "/Game/Yastars/Mesh/CardboardBoxSet/BP_CardboardBox_B_Open": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\BP_CardboardBox_B_Open.uasset",
+      "sha256": "a25068ae05a1b52ddab1c36755cc32f974110f22a86ef7734f1c0dc938e790f3",
+      "bytes": 34589
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/BP_CardboardBox_C_Storage": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\BP_CardboardBox_C_Storage.uasset",
+      "sha256": "5111c1c00105eac8ab7fa37befca558c5dc731a0b7ca41405561b872e3669bec",
+      "bytes": 31130
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Damaged": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Damaged.uasset",
+      "sha256": "49409c356d61cc48a0bae9586593d54856c1d58c7aa9fe465572a10d48b3ef7e",
+      "bytes": 12607
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Edge.uasset",
+      "sha256": "7835484b03c201095fb236c958afee9bb2d2737590075347a1a77fbb107531c8",
+      "bytes": 12311
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Fruit": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Fruit.uasset",
+      "sha256": "4729be3e2e6661de1785e2ee273179439d7433b12f491a2f255cc91c08c844b6",
+      "bytes": 12535
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Noodles": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Noodles.uasset",
+      "sha256": "5d4dadb69fefe64c50babe6888b578e4bd8b42d5aa61004a89ffd4bcd85382c0",
+      "bytes": 12556
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Standard": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Standard.uasset",
+      "sha256": "44c217c843226c7ed1d263c6238e64598c840d1a242f4bc8b3063c9cb663d308",
+      "bytes": 12558
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Tape": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Tape.uasset",
+      "sha256": "ae50081525b56c0267ec8796d6ea52928a7d9289cc8d39d9aa53297a67b700d2",
+      "bytes": 12438
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Water": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Materials\\M_Cardboard_Water.uasset",
+      "sha256": "469e8a80a88835537926ab82112cd87772ccd39c9cc9ed6f2e5723c4ce0127f8",
+      "bytes": 13545
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_A_Sealed": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_A_Sealed.uasset",
+      "sha256": "af46a4d9ac5fc287c154eaa32d8c7be9147202cc006717090658ef310c35ae30",
+      "bytes": 25591
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_Body": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_B_Body.uasset",
+      "sha256": "c153f4345a6a7cb193f3066f1383e68b37c13b8f4fff2526e5df4d2795b578c2",
+      "bytes": 25305
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapBack": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_B_FlapBack.uasset",
+      "sha256": "55aab6c83acb9de96337370bf32ab9f82c1be9ec8e0bac21dd700f71ce223b42",
+      "bytes": 18042
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapFront": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_B_FlapFront.uasset",
+      "sha256": "4e8f8e6010e31d1f1f46c550d15dda7d0941418c2bcdaa0bf9e190bab0c935ea",
+      "bytes": 18263
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_B_FlapLeft.uasset",
+      "sha256": "05c908cbe34411de77b0bf4809b40658dec28e481cb0a4e7f448a3e680f5252c",
+      "bytes": 18358
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_B_FlapRight.uasset",
+      "sha256": "8e71bcb792d32ea0bafe159d452675fd20b20320eac37cc28b44e53e546fb7bc",
+      "bytes": 18482
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Body": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_C_Body.uasset",
+      "sha256": "29a9e1c2f5da56f704f661ad40370cf01dcde9fff5955e1148380dc002e2d934",
+      "bytes": 32885
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Lid": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_C_Lid.uasset",
+      "sha256": "02b6e64f27572053e6e999252082b0805bc1098a61cb87bb3fe5594bb3bf09ed",
+      "bytes": 23049
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_D_Damaged": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_D_Damaged.uasset",
+      "sha256": "81a65331821f4bbfe20764c05e86ae173648f4201c4820fcf2b0424bce7b6da7",
+      "bytes": 30611
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_E_Stack": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_E_Stack.uasset",
+      "sha256": "c7eb7fcbdc6b9848f7f2f82fd0f87cbc00701561d029029deebe3a5653051d51",
+      "bytes": 35444
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_F_Fruit": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_F_Fruit.uasset",
+      "sha256": "07713a25c8828349ccf4703cf4e125932973b6b49f2827f1be5e13ec8edf4311",
+      "bytes": 32275
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_G_Water": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_G_Water.uasset",
+      "sha256": "505a0b402852d5fdb471826ca4fd0a8adb222687c2a77406f2e08bdb48fce0d6",
+      "bytes": 32459
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_H_Noodles": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\SM_CardboardBox_H_Noodles.uasset",
+      "sha256": "d7a1bd2b20b16086fb17ea42b9633338aceda6ff133b7f95d56ec9e3d1feed62",
+      "bytes": 32363
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Damaged_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Damaged_BaseColor.uasset",
+      "sha256": "3d388c7cf72efcd6824a3b947c71bc633013dbf4bc36c60234be2a86656e9c88",
+      "bytes": 4253485
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Damaged_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Damaged_ORM.uasset",
+      "sha256": "6ead393bd31c4444de265cc803fa309c379b2b913484121626b7261f61035ac1",
+      "bytes": 730545
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Fruit_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Fruit_BaseColor.uasset",
+      "sha256": "185c98e4de0352fb7c5e42b7a1a6d574efcd0efe314ac3b811ae6375192af569",
+      "bytes": 3982238
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Fruit_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Fruit_ORM.uasset",
+      "sha256": "f67a0e9338ea8c2216530dab20962d779c07d2b4d7d2b2613e059b7211aed250",
+      "bytes": 708396
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Noodles_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Noodles_BaseColor.uasset",
+      "sha256": "da9c7838f5c1cf2dd41121819745810c9fb6404ba7dfe595e902bdf17f38fff0",
+      "bytes": 3966014
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Noodles_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Noodles_ORM.uasset",
+      "sha256": "d5ff1a5f3a23ba82b83a14a7bcc3796df28aedc1505b92c3e98ba7015bee6814",
+      "bytes": 698019
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Plain_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Plain_BaseColor.uasset",
+      "sha256": "60020a528b7d8267a79a206b20168f07c3fb46cc2a9094bebbf189ea844f10d4",
+      "bytes": 260636
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Plain_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Plain_ORM.uasset",
+      "sha256": "227840b77d3b6ab9ee07d207c6ea6587edff634460f4e07e5f8b7cda77f1c907",
+      "bytes": 38239
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Shared_Normal.uasset",
+      "sha256": "5bc9688718c16d05864ffabd02b6ffa1f556b690eea48d10b7ddaa1a19086867",
+      "bytes": 4880083
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Standard_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Standard_BaseColor.uasset",
+      "sha256": "4418ddbde37e6507095e9ed3f9deba73c74b4b9d02a64c069fd8939172f1515a",
+      "bytes": 3885229
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Standard_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Standard_ORM.uasset",
+      "sha256": "70f2ab9bce262cacd18e7919c0b4504e512410e41c371bbbb741575eb13fd6e3",
+      "bytes": 649277
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Tape_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Tape_BaseColor.uasset",
+      "sha256": "9d46c3a4ef815b6254f4d7393144e6fbb13c9747c7532e7f2f3d7481dee48d26",
+      "bytes": 260931
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Tape_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Tape_ORM.uasset",
+      "sha256": "14a3897bed5151b80263a53ac05217464e55a84ae4a3b1f9d84f86fdc1bf378f",
+      "bytes": 171860
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Water_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Water_BaseColor.uasset",
+      "sha256": "b0a678217657aafff90f1c00e3eb53886ab9bf7e385bf726e31fb457c00522e5",
+      "bytes": 4084812
+    },
+    "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Water_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\CardboardBoxSet\\Textures\\T_Carton_Water_ORM.uasset",
+      "sha256": "ae76347907b60fd9df737b6c30f0c8a60c9f384e4804c8051c04658cd640e627",
+      "bytes": 698645
+    }
+  },
+  "package_count": 37,
+  "mesh_count": 13,
+  "triangles": 3228,
+  "protected_paths_verified": 498,
+  "completed_utc": "2026-11-22T15:21:59.155665+00:00"
+}

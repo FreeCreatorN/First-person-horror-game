@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "name": "IceCreamFreezer",
+  "scene": {
+    "unit_system": "metric",
+    "unit_scale": 1.0,
+    "frame_start": 1,
+    "frame_end": 150,
+    "frame_current": 1,
+    "fps": 30
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution_x": 2400,
+    "resolution_y": 1760,
+    "resolution_percentage": 100,
+    "samples": 128,
+    "use_denoising": true,
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/"
+  },
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "use_hdri": false,
+    "hdri_path": null,
+    "hdri_strength": 1.0
+  },
+  "objects": [
+    {
+      "name": "SM_IceCreamFreezer_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_TopFrame",
+      "type": "MESH"
+    },
+    {
+      "name": "SlidingGlassDoors",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_IceCreamFreezer_GlassDoorLeft",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_GlassDoorRight",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_Liner",
+      "type": "MESH"
+    },
+    {
+      "name": "Baskets",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_IceCreamFreezer_BasketLeft",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_BasketRight",
+      "type": "MESH"
+    },
+    {
+      "name": "Wheels",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelFL",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelFR",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelRL",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelRR",
+      "type": "MESH"
+    },
+    {
+      "name": "01 Freezer front45",
+      "type": "CAMERA"
+    },
+    {
+      "name": "02 Freezer open top",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Large soft key",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Rear soft fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Cool side fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Preview ground",
+      "type": "MESH"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Freezer_AmberIndicator"
+    },
+    {
+      "name": "M_Freezer_ClearCurvedGlass"
+    },
+    {
+      "name": "M_Freezer_enamel"
+    },
+    {
+      "name": "M_Freezer_GreenIndicator"
+    },
+    {
+      "name": "M_Freezer_liner"
+    },
+    {
+      "name": "M_Freezer_PrintedFront"
+    },
+    {
+      "name": "M_Freezer_RockerRed"
+    },
+    {
+      "name": "M_Freezer_RubberAndCavity"
+    },
+    {
+      "name": "M_Freezer_steel"
+    },
+    {
+      "name": "Preview ground"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01 Freezer front45",
+      "is_active": true
+    },
+    {
+      "name": "02 Freezer open top",
+      "is_active": false
+    }
+  ],
+  "lights": [
+    {
+      "name": "Large soft key"
+    },
+    {
+      "name": "Rear soft fill"
+    },
+    {
+      "name": "Cool side fill"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-18T18:50:17.719555",
+    "modified": "2026-11-18T18:50:17.719555",
+    "software": "blender-cli 1.0"
+  },
+  "native_blend": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\IceCreamFreezer\\IceCreamFreezer.blend",
+    "sha256": "f48993258d0b22ee1228d2d8f0fc4ce15165125e8176ecb974fd9cca5fe6d42d",
+    "camera": "01 Freezer front45",
+    "adapter": "source-file-loader/v1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "success": false,
+  "run_id": "b3912fad-75e1-481b-bc31-3b6613942493",
+  "target_root": "/Game/Yastars/Mesh/MetalShelvingRack",
+  "script_sha256": "ebab70d4eeb1c08347ee4a5c2e534e1826c50f1a862e0270ef646493a01c42b8",
+  "manifest_sha256": "ab59acb73fa8b97a85f32dd0cb5a33499c9d6a621e50ed2cf78f3dbacc8a4550",
+  "baseline_sha256": "c00854d0e001dc257ab399ed960dfef4233988e296526eca8d3f949df4268641",
+  "started_utc": "2026-11-17T03:42:44.0686633Z",
+  "runs": [],
+  "error": "UE import failed: Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/MetalShelvingRack/UE/import_ue.py\", line 299, in main\n    execute(report)\n  File \"D:/UE/Project/HorrorGame/SourceArt/MetalShelvingRack/UE/import_ue.py\", line 263, in execute\n    report['meshes'][name] = verify_mesh(mesh, mesh_editor, row, instance)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:/UE/Project/HorrorGame/SourceArt/MetalShelvingRack/UE/import_ue.py\", line 178, in verify_mesh\n    assert close(minimum + maximum, expected_min + expected_max), (row['name'], minimum, maximum, expected_min, expected_max)\nAssertionError: ('SM_MetalShelvingRack_7Level', [-12155.0, -2695.0, -0.0004364644701126963], [12155.0, 2694.999755859375, 21890.0], [-121.5499997138977, -26.94999873638153, 0.0], [121.5499997138977, 26.94999873638153, 218.8999891281128])\n",
+  "completed_utc": "2026-11-17T03:46:29.9151427Z"
+}

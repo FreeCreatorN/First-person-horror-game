@@ -1,0 +1,748 @@
+{
+  "success": true,
+  "run_id": "0783e30c-122d-46c0-912c-b3d9339d951d",
+  "mode": "exclusive",
+  "target_root": "/Game/Yastars/Mesh/ShopCounterPlan",
+  "started_utc": "2026-11-18T04:34:18.111482+00:00",
+  "imported_meshes": [
+    "SM_ShopCounterPlan_Body",
+    "SM_ShopCounterPlan_DisplayShelf",
+    "SM_ShopCounterPlan_GlassDoorLeft",
+    "SM_ShopCounterPlan_GlassDoorRight",
+    "SM_ShopCounterPlan_GlassSurround",
+    "SM_ShopCounterPlan_GlassTop",
+    "SM_ShopCounterPlan_InteriorShelf",
+    "SM_ShopCounterPlan_MetalFrame",
+    "SM_ShopCounterPlan_WoodDoorLeft",
+    "SM_ShopCounterPlan_WoodDoorRight"
+  ],
+  "saved": [
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass.M_ShopCounterPlan_Glass",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body.SM_ShopCounterPlan_Body",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame.SM_ShopCounterPlan_MetalFrame",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassTop.SM_ShopCounterPlan_GlassTop",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassSurround.SM_ShopCounterPlan_GlassSurround",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf.SM_ShopCounterPlan_DisplayShelf",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf.SM_ShopCounterPlan_InteriorShelf",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft.SM_ShopCounterPlan_WoodDoorLeft",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight.SM_ShopCounterPlan_WoodDoorRight",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft.SM_ShopCounterPlan_GlassDoorLeft",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight.SM_ShopCounterPlan_GlassDoorRight",
+    "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan.BP_ShopCounterPlan"
+  ],
+  "world": "/Engine/Maps/Entry.Entry",
+  "source_hashes": {
+    "export_report.json": "aa1d5143c93181e0dcec817171c24075331113c2952580fdadac579029af136c",
+    "SM_ShopCounterPlan_Body.fbx": "da613c473379c5698713965682938656800756666acce0b35897bc77483be40f",
+    "SM_ShopCounterPlan_MetalFrame.fbx": "1330edabd8e5c6e050a9a3c0a5fe204ac28fe5bff651932105ecd59f2910530c",
+    "SM_ShopCounterPlan_GlassTop.fbx": "865bdd5430a42dbbb8681bc14ba82a142ada07ace11408533952fd8108b7adf6",
+    "SM_ShopCounterPlan_GlassSurround.fbx": "091bf037c04fef356bc2107070a2ca1cdc45d9df684f7c60d9b2f28e725dbaf2",
+    "SM_ShopCounterPlan_DisplayShelf.fbx": "5af6ba9a08f6bc7a2c2ff329fc999246e447ce761895549ed9a869cc340737ae",
+    "SM_ShopCounterPlan_InteriorShelf.fbx": "7b1d3818898eb733f2f815415381704be66a45b84b5297199f19ba8bf178b3bc",
+    "SM_ShopCounterPlan_WoodDoorLeft.fbx": "e0ed304c4c053207281bd7d0850e8e06b3143f253088325b0e895b62d4b3d292",
+    "SM_ShopCounterPlan_WoodDoorRight.fbx": "2625cd28984db9a1a4c2969f17d3419a403b5dd63d018df62cadca4e2a1eacd6",
+    "SM_ShopCounterPlan_GlassDoorLeft.fbx": "c2e11aee507458e0b2bedcc4dc84f59ee314b7368a1f501c4bb72d8427ba2432",
+    "SM_ShopCounterPlan_GlassDoorRight.fbx": "f4b4c1bc835e7cf69c2a55c9c2ba2b0283738fdd536dcbf7564c337e6bb4fed9",
+    "T_ShopCounterPlan_BaseColor.png": "53150a7cd76547d7b1a5fb9cee954cffc9252960d54830a90c67d234e82e451b",
+    "T_ShopCounterPlan_ORM.png": "a20973e18324a2142b00758780fc6e8eb252a4184dd3a33135f405cba8053be3"
+  },
+  "doors": {
+    "wood_left": {
+      "part": "WoodDoorLeft",
+      "mesh": "SM_ShopCounterPlan_WoodDoorLeft",
+      "pivot_m": [
+        -0.463,
+        0.238,
+        0.147
+      ],
+      "closed_ue_cm": [
+        -46.300000000000004,
+        -23.799999999999997,
+        14.7
+      ],
+      "travel_cm": 92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "SM_ShopCounterPlan_WoodDoorLeft"
+    },
+    "glass_left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_ShopCounterPlan_GlassDoorLeft",
+      "pivot_m": [
+        -0.466,
+        0.2595,
+        0.77
+      ],
+      "closed_ue_cm": [
+        -46.6,
+        -25.95,
+        77.0
+      ],
+      "travel_cm": 93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "SM_ShopCounterPlan_GlassDoorLeft"
+    },
+    "wood_right": {
+      "part": "WoodDoorRight",
+      "mesh": "SM_ShopCounterPlan_WoodDoorRight",
+      "pivot_m": [
+        0.463,
+        0.272,
+        0.147
+      ],
+      "closed_ue_cm": [
+        46.300000000000004,
+        -27.200000000000003,
+        14.7
+      ],
+      "travel_cm": -92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "SM_ShopCounterPlan_WoodDoorRight"
+    },
+    "glass_right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_ShopCounterPlan_GlassDoorRight",
+      "pivot_m": [
+        0.466,
+        0.2885,
+        0.77
+      ],
+      "closed_ue_cm": [
+        46.6,
+        -28.849999999999994,
+        77.0
+      ],
+      "travel_cm": -93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "SM_ShopCounterPlan_GlassDoorRight"
+    }
+  },
+  "empty_counter": true,
+  "planning_categories": {
+    "GlassTop": "\u73bb\u7483\u9876\u677f",
+    "GlassSurround": "\u73bb\u7483\u56f4\u6321",
+    "MetalFrame": "\u91d1\u5c5e\u6846\u67b6",
+    "DisplayShelf": "\u5c55\u793a\u5c42\u677f",
+    "Body": "\u6728\u8d28\u67dc\u4f53\uff08\u50a8\u7269\uff09",
+    "WoodSlidingDoors": "\u63a8\u62c9\u67dc\u95e8",
+    "GlassSlidingDoors": "\u63a8\u62c9\u73bb\u7483\u95e8",
+    "InteriorShelf": "\u5185\u90e8\u5c42\u677f"
+  },
+  "protected_files_before": 445,
+  "backup_directory": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ShopCounterPlan\\Archives\\BeforeEmpty_20261118T043420Z_0783e30c",
+  "preexisting_packages": {
+    "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\BP_ShopCounterPlan.uasset",
+      "sha256": "ebf162ad3c9b79eed125940c76b1c9bc3e7f4ce2ddd698146d9205eed1595ee1",
+      "bytes": 40333
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Materials\\M_ShopCounterPlan_Glass.uasset",
+      "sha256": "958ea31507cc6317b9f48c2500c909041e29d89a27d4a75b989e187b23add602",
+      "bytes": 9722
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Materials\\M_ShopCounterPlan_Opaque.uasset",
+      "sha256": "268097bf6e269e69c7557b00a519c4e9c40752602ba70d0f44cb1da25914bd40",
+      "bytes": 13030
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_Body.uasset",
+      "sha256": "f27aeef24292b60266934284de889a40e0658fa063b396729e0c9163556b6c64",
+      "bytes": 65656
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_DisplayShelf.uasset",
+      "sha256": "1f6222428963d34177161fa0de3ad1e257f202432b9534cfc4fb1e404b297f60",
+      "bytes": 17930
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_FixedGlass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_FixedGlass.uasset",
+      "sha256": "2d78f85665c70d0e418a4927910a99b2db45d87ba5bdab8aebf7bf215a326ea1",
+      "bytes": 20374
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassDoorLeft.uasset",
+      "sha256": "69e7705d55878a2ca840957e77be82d0b9d518b37b794fa7a6c5cf93902ad3e0",
+      "bytes": 22913
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassDoorRight.uasset",
+      "sha256": "fcf4c9794893fc863d4067afa14ef7efd2dbcfe1eed4a13763a90a2da1d3a71e",
+      "bytes": 22921
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_InteriorShelf.uasset",
+      "sha256": "4253a2778b6e6ee8a4991d492fafed6b61a6f7c2dd4d572032a197f82cc9e339",
+      "bytes": 20115
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_MetalFrame.uasset",
+      "sha256": "ca196b2438cb4e28f252bdb8ba708f7a0ae5b29269f3be4863047d0dc15a32ed",
+      "bytes": 56490
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_WoodDoorLeft.uasset",
+      "sha256": "387746495278bf12db94aaa4bf9abcd0beaeffdcc194fae2384b7bf36a522d57",
+      "bytes": 21953
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_WoodDoorRight.uasset",
+      "sha256": "3a504a68fef2f817e07705856722bf07eb9881ba9decc3b506213a45348cb4fe",
+      "bytes": 22019
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Textures\\T_ShopCounterPlan_BaseColor.uasset",
+      "sha256": "2c28cbbc950a52d7bb91c572b9ef5c46b85b509657e276acc6c532805f1077c8",
+      "bytes": 4238956
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Textures\\T_ShopCounterPlan_ORM.uasset",
+      "sha256": "3921ad3d1b35bbe9b9d64dcdc8022c2675909556ea6c573d0d738b55cd0e5fa8",
+      "bytes": 2659744
+    }
+  },
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque",
+    "glass": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass.M_ShopCounterPlan_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095
+  },
+  "meshes": {
+    "SM_ShopCounterPlan_Body": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body.SM_ShopCounterPlan_Body",
+      "min_cm": [
+        -98.0,
+        -31.000011444091797,
+        -4.732845809485298e-06
+      ],
+      "max_cm": [
+        98.0,
+        30.999998092651367,
+        71.60000610351562
+      ],
+      "triangles": 896,
+      "convex_hulls": 24,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_MetalFrame": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame.SM_ShopCounterPlan_MetalFrame",
+      "min_cm": [
+        -98.0,
+        -31.300010681152344,
+        -4.789867944055004e-06
+      ],
+      "max_cm": [
+        98.0,
+        31.299997329711914,
+        109.00000762939453
+      ],
+      "triangles": 924,
+      "convex_hulls": 13,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_GlassTop": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassTop.SM_ShopCounterPlan_GlassTop",
+      "min_cm": [
+        -95.5999984741211,
+        -28.600019454956055,
+        108.19999694824219
+      ],
+      "max_cm": [
+        95.5999984741211,
+        28.59998321533203,
+        109.00000762939453
+      ],
+      "triangles": 12,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Glass": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass.M_ShopCounterPlan_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_GlassSurround": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassSurround.SM_ShopCounterPlan_GlassSurround",
+      "min_cm": [
+        -97.0999984741211,
+        -28.600019454956055,
+        77.0999984741211
+      ],
+      "max_cm": [
+        97.0999984741211,
+        29.29998779296875,
+        107.00000762939453
+      ],
+      "triangles": 36,
+      "convex_hulls": 3,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Glass": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass.M_ShopCounterPlan_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_DisplayShelf": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf.SM_ShopCounterPlan_DisplayShelf",
+      "min_cm": [
+        -98.0,
+        -31.00001335144043,
+        71.5999984741211
+      ],
+      "max_cm": [
+        98.0,
+        30.999988555908203,
+        75.20000457763672
+      ],
+      "triangles": 44,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_InteriorShelf": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf.SM_ShopCounterPlan_InteriorShelf",
+      "min_cm": [
+        -93.5999984741211,
+        -21.400007247924805,
+        39.499996185302734
+      ],
+      "max_cm": [
+        93.5999984741211,
+        26.79999351501465,
+        41.500003814697266
+      ],
+      "triangles": 88,
+      "convex_hulls": 2,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_WoodDoorLeft": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft.SM_ShopCounterPlan_WoodDoorLeft",
+      "min_cm": [
+        -47.000003814697266,
+        -1.0500051975250244,
+        -1.4662842318102776e-07
+      ],
+      "max_cm": [
+        47.0,
+        0.9000003337860107,
+        53.60000228881836
+      ],
+      "triangles": 156,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_WoodDoorRight": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight.SM_ShopCounterPlan_WoodDoorRight",
+      "min_cm": [
+        -47.0,
+        -1.0500036478042603,
+        -1.466281815964976e-07
+      ],
+      "max_cm": [
+        47.000003814697266,
+        0.9000003337860107,
+        53.60000228881836
+      ],
+      "triangles": 156,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_GlassDoorLeft": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft.SM_ShopCounterPlan_GlassDoorLeft",
+      "min_cm": [
+        -48.05000305175781,
+        -1.9500046968460083,
+        0.10000459104776382
+      ],
+      "max_cm": [
+        47.79999923706055,
+        0.4999994933605194,
+        30.00000762939453
+      ],
+      "triangles": 164,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque",
+        "M_ShopCounter_Glass": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass.M_ShopCounterPlan_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    },
+    "SM_ShopCounterPlan_GlassDoorRight": {
+      "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight.SM_ShopCounterPlan_GlassDoorRight",
+      "min_cm": [
+        -47.79999923706055,
+        -1.9500017166137695,
+        0.10000459104776382
+      ],
+      "max_cm": [
+        48.05000305175781,
+        0.4999994933605194,
+        30.00000762939453
+      ],
+      "triangles": 164,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_ShopCounter_Opaque": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque.M_ShopCounterPlan_Opaque",
+        "M_ShopCounter_Glass": "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass.M_ShopCounterPlan_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor.T_ShopCounterPlan_BaseColor",
+        "orm": "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM.T_ShopCounterPlan_ORM"
+      }
+    }
+  },
+  "blueprint": {
+    "asset": "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan.BP_ShopCounterPlan",
+    "components": {
+      "Body": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body.SM_ShopCounterPlan_Body",
+        "parent": "DefaultSceneRoot",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "MetalFrame": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame.SM_ShopCounterPlan_MetalFrame",
+        "parent": "DefaultSceneRoot",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "GlassTop": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassTop.SM_ShopCounterPlan_GlassTop",
+        "parent": "DefaultSceneRoot",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "GlassSurround": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassSurround.SM_ShopCounterPlan_GlassSurround",
+        "parent": "DefaultSceneRoot",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "DisplayShelf": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf.SM_ShopCounterPlan_DisplayShelf",
+        "parent": "DefaultSceneRoot",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "InteriorShelf": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf.SM_ShopCounterPlan_InteriorShelf",
+        "parent": "DefaultSceneRoot",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "WoodDoorLeft": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft.SM_ShopCounterPlan_WoodDoorLeft",
+        "parent": "WoodSlidingDoors",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "closed_ue_cm": [
+          -46.300000000000004,
+          -23.799999999999997,
+          14.7
+        ],
+        "open_ue_cm": [
+          46.29999999999999,
+          -23.799999999999997,
+          14.7
+        ],
+        "travel_cm": 92.6,
+        "component": "WoodDoorLeft",
+        "event_suggested": "SetWoodDoorLeftOpen",
+        "relative_location_cm": [
+          -46.300000000000004,
+          -23.799999999999997,
+          14.7
+        ]
+      },
+      "WoodDoorRight": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight.SM_ShopCounterPlan_WoodDoorRight",
+        "parent": "WoodSlidingDoors",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "closed_ue_cm": [
+          46.300000000000004,
+          -27.200000000000003,
+          14.7
+        ],
+        "open_ue_cm": [
+          -46.29999999999999,
+          -27.200000000000003,
+          14.7
+        ],
+        "travel_cm": -92.6,
+        "component": "WoodDoorRight",
+        "event_suggested": "SetWoodDoorRightOpen",
+        "relative_location_cm": [
+          46.300000000000004,
+          -27.200000000000003,
+          14.7
+        ]
+      },
+      "GlassDoorLeft": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft.SM_ShopCounterPlan_GlassDoorLeft",
+        "parent": "GlassSlidingDoors",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "closed_ue_cm": [
+          -46.6,
+          -25.95,
+          77.0
+        ],
+        "open_ue_cm": [
+          46.6,
+          -25.95,
+          77.0
+        ],
+        "travel_cm": 93.2,
+        "component": "GlassDoorLeft",
+        "event_suggested": "SetGlassDoorLeftOpen",
+        "relative_location_cm": [
+          -46.6,
+          -25.95,
+          77.0
+        ]
+      },
+      "GlassDoorRight": {
+        "mesh": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight.SM_ShopCounterPlan_GlassDoorRight",
+        "parent": "GlassSlidingDoors",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "closed_ue_cm": [
+          46.6,
+          -28.849999999999994,
+          77.0
+        ],
+        "open_ue_cm": [
+          -46.6,
+          -28.849999999999994,
+          77.0
+        ],
+        "travel_cm": -93.2,
+        "component": "GlassDoorRight",
+        "event_suggested": "SetGlassDoorRightOpen",
+        "relative_location_cm": [
+          46.6,
+          -28.849999999999994,
+          77.0
+        ]
+      }
+    },
+    "groups": {
+      "WoodSlidingDoors": [
+        "WoodDoorLeft",
+        "WoodDoorRight"
+      ],
+      "GlassSlidingDoors": [
+        "GlassDoorLeft",
+        "GlassDoorRight"
+      ]
+    },
+    "planning_categories": {
+      "GlassTop": "\u73bb\u7483\u9876\u677f",
+      "GlassSurround": "\u73bb\u7483\u56f4\u6321",
+      "MetalFrame": "\u91d1\u5c5e\u6846\u67b6",
+      "DisplayShelf": "\u5c55\u793a\u5c42\u677f",
+      "Body": "\u6728\u8d28\u67dc\u4f53\uff08\u50a8\u7269\uff09",
+      "WoodSlidingDoors": "\u63a8\u62c9\u67dc\u95e8",
+      "GlassSlidingDoors": "\u63a8\u62c9\u73bb\u7483\u95e8",
+      "InteriorShelf": "\u5185\u90e8\u5c42\u677f"
+    },
+    "planning_category_count": 8,
+    "static_mesh_count": 10,
+    "sliding_axis": "local X",
+    "empty_counter": true,
+    "blueprint_ready": true,
+    "interaction_events_installed": false,
+    "compile_status": null
+  },
+  "legacy_glass": {
+    "asset": "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_FixedGlass",
+    "registry_referencers": [
+      "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan"
+    ],
+    "external_referencers": [],
+    "confirmed_referencers": [],
+    "deleted": true
+  },
+  "packages": {
+    "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\BP_ShopCounterPlan.uasset",
+      "sha256": "3709d3bb855c57dce1a40a968071e2eb0ac79ae7bdb3bd5620e3eaf5e8557f8f",
+      "bytes": 44541
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Materials\\M_ShopCounterPlan_Glass.uasset",
+      "sha256": "958ea31507cc6317b9f48c2500c909041e29d89a27d4a75b989e187b23add602",
+      "bytes": 9722
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Materials\\M_ShopCounterPlan_Opaque.uasset",
+      "sha256": "268097bf6e269e69c7557b00a519c4e9c40752602ba70d0f44cb1da25914bd40",
+      "bytes": 13030
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_Body.uasset",
+      "sha256": "ad6b7b91793a11b474f8ab61e9410d29d82b2cf10bec216af90ae8d9aa1e22c8",
+      "bytes": 65461
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_DisplayShelf.uasset",
+      "sha256": "b872a27b5c95f1478833fa9a1f244291c20b05d56b7b343be1e533135b546667",
+      "bytes": 18634
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassDoorLeft.uasset",
+      "sha256": "6fe42b4a3504dfb8af636eb16337e73dfa3044beba3efbaf45be2da0cb3539fd",
+      "bytes": 23967
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassDoorRight.uasset",
+      "sha256": "136cc7cda07fddb3fe6cecb576ba3a3a7f17e73ad4aa38c834ebda1f5edc0229",
+      "bytes": 24073
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassSurround": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassSurround.uasset",
+      "sha256": "3c155ed9636cb97e42ba9af3f2f9335fe4a1897388b7d2c5ee6ae17f9cdf3637",
+      "bytes": 20138
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassTop": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassTop.uasset",
+      "sha256": "a543b0dfff1c593353abc6c733f064c090d860ff64c59fd5c53093847807f7ec",
+      "bytes": 17520
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_InteriorShelf.uasset",
+      "sha256": "3b0bec4a86be93f1b7321c1d3fa7236e106d6966f9390f7ee69050c4b50706a7",
+      "bytes": 20924
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_MetalFrame.uasset",
+      "sha256": "f53402c91578698cdd0f31189ee16bd053cdda3f8c299d87073f5232715371c4",
+      "bytes": 57162
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_WoodDoorLeft.uasset",
+      "sha256": "e82dd49935c5ed88bb9365fccfc9054be301a5605a59e9c16ad9f36f806cfb28",
+      "bytes": 22934
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_WoodDoorRight.uasset",
+      "sha256": "df9505c2c63e056480fbf7f485f5b8fea65b46bf5ffb9395fc754fc54bdf2d47",
+      "bytes": 22839
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Textures\\T_ShopCounterPlan_BaseColor.uasset",
+      "sha256": "19e00eb31f3fc441310f09e0c2eb842345b7c20b0643e0d5cd6f45427313f033",
+      "bytes": 4243074
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Textures\\T_ShopCounterPlan_ORM.uasset",
+      "sha256": "a85a2f54499dc7cc9d0faaea12bb8dfac913f4c8bb9629482deb07b536a9a5e5",
+      "bytes": 2664215
+    }
+  },
+  "asset_paths_preserved": [
+    "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft",
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor",
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM"
+  ],
+  "protected_files_after": 445,
+  "completed_utc": "2026-11-18T04:34:28.159519+00:00"
+}

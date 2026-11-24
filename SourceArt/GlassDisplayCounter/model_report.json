@@ -1,0 +1,56 @@
+{
+  "body_collection": "01 Counter body and fixed glazing",
+  "dressings_collection": "04 Display dressing - removable",
+  "nominal_case_m": [
+    1.96,
+    0.62,
+    1.09
+  ],
+  "doors": {
+    "left": {
+      "mesh": "SM_GlassDisplayCounter_DoorLeft",
+      "pivot_m": [
+        -0.47,
+        0.2605,
+        0.763
+      ],
+      "travel_m": 0.922,
+      "closed_ue_cm": [
+        -47.0,
+        -26.05,
+        76.3
+      ],
+      "travel_cm": 92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    },
+    "right": {
+      "mesh": "SM_GlassDisplayCounter_DoorRight",
+      "pivot_m": [
+        0.47,
+        0.2835,
+        0.763
+      ],
+      "travel_m": -0.922,
+      "closed_ue_cm": [
+        47.0,
+        -28.349999999999998,
+        76.3
+      ],
+      "travel_cm": -92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    }
+  },
+  "door_width_m": 0.961,
+  "door_height_m": 0.302,
+  "body_mesh_objects": 137,
+  "placement": "front -Y; sliding access +Y",
+  "door_tracks_spacing_mm": 23.0
+}

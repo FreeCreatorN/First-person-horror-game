@@ -1,0 +1,190 @@
+{
+  "version": "1.0",
+  "name": "ThreeSeatSofa",
+  "scene": {
+    "unit_system": "metric",
+    "unit_scale": 1.0,
+    "frame_start": 1,
+    "frame_end": 250,
+    "frame_current": 1,
+    "fps": 24
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution_x": 2800,
+    "resolution_y": 1900,
+    "resolution_percentage": 100,
+    "samples": 128,
+    "use_denoising": true,
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/"
+  },
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "use_hdri": false,
+    "hdri_path": null,
+    "hdri_strength": 1.0
+  },
+  "objects": [
+    {
+      "name": "SM_Sofa_Base",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Arm_L",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Arm_R",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Seat_01",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Seat_02",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Seat_03",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Back_01",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Back_02",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Back_03",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Pillow_L",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Pillow_R",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Foot_FL",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Foot_FR",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Foot_BL",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Sofa_Foot_BR",
+      "type": "MESH"
+    },
+    {
+      "name": "Preview ground - not exported",
+      "type": "MESH"
+    },
+    {
+      "name": "01 Sofa hero",
+      "type": "CAMERA"
+    },
+    {
+      "name": "02 Sofa rear",
+      "type": "CAMERA"
+    },
+    {
+      "name": "03 Sofa front",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Preview Key.002",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Preview Fill.002",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Preview Rim.002",
+      "type": "LIGHT"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Sofa_Fabric"
+    },
+    {
+      "name": "M_Sofa_Feet"
+    },
+    {
+      "name": "M_Sofa_PillowWelt"
+    },
+    {
+      "name": "M_Sofa_Plaid"
+    },
+    {
+      "name": "M_Sofa_Underside"
+    },
+    {
+      "name": "M_Sofa_Welt"
+    },
+    {
+      "name": "Preview charcoal floor.002"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01 Sofa hero",
+      "is_active": true
+    },
+    {
+      "name": "02 Sofa rear",
+      "is_active": false
+    },
+    {
+      "name": "03 Sofa front",
+      "is_active": false
+    }
+  ],
+  "lights": [
+    {
+      "name": "Preview Key.002"
+    },
+    {
+      "name": "Preview Fill.002"
+    },
+    {
+      "name": "Preview Rim.002"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-23T13:07:54.260264",
+    "modified": "2026-11-23T13:07:54.260264",
+    "software": "blender-cli 1.0"
+  },
+  "native_blend": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\ThreeSeatSofa.blend",
+    "sha256": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+    "camera": "01 Sofa hero",
+    "adapter": "source-file-loader/v1"
+  }
+}

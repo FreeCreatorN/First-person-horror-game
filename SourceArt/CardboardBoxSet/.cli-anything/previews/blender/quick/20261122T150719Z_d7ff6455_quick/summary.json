@@ -1,0 +1,20 @@
+{
+  "headline": "Blender quick preview rendered for frame 1",
+  "facts": {
+    "recipe": "quick",
+    "scene_name": "CardboardBoxSet",
+    "frame": 1,
+    "hero_resolution": "1600x1050",
+    "workbench_resolution": "1600x1050",
+    "object_count": 36,
+    "material_count": 8,
+    "camera_count": 3,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "warnings": [],
+  "next_actions": [
+    "Inspect hero.png for shading, materials, and framing.",
+    "Inspect workbench.png for silhouette and structural problems."
+  ]
+}

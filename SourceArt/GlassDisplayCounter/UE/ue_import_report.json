@@ -1,0 +1,309 @@
+{
+  "success": true,
+  "run_id": "b366ab8f-18b1-47e4-b16a-42c4a8485d77",
+  "mode": "exclusive",
+  "target_root": "/Game/Yastars/Mesh/GlassDisplayCounter",
+  "started_utc": "2026-11-17T07:02:45.295221+00:00",
+  "imported_meshes": [
+    "SM_GlassDisplayCounter",
+    "SM_GlassDisplayCounter_DoorLeft",
+    "SM_GlassDisplayCounter_DoorRight"
+  ],
+  "saved": [
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_BaseColor.T_GlassDisplayCounter_BaseColor",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_ORM.T_GlassDisplayCounter_ORM",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_BaseColor.T_GlassDisplayCounter_DoorLeft_BaseColor",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_ORM.T_GlassDisplayCounter_DoorLeft_ORM",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_BaseColor.T_GlassDisplayCounter_DoorRight_BaseColor",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_ORM.T_GlassDisplayCounter_DoorRight_ORM",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Opaque.M_GlassDisplayCounter_Opaque",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter.MI_GlassDisplayCounter",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorLeft.MI_GlassDisplayCounter_DoorLeft",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorRight.MI_GlassDisplayCounter_DoorRight",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter.SM_GlassDisplayCounter",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorLeft.SM_GlassDisplayCounter_DoorLeft",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorRight.SM_GlassDisplayCounter_DoorRight",
+    "/Game/Yastars/Mesh/GlassDisplayCounter/BP_GlassDisplayCounter.BP_GlassDisplayCounter"
+  ],
+  "world": "/Engine/Maps/Entry.Entry",
+  "source_hashes": {
+    "export_report.json": "65b05f803282c81848a895245c80673dba842d3cecd8b1cb94a32389c2db2a86",
+    "SM_GlassDisplayCounter.fbx": "29a841d8232d5138f62718e7080cf5cb6f7bca12ca5eafac828fce1529c238a9",
+    "T_GlassDisplayCounter_BaseColor.png": "5024db811c7c6d4e98c9754cbab5c0742bc3a2d4852383e068d3a8fa4efe6c08",
+    "T_GlassDisplayCounter_ORM.png": "04cd759a8a03b2bab05ebc77c1187bb68c57edc43ea522d7f569196681acc4d9",
+    "SM_GlassDisplayCounter_DoorLeft.fbx": "e23ee8d0c4d6745de0a709abe50e13745401c83762abed585edd25257297f963",
+    "T_GlassDisplayCounter_DoorLeft_BaseColor.png": "5224f8e65316bfc150fdeb85bb994a1d58b456398a960152b861c682cea4f763",
+    "T_GlassDisplayCounter_DoorLeft_ORM.png": "cf9971c5f5743a7c6e1495534783facd10e0bee636ae0acd7901b0df47af8c84",
+    "SM_GlassDisplayCounter_DoorRight.fbx": "e03d7be8b59c598f4f8c4eb4c20cd08ea035b3fc5913b5661640e88da8f7b4ad",
+    "T_GlassDisplayCounter_DoorRight_BaseColor.png": "b5904239481e85a93c5745e4383116b1b5a6618f2d170e047c1421cc2d831386",
+    "T_GlassDisplayCounter_DoorRight_ORM.png": "95f32a5f5b0bcc5d74139118cefbecfdd08376b8831e2de641d18370df9f7136"
+  },
+  "manifest_sha256": "65b05f803282c81848a895245c80673dba842d3cecd8b1cb94a32389c2db2a86",
+  "doors": {
+    "left": {
+      "mesh": "SM_GlassDisplayCounter_DoorLeft",
+      "pivot_m": [
+        -0.47,
+        0.2605,
+        0.763
+      ],
+      "travel_m": 0.922,
+      "closed_ue_cm": [
+        -47.0,
+        -26.05,
+        76.3
+      ],
+      "travel_cm": 92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    },
+    "right": {
+      "mesh": "SM_GlassDisplayCounter_DoorRight",
+      "pivot_m": [
+        0.47,
+        0.2835,
+        0.763
+      ],
+      "travel_m": -0.922,
+      "closed_ue_cm": [
+        47.0,
+        -28.349999999999998,
+        76.3
+      ],
+      "travel_cm": -92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    }
+  },
+  "protected_files_before": 430,
+  "preexisting_packages": [],
+  "preexisting_files": [],
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Opaque.M_GlassDisplayCounter_Opaque",
+    "glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095
+  },
+  "meshes": {
+    "SM_GlassDisplayCounter": {
+      "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter.SM_GlassDisplayCounter",
+      "min_cm": [
+        -98.12999725341797,
+        -31.70001220703125,
+        -4.757283932121936e-06
+      ],
+      "max_cm": [
+        98.12999725341797,
+        31.899988174438477,
+        108.5999984741211
+      ],
+      "triangles": 13724,
+      "convex_hulls": 20,
+      "uv_channels": 1,
+      "materials": {
+        "M_Counter_Baked": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter.MI_GlassDisplayCounter",
+        "M_Counter_Glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_BaseColor.T_GlassDisplayCounter_BaseColor",
+        "orm": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_ORM.T_GlassDisplayCounter_ORM"
+      }
+    },
+    "SM_GlassDisplayCounter_DoorLeft": {
+      "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorLeft.SM_GlassDisplayCounter_DoorLeft",
+      "min_cm": [
+        -48.099998474121094,
+        -0.8200019001960754,
+        -7.168485893771503e-08
+      ],
+      "max_cm": [
+        48.10000228881836,
+        0.5000025033950806,
+        30.20000457763672
+      ],
+      "triangles": 1080,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Counter_Baked": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorLeft.MI_GlassDisplayCounter_DoorLeft",
+        "M_Counter_Glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_BaseColor.T_GlassDisplayCounter_DoorLeft_BaseColor",
+        "orm": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_ORM.T_GlassDisplayCounter_DoorLeft_ORM"
+      }
+    },
+    "SM_GlassDisplayCounter_DoorRight": {
+      "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorRight.SM_GlassDisplayCounter_DoorRight",
+      "min_cm": [
+        -48.10000228881836,
+        -0.8200048804283142,
+        -7.168534210677535e-08
+      ],
+      "max_cm": [
+        48.099998474121094,
+        0.4999995231628418,
+        30.20000457763672
+      ],
+      "triangles": 1080,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Counter_Baked": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorRight.MI_GlassDisplayCounter_DoorRight",
+        "M_Counter_Glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_BaseColor.T_GlassDisplayCounter_DoorRight_BaseColor",
+        "orm": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_ORM.T_GlassDisplayCounter_DoorRight_ORM"
+      }
+    }
+  },
+  "blueprint": {
+    "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/BP_GlassDisplayCounter.BP_GlassDisplayCounter",
+    "components": {
+      "CabinetBody": {
+        "mesh": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter.SM_GlassDisplayCounter",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "GlassDoorLeft": {
+        "mesh": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorLeft.SM_GlassDisplayCounter_DoorLeft",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          -47.0,
+          -26.05,
+          76.3
+        ],
+        "closed_ue_cm": [
+          -47.0,
+          -26.05,
+          76.3
+        ],
+        "open_ue_cm": [
+          45.2,
+          -26.05,
+          76.3
+        ],
+        "travel_cm": 92.2
+      },
+      "GlassDoorRight": {
+        "mesh": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorRight.SM_GlassDisplayCounter_DoorRight",
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "relative_location_cm": [
+          47.0,
+          -28.349999999999998,
+          76.3
+        ],
+        "closed_ue_cm": [
+          47.0,
+          -28.349999999999998,
+          76.3
+        ],
+        "open_ue_cm": [
+          -45.2,
+          -28.349999999999998,
+          76.3
+        ],
+        "travel_cm": -92.2
+      }
+    },
+    "sliding_axis": "local X",
+    "compiled_sliding_events": {
+      "left": false,
+      "right": false
+    }
+  },
+  "packages": {
+    "/Game/Yastars/Mesh/GlassDisplayCounter/BP_GlassDisplayCounter": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\BP_GlassDisplayCounter.uasset",
+      "sha256": "029affa45ed8856724da4dca72d0ba1abb77f3d1f63bbb96fbd6cedf2cf9daa0",
+      "bytes": 33705
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Materials\\M_GlassDisplayCounter_Glass.uasset",
+      "sha256": "c18407602c074e912bf573e54c9002e1bc3a44a1c1356699890fbcb407d3bb53",
+      "bytes": 9957
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Materials\\M_GlassDisplayCounter_Opaque.uasset",
+      "sha256": "44bf51b8c219fb2c08f5092487b73d415d62fa3d35a55bde4578d250674c3c7c",
+      "bytes": 14043
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Materials\\MI_GlassDisplayCounter.uasset",
+      "sha256": "523eebbd557052ef7d4a57667162ea16b6322b86c05b496d82f653e641d4faef",
+      "bytes": 10882
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Materials\\MI_GlassDisplayCounter_DoorLeft.uasset",
+      "sha256": "20a6a1f281ce3d381f65e144959768b624bcf08806e1e56be37531f5effdd25c",
+      "bytes": 9543
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Materials\\MI_GlassDisplayCounter_DoorRight.uasset",
+      "sha256": "cbd4e0ca40aedb03a73d527746ce2bbf55bfaf279434b4dd89774c2a4de116dc",
+      "bytes": 9550
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\SM_GlassDisplayCounter.uasset",
+      "sha256": "4e68120db2eb8a8e709ade7d048fa0c61c735c1d9e35778f39992bb0d59983b7",
+      "bytes": 494770
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\SM_GlassDisplayCounter_DoorLeft.uasset",
+      "sha256": "b15f1194e5596163bffcd52ab566413b5c08f5a323c3dddfe9a6ba6c2c9540a3",
+      "bytes": 62755
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\SM_GlassDisplayCounter_DoorRight.uasset",
+      "sha256": "9c19facb9f61022a928c02cb9c9dfd0ff1282f83b7dea211494af39017b7bc64",
+      "bytes": 63455
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Textures\\T_GlassDisplayCounter_BaseColor.uasset",
+      "sha256": "dbebe74be8bbc09c4d28d59bbddef62feea516821354b4bfe5a0c272566d4051",
+      "bytes": 4342325
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Textures\\T_GlassDisplayCounter_DoorLeft_BaseColor.uasset",
+      "sha256": "25ce389507da681046e75cfc420a337cfcf17513c16a0a8a08e71561d5084484",
+      "bytes": 712300
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Textures\\T_GlassDisplayCounter_DoorLeft_ORM.uasset",
+      "sha256": "e7c599eb99f4c8c4ce1271af15c0e01b128151bbeaa7faa5e86c9ae33225d31d",
+      "bytes": 680152
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Textures\\T_GlassDisplayCounter_DoorRight_BaseColor.uasset",
+      "sha256": "eddba6490dab913d4ed7ea215796baa84832dd4dbd95c13bb272578127598087",
+      "bytes": 721981
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Textures\\T_GlassDisplayCounter_DoorRight_ORM.uasset",
+      "sha256": "2be39224598aa10db2dc75ad844fe59324cc9b41965adfcb9537e7f9fecaaac0",
+      "bytes": 686539
+    },
+    "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\GlassDisplayCounter\\Textures\\T_GlassDisplayCounter_ORM.uasset",
+      "sha256": "1759b49033afb22ae76807044aa3248aa5d75c4552549dea0bbcc10481d093f4",
+      "bytes": 2444041
+    }
+  },
+  "protected_files_after": 430,
+  "completed_utc": "2026-11-17T07:02:56.216563+00:00"
+}

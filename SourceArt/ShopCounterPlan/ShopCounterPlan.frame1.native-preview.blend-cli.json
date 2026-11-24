@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "name": "ShopCounterPlan_Empty",
+  "scene": {
+    "unit_system": "metric",
+    "unit_scale": 1.0,
+    "frame_start": 1,
+    "frame_end": 260,
+    "frame_current": 1,
+    "fps": 30
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution_x": 2600,
+    "resolution_y": 1840,
+    "resolution_percentage": 100,
+    "samples": 128,
+    "use_denoising": true,
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/"
+  },
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "use_hdri": false,
+    "hdri_path": null,
+    "hdri_strength": 1.0
+  },
+  "objects": [
+    {
+      "name": "SM_ShopCounterPlan_GlassTop",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_GlassSurround",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_MetalFrame",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_DisplayShelf",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "WoodSlidingDoors",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_ShopCounterPlan_WoodDoorLeft",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_WoodDoorRight",
+      "type": "MESH"
+    },
+    {
+      "name": "GlassSlidingDoors",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_ShopCounterPlan_GlassDoorLeft",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_GlassDoorRight",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_ShopCounterPlan_InteriorShelf",
+      "type": "MESH"
+    },
+    {
+      "name": "01 Front45.001 \u00b7 EmptyPreview",
+      "type": "CAMERA"
+    },
+    {
+      "name": "02 Rear45.001 \u00b7 EmptyPreview",
+      "type": "CAMERA"
+    },
+    {
+      "name": "03 Front orthographic.001 \u00b7 EmptyPreview",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Soft key.001 \u00b7 EmptyPreview",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Rear fill.001 \u00b7 EmptyPreview",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Side rim.001 \u00b7 EmptyPreview",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Preview floor.001 \u00b7 EmptyPreview",
+      "type": "MESH"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Counter_ClearDisplayGlass.001"
+    },
+    {
+      "name": "M_Counter_DarkWornWoodTrim.001"
+    },
+    {
+      "name": "M_Counter_DustyPaleInterior.001"
+    },
+    {
+      "name": "M_Counter_OldBrassHardware.001"
+    },
+    {
+      "name": "M_Counter_RedBrownVarnishedVeneer.001"
+    },
+    {
+      "name": "M_Counter_WeatheredBronzeFrame.001"
+    },
+    {
+      "name": "M_Plan_InsetBoard_X.001"
+    },
+    {
+      "name": "M_Plan_InsetBoard_Y.001"
+    },
+    {
+      "name": "Preview charcoal.001"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01 Front45.001 \u00b7 EmptyPreview",
+      "is_active": true
+    },
+    {
+      "name": "02 Rear45.001 \u00b7 EmptyPreview",
+      "is_active": false
+    },
+    {
+      "name": "03 Front orthographic.001 \u00b7 EmptyPreview",
+      "is_active": false
+    }
+  ],
+  "lights": [
+    {
+      "name": "Soft key.001 \u00b7 EmptyPreview"
+    },
+    {
+      "name": "Rear fill.001 \u00b7 EmptyPreview"
+    },
+    {
+      "name": "Side rim.001 \u00b7 EmptyPreview"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-18T12:27:06.283965",
+    "modified": "2026-11-18T12:27:06.283965",
+    "software": "blender-cli 1.0"
+  },
+  "native_blend": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ShopCounterPlan\\ShopCounterPlan.blend",
+    "sha256": "37fd3df447df4b4fc920fcd6a77a90dc2dee2e97d4437c7423a498a593379dac",
+    "camera": "01 Front45.001 \u00b7 EmptyPreview",
+    "adapter": "source-file-loader/v1"
+  }
+}

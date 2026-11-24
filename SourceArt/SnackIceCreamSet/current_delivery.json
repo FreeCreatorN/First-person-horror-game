@@ -1,0 +1,521 @@
+{
+  "success": true,
+  "title": "雪糕与零食商品组",
+  "completed_at": "2026-11-23T08:29:05.595259+08:00",
+  "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\SnackIceCreamSet.blend",
+  "source_sha256": "377548196521895669505948a004029488f2c3159543d9de05653cc3c31f2d08",
+  "created_with": "Blender MCP",
+  "cli_anything_native_preview_manifest": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\.cli-anything\\previews\\blender\\quick\\20261123T001846Z_d8b87f6c_quick\\manifest.json",
+  "ue_path": "/Game/Yastars/Mesh/SnackIceCreamSet",
+  "family_count": 14,
+  "ice_cream_families": 6,
+  "snack_families": 8,
+  "look_count": 30,
+  "static_mesh_count": 45,
+  "assembled_blueprint_count": 13,
+  "total_triangles": 17392,
+  "texture_count": 29,
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "material_count": 33,
+  "ue_package_count": 120,
+  "independent_parts": [
+    "盒盖",
+    "透明杯盖",
+    "罐盖",
+    "罐内糖果组",
+    "饼干内托",
+    "果冻封口膜"
+  ],
+  "export_manifest": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\Exports\\export_report.json",
+  "export_manifest_sha256": "8b9fd79b2a36de72c9d204a50112aeb93fbc7826d656eb1933f2c68afa8a967b",
+  "geometry_audit": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\QA\\goods_geometry_audit.json",
+  "ue_import_report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\UE\\ue_import_report.json",
+  "ue_fresh_reload_report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\UE\\fresh_editor_verification.json",
+  "ue_final_report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\UE\\final_verification.json",
+  "verification": {
+    "geometry_passed": true,
+    "unintended_intersections": 0,
+    "same_facing_coplanar_overlaps": 0,
+    "ue_import_passed": true,
+    "ue_fresh_reload_passed": true,
+    "protected_project_files_unchanged": 3706,
+    "collision_verified": true,
+    "component_mobility": "MOVABLE",
+    "source_hash_matches_export_and_ue": true
+  },
+  "runtime_interaction_events_installed": false,
+  "animations_installed": false,
+  "preview_lights_exported": false,
+  "usage": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\使用说明.md",
+  "renders": [
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\Goods_Overview.png",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\Goods_IceCream.png",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\Goods_Snacks.png"
+  ],
+  "products": {
+    "BoxIce_Vanilla": {
+      "family": "BoxIce",
+      "flavor": "Vanilla",
+      "flavor_index": 0,
+      "position_m": [
+        -0.71,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_BoxIce_Vanilla_Body",
+        "SM_Goods_BoxIce_Vanilla_Lid"
+      ]
+    },
+    "BoxIce_Strawberry": {
+      "family": "BoxIce",
+      "flavor": "Strawberry",
+      "flavor_index": 1,
+      "position_m": [
+        -0.53,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_BoxIce_Strawberry_Body",
+        "SM_Goods_BoxIce_Strawberry_Lid"
+      ]
+    },
+    "IcePop_Milk": {
+      "family": "IcePop",
+      "flavor": "Milk",
+      "flavor_index": 0,
+      "position_m": [
+        -0.0625,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_IcePop_Milk_Pack"
+      ]
+    },
+    "IcePop_Orange": {
+      "family": "IcePop",
+      "flavor": "Orange",
+      "flavor_index": 1,
+      "position_m": [
+        0.0625,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_IcePop_Orange_Pack"
+      ]
+    },
+    "ChocoBar_Chocolate": {
+      "family": "ChocoBar",
+      "flavor": "Chocolate",
+      "flavor_index": 0,
+      "position_m": [
+        0.5575,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_ChocoBar_Chocolate_Pack"
+      ]
+    },
+    "ChocoBar_Vanilla": {
+      "family": "ChocoBar",
+      "flavor": "Vanilla",
+      "flavor_index": 1,
+      "position_m": [
+        0.6825,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_ChocoBar_Vanilla_Pack"
+      ]
+    },
+    "CupIce_Strawberry": {
+      "family": "CupIce",
+      "flavor": "Strawberry",
+      "flavor_index": 0,
+      "position_m": [
+        -0.665,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CupIce_Strawberry_Body",
+        "SM_Goods_CupIce_Strawberry_Dome"
+      ]
+    },
+    "CupIce_Vanilla": {
+      "family": "CupIce",
+      "flavor": "Vanilla",
+      "flavor_index": 1,
+      "position_m": [
+        -0.575,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CupIce_Vanilla_Body",
+        "SM_Goods_CupIce_Vanilla_Dome"
+      ]
+    },
+    "Cone_Vanilla": {
+      "family": "Cone",
+      "flavor": "Vanilla",
+      "flavor_index": 0,
+      "position_m": [
+        -0.09,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Cone_Vanilla_Pack"
+      ]
+    },
+    "Cone_Chocolate": {
+      "family": "Cone",
+      "flavor": "Chocolate",
+      "flavor_index": 1,
+      "position_m": [
+        0.0,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Cone_Chocolate_Pack"
+      ]
+    },
+    "Cone_Strawberry": {
+      "family": "Cone",
+      "flavor": "Strawberry",
+      "flavor_index": 2,
+      "position_m": [
+        0.09,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Cone_Strawberry_Pack"
+      ]
+    },
+    "FamilyTub_Vanilla": {
+      "family": "FamilyTub",
+      "flavor": "Vanilla",
+      "flavor_index": 0,
+      "position_m": [
+        0.5,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_FamilyTub_Vanilla_Body",
+        "SM_Goods_FamilyTub_Vanilla_Lid"
+      ]
+    },
+    "FamilyTub_Strawberry": {
+      "family": "FamilyTub",
+      "flavor": "Strawberry",
+      "flavor_index": 1,
+      "position_m": [
+        0.74,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_FamilyTub_Strawberry_Body",
+        "SM_Goods_FamilyTub_Strawberry_Lid"
+      ]
+    },
+    "Chips_Original": {
+      "family": "Chips",
+      "flavor": "Original",
+      "flavor_index": 0,
+      "position_m": [
+        -0.8425,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Chips_Original_Pack"
+      ]
+    },
+    "Chips_Cucumber": {
+      "family": "Chips",
+      "flavor": "Cucumber",
+      "flavor_index": 1,
+      "position_m": [
+        -0.7175,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Chips_Cucumber_Pack"
+      ]
+    },
+    "Biscuits_Butter": {
+      "family": "Biscuits",
+      "flavor": "Butter",
+      "flavor_index": 0,
+      "position_m": [
+        -0.35,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Biscuits_Butter_Body",
+        "SM_Goods_Biscuits_Butter_Tray"
+      ]
+    },
+    "Biscuits_Milk": {
+      "family": "Biscuits",
+      "flavor": "Milk",
+      "flavor_index": 1,
+      "position_m": [
+        -0.17,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Biscuits_Milk_Body",
+        "SM_Goods_Biscuits_Milk_Tray"
+      ]
+    },
+    "CandyBag_Fruit": {
+      "family": "CandyBag",
+      "flavor": "Fruit",
+      "flavor_index": 0,
+      "position_m": [
+        0.1975,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyBag_Fruit_Pack"
+      ]
+    },
+    "CandyBag_Mint": {
+      "family": "CandyBag",
+      "flavor": "Mint",
+      "flavor_index": 1,
+      "position_m": [
+        0.3225,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyBag_Mint_Pack"
+      ]
+    },
+    "Bakery_Bread": {
+      "family": "Bakery",
+      "flavor": "Bread",
+      "flavor_index": 0,
+      "position_m": [
+        0.7175,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Bakery_Bread_Pack"
+      ]
+    },
+    "Bakery_Cake": {
+      "family": "Bakery",
+      "flavor": "Cake",
+      "flavor_index": 1,
+      "position_m": [
+        0.8425,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Bakery_Cake_Pack"
+      ]
+    },
+    "Spicy_Hot": {
+      "family": "Spicy",
+      "flavor": "Hot",
+      "flavor_index": 0,
+      "position_m": [
+        -0.8425,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Spicy_Hot_Pack"
+      ]
+    },
+    "Spicy_Original": {
+      "family": "Spicy",
+      "flavor": "Original",
+      "flavor_index": 1,
+      "position_m": [
+        -0.7175,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Spicy_Original_Pack"
+      ]
+    },
+    "Nuts_Seeds": {
+      "family": "Nuts",
+      "flavor": "Seeds",
+      "flavor_index": 0,
+      "position_m": [
+        -0.3225,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Nuts_Seeds_Pack"
+      ]
+    },
+    "Nuts_Peanut": {
+      "family": "Nuts",
+      "flavor": "Peanut",
+      "flavor_index": 1,
+      "position_m": [
+        -0.1975,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Nuts_Peanut_Pack"
+      ]
+    },
+    "Jelly_Orange": {
+      "family": "Jelly",
+      "flavor": "Orange",
+      "flavor_index": 0,
+      "position_m": [
+        0.17,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Jelly_Orange_Cup",
+        "SM_Goods_Jelly_Orange_Film"
+      ]
+    },
+    "Jelly_Strawberry": {
+      "family": "Jelly",
+      "flavor": "Strawberry",
+      "flavor_index": 1,
+      "position_m": [
+        0.26,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Jelly_Strawberry_Cup",
+        "SM_Goods_Jelly_Strawberry_Film"
+      ]
+    },
+    "Jelly_Grape": {
+      "family": "Jelly",
+      "flavor": "Grape",
+      "flavor_index": 2,
+      "position_m": [
+        0.35,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Jelly_Grape_Cup",
+        "SM_Goods_Jelly_Grape_Film"
+      ]
+    },
+    "CandyJar_Fruit": {
+      "family": "CandyJar",
+      "flavor": "Fruit",
+      "flavor_index": 0,
+      "position_m": [
+        0.735,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyJar_Fruit_Jar",
+        "SM_Goods_CandyJar_Fruit_Lid",
+        "SM_Goods_CandyJar_Fruit_Contents"
+      ]
+    },
+    "CandyJar_Mint": {
+      "family": "CandyJar",
+      "flavor": "Mint",
+      "flavor_index": 1,
+      "position_m": [
+        0.8250000000000001,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyJar_Mint_Jar",
+        "SM_Goods_CandyJar_Mint_Lid",
+        "SM_Goods_CandyJar_Mint_Contents"
+      ]
+    }
+  },
+  "assemblies": {
+    "BP_Goods_BoxIce_Vanilla": [
+      "SM_Goods_BoxIce_Vanilla_Body",
+      "SM_Goods_BoxIce_Vanilla_Lid"
+    ],
+    "BP_Goods_BoxIce_Strawberry": [
+      "SM_Goods_BoxIce_Strawberry_Body",
+      "SM_Goods_BoxIce_Strawberry_Lid"
+    ],
+    "BP_Goods_CupIce_Strawberry": [
+      "SM_Goods_CupIce_Strawberry_Body",
+      "SM_Goods_CupIce_Strawberry_Dome"
+    ],
+    "BP_Goods_CupIce_Vanilla": [
+      "SM_Goods_CupIce_Vanilla_Body",
+      "SM_Goods_CupIce_Vanilla_Dome"
+    ],
+    "BP_Goods_FamilyTub_Vanilla": [
+      "SM_Goods_FamilyTub_Vanilla_Body",
+      "SM_Goods_FamilyTub_Vanilla_Lid"
+    ],
+    "BP_Goods_FamilyTub_Strawberry": [
+      "SM_Goods_FamilyTub_Strawberry_Body",
+      "SM_Goods_FamilyTub_Strawberry_Lid"
+    ],
+    "BP_Goods_Biscuits_Butter": [
+      "SM_Goods_Biscuits_Butter_Body",
+      "SM_Goods_Biscuits_Butter_Tray"
+    ],
+    "BP_Goods_Biscuits_Milk": [
+      "SM_Goods_Biscuits_Milk_Body",
+      "SM_Goods_Biscuits_Milk_Tray"
+    ],
+    "BP_Goods_Jelly_Orange": [
+      "SM_Goods_Jelly_Orange_Cup",
+      "SM_Goods_Jelly_Orange_Film"
+    ],
+    "BP_Goods_Jelly_Strawberry": [
+      "SM_Goods_Jelly_Strawberry_Cup",
+      "SM_Goods_Jelly_Strawberry_Film"
+    ],
+    "BP_Goods_Jelly_Grape": [
+      "SM_Goods_Jelly_Grape_Cup",
+      "SM_Goods_Jelly_Grape_Film"
+    ],
+    "BP_Goods_CandyJar_Fruit": [
+      "SM_Goods_CandyJar_Fruit_Jar",
+      "SM_Goods_CandyJar_Fruit_Lid",
+      "SM_Goods_CandyJar_Fruit_Contents"
+    ],
+    "BP_Goods_CandyJar_Mint": [
+      "SM_Goods_CandyJar_Mint_Jar",
+      "SM_Goods_CandyJar_Mint_Lid",
+      "SM_Goods_CandyJar_Mint_Contents"
+    ]
+  }
+}

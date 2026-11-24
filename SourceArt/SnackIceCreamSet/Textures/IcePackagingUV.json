@@ -1,0 +1,504 @@
+{
+  "texture_size": [
+    2048,
+    2048
+  ],
+  "v_order": "bottom-first",
+  "island_inset_px": 8,
+  "channels": {
+    "BaseColor": "sRGB RGB",
+    "ORM": "linear: R ambient occlusion, G roughness, B metallic = 0"
+  },
+  "uv_rect_order": [
+    "u_min",
+    "v_min",
+    "u_max",
+    "v_max"
+  ],
+  "families": {
+    "BoxIce": {
+      "aspect": 1.6,
+      "base_color": "T_Ice_BoxIce_BaseColor.png",
+      "orm": "T_Ice_BoxIce_ORM.png",
+      "flavors": [
+        {
+          "index_bottom_first": 0,
+          "flavor": "Vanilla",
+          "flavor_label": "香草味",
+          "title": "香草冰淇淋",
+          "band_v": [
+            0.0,
+            0.5
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            1032,
+            1016,
+            2040
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.00390625,
+            0.49609375,
+            0.49609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            1032,
+            2040,
+            2040
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.00390625,
+            0.99609375,
+            0.49609375
+          ]
+        },
+        {
+          "index_bottom_first": 1,
+          "flavor": "Strawberry",
+          "flavor_label": "草莓味",
+          "title": "草莓冰淇淋",
+          "band_v": [
+            0.5,
+            1.0
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            8,
+            1016,
+            1016
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.50390625,
+            0.49609375,
+            0.99609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            8,
+            2040,
+            1016
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.50390625,
+            0.99609375,
+            0.99609375
+          ]
+        }
+      ]
+    },
+    "IcePop": {
+      "aspect": 0.55,
+      "base_color": "T_Ice_IcePop_BaseColor.png",
+      "orm": "T_Ice_IcePop_ORM.png",
+      "flavors": [
+        {
+          "index_bottom_first": 0,
+          "flavor": "Milk",
+          "flavor_label": "牛乳味",
+          "title": "奶香棒冰",
+          "band_v": [
+            0.0,
+            0.5
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            1032,
+            1016,
+            2040
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.00390625,
+            0.49609375,
+            0.49609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            1032,
+            2040,
+            2040
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.00390625,
+            0.99609375,
+            0.49609375
+          ]
+        },
+        {
+          "index_bottom_first": 1,
+          "flavor": "Orange",
+          "flavor_label": "香橙味",
+          "title": "果味冰棒",
+          "band_v": [
+            0.5,
+            1.0
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            8,
+            1016,
+            1016
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.50390625,
+            0.49609375,
+            0.99609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            8,
+            2040,
+            1016
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.50390625,
+            0.99609375,
+            0.99609375
+          ]
+        }
+      ]
+    },
+    "ChocoBar": {
+      "aspect": 0.55,
+      "base_color": "T_Ice_ChocoBar_BaseColor.png",
+      "orm": "T_Ice_ChocoBar_ORM.png",
+      "flavors": [
+        {
+          "index_bottom_first": 0,
+          "flavor": "Chocolate",
+          "flavor_label": "巧克力味",
+          "title": "脆皮雪糕",
+          "band_v": [
+            0.0,
+            0.5
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            1032,
+            1016,
+            2040
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.00390625,
+            0.49609375,
+            0.49609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            1032,
+            2040,
+            2040
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.00390625,
+            0.99609375,
+            0.49609375
+          ]
+        },
+        {
+          "index_bottom_first": 1,
+          "flavor": "Vanilla",
+          "flavor_label": "香草味",
+          "title": "巧克力雪糕",
+          "band_v": [
+            0.5,
+            1.0
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            8,
+            1016,
+            1016
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.50390625,
+            0.49609375,
+            0.99609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            8,
+            2040,
+            1016
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.50390625,
+            0.99609375,
+            0.99609375
+          ]
+        }
+      ]
+    },
+    "CupIce": {
+      "aspect": 1.7,
+      "base_color": "T_Ice_CupIce_BaseColor.png",
+      "orm": "T_Ice_CupIce_ORM.png",
+      "flavors": [
+        {
+          "index_bottom_first": 0,
+          "flavor": "Strawberry",
+          "flavor_label": "草莓味",
+          "title": "杯装雪糕",
+          "band_v": [
+            0.0,
+            0.5
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            1032,
+            1016,
+            2040
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.00390625,
+            0.49609375,
+            0.49609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            1032,
+            2040,
+            2040
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.00390625,
+            0.99609375,
+            0.49609375
+          ]
+        },
+        {
+          "index_bottom_first": 1,
+          "flavor": "Vanilla",
+          "flavor_label": "香草味",
+          "title": "杯装雪糕",
+          "band_v": [
+            0.5,
+            1.0
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            8,
+            1016,
+            1016
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.50390625,
+            0.49609375,
+            0.99609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            8,
+            2040,
+            1016
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.50390625,
+            0.99609375,
+            0.99609375
+          ]
+        }
+      ]
+    },
+    "Cone": {
+      "aspect": 0.6,
+      "base_color": "T_Ice_Cone_BaseColor.png",
+      "orm": "T_Ice_Cone_ORM.png",
+      "flavors": [
+        {
+          "index_bottom_first": 0,
+          "flavor": "Vanilla",
+          "flavor_label": "香草味",
+          "title": "甜筒雪糕",
+          "band_v": [
+            0.0,
+            0.3333333333333333
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            1373,
+            1016,
+            2040
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.00390625,
+            0.49609375,
+            0.32958984375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            1373,
+            2040,
+            2040
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.00390625,
+            0.99609375,
+            0.32958984375
+          ]
+        },
+        {
+          "index_bottom_first": 1,
+          "flavor": "Chocolate",
+          "flavor_label": "巧克力味",
+          "title": "甜筒雪糕",
+          "band_v": [
+            0.3333333333333333,
+            0.6666666666666666
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            690,
+            1016,
+            1357
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.33740234375,
+            0.49609375,
+            0.6630859375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            690,
+            2040,
+            1357
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.33740234375,
+            0.99609375,
+            0.6630859375
+          ]
+        },
+        {
+          "index_bottom_first": 2,
+          "flavor": "Strawberry",
+          "flavor_label": "草莓味",
+          "title": "甜筒雪糕",
+          "band_v": [
+            0.6666666666666666,
+            1.0
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            8,
+            1016,
+            674
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.6708984375,
+            0.49609375,
+            0.99609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            8,
+            2040,
+            674
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.6708984375,
+            0.99609375,
+            0.99609375
+          ]
+        }
+      ]
+    },
+    "FamilyTub": {
+      "aspect": 2.2,
+      "base_color": "T_Ice_FamilyTub_BaseColor.png",
+      "orm": "T_Ice_FamilyTub_ORM.png",
+      "flavors": [
+        {
+          "index_bottom_first": 0,
+          "flavor": "Vanilla",
+          "flavor_label": "香草味",
+          "title": "家庭装雪糕",
+          "band_v": [
+            0.0,
+            0.5
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            1032,
+            1016,
+            2040
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.00390625,
+            0.49609375,
+            0.49609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            1032,
+            2040,
+            2040
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.00390625,
+            0.99609375,
+            0.49609375
+          ]
+        },
+        {
+          "index_bottom_first": 1,
+          "flavor": "Strawberry",
+          "flavor_label": "草莓味",
+          "title": "家庭装雪糕",
+          "band_v": [
+            0.5,
+            1.0
+          ],
+          "front_pixel_rect_top_left": [
+            8,
+            8,
+            1016,
+            1016
+          ],
+          "front_uv_rect": [
+            0.00390625,
+            0.50390625,
+            0.49609375,
+            0.99609375
+          ],
+          "back_pixel_rect_top_left": [
+            1032,
+            8,
+            2040,
+            1016
+          ],
+          "back_uv_rect": [
+            0.50390625,
+            0.50390625,
+            0.99609375,
+            0.99609375
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "success": true,
+  "description": "Original seamless aged woven fabric for ThreeSeatSofa",
+  "method": "Deterministic periodic procedural textile with original color design; no external images",
+  "resolution": [
+    2048,
+    2048
+  ],
+  "map_count": 9,
+  "material_sets": {
+    "Fabric": {
+      "material": "M_Sofa_Fabric",
+      "texture_prefix": "T_Sofa_Fabric",
+      "files": {
+        "BaseColor": "T_Sofa_Fabric_BaseColor.png",
+        "Normal": "T_Sofa_Fabric_Normal.png",
+        "ORM": "T_Sofa_Fabric_ORM.png"
+      },
+      "resolution": [
+        2048,
+        2048
+      ],
+      "UV_repeat_m": 0.45,
+      "normal_convention": "OpenGL +Y",
+      "normal_strength": 1.0,
+      "base_color_space": "sRGB",
+      "normal_color_space": "linear",
+      "orm_color_space": "linear",
+      "ORM_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "stats": {
+        "BaseColor": {
+          "minimum": [
+            58,
+            39,
+            27
+          ],
+          "maximum": [
+            107,
+            85,
+            70
+          ],
+          "mean": [
+            79.124,
+            58.247,
+            44.464
+          ],
+          "edge_mean_delta": 1.5667317708333335,
+          "sha256": "fce45b9e8411d74d2b0505b09e03027dd74915990df7496256e879c7875d2849"
+        },
+        "Normal": {
+          "minimum": [
+            96,
+            96,
+            251
+          ],
+          "maximum": [
+            159,
+            159,
+            255
+          ],
+          "mean": [
+            127.5,
+            127.5,
+            253.683
+          ],
+          "edge_mean_delta": 6.004801432291667,
+          "sha256": "21d7db10b4f21fa1bf71a243701ca9efed6b241bbc30459ad925fcb40796522a"
+        },
+        "ORM": {
+          "minimum": [
+            245,
+            191,
+            0
+          ],
+          "maximum": [
+            249,
+            226,
+            0
+          ],
+          "mean": [
+            248.503,
+            213.492,
+            0.0
+          ],
+          "edge_mean_delta": 0.63427734375,
+          "sha256": "0a1c7fb5c4e32f33333d7d6efe3b4dcd4fbf7df0e4a0f0d8f7a3b885679ff38b"
+        }
+      },
+      "revision": "v02 actual-Cycles review: dark warm brown, broad contrast reduced25%,1.25mm thread relief",
+      "original_revision_input": "Revisions/Fabric_v01"
+    },
+    "Plaid": {
+      "material": "M_Sofa_Plaid",
+      "texture_prefix": "T_Sofa_Plaid",
+      "files": {
+        "BaseColor": "T_Sofa_Plaid_BaseColor.png",
+        "Normal": "T_Sofa_Plaid_Normal.png",
+        "ORM": "T_Sofa_Plaid_ORM.png"
+      },
+      "resolution": [
+        2048,
+        2048
+      ],
+      "UV_repeat_m": 0.28,
+      "normal_convention": "OpenGL +Y",
+      "normal_strength": 1.0,
+      "base_color_space": "sRGB",
+      "normal_color_space": "linear",
+      "orm_color_space": "linear",
+      "ORM_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "stats": {
+        "BaseColor": {
+          "minimum": [
+            66,
+            56,
+            46
+          ],
+          "maximum": [
+            167,
+            160,
+            143
+          ],
+          "mean": [
+            118.009,
+            110.797,
+            98.153
+          ],
+          "edge_mean_delta": 0.8789876302083333,
+          "sha256": "0f948b3e339fa21650e47cca4b56fa688e020f9b0e9543000e5cfa39662c1a85"
+        },
+        "Normal": {
+          "minimum": [
+            113,
+            113,
+            254
+          ],
+          "maximum": [
+            142,
+            142,
+            255
+          ],
+          "mean": [
+            127.5,
+            127.5,
+            254.949
+          ],
+          "edge_mean_delta": 2.4942220052083335,
+          "sha256": "738304a4f891c147a9b307f58d4b8d59f95717e1ca951866843f24b91e012cf9"
+        },
+        "ORM": {
+          "minimum": [
+            247,
+            208,
+            0
+          ],
+          "maximum": [
+            249,
+            228,
+            0
+          ],
+          "mean": [
+            248.62,
+            217.35,
+            0.0
+          ],
+          "edge_mean_delta": 0.6180826822916666,
+          "sha256": "191c057e3fc5071324bbecfe6bae91b796795aaf3ac12455a386efcd92855d0a"
+        }
+      }
+    },
+    "Underside": {
+      "material": "M_Sofa_Underside",
+      "texture_prefix": "T_Sofa_Underside",
+      "files": {
+        "BaseColor": "T_Sofa_Underside_BaseColor.png",
+        "Normal": "T_Sofa_Underside_Normal.png",
+        "ORM": "T_Sofa_Underside_ORM.png"
+      },
+      "resolution": [
+        2048,
+        2048
+      ],
+      "UV_repeat_m": 0.45,
+      "normal_convention": "OpenGL +Y",
+      "normal_strength": 1.0,
+      "base_color_space": "sRGB",
+      "normal_color_space": "linear",
+      "orm_color_space": "linear",
+      "ORM_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "stats": {
+        "BaseColor": {
+          "minimum": [
+            31,
+            30,
+            28
+          ],
+          "maximum": [
+            42,
+            41,
+            39
+          ],
+          "mean": [
+            35.827,
+            34.827,
+            32.827
+          ],
+          "edge_mean_delta": 0.451904296875,
+          "sha256": "655413815c27b646586b014a351d38b7b8c434c8e208a09ad3e12a0afc2660c4"
+        },
+        "Normal": {
+          "minimum": [
+            116,
+            116,
+            254
+          ],
+          "maximum": [
+            139,
+            139,
+            255
+          ],
+          "mean": [
+            127.5,
+            127.5,
+            255.0
+          ],
+          "edge_mean_delta": 2.1767578125,
+          "sha256": "5877330f5b13524480e700e999e0f343f4a756c3c3b9502fe3e3d8eae6874e88"
+        },
+        "ORM": {
+          "minimum": [
+            247,
+            229,
+            0
+          ],
+          "maximum": [
+            249,
+            241,
+            0
+          ],
+          "mean": [
+            248.637,
+            234.47,
+            0.0
+          ],
+          "edge_mean_delta": 0.5079752604166667,
+          "sha256": "18a911f4e5d67637d782bba0a36818b6389ea86e83b8f3386b6bdbf13ea72ba3"
+        }
+      }
+    }
+  },
+  "notes": [
+    "Rotate/offset UV islands by modest amounts to avoid repeated rub patterns across cushions.",
+    "Fabric should use 0.45 m physical repeat, plaid 0.28 m repeat, underside 0.45 m repeat.",
+    "Normals are subtle thread relief. Cushion folds and piping should be modeled independently.",
+    "Blender OpenGL normal; Unreal flip green channel on import.",
+    "BaseColor sRGB; Normal and ORM NonColor/linear. All maps tile periodically.",
+    "Fabric v02 mean sRGB78/59/44, revised after actual rendered appearance review; plaid and underside unchanged."
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "success": true,
+  "run_id": "0a893917-1511-48e0-8289-b4537a156dc5",
+  "mode": "live",
+  "target_root": "/Game/Yastars/Mesh/IceCreamFreezer",
+  "started_utc": "2026-11-18T10:45:45.299626+00:00",
+  "imported_meshes": [
+    "SM_IceCreamFreezer_BasketLeft",
+    "SM_IceCreamFreezer_BasketRight",
+    "SM_IceCreamFreezer_Body",
+    "SM_IceCreamFreezer_GlassDoorLeft",
+    "SM_IceCreamFreezer_GlassDoorRight",
+    "SM_IceCreamFreezer_Liner",
+    "SM_IceCreamFreezer_TopFrame",
+    "SM_IceCreamFreezer_WheelFL",
+    "SM_IceCreamFreezer_WheelFR",
+    "SM_IceCreamFreezer_WheelRL",
+    "SM_IceCreamFreezer_WheelRR"
+  ],
+  "saved": [
+    "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+    "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM",
+    "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque",
+    "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Glass.M_IceCreamFreezer_Glass",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Body.SM_IceCreamFreezer_Body",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_TopFrame.SM_IceCreamFreezer_TopFrame",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorLeft.SM_IceCreamFreezer_GlassDoorLeft",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorRight.SM_IceCreamFreezer_GlassDoorRight",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Liner.SM_IceCreamFreezer_Liner",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketLeft.SM_IceCreamFreezer_BasketLeft",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketRight.SM_IceCreamFreezer_BasketRight",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFL.SM_IceCreamFreezer_WheelFL",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFR.SM_IceCreamFreezer_WheelFR",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRL.SM_IceCreamFreezer_WheelRL",
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRR.SM_IceCreamFreezer_WheelRR",
+    "/Game/Yastars/Mesh/IceCreamFreezer/BP_IceCreamFreezer.BP_IceCreamFreezer"
+  ],
+  "world": "/Game/Yastar/Maps/Scenes/L_OldTownSchoolStreet.L_OldTownSchoolStreet",
+  "source_hashes": {
+    "export_report.json": "b6b8f70085a831623fc8a19e5dcc13efc625b0d30824084b88b294b77f18e5ea",
+    "SM_IceCreamFreezer_Body.fbx": "bf565a154465af85237a3955d741e9a92720a1662e347a770d8d11e08e85d2f4",
+    "SM_IceCreamFreezer_TopFrame.fbx": "8675f22ec2010588f5c6d31ad4d93860c2c9c3a9a2833a5cf099f449fec1c560",
+    "SM_IceCreamFreezer_GlassDoorLeft.fbx": "19c252daf2a9dac88e409b7b1a9aa0385f24c60f677d139a9b5adcd05af57ec8",
+    "SM_IceCreamFreezer_GlassDoorRight.fbx": "d81105ae18ecb9ca22fec11ea576f49c31f69d6794759cbf1fbfda0e8903096e",
+    "SM_IceCreamFreezer_Liner.fbx": "5fb21d105b55df04eef226f423b251efa50d8160ee0ecb87d44d882a42725e47",
+    "SM_IceCreamFreezer_BasketLeft.fbx": "3e0ec6540a6350b1962dca127febdf74cacac16e163259409a18d673f9f1a8f0",
+    "SM_IceCreamFreezer_BasketRight.fbx": "2648cba9942f23d34fb671f090ccc52d0dbf287f808473b4242a0f5a6c7275c0",
+    "SM_IceCreamFreezer_WheelFL.fbx": "b4441a57e6490e970f66075eb7f2cde7c4723d9c0f83c932f752ab00ec1d3c08",
+    "SM_IceCreamFreezer_WheelFR.fbx": "e478cd5f56c45d80a15edabf9d222e21a17fab16b7093ad483754fa98f5dfa03",
+    "SM_IceCreamFreezer_WheelRL.fbx": "4898025b9fe8945463d79a8a0f0fe407d06359213bea8898a432101ae7b29b31",
+    "SM_IceCreamFreezer_WheelRR.fbx": "4c31f82d5d8125f45fb429cb10dc3323a5f079dfd441737b190754d4cf52eaab",
+    "T_IceCreamFreezer_BaseColor.png": "7f395b4fc58e4c465f24e2fda981b405fb20db8771c95c2e3dfc08bfef979991",
+    "T_IceCreamFreezer_ORM.png": "7108203aecdc09b238f2c12057007bbae36335910a1b9f5d4e8ba0d173f4bd0c"
+  },
+  "manifest_sha256": "b6b8f70085a831623fc8a19e5dcc13efc625b0d30824084b88b294b77f18e5ea",
+  "doors": {
+    "left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_IceCreamFreezer_GlassDoorLeft",
+      "pivot_m": [
+        -0.301,
+        0,
+        0.8
+      ],
+      "closed_ue_cm": [
+        -30.099999999999998,
+        0,
+        80.0
+      ],
+      "travel_cm": 60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorLeft"
+    },
+    "right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_IceCreamFreezer_GlassDoorRight",
+      "pivot_m": [
+        0.301,
+        0,
+        0.812
+      ],
+      "closed_ue_cm": [
+        30.099999999999998,
+        0,
+        81.2
+      ],
+      "travel_cm": -60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorRight"
+    }
+  },
+  "protected_files_before": 460,
+  "preexisting_packages": [],
+  "preexisting_files": [],
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque",
+    "glass": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Glass.M_IceCreamFreezer_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095
+  },
+  "meshes": {
+    "SM_IceCreamFreezer_Body": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Body.SM_IceCreamFreezer_Body",
+      "min_cm": [
+        -66.0,
+        -35.0000114440918,
+        9.999994277954102
+      ],
+      "max_cm": [
+        65.0,
+        36.39999771118164,
+        76.50000762939453
+      ],
+      "triangles": 404,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_TopFrame": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_TopFrame.SM_IceCreamFreezer_TopFrame",
+      "min_cm": [
+        -65.0,
+        -35.0000114440918,
+        76.49999237060547
+      ],
+      "max_cm": [
+        65.0,
+        34.9999885559082,
+        87.9000015258789
+      ],
+      "triangles": 184,
+      "convex_hulls": 4,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_GlassDoorLeft": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorLeft.SM_IceCreamFreezer_GlassDoorLeft",
+      "min_cm": [
+        -31.099998474121094,
+        -31.799999237060547,
+        -0.5923442244529724
+      ],
+      "max_cm": [
+        31.099998474121094,
+        31.799999237060547,
+        5.900001525878906
+      ],
+      "triangles": 244,
+      "convex_hulls": 4,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque",
+        "M_Freezer_Glass": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Glass.M_IceCreamFreezer_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_GlassDoorRight": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorRight.SM_IceCreamFreezer_GlassDoorRight",
+      "min_cm": [
+        -31.099998474121094,
+        -31.799999237060547,
+        -0.5923442244529724
+      ],
+      "max_cm": [
+        31.099998474121094,
+        31.799999237060547,
+        5.900001525878906
+      ],
+      "triangles": 244,
+      "convex_hulls": 4,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque",
+        "M_Freezer_Glass": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Glass.M_IceCreamFreezer_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_Liner": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Liner.SM_IceCreamFreezer_Liner",
+      "min_cm": [
+        -60.60000228881836,
+        -30.600011825561523,
+        20.4999942779541
+      ],
+      "max_cm": [
+        60.60000228881836,
+        30.59999656677246,
+        76.5
+      ],
+      "triangles": 60,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_BasketLeft": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketLeft.SM_IceCreamFreezer_BasketLeft",
+      "min_cm": [
+        -24.627277374267578,
+        -31.20000457763672,
+        -0.12728369235992432
+      ],
+      "max_cm": [
+        24.62727928161621,
+        31.199996948242188,
+        25.882850646972656
+      ],
+      "triangles": 708,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_BasketRight": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketRight.SM_IceCreamFreezer_BasketRight",
+      "min_cm": [
+        -24.62727928161621,
+        -31.20000457763672,
+        -0.12728369235992432
+      ],
+      "max_cm": [
+        24.627277374267578,
+        31.199996948242188,
+        25.882850646972656
+      ],
+      "triangles": 708,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_WheelFL": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFL.SM_IceCreamFreezer_WheelFL",
+      "min_cm": [
+        -3.600001335144043,
+        -2.750000238418579,
+        -10.0
+      ],
+      "max_cm": [
+        3.7999987602233887,
+        2.750000476837158,
+        4.480319262256671e-07
+      ],
+      "triangles": 184,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_WheelFR": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFR.SM_IceCreamFreezer_WheelFR",
+      "min_cm": [
+        -3.600001335144043,
+        -2.750000238418579,
+        -10.0
+      ],
+      "max_cm": [
+        3.7999987602233887,
+        2.750000476837158,
+        4.480319262256671e-07
+      ],
+      "triangles": 184,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_WheelRL": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRL.SM_IceCreamFreezer_WheelRL",
+      "min_cm": [
+        -3.600001335144043,
+        -2.750000238418579,
+        -10.0
+      ],
+      "max_cm": [
+        3.7999987602233887,
+        2.750000476837158,
+        4.480319262256671e-07
+      ],
+      "triangles": 184,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    },
+    "SM_IceCreamFreezer_WheelRR": {
+      "asset": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRR.SM_IceCreamFreezer_WheelRR",
+      "min_cm": [
+        -3.600001335144043,
+        -2.750000238418579,
+        -10.0
+      ],
+      "max_cm": [
+        3.7999987602233887,
+        2.750000476837158,
+        4.480319262256671e-07
+      ],
+      "triangles": 184,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Freezer_Opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor.T_IceCreamFreezer_BaseColor",
+        "orm": "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM.T_IceCreamFreezer_ORM"
+      }
+    }
+  },
+  "blueprint": {
+    "asset": "/Game/Yastars/Mesh/IceCreamFreezer/BP_IceCreamFreezer.BP_IceCreamFreezer",
+    "components": {
+      "Body": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Body.SM_IceCreamFreezer_Body",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "TopFrame": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_TopFrame.SM_IceCreamFreezer_TopFrame",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "GlassDoorLeft": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorLeft.SM_IceCreamFreezer_GlassDoorLeft",
+        "parent": "SlidingGlassDoors",
+        "relative_location_cm": [
+          -30.099999999999998,
+          0.0,
+          80.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "travel_cm": 60.2,
+        "open_ue_cm": [
+          30.100000000000005,
+          0.0,
+          80.0
+        ]
+      },
+      "GlassDoorRight": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorRight.SM_IceCreamFreezer_GlassDoorRight",
+        "parent": "SlidingGlassDoors",
+        "relative_location_cm": [
+          30.099999999999998,
+          0.0,
+          81.2
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "travel_cm": -60.2,
+        "open_ue_cm": [
+          -30.100000000000005,
+          0.0,
+          81.2
+        ]
+      },
+      "Liner": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Liner.SM_IceCreamFreezer_Liner",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "BasketLeft": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketLeft.SM_IceCreamFreezer_BasketLeft",
+        "parent": "Baskets",
+        "relative_location_cm": [
+          -28.49999964237213,
+          -0.0,
+          51.499998569488525
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "BasketRight": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketRight.SM_IceCreamFreezer_BasketRight",
+        "parent": "Baskets",
+        "relative_location_cm": [
+          28.49999964237213,
+          -0.0,
+          51.499998569488525
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelFL": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFL.SM_IceCreamFreezer_WheelFL",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          -56.99999928474426,
+          27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelFR": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFR.SM_IceCreamFreezer_WheelFR",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          56.99999928474426,
+          27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelRL": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRL.SM_IceCreamFreezer_WheelRL",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          -56.99999928474426,
+          -27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelRR": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRR.SM_IceCreamFreezer_WheelRR",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          56.99999928474426,
+          -27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      }
+    },
+    "planning_categories": {
+      "Body": "\u5916\u58f3\u67dc\u4f53",
+      "TopFrame": "\u4e0a\u6846\u67b6\u4e0e\u6ed1\u8f68",
+      "SlidingGlassDoors": "\u73bb\u7483\u6ed1\u95e8\uff08\u5de6\u53f3\uff09",
+      "Liner": "\u5185\u80c6",
+      "Baskets": "\u5185\u90e8\u7bee\u7b50\uff08\u4e24\u4e2a\uff09",
+      "Wheels": "\u4e07\u5411\u8f6e\uff08\u56db\u4e2a\uff09"
+    },
+    "planning_category_count": 6,
+    "static_mesh_count": 11,
+    "groups": {
+      "SlidingGlassDoors": [
+        "GlassDoorLeft",
+        "GlassDoorRight"
+      ],
+      "Baskets": [
+        "BasketLeft",
+        "BasketRight"
+      ],
+      "Wheels": [
+        "WheelFL",
+        "WheelFR",
+        "WheelRL",
+        "WheelRR"
+      ]
+    },
+    "sliding_axis": "local X",
+    "blueprint_ready": true,
+    "interaction_events_installed": false
+  },
+  "packages": {
+    "/Game/Yastars/Mesh/IceCreamFreezer/BP_IceCreamFreezer": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\BP_IceCreamFreezer.uasset",
+      "sha256": "d63a1064f30d836e08febf7efd148fad7b9332a352328ca451c866f3e7166b2d",
+      "bytes": 44610
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\Materials\\M_IceCreamFreezer_Glass.uasset",
+      "sha256": "051aa5be454527bda37e9e4ae362a98daccf7897096d65e9cb300d3683fdeed1",
+      "bytes": 11232
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\Materials\\M_IceCreamFreezer_Opaque.uasset",
+      "sha256": "2b73f1088d03badb52e1da0bce54c4d75902d4cd55984685c1d8e331ca5cbecc",
+      "bytes": 12894
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_BasketLeft.uasset",
+      "sha256": "eeeb164a24ef81465df913d1ecb29a4de0ed84039cf46c982f2debae16a15f4b",
+      "bytes": 41931
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_BasketRight.uasset",
+      "sha256": "af0babe7ce72f2bc1c350b0672aa1b124cd6f2b5eda8a551031f9fddfcc8b7a6",
+      "bytes": 41903
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Body": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_Body.uasset",
+      "sha256": "6b621c5e1ae6a35929b0e2080dd42a292d96587fd51016cde7ed63c2a5144cb8",
+      "bytes": 33555
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_GlassDoorLeft.uasset",
+      "sha256": "1999119329bf52fd8a6e92d240ec2b858e9680aadd37b62d46539f8a4b95ef2f",
+      "bytes": 28845
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_GlassDoorRight.uasset",
+      "sha256": "57c35812010c5a12264d7e5509ce4cd980c19d3c7ec2d004210289c5bb59db82",
+      "bytes": 28807
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Liner": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_Liner.uasset",
+      "sha256": "020aca6efe6c6825dd83763a3ccfeac484336ccf5b5d69646250735b9988e663",
+      "bytes": 22947
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_TopFrame": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_TopFrame.uasset",
+      "sha256": "96b736aca4598ffd3e2b616edd3aeac842abbbeffd70ae17fedec67926a0a005",
+      "bytes": 25362
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFL": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_WheelFL.uasset",
+      "sha256": "c2cefb0da56bfff8884a8218832ed7bc0c8a2109dd6a8eedc2bfa99ba2eb6fb9",
+      "bytes": 23346
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFR": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_WheelFR.uasset",
+      "sha256": "8069a8c0fe33bf7baebf329de17bc4c92dc939ae57a011c2dafa907c62da82dd",
+      "bytes": 23158
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRL": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_WheelRL.uasset",
+      "sha256": "753fc7c5da7b1562ac57c28a3676328321d54d47e6dbd1f81239e44a1e4c6a63",
+      "bytes": 23372
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRR": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\SM_IceCreamFreezer_WheelRR.uasset",
+      "sha256": "ba60b90122a730b467b6cdd1380e4d37ccac9b98482847526b9bd50ce7b7fadb",
+      "bytes": 23166
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\Textures\\T_IceCreamFreezer_BaseColor.uasset",
+      "sha256": "3a1c20f81619923224b8ba15087318f2f023bf3b789b09691dc672190f5386b2",
+      "bytes": 2517647
+    },
+    "/Game/Yastars/Mesh/IceCreamFreezer/Textures/T_IceCreamFreezer_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\IceCreamFreezer\\Textures\\T_IceCreamFreezer_ORM.uasset",
+      "sha256": "eb5fee4570a6a72045c92dda1bf66bde1d04740357fa3d493f91b19b47e8ef2c",
+      "bytes": 190176
+    }
+  },
+  "protected_files_after": 460,
+  "completed_utc": "2026-11-18T10:46:04.449242+00:00"
+}

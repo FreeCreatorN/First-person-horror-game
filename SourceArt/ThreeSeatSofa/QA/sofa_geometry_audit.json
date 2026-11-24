@@ -1,0 +1,2095 @@
+{
+  "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\ThreeSeatSofa.blend",
+  "read_only": true,
+  "source_sha256_before": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+  "findings": [],
+  "parts": {
+    "SM_Sofa_Base": {
+      "object": "SM_Sofa_Base",
+      "role": "Base",
+      "vertices": 140,
+      "triangles": 276,
+      "bounds_world_m": [
+        [
+          -1.0838829278945923,
+          -0.45870521664619446,
+          0.0747549906373024
+        ],
+        [
+          1.0839999914169312,
+          0.47000694274902344,
+          0.7625008821487427
+        ]
+      ],
+      "location_m": [
+        5.8562058256939054e-05,
+        0.0006577936583198607,
+        0.0
+      ],
+      "pivot_m": [
+        5.8562058256939054e-05,
+        0.0006577936583198607,
+        0.0
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Underside"
+      ],
+      "shells": [
+        {
+          "triangles": 276,
+          "signed_volume_m3": 0.5023009710275238,
+          "materials": [
+            "M_Sofa_Fabric",
+            "M_Sofa_Underside"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Arm_L": {
+      "object": "SM_Sofa_Arm_L",
+      "role": "Arm",
+      "vertices": 866,
+      "triangles": 1728,
+      "bounds_world_m": [
+        [
+          -1.149999976158142,
+          -0.4742397367954254,
+          0.1245916485786438
+        ],
+        [
+          -0.8934603929519653,
+          0.4750000238418579,
+          0.6489335298538208
+        ]
+      ],
+      "location_m": [
+        -1.0217303037643433,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "pivot_m": [
+        -1.0217303037643433,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 1472,
+          "signed_volume_m3": 0.10509589936475512,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 6.481006645723634e-06,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Arm_R": {
+      "object": "SM_Sofa_Arm_R",
+      "role": "Arm",
+      "vertices": 866,
+      "triangles": 1728,
+      "bounds_world_m": [
+        [
+          0.8936946392059326,
+          -0.4749999940395355,
+          0.1245916485786438
+        ],
+        [
+          1.149999976158142,
+          0.4750000238418579,
+          0.648797333240509
+        ]
+      ],
+      "location_m": [
+        1.0218473672866821,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "pivot_m": [
+        1.0218473672866821,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 1472,
+          "signed_volume_m3": 0.10497871979069336,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 6.472837223251797e-06,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Seat_01": {
+      "object": "SM_Sofa_Seat_01",
+      "role": "Seat",
+      "vertices": 746,
+      "triangles": 1488,
+      "bounds_world_m": [
+        [
+          -0.89993816614151,
+          -0.43972617387771606,
+          0.296340674161911
+        ],
+        [
+          -0.30312877893447876,
+          0.23697344958782196,
+          0.4871174991130829
+        ]
+      ],
+      "location_m": [
+        -0.6015786528587341,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "pivot_m": [
+        -0.6015786528587341,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 1232,
+          "signed_volume_m3": 0.0634751895847822,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 1.2504888597201594e-05,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Seat_02": {
+      "object": "SM_Sofa_Seat_02",
+      "role": "Seat",
+      "vertices": 746,
+      "triangles": 1488,
+      "bounds_world_m": [
+        [
+          -0.29901689291000366,
+          -0.4402483105659485,
+          0.29589879512786865
+        ],
+        [
+          0.29901182651519775,
+          0.23734398186206818,
+          0.4871174991130829
+        ]
+      ],
+      "location_m": [
+        5.8562058256939054e-05,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "pivot_m": [
+        5.8562058256939054e-05,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 1232,
+          "signed_volume_m3": 0.06391485467743263,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 1.2545660606673911e-05,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Seat_03": {
+      "object": "SM_Sofa_Seat_03",
+      "role": "Seat",
+      "vertices": 746,
+      "triangles": 1488,
+      "bounds_world_m": [
+        [
+          0.3031840920448303,
+          -0.44065654277801514,
+          0.2964518666267395
+        ],
+        [
+          0.9004183411598206,
+          0.2367621511220932,
+          0.48711925745010376
+        ]
+      ],
+      "location_m": [
+        0.6016957759857178,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "pivot_m": [
+        0.6016957759857178,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 1232,
+          "signed_volume_m3": 0.06361711099060881,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 1.2559084836993861e-05,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Back_01": {
+      "object": "SM_Sofa_Back_01",
+      "role": "Back",
+      "vertices": 602,
+      "triangles": 1200,
+      "bounds_world_m": [
+        [
+          -0.9000061750411987,
+          0.14061053097248077,
+          0.4481116235256195
+        ],
+        [
+          -0.2987753748893738,
+          0.3899623155593872,
+          0.8469040989875793
+        ]
+      ],
+      "location_m": [
+        -0.5995897054672241,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "pivot_m": [
+        -0.5995897054672241,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 944,
+          "signed_volume_m3": 0.042227817337239536,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 9.414759138811254e-06,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Back_02": {
+      "object": "SM_Sofa_Back_02",
+      "role": "Back",
+      "vertices": 602,
+      "triangles": 1200,
+      "bounds_world_m": [
+        [
+          -0.29983794689178467,
+          0.13916735351085663,
+          0.44750338792800903
+        ],
+        [
+          0.299939900636673,
+          0.3884921371936798,
+          0.8465837240219116
+        ]
+      ],
+      "location_m": [
+        5.8562058256939054e-05,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "pivot_m": [
+        5.8562058256939054e-05,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 944,
+          "signed_volume_m3": 0.042209301763185346,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 9.438328874011859e-06,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Back_03": {
+      "object": "SM_Sofa_Back_03",
+      "role": "Back",
+      "vertices": 602,
+      "triangles": 1200,
+      "bounds_world_m": [
+        [
+          0.29889482259750366,
+          0.13949255645275116,
+          0.4459763169288635
+        ],
+        [
+          0.9005082845687866,
+          0.3900565803050995,
+          0.8500000238418579
+        ]
+      ],
+      "location_m": [
+        0.5997068285942078,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "pivot_m": [
+        0.5997068285942078,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "shells": [
+        {
+          "triangles": 944,
+          "signed_volume_m3": 0.04224237765561156,
+          "materials": [
+            "M_Sofa_Fabric"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 9.438246204733028e-06,
+          "materials": [
+            "M_Sofa_Welt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Pillow_L": {
+      "object": "SM_Sofa_Pillow_L",
+      "role": "Pillow",
+      "vertices": 386,
+      "triangles": 768,
+      "bounds_world_m": [
+        [
+          -0.8821391463279724,
+          -0.19729897379875183,
+          0.4687575101852417
+        ],
+        [
+          -0.5384110808372498,
+          0.023125305771827698,
+          0.8220968246459961
+        ]
+      ],
+      "location_m": [
+        -0.7109671831130981,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "pivot_m": [
+        -0.7109671831130981,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Plaid",
+        "M_Sofa_PillowWelt"
+      ],
+      "shells": [
+        {
+          "triangles": 512,
+          "signed_volume_m3": 0.011388363948261334,
+          "materials": [
+            "M_Sofa_Plaid"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 4.4383187590331845e-06,
+          "materials": [
+            "M_Sofa_PillowWelt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Pillow_R": {
+      "object": "SM_Sofa_Pillow_R",
+      "role": "Pillow",
+      "vertices": 386,
+      "triangles": 768,
+      "bounds_world_m": [
+        [
+          0.5399318933486938,
+          -0.1960349828004837,
+          0.4671640396118164
+        ],
+        [
+          0.8846449851989746,
+          0.024916723370552063,
+          0.8233837485313416
+        ]
+      ],
+      "location_m": [
+        0.7110843062400818,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "pivot_m": [
+        0.7110843062400818,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Plaid",
+        "M_Sofa_PillowWelt"
+      ],
+      "shells": [
+        {
+          "triangles": 512,
+          "signed_volume_m3": 0.01138767060695045,
+          "materials": [
+            "M_Sofa_Plaid"
+          ]
+        },
+        {
+          "triangles": 256,
+          "signed_volume_m3": 4.412840411305297e-06,
+          "materials": [
+            "M_Sofa_PillowWelt"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Foot_FL": {
+      "object": "SM_Sofa_Foot_FL",
+      "role": "Foot",
+      "vertices": 36,
+      "triangles": 68,
+      "bounds_world_m": [
+        [
+          -0.9725053310394287,
+          -0.3768187463283539,
+          0.0
+        ],
+        [
+          -0.8969277739524841,
+          -0.30092400312423706,
+          0.07973865419626236
+        ]
+      ],
+      "location_m": [
+        -0.9347165822982788,
+        -0.33887138962745667,
+        0.0
+      ],
+      "pivot_m": [
+        -0.9347165822982788,
+        -0.33887138962745667,
+        0.0
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Feet"
+      ],
+      "shells": [
+        {
+          "triangles": 68,
+          "signed_volume_m3": 0.0003153912537830668,
+          "materials": [
+            "M_Sofa_Feet"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Foot_FR": {
+      "object": "SM_Sofa_Foot_FR",
+      "role": "Foot",
+      "vertices": 36,
+      "triangles": 68,
+      "bounds_world_m": [
+        [
+          0.8970448970794678,
+          -0.3768187463283539,
+          0.0
+        ],
+        [
+          0.9726224541664124,
+          -0.30092400312423706,
+          0.07973865419626236
+        ]
+      ],
+      "location_m": [
+        0.9348337054252625,
+        -0.33887138962745667,
+        0.0
+      ],
+      "pivot_m": [
+        0.9348337054252625,
+        -0.33887138962745667,
+        0.0
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Feet"
+      ],
+      "shells": [
+        {
+          "triangles": 68,
+          "signed_volume_m3": 0.00031539109022560297,
+          "materials": [
+            "M_Sofa_Feet"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Foot_BL": {
+      "object": "SM_Sofa_Foot_BL",
+      "role": "Foot",
+      "vertices": 36,
+      "triangles": 68,
+      "bounds_world_m": [
+        [
+          -0.9725053310394287,
+          0.3122257590293884,
+          0.0
+        ],
+        [
+          -0.8969277739524841,
+          0.38812047243118286,
+          0.07973865419626236
+        ]
+      ],
+      "location_m": [
+        -0.9347165822982788,
+        0.35017311573028564,
+        0.0
+      ],
+      "pivot_m": [
+        -0.9347165822982788,
+        0.35017311573028564,
+        0.0
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Feet"
+      ],
+      "shells": [
+        {
+          "triangles": 68,
+          "signed_volume_m3": 0.000315394437014523,
+          "materials": [
+            "M_Sofa_Feet"
+          ]
+        }
+      ]
+    },
+    "SM_Sofa_Foot_BR": {
+      "object": "SM_Sofa_Foot_BR",
+      "role": "Foot",
+      "vertices": 36,
+      "triangles": 68,
+      "bounds_world_m": [
+        [
+          0.8970448970794678,
+          0.3122257590293884,
+          0.0
+        ],
+        [
+          0.9726224541664124,
+          0.38812047243118286,
+          0.07973865419626236
+        ]
+      ],
+      "location_m": [
+        0.9348337054252625,
+        0.35017311573028564,
+        0.0
+      ],
+      "pivot_m": [
+        0.9348337054252625,
+        0.35017311573028564,
+        0.0
+      ],
+      "nonmanifold_edges": 0,
+      "boundary_edges": 0,
+      "loose_edges": 0,
+      "zero_area_triangles": 0,
+      "duplicate_triangles": 0,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "material_slots": [
+        "M_Sofa_Feet"
+      ],
+      "shells": [
+        {
+          "triangles": 68,
+          "signed_volume_m3": 0.00031539227370558365,
+          "materials": [
+            "M_Sofa_Feet"
+          ]
+        }
+      ]
+    }
+  },
+  "contacts": [
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Seat_01",
+      "sampled_surface_clearance_m": 0.0015418827533721924,
+      "declared": {
+        "a": "SM_Sofa_Seat_01",
+        "b": "SM_Sofa_Base",
+        "max_gap_m": 0.008,
+        "allow_penetration_m": 0.016
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Seat_02",
+      "sampled_surface_clearance_m": 0.001094222068786621,
+      "declared": {
+        "a": "SM_Sofa_Seat_02",
+        "b": "SM_Sofa_Base",
+        "max_gap_m": 0.008,
+        "allow_penetration_m": 0.016
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Seat_03",
+      "sampled_surface_clearance_m": 0.0013565421104431152,
+      "declared": {
+        "a": "SM_Sofa_Seat_03",
+        "b": "SM_Sofa_Base",
+        "max_gap_m": 0.008,
+        "allow_penetration_m": 0.016
+      }
+    }
+  ],
+  "surface_crossings": [
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Arm_L",
+      "strict_triangle_pairs": 140,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.8999059200286865,
+          0.26797032356262207,
+          0.30400362610816956
+        ],
+        [
+          -0.8999142646789551,
+          0.2660953402519226,
+          0.30400362610816956
+        ],
+        [
+          -0.89992356300354,
+          0.2643624246120453,
+          0.30400362610816956
+        ],
+        [
+          -0.899919867515564,
+          0.18415772914886475,
+          0.30400362610816956
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.012,
+        "reason": "Upholstered arm bottom seated into low plinth after side cutouts; hidden mount contact.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.010016633197665215,
+        "inward_vertex_samples": 5,
+        "deepest_sample_world_m": [
+          -0.9098555445671082,
+          0.3152413070201874,
+          0.3432542085647583
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.010076165199279785,
+        "inward_vertex_samples": 56,
+        "deepest_sample_world_m": [
+          -0.8997793793678284,
+          0.33606839179992676,
+          0.37875860929489136
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Arm_R",
+      "strict_triangle_pairs": 142,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          1.0645955801010132,
+          0.3659132122993469,
+          0.12957531213760376
+        ],
+        [
+          1.0682721138000488,
+          0.3506774604320526,
+          0.12957531213760376
+        ],
+        [
+          1.069645881652832,
+          0.33808404207229614,
+          0.12957531213760376
+        ],
+        [
+          1.069822072982788,
+          0.26717978715896606,
+          0.12957531213760376
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.012,
+        "reason": "Upholstered arm bottom seated into low plinth after side cutouts; hidden mount contact.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.010036669671535492,
+        "inward_vertex_samples": 5,
+        "deepest_sample_world_m": [
+          0.9099727272987366,
+          0.3152413070201874,
+          0.3432542085647583
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.010111212730407715,
+        "inward_vertex_samples": 54,
+        "deepest_sample_world_m": [
+          0.8998615145683289,
+          0.33606839179992676,
+          0.37875860929489136
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Seat_01",
+      "strict_triangle_pairs": 72,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "declared_soft_contact",
+      "example_world_points_m": [
+        [
+          -0.36606794595718384,
+          0.17359106242656708,
+          0.30400362610816956
+        ],
+        [
+          -0.3592604398727417,
+          0.16586750745773315,
+          0.30400362610816956
+        ],
+        [
+          -0.35427790880203247,
+          0.1499132215976715,
+          0.30400362610816956
+        ],
+        [
+          -0.3789631128311157,
+          0.1801384836435318,
+          0.30400362610816956
+        ]
+      ],
+      "contact_rule": {
+        "a": "SM_Sofa_Seat_01",
+        "b": "SM_Sofa_Base",
+        "max_gap_m": 0.008,
+        "allow_penetration_m": 0.016
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.007662951946258545,
+        "inward_vertex_samples": 81,
+        "deepest_sample_world_m": [
+          -0.7305887937545776,
+          0.16180245578289032,
+          0.296340674161911
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Seat_02",
+      "strict_triangle_pairs": 72,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "declared_soft_contact",
+      "example_world_points_m": [
+        [
+          0.24626800417900085,
+          0.1674075722694397,
+          0.30400362610816956
+        ],
+        [
+          0.23691987991333008,
+          0.17888633906841278,
+          0.30400362610816956
+        ],
+        [
+          0.2224949449300766,
+          0.18387432396411896,
+          0.30400362610816956
+        ],
+        [
+          0.1992189884185791,
+          0.1815405786037445,
+          0.30400362610816956
+        ]
+      ],
+      "contact_rule": {
+        "a": "SM_Sofa_Seat_02",
+        "b": "SM_Sofa_Base",
+        "max_gap_m": 0.008,
+        "allow_penetration_m": 0.016
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.008104830980300903,
+        "inward_vertex_samples": 81,
+        "deepest_sample_world_m": [
+          -0.06610538065433502,
+          0.16180245578289032,
+          0.29589879512786865
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Seat_03",
+      "strict_triangle_pairs": 72,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "declared_soft_contact",
+      "example_world_points_m": [
+        [
+          0.836948573589325,
+          0.17342296242713928,
+          0.30400362610816956
+        ],
+        [
+          0.8421936631202698,
+          0.1655753254890442,
+          0.30400362610816956
+        ],
+        [
+          0.8472627997398376,
+          0.11970899999141693,
+          0.30400362610816956
+        ],
+        [
+          0.7977489233016968,
+          0.17849436402320862,
+          0.30400362610816956
+        ]
+      ],
+      "contact_rule": {
+        "a": "SM_Sofa_Seat_03",
+        "b": "SM_Sofa_Base",
+        "max_gap_m": 0.008,
+        "allow_penetration_m": 0.016
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.007551759481430054,
+        "inward_vertex_samples": 81,
+        "deepest_sample_world_m": [
+          0.7307059168815613,
+          -0.36520296335220337,
+          0.2964518666267395
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Back_01",
+      "strict_triangle_pairs": 44,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.39237743616104126,
+          0.34848934412002563,
+          0.5294160842895508
+        ],
+        [
+          -0.40045076608657837,
+          0.3517013192176819,
+          0.5474005937576294
+        ],
+        [
+          -0.40379637479782104,
+          0.34566783905029297,
+          0.5136179327964783
+        ],
+        [
+          -0.41522902250289917,
+          0.34519365429878235,
+          0.5109628438949585
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Back cushion gently compressed against upholstered rear wall.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.003807586384937167,
+        "inward_vertex_samples": 13,
+        "deepest_sample_world_m": [
+          -0.8326840996742249,
+          0.38066789507865906,
+          0.687933087348938
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Back_02",
+      "strict_triangle_pairs": 50,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.2352190464735031,
+          0.3558780550956726,
+          0.570786714553833
+        ],
+        [
+          0.23481500148773193,
+          0.35704463720321655,
+          0.577318549156189
+        ],
+        [
+          0.23440226912498474,
+          0.35478466749191284,
+          0.5646646022796631
+        ],
+        [
+          0.20451490581035614,
+          0.3538832664489746,
+          0.5596175789833069
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Back cushion gently compressed against upholstered rear wall.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.0035142628476023674,
+        "inward_vertex_samples": 10,
+        "deepest_sample_world_m": [
+          -0.1859486997127533,
+          0.34927910566329956,
+          0.5138496160507202
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Back_03",
+      "strict_triangle_pairs": 52,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.8358817100524902,
+          0.3789704144001007,
+          0.7000851035118103
+        ],
+        [
+          0.8342080116271973,
+          0.3772296905517578,
+          0.6903384923934937
+        ],
+        [
+          0.8331172466278076,
+          0.3755817413330078,
+          0.681111216545105
+        ],
+        [
+          0.8408486843109131,
+          0.35663995146751404,
+          0.5750528573989868
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Back cushion gently compressed against upholstered rear wall.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.003855242161080241,
+        "inward_vertex_samples": 11,
+        "deepest_sample_world_m": [
+          0.7838415503501892,
+          0.3493504226207733,
+          0.5123096108436584
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_FL",
+      "strict_triangle_pairs": 26,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.9154050946235657,
+          -0.3675244152545929,
+          0.0747549906373024
+        ],
+        [
+          -0.9178988337516785,
+          -0.369517982006073,
+          0.0747549831867218
+        ],
+        [
+          -0.9257261753082275,
+          -0.3716241121292114,
+          0.0747549831867218
+        ],
+        [
+          -0.9645403623580933,
+          -0.32077479362487793,
+          0.0747549831867218
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Concealed foot top embedded into upholstered base mounting area.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.004983663558959961,
+        "inward_vertex_samples": 12,
+        "deepest_sample_world_m": [
+          -0.899911105632782,
+          -0.33887138962745667,
+          0.07973865419626236
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_FR",
+      "strict_triangle_pairs": 24,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.9050098657608032,
+          -0.32077479362487793,
+          0.0747549831867218
+        ],
+        [
+          0.9267721176147461,
+          -0.3058687150478363,
+          0.0747549831867218
+        ],
+        [
+          0.9114198684692383,
+          -0.31433790922164917,
+          0.0747549831867218
+        ],
+        [
+          0.9180159568786621,
+          -0.30822476744651794,
+          0.0747549831867218
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Concealed foot top embedded into upholstered base mounting area.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.004983663558959961,
+        "inward_vertex_samples": 12,
+        "deepest_sample_world_m": [
+          0.9696391820907593,
+          -0.33887138962745667,
+          0.07973865419626236
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_BL",
+      "strict_triangle_pairs": 24,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.9645403623580933,
+          0.368269681930542,
+          0.0747549831867218
+        ],
+        [
+          -0.9427781105041504,
+          0.3831757605075836,
+          0.0747549831867218
+        ],
+        [
+          -0.958130419254303,
+          0.37470656633377075,
+          0.0747549831867218
+        ],
+        [
+          -0.9515343308448792,
+          0.380819708108902,
+          0.0747549831867218
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Concealed foot top embedded into upholstered base mounting area.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.004983663558959961,
+        "inward_vertex_samples": 12,
+        "deepest_sample_world_m": [
+          -0.899911105632782,
+          0.35017311573028564,
+          0.07973865419626236
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_BR",
+      "strict_triangle_pairs": 26,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.9050098657608032,
+          0.368269681930542,
+          0.0747549831867218
+        ],
+        [
+          0.9339046478271484,
+          0.38509494066238403,
+          0.0747549906373024
+        ],
+        [
+          0.9096206426620483,
+          0.37289994955062866,
+          0.0747549831867218
+        ],
+        [
+          0.969672441482544,
+          0.34947556257247925,
+          0.0747549831867218
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.006,
+        "reason": "Concealed foot top embedded into upholstered base mounting area.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.004983663558959961,
+        "inward_vertex_samples": 12,
+        "deepest_sample_world_m": [
+          0.9696391820907593,
+          0.35017311573028564,
+          0.07973865419626236
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Arm_L",
+      "b": "SM_Sofa_Arm_L",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 382,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Arm_L",
+      "b": "SM_Sofa_Seat_01",
+      "strict_triangle_pairs": 18,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.8994711637496948,
+          -0.23880696296691895,
+          0.38209986686706543
+        ],
+        [
+          -0.8993640542030334,
+          -0.24675270915031433,
+          0.38310706615448
+        ],
+        [
+          -0.8995208740234375,
+          -0.23998749256134033,
+          0.38054245710372925
+        ],
+        [
+          -0.8994728326797485,
+          -0.24886314570903778,
+          0.3798053562641144
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.003,
+        "reason": "Outer seat cushion rests against padded arm.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.0007248930050991476,
+        "inward_vertex_samples": 2,
+        "deepest_sample_world_m": [
+          -0.89993816614151,
+          -0.3118366599082947,
+          0.38125044107437134
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Arm_L",
+      "b": "SM_Sofa_Back_01",
+      "strict_triangle_pairs": 12,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.8951479196548462,
+          0.24031269550323486,
+          0.5257939100265503
+        ],
+        [
+          -0.8952839374542236,
+          0.24640917778015137,
+          0.5197164416313171
+        ],
+        [
+          -0.8973811864852905,
+          0.2600250244140625,
+          0.5376493334770203
+        ],
+        [
+          -0.8965719938278198,
+          0.26383838057518005,
+          0.5337743759155273
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.005,
+        "reason": "Outer back cushion gently compressed against padded arm.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0011213854886591434,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          -0.8953484296798706,
+          0.2641882300376892,
+          0.528154194355011
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.0030771056190133095,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          -0.8983925580978394,
+          0.2542518973350525,
+          0.5281097888946533
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Arm_R",
+      "b": "SM_Sofa_Arm_R",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 368,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Arm_R",
+      "b": "SM_Sofa_Seat_03",
+      "strict_triangle_pairs": 36,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.8996385335922241,
+          -0.013022826984524727,
+          0.380362868309021
+        ],
+        [
+          0.8996269106864929,
+          -0.026425819844007492,
+          0.3816390931606293
+        ],
+        [
+          0.8995580077171326,
+          -0.012745203450322151,
+          0.3825116455554962
+        ],
+        [
+          0.8996539115905762,
+          -0.02945830300450325,
+          0.3811289072036743
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.003,
+        "reason": "Outer seat cushion rests against padded arm.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0007659459370188415,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          0.8977031111717224,
+          -0.33475279808044434,
+          0.37875860929489136
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.0008015161729417741,
+        "inward_vertex_samples": 4,
+        "deepest_sample_world_m": [
+          0.9004183411598206,
+          0.044532716274261475,
+          0.38125044107437134
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Arm_R",
+      "b": "SM_Sofa_Back_03",
+      "strict_triangle_pairs": 8,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.8976691961288452,
+          0.2595091462135315,
+          0.5295172929763794
+        ],
+        [
+          0.8982275724411011,
+          0.2570606470108032,
+          0.5331289172172546
+        ],
+        [
+          0.8977941870689392,
+          0.25020527839660645,
+          0.5325753688812256
+        ],
+        [
+          0.896847128868103,
+          0.2445714771747589,
+          0.5289636850357056
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.005,
+        "reason": "Outer back cushion gently compressed against padded arm.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.0014489134773612022,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          0.8986284136772156,
+          0.2542528510093689,
+          0.5281085968017578
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Seat_01",
+      "b": "SM_Sofa_Seat_01",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 443,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Seat_01",
+      "b": "SM_Sofa_Pillow_L",
+      "strict_triangle_pairs": 38,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          -0.7450121641159058,
+          -0.12748782336711884,
+          0.4852386713027954
+        ],
+        [
+          -0.7347077131271362,
+          -0.12490558624267578,
+          0.4858045279979706
+        ],
+        [
+          -0.7169843912124634,
+          -0.10882344841957092,
+          0.48622867465019226
+        ],
+        [
+          -0.7186667919158936,
+          -0.11792854964733124,
+          0.48609572649002075
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.016,
+        "reason": "Loose soft pillow bottom compressed into seat cushion, tolerance 16 mm.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.009633475914597511,
+        "inward_vertex_samples": 2,
+        "deepest_sample_world_m": [
+          -0.7869658470153809,
+          -0.10170026123523712,
+          0.4828941822052002
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.015059550292789936,
+        "inward_vertex_samples": 16,
+        "deepest_sample_world_m": [
+          -0.77043616771698,
+          -0.11077995598316193,
+          0.4687575101852417
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Seat_02",
+      "b": "SM_Sofa_Seat_02",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 430,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Seat_02",
+      "b": "SM_Sofa_Back_02",
+      "strict_triangle_pairs": 12,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.02770211547613144,
+          0.17675799131393433,
+          0.47100627422332764
+        ],
+        [
+          0.026190944015979767,
+          0.18712309002876282,
+          0.4669129252433777
+        ],
+        [
+          0.017157182097434998,
+          0.1963515281677246,
+          0.463577538728714
+        ],
+        [
+          0.031160511076450348,
+          0.17710301280021667,
+          0.47069570422172546
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.004,
+        "reason": "Soft seat/back cushion junction.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0006867306074127555,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          5.8562058256939054e-05,
+          0.19865430891513824,
+          0.4633421003818512
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.0014231236418709159,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          5.8562058256939054e-05,
+          0.17735889554023743,
+          0.47034263610839844
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Seat_03",
+      "b": "SM_Sofa_Seat_03",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 456,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Seat_03",
+      "b": "SM_Sofa_Back_03",
+      "strict_triangle_pairs": 10,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.7001807689666748,
+          0.1865617036819458,
+          0.4666786789894104
+        ],
+        [
+          0.685409665107727,
+          0.17795038223266602,
+          0.47026824951171875
+        ],
+        [
+          0.7320846915245056,
+          0.1884070783853531,
+          0.4657021462917328
+        ],
+        [
+          0.7330398559570312,
+          0.18175342679023743,
+          0.4682126045227051
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.004,
+        "reason": "Soft seat/back cushion junction.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.0,
+        "inward_vertex_samples": 0,
+        "deepest_sample_world_m": null
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.00034579093335196376,
+        "inward_vertex_samples": 1,
+        "deepest_sample_world_m": [
+          0.7281923294067383,
+          0.17882072925567627,
+          0.46919405460357666
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Seat_03",
+      "b": "SM_Sofa_Pillow_R",
+      "strict_triangle_pairs": 36,
+      "embedded_welt_triangle_pairs": 0,
+      "classification": "reviewed_soft_mount_contact",
+      "example_world_points_m": [
+        [
+          0.8088610172271729,
+          -0.10462498664855957,
+          0.47857075929641724
+        ],
+        [
+          0.8078984618186951,
+          -0.10852031409740448,
+          0.47861236333847046
+        ],
+        [
+          0.805453896522522,
+          -0.11258568614721298,
+          0.47881773114204407
+        ],
+        [
+          0.802348256111145,
+          -0.11582410335540771,
+          0.47911155223846436
+        ]
+      ],
+      "contact_rule": {
+        "allow_penetration_m": 0.016,
+        "reason": "Loose soft pillow bottom compressed into seat cushion, tolerance 16 mm.",
+        "reviewed_soft_contact": true
+      },
+      "a_inside_b_estimate": {
+        "sampled_max_embed_m": 0.00937541015446186,
+        "inward_vertex_samples": 2,
+        "deepest_sample_world_m": [
+          0.7870829701423645,
+          -0.10170026123523712,
+          0.4810694456100464
+        ]
+      },
+      "b_inside_a_estimate": {
+        "sampled_max_embed_m": 0.014299758709967136,
+        "inward_vertex_samples": 15,
+        "deepest_sample_world_m": [
+          0.7704790234565735,
+          -0.11115758866071701,
+          0.4671640396118164
+        ]
+      }
+    },
+    {
+      "a": "SM_Sofa_Back_01",
+      "b": "SM_Sofa_Back_01",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 396,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Back_02",
+      "b": "SM_Sofa_Back_02",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 400,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Back_03",
+      "b": "SM_Sofa_Back_03",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 400,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Pillow_L",
+      "b": "SM_Sofa_Pillow_L",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 334,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    },
+    {
+      "a": "SM_Sofa_Pillow_R",
+      "b": "SM_Sofa_Pillow_R",
+      "strict_triangle_pairs": 0,
+      "embedded_welt_triangle_pairs": 330,
+      "classification": "embedded_welt",
+      "example_world_points_m": []
+    }
+  ],
+  "same_facing_coplanar_overlaps": [],
+  "notes": [
+    "Nearest vertex-to-surface clearances are sampled upper bounds.",
+    "Welt shells are intentionally embedded in their own upholstery.",
+    "Declared soft seating/mount contacts are reported for author review."
+  ],
+  "summary": {
+    "part_count": 15,
+    "role_counts": {
+      "Base": 1,
+      "Arm": 2,
+      "Seat": 3,
+      "Back": 3,
+      "Pillow": 2,
+      "Foot": 4
+    },
+    "triangles": 13604,
+    "bounds_world_m": [
+      [
+        -1.149999976158142,
+        -0.4749999940395355,
+        0.0
+      ],
+      [
+        1.149999976158142,
+        0.4750000238418579,
+        0.8500000238418579
+      ]
+    ],
+    "overall_dimensions_m": [
+      2.299999952316284,
+      0.9500000178813934,
+      0.8500000238418579
+    ],
+    "expected_dimensions_m": [
+      2.3,
+      0.95,
+      0.85
+    ],
+    "all_manifold": true,
+    "all_shell_signed_volumes_positive": true,
+    "collision_definitions": 15,
+    "finding_count": 0,
+    "raw_cross_part_contact_pairs": 20,
+    "welt_self_crossing_triangle_pairs": 0
+  },
+  "reviewed_contact_policy": [
+    {
+      "a": "SM_Sofa_Arm_L",
+      "b": "SM_Sofa_Base",
+      "allow_penetration_m": 0.012,
+      "reason": "Upholstered arm bottom seated into low plinth after side cutouts; hidden mount contact.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Arm_R",
+      "b": "SM_Sofa_Base",
+      "allow_penetration_m": 0.012,
+      "reason": "Upholstered arm bottom seated into low plinth after side cutouts; hidden mount contact.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Back_01",
+      "b": "SM_Sofa_Base",
+      "allow_penetration_m": 0.006,
+      "reason": "Back cushion gently compressed against upholstered rear wall.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Back_01",
+      "b": "SM_Sofa_Seat_01",
+      "allow_penetration_m": 0.004,
+      "reason": "Soft seat/back cushion junction.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Back_02",
+      "b": "SM_Sofa_Base",
+      "allow_penetration_m": 0.006,
+      "reason": "Back cushion gently compressed against upholstered rear wall.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Back_02",
+      "b": "SM_Sofa_Seat_02",
+      "allow_penetration_m": 0.004,
+      "reason": "Soft seat/back cushion junction.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Back_03",
+      "b": "SM_Sofa_Base",
+      "allow_penetration_m": 0.006,
+      "reason": "Back cushion gently compressed against upholstered rear wall.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Back_03",
+      "b": "SM_Sofa_Seat_03",
+      "allow_penetration_m": 0.004,
+      "reason": "Soft seat/back cushion junction.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_FL",
+      "allow_penetration_m": 0.006,
+      "reason": "Concealed foot top embedded into upholstered base mounting area.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_FR",
+      "allow_penetration_m": 0.006,
+      "reason": "Concealed foot top embedded into upholstered base mounting area.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_BL",
+      "allow_penetration_m": 0.006,
+      "reason": "Concealed foot top embedded into upholstered base mounting area.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Base",
+      "b": "SM_Sofa_Foot_BR",
+      "allow_penetration_m": 0.006,
+      "reason": "Concealed foot top embedded into upholstered base mounting area.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Arm_L",
+      "b": "SM_Sofa_Seat_01",
+      "allow_penetration_m": 0.003,
+      "reason": "Outer seat cushion rests against padded arm.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Arm_L",
+      "b": "SM_Sofa_Back_01",
+      "allow_penetration_m": 0.005,
+      "reason": "Outer back cushion gently compressed against padded arm.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Pillow_L",
+      "b": "SM_Sofa_Seat_01",
+      "allow_penetration_m": 0.016,
+      "reason": "Loose soft pillow bottom compressed into seat cushion, tolerance 16 mm.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Arm_R",
+      "b": "SM_Sofa_Seat_03",
+      "allow_penetration_m": 0.003,
+      "reason": "Outer seat cushion rests against padded arm.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Arm_R",
+      "b": "SM_Sofa_Back_03",
+      "allow_penetration_m": 0.005,
+      "reason": "Outer back cushion gently compressed against padded arm.",
+      "reviewed_soft_contact": true
+    },
+    {
+      "a": "SM_Sofa_Pillow_R",
+      "b": "SM_Sofa_Seat_03",
+      "allow_penetration_m": 0.016,
+      "reason": "Loose soft pillow bottom compressed into seat cushion, tolerance 16 mm.",
+      "reviewed_soft_contact": true
+    }
+  ],
+  "source_sha256_after": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+  "source_unchanged": true,
+  "success": true
+}

@@ -1,0 +1,413 @@
+{
+  "success": true,
+  "title": "旧布艺三人沙发",
+  "completed_at": "2026-11-23T13:17:01.998930+08:00",
+  "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\ThreeSeatSofa.blend",
+  "source_sha256": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+  "created_with": "Blender MCP",
+  "cli_anything_native_preview_manifest": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\.cli-anything\\previews\\blender\\quick\\20261123T050754Z_3ba0f65d_quick\\manifest.json",
+  "ue_path": "/Game/Yastars/Mesh/ThreeSeatSofa",
+  "assembled_blueprint": "BP_ThreeSeatSofa",
+  "static_mesh_count": 15,
+  "blueprint_count": 1,
+  "material_count": 7,
+  "texture_count": 9,
+  "texture_resolution": [
+    2048,
+    2048
+  ],
+  "ue_package_count": 32,
+  "dimensions_cm": [
+    230,
+    95,
+    85
+  ],
+  "lod_triangles": [
+    13604,
+    6918,
+    3986,
+    1886
+  ],
+  "collision_hulls": 17,
+  "component_mobility": "MOVABLE",
+  "part_roles": {
+    "Base": 1,
+    "Arm": 2,
+    "Seat": 3,
+    "Back": 3,
+    "Pillow": 2,
+    "Foot": 4
+  },
+  "geometry_audit": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\QA\\sofa_geometry_audit.json",
+  "visual_review": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\QA\\visual_review.json",
+  "export_manifest": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\Exports\\export_report.json",
+  "export_manifest_sha256": "4b5d08be2792308b5fb8cec52cc91b45e1738437435d61bdf11149c5fb9046e6",
+  "ue_import_report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\UE\\ue_import_report.json",
+  "ue_fresh_reload_report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\UE\\fresh_editor_verification.json",
+  "ue_final_report": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\UE\\final_verification.json",
+  "verification": {
+    "geometry_passed": true,
+    "finding_count": 0,
+    "source_hash_matches_export_and_ue": true,
+    "ue_fresh_reload_passed": true,
+    "protected_project_files_unchanged": 3826,
+    "reviewed_soft_contact_pairs": 20,
+    "welt_self_crossings": 0
+  },
+  "runtime_interaction_events_installed": false,
+  "cloth_physics_installed": false,
+  "preview_lights_exported": false,
+  "usage": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\使用说明.md",
+  "renders": [
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\Sofa_Hero.png",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\Sofa_Rear.png",
+    "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\Sofa_Front.png"
+  ],
+  "parts": {
+    "SM_Sofa_Base": {
+      "object": "SM_Sofa_Base",
+      "mesh": "SM_Sofa_Base",
+      "role": "upholstered base and rear panel",
+      "pivot_m": [
+        5.8562058256939054e-05,
+        0.0006577936583198607,
+        0.0
+      ],
+      "triangles": 276,
+      "bounds_local_m": [
+        [
+          -1.0839414596557617,
+          -0.45936301350593567,
+          0.0747549906373024
+        ],
+        [
+          1.0839414596557617,
+          0.4693491458892822,
+          0.7625008821487427
+        ]
+      ]
+    },
+    "SM_Sofa_Arm_L": {
+      "object": "SM_Sofa_Arm_L",
+      "mesh": "SM_Sofa_Arm_L",
+      "role": "arm",
+      "pivot_m": [
+        -1.0217303037643433,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "triangles": 1728,
+      "bounds_local_m": [
+        [
+          -0.12826970219612122,
+          -0.4748975336551666,
+          -0.25416696071624756
+        ],
+        [
+          0.12826988101005554,
+          0.4743422269821167,
+          0.27017495036125183
+        ]
+      ]
+    },
+    "SM_Sofa_Arm_R": {
+      "object": "SM_Sofa_Arm_R",
+      "mesh": "SM_Sofa_Arm_R",
+      "role": "arm",
+      "pivot_m": [
+        1.0218473672866821,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "triangles": 1728,
+      "bounds_local_m": [
+        [
+          -0.12815269827842712,
+          -0.47565779089927673,
+          -0.25416696071624756
+        ],
+        [
+          0.12815263867378235,
+          0.4743422269821167,
+          0.2700387239456177
+        ]
+      ]
+    },
+    "SM_Sofa_Seat_01": {
+      "object": "SM_Sofa_Seat_01",
+      "mesh": "SM_Sofa_Seat_01",
+      "role": "seat",
+      "pivot_m": [
+        -0.6015786528587341,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "triangles": 1488,
+      "bounds_local_m": [
+        [
+          -0.2983595132827759,
+          -0.33802589774131775,
+          -0.08490977436304092
+        ],
+        [
+          0.29844987392425537,
+          0.3386737108230591,
+          0.10586705803871155
+        ]
+      ]
+    },
+    "SM_Sofa_Seat_02": {
+      "object": "SM_Sofa_Seat_02",
+      "mesh": "SM_Sofa_Seat_02",
+      "role": "seat",
+      "pivot_m": [
+        5.8562058256939054e-05,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "triangles": 1488,
+      "bounds_local_m": [
+        [
+          -0.2990754544734955,
+          -0.33854803442955017,
+          -0.08535163104534149
+        ],
+        [
+          0.29895326495170593,
+          0.3390442430973053,
+          0.10586705803871155
+        ]
+      ]
+    },
+    "SM_Sofa_Seat_03": {
+      "object": "SM_Sofa_Seat_03",
+      "mesh": "SM_Sofa_Seat_03",
+      "role": "seat",
+      "pivot_m": [
+        0.6016957759857178,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "triangles": 1488,
+      "bounds_local_m": [
+        [
+          -0.29851168394088745,
+          -0.3389562964439392,
+          -0.08479858189821243
+        ],
+        [
+          0.2987225651741028,
+          0.3384624123573303,
+          0.10586881637573242
+        ]
+      ]
+    },
+    "SM_Sofa_Back_01": {
+      "object": "SM_Sofa_Back_01",
+      "mesh": "SM_Sofa_Back_01",
+      "role": "back",
+      "pivot_m": [
+        -0.5995897054672241,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "triangles": 1200,
+      "bounds_local_m": [
+        [
+          -0.3004164397716522,
+          -0.13167060911655426,
+          -0.19826987385749817
+        ],
+        [
+          0.30081433057785034,
+          0.11768116056919098,
+          0.20052258670330048
+        ]
+      ]
+    },
+    "SM_Sofa_Back_02": {
+      "object": "SM_Sofa_Back_02",
+      "mesh": "SM_Sofa_Back_02",
+      "role": "back",
+      "pivot_m": [
+        5.8562058256939054e-05,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "triangles": 1200,
+      "bounds_local_m": [
+        [
+          -0.2998965084552765,
+          -0.1331137865781784,
+          -0.19887812435626984
+        ],
+        [
+          0.29988133907318115,
+          0.11621098965406418,
+          0.20020224153995514
+        ]
+      ]
+    },
+    "SM_Sofa_Back_03": {
+      "object": "SM_Sofa_Back_03",
+      "mesh": "SM_Sofa_Back_03",
+      "role": "back",
+      "pivot_m": [
+        0.5997068285942078,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "triangles": 1200,
+      "bounds_local_m": [
+        [
+          -0.3008120059967041,
+          -0.13278858363628387,
+          -0.20040519535541534
+        ],
+        [
+          0.30080142617225647,
+          0.11777544021606445,
+          0.20361849665641785
+        ]
+      ]
+    },
+    "SM_Sofa_Pillow_L": {
+      "object": "SM_Sofa_Pillow_L",
+      "mesh": "SM_Sofa_Pillow_L",
+      "role": "pillow",
+      "pivot_m": [
+        -0.7109671831130981,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "triangles": 768,
+      "bounds_local_m": [
+        [
+          -0.17117197811603546,
+          -0.11107724905014038,
+          -0.17612884938716888
+        ],
+        [
+          0.1725560873746872,
+          0.10934703052043915,
+          0.17721043527126312
+        ]
+      ]
+    },
+    "SM_Sofa_Pillow_R": {
+      "object": "SM_Sofa_Pillow_R",
+      "mesh": "SM_Sofa_Pillow_R",
+      "role": "pillow",
+      "pivot_m": [
+        0.7110843062400818,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "triangles": 768,
+      "bounds_local_m": [
+        [
+          -0.17115242779254913,
+          -0.10981325805187225,
+          -0.17772234976291656
+        ],
+        [
+          0.17356069386005402,
+          0.11113844811916351,
+          0.17849737405776978
+        ]
+      ]
+    },
+    "SM_Sofa_Foot_FL": {
+      "object": "SM_Sofa_Foot_FL",
+      "mesh": "SM_Sofa_Foot_FL",
+      "role": "concealed low foot",
+      "pivot_m": [
+        -0.9347165822982788,
+        -0.33887138962745667,
+        0.0
+      ],
+      "triangles": 68,
+      "bounds_local_m": [
+        [
+          -0.0377887524664402,
+          -0.03794735670089722,
+          0.0
+        ],
+        [
+          0.03778878599405289,
+          0.03794737532734871,
+          0.07973865419626236
+        ]
+      ]
+    },
+    "SM_Sofa_Foot_FR": {
+      "object": "SM_Sofa_Foot_FR",
+      "mesh": "SM_Sofa_Foot_FR",
+      "role": "concealed low foot",
+      "pivot_m": [
+        0.9348337054252625,
+        -0.33887138962745667,
+        0.0
+      ],
+      "triangles": 68,
+      "bounds_local_m": [
+        [
+          -0.03778878599405289,
+          -0.03794735670089722,
+          0.0
+        ],
+        [
+          0.0377887561917305,
+          0.03794737532734871,
+          0.07973865419626236
+        ]
+      ]
+    },
+    "SM_Sofa_Foot_BL": {
+      "object": "SM_Sofa_Foot_BL",
+      "mesh": "SM_Sofa_Foot_BL",
+      "role": "concealed low foot",
+      "pivot_m": [
+        -0.9347165822982788,
+        0.35017311573028564,
+        0.0
+      ],
+      "triangles": 68,
+      "bounds_local_m": [
+        [
+          -0.0377887524664402,
+          -0.03794737160205841,
+          0.0
+        ],
+        [
+          0.03778878599405289,
+          0.037947360426187515,
+          0.07973865419626236
+        ]
+      ]
+    },
+    "SM_Sofa_Foot_BR": {
+      "object": "SM_Sofa_Foot_BR",
+      "mesh": "SM_Sofa_Foot_BR",
+      "role": "concealed low foot",
+      "pivot_m": [
+        0.9348337054252625,
+        0.35017311573028564,
+        0.0
+      ],
+      "triangles": 68,
+      "bounds_local_m": [
+        [
+          -0.03778878599405289,
+          -0.03794737160205841,
+          0.0
+        ],
+        [
+          0.0377887561917305,
+          0.037947360426187515,
+          0.07973865419626236
+        ]
+      ]
+    }
+  }
+}

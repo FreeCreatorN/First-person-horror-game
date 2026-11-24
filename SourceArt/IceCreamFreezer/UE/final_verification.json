@@ -1,0 +1,218 @@
+{
+  "success": true,
+  "target_root": "/Game/Yastars/Mesh/IceCreamFreezer",
+  "run_id": "0a893917-1511-48e0-8289-b4537a156dc5",
+  "package_count": 16,
+  "mesh_count": 11,
+  "planning_category_count": 6,
+  "triangles": 3288,
+  "blueprint": {
+    "asset": "/Game/Yastars/Mesh/IceCreamFreezer/BP_IceCreamFreezer.BP_IceCreamFreezer",
+    "components": {
+      "Body": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Body.SM_IceCreamFreezer_Body",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "TopFrame": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_TopFrame.SM_IceCreamFreezer_TopFrame",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "GlassDoorLeft": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorLeft.SM_IceCreamFreezer_GlassDoorLeft",
+        "parent": "SlidingGlassDoors",
+        "relative_location_cm": [
+          -30.099999999999998,
+          0.0,
+          80.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "travel_cm": 60.2,
+        "open_ue_cm": [
+          30.100000000000005,
+          0.0,
+          80.0
+        ]
+      },
+      "GlassDoorRight": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_GlassDoorRight.SM_IceCreamFreezer_GlassDoorRight",
+        "parent": "SlidingGlassDoors",
+        "relative_location_cm": [
+          30.099999999999998,
+          0.0,
+          81.2
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic",
+        "travel_cm": -60.2,
+        "open_ue_cm": [
+          -30.100000000000005,
+          0.0,
+          81.2
+        ]
+      },
+      "Liner": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_Liner.SM_IceCreamFreezer_Liner",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "BasketLeft": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketLeft.SM_IceCreamFreezer_BasketLeft",
+        "parent": "Baskets",
+        "relative_location_cm": [
+          -28.49999964237213,
+          -0.0,
+          51.499998569488525
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "BasketRight": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_BasketRight.SM_IceCreamFreezer_BasketRight",
+        "parent": "Baskets",
+        "relative_location_cm": [
+          28.49999964237213,
+          -0.0,
+          51.499998569488525
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelFL": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFL.SM_IceCreamFreezer_WheelFL",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          -56.99999928474426,
+          27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelFR": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelFR.SM_IceCreamFreezer_WheelFR",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          56.99999928474426,
+          27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelRL": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRL.SM_IceCreamFreezer_WheelRL",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          -56.99999928474426,
+          -27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "WheelRR": {
+        "mesh": "/Game/Yastars/Mesh/IceCreamFreezer/SM_IceCreamFreezer_WheelRR.SM_IceCreamFreezer_WheelRR",
+        "parent": "Wheels",
+        "relative_location_cm": [
+          56.99999928474426,
+          -27.000001072883606,
+          10.000000149011612
+        ],
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      }
+    },
+    "planning_categories": {
+      "Body": "\u5916\u58f3\u67dc\u4f53",
+      "TopFrame": "\u4e0a\u6846\u67b6\u4e0e\u6ed1\u8f68",
+      "SlidingGlassDoors": "\u73bb\u7483\u6ed1\u95e8\uff08\u5de6\u53f3\uff09",
+      "Liner": "\u5185\u80c6",
+      "Baskets": "\u5185\u90e8\u7bee\u7b50\uff08\u4e24\u4e2a\uff09",
+      "Wheels": "\u4e07\u5411\u8f6e\uff08\u56db\u4e2a\uff09"
+    },
+    "planning_category_count": 6,
+    "static_mesh_count": 11,
+    "groups": {
+      "SlidingGlassDoors": [
+        "GlassDoorLeft",
+        "GlassDoorRight"
+      ],
+      "Baskets": [
+        "BasketLeft",
+        "BasketRight"
+      ],
+      "Wheels": [
+        "WheelFL",
+        "WheelFR",
+        "WheelRL",
+        "WheelRR"
+      ]
+    },
+    "sliding_axis": "local X",
+    "blueprint_ready": true,
+    "interaction_events_installed": false
+  },
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Opaque.M_IceCreamFreezer_Opaque",
+    "glass": "/Game/Yastars/Mesh/IceCreamFreezer/Materials/M_IceCreamFreezer_Glass.M_IceCreamFreezer_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095
+  },
+  "doors": {
+    "left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_IceCreamFreezer_GlassDoorLeft",
+      "pivot_m": [
+        -0.301,
+        0,
+        0.8
+      ],
+      "closed_ue_cm": [
+        -30.099999999999998,
+        0,
+        80.0
+      ],
+      "travel_cm": 60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorLeft"
+    },
+    "right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_IceCreamFreezer_GlassDoorRight",
+      "pivot_m": [
+        0.301,
+        0,
+        0.812
+      ],
+      "closed_ue_cm": [
+        30.099999999999998,
+        0,
+        81.2
+      ],
+      "travel_cm": -60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorRight"
+    }
+  },
+  "protected_paths_verified": 460,
+  "verified_in_fresh_editor": false
+}

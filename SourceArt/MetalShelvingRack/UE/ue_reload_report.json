@@ -1,0 +1,265 @@
+{
+  "success": true,
+  "mode": "reload",
+  "target_root": "/Game/Yastars/Mesh/MetalShelvingRack",
+  "editor_pid": 7540,
+  "run_id": "dcbda7df-e410-4f40-a4af-8555e1be8fa5",
+  "script_sha256": "41ab4c0ea29cc6e64ebe74cef6c3f40fe7efbf39ba2d5a181d7a191ff10ac951",
+  "manifest_sha256": "ab59acb73fa8b97a85f32dd0cb5a33499c9d6a621e50ed2cf78f3dbacc8a4550",
+  "baseline_sha256": "c00854d0e001dc257ab399ed960dfef4233988e296526eca8d3f949df4268641",
+  "started_utc": "2026-11-17T03:49:19.895764+00:00",
+  "world": "/Engine/Maps/Entry.Entry",
+  "source_hashes": {
+    "export_report.json": "ab59acb73fa8b97a85f32dd0cb5a33499c9d6a621e50ed2cf78f3dbacc8a4550",
+    "SM_MetalShelvingRack_7Level.fbx": "743cd50bebfe504fa32e50023172d7e49fbc2ec9ec581a88ffd8f56f7fd4726a",
+    "T_MetalShelvingRack_7Level_BaseColor.png": "8b72f84503dea0772971e91d8fe044308cce6497cb19ec1cba790dd6640325be",
+    "T_MetalShelvingRack_7Level_ORM.png": "47c3458c5d8a0e771b426269bdb87a2184151f1686bb6a15a1b5c30b6b316a12",
+    "SM_MetalShelvingRack_4Level.fbx": "e2be3884d70d95aed4794e353991399500c906469397b762e2aec2de9eca9f6a",
+    "T_MetalShelvingRack_4Level_BaseColor.png": "9692af194e1dd6be0fd2f59785583d098955949c713766e144ecc47aba9c29f7",
+    "T_MetalShelvingRack_4Level_ORM.png": "39c73ff37dd02b79b35833697cbd960aed5c0ccfa07e93ea8ea419391f92bca7",
+    "SM_MetalShelvingRack_4Level_Low.fbx": "5b6d9a5fbdd4f27ec06abd81ad93b8f2e9c34a82ac5b175ddde55c9f2fdf2624",
+    "T_MetalShelvingRack_4Level_Low_BaseColor.png": "8d6df2532ffd4fdf4b81f76919797f2bb1fcd9eac5ae5609a3426ce5f02a624e",
+    "T_MetalShelvingRack_4Level_Low_ORM.png": "4ae56df89802cb1af72c162733baca0ed0fbb2e441397f7e61b6414ebcb6c260"
+  },
+  "protected_files_before": 273,
+  "existing_target_packages": [
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_4Level",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_4Level_Low",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_7Level",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/M_MetalShelvingRack",
+    "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_4Level",
+    "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_4Level_Low",
+    "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_7Level",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_BaseColor",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_Low_BaseColor",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_Low_ORM",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_ORM",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_7Level_BaseColor",
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_7Level_ORM"
+  ],
+  "parent": {
+    "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Materials/M_MetalShelvingRack.M_MetalShelvingRack",
+    "connections": {
+      "<MaterialProperty.MP_BASE_COLOR: 5>": "RackBaseColor.RGB",
+      "<MaterialProperty.MP_AMBIENT_OCCLUSION: 18>": "RackORM.R",
+      "<MaterialProperty.MP_ROUGHNESS: 8>": "RackORM.G",
+      "<MaterialProperty.MP_METALLIC: 6>": "RackORM.B"
+    },
+    "uv_index": 0
+  },
+  "meshes": {
+    "SM_MetalShelvingRack_7Level": {
+      "asset": "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_7Level.SM_MetalShelvingRack_7Level",
+      "material": "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_7Level.MI_MetalShelvingRack_7Level",
+      "material_slot": "M_Rack_Baked",
+      "levels": 7,
+      "triangles": 262004,
+      "convex_hulls": 29,
+      "min_cm": [
+        -121.55000305175781,
+        -26.94999885559082,
+        -4.364645064924844e-06
+      ],
+      "max_cm": [
+        121.55000305175781,
+        26.94999885559082,
+        218.89999389648438
+      ],
+      "dimensions_cm": [
+        243.10000610351562,
+        53.89999771118164,
+        218.89999826112944
+      ],
+      "uv_channels": 1,
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 128,
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_7Level_BaseColor.T_MetalShelvingRack_7Level_BaseColor",
+          "source_size": [
+            4096,
+            4096
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "RackBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_7Level_ORM.T_MetalShelvingRack_7Level_ORM",
+          "source_size": [
+            4096,
+            4096
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "RackORM"
+        }
+      }
+    },
+    "SM_MetalShelvingRack_4Level": {
+      "asset": "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_4Level.SM_MetalShelvingRack_4Level",
+      "material": "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_4Level.MI_MetalShelvingRack_4Level",
+      "material_slot": "M_Rack_Baked",
+      "levels": 4,
+      "triangles": 241520,
+      "convex_hulls": 20,
+      "min_cm": [
+        -121.55000305175781,
+        -26.94999885559082,
+        -4.364645064924844e-06
+      ],
+      "max_cm": [
+        121.55000305175781,
+        26.94999885559082,
+        218.89999389648438
+      ],
+      "dimensions_cm": [
+        243.10000610351562,
+        53.89999771118164,
+        218.89999826112944
+      ],
+      "uv_channels": 1,
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 128,
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_BaseColor.T_MetalShelvingRack_4Level_BaseColor",
+          "source_size": [
+            4096,
+            4096
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "RackBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_ORM.T_MetalShelvingRack_4Level_ORM",
+          "source_size": [
+            4096,
+            4096
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "RackORM"
+        }
+      }
+    },
+    "SM_MetalShelvingRack_4Level_Low": {
+      "asset": "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_4Level_Low.SM_MetalShelvingRack_4Level_Low",
+      "material": "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_4Level_Low.MI_MetalShelvingRack_4Level_Low",
+      "material_slot": "M_Rack_Baked",
+      "levels": 4,
+      "triangles": 185840,
+      "convex_hulls": 20,
+      "min_cm": [
+        -121.55000305175781,
+        -26.94999885559082,
+        -4.364645064924844e-06
+      ],
+      "max_cm": [
+        121.55000305175781,
+        26.94999885559082,
+        159.90000915527344
+      ],
+      "dimensions_cm": [
+        243.10000610351562,
+        53.89999771118164,
+        159.9000135199185
+      ],
+      "uv_channels": 1,
+      "lightmap_coordinate_index": 1,
+      "lightmap_resolution": 128,
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_Low_BaseColor.T_MetalShelvingRack_4Level_Low_BaseColor",
+          "source_size": [
+            4096,
+            4096
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "RackBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_Low_ORM.T_MetalShelvingRack_4Level_Low_ORM",
+          "source_size": [
+            4096,
+            4096
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "RackORM"
+        }
+      }
+    }
+  },
+  "packages": {
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/M_MetalShelvingRack": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Materials\\M_MetalShelvingRack.uasset",
+      "sha256": "527a2aea7534ec06dec444623968c42ca5e9c6815e21d93f844dbd79df5d15d1",
+      "bytes": 12578
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_4Level": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Materials\\MI_MetalShelvingRack_4Level.uasset",
+      "sha256": "1df7a926c295ed3d4b4f830af14e91d603f2d9b09ee2cf398891755c13262750",
+      "bytes": 9310
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_4Level_Low": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Materials\\MI_MetalShelvingRack_4Level_Low.uasset",
+      "sha256": "eb695ac7095a24a827567400ab0e5edda24818d0cf3de0311f1f2fb745065be9",
+      "bytes": 9509
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Materials/MI_MetalShelvingRack_7Level": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Materials\\MI_MetalShelvingRack_7Level.uasset",
+      "sha256": "8c6fc149dfd60d380511d0828b7b3283afada93efae566382d4e55711969a40f",
+      "bytes": 9361
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_4Level": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\SM_MetalShelvingRack_4Level.uasset",
+      "sha256": "6764a5d9374c7c95cb4878cf52e461d40af0885db6e7864351fec41c76c8c128",
+      "bytes": 7158355
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_4Level_Low": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\SM_MetalShelvingRack_4Level_Low.uasset",
+      "sha256": "967c7d4fbb777df0711d19cb6b4fbbb9bc850fa700a892aede6d94c7f3b15a24",
+      "bytes": 5684429
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/SM_MetalShelvingRack_7Level": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\SM_MetalShelvingRack_7Level.uasset",
+      "sha256": "e06c06d0df7f44f4513c536270c5697b73ce64292a7da2332d40923e6dff7977",
+      "bytes": 8044555
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Textures\\T_MetalShelvingRack_4Level_BaseColor.uasset",
+      "sha256": "668364e41635206944dff1324dc6901ae9fecc15b7d2268b9e52184be29b3471",
+      "bytes": 5916097
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_Low_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Textures\\T_MetalShelvingRack_4Level_Low_BaseColor.uasset",
+      "sha256": "3f94f72218d817c92e17329c81363a82c4b3470d3570635ca4a39e524097cb7d",
+      "bytes": 5854057
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_Low_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Textures\\T_MetalShelvingRack_4Level_Low_ORM.uasset",
+      "sha256": "5485cfa24c6c9fbd4c65d4808d31f543332a5188970f3c367dcf1a78a0045b48",
+      "bytes": 1145924
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_4Level_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Textures\\T_MetalShelvingRack_4Level_ORM.uasset",
+      "sha256": "7b6f2f2f4a5c504419eb4a05af27b898eae0a25e006d7691b36afdae82da3e75",
+      "bytes": 1090290
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_7Level_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Textures\\T_MetalShelvingRack_7Level_BaseColor.uasset",
+      "sha256": "fcdd24d46d126f14aa8d1e0705b05e8f4ecd7124d6ee10b3ea1a8cbf7a22d647",
+      "bytes": 6119921
+    },
+    "/Game/Yastars/Mesh/MetalShelvingRack/Textures/T_MetalShelvingRack_7Level_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\MetalShelvingRack\\Textures\\T_MetalShelvingRack_7Level_ORM.uasset",
+      "sha256": "8012b501dfa081a387581c73a1dd81a4c8fdae20bbac19545a3608f1bb0407be",
+      "bytes": 1157950
+    }
+  },
+  "protected_files_after": 273,
+  "completed_utc": "2026-11-17T03:49:22.128248+00:00"
+}

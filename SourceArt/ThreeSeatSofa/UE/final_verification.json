@@ -1,0 +1,424 @@
+{
+  "success": true,
+  "target_root": "/Game/Yastars/Mesh/ThreeSeatSofa",
+  "run_id": "f42f089c-f486-4800-9c5c-9096634cd34c",
+  "package_count": 32,
+  "source_blend_sha256": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+  "manifest_sha256": "4b5d08be2792308b5fb8cec52cc91b45e1738437435d61bdf11149c5fb9046e6",
+  "mesh_count": 15,
+  "material_count": 7,
+  "textured_material_instances": 3,
+  "generic_material_count": 3,
+  "texture_count": 9,
+  "blueprint_count": 1,
+  "total_triangles": 13604,
+  "look_count": 1,
+  "blueprints": {
+    "BP_ThreeSeatSofa": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/BP_ThreeSeatSofa.BP_ThreeSeatSofa",
+      "components": {
+        "Base": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Base.SM_Sofa_Base",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.005856205825693905,
+            -0.06577936583198607,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Arm_L": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Arm_L.SM_Sofa_Arm_L",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -102.17303037643433,
+            -0.06577936583198607,
+            37.875860929489136
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Arm_R": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Arm_R.SM_Sofa_Arm_R",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            102.18473672866821,
+            -0.06577936583198607,
+            37.875860929489136
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Seat_01": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Seat_01.SM_Sofa_Seat_01",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -60.15786528587341,
+            10.170026123523712,
+            38.125044107437134
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Seat_02": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Seat_02.SM_Sofa_Seat_02",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.005856205825693905,
+            10.170026123523712,
+            38.125044107437134
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Seat_03": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Seat_03.SM_Sofa_Seat_03",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            60.16957759857178,
+            10.170026123523712,
+            38.125044107437134
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Back_01": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Back_01.SM_Sofa_Back_01",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -59.95897054672241,
+            -27.228114008903503,
+            64.63814973831177
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Back_02": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Back_02.SM_Sofa_Back_02",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.005856205825693905,
+            -27.228114008903503,
+            64.63814973831177
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Back_03": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Back_03.SM_Sofa_Back_03",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            59.970682859420776,
+            -27.228114008903503,
+            64.63814973831177
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Pillow_L": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Pillow_L.SM_Sofa_Pillow_L",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -71.09671831130981,
+            8.622172474861145,
+            64.48863744735718
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Pillow_R": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Pillow_R.SM_Sofa_Pillow_R",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            71.10843062400818,
+            8.622172474861145,
+            64.48863744735718
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Foot_FL": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Foot_FL.SM_Sofa_Foot_FL",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -93.47165822982788,
+            33.88713896274567,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Foot_FR": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Foot_FR.SM_Sofa_Foot_FR",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            93.48337054252625,
+            33.88713896274567,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Foot_BL": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Foot_BL.SM_Sofa_Foot_BL",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -93.47165822982788,
+            -35.017311573028564,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Foot_BR": {
+          "mesh": "/Game/Yastars/Mesh/ThreeSeatSofa/SM_Sofa_Foot_BR.SM_Sofa_Foot_BR",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            93.48337054252625,
+            -35.017311573028564,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 15,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    }
+  },
+  "materials": {
+    "M_Sofa_Fabric": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Fabric.M_Sofa_Fabric",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Textured.M_Sofa_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Fabric_BaseColor.T_Sofa_Fabric_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "SofaBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Fabric_ORM.T_Sofa_Fabric_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "SofaORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Fabric_Normal.T_Sofa_Fabric_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "SofaNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Sofa_Plaid": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Plaid.M_Sofa_Plaid",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Textured.M_Sofa_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Plaid_BaseColor.T_Sofa_Plaid_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "SofaBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Plaid_ORM.T_Sofa_Plaid_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "SofaORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Plaid_Normal.T_Sofa_Plaid_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "SofaNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Sofa_Underside": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Underside.M_Sofa_Underside",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Textured.M_Sofa_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Underside_BaseColor.T_Sofa_Underside_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "SofaBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Underside_ORM.T_Sofa_Underside_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "SofaORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Textures/T_Sofa_Underside_Normal.T_Sofa_Underside_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "SofaNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Sofa_Welt": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Welt.M_Sofa_Welt",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.34,
+          0.27,
+          0.205,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.82,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.09462962659456918,
+        0.05925352111727415,
+        0.03468407622580734,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Sofa_PillowWelt": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_PillowWelt.M_Sofa_PillowWelt",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.35,
+          0.32,
+          0.275,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.86,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.10048150993772331,
+        0.0835351274258047,
+        0.0614649528184819,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Sofa_Feet": {
+      "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Feet.M_Sofa_Feet",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.095,
+          0.085,
+          0.07,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.72,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.00926431084760073,
+        0.007850573473382362,
+        0.00598105957261676,
+        1.0
+      ],
+      "translucent": false
+    }
+  },
+  "parent_material": {
+    "asset": "/Game/Yastars/Mesh/ThreeSeatSofa/Materials/M_Sofa_Textured.M_Sofa_Textured",
+    "opaque": true,
+    "uv_index": 0,
+    "orm_channels": {
+      "R": "AmbientOcclusion",
+      "G": "Roughness",
+      "B": "Metallic"
+    },
+    "normal_connected": true
+  },
+  "protected_paths_verified": 3826,
+  "verified_in_import_editor": true,
+  "verified_in_fresh_editor": true,
+  "lightmap_uv_available": {
+    "SM_Sofa_Base": false,
+    "SM_Sofa_Arm_L": false,
+    "SM_Sofa_Arm_R": false,
+    "SM_Sofa_Seat_01": false,
+    "SM_Sofa_Seat_02": false,
+    "SM_Sofa_Seat_03": false,
+    "SM_Sofa_Back_01": false,
+    "SM_Sofa_Back_02": false,
+    "SM_Sofa_Back_03": false,
+    "SM_Sofa_Pillow_L": false,
+    "SM_Sofa_Pillow_R": false,
+    "SM_Sofa_Foot_FL": false,
+    "SM_Sofa_Foot_FR": false,
+    "SM_Sofa_Foot_BL": false,
+    "SM_Sofa_Foot_BR": false
+  },
+  "lod_triangles": [
+    13604,
+    6918,
+    3986,
+    1886
+  ],
+  "collision_hulls": 17
+}

@@ -1,0 +1,20 @@
+{
+  "headline": "Blender quick preview rendered for frame 1",
+  "facts": {
+    "recipe": "quick",
+    "scene_name": "ShopCounterPlan_Empty",
+    "frame": 1,
+    "hero_resolution": "1300x920",
+    "workbench_resolution": "1300x920",
+    "object_count": 19,
+    "material_count": 9,
+    "camera_count": 3,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "warnings": [],
+  "next_actions": [
+    "Inspect hero.png for shading, materials, and framing.",
+    "Inspect workbench.png for silhouette and structural problems."
+  ]
+}

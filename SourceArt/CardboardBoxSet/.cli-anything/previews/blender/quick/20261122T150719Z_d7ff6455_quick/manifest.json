@@ -1,0 +1,67 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261122T150719Z_d7ff6455_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-11-22T15:07:34.355720Z",
+  "cache_key": "sha256:d7ff6455caa46c707b3ce47517bfef2098cef296a17f9638575dd6d6a472a3ce",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\CardboardBoxSet\\CardboardBoxSet.frame1.native-preview.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\CardboardBoxSet\\CardboardBoxSet.frame1.native-preview.blend-cli.json",
+    "project_name": "CardboardBoxSet.frame1.native-preview.blend-cli.json",
+    "project_fingerprint": "sha256:5c192be31c837466fe8cb9fca46292cd323e5725043bb0942be44f31c11aa2bf"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 1821674,
+      "width": 1600,
+      "height": 1050,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless-native-source"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 1830562,
+      "width": 1600,
+      "height": 1050,
+      "preset": "workbench",
+      "blender_method": "blender-headless-native-source"
+    }
+  ],
+  "context": {
+    "frame_range": "1-1",
+    "fps": 24,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 36,
+    "material_count": 8,
+    "camera_count": 3,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ]
+}

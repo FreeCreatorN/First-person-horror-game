@@ -34,10 +34,21 @@ Thumbs.db
 **/__pycache__/
 *.py[cod]
 *.blend1
+**/.preview_tmp/
+
+# Local chat attachments
+/.codex-remote-attachments/
 
 # Local copies of external tools and Python environments
 /Tools/CLI-Anything/
 /Tools/BlenderMCP/
+
+# Machine-specific chat bridge settings and verification output
+/Tools/ChatGPTCodexBridge/bridge_config.json
+/Tools/ChatGPTCodexBridge/config_to_add.toml
+/Tools/ChatGPTCodexBridge/verification.json
+/Tools/ChatGPTCodexBridge/verification_runs/
+/Tools/ChatGPTCodexBridge/*.sqlite3*
 
 # Local git worktrees used for isolated Codex feature work
 .worktrees/

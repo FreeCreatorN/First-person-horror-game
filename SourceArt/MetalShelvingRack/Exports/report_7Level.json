@@ -1,0 +1,30 @@
+{
+  "name": "SM_MetalShelvingRack_7Level",
+  "fbx": "SM_MetalShelvingRack_7Level.fbx",
+  "base_color": "T_MetalShelvingRack_7Level_BaseColor.png",
+  "orm": "T_MetalShelvingRack_7Level_ORM.png",
+  "material": "MI_MetalShelvingRack_7Level",
+  "source": "Metal_Shelving_Rack.blend",
+  "source_sha256": "4b43b989689327dbbb8e4b9f5a6d3319475bdd08a4ed260e5b8c5352a8dd2bf0",
+  "triangles": 262004,
+  "bounds_min_m": [
+    -1.215499997138977,
+    -0.2694999873638153,
+    0.0
+  ],
+  "bounds_max_m": [
+    1.215499997138977,
+    0.2694999873638153,
+    2.188999891281128
+  ],
+  "collision_hulls": 29,
+  "levels": 7,
+  "slots": [
+    "M_Rack_Baked"
+  ],
+  "sha256": {
+    "SM_MetalShelvingRack_7Level.fbx": "743cd50bebfe504fa32e50023172d7e49fbc2ec9ec581a88ffd8f56f7fd4726a",
+    "T_MetalShelvingRack_7Level_BaseColor.png": "8b72f84503dea0772971e91d8fe044308cce6497cb19ec1cba790dd6640325be",
+    "T_MetalShelvingRack_7Level_ORM.png": "47c3458c5d8a0e771b426269bdb87a2184151f1686bb6a15a1b5c30b6b316a12"
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "source_scene": "BeverageDisplayFridge",
+  "nominal_case_m": [
+    0.648,
+    0.752,
+    1.93
+  ],
+  "parts": {
+    "TopLightbox": {
+      "mesh": "SM_BeverageDisplayFridge_TopLightbox",
+      "object": "SM_BeverageDisplayFridge_TopLightbox",
+      "collection": "01 顶部灯箱与顶盖",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "GlassDoor": {
+      "mesh": "SM_BeverageDisplayFridge_GlassDoor",
+      "object": "SM_BeverageDisplayFridge_GlassDoor",
+      "collection": "02 玻璃门",
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ]
+    },
+    "DoorHandle": {
+      "mesh": "SM_BeverageDisplayFridge_DoorHandle",
+      "object": "SM_BeverageDisplayFridge_DoorHandle",
+      "collection": "03 门把手",
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ]
+    },
+    "DoorFrame": {
+      "mesh": "SM_BeverageDisplayFridge_DoorFrame",
+      "object": "SM_BeverageDisplayFridge_DoorFrame",
+      "collection": "04 门框",
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ]
+    },
+    "Shelf01": {
+      "mesh": "SM_BeverageDisplayFridge_Shelf01",
+      "object": "SM_BeverageDisplayFridge_Shelf01",
+      "collection": "Shelf01",
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        0.5299999713897705
+      ]
+    },
+    "Shelf02": {
+      "mesh": "SM_BeverageDisplayFridge_Shelf02",
+      "object": "SM_BeverageDisplayFridge_Shelf02",
+      "collection": "Shelf02",
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        0.7599999904632568
+      ]
+    },
+    "Shelf03": {
+      "mesh": "SM_BeverageDisplayFridge_Shelf03",
+      "object": "SM_BeverageDisplayFridge_Shelf03",
+      "collection": "Shelf03",
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        0.9900000095367432
+      ]
+    },
+    "Shelf04": {
+      "mesh": "SM_BeverageDisplayFridge_Shelf04",
+      "object": "SM_BeverageDisplayFridge_Shelf04",
+      "collection": "Shelf04",
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        1.2200000286102295
+      ]
+    },
+    "Shelf05": {
+      "mesh": "SM_BeverageDisplayFridge_Shelf05",
+      "object": "SM_BeverageDisplayFridge_Shelf05",
+      "collection": "Shelf05",
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        1.4500000476837158
+      ]
+    },
+    "InnerLiner": {
+      "mesh": "SM_BeverageDisplayFridge_InnerLiner",
+      "object": "SM_BeverageDisplayFridge_InnerLiner",
+      "collection": "06 内胆",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "OuterBody": {
+      "mesh": "SM_BeverageDisplayFridge_OuterBody",
+      "object": "SM_BeverageDisplayFridge_OuterBody",
+      "collection": "07 外壳主体",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "VentGrille": {
+      "mesh": "SM_BeverageDisplayFridge_VentGrille",
+      "object": "SM_BeverageDisplayFridge_VentGrille",
+      "collection": "08 散热格栅",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "FootFL": {
+      "mesh": "SM_BeverageDisplayFridge_FootFL",
+      "object": "SM_BeverageDisplayFridge_FootFL",
+      "collection": "FootFL",
+      "pivot_m": [
+        -0.25,
+        -0.24500000476837158,
+        0.10000000149011612
+      ]
+    },
+    "FootFR": {
+      "mesh": "SM_BeverageDisplayFridge_FootFR",
+      "object": "SM_BeverageDisplayFridge_FootFR",
+      "collection": "FootFR",
+      "pivot_m": [
+        0.25,
+        -0.24500000476837158,
+        0.10000000149011612
+      ]
+    },
+    "FootRL": {
+      "mesh": "SM_BeverageDisplayFridge_FootRL",
+      "object": "SM_BeverageDisplayFridge_FootRL",
+      "collection": "FootRL",
+      "pivot_m": [
+        -0.25,
+        0.24500000476837158,
+        0.10000000149011612
+      ]
+    },
+    "FootRR": {
+      "mesh": "SM_BeverageDisplayFridge_FootRR",
+      "object": "SM_BeverageDisplayFridge_FootRR",
+      "collection": "FootRR",
+      "pivot_m": [
+        0.25,
+        0.24500000476837158,
+        0.10000000149011612
+      ]
+    }
+  },
+  "collision_boxes": {
+    "TopLightbox": [
+      {
+        "center_m": [
+          0,
+          -0.0175,
+          1.793
+        ],
+        "half_m": [
+          0.285,
+          0.3125,
+          0.113
+        ]
+      }
+    ],
+    "GlassDoor": [
+      {
+        "center_m": [
+          0,
+          -0.348,
+          0.985
+        ],
+        "half_m": [
+          0.256,
+          0.003,
+          0.671
+        ]
+      }
+    ],
+    "DoorHandle": [
+      {
+        "center_m": [
+          -0.27,
+          -0.381,
+          0.91
+        ],
+        "half_m": [
+          0.015,
+          0.025,
+          0.25
+        ]
+      }
+    ],
+    "DoorFrame": [
+      {
+        "center_m": [
+          -0.2705,
+          -0.348,
+          0.985
+        ],
+        "half_m": [
+          0.0145,
+          0.01,
+          0.7
+        ]
+      },
+      {
+        "center_m": [
+          0.2705,
+          -0.348,
+          0.985
+        ],
+        "half_m": [
+          0.0145,
+          0.01,
+          0.7
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.348,
+          0.2995
+        ],
+        "half_m": [
+          0.256,
+          0.01,
+          0.0145
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.348,
+          1.6705
+        ],
+        "half_m": [
+          0.256,
+          0.01,
+          0.0145
+        ]
+      }
+    ],
+    "Shelf01": [
+      {
+        "center_m": [
+          0,
+          -0.03,
+          0.53
+        ],
+        "half_m": [
+          0.264,
+          0.264,
+          0.0045
+        ]
+      }
+    ],
+    "Shelf02": [
+      {
+        "center_m": [
+          0,
+          -0.03,
+          0.76
+        ],
+        "half_m": [
+          0.264,
+          0.264,
+          0.0045
+        ]
+      }
+    ],
+    "Shelf03": [
+      {
+        "center_m": [
+          0,
+          -0.03,
+          0.99
+        ],
+        "half_m": [
+          0.264,
+          0.264,
+          0.0045
+        ]
+      }
+    ],
+    "Shelf04": [
+      {
+        "center_m": [
+          0,
+          -0.03,
+          1.22
+        ],
+        "half_m": [
+          0.264,
+          0.264,
+          0.0045
+        ]
+      }
+    ],
+    "Shelf05": [
+      {
+        "center_m": [
+          0,
+          -0.03,
+          1.45
+        ],
+        "half_m": [
+          0.264,
+          0.264,
+          0.0045
+        ]
+      }
+    ],
+    "InnerLiner": [
+      {
+        "center_m": [
+          -0.275,
+          -0.01625,
+          0.993
+        ],
+        "half_m": [
+          0.003,
+          0.29625,
+          0.687
+        ]
+      },
+      {
+        "center_m": [
+          0.275,
+          -0.01625,
+          0.993
+        ],
+        "half_m": [
+          0.003,
+          0.29625,
+          0.687
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.283,
+          0.993
+        ],
+        "half_m": [
+          0.272,
+          0.003,
+          0.681
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.01625,
+          0.309
+        ],
+        "half_m": [
+          0.272,
+          0.29625,
+          0.003
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.01625,
+          1.677
+        ],
+        "half_m": [
+          0.272,
+          0.29625,
+          0.003
+        ]
+      }
+    ],
+    "OuterBody": [
+      {
+        "center_m": [
+          -0.3025,
+          -0.0175,
+          1.015
+        ],
+        "half_m": [
+          0.0175,
+          0.3125,
+          0.915
+        ]
+      },
+      {
+        "center_m": [
+          0.3025,
+          -0.0175,
+          1.015
+        ],
+        "half_m": [
+          0.0175,
+          0.3125,
+          0.915
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.3125,
+          1.015
+        ],
+        "half_m": [
+          0.285,
+          0.0175,
+          0.915
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.0175,
+          0.115
+        ],
+        "half_m": [
+          0.285,
+          0.3125,
+          0.015
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.0175,
+          1.918
+        ],
+        "half_m": [
+          0.285,
+          0.3125,
+          0.012
+        ]
+      }
+    ],
+    "VentGrille": [
+      {
+        "center_m": [
+          0,
+          -0.334,
+          0.2055
+        ],
+        "half_m": [
+          0.285,
+          0.012,
+          0.0755
+        ]
+      }
+    ],
+    "FootFL": [
+      {
+        "center_m": [
+          -0.25,
+          -0.245,
+          0.05
+        ],
+        "half_m": [
+          0.027,
+          0.027,
+          0.05
+        ]
+      }
+    ],
+    "FootFR": [
+      {
+        "center_m": [
+          0.25,
+          -0.245,
+          0.05
+        ],
+        "half_m": [
+          0.027,
+          0.027,
+          0.05
+        ]
+      }
+    ],
+    "FootRL": [
+      {
+        "center_m": [
+          -0.25,
+          0.245,
+          0.05
+        ],
+        "half_m": [
+          0.027,
+          0.027,
+          0.05
+        ]
+      }
+    ],
+    "FootRR": [
+      {
+        "center_m": [
+          0.25,
+          0.245,
+          0.05
+        ],
+        "half_m": [
+          0.027,
+          0.027,
+          0.05
+        ]
+      }
+    ]
+  },
+  "planning_categories": [
+    {
+      "key": "TopLightbox",
+      "label": "01 顶部灯箱与顶盖",
+      "collection": "01 顶部灯箱与顶盖"
+    },
+    {
+      "key": "GlassDoor",
+      "label": "02 玻璃门",
+      "collection": "02 玻璃门"
+    },
+    {
+      "key": "DoorHandle",
+      "label": "03 门把手",
+      "collection": "03 门把手"
+    },
+    {
+      "key": "DoorFrame",
+      "label": "04 门框",
+      "collection": "04 门框"
+    },
+    {
+      "key": "Shelves",
+      "label": "05 内部层板",
+      "collection": "05 内部层板"
+    },
+    {
+      "key": "InnerLiner",
+      "label": "06 内胆",
+      "collection": "06 内胆"
+    },
+    {
+      "key": "OuterBody",
+      "label": "07 外壳主体",
+      "collection": "07 外壳主体"
+    },
+    {
+      "key": "VentGrille",
+      "label": "08 散热格栅",
+      "collection": "08 散热格栅"
+    },
+    {
+      "key": "BaseFeet",
+      "label": "09 底座与底脚",
+      "collection": "09 底座与底脚"
+    }
+  ],
+  "triangles_by_part": {
+    "TopLightbox": 84,
+    "GlassDoor": 12,
+    "DoorHandle": 236,
+    "DoorFrame": 136,
+    "Shelf01": 612,
+    "Shelf02": 612,
+    "Shelf03": 612,
+    "Shelf04": 612,
+    "Shelf05": 612,
+    "InnerLiner": 316,
+    "OuterBody": 696,
+    "VentGrille": 156,
+    "FootFL": 164,
+    "FootFR": 164,
+    "FootRL": 164,
+    "FootRR": 164
+  },
+  "total_triangles": 5352,
+  "preview_collection": "_PreviewOnly.001",
+  "front_camera": "01 Beverage fridge front45",
+  "open_camera": "02 Beverage fridge open",
+  "no_products": true,
+  "doors": {
+    "main": {
+      "hinge_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "closed_ue_cm": [
+        28.9,
+        33.8,
+        28.5
+      ],
+      "open_yaw_deg": -105,
+      "open_blender_z_deg": 105,
+      "parent": "DoorHinge",
+      "moving_parts": [
+        "GlassDoor",
+        "DoorHandle",
+        "DoorFrame"
+      ]
+    }
+  }
+}

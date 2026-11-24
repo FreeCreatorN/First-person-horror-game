@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "parts": [
+    "Body",
+    "MetalFrame",
+    "GlassTop",
+    "GlassSurround",
+    "DisplayShelf",
+    "InteriorShelf",
+    "WoodDoorLeft",
+    "WoodDoorRight",
+    "GlassDoorLeft",
+    "GlassDoorRight"
+  ],
+  "categories": [
+    "01 玻璃顶板",
+    "02 玻璃围挡",
+    "03 金属框架",
+    "04 展示层板",
+    "05 木质柜体（储物）",
+    "06 推拉柜门",
+    "07 推拉玻璃门",
+    "08 内部层板"
+  ],
+  "triangles": 2640,
+  "stock_objects": 0,
+  "source_sha256": "37fd3df447df4b4fc920fcd6a77a90dc2dee2e97d4437c7423a498a593379dac"
+}

@@ -1,0 +1,307 @@
+{
+  "success": true,
+  "target_root": "/Game/Yastars/Mesh/BeverageDisplayFridge",
+  "run_id": "2026-11-18T15:07:08.902389+00:00",
+  "package_count": 22,
+  "mesh_count": 16,
+  "planning_category_count": 9,
+  "triangles": 5352,
+  "blueprint": {
+    "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/BP_BeverageDisplayFridge.BP_BeverageDisplayFridge",
+    "components": {
+      "TopLightbox": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_TopLightbox.SM_BeverageDisplayFridge_TopLightbox",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "顶部灯箱与顶盖",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "GlassDoor": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_GlassDoor.SM_BeverageDisplayFridge_GlassDoor",
+        "parent": "DoorHinge",
+        "relative_location_cm": [
+          0,
+          0,
+          0
+        ],
+        "planning_category": "玻璃门",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "DoorHandle": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorHandle.SM_BeverageDisplayFridge_DoorHandle",
+        "parent": "DoorHinge",
+        "relative_location_cm": [
+          0,
+          0,
+          0
+        ],
+        "planning_category": "门把手",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "DoorFrame": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorFrame.SM_BeverageDisplayFridge_DoorFrame",
+        "parent": "DoorHinge",
+        "relative_location_cm": [
+          0,
+          0,
+          0
+        ],
+        "planning_category": "门框",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf01": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf01.SM_BeverageDisplayFridge_Shelf01",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          52.99999713897705
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf02": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf02.SM_BeverageDisplayFridge_Shelf02",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          75.99999904632568
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf03": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf03.SM_BeverageDisplayFridge_Shelf03",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          99.00000095367432
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf04": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf04.SM_BeverageDisplayFridge_Shelf04",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          122.00000286102295
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf05": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf05.SM_BeverageDisplayFridge_Shelf05",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          145.00000476837158
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "InnerLiner": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_InnerLiner.SM_BeverageDisplayFridge_InnerLiner",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "内胆",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "OuterBody": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_OuterBody.SM_BeverageDisplayFridge_OuterBody",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "外壳主体",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "VentGrille": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_VentGrille.SM_BeverageDisplayFridge_VentGrille",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "散热格栅",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootFL": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFL.SM_BeverageDisplayFridge_FootFL",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          -25.0,
+          24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootFR": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFR.SM_BeverageDisplayFridge_FootFR",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          25.0,
+          24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootRL": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRL.SM_BeverageDisplayFridge_FootRL",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          -25.0,
+          -24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootRR": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRR.SM_BeverageDisplayFridge_FootRR",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          25.0,
+          -24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      }
+    },
+    "planning_categories": {
+      "TopLightbox": "顶部灯箱与顶盖",
+      "GlassDoor": "玻璃门",
+      "DoorHandle": "门把手",
+      "DoorFrame": "门框",
+      "Shelves": "内部层板（五层）",
+      "InnerLiner": "内胆",
+      "OuterBody": "外壳主体",
+      "VentGrille": "散热格栅",
+      "BaseFeet": "底座与底脚"
+    },
+    "planning_category_count": 9,
+    "static_mesh_count": 16,
+    "root_branch_count": 7,
+    "groups": {
+      "DoorHinge": [
+        "GlassDoor",
+        "DoorHandle",
+        "DoorFrame"
+      ],
+      "Shelves": [
+        "Shelf01",
+        "Shelf02",
+        "Shelf03",
+        "Shelf04",
+        "Shelf05"
+      ],
+      "BaseFeet": [
+        "FootFL",
+        "FootFR",
+        "FootRL",
+        "FootRR"
+      ]
+    },
+    "hinge": {
+      "hinge_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "closed_ue_cm": [
+        28.9,
+        33.8,
+        28.5
+      ],
+      "open_yaw_deg": -105.0,
+      "component": "DoorHinge"
+    },
+    "door_local_closed_rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "door_local_open_rotation_deg": [
+      0,
+      -105.0,
+      0
+    ],
+    "blueprint_ready": true,
+    "interaction_events_installed": false,
+    "light_components": 0
+  },
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque",
+    "glass": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Glass.M_BeverageDisplayFridge_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095,
+    "light_components": 0,
+    "sign": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Sign.M_BeverageDisplayFridge_Sign",
+    "sign_emission_parameter": "SignEmissionStrength",
+    "sign_emission_default": 0.2
+  },
+  "doors": {
+    "main": {
+      "hinge_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "closed_ue_cm": [
+        28.9,
+        33.8,
+        28.5
+      ],
+      "open_yaw_deg": -105,
+      "open_blender_z_deg": 105,
+      "parent": "DoorHinge",
+      "moving_parts": [
+        "GlassDoor",
+        "DoorHandle",
+        "DoorFrame"
+      ]
+    }
+  },
+  "protected_paths_verified": 476,
+  "verified_in_running_editor": true,
+  "verified_in_fresh_editor": false
+}

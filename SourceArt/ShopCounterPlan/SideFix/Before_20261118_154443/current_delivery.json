@@ -1,0 +1,16 @@
+{
+  "version": "EmptyPlanningCounter",
+  "source": "ShopCounterPlan.blend",
+  "source_sha256": "37fd3df447df4b4fc920fcd6a77a90dc2dee2e97d4437c7423a498a593379dac",
+  "target_root": "/Game/Yastars/Mesh/ShopCounterPlan",
+  "blueprint": "BP_ShopCounterPlan",
+  "planning_categories": 8,
+  "static_meshes": 10,
+  "triangles": 2640,
+  "empty_counter": true,
+  "verified_in_fresh_editor": true,
+  "verification": "UE/empty_final_verification.json",
+  "source_audit": "EmptyRevision/empty_source_audit.json",
+  "backup_directory": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ShopCounterPlan\\Archives\\BeforeEmpty_20261118T043420Z_0783e30c",
+  "legacy_combined_glass_removed": true
+}

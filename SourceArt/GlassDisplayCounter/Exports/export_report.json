@@ -1,0 +1,126 @@
+{
+  "success": true,
+  "baked_resolution": 2048,
+  "assets": [
+    {
+      "name": "SM_GlassDisplayCounter",
+      "fbx": "SM_GlassDisplayCounter.fbx",
+      "base_color": "T_GlassDisplayCounter_BaseColor.png",
+      "orm": "T_GlassDisplayCounter_ORM.png",
+      "triangles": 13724,
+      "bounds_min_m": [
+        -0.9812999963760376,
+        -0.3190000057220459,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.9812999963760376,
+        0.31700000166893005,
+        1.0859999656677246
+      ],
+      "collision_hulls": 20,
+      "slots": [
+        "M_Counter_Baked",
+        "M_Counter_Glass"
+      ]
+    },
+    {
+      "name": "SM_GlassDisplayCounter_DoorLeft",
+      "fbx": "SM_GlassDisplayCounter_DoorLeft.fbx",
+      "base_color": "T_GlassDisplayCounter_DoorLeft_BaseColor.png",
+      "orm": "T_GlassDisplayCounter_DoorLeft_ORM.png",
+      "triangles": 1080,
+      "bounds_min_m": [
+        -0.48099997639656067,
+        -0.005000025033950806,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.48100000619888306,
+        0.008199989795684814,
+        0.3020000457763672
+      ],
+      "collision_hulls": 1,
+      "slots": [
+        "M_Counter_Baked",
+        "M_Counter_Glass"
+      ]
+    },
+    {
+      "name": "SM_GlassDisplayCounter_DoorRight",
+      "fbx": "SM_GlassDisplayCounter_DoorRight.fbx",
+      "base_color": "T_GlassDisplayCounter_DoorRight_BaseColor.png",
+      "orm": "T_GlassDisplayCounter_DoorRight_ORM.png",
+      "triangles": 1080,
+      "bounds_min_m": [
+        -0.48100000619888306,
+        -0.004999995231628418,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.48099997639656067,
+        0.008200019598007202,
+        0.3020000457763672
+      ],
+      "collision_hulls": 1,
+      "slots": [
+        "M_Counter_Baked",
+        "M_Counter_Glass"
+      ]
+    }
+  ],
+  "sha256": {
+    "SM_GlassDisplayCounter.fbx": "29a841d8232d5138f62718e7080cf5cb6f7bca12ca5eafac828fce1529c238a9",
+    "T_GlassDisplayCounter_BaseColor.png": "5024db811c7c6d4e98c9754cbab5c0742bc3a2d4852383e068d3a8fa4efe6c08",
+    "T_GlassDisplayCounter_ORM.png": "04cd759a8a03b2bab05ebc77c1187bb68c57edc43ea522d7f569196681acc4d9",
+    "SM_GlassDisplayCounter_DoorLeft.fbx": "e23ee8d0c4d6745de0a709abe50e13745401c83762abed585edd25257297f963",
+    "T_GlassDisplayCounter_DoorLeft_BaseColor.png": "5224f8e65316bfc150fdeb85bb994a1d58b456398a960152b861c682cea4f763",
+    "T_GlassDisplayCounter_DoorLeft_ORM.png": "cf9971c5f5743a7c6e1495534783facd10e0bee636ae0acd7901b0df47af8c84",
+    "SM_GlassDisplayCounter_DoorRight.fbx": "e03d7be8b59c598f4f8c4eb4c20cd08ea035b3fc5913b5661640e88da8f7b4ad",
+    "T_GlassDisplayCounter_DoorRight_BaseColor.png": "b5904239481e85a93c5745e4383116b1b5a6618f2d170e047c1421cc2d831386",
+    "T_GlassDisplayCounter_DoorRight_ORM.png": "95f32a5f5b0bcc5d74139118cefbecfdd08376b8831e2de641d18370df9f7136"
+  },
+  "doors": {
+    "left": {
+      "mesh": "SM_GlassDisplayCounter_DoorLeft",
+      "pivot_m": [
+        -0.47,
+        0.2605,
+        0.763
+      ],
+      "travel_m": 0.922,
+      "closed_ue_cm": [
+        -47.0,
+        -26.05,
+        76.3
+      ],
+      "travel_cm": 92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    },
+    "right": {
+      "mesh": "SM_GlassDisplayCounter_DoorRight",
+      "pivot_m": [
+        0.47,
+        0.2835,
+        0.763
+      ],
+      "travel_m": -0.922,
+      "closed_ue_cm": [
+        47.0,
+        -28.349999999999998,
+        76.3
+      ],
+      "travel_cm": -92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    }
+  },
+  "source_sha256": "67f46400e7893168fd490a0efcc45d372e2393b0a08e8695393de52c2609bcf4"
+}

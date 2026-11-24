@@ -1,0 +1,102 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_CustomEvent Name="K2Node_CustomEvent_100"
+   NodePosX=0
+   NodePosY=0
+   NodeGuid=E1FF7BF3158E439C9038BC4BFF94F538
+   CustomFunctionName="SetLeftGlassDoorOpen"
+   bIsEditable=True
+   CustomProperties UserDefinedPin (PinName="Open",PinType=(PinCategory="bool"),DesiredPinDirection=EGPD_Output)
+   CustomProperties Pin (PinId=53A79C4A4DC547588FBCB9C1B9029885,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",)
+   CustomProperties Pin (PinId=3F8EE6E98E814261AA532B4B2A80481E,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_101 FF750277BD4046E49F6360BEBE853280,),)
+   CustomProperties Pin (PinId=8FA106BE3F0C4480A4D29B511DA1414A,PinName="Open",Direction="EGPD_Output",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_100 69E77C68794B445EA6F86E061A294C9E,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_100"
+   NodePosX=16
+   NodePosY=188
+   NodeGuid=B466EC5A9E7B42258DD7EF63E1A06A1A
+   VariableReference=(MemberName="GlassDoorLeft",bSelfContext=True)
+   CustomProperties Pin (PinId=CA4BFA749992462DA6E46F79F4D8B84B,PinName="GlassDoorLeft",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.StaticMeshComponent'",LinkedTo=(K2Node_CallFunction_101 B66AA78D53144E598B73C9708EB023E1,),)
+   CustomProperties Pin (PinId=1AA6172265144224A3E95DB280431C10,PinName="self",PinType.PinCategory="object",PinType.PinSubCategory="self",bHidden=True,)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_100"
+   NodePosX=288
+   NodePosY=180
+   NodeGuid=FAB27B977BC04CE99DA4F2633DA9C063
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="SelectVector")
+   bIsPureFunc=True
+   CustomProperties Pin (PinId=CD2EEAEA7BDE428693643E45966C30BD,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",DefaultObject="/Script/Engine.Default__KismetMathLibrary",bHidden=True,)
+   CustomProperties Pin (PinId=6ED1252A53664D9CAE68FE5F875B2181,PinName="A",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",DefaultValue="45.20000000,-26.05000000,76.30000000",)
+   CustomProperties Pin (PinId=B674307316F74208B6AD182E0CC91EE1,PinName="B",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",DefaultValue="-47.00000000,-26.05000000,76.30000000",)
+   CustomProperties Pin (PinId=69E77C68794B445EA6F86E061A294C9E,PinName="bPickA",PinType.PinCategory="bool",DefaultValue="false",LinkedTo=(K2Node_CustomEvent_100 8FA106BE3F0C4480A4D29B511DA1414A,),)
+   CustomProperties Pin (PinId=89CEFA39E71845DFB59F5A0F44450460,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_101 341479DE95264133A8A423C44E74CE94,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_101"
+   NodePosX=650
+   NodePosY=0
+   NodeGuid=3972FC30E2824851AC957FAAB672F097
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",MemberName="MoveComponentTo")
+   CustomProperties Pin (PinId=FF750277BD4046E49F6360BEBE853280,PinName="Move",PinType.PinCategory="exec",LinkedTo=(K2Node_CustomEvent_100 3F8EE6E98E814261AA532B4B2A80481E,),)
+   CustomProperties Pin (PinId=077551AD50A746E8831E2480BB2C8273,PinName="Stop",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=4FB8679848024E16B871213AB4708745,PinName="Return",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=768832D32FB846C5A19F7D7D814A2014,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=9B95579A49E647A2A489B90965683B99,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",DefaultObject="/Script/Engine.Default__KismetSystemLibrary",bHidden=True,)
+   CustomProperties Pin (PinId=B66AA78D53144E598B73C9708EB023E1,PinName="Component",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SceneComponent'",LinkedTo=(K2Node_VariableGet_100 CA4BFA749992462DA6E46F79F4D8B84B,),)
+   CustomProperties Pin (PinId=341479DE95264133A8A423C44E74CE94,PinName="TargetRelativeLocation",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_100 89CEFA39E71845DFB59F5A0F44450460,),)
+   CustomProperties Pin (PinId=28F98B591B254B47828B255A3810C368,PinName="TargetRelativeRotation",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Rotator'",DefaultValue="0,0,0",)
+   CustomProperties Pin (PinId=D38333786AB84F319B5A98BB4721CAE8,PinName="bEaseOut",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=5DF8570FE30C4DE5AE8C90293A10E11E,PinName="bEaseIn",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=33EF7FBF1C8F4AEC81C525B69DA5BD92,PinName="OverTime",PinType.PinCategory="real",PinType.PinSubCategory="float",DefaultValue="0.550000",)
+   CustomProperties Pin (PinId=6722D5CBB43B42618CD0D893FD64A455,PinName="bForceShortestRotationPath",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=7840DC61B80144528CC29E6E9E79A7D7,PinName="MoveAction",PinType.PinCategory="byte",PinType.PinSubCategoryObject="/Script/CoreUObject.Enum'/Script/Engine.EMoveComponentAction'",DefaultValue="Move",bHidden=True,)
+   CustomProperties Pin (PinId=73F80D46381646869567DAA5E39F7B99,PinName="LatentInfo",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.LatentActionInfo'",bHidden=True,)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CustomEvent Name="K2Node_CustomEvent_200"
+   NodePosX=0
+   NodePosY=480
+   NodeGuid=1EB1490FD5BC4B38BB835D00B52EAB2A
+   CustomFunctionName="SetRightGlassDoorOpen"
+   bIsEditable=True
+   CustomProperties UserDefinedPin (PinName="Open",PinType=(PinCategory="bool"),DesiredPinDirection=EGPD_Output)
+   CustomProperties Pin (PinId=C52FC214AAA14034800444D3242E383D,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",)
+   CustomProperties Pin (PinId=068A1F87AF034BEF89D1BBE34BB5037E,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_201 BBE55BBBC9EE427990FBC504BC39CC7B,),)
+   CustomProperties Pin (PinId=D6C181C49FDE404EB236B001FEEB003D,PinName="Open",Direction="EGPD_Output",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_200 560E66F024C94B468BF9D7A1FC0D4CD8,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_200"
+   NodePosX=16
+   NodePosY=668
+   NodeGuid=A7CA70E3F007419FA8CCC0DDDC4591B7
+   VariableReference=(MemberName="GlassDoorRight",bSelfContext=True)
+   CustomProperties Pin (PinId=BB2931EB12C64DDD881B427ED04EA611,PinName="GlassDoorRight",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.StaticMeshComponent'",LinkedTo=(K2Node_CallFunction_201 44C6C66E8C20403DAAE63049ECEBECF0,),)
+   CustomProperties Pin (PinId=EB369171C4364159938179A2EFA468D6,PinName="self",PinType.PinCategory="object",PinType.PinSubCategory="self",bHidden=True,)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_200"
+   NodePosX=288
+   NodePosY=660
+   NodeGuid=4BED880A7CB24390A09FF2D5735B0C10
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="SelectVector")
+   bIsPureFunc=True
+   CustomProperties Pin (PinId=19A190BFE7FE439C8D29E5731DB56D69,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",DefaultObject="/Script/Engine.Default__KismetMathLibrary",bHidden=True,)
+   CustomProperties Pin (PinId=9AD46B12C63C4EBA8B494380B9D046C7,PinName="A",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",DefaultValue="-45.20000000,-28.35000000,76.30000000",)
+   CustomProperties Pin (PinId=A83CA7517F0648F3AB9AD8716C6A0F20,PinName="B",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",DefaultValue="47.00000000,-28.35000000,76.30000000",)
+   CustomProperties Pin (PinId=560E66F024C94B468BF9D7A1FC0D4CD8,PinName="bPickA",PinType.PinCategory="bool",DefaultValue="false",LinkedTo=(K2Node_CustomEvent_200 D6C181C49FDE404EB236B001FEEB003D,),)
+   CustomProperties Pin (PinId=24894E645E94405099BBF5CCB8CD1A35,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_201 1A1B8DD0892045C4832826D4B287FF5B,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_201"
+   NodePosX=650
+   NodePosY=480
+   NodeGuid=3ECA647ED4764552A58CC96C15A46B72
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",MemberName="MoveComponentTo")
+   CustomProperties Pin (PinId=BBE55BBBC9EE427990FBC504BC39CC7B,PinName="Move",PinType.PinCategory="exec",LinkedTo=(K2Node_CustomEvent_200 068A1F87AF034BEF89D1BBE34BB5037E,),)
+   CustomProperties Pin (PinId=353E0DDE087B4872B86D74D872C448AD,PinName="Stop",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=CDD29548492C42CA8E74EA842BFAC643,PinName="Return",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=C13C7C30271E4490B3DE1CD08FEB9330,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=17567E62CCD648278B67F6168DC3C0EB,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",DefaultObject="/Script/Engine.Default__KismetSystemLibrary",bHidden=True,)
+   CustomProperties Pin (PinId=44C6C66E8C20403DAAE63049ECEBECF0,PinName="Component",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.SceneComponent'",LinkedTo=(K2Node_VariableGet_200 BB2931EB12C64DDD881B427ED04EA611,),)
+   CustomProperties Pin (PinId=1A1B8DD0892045C4832826D4B287FF5B,PinName="TargetRelativeLocation",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_200 24894E645E94405099BBF5CCB8CD1A35,),)
+   CustomProperties Pin (PinId=E6EDAEC7E81C488095497D4E10EE4288,PinName="TargetRelativeRotation",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Rotator'",DefaultValue="0,0,0",)
+   CustomProperties Pin (PinId=CC489D467B2842839B6852E5349A8612,PinName="bEaseOut",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=800D61712ED94474AE37F435FF4015B6,PinName="bEaseIn",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=8BC25310FC1549E8AAE0149A803FD9A0,PinName="OverTime",PinType.PinCategory="real",PinType.PinSubCategory="float",DefaultValue="0.550000",)
+   CustomProperties Pin (PinId=C1BA1D3889B24147A689FF39C7A94032,PinName="bForceShortestRotationPath",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=7C753B3DC4AD4BD5B303264A26D21D66,PinName="MoveAction",PinType.PinCategory="byte",PinType.PinSubCategoryObject="/Script/CoreUObject.Enum'/Script/Engine.EMoveComponentAction'",DefaultValue="Move",bHidden=True,)
+   CustomProperties Pin (PinId=D50D4EF964BD47E58587A8AAEE5B9006,PinName="LatentInfo",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/Engine.LatentActionInfo'",bHidden=True,)
+End Object

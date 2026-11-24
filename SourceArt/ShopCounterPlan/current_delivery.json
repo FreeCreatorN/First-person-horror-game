@@ -1,0 +1,17 @@
+{
+  "version": "EmptyPlanningCounter_SideRepair",
+  "source": "ShopCounterPlan.blend",
+  "source_sha256": "2f81d4535add73fabf503c8e8470334c9071318bb5f5c8bae9718d41fa385677",
+  "target_root": "/Game/Yastars/Mesh/ShopCounterPlan",
+  "blueprint": "BP_ShopCounterPlan",
+  "planning_categories": 8,
+  "static_meshes": 10,
+  "triangles": 2640,
+  "empty_counter": true,
+  "verified_in_fresh_editor": true,
+  "verification": "SideFix/UE/side_fresh_report.json",
+  "source_audit": "EmptyRevision/empty_source_audit.json",
+  "backup_directory": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ShopCounterPlan\\Archives\\BeforeSideFix_20261118T075528Z",
+  "legacy_combined_glass_removed": true,
+  "outward_coplanar_pairs": 0
+}

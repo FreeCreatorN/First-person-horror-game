@@ -1,0 +1,28 @@
+{
+  "dimensions_m": [
+    2.431,
+    0.539,
+    2.189
+  ],
+  "uprights": 8,
+  "bay_count": 3,
+  "levels": 7,
+  "shelf_trays": 21,
+  "through_slots": 912,
+  "asset_mesh_objects": 263,
+  "materials": {
+    "painted": "M_Rack_WarmGrayPowderCoat",
+    "inner": "M_Rack_ShadowedInteriorMetal",
+    "zinc": "M_Rack_WeatheredZincFasteners",
+    "rubber": "M_Rack_CharcoalRubberFeet"
+  },
+  "studio_objects": 6,
+  "evaluated_triangles": 262004,
+  "sealed_asset_components": 263,
+  "validated_cutouts": 912,
+  "evaluated_dimensions_m": [
+    2.431,
+    0.539,
+    2.189
+  ]
+}

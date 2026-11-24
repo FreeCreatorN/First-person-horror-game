@@ -1,0 +1,15 @@
+{
+  "version": "IceCreamFreezer_v1",
+  "source": "IceCreamFreezer.blend",
+  "source_sha256": "f48993258d0b22ee1228d2d8f0fc4ce15165125e8176ecb974fd9cca5fe6d42d",
+  "target_root": "/Game/Yastars/Mesh/IceCreamFreezer",
+  "blueprint": "BP_IceCreamFreezer",
+  "planning_categories": 6,
+  "static_meshes": 11,
+  "triangles": 3288,
+  "package_count": 16,
+  "verified_in_running_editor": true,
+  "verified_in_fresh_editor": false,
+  "interaction_events_installed": false,
+  "verification": "UE/final_verification.json"
+}

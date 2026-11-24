@@ -1,0 +1,664 @@
+{
+  "success": true,
+  "source_scene": "IceCreamFreezer",
+  "nominal_case_m": [
+    1.3,
+    0.7,
+    0.879
+  ],
+  "parts": {
+    "Body": {
+      "mesh": "SM_IceCreamFreezer_Body",
+      "collection": "01 外壳柜体",
+      "object": "SM_IceCreamFreezer_Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "TopFrame": {
+      "mesh": "SM_IceCreamFreezer_TopFrame",
+      "collection": "02 上框架与滑轨",
+      "object": "SM_IceCreamFreezer_TopFrame",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "GlassDoorLeft": {
+      "mesh": "SM_IceCreamFreezer_GlassDoorLeft",
+      "collection": "GlassDoorLeft",
+      "object": "SM_IceCreamFreezer_GlassDoorLeft",
+      "pivot_m": [
+        -0.301,
+        0,
+        0.8
+      ]
+    },
+    "GlassDoorRight": {
+      "mesh": "SM_IceCreamFreezer_GlassDoorRight",
+      "collection": "GlassDoorRight",
+      "object": "SM_IceCreamFreezer_GlassDoorRight",
+      "pivot_m": [
+        0.301,
+        0,
+        0.812
+      ]
+    },
+    "Liner": {
+      "mesh": "SM_IceCreamFreezer_Liner",
+      "collection": "04 内胆",
+      "object": "SM_IceCreamFreezer_Liner",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "BasketLeft": {
+      "mesh": "SM_IceCreamFreezer_BasketLeft",
+      "collection": "BasketLeft",
+      "object": "SM_IceCreamFreezer_BasketLeft",
+      "pivot_m": [
+        -0.2849999964237213,
+        0.0,
+        0.5149999856948853
+      ]
+    },
+    "BasketRight": {
+      "mesh": "SM_IceCreamFreezer_BasketRight",
+      "collection": "BasketRight",
+      "object": "SM_IceCreamFreezer_BasketRight",
+      "pivot_m": [
+        0.2849999964237213,
+        0.0,
+        0.5149999856948853
+      ]
+    },
+    "WheelFL": {
+      "mesh": "SM_IceCreamFreezer_WheelFL",
+      "collection": "WheelFL",
+      "object": "SM_IceCreamFreezer_WheelFL",
+      "pivot_m": [
+        -0.5699999928474426,
+        -0.27000001072883606,
+        0.10000000149011612
+      ]
+    },
+    "WheelFR": {
+      "mesh": "SM_IceCreamFreezer_WheelFR",
+      "collection": "WheelFR",
+      "object": "SM_IceCreamFreezer_WheelFR",
+      "pivot_m": [
+        0.5699999928474426,
+        -0.27000001072883606,
+        0.10000000149011612
+      ]
+    },
+    "WheelRL": {
+      "mesh": "SM_IceCreamFreezer_WheelRL",
+      "collection": "WheelRL",
+      "object": "SM_IceCreamFreezer_WheelRL",
+      "pivot_m": [
+        -0.5699999928474426,
+        0.27000001072883606,
+        0.10000000149011612
+      ]
+    },
+    "WheelRR": {
+      "mesh": "SM_IceCreamFreezer_WheelRR",
+      "collection": "WheelRR",
+      "object": "SM_IceCreamFreezer_WheelRR",
+      "pivot_m": [
+        0.5699999928474426,
+        0.27000001072883606,
+        0.10000000149011612
+      ]
+    }
+  },
+  "doors": {
+    "left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_IceCreamFreezer_GlassDoorLeft",
+      "pivot_m": [
+        -0.301,
+        0,
+        0.8
+      ],
+      "closed_ue_cm": [
+        -30.099999999999998,
+        0,
+        80.0
+      ],
+      "travel_cm": 60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorLeft"
+    },
+    "right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_IceCreamFreezer_GlassDoorRight",
+      "pivot_m": [
+        0.301,
+        0,
+        0.812
+      ],
+      "closed_ue_cm": [
+        30.099999999999998,
+        0,
+        81.2
+      ],
+      "travel_cm": -60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorRight"
+    }
+  },
+  "collision_boxes": {
+    "Body": [
+      {
+        "center_m": [
+          0,
+          -0.33,
+          0.4325
+        ],
+        "half_m": [
+          0.65,
+          0.02,
+          0.3325
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.33,
+          0.4325
+        ],
+        "half_m": [
+          0.65,
+          0.02,
+          0.3325
+        ]
+      },
+      {
+        "center_m": [
+          -0.63,
+          0,
+          0.4325
+        ],
+        "half_m": [
+          0.02,
+          0.31,
+          0.3325
+        ]
+      },
+      {
+        "center_m": [
+          0.63,
+          0,
+          0.4325
+        ],
+        "half_m": [
+          0.02,
+          0.31,
+          0.3325
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0,
+          0.1225
+        ],
+        "half_m": [
+          0.61,
+          0.31,
+          0.0225
+        ]
+      }
+    ],
+    "TopFrame": [
+      {
+        "center_m": [
+          -0.638,
+          0,
+          0.815
+        ],
+        "half_m": [
+          0.012,
+          0.35,
+          0.05
+        ]
+      },
+      {
+        "center_m": [
+          0.638,
+          0,
+          0.815
+        ],
+        "half_m": [
+          0.012,
+          0.35,
+          0.05
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.338,
+          0.7898456290695233
+        ],
+        "half_m": [
+          0.626,
+          0.012,
+          0.0248456290695232
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.338,
+          0.7898456290695233
+        ],
+        "half_m": [
+          0.626,
+          0.012,
+          0.0248456290695232
+        ]
+      }
+    ],
+    "GlassDoorLeft": [
+      {
+        "center_m": [
+          -0.301,
+          -0.2385,
+          0.8194228733459358
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.025346275992438546
+        ]
+      },
+      {
+        "center_m": [
+          -0.301,
+          -0.0795,
+          0.8478845746691872
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.01111542533081283
+        ]
+      },
+      {
+        "center_m": [
+          -0.301,
+          0.0795,
+          0.8478845746691872
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.01111542533081283
+        ]
+      },
+      {
+        "center_m": [
+          -0.301,
+          0.23849999999999996,
+          0.8194228733459358
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.025346275992438546
+        ]
+      }
+    ],
+    "GlassDoorRight": [
+      {
+        "center_m": [
+          0.301,
+          -0.2385,
+          0.8314228733459358
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.025346275992438546
+        ]
+      },
+      {
+        "center_m": [
+          0.301,
+          -0.0795,
+          0.8598845746691872
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.01111542533081283
+        ]
+      },
+      {
+        "center_m": [
+          0.301,
+          0.0795,
+          0.8598845746691872
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.01111542533081283
+        ]
+      },
+      {
+        "center_m": [
+          0.301,
+          0.23849999999999996,
+          0.8314228733459358
+        ],
+        "half_m": [
+          0.311,
+          0.0795,
+          0.025346275992438546
+        ]
+      }
+    ],
+    "Liner": [
+      {
+        "center_m": [
+          0,
+          0,
+          0.211
+        ],
+        "half_m": [
+          0.606,
+          0.306,
+          0.006
+        ]
+      },
+      {
+        "center_m": [
+          -0.6025,
+          0,
+          0.491
+        ],
+        "half_m": [
+          0.0035,
+          0.299,
+          0.274
+        ]
+      },
+      {
+        "center_m": [
+          0.6025,
+          0,
+          0.491
+        ],
+        "half_m": [
+          0.0035,
+          0.299,
+          0.274
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.3025,
+          0.491
+        ],
+        "half_m": [
+          0.599,
+          0.0035,
+          0.274
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.3025,
+          0.491
+        ],
+        "half_m": [
+          0.599,
+          0.0035,
+          0.274
+        ]
+      }
+    ],
+    "BasketLeft": [
+      {
+        "center_m": [
+          -0.285,
+          0,
+          0.515
+        ],
+        "half_m": [
+          0.246,
+          0.241,
+          0.003
+        ]
+      },
+      {
+        "center_m": [
+          -0.53,
+          0,
+          0.63
+        ],
+        "half_m": [
+          0.003,
+          0.241,
+          0.11499999999999996
+        ]
+      },
+      {
+        "center_m": [
+          -0.03999999999999998,
+          0,
+          0.63
+        ],
+        "half_m": [
+          0.003,
+          0.241,
+          0.11499999999999996
+        ]
+      },
+      {
+        "center_m": [
+          -0.285,
+          -0.24,
+          0.63
+        ],
+        "half_m": [
+          0.246,
+          0.003,
+          0.11499999999999996
+        ]
+      },
+      {
+        "center_m": [
+          -0.285,
+          0.24,
+          0.63
+        ],
+        "half_m": [
+          0.246,
+          0.003,
+          0.11499999999999996
+        ]
+      }
+    ],
+    "BasketRight": [
+      {
+        "center_m": [
+          0.285,
+          0,
+          0.515
+        ],
+        "half_m": [
+          0.246,
+          0.241,
+          0.003
+        ]
+      },
+      {
+        "center_m": [
+          0.03999999999999998,
+          0,
+          0.63
+        ],
+        "half_m": [
+          0.003,
+          0.241,
+          0.11499999999999996
+        ]
+      },
+      {
+        "center_m": [
+          0.53,
+          0,
+          0.63
+        ],
+        "half_m": [
+          0.003,
+          0.241,
+          0.11499999999999996
+        ]
+      },
+      {
+        "center_m": [
+          0.285,
+          -0.24,
+          0.63
+        ],
+        "half_m": [
+          0.246,
+          0.003,
+          0.11499999999999996
+        ]
+      },
+      {
+        "center_m": [
+          0.285,
+          0.24,
+          0.63
+        ],
+        "half_m": [
+          0.246,
+          0.003,
+          0.11499999999999996
+        ]
+      }
+    ],
+    "WheelFL": [
+      {
+        "center_m": [
+          -0.566,
+          -0.27,
+          0.05
+        ],
+        "half_m": [
+          0.04,
+          0.03,
+          0.05
+        ]
+      }
+    ],
+    "WheelFR": [
+      {
+        "center_m": [
+          0.574,
+          -0.27,
+          0.05
+        ],
+        "half_m": [
+          0.04,
+          0.03,
+          0.05
+        ]
+      }
+    ],
+    "WheelRL": [
+      {
+        "center_m": [
+          -0.566,
+          0.27,
+          0.05
+        ],
+        "half_m": [
+          0.04,
+          0.03,
+          0.05
+        ]
+      }
+    ],
+    "WheelRR": [
+      {
+        "center_m": [
+          0.574,
+          0.27,
+          0.05
+        ],
+        "half_m": [
+          0.04,
+          0.03,
+          0.05
+        ]
+      }
+    ]
+  },
+  "triangles_by_part": {
+    "Body": 404,
+    "TopFrame": 184,
+    "GlassDoorLeft": 244,
+    "GlassDoorRight": 244,
+    "Liner": 60,
+    "BasketLeft": 708,
+    "BasketRight": 708,
+    "WheelFL": 184,
+    "WheelFR": 184,
+    "WheelRL": 184,
+    "WheelRR": 184
+  },
+  "total_triangles": 3288,
+  "planning_categories": [
+    {
+      "key": "Body",
+      "label": "01 外壳柜体",
+      "collection": "01 外壳柜体"
+    },
+    {
+      "key": "TopFrame",
+      "label": "02 上框架与滑轨",
+      "collection": "02 上框架与滑轨"
+    },
+    {
+      "key": "SlidingGlassDoors",
+      "label": "03 玻璃滑门（左右）",
+      "collection": "03 玻璃滑门（左右）"
+    },
+    {
+      "key": "Liner",
+      "label": "04 内胆",
+      "collection": "04 内胆"
+    },
+    {
+      "key": "Baskets",
+      "label": "05 内部篮筐（两个）",
+      "collection": "05 内部篮筐（两个）"
+    },
+    {
+      "key": "Wheels",
+      "label": "06 万向轮（四个）",
+      "collection": "06 万向轮（四个）"
+    }
+  ],
+  "preview_collection": "_PreviewOnly",
+  "front_camera": "01 Freezer front45",
+  "open_camera": "02 Freezer open top",
+  "door_track_height_difference_m": 0.012,
+  "no_products": true,
+  "basket_hangers": true,
+  "origins_finished": true
+}

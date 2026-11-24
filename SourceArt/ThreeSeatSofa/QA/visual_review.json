@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "source_sha256": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+  "reviewed_images": ["Sofa_Hero.png", "Sofa_Rear.png"],
+  "checks": {
+    "three_seat_silhouette": true,
+    "three_back_and_three_seat_cushions": true,
+    "two_padded_arms": true,
+    "two_plaid_throw_pillows": true,
+    "low_concealed_feet": true,
+    "no_exposed_wood_or_metal_frame": true,
+    "no_obvious_floating_components": true,
+    "arm_bottoms_meet_upholstered_plinth": true,
+    "rear_wall_and_arm_fit_coherent": true
+  },
+  "notes": [
+    "The current asset is a medium-detail interpretation of the reference. Its fabric appears lighter and cleaner, with less dense compression wrinkles than the reference photograph.",
+    "Welt geometry is continuous and manifold, with no detected welt self-crossings. Its visible contrast varies along the front seat and back contours under the preview lighting.",
+    "The 13,604-triangle mesh is within the planning sheet's overall 15,000 maximum, while above the 7,000-11,000 LOD0 suggested range.",
+    "A thin upholstered low plinth runs under the arms. This is deliberate and no bare structural frame is visible."
+  ]
+}

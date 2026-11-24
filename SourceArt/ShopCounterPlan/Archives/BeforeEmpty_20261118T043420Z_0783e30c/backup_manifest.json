@@ -1,0 +1,75 @@
+{
+  "original_packages": {
+    "/Game/Yastars/Mesh/ShopCounterPlan/BP_ShopCounterPlan": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\BP_ShopCounterPlan.uasset",
+      "sha256": "ebf162ad3c9b79eed125940c76b1c9bc3e7f4ce2ddd698146d9205eed1595ee1",
+      "bytes": 40333
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Materials\\M_ShopCounterPlan_Glass.uasset",
+      "sha256": "958ea31507cc6317b9f48c2500c909041e29d89a27d4a75b989e187b23add602",
+      "bytes": 9722
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Materials/M_ShopCounterPlan_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Materials\\M_ShopCounterPlan_Opaque.uasset",
+      "sha256": "268097bf6e269e69c7557b00a519c4e9c40752602ba70d0f44cb1da25914bd40",
+      "bytes": 13030
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_Body": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_Body.uasset",
+      "sha256": "f27aeef24292b60266934284de889a40e0658fa063b396729e0c9163556b6c64",
+      "bytes": 65656
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_DisplayShelf": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_DisplayShelf.uasset",
+      "sha256": "1f6222428963d34177161fa0de3ad1e257f202432b9534cfc4fb1e404b297f60",
+      "bytes": 17930
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_FixedGlass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_FixedGlass.uasset",
+      "sha256": "2d78f85665c70d0e418a4927910a99b2db45d87ba5bdab8aebf7bf215a326ea1",
+      "bytes": 20374
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassDoorLeft.uasset",
+      "sha256": "69e7705d55878a2ca840957e77be82d0b9d518b37b794fa7a6c5cf93902ad3e0",
+      "bytes": 22913
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_GlassDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_GlassDoorRight.uasset",
+      "sha256": "fcf4c9794893fc863d4067afa14ef7efd2dbcfe1eed4a13763a90a2da1d3a71e",
+      "bytes": 22921
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_InteriorShelf": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_InteriorShelf.uasset",
+      "sha256": "4253a2778b6e6ee8a4991d492fafed6b61a6f7c2dd4d572032a197f82cc9e339",
+      "bytes": 20115
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_MetalFrame": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_MetalFrame.uasset",
+      "sha256": "ca196b2438cb4e28f252bdb8ba708f7a0ae5b29269f3be4863047d0dc15a32ed",
+      "bytes": 56490
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorLeft": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_WoodDoorLeft.uasset",
+      "sha256": "387746495278bf12db94aaa4bf9abcd0beaeffdcc194fae2384b7bf36a522d57",
+      "bytes": 21953
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/SM_ShopCounterPlan_WoodDoorRight": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\SM_ShopCounterPlan_WoodDoorRight.uasset",
+      "sha256": "3a504a68fef2f817e07705856722bf07eb9881ba9decc3b506213a45348cb4fe",
+      "bytes": 22019
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Textures\\T_ShopCounterPlan_BaseColor.uasset",
+      "sha256": "2c28cbbc950a52d7bb91c572b9ef5c46b85b509657e276acc6c532805f1077c8",
+      "bytes": 4238956
+    },
+    "/Game/Yastars/Mesh/ShopCounterPlan/Textures/T_ShopCounterPlan_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\ShopCounterPlan\\Textures\\T_ShopCounterPlan_ORM.uasset",
+      "sha256": "3921ad3d1b35bbe9b9d64dcdc8022c2675909556ea6c573d0d738b55cd0e5fa8",
+      "bytes": 2659744
+    }
+  },
+  "target": "/Game/Yastars/Mesh/ShopCounterPlan"
+}

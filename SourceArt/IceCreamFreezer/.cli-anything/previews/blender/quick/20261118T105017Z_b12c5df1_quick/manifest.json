@@ -1,0 +1,67 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261118T105017Z_b12c5df1_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-11-18T10:51:00.019826Z",
+  "cache_key": "sha256:b12c5df1b950e006826e2a74422e938815cfffbc7d72357f162bfc7776753735",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\IceCreamFreezer\\IceCreamFreezer.frame1.native-preview.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\IceCreamFreezer\\IceCreamFreezer.frame1.native-preview.blend-cli.json",
+    "project_name": "IceCreamFreezer.frame1.native-preview.blend-cli.json",
+    "project_fingerprint": "sha256:6f273e899395bf3267eb73858878b6f12783e19cb5a3b04bbe358dd6308339e7"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 1284535,
+      "width": 1200,
+      "height": 880,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless-native-source"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 999202,
+      "width": 1200,
+      "height": 880,
+      "preset": "workbench",
+      "blender_method": "blender-headless-native-source"
+    }
+  ],
+  "context": {
+    "frame_range": "1-150",
+    "fps": 30,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 20,
+    "material_count": 10,
+    "camera_count": 2,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "resolution": [
+    2048,
+    2048
+  ],
+  "padding_pixels": 24,
+  "origin": "bottom-left UV",
+  "orm_channels": [
+    "Occlusion",
+    "Roughness",
+    "Metallic"
+  ],
+  "normal_convention": "tangent-space positive Y; set Flip Green Channel for Unreal if importing as DirectX",
+  "tile_rects_uv": {
+    "Front": [
+      0.01171875,
+      0.01171875,
+      0.32177734375,
+      0.48828125
+    ],
+    "Back": [
+      0.34521484375,
+      0.01171875,
+      0.65478515625,
+      0.48828125
+    ],
+    "Left": [
+      0.67822265625,
+      0.01171875,
+      0.98828125,
+      0.48828125
+    ],
+    "Right": [
+      0.01171875,
+      0.51171875,
+      0.32177734375,
+      0.98828125
+    ],
+    "Top": [
+      0.34521484375,
+      0.51171875,
+      0.65478515625,
+      0.98828125
+    ],
+    "Bottom": [
+      0.67822265625,
+      0.51171875,
+      0.98828125,
+      0.98828125
+    ]
+  },
+  "top_tape": {
+    "tile_local_u_center": 0.5,
+    "tile_local_u_width": 0.13,
+    "v": [
+      0,
+      1
+    ]
+  },
+  "license": "Original procedural artwork created for this project; no external artwork used."
+}

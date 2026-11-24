@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "name": "CardboardBoxSet",
+  "scene": {
+    "unit_system": "metric",
+    "unit_scale": 1.0,
+    "frame_start": 1,
+    "frame_end": 1,
+    "frame_current": 1,
+    "fps": 24
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution_x": 3200,
+    "resolution_y": 2100,
+    "resolution_percentage": 100,
+    "samples": 128,
+    "use_denoising": true,
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/"
+  },
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "use_hdri": false,
+    "hdri_path": null,
+    "hdri_strength": 1.0
+  },
+  "objects": [
+    {
+      "name": "01 Carton set overview",
+      "type": "CAMERA"
+    },
+    {
+      "name": "02 Open carton closeup",
+      "type": "CAMERA"
+    },
+    {
+      "name": "03 Storage handle closeup",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Preview floor",
+      "type": "MESH"
+    },
+    {
+      "name": "A \u5c01\u7bb1\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "B \u5f00\u53e3\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "C \u50a8\u7269\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "D \u7834\u65e7\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "E \u5806\u53e0\u7ec4\u5408",
+      "type": "FONT"
+    },
+    {
+      "name": "F \u852c\u679c\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "G \u77ff\u6cc9\u6c34\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "H \u65b9\u4fbf\u9762\u7eb8\u7bb1",
+      "type": "FONT"
+    },
+    {
+      "name": "Key",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Rim",
+      "type": "LIGHT"
+    },
+    {
+      "name": "A preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_A_Sealed",
+      "type": "MESH"
+    },
+    {
+      "name": "B preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_B_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapFront",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapBack",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapLeft",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapRight",
+      "type": "MESH"
+    },
+    {
+      "name": "C preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_C_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_CardboardBox_C_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "D preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_D_Damaged",
+      "type": "MESH"
+    },
+    {
+      "name": "E preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_E_Stack",
+      "type": "MESH"
+    },
+    {
+      "name": "F preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_F_Fruit",
+      "type": "MESH"
+    },
+    {
+      "name": "G preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_G_Water",
+      "type": "MESH"
+    },
+    {
+      "name": "H preview placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_CardboardBox_H_Noodles",
+      "type": "MESH"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Cardboard_Damaged"
+    },
+    {
+      "name": "M_Cardboard_Edge"
+    },
+    {
+      "name": "M_Cardboard_Fruit"
+    },
+    {
+      "name": "M_Cardboard_Noodles"
+    },
+    {
+      "name": "M_Cardboard_Standard"
+    },
+    {
+      "name": "M_Cardboard_Water"
+    },
+    {
+      "name": "Preview charcoal floor"
+    },
+    {
+      "name": "Preview labels"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01 Carton set overview",
+      "is_active": true
+    },
+    {
+      "name": "02 Open carton closeup",
+      "is_active": false
+    },
+    {
+      "name": "03 Storage handle closeup",
+      "is_active": false
+    }
+  ],
+  "lights": [
+    {
+      "name": "Key"
+    },
+    {
+      "name": "Fill"
+    },
+    {
+      "name": "Rim"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-22T23:15:55.766523",
+    "modified": "2026-11-22T23:15:55.766523",
+    "software": "blender-cli 1.0"
+  },
+  "native_blend": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\CardboardBoxSet\\CardboardBoxSet.blend",
+    "sha256": "57ebc069124caad9ee391b1cd0461c11e9bad6fb92dfc95085b91bf7467788d4",
+    "camera": "01 Carton set overview",
+    "adapter": "source-file-loader/v1"
+  }
+}

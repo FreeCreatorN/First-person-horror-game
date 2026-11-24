@@ -1,0 +1,268 @@
+{
+  "success": true,
+  "source_sha256": "cd9709d702a2a19522db95e4759cc3bd1654af4c550a223096aa19f0e93b097d",
+  "baked_resolution": 2048,
+  "assets": [
+    {
+      "name": "SM_ShopCounterPlan_Body",
+      "fbx": "SM_ShopCounterPlan_Body.fbx",
+      "triangles": 896,
+      "collision_hulls": 24,
+      "slots": [
+        "M_ShopCounter_Opaque"
+      ],
+      "bounds_min_m": [
+        -0.9800000190734863,
+        -0.3100000023841858,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.9800000190734863,
+        0.3100000023841858,
+        0.7160000205039978
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_MetalFrame",
+      "fbx": "SM_ShopCounterPlan_MetalFrame.fbx",
+      "triangles": 924,
+      "collision_hulls": 13,
+      "slots": [
+        "M_ShopCounter_Opaque"
+      ],
+      "bounds_min_m": [
+        -0.9800000190734863,
+        -0.31299999356269836,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.9800000190734863,
+        0.31299999356269836,
+        1.090000033378601
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_FixedGlass",
+      "fbx": "SM_ShopCounterPlan_FixedGlass.fbx",
+      "triangles": 48,
+      "collision_hulls": 4,
+      "slots": [
+        "M_ShopCounter_Glass"
+      ],
+      "bounds_min_m": [
+        -0.9710000157356262,
+        -0.2930000126361847,
+        0.7710000276565552
+      ],
+      "bounds_max_m": [
+        0.9710000157356262,
+        0.28600001335144043,
+        1.090000033378601
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_DisplayShelf",
+      "fbx": "SM_ShopCounterPlan_DisplayShelf.fbx",
+      "triangles": 44,
+      "collision_hulls": 1,
+      "slots": [
+        "M_ShopCounter_Opaque"
+      ],
+      "bounds_min_m": [
+        -0.9800000190734863,
+        -0.3100000023841858,
+        0.7160000205039978
+      ],
+      "bounds_max_m": [
+        0.9800000190734863,
+        0.3100000023841858,
+        0.7519999742507935
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_InteriorShelf",
+      "fbx": "SM_ShopCounterPlan_InteriorShelf.fbx",
+      "triangles": 88,
+      "collision_hulls": 2,
+      "slots": [
+        "M_ShopCounter_Opaque"
+      ],
+      "bounds_min_m": [
+        -0.9359999895095825,
+        -0.2680000066757202,
+        0.39500001072883606
+      ],
+      "bounds_max_m": [
+        0.9359999895095825,
+        0.21400000154972076,
+        0.41499999165534973
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_WoodDoorLeft",
+      "fbx": "SM_ShopCounterPlan_WoodDoorLeft.fbx",
+      "triangles": 156,
+      "collision_hulls": 1,
+      "slots": [
+        "M_ShopCounter_Opaque"
+      ],
+      "bounds_min_m": [
+        -0.4700000286102295,
+        -0.009000003337860107,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.4699999988079071,
+        0.010499998927116394,
+        0.5360000133514404
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_WoodDoorRight",
+      "fbx": "SM_ShopCounterPlan_WoodDoorRight.fbx",
+      "triangles": 156,
+      "collision_hulls": 1,
+      "slots": [
+        "M_ShopCounter_Opaque"
+      ],
+      "bounds_min_m": [
+        -0.4699999988079071,
+        -0.009000003337860107,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.4700000286102295,
+        0.0104999840259552,
+        0.5360000133514404
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_GlassDoorLeft",
+      "fbx": "SM_ShopCounterPlan_GlassDoorLeft.fbx",
+      "triangles": 164,
+      "collision_hulls": 1,
+      "slots": [
+        "M_ShopCounter_Opaque",
+        "M_ShopCounter_Glass"
+      ],
+      "bounds_min_m": [
+        -0.4805000126361847,
+        -0.004999995231628418,
+        0.001000046730041504
+      ],
+      "bounds_max_m": [
+        0.4779999852180481,
+        0.019500017166137695,
+        0.30000007152557373
+      ]
+    },
+    {
+      "name": "SM_ShopCounterPlan_GlassDoorRight",
+      "fbx": "SM_ShopCounterPlan_GlassDoorRight.fbx",
+      "triangles": 164,
+      "collision_hulls": 1,
+      "slots": [
+        "M_ShopCounter_Opaque",
+        "M_ShopCounter_Glass"
+      ],
+      "bounds_min_m": [
+        -0.4779999852180481,
+        -0.004999995231628418,
+        0.001000046730041504
+      ],
+      "bounds_max_m": [
+        0.4805000126361847,
+        0.019499987363815308,
+        0.30000007152557373
+      ]
+    }
+  ],
+  "doors": {
+    "wood_left": {
+      "part": "WoodDoorLeft",
+      "mesh": "SM_ShopCounterPlan_WoodDoorLeft",
+      "pivot_m": [
+        -0.463,
+        0.238,
+        0.147
+      ],
+      "closed_ue_cm": [
+        -46.300000000000004,
+        -23.799999999999997,
+        14.7
+      ],
+      "travel_cm": 92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "WoodDoorLeft_SlideX.001"
+    },
+    "glass_left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_ShopCounterPlan_GlassDoorLeft",
+      "pivot_m": [
+        -0.466,
+        0.2595,
+        0.77
+      ],
+      "closed_ue_cm": [
+        -46.6,
+        -25.95,
+        77.0
+      ],
+      "travel_cm": 93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "GlassDoorLeft_SlideX.001"
+    },
+    "wood_right": {
+      "part": "WoodDoorRight",
+      "mesh": "SM_ShopCounterPlan_WoodDoorRight",
+      "pivot_m": [
+        0.463,
+        0.272,
+        0.147
+      ],
+      "closed_ue_cm": [
+        46.300000000000004,
+        -27.200000000000003,
+        14.7
+      ],
+      "travel_cm": -92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "WoodDoorRight_SlideX.001"
+    },
+    "glass_right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_ShopCounterPlan_GlassDoorRight",
+      "pivot_m": [
+        0.466,
+        0.2885,
+        0.77
+      ],
+      "closed_ue_cm": [
+        46.6,
+        -28.849999999999994,
+        77.0
+      ],
+      "travel_cm": -93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "GlassDoorRight_SlideX.001"
+    }
+  },
+  "total_triangles": 2640,
+  "sha256": {
+    "SM_ShopCounterPlan_Body.fbx": "f50bd6773919fc189b39d1044074237ab9b7d08227d344877b55af8e3de5a2bc",
+    "SM_ShopCounterPlan_DisplayShelf.fbx": "a6208173c5d4d94a267092db954d63f9f6632cd1a026106bf2ea63dd0a5ef0a7",
+    "SM_ShopCounterPlan_FixedGlass.fbx": "9ead36823d7dbad353e16d075b5133e2467978ea45cb9f67338c4695e767b61e",
+    "SM_ShopCounterPlan_GlassDoorLeft.fbx": "88c82d004b8a1ad75edadd4b85242acfdc5b3580074a3995a3f4e0749c21d7de",
+    "SM_ShopCounterPlan_GlassDoorRight.fbx": "df39ae038e93efaf5eb2888619fe3151821965581b43fddc522d9aa5ab76e246",
+    "SM_ShopCounterPlan_InteriorShelf.fbx": "f76f648510688bbbfc8d26688fcc47c7395b8fa02f50735789d6cda4f5f7d847",
+    "SM_ShopCounterPlan_MetalFrame.fbx": "7ee742a0afd4a724571138fa30bd2e92a1e3e9496b1870a70cd189b0d2220f4b",
+    "SM_ShopCounterPlan_WoodDoorLeft.fbx": "53e22d3445416e91aef42aeb695a7eeb645d7d2e9cb813d94f1392f02c12c531",
+    "SM_ShopCounterPlan_WoodDoorRight.fbx": "46b014f2dd16e88995deb98854ed75862c61cda2c4d5e946aaf2a84b5264b42d",
+    "T_ShopCounterPlan_BaseColor.png": "0ed8c27244b13790aba01a137d374a023b1ad9e1e422b5699be36b01da512ef4",
+    "T_ShopCounterPlan_ORM.png": "a897959c972b60259a801e764b1224a223aadb5dae2537e5aa1d16ca260a816d"
+  }
+}

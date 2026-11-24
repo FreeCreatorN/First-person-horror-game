@@ -1,0 +1,1506 @@
+{
+  "success": true,
+  "target_root": "/Game/Yastars/Mesh/SnackIceCreamSet",
+  "run_id": "4bb2aab6-20b4-4c49-8ff6-f6cfa71f6eda",
+  "package_count": 120,
+  "source_blend_sha256": "377548196521895669505948a004029488f2c3159543d9de05653cc3c31f2d08",
+  "manifest_sha256": "8b9fd79b2a36de72c9d204a50112aeb93fbc7826d656eb1933f2c68afa8a967b",
+  "mesh_count": 45,
+  "material_count": 33,
+  "textured_material_instances": 14,
+  "generic_material_count": 18,
+  "texture_count": 29,
+  "blueprint_count": 13,
+  "total_triangles": 17392,
+  "look_count": 30,
+  "blueprints": {
+    "BP_Goods_BoxIce_Vanilla": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_BoxIce_Vanilla.BP_Goods_BoxIce_Vanilla",
+      "components": {
+        "BoxIce_Vanilla_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_BoxIce_Vanilla_Body.SM_Goods_BoxIce_Vanilla_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "BoxIce_Vanilla_Lid": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_BoxIce_Vanilla_Lid.SM_Goods_BoxIce_Vanilla_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            8.85000005364418
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_BoxIce_Strawberry": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_BoxIce_Strawberry.BP_Goods_BoxIce_Strawberry",
+      "components": {
+        "BoxIce_Strawberry_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_BoxIce_Strawberry_Body.SM_Goods_BoxIce_Strawberry_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "BoxIce_Strawberry_Lid": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_BoxIce_Strawberry_Lid.SM_Goods_BoxIce_Strawberry_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            8.85000005364418
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_CupIce_Strawberry": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_CupIce_Strawberry.BP_Goods_CupIce_Strawberry",
+      "components": {
+        "CupIce_Strawberry_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CupIce_Strawberry_Body.SM_Goods_CupIce_Strawberry_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "CupIce_Strawberry_Dome": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CupIce_Strawberry_Dome.SM_Goods_CupIce_Strawberry_Dome",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            7.400000095367432
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_CupIce_Vanilla": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_CupIce_Vanilla.BP_Goods_CupIce_Vanilla",
+      "components": {
+        "CupIce_Vanilla_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CupIce_Vanilla_Body.SM_Goods_CupIce_Vanilla_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "CupIce_Vanilla_Dome": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CupIce_Vanilla_Dome.SM_Goods_CupIce_Vanilla_Dome",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            7.400000095367432
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_FamilyTub_Vanilla": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_FamilyTub_Vanilla.BP_Goods_FamilyTub_Vanilla",
+      "components": {
+        "FamilyTub_Vanilla_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_FamilyTub_Vanilla_Body.SM_Goods_FamilyTub_Vanilla_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "FamilyTub_Vanilla_Lid": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_FamilyTub_Vanilla_Lid.SM_Goods_FamilyTub_Vanilla_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            9.399999678134918
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_FamilyTub_Strawberry": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_FamilyTub_Strawberry.BP_Goods_FamilyTub_Strawberry",
+      "components": {
+        "FamilyTub_Strawberry_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_FamilyTub_Strawberry_Body.SM_Goods_FamilyTub_Strawberry_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "FamilyTub_Strawberry_Lid": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_FamilyTub_Strawberry_Lid.SM_Goods_FamilyTub_Strawberry_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            9.399999678134918
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_Biscuits_Butter": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_Biscuits_Butter.BP_Goods_Biscuits_Butter",
+      "components": {
+        "Biscuits_Butter_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Biscuits_Butter_Body.SM_Goods_Biscuits_Butter_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Biscuits_Butter_Tray": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Biscuits_Butter_Tray.SM_Goods_Biscuits_Butter_Tray",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.12000000569969416
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_Biscuits_Milk": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_Biscuits_Milk.BP_Goods_Biscuits_Milk",
+      "components": {
+        "Biscuits_Milk_Body": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Biscuits_Milk_Body.SM_Goods_Biscuits_Milk_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Biscuits_Milk_Tray": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Biscuits_Milk_Tray.SM_Goods_Biscuits_Milk_Tray",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.12000000569969416
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_Jelly_Orange": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_Jelly_Orange.BP_Goods_Jelly_Orange",
+      "components": {
+        "Jelly_Orange_Cup": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Jelly_Orange_Cup.SM_Goods_Jelly_Orange_Cup",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Jelly_Orange_Film": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Jelly_Orange_Film.SM_Goods_Jelly_Orange_Film",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            5.400000140070915
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_Jelly_Strawberry": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_Jelly_Strawberry.BP_Goods_Jelly_Strawberry",
+      "components": {
+        "Jelly_Strawberry_Cup": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Jelly_Strawberry_Cup.SM_Goods_Jelly_Strawberry_Cup",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Jelly_Strawberry_Film": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Jelly_Strawberry_Film.SM_Goods_Jelly_Strawberry_Film",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            5.400000140070915
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_Jelly_Grape": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_Jelly_Grape.BP_Goods_Jelly_Grape",
+      "components": {
+        "Jelly_Grape_Cup": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Jelly_Grape_Cup.SM_Goods_Jelly_Grape_Cup",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "Jelly_Grape_Film": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_Jelly_Grape_Film.SM_Goods_Jelly_Grape_Film",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            5.400000140070915
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_CandyJar_Fruit": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_CandyJar_Fruit.BP_Goods_CandyJar_Fruit",
+      "components": {
+        "CandyJar_Fruit_Jar": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CandyJar_Fruit_Jar.SM_Goods_CandyJar_Fruit_Jar",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "CandyJar_Fruit_Lid": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CandyJar_Fruit_Lid.SM_Goods_CandyJar_Fruit_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            13.699999451637268
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "CandyJar_Fruit_Contents": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CandyJar_Fruit_Contents.SM_Goods_CandyJar_Fruit_Contents",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 3,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_Goods_CandyJar_Mint": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/BP_Goods_CandyJar_Mint.BP_Goods_CandyJar_Mint",
+      "components": {
+        "CandyJar_Mint_Jar": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CandyJar_Mint_Jar.SM_Goods_CandyJar_Mint_Jar",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "CandyJar_Mint_Lid": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CandyJar_Mint_Lid.SM_Goods_CandyJar_Mint_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            13.699999451637268
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "CandyJar_Mint_Contents": {
+          "mesh": "/Game/Yastars/Mesh/SnackIceCreamSet/SM_Goods_CandyJar_Mint_Contents.SM_Goods_CandyJar_Mint_Contents",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 3,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    }
+  },
+  "materials": {
+    "M_Goods_BoxIce": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_BoxIce.M_Goods_BoxIce",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_BoxIce_BaseColor.T_Ice_BoxIce_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_BoxIce_ORM.T_Ice_BoxIce_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_IcePop": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_IcePop.M_Goods_IcePop",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_IcePop_BaseColor.T_Ice_IcePop_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_IcePop_ORM.T_Ice_IcePop_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_ChocoBar": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_ChocoBar.M_Goods_ChocoBar",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_ChocoBar_BaseColor.T_Ice_ChocoBar_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_ChocoBar_ORM.T_Ice_ChocoBar_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_CupIce": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CupIce.M_Goods_CupIce",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_CupIce_BaseColor.T_Ice_CupIce_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_CupIce_ORM.T_Ice_CupIce_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Cone": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Cone.M_Goods_Cone",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_Cone_BaseColor.T_Ice_Cone_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_Cone_ORM.T_Ice_Cone_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_FamilyTub": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_FamilyTub.M_Goods_FamilyTub",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_FamilyTub_BaseColor.T_Ice_FamilyTub_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Ice_FamilyTub_ORM.T_Ice_FamilyTub_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Chips": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Chips.M_Goods_Chips",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Chips_BaseColor.T_Goods_Chips_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Chips_ORM.T_Goods_Chips_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Biscuits": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Biscuits.M_Goods_Biscuits",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Biscuits_BaseColor.T_Goods_Biscuits_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Biscuits_ORM.T_Goods_Biscuits_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_CandyBag": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyBag.M_Goods_CandyBag",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_CandyBag_BaseColor.T_Goods_CandyBag_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_CandyBag_ORM.T_Goods_CandyBag_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Bakery": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Bakery.M_Goods_Bakery",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Bakery_BaseColor.T_Goods_Bakery_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Bakery_ORM.T_Goods_Bakery_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Spicy": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Spicy.M_Goods_Spicy",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Spicy_BaseColor.T_Goods_Spicy_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Spicy_ORM.T_Goods_Spicy_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Nuts": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Nuts.M_Goods_Nuts",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Nuts_BaseColor.T_Goods_Nuts_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Nuts_ORM.T_Goods_Nuts_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_Jelly": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Jelly.M_Goods_Jelly",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Jelly_BaseColor.T_Goods_Jelly_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Jelly_ORM.T_Goods_Jelly_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_CandyJar": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyJar.M_Goods_CandyJar",
+      "kind": "textured_instance",
+      "parent": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+      "textures": {
+        "base_color": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_CandyJar_BaseColor.T_Goods_CandyJar_BaseColor",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": true,
+          "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+          "parameter": "GoodsBaseColor"
+        },
+        "orm": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_CandyJar_ORM.T_Goods_CandyJar_ORM",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+          "parameter": "GoodsORM"
+        },
+        "normal": {
+          "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Textures/T_Goods_Pack_Normal.T_Goods_Pack_Normal",
+          "source_size": [
+            2048,
+            2048
+          ],
+          "srgb": false,
+          "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+          "parameter": "GoodsNormal"
+        }
+      },
+      "normal_green_flipped": true
+    },
+    "M_Goods_PaperInside": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_PaperInside.M_Goods_PaperInside",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.89,
+          0.86,
+          0.77,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.76,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.7677687605549981,
+        0.7105664902244221,
+        0.5542217602988447,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CreamVanilla": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CreamVanilla.M_Goods_CreamVanilla",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.95,
+          0.85,
+          0.64,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.46,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.8900054069935289,
+        0.692071056865372,
+        0.3672464682101826,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CreamPink": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CreamPink.M_Goods_CreamPink",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.91,
+          0.51,
+          0.6,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.46,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.8073459089125289,
+        0.22341399352485986,
+        0.31854677812509186,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CreamChocolate": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CreamChocolate.M_Goods_CreamChocolate",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.34,
+          0.13,
+          0.055,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.43,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.09462962659456918,
+        0.01532520332062848,
+        0.00440084974745434,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CapRed": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CapRed.M_Goods_CapRed",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.72,
+          0.055,
+          0.035,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.33,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.47699978456654196,
+        0.00440084974745434,
+        0.002708978328173375,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CapGold": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CapGold.M_Goods_CapGold",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.84,
+          0.6,
+          0.13,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.36,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.6738595407338318,
+        0.31854677812509186,
+        0.01532520332062848,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CandyRed": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyRed.M_Goods_CandyRed",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.82,
+          0.075,
+          0.055,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.28,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.6382832153523972,
+        0.006571403616195705,
+        0.00440084974745434,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CandyGold": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyGold.M_Goods_CandyGold",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.95,
+          0.69,
+          0.12,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.3,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.8900054069935289,
+        0.43387952044860834,
+        0.01341174889765847,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CandyPink": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyPink.M_Goods_CandyPink",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.89,
+          0.35,
+          0.6,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.3,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.7677687605549981,
+        0.10048150993772331,
+        0.31854677812509186,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CandyPurple": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyPurple.M_Goods_CandyPurple",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.42,
+          0.15,
+          0.57,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.3,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.147318999244498,
+        0.01960664851623822,
+        0.28464669032765505,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_CandyGreen": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_CandyGreen.M_Goods_CandyGreen",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.15,
+          0.55,
+          0.23,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.3,
+        "metallic": 0.0,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.01960664851623822,
+        0.26327340845612224,
+        0.0432336359153358,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_FoilSilver": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_FoilSilver.M_Goods_FoilSilver",
+      "kind": "solid",
+      "source_spec": {
+        "type": "solid",
+        "color": [
+          0.78,
+          0.8,
+          0.77,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.32,
+        "metallic": 0.65,
+        "opacity": 1.0,
+        "ior": 1.45,
+        "two_sided": false
+      },
+      "linear_color": [
+        0.5704815954749093,
+        0.6038273388553378,
+        0.5542217602988447,
+        1.0
+      ],
+      "translucent": false
+    },
+    "M_Goods_ClearPET": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_ClearPET.M_Goods_ClearPET",
+      "kind": "translucent",
+      "source_spec": {
+        "type": "translucent",
+        "color": [
+          0.96,
+          0.98,
+          1.0,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.1,
+        "metallic": 0.0,
+        "opacity": 0.13,
+        "ior": 1.035,
+        "two_sided": true
+      },
+      "linear_color": [
+        0.9114075004063535,
+        0.9551045992337789,
+        1.0,
+        1.0
+      ],
+      "translucent": true
+    },
+    "M_Goods_JarGlass": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_JarGlass.M_Goods_JarGlass",
+      "kind": "translucent",
+      "source_spec": {
+        "type": "translucent",
+        "color": [
+          0.94,
+          0.98,
+          1.0,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.095,
+        "metallic": 0.0,
+        "opacity": 0.1,
+        "ior": 1.035,
+        "two_sided": true
+      },
+      "linear_color": [
+        0.8688993866725532,
+        0.9551045992337789,
+        1.0,
+        1.0
+      ],
+      "translucent": true
+    },
+    "M_Goods_TrayPET": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_TrayPET.M_Goods_TrayPET",
+      "kind": "translucent",
+      "source_spec": {
+        "type": "translucent",
+        "color": [
+          0.94,
+          0.97,
+          1.0,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.2,
+        "metallic": 0.0,
+        "opacity": 0.22,
+        "ior": 1.035,
+        "two_sided": true
+      },
+      "linear_color": [
+        0.8688993866725532,
+        0.9331068418238677,
+        1.0,
+        1.0
+      ],
+      "translucent": true
+    },
+    "M_Goods_JellyOrange": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_JellyOrange.M_Goods_JellyOrange",
+      "kind": "translucent",
+      "source_spec": {
+        "type": "translucent",
+        "color": [
+          0.96,
+          0.52,
+          0.045,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.16,
+        "metallic": 0.0,
+        "opacity": 0.72,
+        "ior": 1.035,
+        "two_sided": true
+      },
+      "linear_color": [
+        0.9114075004063535,
+        0.23302199930143813,
+        0.0035010160107980036,
+        1.0
+      ],
+      "translucent": true
+    },
+    "M_Goods_JellyStrawberry": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_JellyStrawberry.M_Goods_JellyStrawberry",
+      "kind": "translucent",
+      "source_spec": {
+        "type": "translucent",
+        "color": [
+          0.85,
+          0.16,
+          0.26,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.16,
+        "metallic": 0.0,
+        "opacity": 0.72,
+        "ior": 1.035,
+        "two_sided": true
+      },
+      "linear_color": [
+        0.692071056865372,
+        0.021980947079887205,
+        0.0549717326875717,
+        1.0
+      ],
+      "translucent": true
+    },
+    "M_Goods_JellyGrape": {
+      "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_JellyGrape.M_Goods_JellyGrape",
+      "kind": "translucent",
+      "source_spec": {
+        "type": "translucent",
+        "color": [
+          0.4,
+          0.12,
+          0.52,
+          1.0
+        ],
+        "color_space": "srgb",
+        "roughness": 0.16,
+        "metallic": 0.0,
+        "opacity": 0.72,
+        "ior": 1.035,
+        "two_sided": true
+      },
+      "linear_color": [
+        0.13286832155381798,
+        0.01341174889765847,
+        0.23302199930143813,
+        1.0
+      ],
+      "translucent": true
+    }
+  },
+  "parent_material": {
+    "asset": "/Game/Yastars/Mesh/SnackIceCreamSet/Materials/M_Goods_Textured.M_Goods_Textured",
+    "opaque": true,
+    "uv_index": 0,
+    "orm_channels": {
+      "R": "AmbientOcclusion",
+      "G": "Roughness",
+      "B": "Metallic"
+    },
+    "normal_connected": true
+  },
+  "protected_paths_verified": 3706,
+  "verified_in_import_editor": true,
+  "verified_in_fresh_editor": true,
+  "lightmap_uv_available": {
+    "SM_Goods_BoxIce_Vanilla_Body": false,
+    "SM_Goods_BoxIce_Vanilla_Lid": false,
+    "SM_Goods_BoxIce_Strawberry_Body": false,
+    "SM_Goods_BoxIce_Strawberry_Lid": false,
+    "SM_Goods_IcePop_Milk_Pack": false,
+    "SM_Goods_IcePop_Orange_Pack": false,
+    "SM_Goods_ChocoBar_Chocolate_Pack": false,
+    "SM_Goods_ChocoBar_Vanilla_Pack": false,
+    "SM_Goods_CupIce_Strawberry_Body": false,
+    "SM_Goods_CupIce_Strawberry_Dome": false,
+    "SM_Goods_CupIce_Vanilla_Body": false,
+    "SM_Goods_CupIce_Vanilla_Dome": false,
+    "SM_Goods_Cone_Vanilla_Pack": false,
+    "SM_Goods_Cone_Chocolate_Pack": false,
+    "SM_Goods_Cone_Strawberry_Pack": false,
+    "SM_Goods_FamilyTub_Vanilla_Body": false,
+    "SM_Goods_FamilyTub_Vanilla_Lid": false,
+    "SM_Goods_FamilyTub_Strawberry_Body": false,
+    "SM_Goods_FamilyTub_Strawberry_Lid": false,
+    "SM_Goods_Chips_Original_Pack": false,
+    "SM_Goods_Chips_Cucumber_Pack": false,
+    "SM_Goods_Biscuits_Butter_Body": false,
+    "SM_Goods_Biscuits_Butter_Tray": false,
+    "SM_Goods_Biscuits_Milk_Body": false,
+    "SM_Goods_Biscuits_Milk_Tray": false,
+    "SM_Goods_CandyBag_Fruit_Pack": false,
+    "SM_Goods_CandyBag_Mint_Pack": false,
+    "SM_Goods_Bakery_Bread_Pack": false,
+    "SM_Goods_Bakery_Cake_Pack": false,
+    "SM_Goods_Spicy_Hot_Pack": false,
+    "SM_Goods_Spicy_Original_Pack": false,
+    "SM_Goods_Nuts_Seeds_Pack": false,
+    "SM_Goods_Nuts_Peanut_Pack": false,
+    "SM_Goods_Jelly_Orange_Cup": false,
+    "SM_Goods_Jelly_Orange_Film": false,
+    "SM_Goods_Jelly_Strawberry_Cup": false,
+    "SM_Goods_Jelly_Strawberry_Film": false,
+    "SM_Goods_Jelly_Grape_Cup": false,
+    "SM_Goods_Jelly_Grape_Film": false,
+    "SM_Goods_CandyJar_Fruit_Jar": false,
+    "SM_Goods_CandyJar_Fruit_Lid": false,
+    "SM_Goods_CandyJar_Fruit_Contents": false,
+    "SM_Goods_CandyJar_Mint_Jar": false,
+    "SM_Goods_CandyJar_Mint_Lid": false,
+    "SM_Goods_CandyJar_Mint_Contents": false
+  }
+}

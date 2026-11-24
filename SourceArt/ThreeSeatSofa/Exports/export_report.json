@@ -1,0 +1,516 @@
+{
+  "success": true,
+  "source_sha256": "ce3ef2adc869e916c67ff71bcfc16d13bc9bf11a1c57199b3e6ebbb373773a24",
+  "assets": [
+    {
+      "name": "SM_Sofa_Base",
+      "fbx": "SM_Sofa_Base.fbx",
+      "triangles": 276,
+      "collision_hulls": 3,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Underside"
+      ],
+      "pivot_m": [
+        5.8562058256939054e-05,
+        0.0006577936583198607,
+        0.0
+      ],
+      "bounds_min_m": [
+        -1.0839414596557617,
+        -0.45936301350593567,
+        0.0747549906373024
+      ],
+      "bounds_max_m": [
+        1.0839414596557617,
+        0.4693491458892822,
+        0.7625008821487427
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "upholstered base and rear panel"
+    },
+    {
+      "name": "SM_Sofa_Arm_L",
+      "fbx": "SM_Sofa_Arm_L.fbx",
+      "triangles": 1728,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        -1.0217303037643433,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "bounds_min_m": [
+        -0.12826970219612122,
+        -0.4748975336551666,
+        -0.25416696071624756
+      ],
+      "bounds_max_m": [
+        0.12826988101005554,
+        0.4743422269821167,
+        0.27017495036125183
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "arm"
+    },
+    {
+      "name": "SM_Sofa_Arm_R",
+      "fbx": "SM_Sofa_Arm_R.fbx",
+      "triangles": 1728,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        1.0218473672866821,
+        0.0006577936583198607,
+        0.37875860929489136
+      ],
+      "bounds_min_m": [
+        -0.12815269827842712,
+        -0.47565779089927673,
+        -0.25416696071624756
+      ],
+      "bounds_max_m": [
+        0.12815263867378235,
+        0.4743422269821167,
+        0.2700387239456177
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "arm"
+    },
+    {
+      "name": "SM_Sofa_Seat_01",
+      "fbx": "SM_Sofa_Seat_01.fbx",
+      "triangles": 1488,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        -0.6015786528587341,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "bounds_min_m": [
+        -0.2983595132827759,
+        -0.33802589774131775,
+        -0.08490977436304092
+      ],
+      "bounds_max_m": [
+        0.29844987392425537,
+        0.3386737108230591,
+        0.10586705803871155
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "seat"
+    },
+    {
+      "name": "SM_Sofa_Seat_02",
+      "fbx": "SM_Sofa_Seat_02.fbx",
+      "triangles": 1488,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        5.8562058256939054e-05,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "bounds_min_m": [
+        -0.2990754544734955,
+        -0.33854803442955017,
+        -0.08535163104534149
+      ],
+      "bounds_max_m": [
+        0.29895326495170593,
+        0.3390442430973053,
+        0.10586705803871155
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "seat"
+    },
+    {
+      "name": "SM_Sofa_Seat_03",
+      "fbx": "SM_Sofa_Seat_03.fbx",
+      "triangles": 1488,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        0.6016957759857178,
+        -0.10170026123523712,
+        0.38125044107437134
+      ],
+      "bounds_min_m": [
+        -0.29851168394088745,
+        -0.3389562964439392,
+        -0.08479858189821243
+      ],
+      "bounds_max_m": [
+        0.2987225651741028,
+        0.3384624123573303,
+        0.10586881637573242
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "seat"
+    },
+    {
+      "name": "SM_Sofa_Back_01",
+      "fbx": "SM_Sofa_Back_01.fbx",
+      "triangles": 1200,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        -0.5995897054672241,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "bounds_min_m": [
+        -0.3004164397716522,
+        -0.13167060911655426,
+        -0.19826987385749817
+      ],
+      "bounds_max_m": [
+        0.30081433057785034,
+        0.11768116056919098,
+        0.20052258670330048
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "back"
+    },
+    {
+      "name": "SM_Sofa_Back_02",
+      "fbx": "SM_Sofa_Back_02.fbx",
+      "triangles": 1200,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        5.8562058256939054e-05,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "bounds_min_m": [
+        -0.2998965084552765,
+        -0.1331137865781784,
+        -0.19887812435626984
+      ],
+      "bounds_max_m": [
+        0.29988133907318115,
+        0.11621098965406418,
+        0.20020224153995514
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "back"
+    },
+    {
+      "name": "SM_Sofa_Back_03",
+      "fbx": "SM_Sofa_Back_03.fbx",
+      "triangles": 1200,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Fabric",
+        "M_Sofa_Welt"
+      ],
+      "pivot_m": [
+        0.5997068285942078,
+        0.27228114008903503,
+        0.6463814973831177
+      ],
+      "bounds_min_m": [
+        -0.3008120059967041,
+        -0.13278858363628387,
+        -0.20040519535541534
+      ],
+      "bounds_max_m": [
+        0.30080142617225647,
+        0.11777544021606445,
+        0.20361849665641785
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "back"
+    },
+    {
+      "name": "SM_Sofa_Pillow_L",
+      "fbx": "SM_Sofa_Pillow_L.fbx",
+      "triangles": 768,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Plaid",
+        "M_Sofa_PillowWelt"
+      ],
+      "pivot_m": [
+        -0.7109671831130981,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "bounds_min_m": [
+        -0.17117197811603546,
+        -0.11107724905014038,
+        -0.17612884938716888
+      ],
+      "bounds_max_m": [
+        0.1725560873746872,
+        0.10934703052043915,
+        0.17721043527126312
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "pillow"
+    },
+    {
+      "name": "SM_Sofa_Pillow_R",
+      "fbx": "SM_Sofa_Pillow_R.fbx",
+      "triangles": 768,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Plaid",
+        "M_Sofa_PillowWelt"
+      ],
+      "pivot_m": [
+        0.7110843062400818,
+        -0.08622172474861145,
+        0.6448863744735718
+      ],
+      "bounds_min_m": [
+        -0.17115242779254913,
+        -0.10981325805187225,
+        -0.17772234976291656
+      ],
+      "bounds_max_m": [
+        0.17356069386005402,
+        0.11113844811916351,
+        0.17849737405776978
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "pillow"
+    },
+    {
+      "name": "SM_Sofa_Foot_FL",
+      "fbx": "SM_Sofa_Foot_FL.fbx",
+      "triangles": 68,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Feet"
+      ],
+      "pivot_m": [
+        -0.9347165822982788,
+        -0.33887138962745667,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.0377887524664402,
+        -0.03794735670089722,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03778878599405289,
+        0.03794737532734871,
+        0.07973865419626236
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "concealed low foot"
+    },
+    {
+      "name": "SM_Sofa_Foot_FR",
+      "fbx": "SM_Sofa_Foot_FR.fbx",
+      "triangles": 68,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Feet"
+      ],
+      "pivot_m": [
+        0.9348337054252625,
+        -0.33887138962745667,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03778878599405289,
+        -0.03794735670089722,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.0377887561917305,
+        0.03794737532734871,
+        0.07973865419626236
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "concealed low foot"
+    },
+    {
+      "name": "SM_Sofa_Foot_BL",
+      "fbx": "SM_Sofa_Foot_BL.fbx",
+      "triangles": 68,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Feet"
+      ],
+      "pivot_m": [
+        -0.9347165822982788,
+        0.35017311573028564,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.0377887524664402,
+        -0.03794737160205841,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03778878599405289,
+        0.037947360426187515,
+        0.07973865419626236
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "concealed low foot"
+    },
+    {
+      "name": "SM_Sofa_Foot_BR",
+      "fbx": "SM_Sofa_Foot_BR.fbx",
+      "triangles": 68,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Sofa_Feet"
+      ],
+      "pivot_m": [
+        0.9348337054252625,
+        0.35017311573028564,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03778878599405289,
+        -0.03794737160205841,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.0377887561917305,
+        0.037947360426187515,
+        0.07973865419626236
+      ],
+      "product": "ThreeSeatSofa",
+      "part": "concealed low foot"
+    }
+  ],
+  "assemblies": {
+    "BP_ThreeSeatSofa": [
+      "SM_Sofa_Base",
+      "SM_Sofa_Arm_L",
+      "SM_Sofa_Arm_R",
+      "SM_Sofa_Seat_01",
+      "SM_Sofa_Seat_02",
+      "SM_Sofa_Seat_03",
+      "SM_Sofa_Back_01",
+      "SM_Sofa_Back_02",
+      "SM_Sofa_Back_03",
+      "SM_Sofa_Pillow_L",
+      "SM_Sofa_Pillow_R",
+      "SM_Sofa_Foot_FL",
+      "SM_Sofa_Foot_FR",
+      "SM_Sofa_Foot_BL",
+      "SM_Sofa_Foot_BR"
+    ]
+  },
+  "textures": {
+    "M_Sofa_Fabric": {
+      "base_color": "T_Sofa_Fabric_BaseColor.png",
+      "normal": "T_Sofa_Fabric_Normal.png",
+      "orm": "T_Sofa_Fabric_ORM.png"
+    },
+    "M_Sofa_Plaid": {
+      "base_color": "T_Sofa_Plaid_BaseColor.png",
+      "normal": "T_Sofa_Plaid_Normal.png",
+      "orm": "T_Sofa_Plaid_ORM.png"
+    },
+    "M_Sofa_Underside": {
+      "base_color": "T_Sofa_Underside_BaseColor.png",
+      "normal": "T_Sofa_Underside_Normal.png",
+      "orm": "T_Sofa_Underside_ORM.png"
+    }
+  },
+  "generic_materials": {
+    "M_Sofa_Welt": {
+      "type": "solid",
+      "color": [
+        0.34,
+        0.27,
+        0.205
+      ],
+      "roughness": 0.82,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Sofa_PillowWelt": {
+      "type": "solid",
+      "color": [
+        0.35,
+        0.32,
+        0.275
+      ],
+      "roughness": 0.86,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Sofa_Feet": {
+      "type": "solid",
+      "color": [
+        0.095,
+        0.085,
+        0.07
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "color_space": "srgb"
+    }
+  },
+  "normal_convention": "OpenGL +Y",
+  "total_triangles": 13604,
+  "product_count": 1,
+  "family_count": 1,
+  "product_triangles": {
+    "ThreeSeatSofa": 13604
+  },
+  "expected_dimensions_m": [
+    2.3,
+    0.95,
+    0.85
+  ],
+  "sha256": {
+    "SM_Sofa_Arm_L.fbx": "04027b3b9629dab74d4a8b3a9c365631fb2f1624d797878edb865ff36d124dc2",
+    "SM_Sofa_Arm_R.fbx": "f3ba471bfaee1fe0083caf2285de8da9e75fbf072c8de3b41046327693467de4",
+    "SM_Sofa_Back_01.fbx": "4a44e15e991aaf9d9a88b5c4f099fb730ad10022237477bc823676ed7f780cec",
+    "SM_Sofa_Back_02.fbx": "74ebdeec46cb536706e88209c70adf700e7f8f3313ed531fa663f35a55e25b25",
+    "SM_Sofa_Back_03.fbx": "067c43d2015cb17829215c498cabeacea0644610a276d0b316b90b2c35e09e4c",
+    "SM_Sofa_Base.fbx": "f18f647b5aa9fd77262ed0df13877223ee240bded7aaa5773c7ef658019224c7",
+    "SM_Sofa_Foot_BL.fbx": "c293e4a498d0d6af7652aadfec7bc7d569a5d628d720078bb8330d78d3568568",
+    "SM_Sofa_Foot_BR.fbx": "e1cdf1e6be9fb26cbb14efb7b143e555d21f425edc73655bc0cc71562b27f60a",
+    "SM_Sofa_Foot_FL.fbx": "d5ae1325a46506e9fbec54bca8fb470ecf81ee6c05c14e9c1b7c18263f2f28e9",
+    "SM_Sofa_Foot_FR.fbx": "32deb63e0d5089a8a825b07108ad11876516552b0fe20e89446624d075fc0de4",
+    "SM_Sofa_Pillow_L.fbx": "24c00ec27f7be04879877972b39035595ca12fb5fcf49f18fba9c438ef107019",
+    "SM_Sofa_Pillow_R.fbx": "38b41a5be69e03e648ab3f3fee57e74439be8563058515a518ea641c1e99f6fe",
+    "SM_Sofa_Seat_01.fbx": "6b996e54722538d0388096fe7e3d8735d4b0a32d6ab66f5d284aea0e00b298fb",
+    "SM_Sofa_Seat_02.fbx": "6b3f24fc5b3036dc91758bcffa1b3b8a999d70028daa75c5584bdb6b77eae009",
+    "SM_Sofa_Seat_03.fbx": "e012222c0d0ab6232100d77c587f5dd780ad51ec035e66d0e954c30c7f28b2ea",
+    "T_Sofa_Fabric_BaseColor.png": "fce45b9e8411d74d2b0505b09e03027dd74915990df7496256e879c7875d2849",
+    "T_Sofa_Fabric_Normal.png": "21d7db10b4f21fa1bf71a243701ca9efed6b241bbc30459ad925fcb40796522a",
+    "T_Sofa_Fabric_ORM.png": "0a1c7fb5c4e32f33333d7d6efe3b4dcd4fbf7df0e4a0f0d8f7a3b885679ff38b",
+    "T_Sofa_Plaid_BaseColor.png": "0f948b3e339fa21650e47cca4b56fa688e020f9b0e9543000e5cfa39662c1a85",
+    "T_Sofa_Plaid_Normal.png": "738304a4f891c147a9b307f58d4b8d59f95717e1ca951866843f24b91e012cf9",
+    "T_Sofa_Plaid_ORM.png": "191c057e3fc5071324bbecfe6bae91b796795aaf3ac12455a386efcd92855d0a",
+    "T_Sofa_Underside_BaseColor.png": "655413815c27b646586b014a351d38b7b8c434c8e208a09ad3e12a0afc2660c4",
+    "T_Sofa_Underside_Normal.png": "5877330f5b13524480e700e999e0f343f4a756c3c3b9502fe3e3d8eae6874e88",
+    "T_Sofa_Underside_ORM.png": "18a911f4e5d67637d782bba0a36818b6389ea86e83b8f3386b6bdbf13ea72ba3"
+  }
+}

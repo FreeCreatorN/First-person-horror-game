@@ -1,0 +1,855 @@
+{
+  "success": true,
+  "run_id": "fd6f2fea-3493-4b17-9473-936b423f9cb0",
+  "mode": "live",
+  "target_root": "/Game/Yastars/Mesh/BeverageDisplayFridge",
+  "started_utc": "2026-11-18T11:16:13.212115+00:00",
+  "imported_meshes": [
+    "SM_BeverageDisplayFridge_DoorFrame",
+    "SM_BeverageDisplayFridge_DoorHandle",
+    "SM_BeverageDisplayFridge_FootFL",
+    "SM_BeverageDisplayFridge_FootFR",
+    "SM_BeverageDisplayFridge_FootRL",
+    "SM_BeverageDisplayFridge_FootRR",
+    "SM_BeverageDisplayFridge_GlassDoor",
+    "SM_BeverageDisplayFridge_InnerLiner",
+    "SM_BeverageDisplayFridge_OuterBody",
+    "SM_BeverageDisplayFridge_Shelf01",
+    "SM_BeverageDisplayFridge_Shelf02",
+    "SM_BeverageDisplayFridge_Shelf03",
+    "SM_BeverageDisplayFridge_Shelf04",
+    "SM_BeverageDisplayFridge_Shelf05",
+    "SM_BeverageDisplayFridge_TopLightbox",
+    "SM_BeverageDisplayFridge_VentGrille"
+  ],
+  "saved": [
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Glass.M_BeverageDisplayFridge_Glass",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Sign.M_BeverageDisplayFridge_Sign",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_TopLightbox.SM_BeverageDisplayFridge_TopLightbox",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_GlassDoor.SM_BeverageDisplayFridge_GlassDoor",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorHandle.SM_BeverageDisplayFridge_DoorHandle",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorFrame.SM_BeverageDisplayFridge_DoorFrame",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf01.SM_BeverageDisplayFridge_Shelf01",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf02.SM_BeverageDisplayFridge_Shelf02",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf03.SM_BeverageDisplayFridge_Shelf03",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf04.SM_BeverageDisplayFridge_Shelf04",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf05.SM_BeverageDisplayFridge_Shelf05",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_InnerLiner.SM_BeverageDisplayFridge_InnerLiner",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_OuterBody.SM_BeverageDisplayFridge_OuterBody",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_VentGrille.SM_BeverageDisplayFridge_VentGrille",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFL.SM_BeverageDisplayFridge_FootFL",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFR.SM_BeverageDisplayFridge_FootFR",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRL.SM_BeverageDisplayFridge_FootRL",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRR.SM_BeverageDisplayFridge_FootRR",
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/BP_BeverageDisplayFridge.BP_BeverageDisplayFridge"
+  ],
+  "world": "/Game/Yastar/Maps/Scenes/L_OldTownSchoolStreet.L_OldTownSchoolStreet",
+  "source_hashes": {
+    "export_report.json": "32a03373ef9079839f4a4deb1519144dad140bfc5b283a0ba61fd487623f085b",
+    "SM_BeverageDisplayFridge_TopLightbox.fbx": "cc0a4f085cf013e184fef0007977521210f648e0fb08fbfaac8a5ef1299982bd",
+    "SM_BeverageDisplayFridge_GlassDoor.fbx": "4b9d654f3cb7776a5ac919b238ff136916a5c4da08a031259f0a9aea166d0eb1",
+    "SM_BeverageDisplayFridge_DoorHandle.fbx": "d06e7919a5a065fc0f4d4b96245f30396096feffb24ad33bd9244e4b46e184d5",
+    "SM_BeverageDisplayFridge_DoorFrame.fbx": "ff49e7cfcf6f2b7172b8a50eae8c5ba4d2d934cffe65429f40093eb67d3f7caa",
+    "SM_BeverageDisplayFridge_Shelf01.fbx": "969851a7b2b67234f21e6b6ca202819103ca49ebe38faea3fa77e5a0d2712b29",
+    "SM_BeverageDisplayFridge_Shelf02.fbx": "655b1d2e72d5df4bf598692580004afe7e3f5731b73ccfe4f447e54d6b71f3c6",
+    "SM_BeverageDisplayFridge_Shelf03.fbx": "45abb8a52a06d0a1385fa959a68577e89e4ad293166c4d4da89af3859cb25d2a",
+    "SM_BeverageDisplayFridge_Shelf04.fbx": "4b7852b8a0ce01f259c58b0286ed045f9d3988647fbbc36f58789fb21f4a6cb7",
+    "SM_BeverageDisplayFridge_Shelf05.fbx": "6048f014b2ebad69195c9ecfb34ed37d15d21f6d07ada15cd4fb7f25a662b505",
+    "SM_BeverageDisplayFridge_InnerLiner.fbx": "01972c386fcc6d1c68a1d7df7a5435ba88432af27b36aaa8c1da496406c38c7a",
+    "SM_BeverageDisplayFridge_OuterBody.fbx": "cc4031b3e5be91e7747363605968ec354f33100423d5a1698aa1f2f5818b722e",
+    "SM_BeverageDisplayFridge_VentGrille.fbx": "91fda0e28d6abb363454283063543475d3161b1cfb70e30d2bc7da4728da1418",
+    "SM_BeverageDisplayFridge_FootFL.fbx": "7171091710be5a5c30a795decc9fefed6fd77b5a4d41add8c3abe26e55e95080",
+    "SM_BeverageDisplayFridge_FootFR.fbx": "3c651224ae4b0ce862b212933cb57241a150ca645e1382c3fb20d704a641452a",
+    "SM_BeverageDisplayFridge_FootRL.fbx": "28572ac461db21a001046dcc5c91e16318df055bacb57f7f3c3493f43e0c7df8",
+    "SM_BeverageDisplayFridge_FootRR.fbx": "0f0dda80966f6b6fcb000a344e9145aa79bc78c8dae29814153857d7a701555c",
+    "T_BeverageDisplayFridge_BaseColor.png": "039620448aeb8ae8dc2709a4c25c84dfa8a4c497902a3fc8d16ce61cb3270f59",
+    "T_BeverageDisplayFridge_ORM.png": "353d25f364d1b22990342984d0bfcf55bc7fe8897373667ed9c6561ef60e6cdd"
+  },
+  "manifest_sha256": "32a03373ef9079839f4a4deb1519144dad140bfc5b283a0ba61fd487623f085b",
+  "doors": {
+    "main": {
+      "hinge_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "closed_ue_cm": [
+        28.9,
+        33.8,
+        28.5
+      ],
+      "open_yaw_deg": -105,
+      "open_blender_z_deg": 105,
+      "parent": "DoorHinge",
+      "moving_parts": [
+        "GlassDoor",
+        "DoorHandle",
+        "DoorFrame"
+      ]
+    }
+  },
+  "protected_files_before": 476,
+  "preexisting_packages": [],
+  "preexisting_files": [],
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque",
+    "glass": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Glass.M_BeverageDisplayFridge_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095,
+    "light_components": 0,
+    "sign": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Sign.M_BeverageDisplayFridge_Sign",
+    "sign_emission_parameter": "SignEmissionStrength",
+    "sign_emission_default": 0.2
+  },
+  "meshes": {
+    "SM_BeverageDisplayFridge_TopLightbox": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_TopLightbox.SM_BeverageDisplayFridge_TopLightbox",
+      "min_cm": [
+        -28.5,
+        -29.500030517578125,
+        167.0
+      ],
+      "max_cm": [
+        28.5,
+        33.599971771240234,
+        190.60000610351562
+      ],
+      "triangles": 84,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque",
+        "M_Fridge_Sign": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Sign.M_BeverageDisplayFridge_Sign"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_GlassDoor": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_GlassDoor.SM_BeverageDisplayFridge_GlassDoor",
+      "min_cm": [
+        -54.5,
+        0.6999775767326355,
+        2.9000015258789062
+      ],
+      "max_cm": [
+        -3.299999237060547,
+        1.3000006675720215,
+        137.10000610351562
+      ],
+      "triangles": 12,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Glass": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Glass.M_BeverageDisplayFridge_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_DoorHandle": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorHandle.SM_BeverageDisplayFridge_DoorHandle",
+      "min_cm": [
+        -57.20000457763672,
+        1.999987006187439,
+        38.500003814697266
+      ],
+      "max_cm": [
+        -54.599998474121094,
+        6.599995136260986,
+        86.5
+      ],
+      "triangles": 236,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_DoorFrame": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorFrame.SM_BeverageDisplayFridge_DoorFrame",
+      "min_cm": [
+        -57.400001525878906,
+        -0.7000204920768738,
+        0.0
+      ],
+      "max_cm": [
+        0.6999999284744263,
+        2.0000009536743164,
+        140.0
+      ],
+      "triangles": 136,
+      "convex_hulls": 4,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_Shelf01": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf01.SM_BeverageDisplayFridge_Shelf01",
+      "min_cm": [
+        -26.399999618530273,
+        -26.399999618530273,
+        -0.39999914169311523
+      ],
+      "max_cm": [
+        26.399999618530273,
+        26.399999618530273,
+        0.44000568985939026
+      ],
+      "triangles": 612,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_Shelf02": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf02.SM_BeverageDisplayFridge_Shelf02",
+      "min_cm": [
+        -26.399999618530273,
+        -26.399999618530273,
+        -0.4000051021575928
+      ],
+      "max_cm": [
+        26.399999618530273,
+        26.399999618530273,
+        0.44000568985939026
+      ],
+      "triangles": 612,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_Shelf03": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf03.SM_BeverageDisplayFridge_Shelf03",
+      "min_cm": [
+        -26.399999618530273,
+        -26.399999618530273,
+        -0.4000051021575928
+      ],
+      "max_cm": [
+        26.399999618530273,
+        26.399999618530273,
+        0.44000568985939026
+      ],
+      "triangles": 612,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_Shelf04": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf04.SM_BeverageDisplayFridge_Shelf04",
+      "min_cm": [
+        -26.399999618530273,
+        -26.399999618530273,
+        -0.4000110626220703
+      ],
+      "max_cm": [
+        26.399999618530273,
+        26.399999618530273,
+        0.4399937689304352
+      ],
+      "triangles": 612,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_Shelf05": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf05.SM_BeverageDisplayFridge_Shelf05",
+      "min_cm": [
+        -26.399999618530273,
+        -26.399999618530273,
+        -0.4000110626220703
+      ],
+      "max_cm": [
+        26.399999618530273,
+        26.399999618530273,
+        0.4399937689304352
+      ],
+      "triangles": 612,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_InnerLiner": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_InnerLiner.SM_BeverageDisplayFridge_InnerLiner",
+      "min_cm": [
+        -27.799999237060547,
+        -28.60002899169922,
+        30.599994659423828
+      ],
+      "max_cm": [
+        27.799999237060547,
+        31.2499942779541,
+        168.0
+      ],
+      "triangles": 316,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_OuterBody": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_OuterBody.SM_BeverageDisplayFridge_OuterBody",
+      "min_cm": [
+        -32.400001525878906,
+        -38.84648132324219,
+        9.999995231628418
+      ],
+      "max_cm": [
+        32.400001525878906,
+        33.79999542236328,
+        193.0
+      ],
+      "triangles": 696,
+      "convex_hulls": 5,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_VentGrille": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_VentGrille.SM_BeverageDisplayFridge_VentGrille",
+      "min_cm": [
+        -28.5,
+        32.49999237060547,
+        13.000004768371582
+      ],
+      "max_cm": [
+        28.5,
+        34.29999542236328,
+        30.5000057220459
+      ],
+      "triangles": 156,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_FootFL": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFL.SM_BeverageDisplayFridge_FootFL",
+      "min_cm": [
+        -2.7000010013580322,
+        -2.6999998092651367,
+        -10.0
+      ],
+      "max_cm": [
+        2.6999995708465576,
+        2.700002431869507,
+        1.9550472529772378e-07
+      ],
+      "triangles": 164,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_FootFR": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFR.SM_BeverageDisplayFridge_FootFR",
+      "min_cm": [
+        -2.6999995708465576,
+        -2.6999998092651367,
+        -10.0
+      ],
+      "max_cm": [
+        2.7000010013580322,
+        2.700002431869507,
+        1.9550472529772378e-07
+      ],
+      "triangles": 164,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_FootRL": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRL.SM_BeverageDisplayFridge_FootRL",
+      "min_cm": [
+        -2.7000010013580322,
+        -2.6999998092651367,
+        -10.0
+      ],
+      "max_cm": [
+        2.6999995708465576,
+        2.700002431869507,
+        1.9550496688225394e-07
+      ],
+      "triangles": 164,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    },
+    "SM_BeverageDisplayFridge_FootRR": {
+      "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRR.SM_BeverageDisplayFridge_FootRR",
+      "min_cm": [
+        -2.6999995708465576,
+        -2.6999998092651367,
+        -10.0
+      ],
+      "max_cm": [
+        2.7000010013580322,
+        2.700002431869507,
+        1.9550496688225394e-07
+      ],
+      "triangles": 164,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Fridge_Opaque": "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque.M_BeverageDisplayFridge_Opaque"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor.T_BeverageDisplayFridge_BaseColor",
+        "orm": "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM.T_BeverageDisplayFridge_ORM"
+      }
+    }
+  },
+  "blueprint": {
+    "asset": "/Game/Yastars/Mesh/BeverageDisplayFridge/BP_BeverageDisplayFridge.BP_BeverageDisplayFridge",
+    "components": {
+      "TopLightbox": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_TopLightbox.SM_BeverageDisplayFridge_TopLightbox",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "顶部灯箱与顶盖",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "GlassDoor": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_GlassDoor.SM_BeverageDisplayFridge_GlassDoor",
+        "parent": "DoorHinge",
+        "relative_location_cm": [
+          0,
+          0,
+          0
+        ],
+        "planning_category": "玻璃门",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "DoorHandle": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorHandle.SM_BeverageDisplayFridge_DoorHandle",
+        "parent": "DoorHinge",
+        "relative_location_cm": [
+          0,
+          0,
+          0
+        ],
+        "planning_category": "门把手",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "DoorFrame": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorFrame.SM_BeverageDisplayFridge_DoorFrame",
+        "parent": "DoorHinge",
+        "relative_location_cm": [
+          0,
+          0,
+          0
+        ],
+        "planning_category": "门框",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf01": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf01.SM_BeverageDisplayFridge_Shelf01",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          52.99999713897705
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf02": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf02.SM_BeverageDisplayFridge_Shelf02",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          75.99999904632568
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf03": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf03.SM_BeverageDisplayFridge_Shelf03",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          99.00000095367432
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf04": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf04.SM_BeverageDisplayFridge_Shelf04",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          122.00000286102295
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "Shelf05": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf05.SM_BeverageDisplayFridge_Shelf05",
+        "parent": "Shelves",
+        "relative_location_cm": [
+          0.0,
+          2.9999999329447746,
+          145.00000476837158
+        ],
+        "planning_category": "内部层板（五层）",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "InnerLiner": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_InnerLiner.SM_BeverageDisplayFridge_InnerLiner",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "内胆",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "OuterBody": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_OuterBody.SM_BeverageDisplayFridge_OuterBody",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "外壳主体",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "VentGrille": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_VentGrille.SM_BeverageDisplayFridge_VentGrille",
+        "parent": "DefaultSceneRoot",
+        "relative_location_cm": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "planning_category": "散热格栅",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootFL": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFL.SM_BeverageDisplayFridge_FootFL",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          -25.0,
+          24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootFR": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFR.SM_BeverageDisplayFridge_FootFR",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          25.0,
+          24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootRL": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRL.SM_BeverageDisplayFridge_FootRL",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          -25.0,
+          -24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      },
+      "FootRR": {
+        "mesh": "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRR.SM_BeverageDisplayFridge_FootRR",
+        "parent": "BaseFeet",
+        "relative_location_cm": [
+          25.0,
+          -24.500000476837158,
+          10.000000149011612
+        ],
+        "planning_category": "底座与底脚",
+        "movable": true,
+        "collision": "BlockAllDynamic"
+      }
+    },
+    "planning_categories": {
+      "TopLightbox": "顶部灯箱与顶盖",
+      "GlassDoor": "玻璃门",
+      "DoorHandle": "门把手",
+      "DoorFrame": "门框",
+      "Shelves": "内部层板（五层）",
+      "InnerLiner": "内胆",
+      "OuterBody": "外壳主体",
+      "VentGrille": "散热格栅",
+      "BaseFeet": "底座与底脚"
+    },
+    "planning_category_count": 9,
+    "static_mesh_count": 16,
+    "root_branch_count": 7,
+    "groups": {
+      "DoorHinge": [
+        "GlassDoor",
+        "DoorHandle",
+        "DoorFrame"
+      ],
+      "Shelves": [
+        "Shelf01",
+        "Shelf02",
+        "Shelf03",
+        "Shelf04",
+        "Shelf05"
+      ],
+      "BaseFeet": [
+        "FootFL",
+        "FootFR",
+        "FootRL",
+        "FootRR"
+      ]
+    },
+    "hinge": {
+      "hinge_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "closed_ue_cm": [
+        28.9,
+        33.8,
+        28.5
+      ],
+      "open_yaw_deg": -105.0,
+      "component": "DoorHinge"
+    },
+    "door_local_closed_rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "door_local_open_rotation_deg": [
+      0,
+      -105.0,
+      0
+    ],
+    "blueprint_ready": true,
+    "interaction_events_installed": false,
+    "light_components": 0
+  },
+  "packages": {
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/BP_BeverageDisplayFridge": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\BP_BeverageDisplayFridge.uasset",
+      "sha256": "2ab4425fa0606a6c191bddfba6fbb61466ac18ab662ae0165bbcf5cab1fb881e",
+      "bytes": 51069
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Glass": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\Materials\\M_BeverageDisplayFridge_Glass.uasset",
+      "sha256": "98279399ac1129e13430cc3b61c3fb4381c0b6665412439a951be370f0fc6d23",
+      "bytes": 11279
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Opaque": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\Materials\\M_BeverageDisplayFridge_Opaque.uasset",
+      "sha256": "f3efe0e65adc1a79e9a6632e68ee9fe3e0f4617ddef686a92692801c018f1e0b",
+      "bytes": 13430
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Materials/M_BeverageDisplayFridge_Sign": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\Materials\\M_BeverageDisplayFridge_Sign.uasset",
+      "sha256": "e1d1d24a98139f8a9fd96f68bec44f1ada1c60ebd84538f726b0da08bbb44326",
+      "bytes": 14892
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorFrame": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_DoorFrame.uasset",
+      "sha256": "c6c0c411ed97cabf095f6e404ebc468da669747d768152c2c53996ec30cfc5a9",
+      "bytes": 24597
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_DoorHandle": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_DoorHandle.uasset",
+      "sha256": "31064f6f3a4673eeecefeb73753f9dab39163c7602581102dd252db089d27824",
+      "bytes": 24540
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFL": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_FootFL.uasset",
+      "sha256": "95f8670c8accdb0e49ca76128f2f95250aebd1c04d93f78eccc4c21822cf0b23",
+      "bytes": 22454
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootFR": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_FootFR.uasset",
+      "sha256": "53ace3cf195b28ca1e46a97187a71f403fbdc7f96d935a4292b223a71d259235",
+      "bytes": 22384
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRL": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_FootRL.uasset",
+      "sha256": "81032472f0d80b967df93613c1fe48914d70a0205286f63f014e45076bb143ab",
+      "bytes": 22396
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_FootRR": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_FootRR.uasset",
+      "sha256": "62721851388adfc02e4114181ddcdaafdcca9b4ae34997588ca26527617cc804",
+      "bytes": 22403
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_GlassDoor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_GlassDoor.uasset",
+      "sha256": "0294388bef38a50c733f7877e8cddc76e4cc5eb94a1d148f570cac4e2b192bf0",
+      "bytes": 17482
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_InnerLiner": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_InnerLiner.uasset",
+      "sha256": "f7a889992c4c55311e59c196acc4a39bfb512a3100a5c7a71693458e6a570830",
+      "bytes": 31078
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_OuterBody": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_OuterBody.uasset",
+      "sha256": "2f2a607b2300208cd7e5e85d86e23774c18b7be81cbeb2b0ce4d204eeea55cca",
+      "bytes": 44596
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf01": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_Shelf01.uasset",
+      "sha256": "ad71a9cdef8c000c5d45609ace2d6fd5c9d1740dc3881ceef29b0f5cd714de88",
+      "bytes": 36612
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf02": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_Shelf02.uasset",
+      "sha256": "edb1177144cbe964a6135af9271597bb69e3ac9be2813cc43703c46f50d2e942",
+      "bytes": 36692
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf03": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_Shelf03.uasset",
+      "sha256": "eb07039a429177f52520d6573a0d9fb079486471e91731c817e05834003084c7",
+      "bytes": 36659
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf04": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_Shelf04.uasset",
+      "sha256": "f9cd10f8e2d976b6744cc252c2b15ee5db66740ab7a8f05dc9bb803eff96f031",
+      "bytes": 36715
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_Shelf05": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_Shelf05.uasset",
+      "sha256": "f9defa3412e2d94dfec5a0c21048370223dac06c1f12dfdf74595f43e1663d79",
+      "bytes": 36709
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_TopLightbox": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_TopLightbox.uasset",
+      "sha256": "86e464fbab8a2fd115026cb592d4e7adad4bd182032fa8ccb668269c70cc45ac",
+      "bytes": 21017
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/SM_BeverageDisplayFridge_VentGrille": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\SM_BeverageDisplayFridge_VentGrille.uasset",
+      "sha256": "17f83d90dd1a5965fdd11b212a7e1c014fa241da13bd53748215fd2e3a27f446",
+      "bytes": 23180
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_BaseColor": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\Textures\\T_BeverageDisplayFridge_BaseColor.uasset",
+      "sha256": "58d1096cb4f136dbbf7921a2b755966757a86735ec86177ade5ba160717b688d",
+      "bytes": 4723291
+    },
+    "/Game/Yastars/Mesh/BeverageDisplayFridge/Textures/T_BeverageDisplayFridge_ORM": {
+      "file": "D:\\UE\\Project\\HorrorGame\\Content\\Yastars\\Mesh\\BeverageDisplayFridge\\Textures\\T_BeverageDisplayFridge_ORM.uasset",
+      "sha256": "3c38db2c103941fc40ba5ac76bc403132887d44b79027c0a57b943d3581e17c0",
+      "bytes": 537254
+    }
+  },
+  "protected_files_after": 476,
+  "completed_utc": "2026-11-18T11:16:44.852026+00:00"
+}

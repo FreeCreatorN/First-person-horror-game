@@ -1,0 +1,862 @@
+{
+  "success": true,
+  "nominal_case_m": [
+    1.96,
+    0.62,
+    1.09
+  ],
+  "triangle_budget": [
+    1800,
+    3500
+  ],
+  "triangles_by_part": {
+    "Body": 896,
+    "MetalFrame": 924,
+    "GlassTop": 12,
+    "GlassSurround": 36,
+    "DisplayShelf": 44,
+    "InteriorShelf": 88,
+    "WoodDoorLeft": 156,
+    "WoodDoorRight": 156,
+    "GlassDoorLeft": 164,
+    "GlassDoorRight": 164
+  },
+  "total_triangles": 2640,
+  "optional_stock_triangles": 0,
+  "parts": {
+    "Body": {
+      "collection": "05 木质柜体（储物）",
+      "mesh": "SM_ShopCounterPlan_Body",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "SM_ShopCounterPlan_Body"
+    },
+    "MetalFrame": {
+      "collection": "03 金属框架",
+      "mesh": "SM_ShopCounterPlan_MetalFrame",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "SM_ShopCounterPlan_MetalFrame"
+    },
+    "GlassTop": {
+      "collection": "01 玻璃顶板",
+      "mesh": "SM_ShopCounterPlan_GlassTop",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "SM_ShopCounterPlan_GlassTop"
+    },
+    "GlassSurround": {
+      "collection": "02 玻璃围挡",
+      "mesh": "SM_ShopCounterPlan_GlassSurround",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "SM_ShopCounterPlan_GlassSurround"
+    },
+    "DisplayShelf": {
+      "collection": "04 展示层板",
+      "mesh": "SM_ShopCounterPlan_DisplayShelf",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "SM_ShopCounterPlan_DisplayShelf"
+    },
+    "InteriorShelf": {
+      "collection": "08 内部层板",
+      "mesh": "SM_ShopCounterPlan_InteriorShelf",
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object": "SM_ShopCounterPlan_InteriorShelf"
+    },
+    "WoodDoorLeft": {
+      "collection": "左门 · WoodDoorLeft",
+      "mesh": "SM_ShopCounterPlan_WoodDoorLeft",
+      "pivot_m": [
+        -0.46299999952316284,
+        0.23800000548362732,
+        0.1469999998807907
+      ],
+      "object": "SM_ShopCounterPlan_WoodDoorLeft"
+    },
+    "WoodDoorRight": {
+      "collection": "右门 · WoodDoorRight",
+      "mesh": "SM_ShopCounterPlan_WoodDoorRight",
+      "pivot_m": [
+        0.46299999952316284,
+        0.2720000147819519,
+        0.1469999998807907
+      ],
+      "object": "SM_ShopCounterPlan_WoodDoorRight"
+    },
+    "GlassDoorLeft": {
+      "collection": "左门 · GlassDoorLeft",
+      "mesh": "SM_ShopCounterPlan_GlassDoorLeft",
+      "pivot_m": [
+        -0.4659999907016754,
+        0.25949999690055847,
+        0.7699999809265137
+      ],
+      "object": "SM_ShopCounterPlan_GlassDoorLeft"
+    },
+    "GlassDoorRight": {
+      "collection": "右门 · GlassDoorRight",
+      "mesh": "SM_ShopCounterPlan_GlassDoorRight",
+      "pivot_m": [
+        0.4659999907016754,
+        0.28850001096725464,
+        0.7699999809265137
+      ],
+      "object": "SM_ShopCounterPlan_GlassDoorRight"
+    }
+  },
+  "doors": {
+    "wood_left": {
+      "part": "WoodDoorLeft",
+      "mesh": "SM_ShopCounterPlan_WoodDoorLeft",
+      "pivot_m": [
+        -0.463,
+        0.238,
+        0.147
+      ],
+      "closed_ue_cm": [
+        -46.300000000000004,
+        -23.799999999999997,
+        14.7
+      ],
+      "travel_cm": 92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "SM_ShopCounterPlan_WoodDoorLeft"
+    },
+    "glass_left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_ShopCounterPlan_GlassDoorLeft",
+      "pivot_m": [
+        -0.466,
+        0.2595,
+        0.77
+      ],
+      "closed_ue_cm": [
+        -46.6,
+        -25.95,
+        77.0
+      ],
+      "travel_cm": 93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "SM_ShopCounterPlan_GlassDoorLeft"
+    },
+    "wood_right": {
+      "part": "WoodDoorRight",
+      "mesh": "SM_ShopCounterPlan_WoodDoorRight",
+      "pivot_m": [
+        0.463,
+        0.272,
+        0.147
+      ],
+      "closed_ue_cm": [
+        46.300000000000004,
+        -27.200000000000003,
+        14.7
+      ],
+      "travel_cm": -92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "SM_ShopCounterPlan_WoodDoorRight"
+    },
+    "glass_right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_ShopCounterPlan_GlassDoorRight",
+      "pivot_m": [
+        0.466,
+        0.2885,
+        0.77
+      ],
+      "closed_ue_cm": [
+        46.6,
+        -28.849999999999994,
+        77.0
+      ],
+      "travel_cm": -93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "SM_ShopCounterPlan_GlassDoorRight"
+    }
+  },
+  "collision_boxes": {
+    "Body": [
+      {
+        "center_m": [
+          -0.915,
+          -0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          -0.915,
+          0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0.915,
+          -0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0.915,
+          0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0,
+          0.076
+        ],
+        "half_m": [
+          0.944,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0,
+          0.107
+        ],
+        "half_m": [
+          0.936,
+          0.268,
+          0.013
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          -0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          -0.966,
+          0,
+          0.415
+        ],
+        "half_m": [
+          0.014,
+          0.268,
+          0.265
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          0,
+          0.132
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          0,
+          0.698
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          -0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          0.966,
+          0,
+          0.415
+        ],
+        "half_m": [
+          0.014,
+          0.268,
+          0.265
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          0,
+          0.132
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          0,
+          0.698
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.302,
+          0.415
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.265
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.302,
+          0.132
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.302,
+          0.132
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.302,
+          0.698
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.302,
+          0.698
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.027,
+          0.412
+        ],
+        "half_m": [
+          0.009,
+          0.241,
+          0.292
+        ]
+      }
+    ],
+    "MetalFrame": [
+      {
+        "center_m": [
+          -0.968,
+          -0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          -0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.298,
+          0.761
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.298,
+          0.761
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0,
+          0.761
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0,
+          0.761
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.298,
+          1.08
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.298,
+          1.08
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0,
+          1.08
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0,
+          1.08
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.301,
+          0.92
+        ],
+        "half_m": [
+          0.006,
+          0.007,
+          0.15
+        ]
+      }
+    ],
+    "DisplayShelf": [
+      {
+        "center_m": [
+          0,
+          0,
+          0.734
+        ],
+        "half_m": [
+          0.98,
+          0.31,
+          0.018
+        ]
+      }
+    ],
+    "InteriorShelf": [
+      {
+        "center_m": [
+          -0.4725,
+          -0.027,
+          0.405
+        ],
+        "half_m": [
+          0.4635,
+          0.241,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0.4725,
+          -0.027,
+          0.405
+        ],
+        "half_m": [
+          0.4635,
+          0.241,
+          0.01
+        ]
+      }
+    ],
+    "WoodDoorLeft": [
+      {
+        "center_m": [
+          -0.463,
+          0.238,
+          0.415
+        ],
+        "half_m": [
+          0.47,
+          0.009,
+          0.268
+        ]
+      }
+    ],
+    "WoodDoorRight": [
+      {
+        "center_m": [
+          0.463,
+          0.272,
+          0.415
+        ],
+        "half_m": [
+          0.47,
+          0.009,
+          0.268
+        ]
+      }
+    ],
+    "GlassDoorLeft": [
+      {
+        "center_m": [
+          -0.466,
+          0.2595,
+          0.92
+        ],
+        "half_m": [
+          0.478,
+          0.003,
+          0.15
+        ]
+      }
+    ],
+    "GlassDoorRight": [
+      {
+        "center_m": [
+          0.466,
+          0.2845,
+          0.92
+        ],
+        "half_m": [
+          0.478,
+          0.003,
+          0.15
+        ]
+      }
+    ],
+    "GlassTop": [
+      {
+        "center_m": [
+          0,
+          0,
+          1.086
+        ],
+        "half_m": [
+          0.956,
+          0.286,
+          0.004
+        ]
+      }
+    ],
+    "GlassSurround": [
+      {
+        "center_m": [
+          0,
+          -0.29,
+          0.9205
+        ],
+        "half_m": [
+          0.956,
+          0.003,
+          0.1495
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0,
+          0.9205
+        ],
+        "half_m": [
+          0.003,
+          0.286,
+          0.1495
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0,
+          0.9205
+        ],
+        "half_m": [
+          0.003,
+          0.286,
+          0.1495
+        ]
+      }
+    ]
+  },
+  "preview_collection": "_PreviewOnly · 非模型组件",
+  "stock_collection": "",
+  "door_track_spacing_mm": {
+    "wood": 34,
+    "glass": 29
+  },
+  "front": "-Y",
+  "access": "+Y",
+  "source_scene": "ShopCounterPlan_Empty",
+  "front_camera": "01 Front45.001 · EmptyPreview",
+  "rear_camera": "02 Rear45.001 · EmptyPreview",
+  "reviewed_fixes": [
+    "closed non-self-crossing cup shells",
+    "real door local transforms",
+    "split inner shelves",
+    "fixed glass fitted to uprights",
+    "uprights butt joined",
+    "door glass fitted inside metal perimeter"
+  ],
+  "planning_categories": [
+    {
+      "key": "GlassTop",
+      "label": "01 玻璃顶板",
+      "collection": "01 玻璃顶板"
+    },
+    {
+      "key": "GlassSurround",
+      "label": "02 玻璃围挡",
+      "collection": "02 玻璃围挡"
+    },
+    {
+      "key": "MetalFrame",
+      "label": "03 金属框架",
+      "collection": "03 金属框架"
+    },
+    {
+      "key": "DisplayShelf",
+      "label": "04 展示层板",
+      "collection": "04 展示层板"
+    },
+    {
+      "key": "Body",
+      "label": "05 木质柜体（储物）",
+      "collection": "05 木质柜体（储物）"
+    },
+    {
+      "key": "WoodSlidingDoors",
+      "label": "06 推拉柜门",
+      "collection": "06 推拉柜门"
+    },
+    {
+      "key": "GlassSlidingDoors",
+      "label": "07 推拉玻璃门",
+      "collection": "07 推拉玻璃门"
+    },
+    {
+      "key": "InteriorShelf",
+      "label": "08 内部层板",
+      "collection": "08 内部层板"
+    }
+  ],
+  "empty_counter": true
+}

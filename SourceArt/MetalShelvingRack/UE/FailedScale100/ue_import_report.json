@@ -1,0 +1,44 @@
+{
+  "success": false,
+  "mode": "import",
+  "target_root": "/Game/Yastars/Mesh/MetalShelvingRack",
+  "editor_pid": 34252,
+  "run_id": "b3912fad-75e1-481b-bc31-3b6613942493",
+  "script_sha256": "ebab70d4eeb1c08347ee4a5c2e534e1826c50f1a862e0270ef646493a01c42b8",
+  "manifest_sha256": "ab59acb73fa8b97a85f32dd0cb5a33499c9d6a621e50ed2cf78f3dbacc8a4550",
+  "baseline_sha256": "c00854d0e001dc257ab399ed960dfef4233988e296526eca8d3f949df4268641",
+  "started_utc": "2026-11-17T03:45:17.508579+00:00",
+  "world": "/Engine/Maps/Entry.Entry",
+  "source_hashes": {
+    "export_report.json": "ab59acb73fa8b97a85f32dd0cb5a33499c9d6a621e50ed2cf78f3dbacc8a4550",
+    "SM_MetalShelvingRack_7Level.fbx": "743cd50bebfe504fa32e50023172d7e49fbc2ec9ec581a88ffd8f56f7fd4726a",
+    "T_MetalShelvingRack_7Level_BaseColor.png": "8b72f84503dea0772971e91d8fe044308cce6497cb19ec1cba790dd6640325be",
+    "T_MetalShelvingRack_7Level_ORM.png": "47c3458c5d8a0e771b426269bdb87a2184151f1686bb6a15a1b5c30b6b316a12",
+    "SM_MetalShelvingRack_4Level.fbx": "e2be3884d70d95aed4794e353991399500c906469397b762e2aec2de9eca9f6a",
+    "T_MetalShelvingRack_4Level_BaseColor.png": "9692af194e1dd6be0fd2f59785583d098955949c713766e144ecc47aba9c29f7",
+    "T_MetalShelvingRack_4Level_ORM.png": "39c73ff37dd02b79b35833697cbd960aed5c0ccfa07e93ea8ea419391f92bca7",
+    "SM_MetalShelvingRack_4Level_Low.fbx": "5b6d9a5fbdd4f27ec06abd81ad93b8f2e9c34a82ac5b175ddde55c9f2fdf2624",
+    "T_MetalShelvingRack_4Level_Low_BaseColor.png": "8d6df2532ffd4fdf4b81f76919797f2bb1fcd9eac5ae5609a3426ce5f02a624e",
+    "T_MetalShelvingRack_4Level_Low_ORM.png": "4ae56df89802cb1af72c162733baca0ed0fbb2e441397f7e61b6414ebcb6c260"
+  },
+  "protected_files_before": 273,
+  "existing_target_packages": [],
+  "imported_meshes": [
+    "SM_MetalShelvingRack_4Level",
+    "SM_MetalShelvingRack_4Level_Low",
+    "SM_MetalShelvingRack_7Level"
+  ],
+  "parent": {
+    "asset": "/Game/Yastars/Mesh/MetalShelvingRack/Materials/M_MetalShelvingRack.M_MetalShelvingRack",
+    "connections": {
+      "<MaterialProperty.MP_BASE_COLOR: 5>": "RackBaseColor.RGB",
+      "<MaterialProperty.MP_AMBIENT_OCCLUSION: 18>": "RackORM.R",
+      "<MaterialProperty.MP_ROUGHNESS: 8>": "RackORM.G",
+      "<MaterialProperty.MP_METALLIC: 6>": "RackORM.B"
+    },
+    "uv_index": 0
+  },
+  "meshes": {},
+  "error": "Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/MetalShelvingRack/UE/import_ue.py\", line 299, in main\n    execute(report)\n  File \"D:/UE/Project/HorrorGame/SourceArt/MetalShelvingRack/UE/import_ue.py\", line 263, in execute\n    report['meshes'][name] = verify_mesh(mesh, mesh_editor, row, instance)\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:/UE/Project/HorrorGame/SourceArt/MetalShelvingRack/UE/import_ue.py\", line 178, in verify_mesh\n    assert close(minimum + maximum, expected_min + expected_max), (row['name'], minimum, maximum, expected_min, expected_max)\nAssertionError: ('SM_MetalShelvingRack_7Level', [-12155.0, -2695.0, -0.0004364644701126963], [12155.0, 2694.999755859375, 21890.0], [-121.5499997138977, -26.94999873638153, 0.0], [121.5499997138977, 26.94999873638153, 218.8999891281128])\n",
+  "completed_utc": "2026-11-17T03:46:20.931396+00:00"
+}

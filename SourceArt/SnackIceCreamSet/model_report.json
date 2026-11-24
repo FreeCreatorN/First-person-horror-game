@@ -1,0 +1,5202 @@
+{
+  "success": true,
+  "source_scene": "SnackIceCreamSet",
+  "products": {
+    "BoxIce_Vanilla": {
+      "family": "BoxIce",
+      "flavor": "Vanilla",
+      "flavor_index": 0,
+      "position_m": [
+        -0.71,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_BoxIce_Vanilla_Body",
+        "SM_Goods_BoxIce_Vanilla_Lid"
+      ]
+    },
+    "BoxIce_Strawberry": {
+      "family": "BoxIce",
+      "flavor": "Strawberry",
+      "flavor_index": 1,
+      "position_m": [
+        -0.53,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_BoxIce_Strawberry_Body",
+        "SM_Goods_BoxIce_Strawberry_Lid"
+      ]
+    },
+    "IcePop_Milk": {
+      "family": "IcePop",
+      "flavor": "Milk",
+      "flavor_index": 0,
+      "position_m": [
+        -0.0625,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_IcePop_Milk_Pack"
+      ]
+    },
+    "IcePop_Orange": {
+      "family": "IcePop",
+      "flavor": "Orange",
+      "flavor_index": 1,
+      "position_m": [
+        0.0625,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_IcePop_Orange_Pack"
+      ]
+    },
+    "ChocoBar_Chocolate": {
+      "family": "ChocoBar",
+      "flavor": "Chocolate",
+      "flavor_index": 0,
+      "position_m": [
+        0.5575,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_ChocoBar_Chocolate_Pack"
+      ]
+    },
+    "ChocoBar_Vanilla": {
+      "family": "ChocoBar",
+      "flavor": "Vanilla",
+      "flavor_index": 1,
+      "position_m": [
+        0.6825,
+        0.65,
+        0
+      ],
+      "parts": [
+        "SM_Goods_ChocoBar_Vanilla_Pack"
+      ]
+    },
+    "CupIce_Strawberry": {
+      "family": "CupIce",
+      "flavor": "Strawberry",
+      "flavor_index": 0,
+      "position_m": [
+        -0.665,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CupIce_Strawberry_Body",
+        "SM_Goods_CupIce_Strawberry_Dome"
+      ]
+    },
+    "CupIce_Vanilla": {
+      "family": "CupIce",
+      "flavor": "Vanilla",
+      "flavor_index": 1,
+      "position_m": [
+        -0.575,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CupIce_Vanilla_Body",
+        "SM_Goods_CupIce_Vanilla_Dome"
+      ]
+    },
+    "Cone_Vanilla": {
+      "family": "Cone",
+      "flavor": "Vanilla",
+      "flavor_index": 0,
+      "position_m": [
+        -0.09,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Cone_Vanilla_Pack"
+      ]
+    },
+    "Cone_Chocolate": {
+      "family": "Cone",
+      "flavor": "Chocolate",
+      "flavor_index": 1,
+      "position_m": [
+        0.0,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Cone_Chocolate_Pack"
+      ]
+    },
+    "Cone_Strawberry": {
+      "family": "Cone",
+      "flavor": "Strawberry",
+      "flavor_index": 2,
+      "position_m": [
+        0.09,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Cone_Strawberry_Pack"
+      ]
+    },
+    "FamilyTub_Vanilla": {
+      "family": "FamilyTub",
+      "flavor": "Vanilla",
+      "flavor_index": 0,
+      "position_m": [
+        0.5,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_FamilyTub_Vanilla_Body",
+        "SM_Goods_FamilyTub_Vanilla_Lid"
+      ]
+    },
+    "FamilyTub_Strawberry": {
+      "family": "FamilyTub",
+      "flavor": "Strawberry",
+      "flavor_index": 1,
+      "position_m": [
+        0.74,
+        0.25,
+        0
+      ],
+      "parts": [
+        "SM_Goods_FamilyTub_Strawberry_Body",
+        "SM_Goods_FamilyTub_Strawberry_Lid"
+      ]
+    },
+    "Chips_Original": {
+      "family": "Chips",
+      "flavor": "Original",
+      "flavor_index": 0,
+      "position_m": [
+        -0.8425,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Chips_Original_Pack"
+      ]
+    },
+    "Chips_Cucumber": {
+      "family": "Chips",
+      "flavor": "Cucumber",
+      "flavor_index": 1,
+      "position_m": [
+        -0.7175,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Chips_Cucumber_Pack"
+      ]
+    },
+    "Biscuits_Butter": {
+      "family": "Biscuits",
+      "flavor": "Butter",
+      "flavor_index": 0,
+      "position_m": [
+        -0.35,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Biscuits_Butter_Body",
+        "SM_Goods_Biscuits_Butter_Tray"
+      ]
+    },
+    "Biscuits_Milk": {
+      "family": "Biscuits",
+      "flavor": "Milk",
+      "flavor_index": 1,
+      "position_m": [
+        -0.17,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Biscuits_Milk_Body",
+        "SM_Goods_Biscuits_Milk_Tray"
+      ]
+    },
+    "CandyBag_Fruit": {
+      "family": "CandyBag",
+      "flavor": "Fruit",
+      "flavor_index": 0,
+      "position_m": [
+        0.1975,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyBag_Fruit_Pack"
+      ]
+    },
+    "CandyBag_Mint": {
+      "family": "CandyBag",
+      "flavor": "Mint",
+      "flavor_index": 1,
+      "position_m": [
+        0.3225,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyBag_Mint_Pack"
+      ]
+    },
+    "Bakery_Bread": {
+      "family": "Bakery",
+      "flavor": "Bread",
+      "flavor_index": 0,
+      "position_m": [
+        0.7175,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Bakery_Bread_Pack"
+      ]
+    },
+    "Bakery_Cake": {
+      "family": "Bakery",
+      "flavor": "Cake",
+      "flavor_index": 1,
+      "position_m": [
+        0.8425,
+        -0.22,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Bakery_Cake_Pack"
+      ]
+    },
+    "Spicy_Hot": {
+      "family": "Spicy",
+      "flavor": "Hot",
+      "flavor_index": 0,
+      "position_m": [
+        -0.8425,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Spicy_Hot_Pack"
+      ]
+    },
+    "Spicy_Original": {
+      "family": "Spicy",
+      "flavor": "Original",
+      "flavor_index": 1,
+      "position_m": [
+        -0.7175,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Spicy_Original_Pack"
+      ]
+    },
+    "Nuts_Seeds": {
+      "family": "Nuts",
+      "flavor": "Seeds",
+      "flavor_index": 0,
+      "position_m": [
+        -0.3225,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Nuts_Seeds_Pack"
+      ]
+    },
+    "Nuts_Peanut": {
+      "family": "Nuts",
+      "flavor": "Peanut",
+      "flavor_index": 1,
+      "position_m": [
+        -0.1975,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Nuts_Peanut_Pack"
+      ]
+    },
+    "Jelly_Orange": {
+      "family": "Jelly",
+      "flavor": "Orange",
+      "flavor_index": 0,
+      "position_m": [
+        0.17,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Jelly_Orange_Cup",
+        "SM_Goods_Jelly_Orange_Film"
+      ]
+    },
+    "Jelly_Strawberry": {
+      "family": "Jelly",
+      "flavor": "Strawberry",
+      "flavor_index": 1,
+      "position_m": [
+        0.26,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Jelly_Strawberry_Cup",
+        "SM_Goods_Jelly_Strawberry_Film"
+      ]
+    },
+    "Jelly_Grape": {
+      "family": "Jelly",
+      "flavor": "Grape",
+      "flavor_index": 2,
+      "position_m": [
+        0.35,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_Jelly_Grape_Cup",
+        "SM_Goods_Jelly_Grape_Film"
+      ]
+    },
+    "CandyJar_Fruit": {
+      "family": "CandyJar",
+      "flavor": "Fruit",
+      "flavor_index": 0,
+      "position_m": [
+        0.735,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyJar_Fruit_Jar",
+        "SM_Goods_CandyJar_Fruit_Lid",
+        "SM_Goods_CandyJar_Fruit_Contents"
+      ]
+    },
+    "CandyJar_Mint": {
+      "family": "CandyJar",
+      "flavor": "Mint",
+      "flavor_index": 1,
+      "position_m": [
+        0.8250000000000001,
+        -0.64,
+        0
+      ],
+      "parts": [
+        "SM_Goods_CandyJar_Mint_Jar",
+        "SM_Goods_CandyJar_Mint_Lid",
+        "SM_Goods_CandyJar_Mint_Contents"
+      ]
+    }
+  },
+  "parts": {
+    "SM_Goods_BoxIce_Vanilla_Body": {
+      "mesh": "SM_Goods_BoxIce_Vanilla_Body",
+      "object": "SM_Goods_BoxIce_Vanilla_Body",
+      "product": "BoxIce_Vanilla",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 252,
+      "collection": "BoxIce_Vanilla"
+    },
+    "SM_Goods_BoxIce_Vanilla_Lid": {
+      "mesh": "SM_Goods_BoxIce_Vanilla_Lid",
+      "object": "SM_Goods_BoxIce_Vanilla_Lid",
+      "product": "BoxIce_Vanilla",
+      "part": "Lid",
+      "pivot_m": [
+        0,
+        0,
+        0.0885
+      ],
+      "triangles": 252,
+      "collection": "BoxIce_Vanilla"
+    },
+    "SM_Goods_BoxIce_Strawberry_Body": {
+      "mesh": "SM_Goods_BoxIce_Strawberry_Body",
+      "object": "SM_Goods_BoxIce_Strawberry_Body",
+      "product": "BoxIce_Strawberry",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 252,
+      "collection": "BoxIce_Strawberry"
+    },
+    "SM_Goods_BoxIce_Strawberry_Lid": {
+      "mesh": "SM_Goods_BoxIce_Strawberry_Lid",
+      "object": "SM_Goods_BoxIce_Strawberry_Lid",
+      "product": "BoxIce_Strawberry",
+      "part": "Lid",
+      "pivot_m": [
+        0,
+        0,
+        0.0885
+      ],
+      "triangles": 252,
+      "collection": "BoxIce_Strawberry"
+    },
+    "SM_Goods_IcePop_Milk_Pack": {
+      "mesh": "SM_Goods_IcePop_Milk_Pack",
+      "object": "SM_Goods_IcePop_Milk_Pack",
+      "product": "IcePop_Milk",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "IcePop_Milk"
+    },
+    "SM_Goods_IcePop_Orange_Pack": {
+      "mesh": "SM_Goods_IcePop_Orange_Pack",
+      "object": "SM_Goods_IcePop_Orange_Pack",
+      "product": "IcePop_Orange",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "IcePop_Orange"
+    },
+    "SM_Goods_ChocoBar_Chocolate_Pack": {
+      "mesh": "SM_Goods_ChocoBar_Chocolate_Pack",
+      "object": "SM_Goods_ChocoBar_Chocolate_Pack",
+      "product": "ChocoBar_Chocolate",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "ChocoBar_Chocolate"
+    },
+    "SM_Goods_ChocoBar_Vanilla_Pack": {
+      "mesh": "SM_Goods_ChocoBar_Vanilla_Pack",
+      "object": "SM_Goods_ChocoBar_Vanilla_Pack",
+      "product": "ChocoBar_Vanilla",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "ChocoBar_Vanilla"
+    },
+    "SM_Goods_CupIce_Strawberry_Body": {
+      "mesh": "SM_Goods_CupIce_Strawberry_Body",
+      "object": "SM_Goods_CupIce_Strawberry_Body",
+      "product": "CupIce_Strawberry",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 552,
+      "collection": "CupIce_Strawberry"
+    },
+    "SM_Goods_CupIce_Strawberry_Dome": {
+      "mesh": "SM_Goods_CupIce_Strawberry_Dome",
+      "object": "SM_Goods_CupIce_Strawberry_Dome",
+      "product": "CupIce_Strawberry",
+      "part": "Dome",
+      "pivot_m": [
+        0,
+        0,
+        0.074
+      ],
+      "triangles": 448,
+      "collection": "CupIce_Strawberry"
+    },
+    "SM_Goods_CupIce_Vanilla_Body": {
+      "mesh": "SM_Goods_CupIce_Vanilla_Body",
+      "object": "SM_Goods_CupIce_Vanilla_Body",
+      "product": "CupIce_Vanilla",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 552,
+      "collection": "CupIce_Vanilla"
+    },
+    "SM_Goods_CupIce_Vanilla_Dome": {
+      "mesh": "SM_Goods_CupIce_Vanilla_Dome",
+      "object": "SM_Goods_CupIce_Vanilla_Dome",
+      "product": "CupIce_Vanilla",
+      "part": "Dome",
+      "pivot_m": [
+        0,
+        0,
+        0.074
+      ],
+      "triangles": 448,
+      "collection": "CupIce_Vanilla"
+    },
+    "SM_Goods_Cone_Vanilla_Pack": {
+      "mesh": "SM_Goods_Cone_Vanilla_Pack",
+      "object": "SM_Goods_Cone_Vanilla_Pack",
+      "product": "Cone_Vanilla",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 472,
+      "collection": "Cone_Vanilla"
+    },
+    "SM_Goods_Cone_Chocolate_Pack": {
+      "mesh": "SM_Goods_Cone_Chocolate_Pack",
+      "object": "SM_Goods_Cone_Chocolate_Pack",
+      "product": "Cone_Chocolate",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 472,
+      "collection": "Cone_Chocolate"
+    },
+    "SM_Goods_Cone_Strawberry_Pack": {
+      "mesh": "SM_Goods_Cone_Strawberry_Pack",
+      "object": "SM_Goods_Cone_Strawberry_Pack",
+      "product": "Cone_Strawberry",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 472,
+      "collection": "Cone_Strawberry"
+    },
+    "SM_Goods_FamilyTub_Vanilla_Body": {
+      "mesh": "SM_Goods_FamilyTub_Vanilla_Body",
+      "object": "SM_Goods_FamilyTub_Vanilla_Body",
+      "product": "FamilyTub_Vanilla",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 696,
+      "collection": "FamilyTub_Vanilla"
+    },
+    "SM_Goods_FamilyTub_Vanilla_Lid": {
+      "mesh": "SM_Goods_FamilyTub_Vanilla_Lid",
+      "object": "SM_Goods_FamilyTub_Vanilla_Lid",
+      "product": "FamilyTub_Vanilla",
+      "part": "Lid",
+      "pivot_m": [
+        0,
+        0,
+        0.094
+      ],
+      "triangles": 252,
+      "collection": "FamilyTub_Vanilla"
+    },
+    "SM_Goods_FamilyTub_Strawberry_Body": {
+      "mesh": "SM_Goods_FamilyTub_Strawberry_Body",
+      "object": "SM_Goods_FamilyTub_Strawberry_Body",
+      "product": "FamilyTub_Strawberry",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 696,
+      "collection": "FamilyTub_Strawberry"
+    },
+    "SM_Goods_FamilyTub_Strawberry_Lid": {
+      "mesh": "SM_Goods_FamilyTub_Strawberry_Lid",
+      "object": "SM_Goods_FamilyTub_Strawberry_Lid",
+      "product": "FamilyTub_Strawberry",
+      "part": "Lid",
+      "pivot_m": [
+        0,
+        0,
+        0.094
+      ],
+      "triangles": 252,
+      "collection": "FamilyTub_Strawberry"
+    },
+    "SM_Goods_Chips_Original_Pack": {
+      "mesh": "SM_Goods_Chips_Original_Pack",
+      "object": "SM_Goods_Chips_Original_Pack",
+      "product": "Chips_Original",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Chips_Original"
+    },
+    "SM_Goods_Chips_Cucumber_Pack": {
+      "mesh": "SM_Goods_Chips_Cucumber_Pack",
+      "object": "SM_Goods_Chips_Cucumber_Pack",
+      "product": "Chips_Cucumber",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Chips_Cucumber"
+    },
+    "SM_Goods_Biscuits_Butter_Body": {
+      "mesh": "SM_Goods_Biscuits_Butter_Body",
+      "object": "SM_Goods_Biscuits_Butter_Body",
+      "product": "Biscuits_Butter",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 252,
+      "collection": "Biscuits_Butter"
+    },
+    "SM_Goods_Biscuits_Butter_Tray": {
+      "mesh": "SM_Goods_Biscuits_Butter_Tray",
+      "object": "SM_Goods_Biscuits_Butter_Tray",
+      "product": "Biscuits_Butter",
+      "part": "Tray",
+      "pivot_m": [
+        0,
+        0,
+        0.0012
+      ],
+      "triangles": 276,
+      "collection": "Biscuits_Butter"
+    },
+    "SM_Goods_Biscuits_Milk_Body": {
+      "mesh": "SM_Goods_Biscuits_Milk_Body",
+      "object": "SM_Goods_Biscuits_Milk_Body",
+      "product": "Biscuits_Milk",
+      "part": "Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 252,
+      "collection": "Biscuits_Milk"
+    },
+    "SM_Goods_Biscuits_Milk_Tray": {
+      "mesh": "SM_Goods_Biscuits_Milk_Tray",
+      "object": "SM_Goods_Biscuits_Milk_Tray",
+      "product": "Biscuits_Milk",
+      "part": "Tray",
+      "pivot_m": [
+        0,
+        0,
+        0.0012
+      ],
+      "triangles": 276,
+      "collection": "Biscuits_Milk"
+    },
+    "SM_Goods_CandyBag_Fruit_Pack": {
+      "mesh": "SM_Goods_CandyBag_Fruit_Pack",
+      "object": "SM_Goods_CandyBag_Fruit_Pack",
+      "product": "CandyBag_Fruit",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "CandyBag_Fruit"
+    },
+    "SM_Goods_CandyBag_Mint_Pack": {
+      "mesh": "SM_Goods_CandyBag_Mint_Pack",
+      "object": "SM_Goods_CandyBag_Mint_Pack",
+      "product": "CandyBag_Mint",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "CandyBag_Mint"
+    },
+    "SM_Goods_Bakery_Bread_Pack": {
+      "mesh": "SM_Goods_Bakery_Bread_Pack",
+      "object": "SM_Goods_Bakery_Bread_Pack",
+      "product": "Bakery_Bread",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Bakery_Bread"
+    },
+    "SM_Goods_Bakery_Cake_Pack": {
+      "mesh": "SM_Goods_Bakery_Cake_Pack",
+      "object": "SM_Goods_Bakery_Cake_Pack",
+      "product": "Bakery_Cake",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Bakery_Cake"
+    },
+    "SM_Goods_Spicy_Hot_Pack": {
+      "mesh": "SM_Goods_Spicy_Hot_Pack",
+      "object": "SM_Goods_Spicy_Hot_Pack",
+      "product": "Spicy_Hot",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Spicy_Hot"
+    },
+    "SM_Goods_Spicy_Original_Pack": {
+      "mesh": "SM_Goods_Spicy_Original_Pack",
+      "object": "SM_Goods_Spicy_Original_Pack",
+      "product": "Spicy_Original",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Spicy_Original"
+    },
+    "SM_Goods_Nuts_Seeds_Pack": {
+      "mesh": "SM_Goods_Nuts_Seeds_Pack",
+      "object": "SM_Goods_Nuts_Seeds_Pack",
+      "product": "Nuts_Seeds",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Nuts_Seeds"
+    },
+    "SM_Goods_Nuts_Peanut_Pack": {
+      "mesh": "SM_Goods_Nuts_Peanut_Pack",
+      "object": "SM_Goods_Nuts_Peanut_Pack",
+      "product": "Nuts_Peanut",
+      "part": "Pack",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 380,
+      "collection": "Nuts_Peanut"
+    },
+    "SM_Goods_Jelly_Orange_Cup": {
+      "mesh": "SM_Goods_Jelly_Orange_Cup",
+      "object": "SM_Goods_Jelly_Orange_Cup",
+      "product": "Jelly_Orange",
+      "part": "Cup",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 236,
+      "collection": "Jelly_Orange"
+    },
+    "SM_Goods_Jelly_Orange_Film": {
+      "mesh": "SM_Goods_Jelly_Orange_Film",
+      "object": "SM_Goods_Jelly_Orange_Film",
+      "product": "Jelly_Orange",
+      "part": "Film",
+      "pivot_m": [
+        0,
+        0,
+        0.054
+      ],
+      "triangles": 116,
+      "collection": "Jelly_Orange"
+    },
+    "SM_Goods_Jelly_Strawberry_Cup": {
+      "mesh": "SM_Goods_Jelly_Strawberry_Cup",
+      "object": "SM_Goods_Jelly_Strawberry_Cup",
+      "product": "Jelly_Strawberry",
+      "part": "Cup",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 236,
+      "collection": "Jelly_Strawberry"
+    },
+    "SM_Goods_Jelly_Strawberry_Film": {
+      "mesh": "SM_Goods_Jelly_Strawberry_Film",
+      "object": "SM_Goods_Jelly_Strawberry_Film",
+      "product": "Jelly_Strawberry",
+      "part": "Film",
+      "pivot_m": [
+        0,
+        0,
+        0.054
+      ],
+      "triangles": 116,
+      "collection": "Jelly_Strawberry"
+    },
+    "SM_Goods_Jelly_Grape_Cup": {
+      "mesh": "SM_Goods_Jelly_Grape_Cup",
+      "object": "SM_Goods_Jelly_Grape_Cup",
+      "product": "Jelly_Grape",
+      "part": "Cup",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 236,
+      "collection": "Jelly_Grape"
+    },
+    "SM_Goods_Jelly_Grape_Film": {
+      "mesh": "SM_Goods_Jelly_Grape_Film",
+      "object": "SM_Goods_Jelly_Grape_Film",
+      "product": "Jelly_Grape",
+      "part": "Film",
+      "pivot_m": [
+        0,
+        0,
+        0.054
+      ],
+      "triangles": 116,
+      "collection": "Jelly_Grape"
+    },
+    "SM_Goods_CandyJar_Fruit_Jar": {
+      "mesh": "SM_Goods_CandyJar_Fruit_Jar",
+      "object": "SM_Goods_CandyJar_Fruit_Jar",
+      "product": "CandyJar_Fruit",
+      "part": "Jar",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 516,
+      "collection": "CandyJar_Fruit"
+    },
+    "SM_Goods_CandyJar_Fruit_Lid": {
+      "mesh": "SM_Goods_CandyJar_Fruit_Lid",
+      "object": "SM_Goods_CandyJar_Fruit_Lid",
+      "product": "CandyJar_Fruit",
+      "part": "Lid",
+      "pivot_m": [
+        0,
+        0,
+        0.137
+      ],
+      "triangles": 332,
+      "collection": "CandyJar_Fruit"
+    },
+    "SM_Goods_CandyJar_Fruit_Contents": {
+      "mesh": "SM_Goods_CandyJar_Fruit_Contents",
+      "object": "SM_Goods_CandyJar_Fruit_Contents",
+      "product": "CandyJar_Fruit",
+      "part": "Contents",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 600,
+      "collection": "CandyJar_Fruit"
+    },
+    "SM_Goods_CandyJar_Mint_Jar": {
+      "mesh": "SM_Goods_CandyJar_Mint_Jar",
+      "object": "SM_Goods_CandyJar_Mint_Jar",
+      "product": "CandyJar_Mint",
+      "part": "Jar",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 516,
+      "collection": "CandyJar_Mint"
+    },
+    "SM_Goods_CandyJar_Mint_Lid": {
+      "mesh": "SM_Goods_CandyJar_Mint_Lid",
+      "object": "SM_Goods_CandyJar_Mint_Lid",
+      "product": "CandyJar_Mint",
+      "part": "Lid",
+      "pivot_m": [
+        0,
+        0,
+        0.137
+      ],
+      "triangles": 332,
+      "collection": "CandyJar_Mint"
+    },
+    "SM_Goods_CandyJar_Mint_Contents": {
+      "mesh": "SM_Goods_CandyJar_Mint_Contents",
+      "object": "SM_Goods_CandyJar_Mint_Contents",
+      "product": "CandyJar_Mint",
+      "part": "Contents",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "triangles": 1344,
+      "collection": "CandyJar_Mint"
+    }
+  },
+  "collision_hulls": {
+    "SM_Goods_BoxIce_Vanilla_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.001500000013038516
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.001500000013038516
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.001500000013038516
+          ],
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.001500000013038516
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_BoxIce_Vanilla_Lid": [
+      {
+        "vertices_m": [
+          [
+            -0.08150000125169754,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.08150000125169754,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.08150000125169754,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.08150000125169754,
+            0.039000000804662704,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.08150000125169754,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.08150000125169754,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.08150000125169754,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.08150000125169754,
+            0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.10049999998696148
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.10049999998696148
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.10049999998696148
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.10049999998696148
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_BoxIce_Strawberry_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            -0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.10050000250339508
+          ],
+          [
+            0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ],
+          [
+            -0.07850000262260437,
+            0.03750000149011612,
+            0.10050000250339508
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.0
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.0
+          ],
+          [
+            -0.07850000262260437,
+            -0.035999998450279236,
+            0.001500000013038516
+          ],
+          [
+            0.07850000262260437,
+            -0.035999998450279236,
+            0.001500000013038516
+          ],
+          [
+            0.07850000262260437,
+            0.035999998450279236,
+            0.001500000013038516
+          ],
+          [
+            -0.07850000262260437,
+            0.035999998450279236,
+            0.001500000013038516
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_BoxIce_Strawberry_Lid": [
+      {
+        "vertices_m": [
+          [
+            -0.08150000125169754,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.08150000125169754,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.08150000125169754,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.08150000125169754,
+            0.039000000804662704,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.08150000125169754,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.08150000125169754,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.08150000125169754,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.08150000125169754,
+            0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            -0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.0884999996498227
+          ],
+          [
+            0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ],
+          [
+            -0.07999999821186066,
+            0.039000000804662704,
+            0.0884999996498227
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.102
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.102
+          ],
+          [
+            -0.07999999821186066,
+            -0.03750000149011612,
+            0.10049999998696148
+          ],
+          [
+            0.07999999821186066,
+            -0.03750000149011612,
+            0.10049999998696148
+          ],
+          [
+            0.07999999821186066,
+            0.03750000149011612,
+            0.10049999998696148
+          ],
+          [
+            -0.07999999821186066,
+            0.03750000149011612,
+            0.10049999998696148
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_IcePop_Milk_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.03339000046253204,
+            -0.00881520938128233,
+            -0.0009500000160187483
+          ],
+          [
+            0.03339000046253204,
+            -0.00881520938128233,
+            -0.0009500000160187483
+          ],
+          [
+            0.03339000046253204,
+            0.0090904226526618,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03339000046253204,
+            0.0090904226526618,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03339000046253204,
+            -0.00881520938128233,
+            0.1709499955177307
+          ],
+          [
+            0.03339000046253204,
+            -0.00881520938128233,
+            0.1709499955177307
+          ],
+          [
+            0.03339000046253204,
+            0.0090904226526618,
+            0.1709499955177307
+          ],
+          [
+            -0.03339000046253204,
+            0.0090904226526618,
+            0.1709499955177307
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_IcePop_Orange_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.03339000046253204,
+            -0.00881520938128233,
+            -0.0009500000160187483
+          ],
+          [
+            0.03339000046253204,
+            -0.00881520938128233,
+            -0.0009500000160187483
+          ],
+          [
+            0.03339000046253204,
+            0.0090904226526618,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03339000046253204,
+            0.0090904226526618,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03339000046253204,
+            -0.00881520938128233,
+            0.1709499955177307
+          ],
+          [
+            0.03339000046253204,
+            -0.00881520938128233,
+            0.1709499955177307
+          ],
+          [
+            0.03339000046253204,
+            0.0090904226526618,
+            0.1709499955177307
+          ],
+          [
+            -0.03339000046253204,
+            0.0090904226526618,
+            0.1709499955177307
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_ChocoBar_Chocolate_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.03922000154852867,
+            -0.01245817355811596,
+            -0.0009500000160187483
+          ],
+          [
+            0.03922000154852867,
+            -0.01245817355811596,
+            -0.0009500000160187483
+          ],
+          [
+            0.03922000154852867,
+            0.012982115149497986,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03922000154852867,
+            0.012982115149497986,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03922000154852867,
+            -0.01245817355811596,
+            0.1709499955177307
+          ],
+          [
+            0.03922000154852867,
+            -0.01245817355811596,
+            0.1709499955177307
+          ],
+          [
+            0.03922000154852867,
+            0.012982115149497986,
+            0.1709499955177307
+          ],
+          [
+            -0.03922000154852867,
+            0.012982115149497986,
+            0.1709499955177307
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_ChocoBar_Vanilla_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.03922000154852867,
+            -0.01245817355811596,
+            -0.0009500000160187483
+          ],
+          [
+            0.03922000154852867,
+            -0.01245817355811596,
+            -0.0009500000160187483
+          ],
+          [
+            0.03922000154852867,
+            0.012982115149497986,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03922000154852867,
+            0.012982115149497986,
+            -0.0009500000160187483
+          ],
+          [
+            -0.03922000154852867,
+            -0.01245817355811596,
+            0.1709499955177307
+          ],
+          [
+            0.03922000154852867,
+            -0.01245817355811596,
+            0.1709499955177307
+          ],
+          [
+            0.03922000154852867,
+            0.012982115149497986,
+            0.1709499955177307
+          ],
+          [
+            -0.03922000154852867,
+            0.012982115149497986,
+            0.1709499955177307
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CupIce_Strawberry_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.03500000014901161,
+            -0.03500000014901161,
+            0.0
+          ],
+          [
+            0.03500000014901161,
+            -0.03500000014901161,
+            0.0
+          ],
+          [
+            0.03500000014901161,
+            0.03500000014901161,
+            0.0
+          ],
+          [
+            -0.03500000014901161,
+            0.03500000014901161,
+            0.0
+          ],
+          [
+            -0.03500000014901161,
+            -0.03500000014901161,
+            0.11100000143051147
+          ],
+          [
+            0.03500000014901161,
+            -0.03500000014901161,
+            0.11100000143051147
+          ],
+          [
+            0.03500000014901161,
+            0.03500000014901161,
+            0.11100000143051147
+          ],
+          [
+            -0.03500000014901161,
+            0.03500000014901161,
+            0.11100000143051147
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CupIce_Strawberry_Dome": [
+      {
+        "vertices_m": [
+          [
+            -0.03999999910593033,
+            -0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            0.03999999910593033,
+            -0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            -0.03999999910593033,
+            0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            -0.03999999910593033,
+            -0.03999999910593033,
+            0.11800000071525574
+          ],
+          [
+            0.03999999910593033,
+            -0.03999999910593033,
+            0.11800000071525574
+          ],
+          [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.11800000071525574
+          ],
+          [
+            -0.03999999910593033,
+            0.03999999910593033,
+            0.11800000071525574
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CupIce_Vanilla_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.03500000014901161,
+            -0.03500000014901161,
+            0.0
+          ],
+          [
+            0.03500000014901161,
+            -0.03500000014901161,
+            0.0
+          ],
+          [
+            0.03500000014901161,
+            0.03500000014901161,
+            0.0
+          ],
+          [
+            -0.03500000014901161,
+            0.03500000014901161,
+            0.0
+          ],
+          [
+            -0.03500000014901161,
+            -0.03500000014901161,
+            0.11100000143051147
+          ],
+          [
+            0.03500000014901161,
+            -0.03500000014901161,
+            0.11100000143051147
+          ],
+          [
+            0.03500000014901161,
+            0.03500000014901161,
+            0.11100000143051147
+          ],
+          [
+            -0.03500000014901161,
+            0.03500000014901161,
+            0.11100000143051147
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CupIce_Vanilla_Dome": [
+      {
+        "vertices_m": [
+          [
+            -0.03999999910593033,
+            -0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            0.03999999910593033,
+            -0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            -0.03999999910593033,
+            0.03999999910593033,
+            0.07400000095367432
+          ],
+          [
+            -0.03999999910593033,
+            -0.03999999910593033,
+            0.11800000071525574
+          ],
+          [
+            0.03999999910593033,
+            -0.03999999910593033,
+            0.11800000071525574
+          ],
+          [
+            0.03999999910593033,
+            0.03999999910593033,
+            0.11800000071525574
+          ],
+          [
+            -0.03999999910593033,
+            0.03999999910593033,
+            0.11800000071525574
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Cone_Vanilla_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.029999999329447746,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            0.029999999329447746,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.029999999329447746,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.029999999329447746,
+            -0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            0.029999999329447746,
+            -0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            -0.029999999329447746,
+            0.029999999329447746,
+            0.1509999930858612
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Cone_Chocolate_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.029999999329447746,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            0.029999999329447746,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.029999999329447746,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.029999999329447746,
+            -0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            0.029999999329447746,
+            -0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            -0.029999999329447746,
+            0.029999999329447746,
+            0.1509999930858612
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Cone_Strawberry_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.029999999329447746,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            0.029999999329447746,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.029999999329447746,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.029999999329447746,
+            -0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            0.029999999329447746,
+            -0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            0.029999999329447746,
+            0.029999999329447746,
+            0.1509999930858612
+          ],
+          [
+            -0.029999999329447746,
+            0.029999999329447746,
+            0.1509999930858612
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_FamilyTub_Vanilla_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.10999999940395355,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10999999940395355,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10999999940395355,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10999999940395355,
+            0.07500000298023224,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10999999940395355,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10999999940395355,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10999999940395355,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10999999940395355,
+            0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.0017999999690800905
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.0017999999690800905
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.0017999999690800905
+          ],
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.0017999999690800905
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_FamilyTub_Vanilla_Lid": [
+      {
+        "vertices_m": [
+          [
+            -0.11249999701976776,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11249999701976776,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11249999701976776,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11249999701976776,
+            0.07750000059604645,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11249999701976776,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11249999701976776,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11249999701976776,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11249999701976776,
+            0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.09999999998696149
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.09999999998696149
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.09999999998696149
+          ],
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.09999999998696149
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_FamilyTub_Strawberry_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.10999999940395355,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10999999940395355,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10999999940395355,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10999999940395355,
+            0.07500000298023224,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10999999940395355,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10999999940395355,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10999999940395355,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10999999940395355,
+            0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            -0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.10000000149011612
+          ],
+          [
+            0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ],
+          [
+            -0.10819999873638153,
+            0.07500000298023224,
+            0.10000000149011612
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.0
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.0
+          ],
+          [
+            -0.10819999873638153,
+            -0.07320000231266022,
+            0.0017999999690800905
+          ],
+          [
+            0.10819999873638153,
+            -0.07320000231266022,
+            0.0017999999690800905
+          ],
+          [
+            0.10819999873638153,
+            0.07320000231266022,
+            0.0017999999690800905
+          ],
+          [
+            -0.10819999873638153,
+            0.07320000231266022,
+            0.0017999999690800905
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_FamilyTub_Strawberry_Lid": [
+      {
+        "vertices_m": [
+          [
+            -0.11249999701976776,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11249999701976776,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11249999701976776,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11249999701976776,
+            0.07750000059604645,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11249999701976776,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11249999701976776,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11249999701976776,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11249999701976776,
+            0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            -0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.09400000016763807
+          ],
+          [
+            0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ],
+          [
+            -0.11100000143051147,
+            0.07750000059604645,
+            0.09400000016763807
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.1015
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.1015
+          ],
+          [
+            -0.11100000143051147,
+            -0.07599999755620956,
+            0.09999999998696149
+          ],
+          [
+            0.11100000143051147,
+            -0.07599999755620956,
+            0.09999999998696149
+          ],
+          [
+            0.11100000143051147,
+            0.07599999755620956,
+            0.09999999998696149
+          ],
+          [
+            -0.11100000143051147,
+            0.07599999755620956,
+            0.09999999998696149
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Chips_Original_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.05299999937415123,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.05299999937415123,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.05299999937415123,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.05299999937415123,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.05299999937415123,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.05299999937415123,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.05299999937415123,
+            0.01748211495578289,
+            0.14094999432563782
+          ],
+          [
+            -0.05299999937415123,
+            0.01748211495578289,
+            0.14094999432563782
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Chips_Cucumber_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.05299999937415123,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.05299999937415123,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.05299999937415123,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.05299999937415123,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.05299999937415123,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.05299999937415123,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.05299999937415123,
+            0.01748211495578289,
+            0.14094999432563782
+          ],
+          [
+            -0.05299999937415123,
+            0.01748211495578289,
+            0.14094999432563782
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Biscuits_Butter_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.07999999821186066
+          ],
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.07999999821186066
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.08000000566244125
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.08000000566244125
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            1.0569705999330381e-08
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            1.0569705999330381e-08
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.001200008555315435
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            -0.02879999950528145,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            -0.02879999950528145,
+            0.0788000077009201
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            0.07000000029802322,
+            0.02879999950528145,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            0.02879999950528145,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.0788000077009201
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.06880000233650208,
+            -0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.06879999488592148,
+            -0.02879999950528145,
+            0.0011999980779364705
+          ],
+          [
+            -0.06879999488592148,
+            0.02879999950528145,
+            0.0011999980779364705
+          ],
+          [
+            -0.06880000233650208,
+            0.02879999950528145,
+            0.07880000025033951
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Biscuits_Butter_Tray": [
+      {
+        "vertices_m": [
+          [
+            -0.06650000065565109,
+            -0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            0.06650000065565109,
+            -0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            0.06650000065565109,
+            0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            -0.06650000065565109,
+            0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            -0.06650000065565109,
+            -0.0253800006583333,
+            0.015200000256299973
+          ],
+          [
+            0.06650000065565109,
+            -0.0253800006583333,
+            0.015200000256299973
+          ],
+          [
+            0.06650000065565109,
+            0.0253800006583333,
+            0.015200000256299973
+          ],
+          [
+            -0.06650000065565109,
+            0.0253800006583333,
+            0.015200000256299973
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Biscuits_Milk_Body": [
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.07999999821186066
+          ],
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.07999999821186066
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.08000000566244125
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.08000000566244125
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.0
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            1.0569705999330381e-08
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            1.0569705999330381e-08
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.001200008555315435
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            -0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            -0.029999999329447746,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            -0.02879999950528145,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            -0.02879999950528145,
+            0.0788000077009201
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.029999999329447746,
+            0.07880000025033951
+          ],
+          [
+            0.07000000029802322,
+            0.02879999950528145,
+            0.0788000077009201
+          ],
+          [
+            0.07000000029802322,
+            0.02879999950528145,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.001200008555315435
+          ],
+          [
+            0.07000000029802322,
+            0.029999999329447746,
+            0.0788000077009201
+          ]
+        ]
+      },
+      {
+        "vertices_m": [
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.07000000029802322,
+            -0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.0011999979615211487
+          ],
+          [
+            -0.07000000029802322,
+            0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.06880000233650208,
+            -0.02879999950528145,
+            0.07880000025033951
+          ],
+          [
+            -0.06879999488592148,
+            -0.02879999950528145,
+            0.0011999980779364705
+          ],
+          [
+            -0.06879999488592148,
+            0.02879999950528145,
+            0.0011999980779364705
+          ],
+          [
+            -0.06880000233650208,
+            0.02879999950528145,
+            0.07880000025033951
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Biscuits_Milk_Tray": [
+      {
+        "vertices_m": [
+          [
+            -0.06650000065565109,
+            -0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            0.06650000065565109,
+            -0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            0.06650000065565109,
+            0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            -0.06650000065565109,
+            0.0253800006583333,
+            0.0012000000569969416
+          ],
+          [
+            -0.06650000065565109,
+            -0.0253800006583333,
+            0.015200000256299973
+          ],
+          [
+            0.06650000065565109,
+            -0.0253800006583333,
+            0.015200000256299973
+          ],
+          [
+            0.06650000065565109,
+            0.0253800006583333,
+            0.015200000256299973
+          ],
+          [
+            -0.06650000065565109,
+            0.0253800006583333,
+            0.015200000256299973
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyBag_Fruit_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            0.12594999372959137
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            0.12594999372959137
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            0.12594999372959137
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            0.12594999372959137
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyBag_Mint_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            0.12594999372959137
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            0.12594999372959137
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            0.12594999372959137
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            0.12594999372959137
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Bakery_Bread_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.055649999529123306,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.055649999529123306,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.055649999529123306,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.055649999529123306,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.055649999529123306,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.055649999529123306,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.055649999529123306,
+            0.01748211495578289,
+            0.14094999432563782
+          ],
+          [
+            -0.055649999529123306,
+            0.01748211495578289,
+            0.14094999432563782
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Bakery_Cake_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.055649999529123306,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.055649999529123306,
+            -0.016848478466272354,
+            -0.0009500000160187483
+          ],
+          [
+            0.055649999529123306,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.055649999529123306,
+            0.01748211495578289,
+            -0.0009500000160187483
+          ],
+          [
+            -0.055649999529123306,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.055649999529123306,
+            -0.016848478466272354,
+            0.14094999432563782
+          ],
+          [
+            0.055649999529123306,
+            0.01748211495578289,
+            0.14094999432563782
+          ],
+          [
+            -0.055649999529123306,
+            0.01748211495578289,
+            0.14094999432563782
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Spicy_Hot_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            0.16095000505447388
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            0.16095000505447388
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            0.16095000505447388
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            0.16095000505447388
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Spicy_Original_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            -0.0009500000160187483
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            -0.0009500000160187483
+          ],
+          [
+            -0.045049998909235,
+            -0.012913543730974197,
+            0.16095000505447388
+          ],
+          [
+            0.045049998909235,
+            -0.012913543730974197,
+            0.16095000505447388
+          ],
+          [
+            0.045049998909235,
+            0.013482115231454372,
+            0.16095000505447388
+          ],
+          [
+            -0.045049998909235,
+            0.013482115231454372,
+            0.16095000505447388
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Nuts_Seeds_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.04769999906420708,
+            -0.014348478056490421,
+            -0.0009500000160187483
+          ],
+          [
+            0.04769999906420708,
+            -0.014348478056490421,
+            -0.0009500000160187483
+          ],
+          [
+            0.04769999906420708,
+            0.014982115477323532,
+            -0.0009500000160187483
+          ],
+          [
+            -0.04769999906420708,
+            0.014982115477323532,
+            -0.0009500000160187483
+          ],
+          [
+            -0.04769999906420708,
+            -0.014348478056490421,
+            0.14094999432563782
+          ],
+          [
+            0.04769999906420708,
+            -0.014348478056490421,
+            0.14094999432563782
+          ],
+          [
+            0.04769999906420708,
+            0.014982115477323532,
+            0.14094999432563782
+          ],
+          [
+            -0.04769999906420708,
+            0.014982115477323532,
+            0.14094999432563782
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Nuts_Peanut_Pack": [
+      {
+        "vertices_m": [
+          [
+            -0.04769999906420708,
+            -0.014348478056490421,
+            -0.0009500000160187483
+          ],
+          [
+            0.04769999906420708,
+            -0.014348478056490421,
+            -0.0009500000160187483
+          ],
+          [
+            0.04769999906420708,
+            0.014982115477323532,
+            -0.0009500000160187483
+          ],
+          [
+            -0.04769999906420708,
+            0.014982115477323532,
+            -0.0009500000160187483
+          ],
+          [
+            -0.04769999906420708,
+            -0.014348478056490421,
+            0.14094999432563782
+          ],
+          [
+            0.04769999906420708,
+            -0.014348478056490421,
+            0.14094999432563782
+          ],
+          [
+            0.04769999906420708,
+            0.014982115477323532,
+            0.14094999432563782
+          ],
+          [
+            -0.04769999906420708,
+            0.014982115477323532,
+            0.14094999432563782
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Jelly_Orange_Cup": [
+      {
+        "vertices_m": [
+          [
+            -0.03200000151991844,
+            -0.03200000151991844,
+            0.0
+          ],
+          [
+            0.03200000151991844,
+            -0.03200000151991844,
+            0.0
+          ],
+          [
+            0.03200000151991844,
+            0.03200000151991844,
+            0.0
+          ],
+          [
+            -0.03200000151991844,
+            0.03200000151991844,
+            0.0
+          ],
+          [
+            -0.03200000151991844,
+            -0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            0.03200000151991844,
+            -0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            0.03200000151991844,
+            0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            -0.03200000151991844,
+            0.03200000151991844,
+            0.05400000140070915
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Jelly_Orange_Film": [
+      {
+        "vertices_m": [
+          [
+            -0.03350000083446503,
+            -0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            0.03350000083446503,
+            -0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            0.03350000083446503,
+            0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            -0.03350000083446503,
+            0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            -0.03350000083446503,
+            -0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            0.03350000083446503,
+            -0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            0.03350000083446503,
+            0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            -0.03350000083446503,
+            0.03350000083446503,
+            0.054999999701976776
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Jelly_Strawberry_Cup": [
+      {
+        "vertices_m": [
+          [
+            -0.03200000151991844,
+            -0.03200000151991844,
+            0.0
+          ],
+          [
+            0.03200000151991844,
+            -0.03200000151991844,
+            0.0
+          ],
+          [
+            0.03200000151991844,
+            0.03200000151991844,
+            0.0
+          ],
+          [
+            -0.03200000151991844,
+            0.03200000151991844,
+            0.0
+          ],
+          [
+            -0.03200000151991844,
+            -0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            0.03200000151991844,
+            -0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            0.03200000151991844,
+            0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            -0.03200000151991844,
+            0.03200000151991844,
+            0.05400000140070915
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Jelly_Strawberry_Film": [
+      {
+        "vertices_m": [
+          [
+            -0.03350000083446503,
+            -0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            0.03350000083446503,
+            -0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            0.03350000083446503,
+            0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            -0.03350000083446503,
+            0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            -0.03350000083446503,
+            -0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            0.03350000083446503,
+            -0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            0.03350000083446503,
+            0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            -0.03350000083446503,
+            0.03350000083446503,
+            0.054999999701976776
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Jelly_Grape_Cup": [
+      {
+        "vertices_m": [
+          [
+            -0.03200000151991844,
+            -0.03200000151991844,
+            0.0
+          ],
+          [
+            0.03200000151991844,
+            -0.03200000151991844,
+            0.0
+          ],
+          [
+            0.03200000151991844,
+            0.03200000151991844,
+            0.0
+          ],
+          [
+            -0.03200000151991844,
+            0.03200000151991844,
+            0.0
+          ],
+          [
+            -0.03200000151991844,
+            -0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            0.03200000151991844,
+            -0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            0.03200000151991844,
+            0.03200000151991844,
+            0.05400000140070915
+          ],
+          [
+            -0.03200000151991844,
+            0.03200000151991844,
+            0.05400000140070915
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_Jelly_Grape_Film": [
+      {
+        "vertices_m": [
+          [
+            -0.03350000083446503,
+            -0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            0.03350000083446503,
+            -0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            0.03350000083446503,
+            0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            -0.03350000083446503,
+            0.03350000083446503,
+            0.05400000140070915
+          ],
+          [
+            -0.03350000083446503,
+            -0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            0.03350000083446503,
+            -0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            0.03350000083446503,
+            0.03350000083446503,
+            0.054999999701976776
+          ],
+          [
+            -0.03350000083446503,
+            0.03350000083446503,
+            0.054999999701976776
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyJar_Fruit_Jar": [
+      {
+        "vertices_m": [
+          [
+            -0.04399999976158142,
+            -0.04399999976158142,
+            0.0
+          ],
+          [
+            0.04399999976158142,
+            -0.04399999976158142,
+            0.0
+          ],
+          [
+            0.04399999976158142,
+            0.04399999976158142,
+            0.0
+          ],
+          [
+            -0.04399999976158142,
+            0.04399999976158142,
+            0.0
+          ],
+          [
+            -0.04399999976158142,
+            -0.04399999976158142,
+            0.14000000059604645
+          ],
+          [
+            0.04399999976158142,
+            -0.04399999976158142,
+            0.14000000059604645
+          ],
+          [
+            0.04399999976158142,
+            0.04399999976158142,
+            0.14000000059604645
+          ],
+          [
+            -0.04399999976158142,
+            0.04399999976158142,
+            0.14000000059604645
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyJar_Fruit_Lid": [
+      {
+        "vertices_m": [
+          [
+            -0.03931200131773949,
+            -0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            0.03931200131773949,
+            -0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            0.03931200131773949,
+            0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            -0.03931200131773949,
+            0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            -0.03931200131773949,
+            -0.03931200131773949,
+            0.15399999916553497
+          ],
+          [
+            0.03931200131773949,
+            -0.03931200131773949,
+            0.15399999916553497
+          ],
+          [
+            0.03931200131773949,
+            0.03931200131773949,
+            0.15399999916553497
+          ],
+          [
+            -0.03931200131773949,
+            0.03931200131773949,
+            0.15399999916553497
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyJar_Fruit_Contents": [
+      {
+        "vertices_m": [
+          [
+            -0.030450424179434776,
+            -0.030476421117782593,
+            0.020500000566244125
+          ],
+          [
+            0.030450424179434776,
+            -0.030476421117782593,
+            0.020500000566244125
+          ],
+          [
+            0.030450424179434776,
+            0.030476417392492294,
+            0.020500000566244125
+          ],
+          [
+            -0.030450424179434776,
+            0.030476417392492294,
+            0.020500000566244125
+          ],
+          [
+            -0.030450424179434776,
+            -0.030476421117782593,
+            0.10599999874830246
+          ],
+          [
+            0.030450424179434776,
+            -0.030476421117782593,
+            0.10599999874830246
+          ],
+          [
+            0.030450424179434776,
+            0.030476417392492294,
+            0.10599999874830246
+          ],
+          [
+            -0.030450424179434776,
+            0.030476417392492294,
+            0.10599999874830246
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyJar_Mint_Jar": [
+      {
+        "vertices_m": [
+          [
+            -0.04399999976158142,
+            -0.04399999976158142,
+            0.0
+          ],
+          [
+            0.04399999976158142,
+            -0.04399999976158142,
+            0.0
+          ],
+          [
+            0.04399999976158142,
+            0.04399999976158142,
+            0.0
+          ],
+          [
+            -0.04399999976158142,
+            0.04399999976158142,
+            0.0
+          ],
+          [
+            -0.04399999976158142,
+            -0.04399999976158142,
+            0.14000000059604645
+          ],
+          [
+            0.04399999976158142,
+            -0.04399999976158142,
+            0.14000000059604645
+          ],
+          [
+            0.04399999976158142,
+            0.04399999976158142,
+            0.14000000059604645
+          ],
+          [
+            -0.04399999976158142,
+            0.04399999976158142,
+            0.14000000059604645
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyJar_Mint_Lid": [
+      {
+        "vertices_m": [
+          [
+            -0.03931200131773949,
+            -0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            0.03931200131773949,
+            -0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            0.03931200131773949,
+            0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            -0.03931200131773949,
+            0.03931200131773949,
+            0.13699999451637268
+          ],
+          [
+            -0.03931200131773949,
+            -0.03931200131773949,
+            0.15399999916553497
+          ],
+          [
+            0.03931200131773949,
+            -0.03931200131773949,
+            0.15399999916553497
+          ],
+          [
+            0.03931200131773949,
+            0.03931200131773949,
+            0.15399999916553497
+          ],
+          [
+            -0.03931200131773949,
+            0.03931200131773949,
+            0.15399999916553497
+          ]
+        ]
+      }
+    ],
+    "SM_Goods_CandyJar_Mint_Contents": [
+      {
+        "vertices_m": [
+          [
+            -0.03099999949336052,
+            -0.03039826825261116,
+            0.017000000923871994
+          ],
+          [
+            0.03099999949336052,
+            -0.03039826825261116,
+            0.017000000923871994
+          ],
+          [
+            0.03099999949336052,
+            0.03039826825261116,
+            0.017000000923871994
+          ],
+          [
+            -0.03099999949336052,
+            0.03039826825261116,
+            0.017000000923871994
+          ],
+          [
+            -0.03099999949336052,
+            -0.03039826825261116,
+            0.11500000208616257
+          ],
+          [
+            0.03099999949336052,
+            -0.03039826825261116,
+            0.11500000208616257
+          ],
+          [
+            0.03099999949336052,
+            0.03039826825261116,
+            0.11500000208616257
+          ],
+          [
+            -0.03099999949336052,
+            0.03039826825261116,
+            0.11500000208616257
+          ]
+        ]
+      }
+    ]
+  },
+  "assemblies": {
+    "BP_Goods_BoxIce_Vanilla": [
+      "SM_Goods_BoxIce_Vanilla_Body",
+      "SM_Goods_BoxIce_Vanilla_Lid"
+    ],
+    "BP_Goods_BoxIce_Strawberry": [
+      "SM_Goods_BoxIce_Strawberry_Body",
+      "SM_Goods_BoxIce_Strawberry_Lid"
+    ],
+    "BP_Goods_CupIce_Strawberry": [
+      "SM_Goods_CupIce_Strawberry_Body",
+      "SM_Goods_CupIce_Strawberry_Dome"
+    ],
+    "BP_Goods_CupIce_Vanilla": [
+      "SM_Goods_CupIce_Vanilla_Body",
+      "SM_Goods_CupIce_Vanilla_Dome"
+    ],
+    "BP_Goods_FamilyTub_Vanilla": [
+      "SM_Goods_FamilyTub_Vanilla_Body",
+      "SM_Goods_FamilyTub_Vanilla_Lid"
+    ],
+    "BP_Goods_FamilyTub_Strawberry": [
+      "SM_Goods_FamilyTub_Strawberry_Body",
+      "SM_Goods_FamilyTub_Strawberry_Lid"
+    ],
+    "BP_Goods_Biscuits_Butter": [
+      "SM_Goods_Biscuits_Butter_Body",
+      "SM_Goods_Biscuits_Butter_Tray"
+    ],
+    "BP_Goods_Biscuits_Milk": [
+      "SM_Goods_Biscuits_Milk_Body",
+      "SM_Goods_Biscuits_Milk_Tray"
+    ],
+    "BP_Goods_Jelly_Orange": [
+      "SM_Goods_Jelly_Orange_Cup",
+      "SM_Goods_Jelly_Orange_Film"
+    ],
+    "BP_Goods_Jelly_Strawberry": [
+      "SM_Goods_Jelly_Strawberry_Cup",
+      "SM_Goods_Jelly_Strawberry_Film"
+    ],
+    "BP_Goods_Jelly_Grape": [
+      "SM_Goods_Jelly_Grape_Cup",
+      "SM_Goods_Jelly_Grape_Film"
+    ],
+    "BP_Goods_CandyJar_Fruit": [
+      "SM_Goods_CandyJar_Fruit_Jar",
+      "SM_Goods_CandyJar_Fruit_Lid",
+      "SM_Goods_CandyJar_Fruit_Contents"
+    ],
+    "BP_Goods_CandyJar_Mint": [
+      "SM_Goods_CandyJar_Mint_Jar",
+      "SM_Goods_CandyJar_Mint_Lid",
+      "SM_Goods_CandyJar_Mint_Contents"
+    ]
+  },
+  "textures": {
+    "M_Goods_BoxIce": {
+      "base_color": "T_Ice_BoxIce_BaseColor.png",
+      "orm": "T_Ice_BoxIce_ORM.png"
+    },
+    "M_Goods_IcePop": {
+      "base_color": "T_Ice_IcePop_BaseColor.png",
+      "orm": "T_Ice_IcePop_ORM.png"
+    },
+    "M_Goods_ChocoBar": {
+      "base_color": "T_Ice_ChocoBar_BaseColor.png",
+      "orm": "T_Ice_ChocoBar_ORM.png"
+    },
+    "M_Goods_CupIce": {
+      "base_color": "T_Ice_CupIce_BaseColor.png",
+      "orm": "T_Ice_CupIce_ORM.png"
+    },
+    "M_Goods_Cone": {
+      "base_color": "T_Ice_Cone_BaseColor.png",
+      "orm": "T_Ice_Cone_ORM.png"
+    },
+    "M_Goods_FamilyTub": {
+      "base_color": "T_Ice_FamilyTub_BaseColor.png",
+      "orm": "T_Ice_FamilyTub_ORM.png"
+    },
+    "M_Goods_Chips": {
+      "base_color": "T_Goods_Chips_BaseColor.png",
+      "orm": "T_Goods_Chips_ORM.png"
+    },
+    "M_Goods_Biscuits": {
+      "base_color": "T_Goods_Biscuits_BaseColor.png",
+      "orm": "T_Goods_Biscuits_ORM.png"
+    },
+    "M_Goods_CandyBag": {
+      "base_color": "T_Goods_CandyBag_BaseColor.png",
+      "orm": "T_Goods_CandyBag_ORM.png"
+    },
+    "M_Goods_Bakery": {
+      "base_color": "T_Goods_Bakery_BaseColor.png",
+      "orm": "T_Goods_Bakery_ORM.png"
+    },
+    "M_Goods_Spicy": {
+      "base_color": "T_Goods_Spicy_BaseColor.png",
+      "orm": "T_Goods_Spicy_ORM.png"
+    },
+    "M_Goods_Nuts": {
+      "base_color": "T_Goods_Nuts_BaseColor.png",
+      "orm": "T_Goods_Nuts_ORM.png"
+    },
+    "M_Goods_Jelly": {
+      "base_color": "T_Goods_Jelly_BaseColor.png",
+      "orm": "T_Goods_Jelly_ORM.png"
+    },
+    "M_Goods_CandyJar": {
+      "base_color": "T_Goods_CandyJar_BaseColor.png",
+      "orm": "T_Goods_CandyJar_ORM.png"
+    },
+    "normal": "T_Goods_Pack_Normal.png"
+  },
+  "generic_materials": {
+    "M_Goods_PaperInside": {
+      "type": "solid",
+      "color": [
+        0.89,
+        0.86,
+        0.77
+      ],
+      "roughness": 0.76,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CreamVanilla": {
+      "type": "solid",
+      "color": [
+        0.95,
+        0.85,
+        0.64
+      ],
+      "roughness": 0.46,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CreamPink": {
+      "type": "solid",
+      "color": [
+        0.91,
+        0.51,
+        0.6
+      ],
+      "roughness": 0.46,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CreamChocolate": {
+      "type": "solid",
+      "color": [
+        0.34,
+        0.13,
+        0.055
+      ],
+      "roughness": 0.43,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CapRed": {
+      "type": "solid",
+      "color": [
+        0.72,
+        0.055,
+        0.035
+      ],
+      "roughness": 0.33,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CapGold": {
+      "type": "solid",
+      "color": [
+        0.84,
+        0.6,
+        0.13
+      ],
+      "roughness": 0.36,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyRed": {
+      "type": "solid",
+      "color": [
+        0.82,
+        0.075,
+        0.055
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyGold": {
+      "type": "solid",
+      "color": [
+        0.95,
+        0.69,
+        0.12
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyPink": {
+      "type": "solid",
+      "color": [
+        0.89,
+        0.35,
+        0.6
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyPurple": {
+      "type": "solid",
+      "color": [
+        0.42,
+        0.15,
+        0.57
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyGreen": {
+      "type": "solid",
+      "color": [
+        0.15,
+        0.55,
+        0.23
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_FoilSilver": {
+      "type": "solid",
+      "color": [
+        0.78,
+        0.8,
+        0.77
+      ],
+      "roughness": 0.32,
+      "metallic": 0.65,
+      "color_space": "srgb"
+    },
+    "M_Goods_ClearPET": {
+      "type": "translucent",
+      "color": [
+        0.96,
+        0.98,
+        1
+      ],
+      "roughness": 0.1,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.13,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JarGlass": {
+      "type": "translucent",
+      "color": [
+        0.94,
+        0.98,
+        1
+      ],
+      "roughness": 0.095,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.1,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_TrayPET": {
+      "type": "translucent",
+      "color": [
+        0.94,
+        0.97,
+        1
+      ],
+      "roughness": 0.2,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.22,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JellyOrange": {
+      "type": "translucent",
+      "color": [
+        0.96,
+        0.52,
+        0.045
+      ],
+      "roughness": 0.16,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.72,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JellyStrawberry": {
+      "type": "translucent",
+      "color": [
+        0.85,
+        0.16,
+        0.26
+      ],
+      "roughness": 0.16,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.72,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JellyGrape": {
+      "type": "translucent",
+      "color": [
+        0.4,
+        0.12,
+        0.52
+      ],
+      "roughness": 0.16,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.72,
+      "ior": 1.035,
+      "two_sided": true
+    }
+  },
+  "product_triangles": {
+    "BoxIce_Vanilla": 504,
+    "BoxIce_Strawberry": 504,
+    "IcePop_Milk": 380,
+    "IcePop_Orange": 380,
+    "ChocoBar_Chocolate": 380,
+    "ChocoBar_Vanilla": 380,
+    "CupIce_Strawberry": 1000,
+    "CupIce_Vanilla": 1000,
+    "Cone_Vanilla": 472,
+    "Cone_Chocolate": 472,
+    "Cone_Strawberry": 472,
+    "FamilyTub_Vanilla": 948,
+    "FamilyTub_Strawberry": 948,
+    "Chips_Original": 380,
+    "Chips_Cucumber": 380,
+    "Biscuits_Butter": 528,
+    "Biscuits_Milk": 528,
+    "CandyBag_Fruit": 380,
+    "CandyBag_Mint": 380,
+    "Bakery_Bread": 380,
+    "Bakery_Cake": 380,
+    "Spicy_Hot": 380,
+    "Spicy_Original": 380,
+    "Nuts_Seeds": 380,
+    "Nuts_Peanut": 380,
+    "Jelly_Orange": 352,
+    "Jelly_Strawberry": 352,
+    "Jelly_Grape": 352,
+    "CandyJar_Fruit": 1448,
+    "CandyJar_Mint": 2192
+  },
+  "total_triangles": 17392,
+  "product_count": 30,
+  "family_count": 14,
+  "preview_collection": "_PreviewOnly",
+  "front_camera": "01 Goods overview",
+  "budget_target_met": true,
+  "normal_convention": "OpenGL +Y"
+}

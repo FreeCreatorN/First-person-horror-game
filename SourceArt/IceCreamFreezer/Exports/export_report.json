@@ -1,0 +1,323 @@
+{
+  "success": true,
+  "source_sha256": "f48993258d0b22ee1228d2d8f0fc4ce15165125e8176ecb974fd9cca5fe6d42d",
+  "baked_resolution": 2048,
+  "assets": [
+    {
+      "name": "SM_IceCreamFreezer_Body",
+      "fbx": "SM_IceCreamFreezer_Body.fbx",
+      "triangles": 404,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.6600000262260437,
+        -0.36399999260902405,
+        0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.6499999761581421,
+        0.3499999940395355,
+        0.7649999856948853
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_TopFrame",
+      "fbx": "SM_IceCreamFreezer_TopFrame.fbx",
+      "triangles": 184,
+      "collision_hulls": 4,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.6499999761581421,
+        -0.3499999940395355,
+        0.7649999856948853
+      ],
+      "bounds_max_m": [
+        0.6499999761581421,
+        0.3499999940395355,
+        0.8790000081062317
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_GlassDoorLeft",
+      "fbx": "SM_IceCreamFreezer_GlassDoorLeft.fbx",
+      "triangles": 244,
+      "collision_hulls": 4,
+      "slots": [
+        "M_Freezer_Opaque",
+        "M_Freezer_Glass"
+      ],
+      "pivot_m": [
+        -0.3009999990463257,
+        0.0,
+        0.800000011920929
+      ],
+      "bounds_min_m": [
+        -0.3109999895095825,
+        -0.3179999887943268,
+        -0.0059233903884887695
+      ],
+      "bounds_max_m": [
+        0.3109999895095825,
+        0.3179999887943268,
+        0.05900001525878906
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_GlassDoorRight",
+      "fbx": "SM_IceCreamFreezer_GlassDoorRight.fbx",
+      "triangles": 244,
+      "collision_hulls": 4,
+      "slots": [
+        "M_Freezer_Opaque",
+        "M_Freezer_Glass"
+      ],
+      "pivot_m": [
+        0.3009999990463257,
+        0.0,
+        0.8119999766349792
+      ],
+      "bounds_min_m": [
+        -0.3109999895095825,
+        -0.3179999887943268,
+        -0.0059233903884887695
+      ],
+      "bounds_max_m": [
+        0.3109999895095825,
+        0.3179999887943268,
+        0.05900001525878906
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_Liner",
+      "fbx": "SM_IceCreamFreezer_Liner.fbx",
+      "triangles": 60,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.6060000061988831,
+        -0.3059999942779541,
+        0.20499999821186066
+      ],
+      "bounds_max_m": [
+        0.6060000061988831,
+        0.3059999942779541,
+        0.7649999856948853
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_BasketLeft",
+      "fbx": "SM_IceCreamFreezer_BasketLeft.fbx",
+      "triangles": 708,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        -0.2849999964237213,
+        0.0,
+        0.5149999856948853
+      ],
+      "bounds_min_m": [
+        -0.24627277255058289,
+        -0.31200000643730164,
+        -0.0012727975845336914
+      ],
+      "bounds_max_m": [
+        0.24627278745174408,
+        0.31200000643730164,
+        0.25882846117019653
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_BasketRight",
+      "fbx": "SM_IceCreamFreezer_BasketRight.fbx",
+      "triangles": 708,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        0.2849999964237213,
+        0.0,
+        0.5149999856948853
+      ],
+      "bounds_min_m": [
+        -0.24627278745174408,
+        -0.31200000643730164,
+        -0.0012727975845336914
+      ],
+      "bounds_max_m": [
+        0.24627277255058289,
+        0.31200000643730164,
+        0.25882846117019653
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelFL",
+      "fbx": "SM_IceCreamFreezer_WheelFL.fbx",
+      "triangles": 184,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        -0.5699999928474426,
+        -0.27000001072883606,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.03600001335144043,
+        -0.027500003576278687,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.03799998760223389,
+        0.027500003576278687,
+        0.0
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelFR",
+      "fbx": "SM_IceCreamFreezer_WheelFR.fbx",
+      "triangles": 184,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        0.5699999928474426,
+        -0.27000001072883606,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.03600001335144043,
+        -0.027500003576278687,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.03799998760223389,
+        0.027500003576278687,
+        0.0
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelRL",
+      "fbx": "SM_IceCreamFreezer_WheelRL.fbx",
+      "triangles": 184,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        -0.5699999928474426,
+        0.27000001072883606,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.03600001335144043,
+        -0.027500003576278687,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.03799998760223389,
+        0.027500003576278687,
+        0.0
+      ]
+    },
+    {
+      "name": "SM_IceCreamFreezer_WheelRR",
+      "fbx": "SM_IceCreamFreezer_WheelRR.fbx",
+      "triangles": 184,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Freezer_Opaque"
+      ],
+      "pivot_m": [
+        0.5699999928474426,
+        0.27000001072883606,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.03600001335144043,
+        -0.027500003576278687,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.03799998760223389,
+        0.027500003576278687,
+        0.0
+      ]
+    }
+  ],
+  "doors": {
+    "left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_IceCreamFreezer_GlassDoorLeft",
+      "pivot_m": [
+        -0.301,
+        0,
+        0.8
+      ],
+      "closed_ue_cm": [
+        -30.099999999999998,
+        0,
+        80.0
+      ],
+      "travel_cm": 60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorLeft"
+    },
+    "right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_IceCreamFreezer_GlassDoorRight",
+      "pivot_m": [
+        0.301,
+        0,
+        0.812
+      ],
+      "closed_ue_cm": [
+        30.099999999999998,
+        0,
+        81.2
+      ],
+      "travel_cm": -60.2,
+      "parent": "SM_IceCreamFreezer_GlassDoorRight"
+    }
+  },
+  "total_triangles": 3288,
+  "sha256": {
+    "SM_IceCreamFreezer_BasketLeft.fbx": "3e0ec6540a6350b1962dca127febdf74cacac16e163259409a18d673f9f1a8f0",
+    "SM_IceCreamFreezer_BasketRight.fbx": "2648cba9942f23d34fb671f090ccc52d0dbf287f808473b4242a0f5a6c7275c0",
+    "SM_IceCreamFreezer_Body.fbx": "bf565a154465af85237a3955d741e9a92720a1662e347a770d8d11e08e85d2f4",
+    "SM_IceCreamFreezer_GlassDoorLeft.fbx": "19c252daf2a9dac88e409b7b1a9aa0385f24c60f677d139a9b5adcd05af57ec8",
+    "SM_IceCreamFreezer_GlassDoorRight.fbx": "d81105ae18ecb9ca22fec11ea576f49c31f69d6794759cbf1fbfda0e8903096e",
+    "SM_IceCreamFreezer_Liner.fbx": "5fb21d105b55df04eef226f423b251efa50d8160ee0ecb87d44d882a42725e47",
+    "SM_IceCreamFreezer_TopFrame.fbx": "8675f22ec2010588f5c6d31ad4d93860c2c9c3a9a2833a5cf099f449fec1c560",
+    "SM_IceCreamFreezer_WheelFL.fbx": "b4441a57e6490e970f66075eb7f2cde7c4723d9c0f83c932f752ab00ec1d3c08",
+    "SM_IceCreamFreezer_WheelFR.fbx": "e478cd5f56c45d80a15edabf9d222e21a17fab16b7093ad483754fa98f5dfa03",
+    "SM_IceCreamFreezer_WheelRL.fbx": "4898025b9fe8945463d79a8a0f0fe407d06359213bea8898a432101ae7b29b31",
+    "SM_IceCreamFreezer_WheelRR.fbx": "4c31f82d5d8125f45fb429cb10dc3323a5f079dfd441737b190754d4cf52eaab",
+    "T_IceCreamFreezer_BaseColor.png": "7f395b4fc58e4c465f24e2fda981b405fb20db8771c95c2e3dfc08bfef979991",
+    "T_IceCreamFreezer_ORM.png": "7108203aecdc09b238f2c12057007bbae36335910a1b9f5d4e8ba0d173f4bd0c"
+  }
+}

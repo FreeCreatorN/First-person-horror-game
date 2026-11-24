@@ -1,0 +1,204 @@
+{
+  "version": "1.0",
+  "name": "BeverageDisplayFridge",
+  "scene": {
+    "unit_system": "metric",
+    "unit_scale": 1.0,
+    "frame_start": 1,
+    "frame_end": 150,
+    "frame_current": 1,
+    "fps": 30
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution_x": 2200,
+    "resolution_y": 3000,
+    "resolution_percentage": 100,
+    "samples": 128,
+    "use_denoising": true,
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/"
+  },
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "use_hdri": false,
+    "hdri_path": null,
+    "hdri_strength": 1.0
+  },
+  "objects": [
+    {
+      "name": "SM_BeverageDisplayFridge_TopLightbox",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_GlassDoor",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_DoorHandle",
+      "type": "MESH"
+    },
+    {
+      "name": "DoorHinge",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_DoorFrame",
+      "type": "MESH"
+    },
+    {
+      "name": "Shelves",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf01",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf02",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf03",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf04",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf05",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_InnerLiner",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_OuterBody",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_VentGrille",
+      "type": "MESH"
+    },
+    {
+      "name": "BaseFeet",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootFL",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootFR",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootRL",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootRR",
+      "type": "MESH"
+    },
+    {
+      "name": "01 Beverage fridge front45",
+      "type": "CAMERA"
+    },
+    {
+      "name": "02 Beverage fridge open",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Key strip",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Upper fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Side softbox",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Preview floor",
+      "type": "MESH"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Fridge preview floor"
+    },
+    {
+      "name": "M_Fridge_DarkRubber"
+    },
+    {
+      "name": "M_Fridge_GlassPreview"
+    },
+    {
+      "name": "M_Fridge_red"
+    },
+    {
+      "name": "M_Fridge_SidePrint"
+    },
+    {
+      "name": "M_Fridge_Sign"
+    },
+    {
+      "name": "M_Fridge_SignWhite"
+    },
+    {
+      "name": "M_Fridge_steel"
+    },
+    {
+      "name": "M_Fridge_WhiteCoating"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01 Beverage fridge front45",
+      "is_active": true
+    },
+    {
+      "name": "02 Beverage fridge open",
+      "is_active": false
+    }
+  ],
+  "lights": [
+    {
+      "name": "Key strip"
+    },
+    {
+      "name": "Upper fill"
+    },
+    {
+      "name": "Side softbox"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-18T23:07:21.346515",
+    "modified": "2026-11-18T23:07:21.346515",
+    "software": "blender-cli 1.0"
+  },
+  "native_blend": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\BeverageDisplayFridge\\BeverageDisplayFridge.blend",
+    "sha256": "2a6c32f8a0fab9ac84d3786430c1172b1457a22f6784af862ce644ed50d9ebf7",
+    "camera": "01 Beverage fridge front45",
+    "adapter": "source-file-loader/v1"
+  }
+}

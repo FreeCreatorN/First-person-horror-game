@@ -1,0 +1,67 @@
+{
+  "protocol_version": "preview-bundle/v1",
+  "bundle_id": "20261123T050754Z_3ba0f65d_quick",
+  "bundle_kind": "capture",
+  "software": "blender",
+  "recipe": "quick",
+  "status": "ok",
+  "created_at": "2026-11-23T05:08:08.695222Z",
+  "cache_key": "sha256:3ba0f65dcea3137a45ba7ec747ba673d2f0c5e14311f0b0a22930a5897f97304",
+  "generator": {
+    "entry_point": "cli-anything-blender",
+    "harness_version": "1.0.0",
+    "command": "cli-anything-blender --project D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\ThreeSeatSofa.frame1.native-preview.blend-cli.json preview capture --recipe quick"
+  },
+  "source": {
+    "project_path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ThreeSeatSofa\\ThreeSeatSofa.frame1.native-preview.blend-cli.json",
+    "project_name": "ThreeSeatSofa.frame1.native-preview.blend-cli.json",
+    "project_fingerprint": "sha256:b89ced14ec5793d50940a3874a6a9f41d3e53808843c943e6daffef6bb7b2497"
+  },
+  "summary_path": "summary.json",
+  "artifacts": [
+    {
+      "artifact_id": "hero",
+      "role": "hero",
+      "kind": "image",
+      "label": "Eevee preview",
+      "media_type": "image/png",
+      "path": "artifacts/hero.png",
+      "bytes": 1422712,
+      "width": 1400,
+      "height": 950,
+      "preset": "eevee_preview",
+      "blender_method": "blender-headless-native-source"
+    },
+    {
+      "artifact_id": "workbench",
+      "role": "gallery",
+      "kind": "image",
+      "label": "Workbench structure view",
+      "media_type": "image/png",
+      "path": "artifacts/workbench.png",
+      "bytes": 1312437,
+      "width": 1400,
+      "height": 950,
+      "preset": "workbench",
+      "blender_method": "blender-headless-native-source"
+    }
+  ],
+  "context": {
+    "frame_range": "1-250",
+    "fps": 24,
+    "primary_preset": "eevee_preview",
+    "secondary_preset": "workbench"
+  },
+  "metrics": {
+    "object_count": 22,
+    "material_count": 7,
+    "camera_count": 3,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "labels": [
+    "3d",
+    "scene",
+    "preview"
+  ]
+}

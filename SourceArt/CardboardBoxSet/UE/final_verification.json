@@ -1,0 +1,255 @@
+{
+  "success": true,
+  "target_root": "/Game/Yastars/Mesh/CardboardBoxSet",
+  "run_id": "0a6278a3-b9a2-468a-bcaa-6ccb94d0ac13",
+  "package_count": 37,
+  "mesh_count": 13,
+  "material_count": 7,
+  "texture_count": 15,
+  "variant_triangles": {
+    "A": 296,
+    "B": 268,
+    "C": 480,
+    "D": 296,
+    "E": 592,
+    "F": 432,
+    "G": 432,
+    "H": 432
+  },
+  "blueprints": {
+    "BP_CardboardBox_B_Open": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/BP_CardboardBox_B_Open.BP_CardboardBox_B_Open",
+      "components": {
+        "B_Body": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_Body.SM_CardboardBox_B_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapFront": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapFront.SM_CardboardBox_B_FlapFront",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            19.79999989271164,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapBack": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapBack.SM_CardboardBox_B_FlapBack",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -19.79999989271164,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapLeft": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapLeft.SM_CardboardBox_B_FlapLeft",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            -29.80000078678131,
+            -0.0,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "B_FlapRight": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_B_FlapRight.SM_CardboardBox_B_FlapRight",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            29.80000078678131,
+            -0.0,
+            30.000001192092896
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 5,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    },
+    "BP_CardboardBox_C_Storage": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/BP_CardboardBox_C_Storage.BP_CardboardBox_C_Storage",
+      "components": {
+        "C_Body": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Body.SM_CardboardBox_C_Body",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        },
+        "C_Lid": {
+          "mesh": "/Game/Yastars/Mesh/CardboardBoxSet/SM_CardboardBox_C_Lid.SM_CardboardBox_C_Lid",
+          "parent": "DefaultSceneRoot",
+          "relative_location_cm": [
+            0.0,
+            -0.0,
+            27.000001072883606
+          ],
+          "movable": true,
+          "collision": "BlockAllDynamic"
+        }
+      },
+      "static_mesh_count": 2,
+      "blueprint_ready": true,
+      "interaction_events_installed": false,
+      "animation_installed": false
+    }
+  },
+  "materials": {
+    "Standard": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Standard.M_Cardboard_Standard",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Standard_BaseColor.T_Carton_Standard_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Standard_ORM.T_Carton_Standard_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Damaged": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Damaged.M_Cardboard_Damaged",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Damaged_BaseColor.T_Carton_Damaged_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Damaged_ORM.T_Carton_Damaged_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Fruit": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Fruit.M_Cardboard_Fruit",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Fruit_BaseColor.T_Carton_Fruit_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Fruit_ORM.T_Carton_Fruit_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Water": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Water.M_Cardboard_Water",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Water_BaseColor.T_Carton_Water_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Water_ORM.T_Carton_Water_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Noodles": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Noodles.M_Cardboard_Noodles",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Noodles_BaseColor.T_Carton_Noodles_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Noodles_ORM.T_Carton_Noodles_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 2048
+    },
+    "Tape": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Tape.M_Cardboard_Tape",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Tape_BaseColor.T_Carton_Tape_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Tape_ORM.T_Carton_Tape_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 512
+    },
+    "Edge": {
+      "asset": "/Game/Yastars/Mesh/CardboardBoxSet/Materials/M_Cardboard_Edge.M_Cardboard_Edge",
+      "opaque": true,
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Plain_BaseColor.T_Carton_Plain_BaseColor",
+        "orm": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Plain_ORM.T_Carton_Plain_ORM",
+        "normal": "/Game/Yastars/Mesh/CardboardBoxSet/Textures/T_Carton_Shared_Normal.T_Carton_Shared_Normal"
+      },
+      "orm_channels": {
+        "R": "AmbientOcclusion",
+        "G": "Roughness",
+        "B": "Metallic"
+      },
+      "normal_connected": true,
+      "normal_green_flipped": true,
+      "resolution": 512
+    }
+  },
+  "protected_paths_verified": 498,
+  "verified_in_running_editor": true,
+  "verified_in_fresh_editor": true,
+  "lightmap_uv_available": {
+    "SM_CardboardBox_A_Sealed": false,
+    "SM_CardboardBox_B_Body": false,
+    "SM_CardboardBox_B_FlapFront": false,
+    "SM_CardboardBox_B_FlapBack": false,
+    "SM_CardboardBox_B_FlapLeft": false,
+    "SM_CardboardBox_B_FlapRight": false,
+    "SM_CardboardBox_C_Body": false,
+    "SM_CardboardBox_C_Lid": false,
+    "SM_CardboardBox_D_Damaged": false,
+    "SM_CardboardBox_E_Stack": false,
+    "SM_CardboardBox_F_Fruit": false,
+    "SM_CardboardBox_G_Water": false,
+    "SM_CardboardBox_H_Noodles": false
+  }
+}

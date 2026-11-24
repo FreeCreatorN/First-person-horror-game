@@ -1,0 +1,20 @@
+{
+  "headline": "Blender quick preview rendered for frame 1",
+  "facts": {
+    "recipe": "quick",
+    "scene_name": "Shop counter · planning sheet · low poly.001",
+    "frame": 1,
+    "hero_resolution": "1560x1080",
+    "workbench_resolution": "1560x1080",
+    "object_count": 147,
+    "material_count": 29,
+    "camera_count": 3,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "warnings": [],
+  "next_actions": [
+    "Inspect hero.png for shading, materials, and framing.",
+    "Inspect workbench.png for silhouette and structural problems."
+  ]
+}

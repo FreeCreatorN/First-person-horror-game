@@ -1,0 +1,111 @@
+{
+  "source": "original generic fictional shop-label artwork",
+  "color_space": "sRGB",
+  "suggested_roughness": 0.78,
+  "atlas": "T_StockLabels_Atlas.png",
+  "atlas_size": [
+    2048,
+    2048
+  ],
+  "labels": [
+    {
+      "file": "T_StockLabel_Mint.png",
+      "pixels": [
+        0,
+        0,
+        1024,
+        384
+      ],
+      "uv_blender": [
+        0.0,
+        0.8125,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "file": "T_StockLabel_Biscuit.png",
+      "pixels": [
+        1024,
+        0,
+        1024,
+        384
+      ],
+      "uv_blender": [
+        0.5,
+        0.8125,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "file": "T_StockLabel_Tea.png",
+      "pixels": [
+        0,
+        384,
+        1024,
+        384
+      ],
+      "uv_blender": [
+        0.0,
+        0.625,
+        0.5,
+        0.8125
+      ]
+    },
+    {
+      "file": "T_StockLabel_Citrus.png",
+      "pixels": [
+        1024,
+        384,
+        1024,
+        384
+      ],
+      "uv_blender": [
+        0.5,
+        0.625,
+        1.0,
+        0.8125
+      ]
+    },
+    {
+      "file": "T_StockLabel_JarSweets.png",
+      "pixels": [
+        96,
+        960,
+        768,
+        768
+      ],
+      "uv_blender": [
+        0.046875,
+        0.15625,
+        0.421875,
+        0.53125
+      ]
+    },
+    {
+      "file": "T_StockLabel_JarPlum.png",
+      "pixels": [
+        1184,
+        960,
+        768,
+        768
+      ],
+      "uv_blender": [
+        0.578125,
+        0.15625,
+        0.953125,
+        0.53125
+      ]
+    }
+  ],
+  "sha256": {
+    "T_StockLabel_Mint.png": "be59c8b89ba04ce5c489b266e98b84237db6a23f6a7e271bd159652822e3507e",
+    "T_StockLabel_Biscuit.png": "a53ace33f34f0b02e4e23042a15c94ea3b15043ad003a9aff4acbbb5ff5ab2e7",
+    "T_StockLabel_Tea.png": "59df0633791b4203f1dd2e6445f981e0d24f59d6d83635202a25b7e0db03f7c3",
+    "T_StockLabel_Citrus.png": "5d3405a53d35c106d56b199bce279a6388a7e2c087bd51737f806335523d21b1",
+    "T_StockLabel_JarSweets.png": "720ede7a0ff8279cfc17ab0a978324b7bb768c969ebe5a87b8828f6b74fa881b",
+    "T_StockLabel_JarPlum.png": "5f36c946654b2245ad9b221d3043f9266b48047e786c56121f733ae116ad2cd4",
+    "T_StockLabels_Atlas.png": "215c3459adc728b6864b3d158e49ca8bd8045af382f5459a8b79b36acc6cc577"
+  }
+}

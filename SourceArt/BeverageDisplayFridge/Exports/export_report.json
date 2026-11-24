@@ -1,0 +1,440 @@
+{
+  "success": true,
+  "source_sha256": "2a6c32f8a0fab9ac84d3786430c1172b1457a22f6784af862ce644ed50d9ebf7",
+  "baked_resolution": 4096,
+  "assets": [
+    {
+      "name": "SM_BeverageDisplayFridge_TopLightbox",
+      "fbx": "SM_BeverageDisplayFridge_TopLightbox.fbx",
+      "triangles": 84,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque",
+        "M_Fridge_Sign"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.2849999964237213,
+        -0.335999995470047,
+        1.6699999570846558
+      ],
+      "bounds_max_m": [
+        0.2849999964237213,
+        0.29499998688697815,
+        1.906000018119812
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_GlassDoor",
+      "fbx": "SM_BeverageDisplayFridge_GlassDoor.fbx",
+      "triangles": 12,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Glass"
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "bounds_min_m": [
+        -0.5450000166893005,
+        -0.013000011444091797,
+        0.029000014066696167
+      ],
+      "bounds_max_m": [
+        -0.03299999237060547,
+        -0.006999999284744263,
+        1.371000051498413
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_DoorHandle",
+      "fbx": "SM_BeverageDisplayFridge_DoorHandle.fbx",
+      "triangles": 236,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "bounds_min_m": [
+        -0.5720000267028809,
+        -0.06600001454353333,
+        0.3850000202655792
+      ],
+      "bounds_max_m": [
+        -0.5460000038146973,
+        -0.02000001072883606,
+        0.8650000095367432
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_DoorFrame",
+      "fbx": "SM_BeverageDisplayFridge_DoorFrame.fbx",
+      "triangles": 136,
+      "collision_hulls": 4,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "bounds_min_m": [
+        -0.5740000009536743,
+        -0.02000001072883606,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.006999999284744263,
+        0.006999999284744263,
+        1.399999976158142
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf01",
+      "fbx": "SM_BeverageDisplayFridge_Shelf01.fbx",
+      "triangles": 612,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        0.5299999713897705
+      ],
+      "bounds_min_m": [
+        -0.2639999985694885,
+        -0.2639999985694885,
+        -0.003999948501586914
+      ],
+      "bounds_max_m": [
+        0.2639999985694885,
+        0.2639999985694885,
+        0.004400014877319336
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf02",
+      "fbx": "SM_BeverageDisplayFridge_Shelf02.fbx",
+      "triangles": 612,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        0.7599999904632568
+      ],
+      "bounds_min_m": [
+        -0.2639999985694885,
+        -0.2639999985694885,
+        -0.0040000081062316895
+      ],
+      "bounds_max_m": [
+        0.2639999985694885,
+        0.2639999985694885,
+        0.004400014877319336
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf03",
+      "fbx": "SM_BeverageDisplayFridge_Shelf03.fbx",
+      "triangles": 612,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        0.9900000095367432
+      ],
+      "bounds_min_m": [
+        -0.2639999985694885,
+        -0.2639999985694885,
+        -0.0040000081062316895
+      ],
+      "bounds_max_m": [
+        0.2639999985694885,
+        0.2639999985694885,
+        0.004400014877319336
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf04",
+      "fbx": "SM_BeverageDisplayFridge_Shelf04.fbx",
+      "triangles": 612,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        1.2200000286102295
+      ],
+      "bounds_min_m": [
+        -0.2639999985694885,
+        -0.2639999985694885,
+        -0.004000067710876465
+      ],
+      "bounds_max_m": [
+        0.2639999985694885,
+        0.2639999985694885,
+        0.004399895668029785
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_Shelf05",
+      "fbx": "SM_BeverageDisplayFridge_Shelf05.fbx",
+      "triangles": 612,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.029999999329447746,
+        1.4500000476837158
+      ],
+      "bounds_min_m": [
+        -0.2639999985694885,
+        -0.2639999985694885,
+        -0.004000067710876465
+      ],
+      "bounds_max_m": [
+        0.2639999985694885,
+        0.2639999985694885,
+        0.004399895668029785
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_InnerLiner",
+      "fbx": "SM_BeverageDisplayFridge_InnerLiner.fbx",
+      "triangles": 316,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.27799999713897705,
+        -0.3125,
+        0.3059999942779541
+      ],
+      "bounds_max_m": [
+        0.27799999713897705,
+        0.28600001335144043,
+        1.6799999475479126
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_OuterBody",
+      "fbx": "SM_BeverageDisplayFridge_OuterBody.fbx",
+      "triangles": 696,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.3240000009536743,
+        -0.33799999952316284,
+        0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.3240000009536743,
+        0.3884647488594055,
+        1.9299999475479126
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_VentGrille",
+      "fbx": "SM_BeverageDisplayFridge_VentGrille.fbx",
+      "triangles": 156,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.2849999964237213,
+        -0.34299999475479126,
+        0.12999999523162842
+      ],
+      "bounds_max_m": [
+        0.2849999964237213,
+        -0.32499998807907104,
+        0.281000018119812
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootFL",
+      "fbx": "SM_BeverageDisplayFridge_FootFL.fbx",
+      "triangles": 164,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        -0.25,
+        -0.24500000476837158,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.027000010013580322,
+        -0.027000010013580322,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.02699999511241913,
+        0.027000010013580322,
+        0.0
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootFR",
+      "fbx": "SM_BeverageDisplayFridge_FootFR.fbx",
+      "triangles": 164,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.25,
+        -0.24500000476837158,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.02699999511241913,
+        -0.027000010013580322,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.027000010013580322,
+        0.027000010013580322,
+        0.0
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootRL",
+      "fbx": "SM_BeverageDisplayFridge_FootRL.fbx",
+      "triangles": 164,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        -0.25,
+        0.24500000476837158,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.027000010013580322,
+        -0.027000010013580322,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.02699999511241913,
+        0.027000010013580322,
+        0.0
+      ]
+    },
+    {
+      "name": "SM_BeverageDisplayFridge_FootRR",
+      "fbx": "SM_BeverageDisplayFridge_FootRR.fbx",
+      "triangles": 164,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Fridge_Opaque"
+      ],
+      "pivot_m": [
+        0.25,
+        0.24500000476837158,
+        0.10000000149011612
+      ],
+      "bounds_min_m": [
+        -0.02699999511241913,
+        -0.027000010013580322,
+        -0.10000000149011612
+      ],
+      "bounds_max_m": [
+        0.027000010013580322,
+        0.027000010013580322,
+        0.0
+      ]
+    }
+  ],
+  "doors": {
+    "main": {
+      "hinge_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "pivot_m": [
+        0.289000004529953,
+        -0.33799999952316284,
+        0.2849999964237213
+      ],
+      "closed_ue_cm": [
+        28.9,
+        33.8,
+        28.5
+      ],
+      "open_yaw_deg": -105,
+      "open_blender_z_deg": 105,
+      "parent": "DoorHinge",
+      "moving_parts": [
+        "GlassDoor",
+        "DoorHandle",
+        "DoorFrame"
+      ]
+    }
+  },
+  "total_triangles": 5352,
+  "sha256": {
+    "SM_BeverageDisplayFridge_DoorFrame.fbx": "2e39330aa8bad52884653f83283966da0239151dbcd9fcfb517f99674785fdc5",
+    "SM_BeverageDisplayFridge_DoorHandle.fbx": "2d0230d59993dca039f7e274490cffea10baa2929f28799b5deea1579ca8689d",
+    "SM_BeverageDisplayFridge_FootFL.fbx": "5013e012549ae64b9664df7cc100b20f2ef575fbea8fb552919004980be1e387",
+    "SM_BeverageDisplayFridge_FootFR.fbx": "16e73c7e02d18ba9179aaa90fe39f14e95fcd0b89192cc7246224cf1650b8cde",
+    "SM_BeverageDisplayFridge_FootRL.fbx": "a5a42bd54a6fa137728c9f546581bea9344b18f1a80021cb5394a42b5ab68c93",
+    "SM_BeverageDisplayFridge_FootRR.fbx": "d173d152d2bd971fd2a8a32ff1af4afb3479dfe44065b7bf296f646e20a6fd26",
+    "SM_BeverageDisplayFridge_GlassDoor.fbx": "05527000d632e9656e4c2d5059af97d1041da905c0f3edb81db87267dd14b483",
+    "SM_BeverageDisplayFridge_InnerLiner.fbx": "403890b3a2bec8018e33a2fc8b8ecf03c95d1f1ef80cd12f57382ff5d8d86926",
+    "SM_BeverageDisplayFridge_OuterBody.fbx": "e35f205afbf329a857723befb436b7acedfd9b010b215a219ccb3e52426bfcf2",
+    "SM_BeverageDisplayFridge_Shelf01.fbx": "d4621144d26338cd67fe2fa36d4d465ac90e5e91fcea633cc03b6d9ca4d8d92e",
+    "SM_BeverageDisplayFridge_Shelf02.fbx": "30a48d18078fe34dd034257ca13a653aaa2c8d1a753a564fd4fd00c591952520",
+    "SM_BeverageDisplayFridge_Shelf03.fbx": "22259147d44a322638db397f151eaf5014face7ef54f48b571042604d4c0afe2",
+    "SM_BeverageDisplayFridge_Shelf04.fbx": "85be8cb0d9dff8adfa2cc2a2f7ac7ef031375e432cd67a83ad54883080452a39",
+    "SM_BeverageDisplayFridge_Shelf05.fbx": "8baeca026f0ef68233e09a72e949927bca51b656d1ba7d97872957d12392f754",
+    "SM_BeverageDisplayFridge_TopLightbox.fbx": "e2c1fc2f1113ca9cf7b484eacf8cdf96e5fcedc843cfc005b9535494c827a0ef",
+    "SM_BeverageDisplayFridge_VentGrille.fbx": "981505f082b1b857e008651e61ccb019df41954c494e4dedbc6c0b2f5c91b506",
+    "T_BeverageDisplayFridge_BaseColor.png": "9113a1814ef687a0018f4860213523f2c11399216678104ba3523797d6399982",
+    "T_BeverageDisplayFridge_ORM.png": "1490845941684959ab6cb84a941851b3df46636433f94c3cd9050f4906c952b2"
+  }
+}

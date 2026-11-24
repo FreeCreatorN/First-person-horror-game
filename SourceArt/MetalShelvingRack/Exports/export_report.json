@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "assets": [
+    {
+      "name": "SM_MetalShelvingRack_7Level",
+      "fbx": "SM_MetalShelvingRack_7Level.fbx",
+      "base_color": "T_MetalShelvingRack_7Level_BaseColor.png",
+      "orm": "T_MetalShelvingRack_7Level_ORM.png",
+      "material": "MI_MetalShelvingRack_7Level",
+      "source": "Metal_Shelving_Rack.blend",
+      "source_sha256": "4b43b989689327dbbb8e4b9f5a6d3319475bdd08a4ed260e5b8c5352a8dd2bf0",
+      "triangles": 262004,
+      "bounds_min_m": [
+        -1.215499997138977,
+        -0.2694999873638153,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.215499997138977,
+        0.2694999873638153,
+        2.188999891281128
+      ],
+      "collision_hulls": 29,
+      "levels": 7,
+      "slots": [
+        "M_Rack_Baked"
+      ],
+      "sha256": {
+        "SM_MetalShelvingRack_7Level.fbx": "743cd50bebfe504fa32e50023172d7e49fbc2ec9ec581a88ffd8f56f7fd4726a",
+        "T_MetalShelvingRack_7Level_BaseColor.png": "8b72f84503dea0772971e91d8fe044308cce6497cb19ec1cba790dd6640325be",
+        "T_MetalShelvingRack_7Level_ORM.png": "47c3458c5d8a0e771b426269bdb87a2184151f1686bb6a15a1b5c30b6b316a12"
+      }
+    },
+    {
+      "name": "SM_MetalShelvingRack_4Level",
+      "fbx": "SM_MetalShelvingRack_4Level.fbx",
+      "base_color": "T_MetalShelvingRack_4Level_BaseColor.png",
+      "orm": "T_MetalShelvingRack_4Level_ORM.png",
+      "material": "MI_MetalShelvingRack_4Level",
+      "source": "Metal_Shelving_Rack_4_Level.blend",
+      "source_sha256": "d43e88bbb89b24f9f10a3a17932c8b6cb9946b96ab65cdfd967cf8a2955c45a8",
+      "triangles": 241520,
+      "bounds_min_m": [
+        -1.215499997138977,
+        -0.2694999873638153,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.215499997138977,
+        0.2694999873638153,
+        2.188999891281128
+      ],
+      "collision_hulls": 20,
+      "levels": 4,
+      "slots": [
+        "M_Rack_Baked"
+      ],
+      "sha256": {
+        "SM_MetalShelvingRack_4Level.fbx": "e2be3884d70d95aed4794e353991399500c906469397b762e2aec2de9eca9f6a",
+        "T_MetalShelvingRack_4Level_BaseColor.png": "9692af194e1dd6be0fd2f59785583d098955949c713766e144ecc47aba9c29f7",
+        "T_MetalShelvingRack_4Level_ORM.png": "39c73ff37dd02b79b35833697cbd960aed5c0ccfa07e93ea8ea419391f92bca7"
+      }
+    },
+    {
+      "name": "SM_MetalShelvingRack_4Level_Low",
+      "fbx": "SM_MetalShelvingRack_4Level_Low.fbx",
+      "base_color": "T_MetalShelvingRack_4Level_Low_BaseColor.png",
+      "orm": "T_MetalShelvingRack_4Level_Low_ORM.png",
+      "material": "MI_MetalShelvingRack_4Level_Low",
+      "source": "Metal_Shelving_Rack_4_Level_Low.blend",
+      "source_sha256": "adb889d216eb4ecb337f047687c7aa8a98e137a6f658b8c66b9eb50842708d0a",
+      "triangles": 185840,
+      "bounds_min_m": [
+        -1.215499997138977,
+        -0.2694999873638153,
+        0.0
+      ],
+      "bounds_max_m": [
+        1.215499997138977,
+        0.2694999873638153,
+        1.5989999771118164
+      ],
+      "collision_hulls": 20,
+      "levels": 4,
+      "slots": [
+        "M_Rack_Baked"
+      ],
+      "sha256": {
+        "SM_MetalShelvingRack_4Level_Low.fbx": "5b6d9a5fbdd4f27ec06abd81ad93b8f2e9c34a82ac5b175ddde55c9f2fdf2624",
+        "T_MetalShelvingRack_4Level_Low_BaseColor.png": "8d6df2532ffd4fdf4b81f76919797f2bb1fcd9eac5ae5609a3426ce5f02a624e",
+        "T_MetalShelvingRack_4Level_Low_ORM.png": "4ae56df89802cb1af72c162733baca0ed0fbb2e441397f7e61b6414ebcb6c260"
+      }
+    }
+  ],
+  "sha256": {
+    "SM_MetalShelvingRack_7Level.fbx": "743cd50bebfe504fa32e50023172d7e49fbc2ec9ec581a88ffd8f56f7fd4726a",
+    "T_MetalShelvingRack_7Level_BaseColor.png": "8b72f84503dea0772971e91d8fe044308cce6497cb19ec1cba790dd6640325be",
+    "T_MetalShelvingRack_7Level_ORM.png": "47c3458c5d8a0e771b426269bdb87a2184151f1686bb6a15a1b5c30b6b316a12",
+    "SM_MetalShelvingRack_4Level.fbx": "e2be3884d70d95aed4794e353991399500c906469397b762e2aec2de9eca9f6a",
+    "T_MetalShelvingRack_4Level_BaseColor.png": "9692af194e1dd6be0fd2f59785583d098955949c713766e144ecc47aba9c29f7",
+    "T_MetalShelvingRack_4Level_ORM.png": "39c73ff37dd02b79b35833697cbd960aed5c0ccfa07e93ea8ea419391f92bca7",
+    "SM_MetalShelvingRack_4Level_Low.fbx": "5b6d9a5fbdd4f27ec06abd81ad93b8f2e9c34a82ac5b175ddde55c9f2fdf2624",
+    "T_MetalShelvingRack_4Level_Low_BaseColor.png": "8d6df2532ffd4fdf4b81f76919797f2bb1fcd9eac5ae5609a3426ce5f02a624e",
+    "T_MetalShelvingRack_4Level_Low_ORM.png": "4ae56df89802cb1af72c162733baca0ed0fbb2e441397f7e61b6414ebcb6c260"
+  },
+  "baked_resolution": 4096
+}

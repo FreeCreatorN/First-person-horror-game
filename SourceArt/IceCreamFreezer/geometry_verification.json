@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "source_sha256": "f48993258d0b22ee1228d2d8f0fc4ce15165125e8176ecb974fd9cca5fe6d42d",
+  "triangles": 3288,
+  "planning_categories": 6,
+  "mesh_count": 11,
+  "checked_frames": 150,
+  "manifold": true,
+  "wheels_grounded": true,
+  "basket_hangers": true,
+  "minimum_lid_frame_vertical_clearance_mm": 4.0,
+  "previews": [
+    "IceCreamFreezer_Front.png",
+    "IceCreamFreezer_Open.png"
+  ]
+}

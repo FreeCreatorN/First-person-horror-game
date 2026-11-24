@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "source": "D:\\UE\\Project\\HorrorGame\\SourceArt\\ShopCounterPlan\\ShopCounterPlan.blend",
+  "source_sha256": "2f81d4535add73fabf503c8e8470334c9071318bb5f5c8bae9718d41fa385677",
+  "scene_count": 1,
+  "scene": "ShopCounterPlan_Empty",
+  "part_count": 10,
+  "triangles_by_part": {
+    "Body": 896,
+    "MetalFrame": 924,
+    "GlassTop": 12,
+    "GlassSurround": 36,
+    "DisplayShelf": 44,
+    "InteriorShelf": 88,
+    "WoodDoorLeft": 156,
+    "WoodDoorRight": 156,
+    "GlassDoorLeft": 164,
+    "GlassDoorRight": 164
+  },
+  "total_triangles": 2640,
+  "merchandise_objects": [],
+  "unexpected_objects": [],
+  "all_scenes_and_global_objects_checked": true,
+  "planning_category_count": 8,
+  "planning_categories": [
+    "01 玻璃顶板",
+    "02 玻璃围挡",
+    "03 金属框架",
+    "04 展示层板",
+    "05 木质柜体（储物）",
+    "06 推拉柜门",
+    "07 推拉玻璃门",
+    "08 内部层板"
+  ],
+  "door_groups": {
+    "WoodSlidingDoors": [
+      "SM_ShopCounterPlan_WoodDoorLeft",
+      "SM_ShopCounterPlan_WoodDoorRight"
+    ],
+    "GlassSlidingDoors": [
+      "SM_ShopCounterPlan_GlassDoorLeft",
+      "SM_ShopCounterPlan_GlassDoorRight"
+    ]
+  },
+  "global_object_count": 19
+}

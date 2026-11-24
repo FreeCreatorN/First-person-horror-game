@@ -1,0 +1,20 @@
+{
+  "headline": "Blender quick preview rendered for frame 1",
+  "facts": {
+    "recipe": "quick",
+    "scene_name": "BeverageDisplayFridge",
+    "frame": 1,
+    "hero_resolution": "1100x1500",
+    "workbench_resolution": "1100x1500",
+    "object_count": 25,
+    "material_count": 9,
+    "camera_count": 2,
+    "light_count": 3,
+    "frame_current": 1
+  },
+  "warnings": [],
+  "next_actions": [
+    "Inspect hero.png for shading, materials, and framing.",
+    "Inspect workbench.png for silhouette and structural problems."
+  ]
+}

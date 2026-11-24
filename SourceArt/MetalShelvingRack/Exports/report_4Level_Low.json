@@ -1,0 +1,30 @@
+{
+  "name": "SM_MetalShelvingRack_4Level_Low",
+  "fbx": "SM_MetalShelvingRack_4Level_Low.fbx",
+  "base_color": "T_MetalShelvingRack_4Level_Low_BaseColor.png",
+  "orm": "T_MetalShelvingRack_4Level_Low_ORM.png",
+  "material": "MI_MetalShelvingRack_4Level_Low",
+  "source": "Metal_Shelving_Rack_4_Level_Low.blend",
+  "source_sha256": "adb889d216eb4ecb337f047687c7aa8a98e137a6f658b8c66b9eb50842708d0a",
+  "triangles": 185840,
+  "bounds_min_m": [
+    -1.215499997138977,
+    -0.2694999873638153,
+    0.0
+  ],
+  "bounds_max_m": [
+    1.215499997138977,
+    0.2694999873638153,
+    1.5989999771118164
+  ],
+  "collision_hulls": 20,
+  "levels": 4,
+  "slots": [
+    "M_Rack_Baked"
+  ],
+  "sha256": {
+    "SM_MetalShelvingRack_4Level_Low.fbx": "5b6d9a5fbdd4f27ec06abd81ad93b8f2e9c34a82ac5b175ddde55c9f2fdf2624",
+    "T_MetalShelvingRack_4Level_Low_BaseColor.png": "8d6df2532ffd4fdf4b81f76919797f2bb1fcd9eac5ae5609a3426ce5f02a624e",
+    "T_MetalShelvingRack_4Level_Low_ORM.png": "4ae56df89802cb1af72c162733baca0ed0fbb2e441397f7e61b6414ebcb6c260"
+  }
+}

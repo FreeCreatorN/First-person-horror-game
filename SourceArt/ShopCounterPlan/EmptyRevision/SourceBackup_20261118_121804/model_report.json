@@ -1,0 +1,797 @@
+{
+  "success": true,
+  "nominal_case_m": [
+    1.96,
+    0.62,
+    1.09
+  ],
+  "triangle_budget": [
+    1800,
+    3500
+  ],
+  "triangles_by_part": {
+    "Body": 896,
+    "MetalFrame": 924,
+    "FixedGlass": 48,
+    "DisplayShelf": 44,
+    "InteriorShelf": 88,
+    "WoodDoorLeft": 156,
+    "WoodDoorRight": 156,
+    "GlassDoorLeft": 164,
+    "GlassDoorRight": 164
+  },
+  "total_triangles": 2640,
+  "optional_stock_triangles": 824,
+  "parts": {
+    "Body": {
+      "collection": "Body.001",
+      "mesh": "SM_ShopCounterPlan_Body",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "MetalFrame": {
+      "collection": "MetalFrame.001",
+      "mesh": "SM_ShopCounterPlan_MetalFrame",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "FixedGlass": {
+      "collection": "FixedGlass.001",
+      "mesh": "SM_ShopCounterPlan_FixedGlass",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "DisplayShelf": {
+      "collection": "DisplayShelf.001",
+      "mesh": "SM_ShopCounterPlan_DisplayShelf",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "InteriorShelf": {
+      "collection": "InteriorShelf.001",
+      "mesh": "SM_ShopCounterPlan_InteriorShelf",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ]
+    },
+    "WoodDoorLeft": {
+      "collection": "WoodDoorLeft.001",
+      "mesh": "SM_ShopCounterPlan_WoodDoorLeft",
+      "pivot_m": [
+        -0.463,
+        0.238,
+        0.147
+      ]
+    },
+    "WoodDoorRight": {
+      "collection": "WoodDoorRight.001",
+      "mesh": "SM_ShopCounterPlan_WoodDoorRight",
+      "pivot_m": [
+        0.463,
+        0.272,
+        0.147
+      ]
+    },
+    "GlassDoorLeft": {
+      "collection": "GlassDoorLeft.001",
+      "mesh": "SM_ShopCounterPlan_GlassDoorLeft",
+      "pivot_m": [
+        -0.466,
+        0.2595,
+        0.77
+      ]
+    },
+    "GlassDoorRight": {
+      "collection": "GlassDoorRight.001",
+      "mesh": "SM_ShopCounterPlan_GlassDoorRight",
+      "pivot_m": [
+        0.466,
+        0.2885,
+        0.77
+      ]
+    }
+  },
+  "doors": {
+    "wood_left": {
+      "part": "WoodDoorLeft",
+      "mesh": "SM_ShopCounterPlan_WoodDoorLeft",
+      "pivot_m": [
+        -0.463,
+        0.238,
+        0.147
+      ],
+      "closed_ue_cm": [
+        -46.300000000000004,
+        -23.799999999999997,
+        14.7
+      ],
+      "travel_cm": 92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "WoodDoorLeft_SlideX.001"
+    },
+    "glass_left": {
+      "part": "GlassDoorLeft",
+      "mesh": "SM_ShopCounterPlan_GlassDoorLeft",
+      "pivot_m": [
+        -0.466,
+        0.2595,
+        0.77
+      ],
+      "closed_ue_cm": [
+        -46.6,
+        -25.95,
+        77.0
+      ],
+      "travel_cm": 93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "GlassDoorLeft_SlideX.001"
+    },
+    "wood_right": {
+      "part": "WoodDoorRight",
+      "mesh": "SM_ShopCounterPlan_WoodDoorRight",
+      "pivot_m": [
+        0.463,
+        0.272,
+        0.147
+      ],
+      "closed_ue_cm": [
+        46.300000000000004,
+        -27.200000000000003,
+        14.7
+      ],
+      "travel_cm": -92.6,
+      "width_m": 0.94,
+      "thickness_m": 0.018,
+      "parent": "WoodDoorRight_SlideX.001"
+    },
+    "glass_right": {
+      "part": "GlassDoorRight",
+      "mesh": "SM_ShopCounterPlan_GlassDoorRight",
+      "pivot_m": [
+        0.466,
+        0.2885,
+        0.77
+      ],
+      "closed_ue_cm": [
+        46.6,
+        -28.849999999999994,
+        77.0
+      ],
+      "travel_cm": -93.2,
+      "width_m": 0.956,
+      "thickness_m": 0.006,
+      "parent": "GlassDoorRight_SlideX.001"
+    }
+  },
+  "collision_boxes": {
+    "Body": [
+      {
+        "center_m": [
+          -0.915,
+          -0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          -0.915,
+          0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0.915,
+          -0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0.915,
+          0.255,
+          0.029
+        ],
+        "half_m": [
+          0.038,
+          0.038,
+          0.029
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0,
+          0.076
+        ],
+        "half_m": [
+          0.944,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0,
+          0.107
+        ],
+        "half_m": [
+          0.936,
+          0.268,
+          0.013
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          -0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          -0.966,
+          0,
+          0.415
+        ],
+        "half_m": [
+          0.014,
+          0.268,
+          0.265
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          0,
+          0.132
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          -0.958,
+          0,
+          0.698
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          -0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          0.289,
+          0.415
+        ],
+        "half_m": [
+          0.022,
+          0.021,
+          0.301
+        ]
+      },
+      {
+        "center_m": [
+          0.966,
+          0,
+          0.415
+        ],
+        "half_m": [
+          0.014,
+          0.268,
+          0.265
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          0,
+          0.132
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0.958,
+          0,
+          0.698
+        ],
+        "half_m": [
+          0.022,
+          0.268,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.302,
+          0.415
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.265
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.302,
+          0.132
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.302,
+          0.132
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.302,
+          0.698
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.302,
+          0.698
+        ],
+        "half_m": [
+          0.936,
+          0.008,
+          0.018
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.027,
+          0.412
+        ],
+        "half_m": [
+          0.009,
+          0.241,
+          0.292
+        ]
+      }
+    ],
+    "MetalFrame": [
+      {
+        "center_m": [
+          -0.968,
+          -0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          -0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0.298,
+          0.921
+        ],
+        "half_m": [
+          0.012,
+          0.012,
+          0.151
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.298,
+          0.761
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.298,
+          0.761
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0,
+          0.761
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0,
+          0.761
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.298,
+          1.08
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0.298,
+          1.08
+        ],
+        "half_m": [
+          0.98,
+          0.012,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0,
+          1.08
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0,
+          1.08
+        ],
+        "half_m": [
+          0.012,
+          0.286,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          -0.301,
+          0.92
+        ],
+        "half_m": [
+          0.006,
+          0.007,
+          0.15
+        ]
+      }
+    ],
+    "FixedGlass": [
+      {
+        "center_m": [
+          0,
+          -0.29,
+          0.9205
+        ],
+        "half_m": [
+          0.956,
+          0.003,
+          0.1495
+        ]
+      },
+      {
+        "center_m": [
+          -0.968,
+          0,
+          0.9205
+        ],
+        "half_m": [
+          0.003,
+          0.286,
+          0.1495
+        ]
+      },
+      {
+        "center_m": [
+          0.968,
+          0,
+          0.9205
+        ],
+        "half_m": [
+          0.003,
+          0.286,
+          0.1495
+        ]
+      },
+      {
+        "center_m": [
+          0,
+          0,
+          1.086
+        ],
+        "half_m": [
+          0.956,
+          0.286,
+          0.004
+        ]
+      }
+    ],
+    "DisplayShelf": [
+      {
+        "center_m": [
+          0,
+          0,
+          0.734
+        ],
+        "half_m": [
+          0.98,
+          0.31,
+          0.018
+        ]
+      }
+    ],
+    "InteriorShelf": [
+      {
+        "center_m": [
+          -0.4725,
+          -0.027,
+          0.405
+        ],
+        "half_m": [
+          0.4635,
+          0.241,
+          0.01
+        ]
+      },
+      {
+        "center_m": [
+          0.4725,
+          -0.027,
+          0.405
+        ],
+        "half_m": [
+          0.4635,
+          0.241,
+          0.01
+        ]
+      }
+    ],
+    "WoodDoorLeft": [
+      {
+        "center_m": [
+          -0.463,
+          0.238,
+          0.415
+        ],
+        "half_m": [
+          0.47,
+          0.009,
+          0.268
+        ]
+      }
+    ],
+    "WoodDoorRight": [
+      {
+        "center_m": [
+          0.463,
+          0.272,
+          0.415
+        ],
+        "half_m": [
+          0.47,
+          0.009,
+          0.268
+        ]
+      }
+    ],
+    "GlassDoorLeft": [
+      {
+        "center_m": [
+          -0.466,
+          0.2595,
+          0.92
+        ],
+        "half_m": [
+          0.478,
+          0.003,
+          0.15
+        ]
+      }
+    ],
+    "GlassDoorRight": [
+      {
+        "center_m": [
+          0.466,
+          0.2845,
+          0.92
+        ],
+        "half_m": [
+          0.478,
+          0.003,
+          0.15
+        ]
+      }
+    ]
+  },
+  "preview_collection": "Preview only \u00b7 cameras and lights.001",
+  "stock_collection": "Optional display stock \u00b7 independent.001",
+  "door_track_spacing_mm": {
+    "wood": 34,
+    "glass": 29
+  },
+  "front": "-Y",
+  "access": "+Y",
+  "source_scene": "Shop counter \u00b7 planning sheet \u00b7 low poly.001",
+  "front_camera": "01 Front45.001",
+  "rear_camera": "02 Rear45.001",
+  "reviewed_fixes": [
+    "closed non-self-crossing cup shells",
+    "real door local transforms",
+    "split inner shelves",
+    "fixed glass fitted to uprights",
+    "uprights butt joined",
+    "door glass fitted inside metal perimeter"
+  ]
+}

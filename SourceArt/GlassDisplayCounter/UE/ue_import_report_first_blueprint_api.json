@@ -1,0 +1,154 @@
+{
+  "success": false,
+  "run_id": "d3bc337a-09c4-45bd-8a91-738c52faf4bb",
+  "mode": "exclusive",
+  "target_root": "/Game/Yastars/Mesh/GlassDisplayCounter",
+  "started_utc": "2026-11-17T06:59:18.364710+00:00",
+  "imported_meshes": [
+    "SM_GlassDisplayCounter",
+    "SM_GlassDisplayCounter_DoorLeft",
+    "SM_GlassDisplayCounter_DoorRight"
+  ],
+  "saved": [],
+  "world": "/Engine/Maps/Entry.Entry",
+  "source_hashes": {
+    "export_report.json": "65b05f803282c81848a895245c80673dba842d3cecd8b1cb94a32389c2db2a86",
+    "SM_GlassDisplayCounter.fbx": "29a841d8232d5138f62718e7080cf5cb6f7bca12ca5eafac828fce1529c238a9",
+    "T_GlassDisplayCounter_BaseColor.png": "5024db811c7c6d4e98c9754cbab5c0742bc3a2d4852383e068d3a8fa4efe6c08",
+    "T_GlassDisplayCounter_ORM.png": "04cd759a8a03b2bab05ebc77c1187bb68c57edc43ea522d7f569196681acc4d9",
+    "SM_GlassDisplayCounter_DoorLeft.fbx": "e23ee8d0c4d6745de0a709abe50e13745401c83762abed585edd25257297f963",
+    "T_GlassDisplayCounter_DoorLeft_BaseColor.png": "5224f8e65316bfc150fdeb85bb994a1d58b456398a960152b861c682cea4f763",
+    "T_GlassDisplayCounter_DoorLeft_ORM.png": "cf9971c5f5743a7c6e1495534783facd10e0bee636ae0acd7901b0df47af8c84",
+    "SM_GlassDisplayCounter_DoorRight.fbx": "e03d7be8b59c598f4f8c4eb4c20cd08ea035b3fc5913b5661640e88da8f7b4ad",
+    "T_GlassDisplayCounter_DoorRight_BaseColor.png": "b5904239481e85a93c5745e4383116b1b5a6618f2d170e047c1421cc2d831386",
+    "T_GlassDisplayCounter_DoorRight_ORM.png": "95f32a5f5b0bcc5d74139118cefbecfdd08376b8831e2de641d18370df9f7136"
+  },
+  "manifest_sha256": "65b05f803282c81848a895245c80673dba842d3cecd8b1cb94a32389c2db2a86",
+  "doors": {
+    "left": {
+      "mesh": "SM_GlassDisplayCounter_DoorLeft",
+      "pivot_m": [
+        -0.47,
+        0.2605,
+        0.763
+      ],
+      "travel_m": 0.922,
+      "closed_ue_cm": [
+        -47.0,
+        -26.05,
+        76.3
+      ],
+      "travel_cm": 92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    },
+    "right": {
+      "mesh": "SM_GlassDisplayCounter_DoorRight",
+      "pivot_m": [
+        0.47,
+        0.2835,
+        0.763
+      ],
+      "travel_m": -0.922,
+      "closed_ue_cm": [
+        47.0,
+        -28.349999999999998,
+        76.3
+      ],
+      "travel_cm": -92.2,
+      "mesh_collision_extent_m": [
+        0.4805,
+        0.005,
+        0.151
+      ]
+    }
+  },
+  "protected_files_before": 430,
+  "preexisting_packages": [],
+  "preexisting_files": [],
+  "materials": {
+    "opaque": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Opaque.M_GlassDisplayCounter_Opaque",
+    "glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass",
+    "glass_translucent": true,
+    "glass_opacity": 0.095
+  },
+  "meshes": {
+    "SM_GlassDisplayCounter": {
+      "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter.SM_GlassDisplayCounter",
+      "min_cm": [
+        -98.12999725341797,
+        -31.70001220703125,
+        -4.757283932121936e-06
+      ],
+      "max_cm": [
+        98.12999725341797,
+        31.899988174438477,
+        108.5999984741211
+      ],
+      "triangles": 13724,
+      "convex_hulls": 20,
+      "uv_channels": 1,
+      "materials": {
+        "M_Counter_Baked": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter.MI_GlassDisplayCounter",
+        "M_Counter_Glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_BaseColor.T_GlassDisplayCounter_BaseColor",
+        "orm": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_ORM.T_GlassDisplayCounter_ORM"
+      }
+    },
+    "SM_GlassDisplayCounter_DoorLeft": {
+      "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorLeft.SM_GlassDisplayCounter_DoorLeft",
+      "min_cm": [
+        -48.099998474121094,
+        -0.8200019001960754,
+        -7.168485893771503e-08
+      ],
+      "max_cm": [
+        48.10000228881836,
+        0.5000025033950806,
+        30.20000457763672
+      ],
+      "triangles": 1080,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Counter_Baked": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorLeft.MI_GlassDisplayCounter_DoorLeft",
+        "M_Counter_Glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_BaseColor.T_GlassDisplayCounter_DoorLeft_BaseColor",
+        "orm": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorLeft_ORM.T_GlassDisplayCounter_DoorLeft_ORM"
+      }
+    },
+    "SM_GlassDisplayCounter_DoorRight": {
+      "asset": "/Game/Yastars/Mesh/GlassDisplayCounter/SM_GlassDisplayCounter_DoorRight.SM_GlassDisplayCounter_DoorRight",
+      "min_cm": [
+        -48.10000228881836,
+        -0.8200048804283142,
+        -7.168534210677535e-08
+      ],
+      "max_cm": [
+        48.099998474121094,
+        0.4999995231628418,
+        30.20000457763672
+      ],
+      "triangles": 1080,
+      "convex_hulls": 1,
+      "uv_channels": 1,
+      "materials": {
+        "M_Counter_Baked": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/MI_GlassDisplayCounter_DoorRight.MI_GlassDisplayCounter_DoorRight",
+        "M_Counter_Glass": "/Game/Yastars/Mesh/GlassDisplayCounter/Materials/M_GlassDisplayCounter_Glass.M_GlassDisplayCounter_Glass"
+      },
+      "textures": {
+        "base_color": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_BaseColor.T_GlassDisplayCounter_DoorRight_BaseColor",
+        "orm": "/Game/Yastars/Mesh/GlassDisplayCounter/Textures/T_GlassDisplayCounter_DoorRight_ORM.T_GlassDisplayCounter_DoorRight_ORM"
+      }
+    }
+  },
+  "error": "Traceback (most recent call last):\n  File \"D:/UE/Project/HorrorGame/SourceArt/GlassDisplayCounter/UE/import_ue.py\", line 286, in run\n    execute(report, allow_live)\n  File \"D:/UE/Project/HorrorGame/SourceArt/GlassDisplayCounter/UE/import_ue.py\", line 261, in execute\n    bp = cabinet_blueprint.build_blueprint(tools, TARGET, meshes, manifest['doors'])\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\UE\\Project\\HorrorGame\\SourceArt\\GlassDisplayCounter\\UE\\blueprint.py\", line 91, in build_blueprint\n    component.set_generate_overlap_events(False)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'StaticMeshComponent' object has no attribute 'set_generate_overlap_events'\n",
+  "completed_utc": "2026-11-17T06:59:28.334752+00:00"
+}

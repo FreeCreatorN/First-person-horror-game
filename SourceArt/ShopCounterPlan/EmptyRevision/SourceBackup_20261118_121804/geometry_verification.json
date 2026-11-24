@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "source_sha256": "cd9709d702a2a19522db95e4759cc3bd1654af4c550a223096aa19f0e93b097d",
+  "triangles": 2640,
+  "checked_frames": 260,
+  "manifold": true,
+  "normals_outward": true,
+  "minimum_pair_clearance_mm": {
+    "wood": 14.500007033348083,
+    "glass": 4.500001668930054
+  },
+  "previews": [
+    "ShopCounterPlan_Front.png",
+    "ShopCounterPlan_RearOpen.png"
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "version": "1.0",
+  "name": "SnackIceCreamSet",
+  "scene": {
+    "unit_system": "metric",
+    "unit_scale": 1.0,
+    "frame_start": 1,
+    "frame_end": 1,
+    "frame_current": 1,
+    "fps": 24
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution_x": 3200,
+    "resolution_y": 2400,
+    "resolution_percentage": 100,
+    "samples": 128,
+    "use_denoising": true,
+    "film_transparent": false,
+    "output_format": "PNG",
+    "output_path": "./render/"
+  },
+  "world": {
+    "background_color": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "use_hdri": false,
+    "hdri_path": null,
+    "hdri_strength": 1.0
+  },
+  "objects": [
+    {
+      "name": "01 Goods overview",
+      "type": "CAMERA"
+    },
+    {
+      "name": "02 Ice cream details",
+      "type": "CAMERA"
+    },
+    {
+      "name": "03 Snack details",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Preview ground",
+      "type": "MESH"
+    },
+    {
+      "name": "\u76d2\u88c5\u96ea\u7cd5",
+      "type": "FONT"
+    },
+    {
+      "name": "\u888b\u88c5\u51b0\u68d2",
+      "type": "FONT"
+    },
+    {
+      "name": "\u8106\u76ae\u96ea\u7cd5",
+      "type": "FONT"
+    },
+    {
+      "name": "\u676f\u88c5\u96ea\u7cd5",
+      "type": "FONT"
+    },
+    {
+      "name": "\u751c\u7b52\u96ea\u7cd5",
+      "type": "FONT"
+    },
+    {
+      "name": "\u5bb6\u5ead\u88c5\u96ea\u7cd5",
+      "type": "FONT"
+    },
+    {
+      "name": "\u888b\u88c5\u85af\u7247",
+      "type": "FONT"
+    },
+    {
+      "name": "\u997c\u5e72\u76d2",
+      "type": "FONT"
+    },
+    {
+      "name": "\u7cd6\u679c\u888b",
+      "type": "FONT"
+    },
+    {
+      "name": "\u9762\u5305 / \u86cb\u7cd5",
+      "type": "FONT"
+    },
+    {
+      "name": "\u8fa3\u6761",
+      "type": "FONT"
+    },
+    {
+      "name": "\u74dc\u5b50 / \u82b1\u751f",
+      "type": "FONT"
+    },
+    {
+      "name": "\u679c\u51bb\u676f",
+      "type": "FONT"
+    },
+    {
+      "name": "\u7cd6\u679c\u7f50",
+      "type": "FONT"
+    },
+    {
+      "name": "Key",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Rim",
+      "type": "LIGHT"
+    },
+    {
+      "name": "BoxIce_Vanilla display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Vanilla_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Vanilla_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "BoxIce_Strawberry display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Strawberry_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Strawberry_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "IcePop_Milk display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_IcePop_Milk_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "IcePop_Orange display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_IcePop_Orange_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "ChocoBar_Chocolate display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_ChocoBar_Chocolate_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "ChocoBar_Vanilla display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_ChocoBar_Vanilla_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "CupIce_Strawberry display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_CupIce_Strawberry_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_CupIce_Strawberry_Dome",
+      "type": "MESH"
+    },
+    {
+      "name": "CupIce_Vanilla display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_CupIce_Vanilla_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_CupIce_Vanilla_Dome",
+      "type": "MESH"
+    },
+    {
+      "name": "Cone_Vanilla display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Cone_Vanilla_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Cone_Chocolate display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Cone_Chocolate_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Cone_Strawberry display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Cone_Strawberry_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "FamilyTub_Vanilla display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Vanilla_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Vanilla_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "FamilyTub_Strawberry display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Strawberry_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Strawberry_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "Chips_Original display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Chips_Original_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Chips_Cucumber display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Chips_Cucumber_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Biscuits_Butter display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Butter_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Butter_Tray",
+      "type": "MESH"
+    },
+    {
+      "name": "Biscuits_Milk display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Milk_Body",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Milk_Tray",
+      "type": "MESH"
+    },
+    {
+      "name": "CandyBag_Fruit display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_CandyBag_Fruit_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "CandyBag_Mint display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_CandyBag_Mint_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Bakery_Bread display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Bakery_Bread_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Bakery_Cake display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Bakery_Cake_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Spicy_Hot display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Spicy_Hot_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Spicy_Original display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Spicy_Original_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Nuts_Seeds display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Nuts_Seeds_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Nuts_Peanut display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Nuts_Peanut_Pack",
+      "type": "MESH"
+    },
+    {
+      "name": "Jelly_Orange display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Jelly_Orange_Cup",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_Jelly_Orange_Film",
+      "type": "MESH"
+    },
+    {
+      "name": "Jelly_Strawberry display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Jelly_Strawberry_Cup",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_Jelly_Strawberry_Film",
+      "type": "MESH"
+    },
+    {
+      "name": "Jelly_Grape display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_Jelly_Grape_Cup",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_Jelly_Grape_Film",
+      "type": "MESH"
+    },
+    {
+      "name": "CandyJar_Fruit display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Fruit_Jar",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Fruit_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Fruit_Contents",
+      "type": "MESH"
+    },
+    {
+      "name": "CandyJar_Mint display placement",
+      "type": "EMPTY"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Mint_Jar",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Mint_Lid",
+      "type": "MESH"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Mint_Contents",
+      "type": "MESH"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_Goods_Bakery"
+    },
+    {
+      "name": "M_Goods_Biscuits"
+    },
+    {
+      "name": "M_Goods_BoxIce"
+    },
+    {
+      "name": "M_Goods_CandyBag"
+    },
+    {
+      "name": "M_Goods_CandyGold"
+    },
+    {
+      "name": "M_Goods_CandyGreen"
+    },
+    {
+      "name": "M_Goods_CandyJar"
+    },
+    {
+      "name": "M_Goods_CandyPink"
+    },
+    {
+      "name": "M_Goods_CandyPurple"
+    },
+    {
+      "name": "M_Goods_CandyRed"
+    },
+    {
+      "name": "M_Goods_CapGold"
+    },
+    {
+      "name": "M_Goods_CapRed"
+    },
+    {
+      "name": "M_Goods_Chips"
+    },
+    {
+      "name": "M_Goods_ChocoBar"
+    },
+    {
+      "name": "M_Goods_ClearPET"
+    },
+    {
+      "name": "M_Goods_Cone"
+    },
+    {
+      "name": "M_Goods_CreamPink"
+    },
+    {
+      "name": "M_Goods_CreamVanilla"
+    },
+    {
+      "name": "M_Goods_CupIce"
+    },
+    {
+      "name": "M_Goods_FamilyTub"
+    },
+    {
+      "name": "M_Goods_FoilSilver"
+    },
+    {
+      "name": "M_Goods_IcePop"
+    },
+    {
+      "name": "M_Goods_JarGlass"
+    },
+    {
+      "name": "M_Goods_Jelly"
+    },
+    {
+      "name": "M_Goods_JellyGrape"
+    },
+    {
+      "name": "M_Goods_JellyOrange"
+    },
+    {
+      "name": "M_Goods_JellyStrawberry"
+    },
+    {
+      "name": "M_Goods_Nuts"
+    },
+    {
+      "name": "M_Goods_PaperInside"
+    },
+    {
+      "name": "M_Goods_Spicy"
+    },
+    {
+      "name": "M_Goods_TrayPET"
+    },
+    {
+      "name": "Preview dark neutral"
+    },
+    {
+      "name": "Preview label white"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01 Goods overview",
+      "is_active": true
+    },
+    {
+      "name": "02 Ice cream details",
+      "is_active": false
+    },
+    {
+      "name": "03 Snack details",
+      "is_active": false
+    }
+  ],
+  "lights": [
+    {
+      "name": "Key"
+    },
+    {
+      "name": "Fill"
+    },
+    {
+      "name": "Rim"
+    }
+  ],
+  "collections": [
+    {
+      "id": 0,
+      "name": "Collection",
+      "objects": [],
+      "visible": true
+    }
+  ],
+  "metadata": {
+    "created": "2026-11-23T08:18:46.212819",
+    "modified": "2026-11-23T08:18:46.212819",
+    "software": "blender-cli 1.0"
+  },
+  "native_blend": {
+    "path": "D:\\UE\\Project\\HorrorGame\\SourceArt\\SnackIceCreamSet\\SnackIceCreamSet.blend",
+    "sha256": "377548196521895669505948a004029488f2c3159543d9de05653cc3c31f2d08",
+    "camera": "01 Goods overview",
+    "adapter": "source-file-loader/v1"
+  }
+}

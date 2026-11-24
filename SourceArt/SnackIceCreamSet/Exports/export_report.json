@@ -1,0 +1,1654 @@
+{
+  "success": true,
+  "source_sha256": "377548196521895669505948a004029488f2c3159543d9de05653cc3c31f2d08",
+  "assets": [
+    {
+      "name": "SM_Goods_BoxIce_Vanilla_Body",
+      "fbx": "SM_Goods_BoxIce_Vanilla_Body.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_BoxIce",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.07999999821186066,
+        -0.03750000149011612,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.07999999821186066,
+        0.03750000149011612,
+        0.10050000250339508
+      ],
+      "product": "BoxIce_Vanilla",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Vanilla_Lid",
+      "fbx": "SM_Goods_BoxIce_Vanilla_Lid.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_BoxIce",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0885000005364418
+      ],
+      "bounds_min_m": [
+        -0.08150000125169754,
+        -0.039000000804662704,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.08150000125169754,
+        0.039000000804662704,
+        0.013499997556209564
+      ],
+      "product": "BoxIce_Vanilla",
+      "part": "Lid"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Strawberry_Body",
+      "fbx": "SM_Goods_BoxIce_Strawberry_Body.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_BoxIce",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.07999999821186066,
+        -0.03750000149011612,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.07999999821186066,
+        0.03750000149011612,
+        0.10050000250339508
+      ],
+      "product": "BoxIce_Strawberry",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_BoxIce_Strawberry_Lid",
+      "fbx": "SM_Goods_BoxIce_Strawberry_Lid.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_BoxIce",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0885000005364418
+      ],
+      "bounds_min_m": [
+        -0.08150000125169754,
+        -0.039000000804662704,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.08150000125169754,
+        0.039000000804662704,
+        0.013499997556209564
+      ],
+      "product": "BoxIce_Strawberry",
+      "part": "Lid"
+    },
+    {
+      "name": "SM_Goods_IcePop_Milk_Pack",
+      "fbx": "SM_Goods_IcePop_Milk_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_IcePop"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03339000046253204,
+        -0.00881520938128233,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.03339000046253204,
+        0.0090904226526618,
+        0.1709499955177307
+      ],
+      "product": "IcePop_Milk",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_IcePop_Orange_Pack",
+      "fbx": "SM_Goods_IcePop_Orange_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_IcePop"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03339000046253204,
+        -0.00881520938128233,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.03339000046253204,
+        0.0090904226526618,
+        0.1709499955177307
+      ],
+      "product": "IcePop_Orange",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_ChocoBar_Chocolate_Pack",
+      "fbx": "SM_Goods_ChocoBar_Chocolate_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_ChocoBar"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03922000154852867,
+        -0.01245817355811596,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.03922000154852867,
+        0.012982115149497986,
+        0.1709499955177307
+      ],
+      "product": "ChocoBar_Chocolate",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_ChocoBar_Vanilla_Pack",
+      "fbx": "SM_Goods_ChocoBar_Vanilla_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_ChocoBar"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03922000154852867,
+        -0.01245817355811596,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.03922000154852867,
+        0.012982115149497986,
+        0.1709499955177307
+      ],
+      "product": "ChocoBar_Vanilla",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_CupIce_Strawberry_Body",
+      "fbx": "SM_Goods_CupIce_Strawberry_Body.fbx",
+      "triangles": 552,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CupIce",
+        "M_Goods_PaperInside",
+        "M_Goods_CreamPink"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03500000014901161,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03500000014901161,
+        0.03500000014901161,
+        0.11100000143051147
+      ],
+      "product": "CupIce_Strawberry",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_CupIce_Strawberry_Dome",
+      "fbx": "SM_Goods_CupIce_Strawberry_Dome.fbx",
+      "triangles": 448,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_ClearPET"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.07400000095367432
+      ],
+      "bounds_min_m": [
+        -0.03999999910593033,
+        -0.03999999910593033,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03999999910593033,
+        0.03999999910593033,
+        0.04399999976158142
+      ],
+      "product": "CupIce_Strawberry",
+      "part": "Dome"
+    },
+    {
+      "name": "SM_Goods_CupIce_Vanilla_Body",
+      "fbx": "SM_Goods_CupIce_Vanilla_Body.fbx",
+      "triangles": 552,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CupIce",
+        "M_Goods_PaperInside",
+        "M_Goods_CreamVanilla"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03500000014901161,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03500000014901161,
+        0.03500000014901161,
+        0.11100000143051147
+      ],
+      "product": "CupIce_Vanilla",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_CupIce_Vanilla_Dome",
+      "fbx": "SM_Goods_CupIce_Vanilla_Dome.fbx",
+      "triangles": 448,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_ClearPET"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.07400000095367432
+      ],
+      "bounds_min_m": [
+        -0.03999999910593033,
+        -0.03999999910593033,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03999999910593033,
+        0.03999999910593033,
+        0.04399999976158142
+      ],
+      "product": "CupIce_Vanilla",
+      "part": "Dome"
+    },
+    {
+      "name": "SM_Goods_Cone_Vanilla_Pack",
+      "fbx": "SM_Goods_Cone_Vanilla_Pack.fbx",
+      "triangles": 472,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Cone",
+        "M_Goods_PaperInside",
+        "M_Goods_FoilSilver"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.029999999329447746,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.029999999329447746,
+        0.029999999329447746,
+        0.1509999930858612
+      ],
+      "product": "Cone_Vanilla",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Cone_Chocolate_Pack",
+      "fbx": "SM_Goods_Cone_Chocolate_Pack.fbx",
+      "triangles": 472,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Cone",
+        "M_Goods_PaperInside",
+        "M_Goods_FoilSilver"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.029999999329447746,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.029999999329447746,
+        0.029999999329447746,
+        0.1509999930858612
+      ],
+      "product": "Cone_Chocolate",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Cone_Strawberry_Pack",
+      "fbx": "SM_Goods_Cone_Strawberry_Pack.fbx",
+      "triangles": 472,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Cone",
+        "M_Goods_PaperInside",
+        "M_Goods_FoilSilver"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.029999999329447746,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.029999999329447746,
+        0.029999999329447746,
+        0.1509999930858612
+      ],
+      "product": "Cone_Strawberry",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Vanilla_Body",
+      "fbx": "SM_Goods_FamilyTub_Vanilla_Body.fbx",
+      "triangles": 696,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_FamilyTub",
+        "M_Goods_PaperInside",
+        "M_Goods_CreamVanilla"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.10999999940395355,
+        -0.07500000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.10999999940395355,
+        0.07500000298023224,
+        0.10000000149011612
+      ],
+      "product": "FamilyTub_Vanilla",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Vanilla_Lid",
+      "fbx": "SM_Goods_FamilyTub_Vanilla_Lid.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_FamilyTub",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.09399999678134918
+      ],
+      "bounds_min_m": [
+        -0.11249999701976776,
+        -0.07750000059604645,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.11249999701976776,
+        0.07750000059604645,
+        0.007500000298023224
+      ],
+      "product": "FamilyTub_Vanilla",
+      "part": "Lid"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Strawberry_Body",
+      "fbx": "SM_Goods_FamilyTub_Strawberry_Body.fbx",
+      "triangles": 696,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_FamilyTub",
+        "M_Goods_PaperInside",
+        "M_Goods_CreamPink"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.10999999940395355,
+        -0.07500000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.10999999940395355,
+        0.07500000298023224,
+        0.10000000149011612
+      ],
+      "product": "FamilyTub_Strawberry",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_FamilyTub_Strawberry_Lid",
+      "fbx": "SM_Goods_FamilyTub_Strawberry_Lid.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_FamilyTub",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.09399999678134918
+      ],
+      "bounds_min_m": [
+        -0.11249999701976776,
+        -0.07750000059604645,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.11249999701976776,
+        0.07750000059604645,
+        0.007500000298023224
+      ],
+      "product": "FamilyTub_Strawberry",
+      "part": "Lid"
+    },
+    {
+      "name": "SM_Goods_Chips_Original_Pack",
+      "fbx": "SM_Goods_Chips_Original_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Chips"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.05299999937415123,
+        -0.016848478466272354,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.05299999937415123,
+        0.01748211495578289,
+        0.14094999432563782
+      ],
+      "product": "Chips_Original",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Chips_Cucumber_Pack",
+      "fbx": "SM_Goods_Chips_Cucumber_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Chips"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.05299999937415123,
+        -0.016848478466272354,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.05299999937415123,
+        0.01748211495578289,
+        0.14094999432563782
+      ],
+      "product": "Chips_Cucumber",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Butter_Body",
+      "fbx": "SM_Goods_Biscuits_Butter_Body.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_Biscuits",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.07000000029802322,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.07000000029802322,
+        0.029999999329447746,
+        0.08000000566244125
+      ],
+      "product": "Biscuits_Butter",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Butter_Tray",
+      "fbx": "SM_Goods_Biscuits_Butter_Tray.fbx",
+      "triangles": 276,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_TrayPET"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0012000000569969416
+      ],
+      "bounds_min_m": [
+        -0.06650000065565109,
+        -0.025380000472068787,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.06650000065565109,
+        0.025380000472068787,
+        0.014000000432133675
+      ],
+      "product": "Biscuits_Butter",
+      "part": "Tray"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Milk_Body",
+      "fbx": "SM_Goods_Biscuits_Milk_Body.fbx",
+      "triangles": 252,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Goods_Biscuits",
+        "M_Goods_PaperInside"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.07000000029802322,
+        -0.029999999329447746,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.07000000029802322,
+        0.029999999329447746,
+        0.08000000566244125
+      ],
+      "product": "Biscuits_Milk",
+      "part": "Body"
+    },
+    {
+      "name": "SM_Goods_Biscuits_Milk_Tray",
+      "fbx": "SM_Goods_Biscuits_Milk_Tray.fbx",
+      "triangles": 276,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_TrayPET"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0012000000569969416
+      ],
+      "bounds_min_m": [
+        -0.06650000065565109,
+        -0.025380000472068787,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.06650000065565109,
+        0.025380000472068787,
+        0.014000000432133675
+      ],
+      "product": "Biscuits_Milk",
+      "part": "Tray"
+    },
+    {
+      "name": "SM_Goods_CandyBag_Fruit_Pack",
+      "fbx": "SM_Goods_CandyBag_Fruit_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CandyBag"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.045049998909235,
+        -0.012913543730974197,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.045049998909235,
+        0.013482115231454372,
+        0.12594999372959137
+      ],
+      "product": "CandyBag_Fruit",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_CandyBag_Mint_Pack",
+      "fbx": "SM_Goods_CandyBag_Mint_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CandyBag"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.045049998909235,
+        -0.012913543730974197,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.045049998909235,
+        0.013482115231454372,
+        0.12594999372959137
+      ],
+      "product": "CandyBag_Mint",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Bakery_Bread_Pack",
+      "fbx": "SM_Goods_Bakery_Bread_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Bakery"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.055649999529123306,
+        -0.016848478466272354,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.055649999529123306,
+        0.01748211495578289,
+        0.14094999432563782
+      ],
+      "product": "Bakery_Bread",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Bakery_Cake_Pack",
+      "fbx": "SM_Goods_Bakery_Cake_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Bakery"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.055649999529123306,
+        -0.016848478466272354,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.055649999529123306,
+        0.01748211495578289,
+        0.14094999432563782
+      ],
+      "product": "Bakery_Cake",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Spicy_Hot_Pack",
+      "fbx": "SM_Goods_Spicy_Hot_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Spicy"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.045049998909235,
+        -0.012913543730974197,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.045049998909235,
+        0.013482115231454372,
+        0.16095000505447388
+      ],
+      "product": "Spicy_Hot",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Spicy_Original_Pack",
+      "fbx": "SM_Goods_Spicy_Original_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Spicy"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.045049998909235,
+        -0.012913543730974197,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.045049998909235,
+        0.013482115231454372,
+        0.16095000505447388
+      ],
+      "product": "Spicy_Original",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Nuts_Seeds_Pack",
+      "fbx": "SM_Goods_Nuts_Seeds_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Nuts"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.04769999906420708,
+        -0.014348478056490421,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.04769999906420708,
+        0.014982115477323532,
+        0.14094999432563782
+      ],
+      "product": "Nuts_Seeds",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Nuts_Peanut_Pack",
+      "fbx": "SM_Goods_Nuts_Peanut_Pack.fbx",
+      "triangles": 380,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Nuts"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.04769999906420708,
+        -0.014348478056490421,
+        -0.0009500000160187483
+      ],
+      "bounds_max_m": [
+        0.04769999906420708,
+        0.014982115477323532,
+        0.14094999432563782
+      ],
+      "product": "Nuts_Peanut",
+      "part": "Pack"
+    },
+    {
+      "name": "SM_Goods_Jelly_Orange_Cup",
+      "fbx": "SM_Goods_Jelly_Orange_Cup.fbx",
+      "triangles": 236,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_JellyOrange"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03200000151991844,
+        -0.03200000151991844,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03200000151991844,
+        0.03200000151991844,
+        0.05400000140070915
+      ],
+      "product": "Jelly_Orange",
+      "part": "Cup"
+    },
+    {
+      "name": "SM_Goods_Jelly_Orange_Film",
+      "fbx": "SM_Goods_Jelly_Orange_Film.fbx",
+      "triangles": 116,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Jelly"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.05400000140070915
+      ],
+      "bounds_min_m": [
+        -0.03350000083446503,
+        -0.03350000083446503,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03350000083446503,
+        0.03350000083446503,
+        0.000999998301267624
+      ],
+      "product": "Jelly_Orange",
+      "part": "Film"
+    },
+    {
+      "name": "SM_Goods_Jelly_Strawberry_Cup",
+      "fbx": "SM_Goods_Jelly_Strawberry_Cup.fbx",
+      "triangles": 236,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_JellyStrawberry"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03200000151991844,
+        -0.03200000151991844,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03200000151991844,
+        0.03200000151991844,
+        0.05400000140070915
+      ],
+      "product": "Jelly_Strawberry",
+      "part": "Cup"
+    },
+    {
+      "name": "SM_Goods_Jelly_Strawberry_Film",
+      "fbx": "SM_Goods_Jelly_Strawberry_Film.fbx",
+      "triangles": 116,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Jelly"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.05400000140070915
+      ],
+      "bounds_min_m": [
+        -0.03350000083446503,
+        -0.03350000083446503,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03350000083446503,
+        0.03350000083446503,
+        0.000999998301267624
+      ],
+      "product": "Jelly_Strawberry",
+      "part": "Film"
+    },
+    {
+      "name": "SM_Goods_Jelly_Grape_Cup",
+      "fbx": "SM_Goods_Jelly_Grape_Cup.fbx",
+      "triangles": 236,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_JellyGrape"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03200000151991844,
+        -0.03200000151991844,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03200000151991844,
+        0.03200000151991844,
+        0.05400000140070915
+      ],
+      "product": "Jelly_Grape",
+      "part": "Cup"
+    },
+    {
+      "name": "SM_Goods_Jelly_Grape_Film",
+      "fbx": "SM_Goods_Jelly_Grape_Film.fbx",
+      "triangles": 116,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_Jelly"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.05400000140070915
+      ],
+      "bounds_min_m": [
+        -0.03350000083446503,
+        -0.03350000083446503,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03350000083446503,
+        0.03350000083446503,
+        0.000999998301267624
+      ],
+      "product": "Jelly_Grape",
+      "part": "Film"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Fruit_Jar",
+      "fbx": "SM_Goods_CandyJar_Fruit_Jar.fbx",
+      "triangles": 516,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CandyJar",
+        "M_Goods_JarGlass"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.04399999976158142,
+        -0.04399999976158142,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04399999976158142,
+        0.04399999976158142,
+        0.13899999856948853
+      ],
+      "product": "CandyJar_Fruit",
+      "part": "Jar"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Fruit_Lid",
+      "fbx": "SM_Goods_CandyJar_Fruit_Lid.fbx",
+      "triangles": 332,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CapRed"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.13699999451637268
+      ],
+      "bounds_min_m": [
+        -0.03931200131773949,
+        -0.03931200131773949,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03931200131773949,
+        0.03931200131773949,
+        0.017000004649162292
+      ],
+      "product": "CandyJar_Fruit",
+      "part": "Lid"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Fruit_Contents",
+      "fbx": "SM_Goods_CandyJar_Fruit_Contents.fbx",
+      "triangles": 600,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CandyRed",
+        "M_Goods_CandyGold",
+        "M_Goods_CandyPink",
+        "M_Goods_CandyPurple",
+        "M_Goods_CandyGreen"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.030450424179434776,
+        -0.030476421117782593,
+        0.020500000566244125
+      ],
+      "bounds_max_m": [
+        0.030450424179434776,
+        0.030476417392492294,
+        0.10599999874830246
+      ],
+      "product": "CandyJar_Fruit",
+      "part": "Contents"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Mint_Jar",
+      "fbx": "SM_Goods_CandyJar_Mint_Jar.fbx",
+      "triangles": 516,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CandyJar",
+        "M_Goods_JarGlass"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.04399999976158142,
+        -0.04399999976158142,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.04399999976158142,
+        0.04399999976158142,
+        0.13899999856948853
+      ],
+      "product": "CandyJar_Mint",
+      "part": "Jar"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Mint_Lid",
+      "fbx": "SM_Goods_CandyJar_Mint_Lid.fbx",
+      "triangles": 332,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_CapGold"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.13699999451637268
+      ],
+      "bounds_min_m": [
+        -0.03931200131773949,
+        -0.03931200131773949,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.03931200131773949,
+        0.03931200131773949,
+        0.017000004649162292
+      ],
+      "product": "CandyJar_Mint",
+      "part": "Lid"
+    },
+    {
+      "name": "SM_Goods_CandyJar_Mint_Contents",
+      "fbx": "SM_Goods_CandyJar_Mint_Contents.fbx",
+      "triangles": 1344,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Goods_PaperInside",
+        "M_Goods_CandyRed",
+        "M_Goods_CandyGold",
+        "M_Goods_CandyPink",
+        "M_Goods_CandyPurple",
+        "M_Goods_CandyGreen"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.03099999949336052,
+        -0.03039826825261116,
+        0.017000000923871994
+      ],
+      "bounds_max_m": [
+        0.03099999949336052,
+        0.03039826825261116,
+        0.11500000208616257
+      ],
+      "product": "CandyJar_Mint",
+      "part": "Contents"
+    }
+  ],
+  "assemblies": {
+    "BP_Goods_BoxIce_Vanilla": [
+      "SM_Goods_BoxIce_Vanilla_Body",
+      "SM_Goods_BoxIce_Vanilla_Lid"
+    ],
+    "BP_Goods_BoxIce_Strawberry": [
+      "SM_Goods_BoxIce_Strawberry_Body",
+      "SM_Goods_BoxIce_Strawberry_Lid"
+    ],
+    "BP_Goods_CupIce_Strawberry": [
+      "SM_Goods_CupIce_Strawberry_Body",
+      "SM_Goods_CupIce_Strawberry_Dome"
+    ],
+    "BP_Goods_CupIce_Vanilla": [
+      "SM_Goods_CupIce_Vanilla_Body",
+      "SM_Goods_CupIce_Vanilla_Dome"
+    ],
+    "BP_Goods_FamilyTub_Vanilla": [
+      "SM_Goods_FamilyTub_Vanilla_Body",
+      "SM_Goods_FamilyTub_Vanilla_Lid"
+    ],
+    "BP_Goods_FamilyTub_Strawberry": [
+      "SM_Goods_FamilyTub_Strawberry_Body",
+      "SM_Goods_FamilyTub_Strawberry_Lid"
+    ],
+    "BP_Goods_Biscuits_Butter": [
+      "SM_Goods_Biscuits_Butter_Body",
+      "SM_Goods_Biscuits_Butter_Tray"
+    ],
+    "BP_Goods_Biscuits_Milk": [
+      "SM_Goods_Biscuits_Milk_Body",
+      "SM_Goods_Biscuits_Milk_Tray"
+    ],
+    "BP_Goods_Jelly_Orange": [
+      "SM_Goods_Jelly_Orange_Cup",
+      "SM_Goods_Jelly_Orange_Film"
+    ],
+    "BP_Goods_Jelly_Strawberry": [
+      "SM_Goods_Jelly_Strawberry_Cup",
+      "SM_Goods_Jelly_Strawberry_Film"
+    ],
+    "BP_Goods_Jelly_Grape": [
+      "SM_Goods_Jelly_Grape_Cup",
+      "SM_Goods_Jelly_Grape_Film"
+    ],
+    "BP_Goods_CandyJar_Fruit": [
+      "SM_Goods_CandyJar_Fruit_Jar",
+      "SM_Goods_CandyJar_Fruit_Lid",
+      "SM_Goods_CandyJar_Fruit_Contents"
+    ],
+    "BP_Goods_CandyJar_Mint": [
+      "SM_Goods_CandyJar_Mint_Jar",
+      "SM_Goods_CandyJar_Mint_Lid",
+      "SM_Goods_CandyJar_Mint_Contents"
+    ]
+  },
+  "textures": {
+    "M_Goods_BoxIce": {
+      "base_color": "T_Ice_BoxIce_BaseColor.png",
+      "orm": "T_Ice_BoxIce_ORM.png"
+    },
+    "M_Goods_IcePop": {
+      "base_color": "T_Ice_IcePop_BaseColor.png",
+      "orm": "T_Ice_IcePop_ORM.png"
+    },
+    "M_Goods_ChocoBar": {
+      "base_color": "T_Ice_ChocoBar_BaseColor.png",
+      "orm": "T_Ice_ChocoBar_ORM.png"
+    },
+    "M_Goods_CupIce": {
+      "base_color": "T_Ice_CupIce_BaseColor.png",
+      "orm": "T_Ice_CupIce_ORM.png"
+    },
+    "M_Goods_Cone": {
+      "base_color": "T_Ice_Cone_BaseColor.png",
+      "orm": "T_Ice_Cone_ORM.png"
+    },
+    "M_Goods_FamilyTub": {
+      "base_color": "T_Ice_FamilyTub_BaseColor.png",
+      "orm": "T_Ice_FamilyTub_ORM.png"
+    },
+    "M_Goods_Chips": {
+      "base_color": "T_Goods_Chips_BaseColor.png",
+      "orm": "T_Goods_Chips_ORM.png"
+    },
+    "M_Goods_Biscuits": {
+      "base_color": "T_Goods_Biscuits_BaseColor.png",
+      "orm": "T_Goods_Biscuits_ORM.png"
+    },
+    "M_Goods_CandyBag": {
+      "base_color": "T_Goods_CandyBag_BaseColor.png",
+      "orm": "T_Goods_CandyBag_ORM.png"
+    },
+    "M_Goods_Bakery": {
+      "base_color": "T_Goods_Bakery_BaseColor.png",
+      "orm": "T_Goods_Bakery_ORM.png"
+    },
+    "M_Goods_Spicy": {
+      "base_color": "T_Goods_Spicy_BaseColor.png",
+      "orm": "T_Goods_Spicy_ORM.png"
+    },
+    "M_Goods_Nuts": {
+      "base_color": "T_Goods_Nuts_BaseColor.png",
+      "orm": "T_Goods_Nuts_ORM.png"
+    },
+    "M_Goods_Jelly": {
+      "base_color": "T_Goods_Jelly_BaseColor.png",
+      "orm": "T_Goods_Jelly_ORM.png"
+    },
+    "M_Goods_CandyJar": {
+      "base_color": "T_Goods_CandyJar_BaseColor.png",
+      "orm": "T_Goods_CandyJar_ORM.png"
+    },
+    "normal": "T_Goods_Pack_Normal.png"
+  },
+  "generic_materials": {
+    "M_Goods_PaperInside": {
+      "type": "solid",
+      "color": [
+        0.89,
+        0.86,
+        0.77
+      ],
+      "roughness": 0.76,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CreamVanilla": {
+      "type": "solid",
+      "color": [
+        0.95,
+        0.85,
+        0.64
+      ],
+      "roughness": 0.46,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CreamPink": {
+      "type": "solid",
+      "color": [
+        0.91,
+        0.51,
+        0.6
+      ],
+      "roughness": 0.46,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CreamChocolate": {
+      "type": "solid",
+      "color": [
+        0.34,
+        0.13,
+        0.055
+      ],
+      "roughness": 0.43,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CapRed": {
+      "type": "solid",
+      "color": [
+        0.72,
+        0.055,
+        0.035
+      ],
+      "roughness": 0.33,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CapGold": {
+      "type": "solid",
+      "color": [
+        0.84,
+        0.6,
+        0.13
+      ],
+      "roughness": 0.36,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyRed": {
+      "type": "solid",
+      "color": [
+        0.82,
+        0.075,
+        0.055
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyGold": {
+      "type": "solid",
+      "color": [
+        0.95,
+        0.69,
+        0.12
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyPink": {
+      "type": "solid",
+      "color": [
+        0.89,
+        0.35,
+        0.6
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyPurple": {
+      "type": "solid",
+      "color": [
+        0.42,
+        0.15,
+        0.57
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_CandyGreen": {
+      "type": "solid",
+      "color": [
+        0.15,
+        0.55,
+        0.23
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "color_space": "srgb"
+    },
+    "M_Goods_FoilSilver": {
+      "type": "solid",
+      "color": [
+        0.78,
+        0.8,
+        0.77
+      ],
+      "roughness": 0.32,
+      "metallic": 0.65,
+      "color_space": "srgb"
+    },
+    "M_Goods_ClearPET": {
+      "type": "translucent",
+      "color": [
+        0.96,
+        0.98,
+        1
+      ],
+      "roughness": 0.1,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.13,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JarGlass": {
+      "type": "translucent",
+      "color": [
+        0.94,
+        0.98,
+        1
+      ],
+      "roughness": 0.095,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.1,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_TrayPET": {
+      "type": "translucent",
+      "color": [
+        0.94,
+        0.97,
+        1
+      ],
+      "roughness": 0.2,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.22,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JellyOrange": {
+      "type": "translucent",
+      "color": [
+        0.96,
+        0.52,
+        0.045
+      ],
+      "roughness": 0.16,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.72,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JellyStrawberry": {
+      "type": "translucent",
+      "color": [
+        0.85,
+        0.16,
+        0.26
+      ],
+      "roughness": 0.16,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.72,
+      "ior": 1.035,
+      "two_sided": true
+    },
+    "M_Goods_JellyGrape": {
+      "type": "translucent",
+      "color": [
+        0.4,
+        0.12,
+        0.52
+      ],
+      "roughness": 0.16,
+      "metallic": 0,
+      "color_space": "srgb",
+      "opacity": 0.72,
+      "ior": 1.035,
+      "two_sided": true
+    }
+  },
+  "normal_convention": "OpenGL +Y",
+  "total_triangles": 17392,
+  "product_count": 30,
+  "family_count": 14,
+  "product_triangles": {
+    "BoxIce_Vanilla": 504,
+    "BoxIce_Strawberry": 504,
+    "IcePop_Milk": 380,
+    "IcePop_Orange": 380,
+    "ChocoBar_Chocolate": 380,
+    "ChocoBar_Vanilla": 380,
+    "CupIce_Strawberry": 1000,
+    "CupIce_Vanilla": 1000,
+    "Cone_Vanilla": 472,
+    "Cone_Chocolate": 472,
+    "Cone_Strawberry": 472,
+    "FamilyTub_Vanilla": 948,
+    "FamilyTub_Strawberry": 948,
+    "Chips_Original": 380,
+    "Chips_Cucumber": 380,
+    "Biscuits_Butter": 528,
+    "Biscuits_Milk": 528,
+    "CandyBag_Fruit": 380,
+    "CandyBag_Mint": 380,
+    "Bakery_Bread": 380,
+    "Bakery_Cake": 380,
+    "Spicy_Hot": 380,
+    "Spicy_Original": 380,
+    "Nuts_Seeds": 380,
+    "Nuts_Peanut": 380,
+    "Jelly_Orange": 352,
+    "Jelly_Strawberry": 352,
+    "Jelly_Grape": 352,
+    "CandyJar_Fruit": 1448,
+    "CandyJar_Mint": 2192
+  },
+  "sha256": {
+    "SM_Goods_Bakery_Bread_Pack.fbx": "324e0c8331149da5eef2c9d1a482053398d680f9ff9e9324be10437bcde8ad74",
+    "SM_Goods_Bakery_Cake_Pack.fbx": "0c013736cd3c0a0d5ed2f60c43993a2e4053b6549d32d3efddf54ec148d1a4cc",
+    "SM_Goods_Biscuits_Butter_Body.fbx": "3ad845e188b7f6bd65a2c93c416198040fdebf32da4575d8095e2a75b59fadda",
+    "SM_Goods_Biscuits_Butter_Tray.fbx": "cb790b8a0f9e3f342a696b7c0c279785371a76f3afc8e41851e08ab530099bbc",
+    "SM_Goods_Biscuits_Milk_Body.fbx": "694d7ba83241a5ca7b8db2cca4688d3e65cde8f223c8dd23ff3707c3a87f2d78",
+    "SM_Goods_Biscuits_Milk_Tray.fbx": "5a915bd81a69e3884c74859424e6489ca0f8acf84dc92319ee78a39a020e88af",
+    "SM_Goods_BoxIce_Strawberry_Body.fbx": "f7a25d16979624b190a14be23b0f6892c6a0ec377e4bad4402ace2289d33e3db",
+    "SM_Goods_BoxIce_Strawberry_Lid.fbx": "d3447356b83bd08e9b7774f85540ab69ff9f2cae1c46659b4bd9d776d9ddd34b",
+    "SM_Goods_BoxIce_Vanilla_Body.fbx": "4db1f9344f6d6f30a64c5bdefcf5ff229cd2e857c52ce202af09d99594b7ef7d",
+    "SM_Goods_BoxIce_Vanilla_Lid.fbx": "56758f826a4ace5c90192002a3761aaa77e1f0924e3f94adf6dfbd5237d51450",
+    "SM_Goods_CandyBag_Fruit_Pack.fbx": "3b08e6b79026fb016d455362a30f24851c1e26835656d287afd2ece01c78a7dc",
+    "SM_Goods_CandyBag_Mint_Pack.fbx": "c795db7037f164c46cb4d2f0521c19eebb0476c551657350befa446309af6592",
+    "SM_Goods_CandyJar_Fruit_Contents.fbx": "21e1aaa198823089ca43b51d49af1bc4451b0ea01aadc0586ab9965d499b9bea",
+    "SM_Goods_CandyJar_Fruit_Jar.fbx": "4b45fe28b0b91fb614451b91ef3e2dfceea215e12665ac6638c589c1b84eb6b5",
+    "SM_Goods_CandyJar_Fruit_Lid.fbx": "0bf8ddb0eb2684a5d654919b03dab028f272a9eab4d1558a6dc9b4b2bac467f4",
+    "SM_Goods_CandyJar_Mint_Contents.fbx": "99c4f80a6febf619819d825723dab0bfb5f7e77cd8a843629c0c63bfb726455e",
+    "SM_Goods_CandyJar_Mint_Jar.fbx": "922fe2da6df58f45bdd44918295e50ca0e85ce1404eafd33dc59e95fe82819be",
+    "SM_Goods_CandyJar_Mint_Lid.fbx": "ee8231566a6bd8a7e507693876162beb5699080d9a3c7b1017122246424a6b74",
+    "SM_Goods_Chips_Cucumber_Pack.fbx": "feb7c473d3f688f38fd1780ddaed21d348a40451f0502903db19ecd3b0a084fd",
+    "SM_Goods_Chips_Original_Pack.fbx": "1dec44f6a0daf776f246329d80ce1638872c6fca64ec988dea5a8aea66f6f3b8",
+    "SM_Goods_ChocoBar_Chocolate_Pack.fbx": "6e98d5aeb3ad7c7cea40ddd14bb86e2e3b78c7382f902f4e4f6e96d5c84a8a9e",
+    "SM_Goods_ChocoBar_Vanilla_Pack.fbx": "cf734605609f98ebaa524a95676a1fa43d631a18a168f9671ff518765b0124ac",
+    "SM_Goods_Cone_Chocolate_Pack.fbx": "5d0ecc6730104203ac64c4d03859b009f9c69f88f5f5428d824b55ca062ef063",
+    "SM_Goods_Cone_Strawberry_Pack.fbx": "5a108e6fde0baaf03f4d0c2bc71ea32d43f92991526805e75069d576f823ee7e",
+    "SM_Goods_Cone_Vanilla_Pack.fbx": "b6d3017dbf438940cd1dfba609c5f44118535f3a784a6c3ecfc2945efc5bde27",
+    "SM_Goods_CupIce_Strawberry_Body.fbx": "614a9c2c6d89ff3ec6fe42ac372c10dc2d746d94791d507fb1d5d2c3de887b3b",
+    "SM_Goods_CupIce_Strawberry_Dome.fbx": "6eaea7a3424b09b3fe638d35205c8900fc65e1cdd3f6a743cac927f867352fd7",
+    "SM_Goods_CupIce_Vanilla_Body.fbx": "6279a92988bc9f07d52c1473f47cbe502f03606f3fb6027e79edf3579fa9bad0",
+    "SM_Goods_CupIce_Vanilla_Dome.fbx": "17ef95802a2a6601bc65e6c6478271f47d0e74b06c9d1d185669e49e18c6a50e",
+    "SM_Goods_FamilyTub_Strawberry_Body.fbx": "b480fdde01ce51e3ee184507d190253eb3681a446138df9af5b5e15c34cfc8a0",
+    "SM_Goods_FamilyTub_Strawberry_Lid.fbx": "fadaf749d7cbc0928da823952c24bb1e66636c743e5a5020accedd3b85417692",
+    "SM_Goods_FamilyTub_Vanilla_Body.fbx": "651e170103c9c4bb3b479ab493371b4f023b65838f5adbd2b8f35d010da42f7a",
+    "SM_Goods_FamilyTub_Vanilla_Lid.fbx": "63c7c829dc40d517a7ec2b14489b9f550b618076284a403a968480acd9656074",
+    "SM_Goods_IcePop_Milk_Pack.fbx": "daa356f21eef6a4503d456cc266e56f560ef46c2072825babc19a34a79cd45de",
+    "SM_Goods_IcePop_Orange_Pack.fbx": "76b481fbbacb7d60581688bed7c1aa934102044b415a37fd940b30a1653230bf",
+    "SM_Goods_Jelly_Grape_Cup.fbx": "f5cf50779178e94b5b1202030e8530a0532a94b0c6a2ff64b43d42042b4fef41",
+    "SM_Goods_Jelly_Grape_Film.fbx": "ef3d753781a7e75c5bad082267a4ddbfbc9e4b49b3245194e8fb2edfd292f316",
+    "SM_Goods_Jelly_Orange_Cup.fbx": "3a577a459028dc9b175449316c5b20dd157ca0d294b3e6120c04d6756d9a0eff",
+    "SM_Goods_Jelly_Orange_Film.fbx": "f491b78c1049ef4344fc4b1d5124b72662fdf7a06ff3a1839a1904c077845a69",
+    "SM_Goods_Jelly_Strawberry_Cup.fbx": "71b55a17f38c22d1030bd0c0e6d7c2ac51ca5bb75a0b64f0620c82087f0ec836",
+    "SM_Goods_Jelly_Strawberry_Film.fbx": "45d11eb2b17b8884ac49c4b856640a129c194961b505a98e268c2c3a908815fc",
+    "SM_Goods_Nuts_Peanut_Pack.fbx": "024a9a086ffa473538117c364c9fe93c2f3197c808165f300e8157366883996d",
+    "SM_Goods_Nuts_Seeds_Pack.fbx": "63e7a4a0bb0ab0dadcab6b14491b5fbe0ad2e3a5121bb2e7feaf1fed8ded89d7",
+    "SM_Goods_Spicy_Hot_Pack.fbx": "b94289c62ea8565d920e923b2bfcfd39205d68f12f909e55d8481efaf374e589",
+    "SM_Goods_Spicy_Original_Pack.fbx": "de16c6d4e411d42d6ca3deccb4321cdbb8da45f7df7f00d043032ea626b1803d",
+    "T_Goods_Bakery_BaseColor.png": "075cc8e748748f4488b0dd67459bb36d473ade66ec6db5b9f8920bd90a8a1f09",
+    "T_Goods_Bakery_ORM.png": "e91590706b2613bfd71a00f92af8f7a6d4158e4605065d75e005b39a8e978e8d",
+    "T_Goods_Biscuits_BaseColor.png": "65ba0e54c67257242d26cbde2786b46fd35bf31e607f2db737afaeb6c9af11a6",
+    "T_Goods_Biscuits_ORM.png": "7b5527aeabca30b4837a395020daed7c5dd7f754d384e333efd896de989e8211",
+    "T_Goods_CandyBag_BaseColor.png": "9217731a12a0be5afba45bfd3a80569cfa56b670e633fa4d9af99ad391b3d75d",
+    "T_Goods_CandyBag_ORM.png": "8e742368d71b4091754a4c5253519fddf624a5f08b4099dfa6dda148e06500f5",
+    "T_Goods_CandyJar_BaseColor.png": "8524463772d8dd3fe8c6af96c9c6b525b674c905e214c3ffe9259a969b08546d",
+    "T_Goods_CandyJar_ORM.png": "6b3d7bde1832af3529574e242b537a6d70832c6800d49627f1b219a86a35ec01",
+    "T_Goods_Chips_BaseColor.png": "ea537184ef1c3263864dac0f4b09e5f1750eed02898f1003613a3b536428d45b",
+    "T_Goods_Chips_ORM.png": "7653db2a4ce8debbb496bbfa9ee6a2aadcfedf5645249fff621e90da7df1edc3",
+    "T_Goods_Jelly_BaseColor.png": "fa887ea995110d28f0eb62b99f1c9f21ccb98df5f0bef115b3512b72dd3fe466",
+    "T_Goods_Jelly_ORM.png": "d001897b8b71c38f4b09008dcb2b514e891c3c9268fd59c4ff8d5bde5a92da31",
+    "T_Goods_Nuts_BaseColor.png": "9f42aaa25e4dde92772c431b69119889790c1aa84ac10eb65b269170c95d8da1",
+    "T_Goods_Nuts_ORM.png": "32359f7d5b7e16f6fc5d452d5371dd2c8833e00b7dbe6b9b380d968373cd50b1",
+    "T_Goods_Pack_Normal.png": "3d653dbfb336505238e1d5fe208e08b12d70eaf037d40acb6f95a0349d188e6f",
+    "T_Goods_Spicy_BaseColor.png": "ebca42714c438a6b1cd5053d190daf83fd3b82c3c43a5efa42c12d04b2784458",
+    "T_Goods_Spicy_ORM.png": "716929c53f1224928b84934a235cb14e538a4b9c9c3822b8a587d1f185221eb8",
+    "T_Ice_BoxIce_BaseColor.png": "da96fa8e9154d7f2fb1a2b926c655eda5b3ff0e2796584c4f18ef7dbff35f288",
+    "T_Ice_BoxIce_ORM.png": "a49ae64ea3efb3412886f5dbd91e06a3e378c151ad0c4b2fc4b97bb7fa1c6de3",
+    "T_Ice_ChocoBar_BaseColor.png": "26833f3b748a646e2b7d60347652d50960266f0e232dfd8e14cd384c6f5b433a",
+    "T_Ice_ChocoBar_ORM.png": "1362a4c3427844475beeeb325233dd911369679faaa35f86610208843c456a2e",
+    "T_Ice_Cone_BaseColor.png": "e84a8120eb79ed3ccd2a43110adf5f4d5ac18e99d83c7abe4d733ae459baeb80",
+    "T_Ice_Cone_ORM.png": "0c29ce16410e0f574aef89f5d73f24b462b6b54fe1b0d6f69385c62d2d1b11f5",
+    "T_Ice_CupIce_BaseColor.png": "eb890bdf2a5a2c84539816eefa1f29dd2092f36a255666cc3642237ea4bed4ad",
+    "T_Ice_CupIce_ORM.png": "a49ae64ea3efb3412886f5dbd91e06a3e378c151ad0c4b2fc4b97bb7fa1c6de3",
+    "T_Ice_FamilyTub_BaseColor.png": "6fcd6c83442c9d89f346d18e4280b68f024237c7c2df7d6e1f7893d8347bbd42",
+    "T_Ice_FamilyTub_ORM.png": "ff1e6649149b1147a8ede9ac3cf62d6cdb8d6643b6c91103e437a6b910da7afa",
+    "T_Ice_IcePop_BaseColor.png": "0d807b32f5beb8b6a9570e87f4ea215ff32aaa2599abb373c4d6f540ea0aead1",
+    "T_Ice_IcePop_ORM.png": "3f00d64b535c2325fef0e20e967280e57637758f5cc4e071ec01bb9a18a26639"
+  }
+}

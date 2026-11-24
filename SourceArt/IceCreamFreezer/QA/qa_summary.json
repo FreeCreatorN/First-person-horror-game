@@ -1,0 +1,6 @@
+{
+  "source_sha256": "f48993258d0b22ee1228d2d8f0fc4ce15165125e8176ecb974fd9cca5fe6d42d",
+  "cross_part_outward_coplanar_pairs": 0,
+  "same_part_weld_joint_pairs": 356,
+  "note": "Wire basket junctions retain intentional same-material weld contacts"
+}

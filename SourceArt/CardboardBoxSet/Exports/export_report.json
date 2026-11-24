@@ -1,0 +1,434 @@
+{
+  "success": true,
+  "source_sha256": "57ebc069124caad9ee391b1cd0461c11e9bad6fb92dfc95085b91bf7467788d4",
+  "assets": [
+    {
+      "name": "SM_CardboardBox_A_Sealed",
+      "fbx": "SM_CardboardBox_A_Sealed.fbx",
+      "triangles": 296,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Standard"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_B_Body",
+      "fbx": "SM_CardboardBox_B_Body.fbx",
+      "triangles": 92,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Cardboard_Standard",
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapFront",
+      "fbx": "SM_CardboardBox_B_FlapFront.fbx",
+      "triangles": 44,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.1979999989271164,
+        0.30000001192092896
+      ],
+      "bounds_min_m": [
+        -0.29600000381469727,
+        -0.11565728485584259,
+        -0.000573575496673584
+      ],
+      "bounds_max_m": [
+        0.29600000381469727,
+        0.000941932201385498,
+        0.1644039750099182
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapBack",
+      "fbx": "SM_CardboardBox_B_FlapBack.fbx",
+      "triangles": 44,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.1979999989271164,
+        0.30000001192092896
+      ],
+      "bounds_min_m": [
+        -0.29600000381469727,
+        -0.0011481493711471558,
+        -0.0004226267337799072
+      ],
+      "bounds_max_m": [
+        0.29600000381469727,
+        0.08567182719707489,
+        0.18168416619300842
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapLeft",
+      "fbx": "SM_CardboardBox_B_FlapLeft.fbx",
+      "triangles": 44,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        -0.2980000078678131,
+        0.0,
+        0.30000001192092896
+      ],
+      "bounds_min_m": [
+        -0.23045614361763,
+        -0.19599999487400055,
+        -0.0008276700973510742
+      ],
+      "bounds_max_m": [
+        0.0006427764892578125,
+        0.19599999487400055,
+        0.19366398453712463
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_B_FlapRight",
+      "fbx": "SM_CardboardBox_B_FlapRight.fbx",
+      "triangles": 44,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.2980000078678131,
+        0.0,
+        0.30000001192092896
+      ],
+      "bounds_min_m": [
+        -0.0008276700973510742,
+        -0.19599999487400055,
+        -0.0006427764892578125
+      ],
+      "bounds_max_m": [
+        0.19366392493247986,
+        0.19599999487400055,
+        0.2304561734199524
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_C_Body",
+      "fbx": "SM_CardboardBox_C_Body.fbx",
+      "triangles": 388,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.3019999861717224
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_C_Lid",
+      "fbx": "SM_CardboardBox_C_Lid.fbx",
+      "triangles": 92,
+      "collision_hulls": 5,
+      "slots": [
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.27000001072883606
+      ],
+      "bounds_min_m": [
+        -0.30799999833106995,
+        -0.20800000429153442,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30799999833106995,
+        0.20800000429153442,
+        0.03599998354911804
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_D_Damaged",
+      "fbx": "SM_CardboardBox_D_Damaged.fbx",
+      "triangles": 296,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Damaged"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.3034150302410126,
+        -0.19999991357326508,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.3017942011356354,
+        0.20000000298023224,
+        0.2997520864009857
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_E_Stack",
+      "fbx": "SM_CardboardBox_E_Stack.fbx",
+      "triangles": 592,
+      "collision_hulls": 2,
+      "slots": [
+        "M_Cardboard_Standard"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.5600000023841858
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_F_Fruit",
+      "fbx": "SM_CardboardBox_F_Fruit.fbx",
+      "triangles": 432,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Fruit",
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_G_Water",
+      "fbx": "SM_CardboardBox_G_Water.fbx",
+      "triangles": 432,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Water",
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    {
+      "name": "SM_CardboardBox_H_Noodles",
+      "fbx": "SM_CardboardBox_H_Noodles.fbx",
+      "triangles": 432,
+      "collision_hulls": 1,
+      "slots": [
+        "M_Cardboard_Noodles",
+        "M_Cardboard_Edge"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min_m": [
+        -0.30000001192092896,
+        -0.20000000298023224,
+        0.0
+      ],
+      "bounds_max_m": [
+        0.30000001192092896,
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    }
+  ],
+  "textures": {
+    "Standard": {
+      "base_color": "T_Carton_Standard_BaseColor.png",
+      "orm": "T_Carton_Standard_ORM.png"
+    },
+    "Damaged": {
+      "base_color": "T_Carton_Damaged_BaseColor.png",
+      "orm": "T_Carton_Damaged_ORM.png"
+    },
+    "Fruit": {
+      "base_color": "T_Carton_Fruit_BaseColor.png",
+      "orm": "T_Carton_Fruit_ORM.png"
+    },
+    "Water": {
+      "base_color": "T_Carton_Water_BaseColor.png",
+      "orm": "T_Carton_Water_ORM.png"
+    },
+    "Noodles": {
+      "base_color": "T_Carton_Noodles_BaseColor.png",
+      "orm": "T_Carton_Noodles_ORM.png"
+    },
+    "Tape": {
+      "base_color": "T_Carton_Tape_BaseColor.png",
+      "orm": "T_Carton_Tape_ORM.png"
+    },
+    "Edge": {
+      "base_color": "T_Carton_Plain_BaseColor.png",
+      "orm": "T_Carton_Plain_ORM.png"
+    },
+    "normal": "T_Carton_Shared_Normal.png"
+  },
+  "variant_count": 8,
+  "variant_triangles": {
+    "A": 296,
+    "B": 268,
+    "C": 480,
+    "D": 296,
+    "E": 592,
+    "F": 432,
+    "G": 432,
+    "H": 432
+  },
+  "total_triangles": 3228,
+  "normal_convention": "OpenGL +Y",
+  "flaps": {
+    "Front": {
+      "pivot_m": [
+        0,
+        -0.198,
+        0.3
+      ],
+      "axis": "X",
+      "open_blender_degrees": 125
+    },
+    "Back": {
+      "pivot_m": [
+        0,
+        0.198,
+        0.3
+      ],
+      "axis": "X",
+      "open_blender_degrees": -115
+    },
+    "Left": {
+      "pivot_m": [
+        -0.298,
+        0,
+        0.3
+      ],
+      "axis": "Y",
+      "open_blender_degrees": -140
+    },
+    "Right": {
+      "pivot_m": [
+        0.298,
+        0,
+        0.3
+      ],
+      "axis": "Y",
+      "open_blender_degrees": 130
+    }
+  },
+  "sha256": {
+    "SM_CardboardBox_A_Sealed.fbx": "4ba3da31b88891784b1ba9b3e21ef37eb25ebc8ab801f52a9160db4f1c79ef04",
+    "SM_CardboardBox_B_Body.fbx": "be471d65a53ddbe96fc930149c87ddc8697b56a2eefbf989d5127bc187d2d6c0",
+    "SM_CardboardBox_B_FlapBack.fbx": "ee96c84947ed583ff3158a813295a75d4fd29a75ca29b1bbf0213d37b88afca2",
+    "SM_CardboardBox_B_FlapFront.fbx": "281e3be3f91bef7152d749ca83fb2069630c30f4ac8fa36ba8fa91d7d463af10",
+    "SM_CardboardBox_B_FlapLeft.fbx": "2f2fcfea967609ea298e740edcf3b975457006edd4562fb3416a83a92e794f3a",
+    "SM_CardboardBox_B_FlapRight.fbx": "eae0ee06d1d9b8ab6aeef5469b3a9f379f43e8cce898fa6193f2c95652712f8c",
+    "SM_CardboardBox_C_Body.fbx": "1e4e11b091aeb7367e12e1c3e256ca20e76dc5b89e9dc46cec2e040a09d9c65d",
+    "SM_CardboardBox_C_Lid.fbx": "03cc7ea111873ca6611873923a592b350673234f4da9ea2a91538c5ba833ddaf",
+    "SM_CardboardBox_D_Damaged.fbx": "1f5df9539a3c7c76eff872f2e796329b00bab2aaebb1c57f43d09091aebd4771",
+    "SM_CardboardBox_E_Stack.fbx": "f2ebeb08ffcb91c9a9188cdf7f5d082f487dbb086008ff1c0b5528ea9f9b85d9",
+    "SM_CardboardBox_F_Fruit.fbx": "22328832d5ce9ec82ac116a655f718b1cb364699477b8ebcacb08416130ef53e",
+    "SM_CardboardBox_G_Water.fbx": "ccf91b8f20fe5426abdb60f4aa91f5f1c2366980ffb166b092e4b7f473a4af15",
+    "SM_CardboardBox_H_Noodles.fbx": "f413de21802739178de3051e18b0889226626b4e01dbe0859df402d42214f8a0",
+    "T_Carton_Damaged_BaseColor.png": "d67abae6230538d780d419f33b35bc7cd72f861946838102d706dc597abf52f9",
+    "T_Carton_Damaged_ORM.png": "8726dbd17e6f45c4a9dad52aaa55e64040f141c1a2fe0216b54215a98aeb38db",
+    "T_Carton_Fruit_BaseColor.png": "eb1bd61d32a1344f1e32d8089e9cd74ac3c7dd9e0f6acdffe5c768552c64d0ab",
+    "T_Carton_Fruit_ORM.png": "b7d90d64ebdbb40ae0682a818edab7f99c32fe357ea6be29de96d68c99c8fa0f",
+    "T_Carton_Noodles_BaseColor.png": "825a557510bce00a64e25d8a095b6e9f11dd78415090bb53d3b0d80a9b9ddc61",
+    "T_Carton_Noodles_ORM.png": "57bbcd66e0d751009fce9f3c9413ab647c3ce57025db38fb6c8fd8ee43de6e28",
+    "T_Carton_Plain_BaseColor.png": "7fe513bb4371de16e9261e1fdb5c7f8e8df9581eff2e53e3dcd1aa8cfeb87ab5",
+    "T_Carton_Plain_ORM.png": "d3df871d27212a606aa7ce5749f10006fa6429d05fdd588d9341c509e0757552",
+    "T_Carton_Shared_Normal.png": "60d488b4af20fcfbc980a4a6f0d494d8f615b6e070a21247df89926283a35abe",
+    "T_Carton_Standard_BaseColor.png": "91afab7804627709ed330c841e9bdb64435bdde5869b48bc77882e4afe1c4203",
+    "T_Carton_Standard_ORM.png": "e6aa81abd8a4ddf042701a88dccc4decbec9952e8db445ab53e8f0cf4ad81ec8",
+    "T_Carton_Tape_BaseColor.png": "e3d0b82a15584ad604e1333b73a8e80bfed768e5109aac47a9ff83c768464d90",
+    "T_Carton_Tape_ORM.png": "3a876c8b10aea700f8204ca00753f0664b8fb54e7e73c45f5bead4cb049f17a7",
+    "T_Carton_Water_BaseColor.png": "d8d96a4980633ab664da9f0a6e46c518d789847de56ee6eae2921e042a6b7d89",
+    "T_Carton_Water_ORM.png": "05ee71f00a28b1c013bf72bcd4dcfc8762bc42b525aeb61427a2eb892af3968e"
+  }
+}

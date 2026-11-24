@@ -1,0 +1,54 @@
+{
+  "dimensions_m": [
+    2.431,
+    0.539,
+    1.599
+  ],
+  "uprights": 8,
+  "bay_count": 3,
+  "levels": 4,
+  "shelf_top_z_m": [
+    0.492,
+    0.852,
+    1.212,
+    1.572
+  ],
+  "post_centers_x_m": [
+    -1.1880000000000002,
+    -0.396,
+    0.396,
+    1.1880000000000002
+  ],
+  "post_width_m": 0.048,
+  "shelf_trays": 12,
+  "through_slots": 672,
+  "asset_mesh_objects": 164,
+  "materials": {
+    "painted": "M_Rack_WarmGrayPowderCoat",
+    "inner": "M_Rack_ShadowedInteriorMetal",
+    "zinc": "M_Rack_WeatheredZincFasteners",
+    "rubber": "M_Rack_CharcoalRubberFeet"
+  },
+  "studio_objects": 6,
+  "evaluated_triangles": 185840,
+  "sealed_asset_components": 164,
+  "validated_cutouts": 672,
+  "evaluated_dimensions_m": [
+    2.431,
+    0.539,
+    1.599
+  ],
+  "opening_width_m": 0.744,
+  "floor_clearance_main_m": 0.4572,
+  "floor_clearance_at_brackets_m": 0.4191,
+  "shelf_clearance_main_m": [
+    0.3252,
+    0.3252,
+    0.3252
+  ],
+  "shelf_clearance_at_brackets_m": [
+    0.2871,
+    0.2871,
+    0.2871
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "model": "BeverageDisplayFridge",
+  "authoring_connection": "Blender MCP",
+  "source": "BeverageDisplayFridge.blend",
+  "source_sha256": "2a6c32f8a0fab9ac84d3786430c1172b1457a22f6784af862ce644ed50d9ebf7",
+  "ue_directory": "/Game/Yastars/Mesh/BeverageDisplayFridge",
+  "blueprint": "BP_BeverageDisplayFridge",
+  "planning_categories": 9,
+  "static_meshes": 16,
+  "triangles": 5352,
+  "collision_hulls": 27,
+  "saved_packages": 22,
+  "texture_resolution": 4096,
+  "cabinet_empty": true,
+  "door": {
+    "hinge_component": "DoorHinge",
+    "children": ["GlassDoor", "DoorFrame", "DoorHandle"],
+    "closed_yaw": 0,
+    "open_yaw": -105,
+    "interaction_events_installed": false
+  },
+  "lightbox": {
+    "material": "M_BeverageDisplayFridge_Sign",
+    "parameter": "SignEmissionStrength",
+    "default": 0.2,
+    "light_components": 0
+  },
+  "verification": "UE/final_verification.json",
+  "import_evidence": "UE/ue_import_report.json",
+  "latest_update_evidence": "UE/ue_update_report.json",
+  "geometry_evidence": "QA/coplanar_audit.json",
+  "outward_coplanar_pairs": 0,
+  "front_preview": "BeverageDisplayFridge_Front.png",
+  "open_preview": "BeverageDisplayFridge_Open.png",
+  "cli_preview": ".cli-anything/previews/blender/quick/20261118T150721Z_c6546ec3_quick/manifest.json",
+  "verified_in_running_editor": true,
+  "verified_in_fresh_editor": false
+}
